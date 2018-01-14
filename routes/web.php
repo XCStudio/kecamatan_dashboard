@@ -45,7 +45,35 @@ Route::namespace('Profil')->group(function () {
     Route::get('/profil/visi-misi', 'ProfilController@showVisiMisi')->name('profil.visi-misi');
     Route::get('/profil/regulasi', 'ProfilController@showRegulasi')->name('profil.regulasi');
 });
+Route::group(['middleware' => 'sentinel_access:admin'], function() {
+    // User Management
+    Route::group( ['prefix' => 'user'], function () {
+        Route::get( 'getData', [ 'as' => 'user.getdata', 'uses' => 'User\UserController@getData' ] );
+        Route::get( '/' , [ 'as' => 'user.index', 'uses' => 'User\UserController@index' ]);
+        Route::get( 'create' , [ 'as' => 'user.create', 'uses' => 'User\UserController@create' ]);
+        Route::post( 'store' , [ 'as' => 'user.store', 'uses' => 'User\UserController@store' ]);
+        Route::get( 'edit/{id}' , [ 'as' => 'user.edit', 'uses' => 'User\UserController@edit' ]);
+        Route::put( 'update/{id}' , [ 'as' => 'user.update', 'uses' => 'User\UserController@update' ]);
+        Route::put( 'updatePassword/{id}' , [ 'as' => 'user.updatePassword', 'uses' => 'User\UserController@updatePassword' ]);
+        Route::put( 'password/{id}' , [ 'as' => 'user.password', 'uses' => 'User\UserController@password' ]);
+        Route::delete( 'destroy/{id}' , [ 'as' => 'user.destroy', 'uses' => 'User\UserController@destroy' ]);
+        Route::post( 'active/{id}' , [ 'as' => 'user.active', 'uses' => 'User\UserController@active' ]);
+        Route::get( 'photo-profil/{id}' , [ 'as' => 'user.photo', 'uses' => 'User\UserController@photo' ]);
+        Route::put( 'update-photo/{id}' , [ 'as' => 'user.uphoto', 'uses' => 'User\UserController@updatePhoto' ]);
+    });
 
-Auth::routes();
+    // Role Management
+    Route::group( ['prefix' => 'role'], function()  {
+        Route::get( 'getData', [ 'as' => 'role.getdata', 'uses' => 'Role\RoleController@getData' ] );
+        Route::get( '/' , [ 'as' => 'role.index', 'uses' => 'Role\RoleController@index' ]);
+        Route::get( 'create' , [ 'as' => 'role.create', 'uses' => 'Role\RoleController@create' ]);
+        Route::post( 'store' , [ 'as' => 'role.store', 'uses' => 'Role\RoleController@store' ]);
+        Route::get( 'edit/{id}' , [ 'as' => 'role.edit', 'uses' => 'Role\RoleController@edit' ]);
+        Route::put( 'update/{id}' , [ 'as' => 'role.update', 'uses' => 'Role\RoleController@update' ]);
+        Route::delete( 'destroy/{id}' , [ 'as' => 'role.destroy', 'uses' => 'Role\RoleController@destroy' ]);
+    });
+});
+
+// Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
