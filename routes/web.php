@@ -13,6 +13,10 @@
 /**
  * Group Routing for Dashboard
  */
+
+Route::get('login', [ 'as' => 'login', 'uses' => 'Auth\AuthController@index' ]);
+Route::post('login', [ 'as' => 'login.store', 'uses' => 'Auth\AuthController@store' ]);
+
 Route::namespace('Dashboard')->group(function () {
     Route::get('/', 'DashboardController@showProfile')->name('dashboard.profile');
     Route::get('/dashboard', 'DashboardController@showProfile')->name('dashboard.profile');
@@ -46,6 +50,7 @@ Route::namespace('Profil')->group(function () {
     Route::get('/profil/regulasi', 'ProfilController@showRegulasi')->name('profil.regulasi');
 });
 Route::group(['middleware' => 'sentinel_access:admin'], function() {
+    Route::get( 'logout', [ 'as' => 'logout', 'uses' => 'Auth\AuthController@logout'] );
     // User Management
     Route::group( ['prefix' => 'user'], function () {
         Route::get( 'getData', [ 'as' => 'user.getdata', 'uses' => 'User\UserController@getData' ] );
