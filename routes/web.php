@@ -14,8 +14,10 @@
  * Group Routing for Dashboard
  */
 
-Route::get('login', [ 'as' => 'login', 'uses' => 'Auth\AuthController@index' ]);
-Route::post('login', [ 'as' => 'login.store', 'uses' => 'Auth\AuthController@store' ]);
+Route::namespace('Auth')->group(function () {
+Route::get('login', [ 'as' => 'login', 'uses' => 'AuthController@index' ]);
+Route::post('login', [ 'as' => 'login.store', 'uses' => 'AuthController@store' ]);
+});
 
 Route::namespace('Dashboard')->group(function () {
     Route::get('/', 'DashboardController@showProfile')->name('dashboard.profile');
