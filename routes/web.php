@@ -42,7 +42,7 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
 
     // Role Management
     Route::group(['prefix' => 'role'], function () {
-        Route::get('getData', ['as' => 'role.getdata', 'uses' => 'Role\RoleController@getData']);
+        Route::get('getdata', ['as' => 'role.getdata', 'uses' => 'Role\RoleController@getData']);
         Route::get('/', ['as' => 'role.index', 'uses' => 'Role\RoleController@index']);
         Route::get('create', ['as' => 'role.create', 'uses' => 'Role\RoleController@create']);
         Route::post('store', ['as' => 'role.store', 'uses' => 'Role\RoleController@store']);
@@ -103,6 +103,15 @@ Route::namespace('Profil')->group(function () {
 
 Route::namespace('Data')->group(function (){
     Route::group(['prefix' => 'data'], function () {
-        Route::resource('profil','ProfilController');
+        Route::group(['prefix' => 'profil'], function () {
+            Route::get('getdata', ['as' => 'data.profil.getdata', 'uses' => 'ProfilController@getDataProfil']);
+            Route::get('/', ['as' => 'data.profil.index', 'uses' => 'ProfilController@index']);
+            Route::get('create', ['as' => 'data.profil.create', 'uses' => 'ProfilController@create']);
+            Route::post('store', ['as' => 'data.profil.store', 'uses' => 'ProfilController@store']);
+            Route::get('edit/{id}', ['as' => 'data.profil.edit', 'uses' => 'ProfilController@edit']);
+            Route::put('update/{id}', ['as' => 'data.profil.update', 'uses' => 'ProfilController@update']);
+            Route::delete('destroy/{id}', ['as' => 'data.profil.destroy', 'uses' => 'ProfilController@destroy']);
+        });
+
     });
 });

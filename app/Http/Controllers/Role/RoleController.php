@@ -7,12 +7,10 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\RoleRequest;
 use App\Http\Controllers\Controller;
-
+use Yajra\DataTables\DataTables;
 use App\Models\Role;
-use App\Models\RoleUser;
 use App\Models\Menu;
 
-use Datatables;
 class RoleController extends Controller
 {
     /**
@@ -166,7 +164,7 @@ class RoleController extends Controller
      */
     public function getData()
     {
-        return Datatables::of(Role::datatables())
+        return DataTables::of(Role::all())
         ->addColumn( 'action', function ( $role ) {
             $edit_url = route('role.edit', $role->id );
             $delete_url = route('role.destroy', $role->id);

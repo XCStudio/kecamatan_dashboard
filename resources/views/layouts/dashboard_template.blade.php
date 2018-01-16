@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>{{ config('app.name', 'Laravel')}} | @yield('title')</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- CSRF Token -->
@@ -36,6 +36,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Google Font -->
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+  @stack('css')
 </head>
 <!--
 BODY TAG OPTIONS:
@@ -105,6 +107,8 @@ desired effect
 <script src="{{ asset ("/bower_components/bootstrap/dist/js/bootstrap.min.js") }}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset ("/bower_components/admin-lte/dist/js/adminlte.min.js") }}"></script>
+
+@stack('scripts')
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

@@ -1,5 +1,7 @@
 @extends('layouts.dashboard_template')
 
+@section('title') Profil @endsection
+
 @section('content')
     <div class="box">
         <div class="box-header with-border">

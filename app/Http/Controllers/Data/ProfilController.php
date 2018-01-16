@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Data;
 
+use App\Models\Profil;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Yajra\DataTables\DataTables;
 
 class ProfilController extends Controller
 {
@@ -16,6 +18,22 @@ class ProfilController extends Controller
     {
         $title = [ 'title' => 'Data Profil' ];
         return view('Data.Profil.index', compact('title'));
+    }
+
+
+    public function getDataProfil()
+    {
+        return DataTables::of(Profil::all())
+            ->addColumn( 'action', function ( $role ) {
+                $edit_url = route('data.profil.edit', $role->id );
+                $delete_url = route('data.profil.destroy', $role->id);
+
+                $data['edit_url']   = $edit_url;
+                $data['delete_url'] = $delete_url;
+
+                return view('forms.action', $data);
+            })
+            ->make();
     }
 
     /**
