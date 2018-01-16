@@ -20,7 +20,7 @@
 		<h3 class="box-title">Roles</h3>
 	</div>
 	<div class="box-body">
-		{!! Form::model($role, ['route'=>['role.update', $role->id], 'method' => 'put', 'autocomplete'=>'off', 'id'=>'form-role']) !!}
+		{!! Form::model($role, ['route'=>['setting.role.update', $role->id], 'method' => 'put', 'autocomplete'=>'off', 'id'=>'form-role']) !!}
 			@include('role.form')
 		{!! Form::close() !!}
 	</div>

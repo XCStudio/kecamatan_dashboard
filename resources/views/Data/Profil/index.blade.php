@@ -7,7 +7,7 @@
         <div class="box-header with-border">
             <h3 class="box-title">Roles</h3>
 
-            <div class="pull-right"><a href="{{ route('role.create') }}">
+            <div class="pull-right"><a href="{{ route('register') }}">
                     <div class="pull-right">
                         <button type="button" class="btn btn-primary btn-sm">Create New Role</button>
                     </div>

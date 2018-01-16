@@ -1,19 +1,17 @@
 <?php
 
-namespace App\Http\Controllers\Backend;
-
-use Illuminate\Http\Request;
+namespace App\Http\Controllers\User;
 
 use App\Http\Requests;
-use App\Http\Requests\Backend\UserRequest;
-use App\Http\Requests\Backend\UserUpdateRequest;
-use App\Http\Requests\Backend\UserUpdatePasswordRequest;
+use App\Http\Requests\UserRequest;
+use App\Http\Requests\UserUpdateRequest;
+use App\Http\Requests\UserUpdatePasswordRequest;
 use App\Http\Controllers\Controller;
 
 use App\Models\User;
 use App\Models\Role;
 
-use Datatables;
+use Yajra\DataTables\DataTables;
 use Sentinel;
 use Image;
 use File;
@@ -28,7 +26,7 @@ class UserController extends Controller
     public function index()
     {
         $title = [ 'title' => 'Staff' ];
-        return view( 'backend.user.index', compact('title') );
+        return view( 'user.index', compact('title') );
     }
 
     /**
@@ -39,7 +37,7 @@ class UserController extends Controller
     public function create()
     {
         $item = Role::where('slug','!=','super-admin')->pluck('name', 'slug')->toArray();
-        return view( 'backend.user.create', compact('item', $item) );
+        return view( 'user.create', compact('item', $item) );
     }
 
     /**
@@ -61,7 +59,7 @@ class UserController extends Controller
             Sentinel::findRoleBySlug( $request->role )->users()->attach( $user );
            
             flash()->success( trans('message.user.create-success') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
 
         } catch (Exception $e) {
             flash()->error( trans('message.user.create-error') );
@@ -78,7 +76,7 @@ class UserController extends Controller
     public function show($id)
     {
         $user = User::find($id);
-        return view( 'backend.user.show', compact('user') );
+        return view( 'user.show', compact('user') );
     }
 
     /**
@@ -92,7 +90,7 @@ class UserController extends Controller
         $user = User::find($id);
         $title = [ 'title' => 'Staff' ];
         $item = Role::where('slug','!=','super-admin')->pluck('name', 'slug')->toArray();
-        return view( 'backend.user.edit', compact('user','title','item', $item));
+        return view( 'user.edit', compact('user','title','item', $item));
     }
 
     /**
@@ -119,7 +117,7 @@ class UserController extends Controller
             }
             
             flash()->success( trans('message.user.update-success') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
         } catch (Exception $e) {
             flash()->error( trans('message.user.update-error') );
             return back()->withInput();
@@ -144,7 +142,7 @@ class UserController extends Controller
             ] );
             
             flash()->success( trans('message.user.update-success') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
         } catch (Exception $e) {
             flash()->error( trans('message.user.update-error') );
             return back()->withInput();
@@ -165,11 +163,11 @@ class UserController extends Controller
             $user->save();
             
             flash()->success( trans('general.suspend-success') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
 
         } catch (Exception $e) {
             flash()->success( trans('general.suspend-error') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
         }
     }
 
@@ -187,18 +185,18 @@ class UserController extends Controller
             $user->save();
             
             flash()->success( trans('general.active-success') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
 
         } catch (Exception $e) {
             flash()->success( trans('general.active-error') );
-            return redirect()->route( 'admin.user.index' );
+            return redirect()->route( 'setting.user.index' );
         }
     }
 
     /**
      * Gets the data.
      */
-    public function getData()
+    public function getDataUser()
     {
         return Datatables::of(User::datatables())
         ->editColumn( 'status', function( $user ) {
@@ -206,22 +204,22 @@ class UserController extends Controller
         })
         ->addColumn( 'action', function ( $user ) {
             if ($user->id  != 1) {
-                $edit_url = route('admin.user.edit', $user->id );
+                $edit_url = route('setting.user.edit', $user->id );
                 if ($user->status == 1) {
-                    $suspend_url = route('admin.user.destroy', $user->id);
+                    $suspend_url = route('setting.user.destroy', $user->id);
                     $data['suspend_url'] = $suspend_url;
                 } else {
-                    $active_url = route('admin.user.active', $user->id);
+                    $active_url = route('setting.user.active', $user->id);
                     $data['active_url'] = $active_url;
                 }
 
                 $data['edit_url']   = $edit_url;
             }else{
-                $edit_url = route('admin.user.edit', $user->id );
+                $edit_url = route('setting.user.edit', $user->id );
                 $data['edit_url']   = $edit_url;
             }
             
-            return view('backend.forms.action', $data);
+            return view('forms.action', $data);
         })
         ->make(true);
     }

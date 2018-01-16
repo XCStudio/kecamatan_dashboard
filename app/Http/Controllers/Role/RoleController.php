@@ -58,7 +58,7 @@ class RoleController extends Controller
                 'detail' => '#' . $role->id . ' | ' . $role->slug
                 ] ) );
 
-            return redirect()->route( 'role.index' );
+            return redirect()->route( 'setting.role.index' );
         } catch (Exception $e) {
             flash()->error( trans( 'general.destroy-error', [
                 'attribute' => trans( 'island.role' ),
@@ -118,7 +118,7 @@ class RoleController extends Controller
         } else{
            Role::find($id)->update(['name' => $request->name,'permissions' => []]);
        }
-       return redirect()->route( 'role.index' );
+       return redirect()->route( 'setting.role.index' );
    } catch (Exception $e) {
         flash()->error( trans( 'message.role.update-error', [
         'attribute' => trans( 'island.role' ),
@@ -147,7 +147,7 @@ class RoleController extends Controller
                 $role = Role::findOrFail($id);
                 $role->delete();
                 flash()->success( trans( 'general.destroy-success' ) );
-                return redirect()->route( 'role.index' );
+                return redirect()->route( 'setting.role.index' );
             }
         } catch (Exception $e) {
             flash()->error( trans( 'general.destroy-error', [
@@ -166,8 +166,8 @@ class RoleController extends Controller
     {
         return DataTables::of(Role::all())
         ->addColumn( 'action', function ( $role ) {
-            $edit_url = route('role.edit', $role->id );
-            $delete_url = route('role.destroy', $role->id);
+            $edit_url = route('setting.role.edit', $role->id );
+            $delete_url = route('setting.role.destroy', $role->id);
 
             $data['edit_url']   = $edit_url;
             $data['delete_url'] = $delete_url;

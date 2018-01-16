@@ -61,12 +61,24 @@ use Illuminate\Support\Facades\URL;
               </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li {{ (Request::is(['data/profil'])? 'class=active' : '') }}><a href="{{ URL::to('data/profil') }}"><i class="fa fa-circle-o"></i>Profil</a></li>
+                    <li {{ (Request::is(['data/profil'])? 'class=active' : '') }}><a href="{{ route('data.profil.index') }}"><i class="fa fa-circle-o"></i>Profil</a></li>
                     <li {{ (Request::is(['data/data-umum'])? 'class=active' : '') }}><a href="{{ URL::to('data/data-umum') }}"><i class="fa fa-circle-o"></i>Data Umum</a></li>
                     <li {{ (Request::is(['data/kependudukan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kependudukan') }}"><i class="fa fa-circle-o"></i>Kependudukan</a></li>
                     <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
                     <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>
                     <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a></li>
+                </ul>
+            </li>
+            <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}">
+                <a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
+                    <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a href="{{ route('setting.user.index') }}"><i class="fa fa-circle-o"></i>User</a></li>
+
                 </ul>
             </li>
         </ul>

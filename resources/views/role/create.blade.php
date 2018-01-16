@@ -20,7 +20,8 @@
 		<h3 class="box-title">Roles</h3>
 	</div>
 	<div class="box-body">
-		{!! Form::open( [ 'route' => 'role.store', 'method' => 'post', 'files' => true, 'id' => 'form-role', 'role' => 'form'] ) !!}
+		{!! Form::open( [ 'route' => 'setting.role.store', 'method' => 'post', 'files' => true, 'id' => 'form-role', 'role' => 'form'] ) !!}
+			@include( 'flash::message' )
 			@include('role.form')
 		{!! Form::close() !!}
 	</div>
