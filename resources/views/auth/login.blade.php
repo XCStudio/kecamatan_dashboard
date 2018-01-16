@@ -9,50 +9,45 @@
         <div class="login-box-body">
             <p class="login-box-msg">Sign in to start your session</p>
 
-            <form method="POST" action="{{ route('login') }}">
-                {{ csrf_field() }}
-                <div class="form-group has-feedback">
-                    <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required
-                           autofocus placeholder="Email">
-                    @if ($errors->has('email'))
-                        <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                    @endif
-                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-                </div>
-                <div class="form-group has-feedback {{ $errors->has('password') ? ' has-error' : '' }}">
-                    <input id="password" type="password" class="form-control" name="password" required
-                           placeholder="Password">
-                    @if ($errors->has('password'))
-                        <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                    @endif
-                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                </div>
-                <div class="row">
-                    <div class="col-xs-8">
-                        <div class="checkbox icheck">
-                            <label>
-                                <input class="iCheck" type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember
-                                Me
-                            </label>
-                        </div>
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-xs-4">
-                        <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
-                    </div>
-                    <!-- /.col -->
-                </div>
-            </form>
+            {{ Form::open(array('class' => 'form-horizontal', 'autocomplete' => 'off')) }}
 
-            <a class="btn btn-link" href="{{ route('password.request') }}">Forgot Your Password?</a><br>
-            <a href="{{ route('register') }}" class="text-center">Register a new membership</a>
+            <div class="form-group{{ $errors->has('email') ? ' has-error' : null }}">
+                <label for="email" class="col-sm-4 control-label">Email</label>
+                <div class="col-sm-8">
+                    {{ Form::email('email', null, array('class' => 'form-control')) }}
+                    <p class="help-block">{{ $errors->first('email') }}</p>
+                </div>
+            </div>
 
-        </div>
-        <!-- /.login-box-body -->
+            <div class="form-group{{ $errors->has('password') ? ' has-error' : null }}">
+                <label for="password" class="col-sm-4 control-label">Password</label>
+                <div class="col-sm-8">
+                    {{ Form::password('password', array('class' => 'form-control')) }}
+                    <p class="help-block">{{ $errors->first('password') }}</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-8 col-sm-push-4">
+                    <label>
+                        {{ Form::checkbox('remember') }}
+                        Remember me
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-8 col-sm-push-4">
+                    {{ Form::submit('Login', array('class' => 'btn btn-primary')) }}
+                    {{ Form::reset('Reset', array('class' => 'btn btn-default')) }}
+                    <a href="{{ URL::to('reset') }}">Forgot password?</a>
+                </div>
+            </div>
+
+            {{ Form::close() }}
+
+
+                    <!-- /.login-box-body -->
     </div>
     <!-- /.login-box -->
 @endsection

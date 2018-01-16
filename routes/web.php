@@ -10,13 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// Disable checkpoints (throttling, activation) for demo purposes
+Sentinel::disableCheckpoints();
+
 /**
  * Group Routing for Dashboard
  */
 
 Route::namespace('Auth')->group(function () {
-Route::get('login', [ 'as' => 'login', 'uses' => 'AuthController@index' ]);
-Route::post('login', [ 'as' => 'login.store', 'uses' => 'AuthController@store' ]);
+    Route::get('login', 'AuthController@login');
+    Route::post('login', 'AuthController@processLogin');
+    Route::get('register', 'AuthController@register')->name('register');
+    Route::post('register', 'AuthController@processRegistration');
 });
 
 Route::namespace('Dashboard')->group(function () {
