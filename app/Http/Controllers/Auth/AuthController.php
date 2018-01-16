@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Sentinel;
-use Activation;
+
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Mail;
+
 
 class AuthController extends Controller
 {
@@ -25,26 +23,29 @@ class AuthController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function processLogin(Request $request)
+
+    public function loginProcess(Request $request)
     {
         try {
-            $remember =  (bool) $request->input( 'remember' );
+            $remember = (bool)$request->input('remember_me');
+            if (!Sentinel::authenticate($request->all(), $remember)) {
+                flash()->error('Wrong email or password!');
 
-            if ( ! Sentinel::forceAuthenticate( $request->all(), $remember ) ) {
-                flash()->error( 'Wrong email or password!' );
                 return redirect()->back()->withInput();
             }
 
             flash()->success('Login success! Welcome to Bali Tower admin page!');
-            return redirect()->route('/');
+
+            return redirect()->route('admin.dashboard');
         } catch (\Exception $e) {
-            flash()->error( 'Error login!' . $e );
+            flash()->error('Error login!' . $e);
             return redirect()->back()->withInput();
         }
     }
+
     /**
      * Show the form for the user registration.
      *
@@ -54,48 +55,30 @@ class AuthController extends Controller
     {
         return view('Auth.register');
     }
+
     /**
-     * Handle posting of the form for the user registration.
+     * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function processRegistration(Request $request)
+    public function registerProcess(Request $request)
     {
-        $input = $request->all();
-        print_r($input);
-        $rules = [
-            'email'            => 'required|email|unique:users',
-            'password'         => 'required',
-            'password_confirm' => 'required|same:password',
-        ];
-        $validator = Validator::make($input, $rules);
-        if (!$validator->fails())
-        {
-            return Redirect::back()
-                ->withInput()
-                ->withErrors($validator);
+        try {
+            $status = !empty($request->status) ? 1 : 1;
+            $request->merge( [ 'status' => $status ] );
+            $user = Sentinel::register($request->all());
+
+
+            //Sentinel::findRoleBySlug('admin')->users()->attach( $user );
+
+            flash()->success( trans('message.user.create-success') );
+            return redirect()->route( '/' );
+
+        } catch (Exception $e) {
+            flash()->error( trans('message.user.create-error') );
+            return back()->withInput();
         }
-        if ($user = Sentinel::register($input))
-        {
-            $activation = Activation::create($user);
-            $code = $activation->code;
-            /*$sent = Mail::send('Auth.emails.activate', compact('user', 'code'), function($m) use ($user)
-            {
-                $m->to($user->email)->subject('Activate Your Account');
-            });*/
-            //if ($sent === 0)
-            if (true)
-            {
-                return Redirect::to('register')
-                    ->withErrors('Failed to send activation email.');
-            }
-            return Redirect::to('login')
-                ->withSuccess('Your accout was successfully created. You might login now.')
-                ->with('userId', $user->getUserId());
-        }
-        return Redirect::to('register')
-            ->withInput()
-            ->withErrors('Failed to register.');
     }
+
 }
