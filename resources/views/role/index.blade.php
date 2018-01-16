@@ -1,4 +1,4 @@
-@extends('backend.layouts.index')
+@extends('layouts.dashboard_template')
 
 @section('title') Role Management @endsection
 
@@ -18,7 +18,7 @@
 <div class="box box-primary">
 	<div class="box-header with-border">
 		<h3 class="box-title">Roles</h3>
-		<div class="pull-right"><a href="{{ route('admin.role.create') }}"><div class="pull-right"><button type="button" class="btn btn-primary btn-sm">Create New Role</button></div></a>
+		<div class="pull-right"><a href="{{ route('role.create') }}"><div class="pull-right"><button type="button" class="btn btn-primary btn-sm">Create New Role</button></div></a>
 		</div>
 	</div>
 	<div class="box-body">
@@ -38,14 +38,14 @@
 </section>
 
 @endsection
-@include('backend.partials.asset_datatables')
+@include('partials.asset_datatables')
 @push('scripts')
 <script type="text/javascript">
 	$( document ).ready(function() {
 		var data = $( '#user-table' ).DataTable({
 			processing: true,
 			serverSide: true,
-			ajax: "{!! route( 'admin.role.getdata' ) !!}",
+			ajax: "{!! route( 'role.getdata' ) !!}",
 			columns: [
 			{ data: 'name', name: 'name'},
 			{ data: 'slug', name: 'slug'},
@@ -54,6 +54,6 @@
 		});
 	});
 </script>
-@include('backend.forms.datatable-vertical')
-@include('backend.forms.delete-modal')
+@include('forms.datatable-vertical')
+@include('forms.delete-modal')
 @endpush

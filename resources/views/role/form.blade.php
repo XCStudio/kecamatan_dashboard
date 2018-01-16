@@ -1,4 +1,4 @@
-<div class="form-group {!! Form::hasError('name') !!}">
+<div class="form-group {{ $errors->has('name') ? ' has-error' : '' }}">
 	<label class="control-label" for="first-name">Name <span class="required">*</span></label>
 		{!! Form::text( 'name', null, [ 'class' => 'form-control', 'placeholder' => 'Name', 'required' => true] ) !!}
 </div>
@@ -98,7 +98,7 @@
 <div class="ln_solid"></div>
 <div class="form-group">
 	<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-		<a href="{{ route('admin.role.index') }}"><button class="btn btn-default" type="button">Cancel</button></a>
+		<a href="{{ route('role.index') }}"><button class="btn btn-default" type="button">Cancel</button></a>
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</div>
 </div>

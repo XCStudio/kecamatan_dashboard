@@ -11,13 +11,11 @@
 |
 */
 
-
 /**
  * Group Routing for Dashboard
  */
 
 Route::namespace('Auth')->group(function () {
-
     Route::get('login', ['as' => 'login', 'uses' => 'AuthController@index']);
     Route::post('login', ['as' => 'login', 'uses' => 'AuthController@loginProcess']);
     Route::get('register', ['as' => 'register', 'uses' => 'AuthController@register']);

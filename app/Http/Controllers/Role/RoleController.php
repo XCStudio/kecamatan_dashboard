@@ -23,7 +23,7 @@ class RoleController extends Controller
     public function index()
     {
         $title = [ 'title' => 'Role' ];
-        return view('backend.role.index', compact('title'));
+        return view('role.index', compact('title'));
     }
 
     /**
@@ -34,7 +34,7 @@ class RoleController extends Controller
     public function create()
     {
         $permissions = Role::getListPermission();
-        return view('backend.role.create', compact('permissions'));
+        return view('role.create', compact('permissions'));
     }
 
     /**
@@ -60,7 +60,7 @@ class RoleController extends Controller
                 'detail' => '#' . $role->id . ' | ' . $role->slug
                 ] ) );
 
-            return redirect()->route( 'admin.role.index' );
+            return redirect()->route( 'role.index' );
         } catch (Exception $e) {
             flash()->error( trans( 'general.destroy-error', [
                 'attribute' => trans( 'island.role' ),
@@ -92,7 +92,7 @@ class RoleController extends Controller
         $role = Role::find($id);
         $permissions = Role::getListPermission();
         $menu = Menu::get();
-        return view('backend.role.edit', compact('role','permissions','menu'));
+        return view('role.edit', compact('role','permissions','menu'));
     }
 
     /**
@@ -120,7 +120,7 @@ class RoleController extends Controller
         } else{
            Role::find($id)->update(['name' => $request->name,'permissions' => []]);
        }
-       return redirect()->route( 'admin.role.index' );
+       return redirect()->route( 'role.index' );
    } catch (Exception $e) {
         flash()->error( trans( 'message.role.update-error', [
         'attribute' => trans( 'island.role' ),
@@ -149,7 +149,7 @@ class RoleController extends Controller
                 $role = Role::findOrFail($id);
                 $role->delete();
                 flash()->success( trans( 'general.destroy-success' ) );
-                return redirect()->route( 'admin.role.index' );
+                return redirect()->route( 'role.index' );
             }
         } catch (Exception $e) {
             flash()->error( trans( 'general.destroy-error', [
@@ -168,13 +168,13 @@ class RoleController extends Controller
     {
         return Datatables::of(Role::datatables())
         ->addColumn( 'action', function ( $role ) {
-            $edit_url = route('admin.role.edit', $role->id );
-            $delete_url = route('admin.role.destroy', $role->id);
+            $edit_url = route('role.edit', $role->id );
+            $delete_url = route('role.destroy', $role->id);
 
             $data['edit_url']   = $edit_url;
             $data['delete_url'] = $delete_url;
 
-            return view('backend.forms.action', $data);
+            return view('forms.action', $data);
         })
         ->make(true);
     }

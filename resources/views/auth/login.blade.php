@@ -33,47 +33,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<<<<<<< HEAD
-            {{ Form::open(array('class' => 'form-horizontal', 'autocomplete' => 'off')) }}
-
-            <div class="form-group{{ $errors->has('email') ? ' has-error' : null }}">
-                <label for="email" class="col-sm-4 control-label">Email</label>
-                <div class="col-sm-8">
-                    {{ Form::email('email', null, array('class' => 'form-control')) }}
-                    <p class="help-block">{{ $errors->first('email') }}</p>
-                </div>
-            </div>
-
-            <div class="form-group{{ $errors->has('password') ? ' has-error' : null }}">
-                <label for="password" class="col-sm-4 control-label">Password</label>
-                <div class="col-sm-8">
-                    {{ Form::password('password', array('class' => 'form-control')) }}
-                    <p class="help-block">{{ $errors->first('password') }}</p>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-sm-8 col-sm-push-4">
-                    <label>
-                        {{ Form::checkbox('remember') }}
-                        Remember me
-                    </label>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-sm-8 col-sm-push-4">
-                    {{ Form::submit('Login', array('class' => 'btn btn-primary')) }}
-                    {{ Form::reset('Reset', array('class' => 'btn btn-default')) }}
-                    <a href="{{ URL::to('reset') }}">Forgot password?</a>
-                </div>
-            </div>
-
-            {{ Form::close() }}
-
-
-                    <!-- /.login-box-body -->
-=======
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -106,10 +65,11 @@ desired effect
     <!-- /.login-logo -->
     <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>
+        @include( 'flash::message' )
 
         <form method="POST" action="{{ route('login') }}">
             {{ csrf_field() }}
-            <div class="form-group has-feedback">
+            <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required
                        autofocus placeholder="Email">
                 @if ($errors->has('email'))
@@ -150,7 +110,6 @@ desired effect
         {{--<a class="btn btn-link" href="{{ route('password.request') }}">Forgot Your Password?</a><br>--}}
         <a href="{{ route('register') }}" class="text-center">Register a new membership</a>
 
->>>>>>> 6761fb8fcd97653c0a1a41aa081c2754ca226087
     </div>
     <!-- /.login-box-body -->
 </div>

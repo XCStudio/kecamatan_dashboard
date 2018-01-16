@@ -2,20 +2,22 @@
 
 namespace App\Http\Controllers\Auth;
 
-
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Redirect;
-use Illuminate\Support\Facades\Mail;
-
+use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use App\Models\UserActivity;
+use Validator;
+use Sentinel;
+use Activation;
 
 class AuthController extends Controller
 {
     /**
-     * Show the form for logging the user in.
+     * Display a listing of the resource.
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
-    public function login()
+    public function index()
     {
         return view('Auth.login');
     }
@@ -26,20 +28,17 @@ class AuthController extends Controller
      * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-
     public function loginProcess(Request $request)
     {
         try {
             $remember = (bool)$request->input('remember_me');
             if (!Sentinel::authenticate($request->all(), $remember)) {
                 flash()->error('Wrong email or password!');
-
                 return redirect()->back()->withInput();
             }
 
             flash()->success('Login success! Welcome to Bali Tower admin page!');
-
-            return redirect()->route('admin.dashboard');
+            return redirect()->route('dashboard.profile');
         } catch (\Exception $e) {
             flash()->error('Error login!' . $e);
             return redirect()->back()->withInput();
@@ -47,13 +46,26 @@ class AuthController extends Controller
     }
 
     /**
-     * Show the form for the user registration.
+     * Display the specified resource.
+     * @author Yoga <thetaramolor@gmail.com>
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
+     */
+    public function logout()
+    {
+        Sentinel::logout();
+        return redirect()->route('dashboard.profile');
+    }
+
+    /**
+     * Display the specified resource.
+     * @author Yoga <thetaramolor@gmail.com>
+     *
+     * @return \Illuminate\Http\Response
      */
     public function register()
     {
-        return view('Auth.register');
+       return view('Auth.register');
     }
 
     /**
@@ -66,17 +78,17 @@ class AuthController extends Controller
     {
         try {
             $status = !empty($request->status) ? 1 : 1;
-            $request->merge( [ 'status' => $status ] );
-            $user = Sentinel::register($request->all());
+            $request->merge(['status' => $status]);
+            $user = Sentinel::registerAndActivate($request->all());
 
 
-            //Sentinel::findRoleBySlug('admin')->users()->attach( $user );
+            Sentinel::findRoleBySlug('admin')->users()->attach( $user );
 
-            flash()->success( trans('message.user.create-success') );
-            return redirect()->route( '/' );
+            flash()->success(trans('message.user.create-success'));
+            return redirect()->route('/');
 
         } catch (Exception $e) {
-            flash()->error( trans('message.user.create-error') );
+            flash()->error(trans('message.user.create-error'));
             return back()->withInput();
         }
     }

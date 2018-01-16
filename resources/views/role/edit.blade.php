@@ -1,4 +1,4 @@
-@extends( 'backend.layouts.index' )
+@extends( 'layouts.dashboard_template' )
 
 @section('title') Create Role @endsection
 
@@ -20,8 +20,8 @@
 		<h3 class="box-title">Roles</h3>
 	</div>
 	<div class="box-body">
-		{!! Form::model($role, ['route'=>['admin.role.update', $role->id], 'method' => 'put', 'autocomplete'=>'off', 'id'=>'form-role']) !!}
-			@include('backend.role.form')
+		{!! Form::model($role, ['route'=>['role.update', $role->id], 'method' => 'put', 'autocomplete'=>'off', 'id'=>'form-role']) !!}
+			@include('role.form')
 		{!! Form::close() !!}
 	</div>
 </div>
