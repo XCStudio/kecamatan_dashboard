@@ -93,9 +93,7 @@ desired effect
                 <div class="col-xs-8">
                     <div class="checkbox icheck">
                         <label>
-                            <input class="iCheck" type="checkbox"
-                                   name="remember" {{ old('remember') ? 'checked' : '' }}> Remember
-                            Me
+                            <input class="iCheck" type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
                         </label>
                     </div>
                 </div>
