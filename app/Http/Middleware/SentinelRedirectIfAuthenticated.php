@@ -17,7 +17,7 @@ class SentinelRedirectIfAuthenticated
     public function handle($request, Closure $next)
     {
         if ( Sentinel::check() ) {
-            return redirect('/admin/dashboard');
+            return redirect('/dashboard');
         }
 
         return $next($request);
