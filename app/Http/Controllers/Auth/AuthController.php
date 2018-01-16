@@ -21,7 +21,7 @@ class AuthController extends Controller
      */
     public function index()
     {
-        return view( 'backend.layouts.login' );
+        return view( 'Auth.login' );
     }
 
     /**
@@ -30,7 +30,7 @@ class AuthController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function loginProcess(Request $request)
     {
             try {
                 $remember =  (bool) $request->input( 'remember_me' );
@@ -45,7 +45,6 @@ class AuthController extends Controller
                 flash()->error( 'Error login!' . $e );
                 return redirect()->back()->withInput();
             }
-
     }
 
     /**
@@ -59,4 +58,27 @@ class AuthController extends Controller
         Sentinel::logout();
         return redirect()->route( 'admin.login' );
     }
+
+    /**
+     * Display the specified resource.
+     * @author Yoga <thetaramolor@gmail.com>
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function register()
+    {
+        return view('Auth.register');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function registerProcess(Request $request)
+    {
+
+    }
+
 }
