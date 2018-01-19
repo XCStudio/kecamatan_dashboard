@@ -1,6 +1,21 @@
 @extends('layouts.dashboard_template')
 
 @section('content')
+        <!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        {{ $page_title or "Page Title" }}
+        <small>{{ $page_description or null }}</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content container-fluid">
+
     <div class="row">
         <div class="col-md-12">
             <div class="nav-tabs-custom">
@@ -47,4 +62,7 @@
         <!-- /.col -->
     </div>
     <!-- /.row -->
+
+</section>
+<!-- /.content -->
 @endsection
