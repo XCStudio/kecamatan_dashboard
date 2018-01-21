@@ -34,7 +34,7 @@ use Illuminate\Support\Facades\URL;
               </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li {{ (Request::is(['informasi/prosedur'])? 'class=active' : '') }}><a href="{{ route('informasi.prosedur') }}"><i class="fa fa-circle-o"></i>Prosedur</a></li>
+                    <li {{ (Request::is(['informasi/prosedur/*', 'informasi/prosedur/index', 'informasi/prosedur'])? 'class=active' : '') }}><a href="{{ route('informasi.prosedur.index') }}"><i class="fa fa-circle-o"></i>Prosedur</a></li>
                     <li {{ (Request::is(['informasi/layanan'])? 'class=active' : '') }}><a href="{{ route('informasi.layanan') }}"><i class="fa fa-circle-o"></i>Layanan</a></li>
                     <li {{ (Request::is(['informasi/potensi'])? 'class=active' : '') }}><a href="{{ route('informasi.potensi') }}"><i class="fa fa-circle-o"></i>Potensi</a></li>
                     <li {{ (Request::is(['informasi/event'])? 'class=active' : '') }}><a href="{{ route('informasi.event') }}"><i class="fa fa-circle-o"></i>Event</a></li>

@@ -81,7 +81,18 @@ Route::namespace('Dashboard')->group(function () {
  */
 Route::namespace('Informasi')->group(function () {
     Route::group(['prefix' => 'informasi'], function () {
-        Route::get('prosedur', 'InformasiController@showProsedur')->name('informasi.prosedur');
+
+        Route::group(['prefix'=>'prosedur'], function(){
+            Route::get('/', ['as' => 'informasi.prosedur.index', 'uses' => 'ProsedurController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.prosedur.show', 'uses' => 'ProsedurController@show']);
+            Route::get('create', ['as' => 'informasi.prosedur.create', 'uses' => 'ProsedurController@create']);
+            Route::post('store', ['as' => 'informasi.prosedur.store', 'uses' => 'ProsedurController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.prosedur.edit', 'uses' => 'ProsedurController@edit']);
+            Route::put('update/{id}', ['as' => 'informasi.prosedur.update', 'uses' => 'ProsedurController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.prosedur.destroy', 'uses' => 'ProsedurController@destroy']);
+        });
+
+
         Route::get('layanan', 'InformasiController@showLayanan')->name('informasi.layanan');
         Route::get('potensi', 'InformasiController@showPotensi')->name('informasi.potensi');
         Route::get('event', 'InformasiController@showEvent')->name('informasi.event');
