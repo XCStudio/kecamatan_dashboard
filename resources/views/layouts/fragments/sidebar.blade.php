@@ -38,7 +38,7 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['informasi/layanan'])? 'class=active' : '') }}><a href="{{ route('informasi.layanan') }}"><i class="fa fa-circle-o"></i>Layanan</a></li>
                     <li {{ (Request::is(['informasi/potensi'])? 'class=active' : '') }}><a href="{{ route('informasi.potensi') }}"><i class="fa fa-circle-o"></i>Potensi</a></li>
                     <li {{ (Request::is(['informasi/event'])? 'class=active' : '') }}><a href="{{ route('informasi.event') }}"><i class="fa fa-circle-o"></i>Event</a></li>
-                    <li {{ (Request::is(['informasi/faq'])? 'class=active' : '') }}><a href="{{ route('informasi.faq') }}"><i class="fa fa-circle-o"></i>FAQ</a></li>
+                    <li {{ (Request::is(['informasi/faq/*', 'informasi/faq/index', 'informasi/faq'])? 'class=active' : '') }}><a href="{{ route('informasi.faq.index') }}"><i class="fa fa-circle-o"></i>FAQ</a></li>
                     <li {{ (Request::is(['informasi/kontak'])? 'class=active' : '') }}><a href="{{ route('informasi.kontak') }}"><i class="fa fa-circle-o"></i>Kontak</a></li>
                     <li {{ (Request::is(['informasi/kalender'])? 'class=active' : '') }}><a href="{{ route('informasi.kalender') }}"><i class="fa fa-circle-o"></i>Kalender</a></li>
                 </ul>

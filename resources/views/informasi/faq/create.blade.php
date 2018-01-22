@@ -9,8 +9,8 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.prosedur.index')}}">Kumpulan Prosedur</a></li>
-        <li class="active">Tambah</li>
+        <li><a href="{{route('informasi.faq.index')}}">FAQ</a></li>
+        <li class="active">{{$page_title}}</li>
     </ol>
 </section>
 
@@ -24,12 +24,12 @@
                  </div>--}}
                 <!-- /.box-header -->
 
+                        <!-- form start -->
+                {!! Form::open( [ 'route' => 'informasi.faq.store', 'method' => 'post','id' => 'form-faq', 'class' => 'form-horizontal form-label-left' ] ) !!}
+
                 <div class="box-body">
-                    <!-- form start -->
-                    {!! Form::open( [ 'route' => 'informasi.prosedur.store', 'method' => 'post', 'files' => true, 'id' => 'form-prosedur', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                     @if (count($errors) > 0)
-
                         <div class="alert alert-danger">
                             <strong>Whoops!</strong> There were some problems with your input.<br><br>
                             <ul>
@@ -41,14 +41,14 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('informasi.prosedur.form')
+                    @include('informasi.faq.form')
 
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
                     <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                            <a href="{{ route('informasi.prosedur.index') }}">
+                            <a href="{{ route('informasi.faq.index') }}">
                                 <button type="button" class="btn btn-default">Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary">Simpan</button>
@@ -64,3 +64,21 @@
 </section>
 <!-- /.content -->
 @endsection
+
+@push('css')
+        <!-- WYSIHTML5 -->
+<link rel="stylesheet"
+      href="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}">
+@endpush
+
+@push('scripts')
+        <!-- WYSIHTML5 -->
+<script src="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js") }}"></script>
+<script>
+    $(function () {
+        // Replace the <textarea id="editor1"> with a CKEditor
+        //bootstrap WYSIHTML5 - text editor
+        $('.textarea').wysihtml5()
+    })
+</script>
+@endpush

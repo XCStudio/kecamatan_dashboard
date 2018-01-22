@@ -82,6 +82,7 @@ Route::namespace('Dashboard')->group(function () {
 Route::namespace('Informasi')->group(function () {
     Route::group(['prefix' => 'informasi'], function () {
 
+        //Routes for prosedur resource
         Route::group(['prefix'=>'prosedur'], function(){
             Route::get('/', ['as' => 'informasi.prosedur.index', 'uses' => 'ProsedurController@index']);
             Route::get('show/{id}', ['as' => 'informasi.prosedur.show', 'uses' => 'ProsedurController@show']);
@@ -92,11 +93,21 @@ Route::namespace('Informasi')->group(function () {
             Route::delete('destroy/{id}', ['as' => 'informasi.prosedur.destroy', 'uses' => 'ProsedurController@destroy']);
         });
 
+        //Routes for FAQ resources
+        Route::group(['prefix'=>'faq'], function(){
+            Route::get('/', ['as' => 'informasi.faq.index', 'uses' => 'FaqController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.faq.show', 'uses' => 'FaqController@show']);
+            Route::get('create', ['as' => 'informasi.faq.create', 'uses' => 'FaqController@create']);
+            Route::post('store', ['as' => 'informasi.faq.store', 'uses' => 'FaqController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.faq.edit', 'uses' => 'FaqController@edit']);
+            Route::post('update/{id}', ['as' => 'informasi.faq.update', 'uses' => 'FaqController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.faq.destroy', 'uses' => 'FaqController@destroy']);
+        });
 
         Route::get('layanan', 'InformasiController@showLayanan')->name('informasi.layanan');
         Route::get('potensi', 'InformasiController@showPotensi')->name('informasi.potensi');
         Route::get('event', 'InformasiController@showEvent')->name('informasi.event');
-        Route::get('faq', 'InformasiController@showFAQ')->name('informasi.faq');
+
         Route::get('kontak', 'InformasiController@showKontak')->name('informasi.kontak');
         Route::get('kalender', 'InformasiController@showKalender')->name('informasi.kalender');
     });

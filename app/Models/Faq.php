@@ -4,9 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Prosedur extends Model
+class Faq extends Model
 {
-    //
     /**
      * The attributes that are mass assignable.
      *
@@ -15,7 +14,8 @@ class Prosedur extends Model
 
     protected $fillable = [
 
-        'judul_prosedur'
+        'question',
+        'answer'
 
     ];
 }
