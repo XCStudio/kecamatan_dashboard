@@ -18,7 +18,7 @@ class FaqController extends Controller
         $page_title = 'FAQ';
         $page_description = 'Frequently Ask and Question';
 
-        $faqs = Faq::latest()->paginate(2);
+        $faqs = Faq::latest()->paginate(10);
         return view('informasi.faq.index', compact('page_title', 'page_description', 'faqs'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
     }
