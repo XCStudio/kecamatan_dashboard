@@ -24,38 +24,41 @@
                  </div>--}}
                 <!-- /.box-header -->
 
-                        <!-- form start -->
-                {!! Form::open( [ 'route' => 'informasi.faq.store', 'method' => 'post','id' => 'form-faq', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
 
-                <div class="box-body">
+                    </div>
 
-                    @if (count($errors) > 0)
-                        <div class="alert alert-danger">
-                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
                     @endif
 
-                    @include( 'flash::message' )
-                    @include('informasi.faq.form')
+                            <!-- form start -->
+                    {!!  Form::model($event, [ 'route' => ['informasi.event.update', $event->id], 'method' => 'post','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
-                </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-                    <div class="form-group">
-                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                            <a href="{{ route('informasi.faq.index') }}">
-                                <button type="button" class="btn btn-default btn-sm">Batal</button>
-                            </a>
-                            <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                    <div class="box-body">
+
+
+                        @include( 'flash::message' )
+                        @include('informasi.event.form')
+
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer">
+                        <div class="form-group">
+                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                <a href="{{ route('informasi.event.index') }}">
+                                    <button type="button" class="btn btn-default btn-sm">Batal</button>
+                                </a>
+                                <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                {!! Form::close() !!}
+                    {!! Form::close() !!}
             </div>
         </div>
     </div>

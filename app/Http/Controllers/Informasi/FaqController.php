@@ -101,7 +101,7 @@ class FaqController extends Controller
 
             return redirect()->route('informasi.faq.index')->with('success', 'Update FAQ sukses!');
         } catch (Exception $e) {
-            return back()->withInput()->with('success', 'FAQ berhasil ditambah!');
+            return back()->withInput()->with('error', 'Update FAQ gagal!');
         }
     }
 

@@ -52,9 +52,9 @@
                         <div class="form-group">
                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                                 <a href="{{ route('informasi.faq.index') }}">
-                                    <button type="button" class="btn btn-default">Batal</button>
+                                    <button type="button" class="btn btn-default btn-sm">Batal</button>
                                 </a>
-                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
                             </div>
                         </div>
                     </div>

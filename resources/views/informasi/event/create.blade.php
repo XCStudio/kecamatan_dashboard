@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.faq.index')}}">FAQ</a></li>
+        <li><a href="{{route('informasi.event.index')}}">Events</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -25,7 +25,7 @@
                 <!-- /.box-header -->
 
                         <!-- form start -->
-                {!! Form::open( [ 'route' => 'informasi.faq.store', 'method' => 'post','id' => 'form-faq', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                {!! Form::open( [ 'route' => 'informasi.event.store', 'method' => 'post','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                 <div class="box-body">
 
@@ -41,7 +41,7 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('informasi.faq.form')
+                    @include('informasi.event.form')
 
                 </div>
                 <!-- /.box-body -->
@@ -67,18 +67,30 @@
 
 @push('css')
         <!-- WYSIHTML5 -->
-<link rel="stylesheet"
-      href="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}">
+<link rel="stylesheet" href="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}">
+<link rel="stylesheet" href="{{ asset ("/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css") }}">
 @endpush
 
 @push('scripts')
         <!-- WYSIHTML5 -->
 <script src="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js") }}"></script>
+<script src="{{ asset ("/bower_components/moment/min/moment.min.js") }}"></script>
+<script src="{{ asset ("/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js") }}"></script>
 <script>
     $(function () {
         // Replace the <textarea id="editor1"> with a CKEditor
         //bootstrap WYSIHTML5 - text editor
         $('.textarea').wysihtml5()
+
+        //Datetimepicker
+        $('.datetime').each(function() {
+            var $this = $(this);
+            $this.datetimepicker({
+                format: 'YYYY-MM-D HH:mm'
+            });
+        });
     })
+
+
 </script>
 @endpush

@@ -26,44 +26,7 @@
     @endif
 
     <div class="row">
-        <div class="col-md-12">
-            <div class="box box-default">
-                {{-- <div class="box-header with-border">
-                     <h3 class="box-title">Aksi</h3>
-                 </div>--}}
-                <!-- /.box-header -->
-                <div class="box-body">
-                    <!-- form start -->
-                    <div class="row">
-                        <div class="col-md-8">
-                            <form class="form-horizontal">
-
-                                <div class="form-group">
-                                    <label for="inputEmail3" class="col-sm-2 control-label">Cari Prosedur</label>
-
-                                    <div class="col-sm-6">
-                                        <input class="form-control" id="inputEmail3" placeholder="Regulasi"
-                                               type="email">
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <button type="submit" class="btn btn-default">Cari</button>
-                                    </div>
-                                </div>
-
-                            </form>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="{{route('informasi.prosedur.create')}}"
-                               class="btn btn-primary pull-right {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.box-body -->
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="box box-primary">
                 {{--<div class="box-header with-border">
                     <h3 class="box-title"></h3>
@@ -75,7 +38,7 @@
                     </div>
                 </div>--}}
                 <!-- /.box-header -->
-                <div class="box-body no-padding">
+                <div class="box-body">
                     <div class="table-responsive">
                         <table class="table no-margin">
                             <tbody>
@@ -88,7 +51,7 @@
                                         @if (! Sentinel::guest())
                                             <td>
                                                 <div class="pull-right">
-                                                    <a class="btn btn-xs btn-info"
+                                                    <a class="btn btn-sm btn-info"
                                                        href="{{ route('informasi.prosedur.show',$prosedur->id) }}">Lihat</a>
 
                                                     {{--<a class="btn btn-xs btn-primary"
@@ -96,7 +59,7 @@
 
                                                     {!! Form::open(['method' => 'DELETE','route' => ['informasi.prosedur.destroy', $prosedur->id],'style'=>'display:inline']) !!}
 
-                                                    {!! Form::submit('Hapus', ['class' => 'btn btn-xs btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
+                                                    {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
 
                                                     {!! Form::close() !!}
                                                 </div>
@@ -119,6 +82,28 @@
                     {!! $prosedurs->links() !!}
                 </div>
                 <!-- /.box-footer -->
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box box-primary limit-p-width">
+                <div class="box-body">
+                    <div class="caption">
+                        <form class="form-horizontal">
+                            <div class="input-group input-group-sm">
+                                <input class="form-control" type="text" name="cari" placeholder="Cari">
+                                    <span class="input-group-btn">
+                                      <button type="submit" class="btn btn-primary btn-flat">Cari</button>
+                                    </span>
+                            </div>
+                        </form>
+
+                        <h3></h3>
+                        <a href="{{route('informasi.prosedur.create')}}"
+                           class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
+                    </div>
+
+                </div>
             </div>
         </div>
         <!-- /.col -->

@@ -37,7 +37,7 @@
                 <div class="form-group">
                     <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                         <a href="{{ route('informasi.prosedur.index') }}">
-                            <button type="button" class="btn btn-default">Kembali</button>
+                            <button type="button" class="btn btn-default btn-sm">Kembali</button>
                         </a>
                         @unless(!Sentinel::check())
                             {{--<a href="{{ route('informasi.prosedur.edit', $prosedur->id) }}">
@@ -45,7 +45,7 @@
                             </a>--}}
                             {!! Form::open(['method' => 'DELETE','route' => ['informasi.prosedur.destroy', $prosedur->id],'style'=>'display:inline']) !!}
 
-                            {!! Form::submit('Hapus', ['class' => 'btn btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
+                            {!! Form::submit('Hapus', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
 
                             {!! Form::close() !!}
                         @endunless
