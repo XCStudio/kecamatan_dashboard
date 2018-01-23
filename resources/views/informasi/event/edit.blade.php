@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.faq.index')}}">FAQ</a></li>
+        <li><a href="{{route('informasi.faq.index')}}">Events</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -68,20 +68,22 @@
 <!-- /.content -->
 @endsection
 
-@push('css')
-        <!-- WYSIHTML5 -->
-<link rel="stylesheet"
-      href="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}">
-@endpush
-
+@include(('partials.asset_wysihtml5'))
+@include(('partials.asset_datetimepicker'))
 @push('scripts')
-        <!-- WYSIHTML5 -->
-<script src="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js") }}"></script>
 <script>
     $(function () {
         // Replace the <textarea id="editor1"> with a CKEditor
         //bootstrap WYSIHTML5 - text editor
         $('.textarea').wysihtml5()
+
+        //Datetimepicker
+        $('.datetime').each(function () {
+            var $this = $(this);
+            $this.datetimepicker({
+                format: 'YYYY-MM-D HH:mm'
+            });
+        });
     })
 </script>
 @endpush

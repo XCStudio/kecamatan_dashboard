@@ -128,7 +128,18 @@ Route::namespace('Informasi')->group(function () {
  */
 Route::namespace('Profil')->group(function () {
     Route::group(['prefix' => 'profil'], function () {
-        Route::get('visi-misi', 'ProfilController@showVisiMisi')->name('profil.visi-misi');
+
+        //Routes for Visi & Misi resources
+        Route::group(['prefix'=>'visi-misi'], function(){
+            Route::get('/', ['as' => 'profil.visi-misi.index', 'uses' => 'VisiMisiController@index']);
+            Route::get('show/{id}', ['as' => 'profil.visi-misi.show', 'uses' => 'VisiMisiController@show']);
+            Route::get('create', ['as' => 'profil.visi-misi.create', 'uses' => 'VisiMisiController@create']);
+            Route::post('store', ['as' => 'profil.visi-misi.store', 'uses' => 'VisiMisiController@store']);
+            Route::get('edit/{id}', ['as' => 'profil.visi-misi.edit', 'uses' => 'VisiMisiController@edit']);
+            Route::post('update/{id}', ['as' => 'profil.visi-misi.update', 'uses' => 'VisiMisiController@update']);
+            Route::delete('destroy/{id}', ['as' => 'profil.visi-misi.destroy', 'uses' => 'VisiMisiController@destroy']);
+        });
+
         Route::get('regulasi', 'ProfilController@showRegulasi')->name('profil.regulasi');
     });
 });

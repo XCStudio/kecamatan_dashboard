@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.faq.index')}}">FAQ</a></li>
+        <li><a href="{{route('profil.visi-misi.index')}}">Visi & Misi</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -24,8 +24,8 @@
                  </div>--}}
                 <!-- /.box-header -->
 
-                <!-- form start -->
-                {!! Form::open( [ 'route' => 'informasi.faq.store', 'method' => 'post','id' => 'form-faq', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                        <!-- form start -->
+                {!! Form::open( [ 'route' => 'profil.visi-misi.store', 'method' => 'post','id' => 'form-visimisi', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                 <div class="box-body">
 
@@ -41,14 +41,14 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('informasi.faq.form')
+                    @include('profil.visi-misi.form')
 
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
                     <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                            <a href="{{ route('informasi.faq.index') }}">
+                            <a href="{{ route('profil.visi-misi.index') }}">
                                 <button type="button" class="btn btn-default btn-sm">Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
@@ -64,15 +64,16 @@
 </section>
 <!-- /.content -->
 @endsection
-
 @include('partials.asset_wysihtml5')
-
+@include(('partials.asset_select2'))
 @push('scripts')
 <script>
     $(function () {
         // Replace the <textarea id="editor1"> with a CKEditor
         //bootstrap WYSIHTML5 - text editor
         $('.textarea').wysihtml5()
+
+        $('#kecamatan_id').select2();
     })
 </script>
 @endpush

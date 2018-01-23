@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.faq.index')}}">FAQ</a></li>
+        <li><a href="{{route('profil.visi-misi.index')}}">Visi & Misi</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -38,20 +38,20 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($faq, [ 'route' => ['informasi.faq.update', $faq->id], 'method' => 'post','id' => 'form-faq', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                    {!!  Form::model($visiMisi, [ 'route' => ['profil.visi-misi.update', $visiMisi->id], 'method' => 'post','id' => 'form-visimisi', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                     <div class="box-body">
 
 
                         @include( 'flash::message' )
-                        @include('informasi.faq.form')
+                        @include('profil.visi-misi.form')
 
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
                         <div class="form-group">
                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                <a href="{{ route('informasi.faq.index') }}">
+                                <a href="{{ route('profil.visi-misi.index') }}">
                                     <button type="button" class="btn btn-default btn-sm">Batal</button>
                                 </a>
                                 <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
@@ -68,9 +68,15 @@
 <!-- /.content -->
 @endsection
 
-@include('partials.asset_wysihtml5')
+@push('css')
+        <!-- WYSIHTML5 -->
+<link rel="stylesheet"
+      href="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}">
+@endpush
 
 @push('scripts')
+        <!-- WYSIHTML5 -->
+<script src="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js") }}"></script>
 <script>
     $(function () {
         // Replace the <textarea id="editor1"> with a CKEditor

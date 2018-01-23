@@ -24,7 +24,7 @@
                  </div>--}}
                 <!-- /.box-header -->
 
-                        <!-- form start -->
+                <!-- form start -->
                 {!! Form::open( [ 'route' => 'informasi.event.store', 'method' => 'post','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                 <div class="box-body">
@@ -65,17 +65,9 @@
 <!-- /.content -->
 @endsection
 
-@push('css')
-        <!-- WYSIHTML5 -->
-<link rel="stylesheet" href="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}">
-<link rel="stylesheet" href="{{ asset ("/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css") }}">
-@endpush
-
+@include(('partials.asset_wysihtml5'))
+@include(('partials.asset_datetimepicker'))
 @push('scripts')
-        <!-- WYSIHTML5 -->
-<script src="{{ asset ("/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js") }}"></script>
-<script src="{{ asset ("/bower_components/moment/min/moment.min.js") }}"></script>
-<script src="{{ asset ("/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js") }}"></script>
 <script>
     $(function () {
         // Replace the <textarea id="editor1"> with a CKEditor
@@ -83,14 +75,12 @@
         $('.textarea').wysihtml5()
 
         //Datetimepicker
-        $('.datetime').each(function() {
+        $('.datetime').each(function () {
             var $this = $(this);
             $this.datetimepicker({
                 format: 'YYYY-MM-D HH:mm'
             });
         });
     })
-
-
 </script>
 @endpush
