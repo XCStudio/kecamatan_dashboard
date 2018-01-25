@@ -39,13 +39,9 @@
                     </div>
                 </div>--}}
                 <!-- /.box-header -->
-                @if(isset($visiMisi))
+                @if(isset($regulasi))
                     <div class="box-body">
-                        <h3>Visi :</h3>
-                        {!! $visiMisi->visi !!}
-                        <hr>
-                        <h3>Misi :</h3>
-                        {!! $visiMisi->misi !!}
+
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
@@ -94,7 +90,7 @@
                         </div>
 
                         <h3></h3>
-                        <a href="{{route('profil.visi-misi.create')}}"
+                        <a href="{{route('profil.regulasi.create')}}"
                            class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
                     </div>
 

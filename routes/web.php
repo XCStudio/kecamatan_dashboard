@@ -140,7 +140,16 @@ Route::namespace('Profil')->group(function () {
             Route::delete('destroy/{id}', ['as' => 'profil.visi-misi.destroy', 'uses' => 'VisiMisiController@destroy']);
         });
 
-        Route::get('regulasi', 'ProfilController@showRegulasi')->name('profil.regulasi');
+        //Routes for Regulasi resources
+        Route::group(['prefix'=>'regulasi'], function(){
+            Route::get('/', ['as' => 'profil.regulasi.index', 'uses' => 'RegulasiController@index']);
+            Route::get('show/{id}', ['as' => 'profil.regulasi.show', 'uses' => 'RegulasiController@show']);
+            Route::get('create', ['as' => 'profil.regulasi.create', 'uses' => 'RegulasiController@create']);
+            Route::post('store', ['as' => 'profil.regulasi.store', 'uses' => 'RegulasiController@store']);
+            Route::get('edit/{id}', ['as' => 'profil.regulasi.edit', 'uses' => 'RegulasiController@edit']);
+            Route::post('update/{id}', ['as' => 'profil.regulasi.update', 'uses' => 'RegulasiController@update']);
+            Route::delete('destroy/{id}', ['as' => 'profil.regulasi.destroy', 'uses' => 'RegulasiController@destroy']);
+        });
     });
 });
 
