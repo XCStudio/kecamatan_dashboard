@@ -51,7 +51,7 @@ use Illuminate\Support\Facades\URL;
                 </a>
                 <ul class="treeview-menu">
                     <li {{ (Request::is(['profil/visi-misi/*', 'profil/visi-misi/index', 'profil/visi-misi'])? 'class=active' : '') }}><a href="{{ route('profil.visi-misi.index') }}"><i class="fa fa-circle-o"></i>Visi & Misi</a></li>
-                    <li {{ (Request::is(['profil/regulasi'])? 'class=active' : '') }}><a href="{{ route('profil.regulasi') }}"><i class="fa fa-circle-o"></i>Regulasi</a></li>
+                    <li {{ (Request::is(['profil/regulasi/*', 'profil/regulasi/index', 'profil/regulasi'])? 'class=active' : '') }}><a href="{{ route('profil.regulasi.index') }}"><i class="fa fa-circle-o"></i>Regulasi</a></li>
                 </ul>
             </li>
             <li class="treeview {{ (Request::is(['data/*'])? 'active' : '') }}">
