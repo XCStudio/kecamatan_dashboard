@@ -55,7 +55,7 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
         });
 
     });
-});
+
 
 /**
  * Group Routing for Dashboard
@@ -171,4 +171,6 @@ Route::namespace('Data')->group(function (){
         });
 
     });
+});
+
 });

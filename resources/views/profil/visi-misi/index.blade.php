@@ -51,15 +51,18 @@
                     <div class="box-footer clearfix">
                         <div class="pull-right">
                             @unless(!Sentinel::check())
+                                @if( $user->hasAccess([ 'vm.update' ]) )
                                 <a href="{{ route('profil.visi-misi.edit', $visiMisi->id) }}">
                                     <button type="submit"
                                             class="btn btn-sm btn-primary">Ubah
                                     </button>
                                 </a>&nbsp;
+                                @endif
                                 {!! Form::open(['method' => 'DELETE','route' => ['profil.visi-misi.destroy', $visiMisi->id],'style'=>'display:inline']) !!}
-
+                                @if( $user->hasAccess([ 'vm.delete' ]) )
+                                
                                 {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
-
+                                @endif
                                 {!! Form::close() !!}
                             @endunless
                         </div>
@@ -94,8 +97,10 @@
                         </div>
 
                         <h3></h3>
+                        @if( $user->hasAccess([ 'vm.create' ]) )
                         <a href="{{route('profil.visi-misi.create')}}"
                            class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
+                        @endif
                     </div>
 
                 </div>

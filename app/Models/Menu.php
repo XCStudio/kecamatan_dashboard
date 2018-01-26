@@ -44,4 +44,16 @@ class Menu extends Model
             ],
         ];
     }
+
+    /**
+     * Show Menus
+     *
+     * @return void
+     */
+    public static function getAccess()
+    {
+        $permission = [ 'vm.create' => true, 'vm.update' => true, 'vm.delete' => true,'vm.show' => true];
+
+        return $permission;
+    }
 }

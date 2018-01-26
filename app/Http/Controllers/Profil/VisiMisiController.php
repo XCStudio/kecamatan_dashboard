@@ -18,8 +18,9 @@ class VisiMisiController extends Controller
         $page_title = 'Visi & Misi';
         $page_description = '';
         $visiMisi = VisiMisi::find(1);
+        $user = \Sentinel::getUser();
 
-        return view('profil.visi-misi.index', compact('page_title', 'page_description', 'visiMisi'));
+        return view('profil.visi-misi.index', compact('page_title', 'page_description', 'visiMisi', 'user'));
     }
 
     /**
