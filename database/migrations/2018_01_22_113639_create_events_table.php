@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Regulations extends Migration
+class CreateEventsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,14 @@ class Regulations extends Migration
      */
     public function up()
     {
-        Schema::create('regulations', function (Blueprint $table) {
+        Schema::create('events', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('judul');
-            $table->string('kode_kecamatan');
-            $table->string('tipe_regulasi');
-            $table->text('description');
-
+            $table->string('event_name', 150);
+            $table->dateTime('start');
+            $table->dateTime('end');
+            $table->string('attendants', 100);
+            $table->longText('description');
+            $table->string('status', 10);
             $table->timestamps();
         });
     }
@@ -31,6 +32,6 @@ class Regulations extends Migration
      */
     public function down()
     {
-        Schema::drop('regulations');
+        Schema::dropIfExists('events');
     }
 }

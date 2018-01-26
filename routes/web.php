@@ -81,11 +81,43 @@ Route::namespace('Dashboard')->group(function () {
  */
 Route::namespace('Informasi')->group(function () {
     Route::group(['prefix' => 'informasi'], function () {
-        Route::get('prosedur', 'InformasiController@showProsedur')->name('informasi.prosedur');
+
+        //Routes for prosedur resource
+        Route::group(['prefix'=>'prosedur'], function(){
+            Route::get('/', ['as' => 'informasi.prosedur.index', 'uses' => 'ProsedurController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.prosedur.show', 'uses' => 'ProsedurController@show']);
+            Route::get('create', ['as' => 'informasi.prosedur.create', 'uses' => 'ProsedurController@create']);
+            Route::post('store', ['as' => 'informasi.prosedur.store', 'uses' => 'ProsedurController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.prosedur.edit', 'uses' => 'ProsedurController@edit']);
+            Route::put('update/{id}', ['as' => 'informasi.prosedur.update', 'uses' => 'ProsedurController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.prosedur.destroy', 'uses' => 'ProsedurController@destroy']);
+        });
+
+        //Routes for FAQ resources
+        Route::group(['prefix'=>'faq'], function(){
+            Route::get('/', ['as' => 'informasi.faq.index', 'uses' => 'FaqController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.faq.show', 'uses' => 'FaqController@show']);
+            Route::get('create', ['as' => 'informasi.faq.create', 'uses' => 'FaqController@create']);
+            Route::post('store', ['as' => 'informasi.faq.store', 'uses' => 'FaqController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.faq.edit', 'uses' => 'FaqController@edit']);
+            Route::post('update/{id}', ['as' => 'informasi.faq.update', 'uses' => 'FaqController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.faq.destroy', 'uses' => 'FaqController@destroy']);
+        });
+
+        //Routes for Events resources
+        Route::group(['prefix'=>'event'], function(){
+            Route::get('/', ['as' => 'informasi.event.index', 'uses' => 'EventController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.event.show', 'uses' => 'EventController@show']);
+            Route::get('create', ['as' => 'informasi.event.create', 'uses' => 'EventController@create']);
+            Route::post('store', ['as' => 'informasi.event.store', 'uses' => 'EventController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.event.edit', 'uses' => 'EventController@edit']);
+            Route::post('update/{id}', ['as' => 'informasi.event.update', 'uses' => 'EventController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.event.destroy', 'uses' => 'EventController@destroy']);
+        });
+
         Route::get('layanan', 'InformasiController@showLayanan')->name('informasi.layanan');
         Route::get('potensi', 'InformasiController@showPotensi')->name('informasi.potensi');
-        Route::get('event', 'InformasiController@showEvent')->name('informasi.event');
-        Route::get('faq', 'InformasiController@showFAQ')->name('informasi.faq');
+
         Route::get('kontak', 'InformasiController@showKontak')->name('informasi.kontak');
         Route::get('kalender', 'InformasiController@showKalender')->name('informasi.kalender');
     });
@@ -96,8 +128,28 @@ Route::namespace('Informasi')->group(function () {
  */
 Route::namespace('Profil')->group(function () {
     Route::group(['prefix' => 'profil'], function () {
-        Route::get('visi-misi', 'ProfilController@showVisiMisi')->name('profil.visi-misi');
-        Route::get('regulasi', 'ProfilController@showRegulasi')->name('profil.regulasi');
+
+        //Routes for Visi & Misi resources
+        Route::group(['prefix'=>'visi-misi'], function(){
+            Route::get('/', ['as' => 'profil.visi-misi.index', 'uses' => 'VisiMisiController@index']);
+            Route::get('show/{id}', ['as' => 'profil.visi-misi.show', 'uses' => 'VisiMisiController@show']);
+            Route::get('create', ['as' => 'profil.visi-misi.create', 'uses' => 'VisiMisiController@create']);
+            Route::post('store', ['as' => 'profil.visi-misi.store', 'uses' => 'VisiMisiController@store']);
+            Route::get('edit/{id}', ['as' => 'profil.visi-misi.edit', 'uses' => 'VisiMisiController@edit']);
+            Route::post('update/{id}', ['as' => 'profil.visi-misi.update', 'uses' => 'VisiMisiController@update']);
+            Route::delete('destroy/{id}', ['as' => 'profil.visi-misi.destroy', 'uses' => 'VisiMisiController@destroy']);
+        });
+
+        //Routes for Regulasi resources
+        Route::group(['prefix'=>'regulasi'], function(){
+            Route::get('/', ['as' => 'profil.regulasi.index', 'uses' => 'RegulasiController@index']);
+            Route::get('show/{id}', ['as' => 'profil.regulasi.show', 'uses' => 'RegulasiController@show']);
+            Route::get('create', ['as' => 'profil.regulasi.create', 'uses' => 'RegulasiController@create']);
+            Route::post('store', ['as' => 'profil.regulasi.store', 'uses' => 'RegulasiController@store']);
+            Route::get('edit/{id}', ['as' => 'profil.regulasi.edit', 'uses' => 'RegulasiController@edit']);
+            Route::post('update/{id}', ['as' => 'profil.regulasi.update', 'uses' => 'RegulasiController@update']);
+            Route::delete('destroy/{id}', ['as' => 'profil.regulasi.destroy', 'uses' => 'RegulasiController@destroy']);
+        });
     });
 });
 
