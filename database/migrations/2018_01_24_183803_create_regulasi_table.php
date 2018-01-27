@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProsedursTable extends Migration
+class CreateRegulasiTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateProsedursTable extends Migration
      */
     public function up()
     {
-        Schema::create('prosedurs', function (Blueprint $table) {
+        Schema::create('das_regulasi', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('judul_prosedur', 150);
-            $table->string('file_prosedur', 255);
+            $table->char('kecamatan_id',7);
+            $table->string('tipe_regulasi', 30);
+            $table->string('judul', 200);
+            $table->text('deskripsi');
+            $table->string('file_regulasi', 255);
             $table->timestamps();
         });
     }
@@ -28,6 +31,6 @@ class CreateProsedursTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('prosedurs');
+        Schema::dropIfExists('das_regulasi');
     }
 }

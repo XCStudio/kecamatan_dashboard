@@ -12,6 +12,8 @@ class Faq extends Model
      * @var array
      */
 
+    protected $table = 'das_faq';
+    
     protected $fillable = [
 
         'question',

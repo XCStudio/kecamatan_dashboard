@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Event extends Model
 {
     //
+    protected $table = 'das_events';
 
     protected $fillable = [
         'event_name',

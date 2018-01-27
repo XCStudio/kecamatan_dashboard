@@ -56,21 +56,23 @@ class Role extends Model
      */
     public static function getListPermission()
     {
-      $menus = Menu::where( 'is_active', true )->get();
-      $response = [];
-      foreach ($menus as $menu) {
-        $result = [
-          'name' => $menu->name,
-          'slug' => $menu->slug,
-          'parent_id' => $menu->parent_id,
-          'id' => $menu->id,
-          'url' => $menu->url
-        ];
+        $menus = Menu::where( 'is_active', true )->get();
+        
+        $response = [];
+        
+        foreach ($menus as $menu) {
+            $result = [
+              'name' => $menu->name,
+              'slug' => $menu->slug,
+              'parent_id' => $menu->parent_id,
+              'id' => $menu->id,
+              'url' => $menu->url
+            ];
+    
+            array_push( $response, $result );
+        }
 
-        array_push( $response, $result );
-      }
-
-      return $response;
+        return $response;
     }
 
     /**

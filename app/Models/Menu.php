@@ -13,7 +13,7 @@ class Menu extends Model
     /**
      * {@inheritDoc}
      */
-    protected $table = 'menus';
+    protected $table = 'das_menu';
 
     /**
      * {@inheritDoc}
