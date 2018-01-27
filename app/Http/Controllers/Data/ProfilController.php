@@ -16,8 +16,8 @@ class ProfilController extends Controller
      */
     public function index()
     {
-        $title = [ 'title' => 'Data Profil' ];
-        return view('Data.Profil.index', compact('title'));
+        $page_title = 'Profil' ;
+        return view('data.profil.index', compact('page_title'));
     }
 
 
@@ -43,7 +43,10 @@ class ProfilController extends Controller
      */
     public function create()
     {
-        //
+        $page_title = 'Buat Profil';
+        $page_description = '';
+        
+        return view('data.profil.create', compact('page_title', 'page_description'));
     }
 
     /**

@@ -19,11 +19,11 @@
 <section class="content container-fluid">
     <div class="box box-primary">
         <div class="box-header with-border">
-            <h3 class="box-title">Roles</h3>
+            <h3 class="box-title">Data {{ $page_title or "Page Title" }}</h3>
 
-            <div class="pull-right"><a href="{{ route('register') }}">
+            <div class="pull-right"><a href="{{ route('data.profil.create') }}">
                     <div class="pull-right">
-                        <button type="button" class="btn btn-primary btn-sm">Create New Role</button>
+                        <button type="button" class="btn btn-primary btn-sm">Buat Profil</button>
                     </div>
                 </a>
             </div>
