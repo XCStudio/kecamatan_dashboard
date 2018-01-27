@@ -58,7 +58,6 @@ class VisiMisiController extends Controller
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Visi & Misi gagal disimpan!!');
         }
-
     }
 
     /**

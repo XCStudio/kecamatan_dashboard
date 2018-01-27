@@ -16,9 +16,10 @@ class CreateRegulasisTable extends Migration
         Schema::create('regulasis', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('kecamatan_id');
-            $table->string('tipe_regulation', 30);
+            $table->string('tipe_regulasi', 30);
             $table->string('judul', 200);
             $table->text('deskripsi');
+            $table->string('file_regulasi', 255);
             $table->timestamps();
         });
     }

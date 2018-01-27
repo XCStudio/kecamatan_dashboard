@@ -26,7 +26,7 @@
     <label class="control-label col-md-3 col-sm-3 col-xs-12">Deskripsi <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
-        {!! Form::textarea('deskripsi', null,['class'=>'textarea', 'placeholder'=>'Misi Kecamatan', 'required'=>'required']) !!}
+        {!! Form::textarea('deskripsi', null,['class'=>'textarea', 'placeholder'=>'Deskripsi', 'required'=>'required']) !!}
     </div>
 </div>
 <div class="form-group">

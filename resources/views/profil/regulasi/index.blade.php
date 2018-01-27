@@ -47,12 +47,12 @@
                     <div class="box-footer clearfix">
                         <div class="pull-right">
                             @unless(!Sentinel::check())
-                                <a href="{{ route('profil.visi-misi.edit', $visiMisi->id) }}">
+                                <a href="{{ route('profil.regulasi.edit', $regulasi->id) }}">
                                     <button type="submit"
                                             class="btn btn-sm btn-primary">Ubah
                                     </button>
                                 </a>&nbsp;
-                                {!! Form::open(['method' => 'DELETE','route' => ['profil.visi-misi.destroy', $visiMisi->id],'style'=>'display:inline']) !!}
+                                {!! Form::open(['method' => 'DELETE','route' => ['profil.regulasi.destroy', $regulasi->id],'style'=>'display:inline']) !!}
 
                                 {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
 

@@ -43,7 +43,21 @@ class RegulasiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+         try {
+            request()->validate([
+                'kecamatan_id' => 'required|integer',
+                'tipe_regulasi' => 'required',
+                'judul' => 'required',
+                'deskripsi' => 'required'
+            ]);
+
+            $id = Regulasi::create($request->all())->id;
+
+
+            return redirect()->route('profil.regulasi.show', $id)->with('success', 'Regulasi berhasil disimpan!');
+        } catch (Exception $e) {
+            return back()->withInput()->with('error', 'Regulasi gagal disimpan!!');
+        }
     }
 
     /**
