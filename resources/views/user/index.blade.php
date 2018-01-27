@@ -18,7 +18,7 @@
 <div class="box box-primary">
 	<div class="box-header with-border">
 		<h3 class="box-title">User</h3>
-		<div class="pull-right"><a href="{{ route('setting.user.create') }}"><div class="pull-right"><button type="button" class="btn btn-primary btn-sm">Create New Role</button></div></a>
+		<div class="pull-right"><a href="{{ route('setting.user.create') }}"><div class="pull-right"><button type="button" class="btn btn-primary btn-sm">Create New User</button></div></a>
 		</div>
 	</div>
 	<div class="box-body">
