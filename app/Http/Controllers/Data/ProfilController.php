@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Data;
 
 use App\Models\Profil;
+use App\Models\Provinsi;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\DataTables;
@@ -23,7 +24,7 @@ class ProfilController extends Controller
 
     public function getDataProfil()
     {
-        return DataTables::of(Profil::all())
+        return DataTables::of(Profil::with(['Kecamatan', 'Kabupaten', 'Provinsi'])->get())
             ->addColumn( 'action', function ( $role ) {
                 $edit_url = route('data.profil.edit', $role->id );
                 $delete_url = route('data.profil.destroy', $role->id);
@@ -57,7 +58,23 @@ class ProfilController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Save Request
+        try{
+            $profil = new Profil($request->input());
+            request()->validate([
+                'provinsi_id' => 'required',
+                'kabupaten_id' => 'required',
+                'kecamatan_id' => 'required',
+                'alamat' => 'required',
+                'kode_pos' => 'required',
+                'email' => 'email',
+                'nama_camat' => 'required',
+            ]);
+            $profil->save();
+            return redirect()->route('data.profil.index')->with('success', 'Profil berhasil disimpan!');
+        }catch (Exception $e){
+            return back()->withInput()->with('error', 'Profil gagal disimpan!');
+        }
     }
 
     /**

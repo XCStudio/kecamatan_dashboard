@@ -20,16 +20,16 @@ class CreateProfilsTable extends Migration
             $table->char('kecamatan_id', 7);
             $table->string('alamat', 200);
             $table->char('kode_pos', 12);
-            $table->char('telepon', 15);
-            $table->string('email', 255);
-            $table->string('nama_camat', 150);
-            $table->string('sekretaris_camat', 150);
-            $table->string('kepsek_pemerintahan_umum', 150);
-            $table->string('kepsek_kesejahteraan_masyarakat', 150);
-            $table->string('kepsek_pemberdayaan_masyarakat', 150);
-            $table->string('kepsek_pelayanan_umum', 150);
-            $table->string('kepsek_trantib', 150);
-            $table->string('file_struktur_organisasi', 255);
+            $table->char('telepon', 15)->nullable(true);
+            $table->string('email', 255)->nullable(true);
+            $table->string('nama_camat', 150)->nullable(true);
+            $table->string('sekretaris_camat', 150)->nullable(true);
+            $table->string('kepsek_pemerintahan_umum', 150)->nullable(true);
+            $table->string('kepsek_kesejahteraan_masyarakat', 150)->nullable(true);
+            $table->string('kepsek_pemberdayaan_masyarakat', 150)->nullable(true);
+            $table->string('kepsek_pelayanan_umum', 150)->nullable(true);
+            $table->string('kepsek_trantib', 150)->nullable(true);
+            $table->string('file_struktur_organisasi', 255)->nullable(true);
             $table->timestamps();
         });
     }

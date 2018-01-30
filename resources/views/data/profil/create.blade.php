@@ -24,7 +24,7 @@
                  </div>--}}
                 <!-- /.box-header -->
 
-                        <!-- form start -->
+                <!-- form start -->
                 {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                 <div class="box-body">
@@ -68,11 +68,117 @@
 @push('scripts')
 <script>
     $(function () {
-        $('#provinsi_id').select2();
-        
-        $('#kabupaten_id').select2();
-        
-        $('#kecamatan_id').select2();
+        $('#provinsi_id').select2({
+            ajax: {
+                url: '/api/provinsi',
+                dataType: 'json',
+                delay: 200,
+                data: function (params) {
+                    return {
+                        q: params.term,
+                        page: params.page
+                    };
+                },
+                processResults: function (data, params) {
+                    params.page = params.page || 1;
+                    return {
+                        results: data.data,
+                        pagination: {
+                            more: (params.page * 10) < data.total
+                        }
+                    };
+                },
+                cache: true
+            },
+            minimumInputLength: 1,
+            templateResult: function (repo) {
+                if (repo.loading) return repo.nama;
+                var markup = repo.nama;
+                return markup;
+            },
+            templateSelection: function (repo) {
+                return repo.nama;
+            },
+            escapeMarkup: function (markup) {
+                return markup;
+            }
+
+        });
+
+
+        $('#kabupaten_id').select2({
+            ajax: {
+                url: '/api/kabupaten',
+                dataType: 'json',
+                delay: 200,
+                data: function (params) {
+                    return {
+                        q: params.term,
+                        page: params.page
+                    };
+                },
+                processResults: function (data, params) {
+                    params.page = params.page || 1;
+                    return {
+                        results: data.data,
+                        pagination: {
+                            more: (params.page * 10) < data.total
+                        }
+                    };
+                },
+                cache: true
+            },
+            minimumInputLength: 1,
+            templateResult: function (repo) {
+                if (repo.loading) return repo.nama;
+                var markup = repo.nama;
+                return markup;
+            },
+            templateSelection: function (repo) {
+                return repo.nama;
+            },
+            escapeMarkup: function (markup) {
+                return markup;
+            }
+
+        });
+
+        $('#kecamatan_id').select2({
+            ajax: {
+                url: '/api/kecamatan',
+                dataType: 'json',
+                delay: 200,
+                data: function (params) {
+                    return {
+                        q: params.term,
+                        page: params.page
+                    };
+                },
+                processResults: function (data, params) {
+                    params.page = params.page || 1;
+                    return {
+                        results: data.data,
+                        pagination: {
+                            more: (params.page * 10) < data.total
+                        }
+                    };
+                },
+                cache: true
+            },
+            minimumInputLength: 1,
+            templateResult: function (repo) {
+                if (repo.loading) return repo.nama;
+                var markup = repo.nama;
+                return markup;
+            },
+            templateSelection: function (repo) {
+                return repo.nama;
+            },
+            escapeMarkup: function (markup) {
+                return markup;
+            }
+
+        });
     })
 </script>
 @endpush

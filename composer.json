@@ -8,6 +8,7 @@
         "php": ">=7.0.0",
         "cartalyst/sentinel": "2.0.17",
         "cviebrock/eloquent-sluggable": "^4.3",
+        "doctrine/dbal": "^2.5",
         "fideloper/proxy": "~3.3",
         "guzzlehttp/guzzle": "^6.3",
         "laracasts/flash": "^3.0",
@@ -15,9 +16,9 @@
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
         "maatwebsite/excel": "~2.1.0",
+        "orangehill/iseed": "dev-master",
         "proengsoft/laravel-jsvalidation": "^2.0",
-        "yajra/laravel-datatables-oracle": "~8.",
-        "orangehill/iseed": "dev-master"
+        "yajra/laravel-datatables-oracle": "~8."
     },
     "require-dev": {
         "filp/whoops": "~2.0",

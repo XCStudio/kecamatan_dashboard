@@ -33,8 +33,12 @@
             <table class="table table-striped table-bordered" id="kecamatan-table">
                 <thead>
                 <tr>
-                    <th>Kode Kecamatan</th>
+                    <th>Kode</th>
                     <th>Nama Kecamatan</th>
+                    <th>Kabupaten</th>
+                    <th>Provinsi</th>
+                    <th>Nama Camat</th>
+                    <th>Sekretaris Camat</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -56,10 +60,15 @@
             serverSide: true,
             ajax: "{!! route( 'data.profil.getdata' ) !!}",
             columns: [
-                {data: 'kode_kecamatan', name: 'kode_kecamatan'},
-                {data: 'nama_kecamatan', name: 'nama_kecamatan'},
+                {data: 'kecamatan.id', name: 'id'},
+                {data: 'kecamatan.nama', name: 'kecamatan'},
+                {data: 'kabupaten.nama', name: 'kabupaten'},
+                {data: 'provinsi.nama', name: 'provinsi'},
+                {data: 'nama_camat', name: 'nama_camat'},
+                {data: 'sekretaris_camat', name: 'sekretaris_camat'},
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false}
-            ]
+            ],
+            order: [[0, 'desc']]
         });
     });
 </script>

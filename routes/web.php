@@ -172,3 +172,37 @@ Route::namespace('Data')->group(function (){
 
     });
 });
+
+/**
+ *
+ * Grouep Routing API Internal for Select2
+ */
+
+//Users JSON
+Route::get('/api/users',function(){
+    return \App\Models\User::where('first_name','LIKE','%'.request('q').'%')->paginate(10);
+});
+
+// Provinsi Select2
+Route::get('/api/provinsi',function(){
+    return \App\Models\Provinsi::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+});
+
+// Kabupaten Select2
+Route::get('/api/kabupaten',function(){
+    return \App\Models\Kabupaten::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+});
+
+// Kecamatan Select2
+Route::get('/api/kecamatan',function(){
+    return \App\Models\Kecamatan::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+});
+
+// Desa Select2
+Route::get('/api/desa',function(){
+    return \App\Models\Desa::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+});
+
+Route::get('/api/profil',function(){
+    return \App\Models\Profil::with('Kecamatan')->get();
+});
