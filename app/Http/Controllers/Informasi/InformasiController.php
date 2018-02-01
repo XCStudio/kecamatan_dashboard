@@ -28,7 +28,7 @@ class InformasiController extends Controller
         $data['page_title'] = 'Layanan Kecamatan';
         $data['page_description'] = 'Layanan Kecamatan';
 
-        return view('Informasi.layanan')->with($data);
+        return view('informasi.layanan')->with($data);
     }
 
     /**
@@ -40,7 +40,7 @@ class InformasiController extends Controller
         $data['page_title'] = 'Potensi Kecamatan';
         $data['page_description'] = 'Menampilkan Data Potensi Kecamatan';
 
-        return view('Informasi.potensi')->with($data);
+        return view('informasi.potensi')->with($data);
     }
 
     /**
@@ -76,7 +76,7 @@ class InformasiController extends Controller
         $data['page_title'] = 'Kontak Kecamatan ';
         //$data['page_description'] = 'Menampilkan Event Terdekat';
 
-        return view('Informasi.kontak')->with($data);
+        return view('informasi.kontak')->with($data);
     }
 
     /**
@@ -88,6 +88,6 @@ class InformasiController extends Controller
         $data['page_title'] = 'Kalender Kecamatan ';
         //$data['page_description'] = 'Menampilkan Event Terdekat';
 
-        return view('Informasi.kalender')->with($data);
+        return view('informasi.kalender')->with($data);
     }
 }
