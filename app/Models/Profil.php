@@ -42,4 +42,15 @@ class Profil extends Model
     {
         return $this->belongsTo(Provinsi::class, 'provinsi_id', 'id');
     }
+
+    public static function getProfilTanpaDataUmum()
+    {
+        $data_umums = DataUmum::get();
+        $ids = array();
+        foreach ($data_umums as $val){
+            $ids[] = $val->kecamatan_id;
+        }
+
+        return self::with('Kecamatan')->whereNotIn('kecamatan_id', $ids)->get();
+    }
 }

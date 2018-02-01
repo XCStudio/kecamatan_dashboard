@@ -1,6 +1,6 @@
 @extends('layouts.dashboard_template')
 
-@section('title') Data Profil @endsection
+@section('title') Data Umum @endsection
 
 @section('content')
         <!-- Content Header (Page header) -->
@@ -10,8 +10,8 @@
         <small>{{ $page_description or null }}</small>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">{{$page_title}}</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
     </ol>
 </section>
 
@@ -31,24 +31,27 @@
         <div class="box-header with-border">
             <h3 class="box-title">Data {{ $page_title or "Page Title" }}</h3>
 
-            <div class="pull-right"><a href="{{ route('data.profil.create') }}">
+            <div class="pull-right"><a href="{{ route('data.data-umum.create') }}">
                     <div class="pull-right">
-                        <button type="button" class="btn btn-primary btn-sm">Buat Profil</button>
+                        <button type="button" class="btn btn-primary btn-sm">Buat Data Umum</button>
                     </div>
                 </a>
             </div>
         </div>
         <div class="box-body">
             @include( 'flash::message' )
-            <table class="table table-striped table-bordered" id="kecamatan-table">
+            <table class="table table-striped table-bordered" id="data-umum-table">
                 <thead>
                 <tr>
                     <th>Kode</th>
                     <th>Nama Kecamatan</th>
-                    <th>Kabupaten</th>
-                    <th>Provinsi</th>
-                    <th>Nama Camat</th>
-                    <th>Sekretaris Camat</th>
+                    <th>Tipologi</th>
+                    <th>Luas m<sup>2</sup></th>
+                    <th>Jml Penduduk</th>
+                    <th>Batas Wil Utara</th>
+                    <th>Batas Wil Timur</th>
+                    <th>Batas Wil Selatan</th>
+                    <th>Batas Wil Barat</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -65,17 +68,20 @@
 @push('scripts')
 <script type="text/javascript">
     $(document).ready(function () {
-        var data = $('#kecamatan-table').DataTable({
+        var data = $('#data-umum-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: "{!! route( 'data.profil.getdata' ) !!}",
+            ajax: "{!! route( 'data.data-umum.getdata' ) !!}",
             columns: [
-                {data: 'kecamatan.id', name: 'id'},
+                {data: 'kecamatan_id', name: 'id'},
                 {data: 'kecamatan.nama', name: 'kecamatan'},
-                {data: 'kabupaten.nama', name: 'kabupaten'},
-                {data: 'provinsi.nama', name: 'provinsi'},
-                {data: 'nama_camat', name: 'nama_camat'},
-                {data: 'sekretaris_camat', name: 'sekretaris_camat'},
+                {data: 'tipologi', name: 'tipologi'},
+                {data: 'luas_wilayah', name: 'luas_wilayah'},
+                {data: 'jumlah_penduduk', name: 'jumlah_penduduk'},
+                {data: 'bts_wil_utara', name: 'bts_wil_utara'},
+                {data: 'bts_wil_timur', name: 'bts_wil_timur'},
+                {data: 'bts_wil_selatan', name: 'bts_wil_selatan'},
+                {data: 'bts_wil_barat', name: 'bts_wil_barat'},
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false}
             ],
             order: [[0, 'desc']]

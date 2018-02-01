@@ -25,7 +25,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                {!! Form::open( [ 'route' => 'data.data-umum.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                 <div class="box-body">
 
@@ -41,14 +41,14 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('data.profil.form')
+                    @include('data.data_umum.form')
 
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
                     <div class="form-group">
                         <div class="col-md-8 col-md-offset-9">
-                            <a href="{{ route('data.profil.index') }}">
+                            <a href="{{ route('data.data-umum.index') }}">
                                 <button type="button" class="btn btn-default btn-sm">Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
@@ -68,15 +68,6 @@
 @push('scripts')
 <script>
     $(function () {
-        $('#provinsi_id').select2({
-            placeholder: "Pilih Provinsi",
-            allowClear: true
-        });
-
-        $('#kabupaten_id').select2({
-            placeholder: "Pilih Kabupaten",
-            allowClear: true
-        });
 
         $('#kecamatan_id').select2({
             placeholder: "Pilih Kecamatan",

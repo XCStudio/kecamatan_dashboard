@@ -160,6 +160,8 @@ Route::namespace('Profil')->group(function () {
 
 Route::namespace('Data')->group(function (){
     Route::group(['prefix' => 'data'], function () {
+
+        // Routes Resources Profil
         Route::group(['prefix' => 'profil'], function () {
             Route::get('getdata', ['as' => 'data.profil.getdata', 'uses' => 'ProfilController@getDataProfil']);
             Route::get('/', ['as' => 'data.profil.index', 'uses' => 'ProfilController@index']);
@@ -168,6 +170,18 @@ Route::namespace('Data')->group(function (){
             Route::get('edit/{id}', ['as' => 'data.profil.edit', 'uses' => 'ProfilController@edit']);
             Route::put('update/{id}', ['as' => 'data.profil.update', 'uses' => 'ProfilController@update']);
             Route::delete('destroy/{id}', ['as' => 'data.profil.destroy', 'uses' => 'ProfilController@destroy']);
+        });
+
+        //Routes Resource Data Umum
+        Route::group(['prefix' => 'data-umum'], function () {
+            Route::get('getdata', ['as' => 'data.data-umum.getdata', 'uses' => 'DataUmumController@getDataUmum']);
+            Route::get('/', ['as' => 'data.data-umum.index', 'uses' => 'DataUmumController@index']);
+            Route::get('create', ['as' => 'data.data-umum.create', 'uses' => 'DataUmumController@create']);
+            Route::post('store', ['as' => 'data.data-umum.store', 'uses' => 'DataUmumController@store']);
+            Route::get('show/{id}', ['as' => 'data.data-umum.show', 'uses' => 'DataUmumController@show']);
+            Route::get('edit/{id}', ['as' => 'data.data-umum.edit', 'uses' => 'DataUmumController@edit']);
+            Route::put('update/{id}', ['as' => 'data.data-umum.update', 'uses' => 'DataUmumController@update']);
+            Route::delete('destroy/{id}', ['as' => 'data.data-umum.destroy', 'uses' => 'DataUmumController@destroy']);
         });
 
     });

@@ -17,7 +17,7 @@ class ProfilController extends Controller
      */
     public function index()
     {
-        $page_title = 'Profil' ;
+        $page_title = 'Profil';
         return view('data.profil.index', compact('page_title'));
     }
 
@@ -25,11 +25,11 @@ class ProfilController extends Controller
     public function getDataProfil()
     {
         return DataTables::of(Profil::with(['Kecamatan', 'Kabupaten', 'Provinsi'])->get())
-            ->addColumn( 'action', function ( $role ) {
-                $edit_url = route('data.profil.edit', $role->id );
+            ->addColumn('action', function ($role) {
+                $edit_url = route('data.profil.edit', $role->id);
                 $delete_url = route('data.profil.destroy', $role->id);
 
-                $data['edit_url']   = $edit_url;
+                $data['edit_url'] = $edit_url;
                 $data['delete_url'] = $delete_url;
 
                 return view('forms.action', $data);
@@ -49,20 +49,19 @@ class ProfilController extends Controller
         $profil = new Profil();
 
 
-
         return view('data.profil.create', compact('page_title', 'page_description', 'profil'));
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
         // Save Request
-        try{
+        try {
             $profil = new Profil($request->input());
             request()->validate([
                 'provinsi_id' => 'required',
@@ -75,7 +74,7 @@ class ProfilController extends Controller
             ]);
             $profil->save();
             return redirect()->route('data.profil.index')->with('success', 'Profil berhasil disimpan!');
-        }catch (Exception $e){
+        } catch (Exception $e) {
             return back()->withInput()->with('error', 'Profil gagal disimpan!');
         }
     }
@@ -83,7 +82,7 @@ class ProfilController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -94,14 +93,14 @@ class ProfilController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
         $profil = Profil::findOrFail($id);
         $page_title = 'Ubah';
-        $page_description = 'Ubah Profil: '.$profil->kecamatan->nama;
+        $page_description = 'Ubah Profil: ' . $profil->kecamatan->nama;
 
 
         return view('data.profil.edit', compact('page_title', 'page_description', 'profil'));
@@ -110,8 +109,8 @@ class ProfilController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -138,7 +137,7 @@ class ProfilController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

@@ -61,8 +61,8 @@ use Illuminate\Support\Facades\URL;
               </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li {{ (Request::is(['data/profil'])? 'class=active' : '') }}><a href="{{ route('data.profil.index') }}"><i class="fa fa-circle-o"></i>Profil</a></li>
-                    <li {{ (Request::is(['data/data-umum'])? 'class=active' : '') }}><a href="{{ URL::to('data/data-umum') }}"><i class="fa fa-circle-o"></i>Data Umum</a></li>
+                    <li {{ (Request::is(['data/profil/*', 'data/profil/index', 'data/profil'])? 'class=active' : '') }}><a href="{{ route('data.profil.index') }}"><i class="fa fa-circle-o"></i>Profil</a></li>
+                    <li {{ (Request::is(['data/data-umum/*', 'data/data-umum/index', 'data/data-umum'])? 'class=active' : '') }}><a href="{{ route('data.data-umum.index') }}"><i class="fa fa-circle-o"></i>Data Umum</a></li>
                     <li {{ (Request::is(['data/kependudukan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kependudukan') }}"><i class="fa fa-circle-o"></i>Kependudukan</a></li>
                     <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
                     <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>
