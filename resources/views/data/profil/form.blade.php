@@ -4,21 +4,46 @@
             <label class="control-label col-md-3 col-sm-3 col-xs-12">Provinsi <span class="required">*</span></label>
         
             <div class="col-md-6 col-sm-6 col-xs-12">
-               {!! Form::select('provinsi_id', [], null, ['class' => 'form-control', 'id' => 'provinsi_id', 'required']) !!}
+                <select name="provinsi_id" class="form-control" data-placeholder="Pilih Provinsi" id="provinsi_id">
+                    @foreach(\App\Models\Provinsi::all() as $provinsi)
+                        @if($provinsi->id == $profil->provinsi_id)
+                            <option value="{{ $provinsi->id }}" selected="true">{{ $provinsi->nama }}</option>
+                        @else
+                            <option value="{{ $provinsi->id }}">{{ $provinsi->nama }}</option>
+                        @endif
+                    @endforeach
+                </select>
+
             </div>
         </div>
         <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-12">Kabupaten <span class="required">*</span></label>
         
             <div class="col-md-6 col-sm-6 col-xs-12">
-               {!! Form::select('kabupaten_id', [], 'S', ['class' => 'form-control', 'id' => 'kabupaten_id', 'required' ]) !!}
+                <select name="kabupaten_id" class="form-control" data-placeholder="Pilih Kabupaten" id="kabupaten_id">
+                    @foreach(\App\Models\Kabupaten::all() as $kabupaten)
+                        @if($kabupaten->id == $profil->kabupaten_id)
+                            <option value="{{ $kabupaten->id }}" selected="true">{{ $kabupaten->nama }}</option>
+                        @else
+                            <option value="{{ $kabupaten->id }}">{{ $kabupaten->nama }}</option>
+                        @endif
+                    @endforeach
+                </select>
             </div>
         </div>
         <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-12">Kecamatan <span class="required">*</span></label>
         
             <div class="col-md-6 col-sm-6 col-xs-12">
-               {!! Form::select('kecamatan_id', [], 'S', ['class' => 'form-control', 'id' => 'kecamatan_id', 'required' ]) !!}
+                <select name="kecamatan_id" class="form-control" data-placeholder="Pilih Kecamatan" id="kecamatan_id">
+                    @foreach(\App\Models\Kecamatan::all() as $kecamatan)
+                        @if($kecamatan->id == $profil->kecamatan_id)
+                            <option value="{{ $kecamatan->id }}" selected="true">{{ $kecamatan->nama }}</option>
+                        @else
+                            <option value="{{ $kecamatan->id }}">{{ $kecamatan->nama }}</option>
+                        @endif
+                    @endforeach
+                </select>
             </div>
         </div>
         <div class="form-group">

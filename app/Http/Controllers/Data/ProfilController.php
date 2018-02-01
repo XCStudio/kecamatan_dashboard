@@ -46,8 +46,11 @@ class ProfilController extends Controller
     {
         $page_title = 'Buat Profil';
         $page_description = '';
-        
-        return view('data.profil.create', compact('page_title', 'page_description'));
+        $profil = new Profil();
+
+
+
+        return view('data.profil.create', compact('page_title', 'page_description', 'profil'));
     }
 
     /**
@@ -96,7 +99,12 @@ class ProfilController extends Controller
      */
     public function edit($id)
     {
-        //
+        $profil = Profil::findOrFail($id);
+        $page_title = 'Ubah';
+        $page_description = 'Ubah Profil: '.$profil->kecamatan->nama;
+
+
+        return view('data.profil.edit', compact('page_title', 'page_description', 'profil'));
     }
 
     /**
@@ -108,7 +116,23 @@ class ProfilController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        try {
+            request()->validate([
+                'provinsi_id' => 'required',
+                'kabupaten_id' => 'required',
+                'kecamatan_id' => 'required',
+                'alamat' => 'required',
+                'kode_pos' => 'required',
+                'email' => 'email',
+                'nama_camat' => 'required',
+            ]);
+
+            Profil::find($id)->update($request->all());
+
+            return redirect()->route('data.profil.index')->with('success', 'Update Profil sukses!');
+        } catch (Exception $e) {
+            return back()->withInput()->with('error', 'Update Profil gagal!');
+        }
     }
 
     /**
@@ -119,6 +143,13 @@ class ProfilController extends Controller
      */
     public function destroy($id)
     {
-        //
+        try {
+            Profil::findOrFail($id)->delete();
+
+            return redirect()->route('data.profil.index')->with('success', 'Profil sukses dihapus!');
+
+        } catch (Exception $e) {
+            return redirect()->route('data.profil.index')->with('error', 'Profil gagal dihapus!');
+        }
     }
 }

@@ -17,6 +17,16 @@
 
 <!-- Main content -->
 <section class="content container-fluid">
+    @if ($message = Session::get('success'))
+
+        <div class="alert alert-success">
+
+            <p>{{ $message }}</p>
+
+        </div>
+
+    @endif
+
     <div class="box box-primary">
         <div class="box-header with-border">
             <h3 class="box-title">Data {{ $page_title or "Page Title" }}</h3>

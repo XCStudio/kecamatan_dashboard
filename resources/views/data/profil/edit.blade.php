@@ -24,38 +24,41 @@
                  </div>--}}
                 <!-- /.box-header -->
 
-                <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
 
-                <div class="box-body">
+                    </div>
 
-                    @if (count($errors) > 0)
-                        <div class="alert alert-danger">
-                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
                     @endif
 
-                    @include( 'flash::message' )
-                    @include('data.profil.form')
+                            <!-- form start -->
+                    {!!  Form::model($profil, [ 'route' => ['data.profil.update', $profil->id], 'method' => 'put','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
-                </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-                    <div class="form-group">
-                        <div class="col-md-8 col-md-offset-9">
-                            <a href="{{ route('profil.visi-misi.index') }}">
-                                <button type="button" class="btn btn-default btn-sm">Batal</button>
-                            </a>
-                            <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                    <div class="box-body">
+
+
+                        @include( 'flash::message' )
+                        @include('data.profil.form')
+
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer">
+                        <div class="form-group">
+                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                <a href="{{ route('data.profil.index') }}">
+                                    <button type="button" class="btn btn-default btn-sm">Batal</button>
+                                </a>
+                                <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                {!! Form::close() !!}
+                    {!! Form::close() !!}
             </div>
         </div>
     </div>
@@ -64,6 +67,7 @@
 </section>
 <!-- /.content -->
 @endsection
+
 @include(('partials.asset_select2'))
 @push('scripts')
 <script>
