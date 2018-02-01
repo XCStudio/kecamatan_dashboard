@@ -8,7 +8,8 @@
                 <select name="kecamatan_id" class="form-control" data-placeholder="Pilih Kecamatan" id="kecamatan_id">
                     @foreach(\App\Models\Profil::getProfilTanpaDataUmum() as $profil)
                         @if($profil->kecamatan_id == $data_umum->kecamatan_id)
-                            <option value="{{ $profil->kecamatan_id }}" selected="true">{{ $profil->kecamatan->nama }}</option>
+                            <option value="{{ $profil->kecamatan_id }}"
+                                    selected="true">{{ $profil->kecamatan->nama }}</option>
                         @else
                             <option value="{{ $profil->kecamatan_id }}">{{ $profil->kecamatan->nama }}</option>
                         @endif
@@ -129,7 +130,8 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Pondok Bersalin <span class="required">*</span></label>
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">Pondok Bersalin <span
+                        class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_pondok_bersalin', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}
@@ -173,7 +175,8 @@
         <br>
         <legend>Jumlah Sarana Umum</legend>
         <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Masjid Besar <span class="required">*</span></label>
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">Masjid Besar <span
+                        class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_masjid_besar', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}
@@ -197,7 +200,8 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Balai Pertemuan <span class="required">*</span></label>
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">Balai Pertemuan <span
+                        class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_balai_pertemuan', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}

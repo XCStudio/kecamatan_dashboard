@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.profil.index')}}">Profil</a></li>
+        <li><a href="{{route('data.data-umum.index')}}">Data Umum</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -44,7 +44,7 @@
 
 
                         @include( 'flash::message' )
-                        @include('data.data_umum.form')
+                        @include('data.data_umum.form_edit')
 
                     </div>
                     <!-- /.box-body -->
