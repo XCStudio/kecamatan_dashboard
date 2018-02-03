@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\URL;
               </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li {{ (Request::is(['/','dashboard/', 'dashboard/profile'])? 'class=active' : '') }}><a href="{{ route('dashboard.profile') }}"><i class="fa fa-circle-o"></i>Profile</a></li>
+                    <li {{ (Request::is(['/','dashboard/', 'dashboard/profil'])? 'class=active' : '') }}><a href="{{ route('dashboard.profil') }}"><i class="fa fa-circle-o"></i>Profile</a></li>
                     <li {{ (Request::is(['dashboard/kependudukan'])? 'class=active' : '') }}><a href="{{ route('dashboard.kependudukan') }}"><i class="fa fa-circle-o"></i>Kependudukan</a></li>
                     <li {{ (Request::is(['dashboard/kesehatan'])? 'class=active' : '') }}><a href="{{ route('dashboard.kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
                     <li {{ (Request::is(['dashboard/pendidikan'])? 'class=active' : '') }}><a href="{{ route('dashboard.pendidikan') }}"><i class="fa fa-circle-o"></i>Pendidikan</a></li>
@@ -54,6 +54,7 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['profil/regulasi/*', 'profil/regulasi/index', 'profil/regulasi'])? 'class=active' : '') }}><a href="{{ route('profil.regulasi.index') }}"><i class="fa fa-circle-o"></i>Regulasi</a></li>
                 </ul>
             </li>
+            @if(! Sentinel::guest())
             <li class="treeview {{ (Request::is(['data/*'])? 'active' : '') }}">
                 <a href="#"><i class="fa fa-database"></i> <span>Data</span>
             <span class="pull-right-container">
@@ -81,6 +82,7 @@ use Illuminate\Support\Facades\URL;
 
                 </ul>
             </li>
+            @endif
         </ul>
 
         <!-- /.sidebar-menu -->

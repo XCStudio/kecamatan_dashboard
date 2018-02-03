@@ -30,10 +30,10 @@ class DataUmumController extends Controller
 
     public function getDataUmum()
     {
-        return DataTables::of(DataUmum::with(['Kecamatan'])->get())
-            ->addColumn( 'action', function ( $role ) {
-                $edit_url = route('data.data-umum.edit', $role->id );
-                $delete_url = route('data.data-umum.destroy', $role->id);
+        return DataTables::of(DataUmum::with(['Kecamatan'])->select(['id', 'kecamatan_id', 'tipologi', 'luas_wilayah', 'jumlah_penduduk','bts_wil_utara','bts_wil_timur','bts_wil_selatan','bts_wil_barat'])->get())
+            ->addColumn( 'action', function ( $row ) {
+                $edit_url = route('data.data-umum.edit', $row->id );
+                $delete_url = route('data.data-umum.destroy', $row->id);
 
                 $data['edit_url']   = $edit_url;
                 $data['delete_url'] = $delete_url;
@@ -42,6 +42,8 @@ class DataUmumController extends Controller
             })
             ->make();
     }
+
+
     /**
      * Show the form for creating a new resource.
      *

@@ -8,7 +8,7 @@
         <small>{{ $page_description or null }}</small>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
         <li><a href="{{route('data.profil.index')}}">Profil</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
@@ -25,7 +25,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left', 'enctype'=>"multipart/form-data" ] ) !!}
 
                 <div class="box-body">
 

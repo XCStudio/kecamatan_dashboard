@@ -9,7 +9,7 @@
         <small>{{ $page_description or null }}</small>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -97,10 +97,12 @@
                         </div>
 
                         <h3></h3>
+                        @unless(!Sentinel::check())
                         @if( $user->hasAccess([ 'vm.create' ]) )
                         <a href="{{route('profil.visi-misi.create')}}"
                            class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
                         @endif
+                        @endunless
                     </div>
 
                 </div>

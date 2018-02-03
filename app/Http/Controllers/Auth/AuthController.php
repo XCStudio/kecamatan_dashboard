@@ -38,7 +38,7 @@ class AuthController extends Controller
             }
 
             flash()->success('Login success! Welcome to Bali Tower admin page!');
-            return redirect()->route('dashboard.profile');
+            return redirect()->route('dashboard.profil');
         } catch (\Exception $e) {
             flash()->error('Error login!' . $e);
             return redirect()->back()->withInput();
@@ -54,7 +54,7 @@ class AuthController extends Controller
     public function logout()
     {
         Sentinel::logout();
-        return redirect()->route('dashboard.profile');
+        return redirect()->route('dashboard.profil');
     }
 
     /**

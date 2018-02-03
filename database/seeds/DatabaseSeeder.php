@@ -17,5 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RefKabupatenTableSeeder::class);
         $this->call(RefKecamatanTableSeeder::class);
         $this->call(RefDesaTableSeeder::class);
+        $this->call(DasDataUmumTableSeeder::class);
+        $this->call(DasProfilTableSeeder::class);
     }
 }

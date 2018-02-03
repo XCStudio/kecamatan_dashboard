@@ -10,7 +10,7 @@
         <small>{{ $page_description or null }}</small>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="{{route('dashboard.profile')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -80,6 +80,9 @@
             ],
             order: [[0, 'desc']]
         });
+
+        $.fn.dataTable.ext.errMode = 'throw';
+
     });
 </script>
 @include('forms.datatable-vertical')

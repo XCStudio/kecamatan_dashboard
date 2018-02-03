@@ -26,7 +26,7 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
     Route::get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@logout']);
 
     // Prefix URL for Setting
-    Route::group(['prefix' => 'setting'], function(){
+    Route::group(['prefix' => 'setting'], function () {
         // User Management
         Route::group(['prefix' => 'user'], function () {
             Route::get('getdata', ['as' => 'setting.user.getdata', 'uses' => 'User\UserController@getDataUser']);
@@ -61,11 +61,14 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
  * Group Routing for Dashboard
  */
 Route::namespace('Dashboard')->group(function () {
-    Route::get('/', 'DashboardController@showProfile')->name('dashboard.profile');
+    Route::get('/', 'DashboardProfilController@showProfile')->name('dashboard.profil');
 
     Route::group(['prefix' => 'dashboard'], function () {
-        Route::get('index', 'DashboardController@showProfile')->name('dashboard.profile');
-        Route::get('profile', 'DashboardController@showProfile')->name('dashboard.profile');
+        Route::get('index', 'DashboardProfilController@showProfile')->name('dashboard.profil');
+        Route::get('profil', 'DashboardProfilController@showProfile')->name('dashboard.profil');
+        Route::get('show-profil/{id}', 'DashboardProfilController@showProfilPartial')->name('dashboard.show-profil');
+
+
         Route::get('kependudukan', 'DashboardController@showKependudukan')->name('dashboard.kependudukan');
         Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');
         Route::get('pendidikan', 'DashboardController@showPendidikan')->name('dashboard.pendidikan');
@@ -83,7 +86,7 @@ Route::namespace('Informasi')->group(function () {
     Route::group(['prefix' => 'informasi'], function () {
 
         //Routes for prosedur resource
-        Route::group(['prefix'=>'prosedur'], function(){
+        Route::group(['prefix' => 'prosedur'], function () {
             Route::get('/', ['as' => 'informasi.prosedur.index', 'uses' => 'ProsedurController@index']);
             Route::get('show/{id}', ['as' => 'informasi.prosedur.show', 'uses' => 'ProsedurController@show']);
             Route::get('create', ['as' => 'informasi.prosedur.create', 'uses' => 'ProsedurController@create']);
@@ -94,7 +97,7 @@ Route::namespace('Informasi')->group(function () {
         });
 
         //Routes for FAQ resources
-        Route::group(['prefix'=>'faq'], function(){
+        Route::group(['prefix' => 'faq'], function () {
             Route::get('/', ['as' => 'informasi.faq.index', 'uses' => 'FaqController@index']);
             Route::get('show/{id}', ['as' => 'informasi.faq.show', 'uses' => 'FaqController@show']);
             Route::get('create', ['as' => 'informasi.faq.create', 'uses' => 'FaqController@create']);
@@ -105,7 +108,7 @@ Route::namespace('Informasi')->group(function () {
         });
 
         //Routes for Events resources
-        Route::group(['prefix'=>'event'], function(){
+        Route::group(['prefix' => 'event'], function () {
             Route::get('/', ['as' => 'informasi.event.index', 'uses' => 'EventController@index']);
             Route::get('show/{id}', ['as' => 'informasi.event.show', 'uses' => 'EventController@show']);
             Route::get('create', ['as' => 'informasi.event.create', 'uses' => 'EventController@create']);
@@ -130,7 +133,7 @@ Route::namespace('Profil')->group(function () {
     Route::group(['prefix' => 'profil'], function () {
 
         //Routes for Visi & Misi resources
-        Route::group(['prefix'=>'visi-misi'], function(){
+        Route::group(['prefix' => 'visi-misi'], function () {
             Route::get('/', ['as' => 'profil.visi-misi.index', 'uses' => 'VisiMisiController@index']);
             Route::get('show/{id}', ['as' => 'profil.visi-misi.show', 'uses' => 'VisiMisiController@show']);
             Route::get('create', ['as' => 'profil.visi-misi.create', 'uses' => 'VisiMisiController@create']);
@@ -141,7 +144,7 @@ Route::namespace('Profil')->group(function () {
         });
 
         //Routes for Regulasi resources
-        Route::group(['prefix'=>'regulasi'], function(){
+        Route::group(['prefix' => 'regulasi'], function () {
             Route::get('/', ['as' => 'profil.regulasi.index', 'uses' => 'RegulasiController@index']);
             Route::get('show/{id}', ['as' => 'profil.regulasi.show', 'uses' => 'RegulasiController@show']);
             Route::get('create', ['as' => 'profil.regulasi.create', 'uses' => 'RegulasiController@create']);
@@ -158,7 +161,7 @@ Route::namespace('Profil')->group(function () {
  *
  */
 
-Route::namespace('Data')->group(function (){
+Route::namespace('Data')->group(function () {
     Route::group(['prefix' => 'data'], function () {
 
         // Routes Resources Profil
@@ -193,31 +196,35 @@ Route::namespace('Data')->group(function (){
  */
 
 //Users JSON
-Route::get('/api/users',function(){
-    return \App\Models\User::where('first_name','LIKE','%'.request('q').'%')->paginate(10);
+Route::get('/api/users', function () {
+    return \App\Models\User::where('first_name', 'LIKE', '%' . request('q') . '%')->paginate(10);
 });
 
 // All Provinsi Select2
-Route::get('/api/provinsi',function(){
-    return \App\Models\Provinsi::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+Route::get('/api/provinsi', function () {
+    return \App\Models\Provinsi::where('nama', 'LIKE', '%' . strtoupper(request('q')) . '%')->paginate(10);
 });
 
 // All Kabupaten Select2
-Route::get('/api/kabupaten',function(){
-    return \App\Models\Kabupaten::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+Route::get('/api/kabupaten', function () {
+    return \App\Models\Kabupaten::where('nama', 'LIKE', '%' . strtoupper(request('q')) . '%')->paginate(10);
 });
 
 //  All Kecamatan Select2
-Route::get('/api/kecamatan',function(){
-    return \App\Models\Kecamatan::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+Route::get('/api/kecamatan', function () {
+    return \App\Models\Kecamatan::where('nama', 'LIKE', '%' . strtoupper(request('q')) . '%')->paginate(10);
 });
 
 // All Desa Select2
-Route::get('/api/desa',function(){
-    return \App\Models\Desa::where('nama','LIKE','%'.strtoupper(request('q')).'%')->paginate(10);
+Route::get('/api/desa', function () {
+    return \App\Models\Desa::where('nama', 'LIKE', '%' . strtoupper(request('q')) . '%')->paginate(10);
 });
 
 // All Profil Select2
-Route::get('/api/profil',function(){
-    return \App\Models\Profil::with('Kecamatan')->get();
+Route::get('/api/profil', function () {
+    return DB::table('das_profil')
+        ->join('ref_kecamatan', 'das_profil.kecamatan_id', '=', 'ref_kecamatan.id')
+        ->select('ref_kecamatan.id', 'ref_kecamatan.nama')
+        ->where('ref_kecamatan.nama', 'LIKE', '%' . strtoupper(request('q')) . '%')
+        ->paginate(10);
 });

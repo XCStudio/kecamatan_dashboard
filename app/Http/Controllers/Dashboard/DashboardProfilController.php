@@ -1,0 +1,36 @@
+<?php
+
+namespace App\Http\Controllers\Dashboard;
+
+use App\Models\Profil;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+class DashboardProfilController extends Controller
+{
+    //
+    /**
+     * Menampilkan Data Profil Kecamatan
+     **/
+
+    public function showProfile()
+    {
+        $profil = Profil::where(['id'=>1])->first();
+
+        $page_title = 'Profile Kecamatan';
+        $page_description= 'Profil Kecamatan';
+
+
+        return view('dashboard.profil.show_profil', compact('page_title', 'page_description', 'profil'));
+    }
+
+    public function showProfilPartial($id)
+    {
+        $profil = Profil::where(['kecamatan_id'=>$id])->first();
+        $page_title = 'Profile Kecamatan';
+        $page_description= 'Profil Kecamatan';
+        return view('dashboard.profil._profil_partial', compact('page_title', 'page_description', 'profil'));
+    }
+
+
+}

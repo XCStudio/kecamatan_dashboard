@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Dashboard;
+namespace App\Http\Controllers\dashboard;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class DashboardController extends Controller
+class dashboardController extends Controller
 {
     /**
      * Menampilkan Data Profil Kecamatan
@@ -16,7 +16,7 @@ class DashboardController extends Controller
         $data['page_title'] = 'Profile Kecamatan';
         $data['page_description'] = 'Profil Kecamatan';
 
-        return view('Dashboard.profile')->with($data);
+        return view('dashboard.profil')->with($data);
     }
 
     /**
@@ -27,7 +27,7 @@ class DashboardController extends Controller
         $data['page_title'] = 'Kependudukan';
         $data['page_description'] = 'Statistik Kependudukan';
 
-        return view('Dashboard.kependudukan')->with($data);
+        return view('dashboard.kependudukan')->with($data);
     }
 
 
@@ -39,7 +39,7 @@ class DashboardController extends Controller
         $data['page_title'] = 'Kesehatan';
         $data['page_description'] = 'Data Kesehatan';
 
-        return view('Dashboard.kesehatan')->with($data);
+        return view('dashboard.kesehatan')->with($data);
     }
 
     /**
@@ -50,7 +50,7 @@ class DashboardController extends Controller
         $data['page_title'] = 'Pendidikan';
         $data['page_description'] = 'Data Pendidikan';
 
-        return view('Dashboard.pendidikan')->with($data);
+        return view('dashboard.pendidikan')->with($data);
     }
 
     /**
@@ -61,7 +61,7 @@ class DashboardController extends Controller
         $data['page_title'] = 'Program Bantuan';
         $data['page_description'] = 'Data Program Bantuan';
 
-        return view('Dashboard.programBantuan')->with($data);
+        return view('dashboard.programBantuan')->with($data);
     }
 
     /**
@@ -72,7 +72,7 @@ class DashboardController extends Controller
         $data['page_title'] = 'Anggaran Dan realisasi Kecamatan';
         $data['page_description'] = 'Data Anggaran Dan realisasi Kecamatan';
 
-        return view('Dashboard.anggaranDanRealisasi')->with($data);
+        return view('dashboard.anggaranDanRealisasi')->with($data);
     }
 
     /**
@@ -83,6 +83,6 @@ class DashboardController extends Controller
         $data['page_title'] = 'APBDes';
         $data['page_description'] = 'Kecamatan';
 
-        return view('Dashboard.anggaranDesa')->with($data);
+        return view('dashboard.anggaranDesa')->with($data);
     }
 }

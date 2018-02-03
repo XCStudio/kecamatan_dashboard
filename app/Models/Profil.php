@@ -30,17 +30,17 @@ class Profil extends Model
 
     public function kecamatan()
     {
-        return $this->belongsTo(Kecamatan::class, 'kecamatan_id', 'id');
+        return $this->hasOne(Kecamatan::class, 'id', 'kecamatan_id');
     }
 
     public function kabupaten()
     {
-        return $this->belongsTo(Kabupaten::class, 'kabupaten_id', 'id');
+        return $this->hasOne(Kabupaten::class, 'id', 'kabupaten_id');
     }
 
     public function provinsi()
     {
-        return $this->belongsTo(Provinsi::class, 'provinsi_id', 'id');
+        return $this->hasOne(Provinsi::class, 'id', 'provinsi_id');
     }
 
     public static function getProfilTanpaDataUmum()
@@ -52,5 +52,10 @@ class Profil extends Model
         }
 
         return self::with('Kecamatan')->whereNotIn('kecamatan_id', $ids)->get();
+    }
+
+    public function dataUmum()
+    {
+        return $this->hasOne(DataUmum::class, 'kecamatan_id', 'kecamatan_id');
     }
 }
