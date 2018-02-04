@@ -30,13 +30,6 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <h3 class="box-title">Data {{ $page_title or "Page Title" }}</h3>
-
-            <div class="pull-right"><a href="{{ route('data.data-umum.create') }}">
-                    <div class="pull-right">
-                        <button type="button" class="btn btn-primary btn-sm">Buat Data Umum</button>
-                    </div>
-                </a>
-            </div>
         </div>
         <div class="box-body">
             @include( 'flash::message' )
@@ -70,7 +63,7 @@
     $(document).ready(function () {
         var data = $('#data-umum-table').DataTable({
             processing: true,
-            serverSide: true,
+            //serverSide: true,
             ajax: "{!! route( 'data.data-umum.getdata' ) !!}",
             columns: [
                 {data: 'kecamatan_id', name: 'id'},

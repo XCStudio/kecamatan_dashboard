@@ -67,7 +67,7 @@
     $(document).ready(function () {
         var data = $('#kecamatan-table').DataTable({
             processing: true,
-            serverSide: true,
+            //serverSide: true,
             ajax: "{!! route( 'data.profil.getdata' ) !!}",
             columns: [
                 {data: 'kecamatan.id', name: 'id'},

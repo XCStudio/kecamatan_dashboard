@@ -84,7 +84,7 @@ class ProfilController extends Controller
 
             if($profil->save())
                 DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.']);
-            return redirect()->route('data.profil.index')->with('success', 'Profil berhasil disimpan!');
+            return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Profil gagal disimpan!');
         }
@@ -110,6 +110,9 @@ class ProfilController extends Controller
     public function edit($id)
     {
         $profil = Profil::findOrFail($id);
+        if($profil->file_struktur_organisasi == ''){
+            $profil->file_struktur_organisasi = 'http://placehold.it/600x400';
+        }
         $page_title = 'Ubah';
         $page_description = 'Ubah Profil: ' . $profil->kecamatan->nama;
 
@@ -157,7 +160,7 @@ class ProfilController extends Controller
 
             $profil->update();
 
-            return redirect()->route('data.profil.index')->with('success', 'Update Profil sukses!');
+            return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Update Profil sukses!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Update Profil gagal!');
         }
@@ -179,5 +182,18 @@ class ProfilController extends Controller
         } catch (Exception $e) {
             return redirect()->route('data.profil.index')->with('error', 'Profil gagal dihapus!');
         }
+    }
+
+    /**
+     * Redirect to edit Data Umum if success
+     *
+     * @param  int $id
+     * @return \Illuminate\Http\Response
+     */
+    public function success($id)
+    {
+        $page_title = 'Konfirmasi?';
+        $page_description = '';
+        return view('data.profil.save_success', compact('id', 'page_title', 'page_description'));
     }
 }

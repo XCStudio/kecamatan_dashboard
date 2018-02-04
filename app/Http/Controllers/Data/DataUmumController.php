@@ -36,7 +36,6 @@ class DataUmumController extends Controller
                 $delete_url = route('data.data-umum.destroy', $row->id);
 
                 $data['edit_url']   = $edit_url;
-                $data['delete_url'] = $delete_url;
 
                 return view('forms.action', $data);
             })

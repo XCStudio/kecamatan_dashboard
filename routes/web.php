@@ -173,6 +173,7 @@ Route::namespace('Data')->group(function () {
             Route::get('edit/{id}', ['as' => 'data.profil.edit', 'uses' => 'ProfilController@edit']);
             Route::put('update/{id}', ['as' => 'data.profil.update', 'uses' => 'ProfilController@update']);
             Route::delete('destroy/{id}', ['as' => 'data.profil.destroy', 'uses' => 'ProfilController@destroy']);
+            Route::get('success/{id}', ['as' => 'data.profil.success', 'uses' => 'ProfilController@success']);
         });
 
         //Routes Resource Data Umum
