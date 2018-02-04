@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Models\Profil;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class DashboardProfilController extends Controller
@@ -15,13 +14,14 @@ class DashboardProfilController extends Controller
 
     public function showProfile()
     {
-        $profil = Profil::where(['id'=>1])->first();
+        $defaultProfil = Profil::$defaultProfil;
+        $profil = Profil::where(['kecamatan_id'=>$defaultProfil])->first();
 
         $page_title = 'Profile Kecamatan';
         $page_description= 'Profil Kecamatan';
 
 
-        return view('dashboard.profil.show_profil', compact('page_title', 'page_description', 'profil'));
+        return view('dashboard.profil.show_profil', compact('page_title', 'page_description', 'profil', 'defaultProfil'));
     }
 
     public function showProfilPartial($id)

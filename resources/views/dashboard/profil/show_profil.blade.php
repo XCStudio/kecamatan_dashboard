@@ -26,6 +26,7 @@
                         <label for="kecamatan" class="col-sm-2 control-label">Kecamatan</label>
 
                         <div class="col-sm-6">
+                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
                             <select class="form-control" id="kecamatan" name="kecamatan" onchange=""></select>
                         </div>
                     </div>
@@ -41,7 +42,7 @@
                 <div class="box box-primary">
                     <div class="box-body box-profil">
                         <h4 class="profil-username text-center">Kecamatan <span
-                                    id="kecamatantitle">{!! ucwords($profil->kecamatan->nama) !!} </span></h4>
+                                    id="kecamatantitle">{{ $profil->kecamatan->nama }} </span></h4>
                         <ul class="list-group list-group-unbordered">
                             <li class="list-group-item">
                                 <b>Luas wilayah</b> <a class="pull-right"
@@ -389,7 +390,7 @@
                                 </tr>
                                 </tbody>
                             </table>
-                            <div class="center"><img id="strukturpic" src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/struktur-aikmel.jpg"></div>
+                            <div class="center"><img id="strukturpic" src="{{ asset($profil->file_struktur_organisasi) }}"></div>
                         </div>
                         <!-- /.tab-pane -->
 
@@ -402,8 +403,9 @@
                             <div class="box-body no-padding">
                                 <div class="row">
                                     <div class="col-md-9 col-sm-8">
-                                        <img id="petakecamatan"
-                                             src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">
+                                       {{-- <img id="petakecamatan"
+                                             src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">--}}
+                                        {!! $profil->dataumum->embed_peta !!}
                                         <!-- /.col -->
                                     </div>
                                     <!-- /.row -->
@@ -463,6 +465,19 @@
             },
             escapeMarkup: function (markup) {
                 return markup;
+            },
+            initSelection: function(element, callback) {
+
+                //var id = $(element).val();
+                var id = $('#defaultProfil').val();
+                if (id !== "") {
+                    $.ajax("/api/profil-byid", {
+                        data: {id: id},
+                        dataType: "json"
+                    }).done(function (data) {
+                        callback(data);
+                    });
+                }
             }
         });
 

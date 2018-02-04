@@ -38,13 +38,13 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($profil, [ 'route' => ['data.profil.update', $profil->id], 'method' => 'put','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                    {!!  Form::model($profil, [ 'route' => ['data.profil.update', $profil->id], 'method' => 'put','id' => 'form-profil', 'class' => 'form-horizontal form-label-left', 'enctype'=>"multipart/form-data"] ) !!}
 
                     <div class="box-body">
 
 
                         @include( 'flash::message' )
-                        @include('data.profil.form')
+                        @include('data.profil.form_edit')
 
                     </div>
                     <!-- /.box-body -->
@@ -85,6 +85,22 @@
         $('#kecamatan_id').select2({
             placeholder: "Pilih Kecamatan",
             allowClear: true
+        });
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#showgambar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#file_struktur").change(function () {
+            readURL(this);
         });
     })
 </script>

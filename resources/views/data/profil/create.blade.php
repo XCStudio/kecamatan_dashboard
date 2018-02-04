@@ -41,7 +41,7 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('data.profil.form')
+                    @include('data.profil.form_create')
 
                 </div>
                 <!-- /.box-body -->
@@ -82,6 +82,25 @@
             placeholder: "Pilih Kecamatan",
             allowClear: true
         });
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#showgambar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#file_struktur").change(function () {
+            readURL(this);
+        });
+
     })
+
+
 </script>
 @endpush

@@ -352,7 +352,7 @@
                         </tr>
                         </tbody>
                     </table>
-                    <div class="center"><img id="strukturpic" src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/struktur-aikmel.jpg"></div>
+                    <div class="center"><img id="strukturpic" src="{{ asset($profil->file_struktur_organisasi) }}"></div>
                 </div>
                 <!-- /.tab-pane -->
 
@@ -365,8 +365,9 @@
                     <div class="box-body no-padding">
                         <div class="row">
                             <div class="col-md-9 col-sm-8">
-                                <img id="petakecamatan"
-                                     src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">
+                                {{--<img id="petakecamatan"
+                                     src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">--}}
+                                {!! $profil->dataumum->embed_peta !!}
                                 <!-- /.col -->
                             </div>
                             <!-- /.row -->

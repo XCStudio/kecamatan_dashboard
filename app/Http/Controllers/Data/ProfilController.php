@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\Data;
 
+use App\Models\DataUmum;
 use App\Models\Profil;
-use App\Models\Provinsi;
+use Faker\Provider\Image;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 use Yajra\DataTables\DataTables;
 
 class ProfilController extends Controller
@@ -72,7 +74,16 @@ class ProfilController extends Controller
                 'email' => 'email',
                 'nama_camat' => 'required',
             ]);
-            $profil->save();
+
+            if ($request->hasFile('file_struktur_organisasi')) {
+                $file       = $request->file('file_struktur_organisasi');
+                $fileName   = $file->getClientOriginalName();
+                $request->file('file_struktur_organisasi')->move("storage/profil/struktur_organisasi/", $fileName);
+                $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
+            }
+
+            if($profil->save())
+                DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id]);
             return redirect()->route('data.profil.index')->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Profil gagal disimpan!');
@@ -115,7 +126,25 @@ class ProfilController extends Controller
      */
     public function update(Request $request, $id)
     {
+
         try {
+            $profil = Profil::where('id', $id)->first();
+            $profil->fill($request->all());
+
+
+
+            if($request->file('file_struktur_organisasi') == "")
+            {
+                $profil->file_struktur_organisasi = $profil->file_struktur_organisasi;
+            }
+            else
+            {
+                $file       = $request->file('file_struktur_organisasi');
+                $fileName   = $file->getClientOriginalName();
+                $request->file('file_struktur_organisasi')->move("storage/profil/struktur_organisasi/", $fileName);
+                $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
+            }
+
             request()->validate([
                 'provinsi_id' => 'required',
                 'kabupaten_id' => 'required',
@@ -126,7 +155,7 @@ class ProfilController extends Controller
                 'nama_camat' => 'required',
             ]);
 
-            Profil::find($id)->update($request->all());
+            $profil->update();
 
             return redirect()->route('data.profil.index')->with('success', 'Update Profil sukses!');
         } catch (Exception $e) {

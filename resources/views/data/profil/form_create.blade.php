@@ -127,9 +127,11 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">File Struktur Organisasi <span class="required">*</span></label>
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">File Struktur Organisasi</label>
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <input type="file" name="file_struktur_organisasi" class="form-control" required>
+                <input type="file" id="file_struktur" name="file_struktur_organisasi" class="validate form-control" />
+                <br>
+                <img src="http://placehold.it/600x400" id="showgambar" style="max-width:200px;max-height:200px;float:left;" />
             </div>
         </div>
     </div>

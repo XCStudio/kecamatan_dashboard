@@ -32,7 +32,8 @@ class DataUmum extends Model
         'jml_gereja',
         'jml_pasar',
         'jml_balai_pertemuan',
-        'kepadatan_penduduk'
+        'kepadatan_penduduk',
+        'embed_peta'
     ];
 
 

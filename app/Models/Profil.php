@@ -7,7 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Profil extends Model
 {
-    //
+    // ID Kecamatan untuk default profil
+    public static $defaultProfil = '3213150';
+
     protected $table = 'das_profil';
     
     protected $fillable = [
