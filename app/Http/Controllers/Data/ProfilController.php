@@ -83,7 +83,7 @@ class ProfilController extends Controller
             }
 
             if($profil->save())
-                DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id]);
+                DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.']);
             return redirect()->route('data.profil.index')->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Profil gagal disimpan!');

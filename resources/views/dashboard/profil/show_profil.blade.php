@@ -11,8 +11,8 @@
         <small>{{ $page_description or null }}</small>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
+        <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li class="active">{{$page_title}}</li>
     </ol>
 </section>
 
@@ -41,8 +41,7 @@
                 <!-- profil Image -->
                 <div class="box box-primary">
                     <div class="box-body box-profil">
-                        <h4 class="profil-username text-center">Kecamatan <span
-                                    id="kecamatantitle">{{ $profil->kecamatan->nama }} </span></h4>
+                        <h4 class="profil-username text-center" >Kecamatan {{ ucwords(strtolower($profil->kecamatan->nama)) }}</h4>
                         <ul class="list-group list-group-unbordered">
                             <li class="list-group-item">
                                 <b>Luas wilayah</b> <a class="pull-right"
@@ -120,7 +119,7 @@
 
                         <p id="kontakdetail" style="font-size: 8pt;">
 
-                        <p style="text-align: center;"><strong>Kantor Camat {!! $profil->kecamatan->nama !!}<br></strong> {!! $profil->alamat !!}, {!! $profil->kode_pos !!}<br>Telp: {!! $profil->telepon !!}/e-mail: {!! $profil->email !!}</p></p><p>
+                        <p style="text-align: center;"><strong>Kantor Camat {{ ucwords(strtolower($profil->kecamatan->nama)) }}<br></strong> {!! $profil->alamat !!}, {!! $profil->kode_pos !!}<br>Telp: {!! $profil->telepon !!}/e-mail: {!! $profil->email !!}</p></p><p>
                         </p></div>
                     <!-- /.box-body -->
                 </div>
@@ -143,7 +142,7 @@
                                 <tbody>
                                 <tr>
                                     <th class="col-md-2">Nama Kecamatan</th>
-                                    <td class="col-md-9">: {!! ucwords($profil->kecamatan->nama) !!}</td>
+                                    <td class="col-md-9">: {{ ucwords(strtolower($profil->kecamatan->nama)) }}</td>
                                 </tr>
 
                                 <tr>
@@ -168,7 +167,7 @@
 
                                 <tr>
                                     <th class="col-md-2">Kabupaten/Kota</th>
-                                    <td class="col-md-9">: {!! ucwords($profil->kabupaten->nama) !!}</td>
+                                    <td class="col-md-9">: {!! ucwords(strtolower($profil->kabupaten->nama)) !!}</td>
                                 </tr>
 
                                 </tbody>
