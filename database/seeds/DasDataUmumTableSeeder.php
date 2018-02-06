@@ -43,9 +43,9 @@ class DasDataUmumTableSeeder extends Seeder
                 'jml_pasar' => 0,
                 'jml_balai_pertemuan' => 0,
                 'kepadatan_penduduk' => 0,
-                'embed_peta' => null,
+                'embed_peta' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126265.70213093884!2d116.44091936337398!3d-8.51848032847141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc35d51fb6c959%3A0xc404fc2927a19d57!2sAikmel%2C+East+Lombok+Regency%2C+West+Nusa+Tenggara!5e0!3m2!1sen!2sid!4v1517936372575" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>',
                 'created_at' => '2018-02-03 10:33:43',
-                'updated_at' => '2018-02-03 12:23:31',
+                'updated_at' => '2018-02-06 16:59:47',
             ),
             1 => 
             array (
@@ -73,9 +73,9 @@ class DasDataUmumTableSeeder extends Seeder
                 'jml_pasar' => 0,
                 'jml_balai_pertemuan' => 0,
                 'kepadatan_penduduk' => 200,
-                'embed_peta' => null,
+                'embed_peta' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126858.16262863619!2d107.79578994797686!3d-6.481403098377229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69375da9d006cf%3A0x401e8f1fc28d0a0!2sCipunagara%2C+Subang+Regency%2C+West+Java!5e0!3m2!1sen!2sid!4v1517936420294" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>',
                 'created_at' => '2018-02-03 13:21:21',
-                'updated_at' => '2018-02-03 13:21:21',
+                'updated_at' => '2018-02-06 17:00:32',
             ),
         ));
         
