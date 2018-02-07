@@ -19,5 +19,14 @@ class DatabaseSeeder extends Seeder
         $this->call(RefDesaTableSeeder::class);        
         $this->call(DasProfilTableSeeder::class);
 		$this->call(DasDataUmumTableSeeder::class);
+        $this->call(RefPekerjaanTableSeeder::class);
+        $this->call(RefAgamaTableSeeder::class);
+        $this->call(RefKawinTableSeeder::class);
+        $this->call(RefHubunganKeluargaTableSeeder::class);
+        $this->call(RefPendidikanTableSeeder::class);
+        $this->call(RefPendidikanKkTableSeeder::class);
+        $this->call(RefGolonganDarahTableSeeder::class);
+        $this->call(RefCaraKbTableSeeder::class);
+        $this->call(DasPendudukTableSeeder::class);
     }
 }

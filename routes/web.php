@@ -188,6 +188,18 @@ Route::namespace('Data')->group(function () {
             Route::delete('destroy/{id}', ['as' => 'data.data-umum.destroy', 'uses' => 'DataUmumController@destroy']);
         });
 
+        //Routes Resource Penduduk
+        Route::group(['prefix' => 'penduduk'], function () {
+            Route::get('getdata', ['as' => 'data.penduduk.getdata', 'uses' => 'PendudukController@getPenduduk']);
+            Route::get('/', ['as' => 'data.penduduk.index', 'uses' => 'PendudukController@index']);
+            Route::get('create', ['as' => 'data.penduduk.create', 'uses' => 'PendudukController@create']);
+            Route::post('store', ['as' => 'data.penduduk.store', 'uses' => 'PendudukController@store']);
+            Route::get('show/{id}', ['as' => 'data.penduduk.show', 'uses' => 'PendudukController@show']);
+            Route::get('edit/{id}', ['as' => 'data.penduduk.edit', 'uses' => 'PendudukController@edit']);
+            Route::put('update/{id}', ['as' => 'data.penduduk.update', 'uses' => 'PendudukController@update']);
+            Route::delete('destroy/{id}', ['as' => 'data.penduduk.destroy', 'uses' => 'PendudukController@destroy']);
+        });
+
     });
 });
 
