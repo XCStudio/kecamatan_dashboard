@@ -402,10 +402,10 @@
                             <div class="box-body no-padding">
                                 <div class="row">
                                     <div class="col-md-9 col-sm-8">
-                                       {{-- <img id="petakecamatan"
-                                             src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">--}}
+                                        {{-- <img id="petakecamatan"
+                                              src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">--}}
                                         {!! $profil->dataumum->embed_peta !!}
-                                        <!-- /.col -->
+                                                <!-- /.col -->
                                     </div>
                                     <!-- /.row -->
                                 </div>
