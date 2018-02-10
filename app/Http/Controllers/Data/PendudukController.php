@@ -71,7 +71,7 @@ class PendudukController extends Controller
     {
         // Save Request
         try {
-            $penduduk= new Penduduk($request->all());
+            $penduduk = new Penduduk($request->all());
             $penduduk->id_rtm = 0;
             $penduduk->rtm_level = 0;
             $penduduk->pendidikan_id = 0;
@@ -94,14 +94,14 @@ class PendudukController extends Controller
                 'dokumen_pasport' => 'required',
                 'dokumen_kitas' => 'required',
                 'akta_lahir' => 'required',
-                'tanggal_akhir_pasport' =>'required',
+                'tanggal_akhir_pasport' => 'required',
             ]);
 
             if ($request->hasFile('foto')) {
-                $file       = $request->file('foto');
-                $fileName   = $file->getClientOriginalName();
+                $file = $request->file('foto');
+                $fileName = $file->getClientOriginalName();
                 $request->file('foto')->move("storage/penduduk/foto/", $fileName);
-                $penduduk->foto = 'storage/penduduk/foto/'.$fileName;
+                $penduduk->foto = 'storage/penduduk/foto/' . $fileName;
             }
 
             $penduduk->save();
@@ -132,7 +132,7 @@ class PendudukController extends Controller
     public function edit($id)
     {
         $penduduk = Penduduk::findOrFail($id);
-        if($penduduk->foto == ''){
+        if ($penduduk->foto == '') {
             $penduduk->file_struktur_organisasi = 'http://placehold.it/120x150';
         }
         $page_title = 'Ubah';
@@ -171,22 +171,19 @@ class PendudukController extends Controller
                 'dokumen_pasport' => 'required',
                 'dokumen_kitas' => 'required',
                 'akta_lahir' => 'required',
-                'tanggal_akhir_pasport' =>'required',
+                'tanggal_akhir_pasport' => 'required',
             ]);
 
-            if($request->file('foto') == "")
-            {
+            if ($request->file('foto') == "") {
                 $penduduk->foto = $penduduk->foto;
-            }
-            else
-            {
-                $file       = $request->file('foto');
-                $fileName   = $file->getClientOriginalName();
+            } else {
+                $file = $request->file('foto');
+                $fileName = $file->getClientOriginalName();
                 $request->file('foto')->move("storage/penduduk/foto/", $fileName);
-                $penduduk->foto = 'storage/penduduk/foto/'.$fileName;
+                $penduduk->foto = 'storage/penduduk/foto/' . $fileName;
             }
 
-                $penduduk->update();
+            $penduduk->update();
 
 
             return redirect()->route('data.penduduk.index')->with('success', 'Penduduk berhasil disimpan!');

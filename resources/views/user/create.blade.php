@@ -9,7 +9,7 @@
 	</h1>
 	<ol class="breadcrumb">
 		<li><a href="#"><i class="fa fa-dashboard"></i> Administrator</a></li>
-		<li><a href="#">User</a></li>
+		<li><a href="{{route('setting.user.index')}}">User</a></li>
 		<li class="active">Create</li>
 	</ol>
 </section>

@@ -5,7 +5,7 @@
             <label class="control-label col-sm-4">Foto</label>
 
             <div class="col-sm-8">
-                <img src="{{ asset($penduduk->foto) }}" id="showgambar"
+                <img src="@if(! $penduduk->foto == '') {{ asset($penduduk->foto) }} @else {{ "http://placehold.it/120x150" }} @endif" id="showgambar"
                      style="max-width:120px;max-height:150px;float:left;"/>
             </div>
         </div>
