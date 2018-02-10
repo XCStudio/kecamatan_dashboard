@@ -4,10 +4,8 @@ namespace App\Http\Controllers\Data;
 
 use App\Models\DataUmum;
 use App\Models\Profil;
-use Faker\Provider\Image;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Storage;
 use Yajra\DataTables\DataTables;
 
 class ProfilController extends Controller
@@ -27,9 +25,9 @@ class ProfilController extends Controller
     public function getDataProfil()
     {
         return DataTables::of(Profil::with(['Kecamatan', 'Kabupaten', 'Provinsi'])->get())
-            ->addColumn('action', function ($role) {
-                $edit_url = route('data.profil.edit', $role->id);
-                $delete_url = route('data.profil.destroy', $role->id);
+            ->addColumn('action', function ($data) {
+                $edit_url = route('data.profil.edit', $data->id);
+                $delete_url = route('data.profil.destroy', $data->id);
 
                 $data['edit_url'] = $edit_url;
                 $data['delete_url'] = $delete_url;

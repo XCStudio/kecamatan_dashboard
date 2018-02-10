@@ -9,21 +9,14 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">Kumpulan Prosedur</li>
+        <li class="active">{!! $page_title !!}</li>
     </ol>
 </section>
 
 <!-- Main content -->
 <section class="content container-fluid">
-    @if ($message = Session::get('success'))
 
-        <div class="alert alert-success">
-
-            <p>{{ $message }}</p>
-
-        </div>
-
-    @endif
+    @include('partials.flash_message')
 
     <div class="row">
         <div class="col-md-8">
@@ -51,15 +44,15 @@
                                         @if (! Sentinel::guest())
                                             <td>
                                                 <div class="pull-right">
-                                                    <a class="btn btn-sm btn-info"
-                                                       href="{{ route('informasi.prosedur.show',$prosedur->id) }}">Lihat</a>
+                                                    <a class="btn btn-info btn-xs"
+                                                       href="{{ route('informasi.prosedur.show',$prosedur->id) }}"><i class="fa fa-search fa-fw"></i> Lihat</a>
 
                                                     {{--<a class="btn btn-xs btn-primary"
                                                        href="{{ route('informasi.prosedur.edit',$prosedur->id) }}">Ubah</a>--}}
 
                                                     {!! Form::open(['method' => 'DELETE','route' => ['informasi.prosedur.destroy', $prosedur->id],'style'=>'display:inline']) !!}
 
-                                                    {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
+                                                    <button type="submit" class="btn btn-icon btn-danger btn-xs" onclick="return confirm('Yakin akan menghapus data tersebut?')"><i class="fa fa-trash" aria-hidden="true"></i> Hapus</button>
 
                                                     {!! Form::close() !!}
                                                 </div>

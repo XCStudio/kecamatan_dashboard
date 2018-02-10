@@ -19,15 +19,7 @@ use Carbon\Carbon;
 
 <!-- Main content -->
 <section class="content container-fluid">
-    @if ($message = Session::get('success'))
-
-        <div class="alert alert-success">
-
-            <p>{{ $message }}</p>
-
-        </div>
-
-    @endif
+    @include('partials.flash_message')
 
     <section class="content">
 

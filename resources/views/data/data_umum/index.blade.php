@@ -17,15 +17,7 @@
 
 <!-- Main content -->
 <section class="content container-fluid">
-    @if ($message = Session::get('success'))
-
-        <div class="alert alert-success">
-
-            <p>{{ $message }}</p>
-
-        </div>
-
-    @endif
+    @include('partials.flash_message')
 
     <div class="box box-primary">
         <div class="box-header with-border">
@@ -36,6 +28,7 @@
             <table class="table table-striped table-bordered" id="data-umum-table">
                 <thead>
                 <tr>
+                    <th style="max-width: 80px;">Aksi</th>
                     <th>Kode</th>
                     <th>Nama Kecamatan</th>
                     <th>Tipologi</th>
@@ -45,7 +38,6 @@
                     <th>Batas Wil Timur</th>
                     <th>Batas Wil Selatan</th>
                     <th>Batas Wil Barat</th>
-                    <th>Action</th>
                 </tr>
                 </thead>
             </table>
@@ -66,6 +58,7 @@
             //serverSide: true,
             ajax: "{!! route( 'data.data-umum.getdata' ) !!}",
             columns: [
+                {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'kecamatan_id', name: 'id'},
                 {data: 'kecamatan.nama', name: 'kecamatan'},
                 {data: 'tipologi', name: 'tipologi'},
@@ -75,7 +68,6 @@
                 {data: 'bts_wil_timur', name: 'bts_wil_timur'},
                 {data: 'bts_wil_selatan', name: 'bts_wil_selatan'},
                 {data: 'bts_wil_barat', name: 'bts_wil_barat'},
-                {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false}
             ],
             order: [[0, 'desc']]
         });

@@ -35,9 +35,9 @@ class PendudukController extends Controller
     public function getPenduduk()
     {
         return DataTables::of(Penduduk::with(['Pekerjaan', 'Kawin', 'Pendidikan_kk'])->select('*')->get())
-            ->addColumn('action', function ($row) {
-                $edit_url = route('data.penduduk.edit', $row->id);
-                $delete_url = route('data.penduduk.destroy', $row->id);
+            ->addColumn('action', function ($data) {
+                $edit_url = route('data.penduduk.edit', $data->id);
+                $delete_url = route('data.penduduk.destroy', $data->id);
 
                 $data['edit_url'] = $edit_url;
                 $data['delete_url'] = $delete_url;

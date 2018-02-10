@@ -17,15 +17,7 @@
 
 <!-- Main content -->
 <section class="content container-fluid">
-    @if ($message = Session::get('success'))
-
-        <div class="alert alert-success">
-
-            <p>{{ $message }}</p>
-
-        </div>
-
-    @endif
+    @include('partials.flash_message')
 
     <div class="box box-primary">
         <div class="box-header with-border">
@@ -43,7 +35,7 @@
             <table class="table table-striped table-bordered" id="penduduk-table">
                 <thead>
                 <tr>
-                    <th>Action</th>
+                    <th style="max-width: 80px;">Aksi</th>
                     <th>NIK</th>
                     <th>Nama</th>
                     <th>No. KK</th>
