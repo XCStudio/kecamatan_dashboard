@@ -245,10 +245,10 @@
         <legend>STATUS KAWIN</legend>
 
         <div class="form-group">
-            <label for="status_kawin" class="col-sm-4 control-label">Status Kawin<span class="required">*</span></label>
+            <label for="status_kawin" class="col-sm-4 control-label">Status Kawin</label>
 
             <div class="col-sm-8">
-                {!! Form::select('status_kawin', \App\Models\Kawin::pluck('nama', 'id'), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'status_kawin', 'required']) !!}
+                {!! Form::select('status_kawin', \App\Models\Kawin::pluck('nama', 'id'), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'status_kawin']) !!}
             </div>
         </div>
 
@@ -314,7 +314,7 @@
             <label for="cara_kb_id" class="col-sm-4 control-label">Cara KB</label>
 
             <div class="col-sm-8">
-                {!! Form::select('cara_kb_id', \App\Models\CaraKB::pluck('nama', 'id'), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'cara_kb_id', 'required']) !!}
+                {!! Form::select('cara_kb_id', \App\Models\CaraKB::pluck('nama', 'id'), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'cara_kb_id']) !!}
             </div>
         </div>
 

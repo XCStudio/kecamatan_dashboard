@@ -46,12 +46,12 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <div class="form-group">
-                        <div class="col-md-12">
+                    <div class="pull-right">
+                        <div class="control-group">
                             <a href="{{ route('data.penduduk.index') }}">
                                 <button type="button" class="btn btn-default btn-sm">Batal</button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm pull-right">Simpan</button>
+                            <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
                         </div>
                     </div>
                 </div>

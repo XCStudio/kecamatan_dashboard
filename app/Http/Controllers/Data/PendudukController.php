@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Data;
 
+use Doctrine\DBAL\Driver\Mysqli\MysqliException;
+use Doctrine\DBAL\Query\QueryException;
 use DummyFullModelClass;
 use App\Models\Penduduk;
 use Illuminate\Http\Request;
@@ -184,10 +186,11 @@ class PendudukController extends Controller
                 $penduduk->foto = 'storage/penduduk/foto/'.$fileName;
             }
 
+                $penduduk->update();
 
-            $penduduk->update();
+
             return redirect()->route('data.penduduk.index')->with('success', 'Penduduk berhasil disimpan!');
-        } catch (Exception $e) {
+        } catch (QueryException $e) {
             return back()->withInput()->with('error', 'Penduduk gagal disimpan!');
         }
     }
