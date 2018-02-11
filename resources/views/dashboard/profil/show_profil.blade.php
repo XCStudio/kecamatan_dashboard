@@ -434,7 +434,7 @@
             placeholder: "Select a state",
             allowClear: true,
             ajax: {
-                url: '/api/profil',
+                url: '{!! route('api.profil') !!}',
                 dataType: 'json',
                 delay: 200,
                 data: function (params) {
@@ -470,7 +470,7 @@
                 //var id = $(element).val();
                 var id = $('#defaultProfil').val();
                 if (id !== "") {
-                    $.ajax("/api/profil-byid", {
+                    $.ajax('{!! route('api.profil-byid') !!}', {
                         data: {id: id},
                         dataType: "json"
                     }).done(function (data) {
@@ -485,7 +485,7 @@
             console.log(data);
 
 
-            $.get('/dashboard/show-profil/' + data.id, function (data) {
+            $.get('{!! URL::to('/dashboard/show-profil/') !!}/' + data.id, function (data) {
                 $('#profil-kecamatan').html(data);
             });
         });

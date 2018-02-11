@@ -242,7 +242,7 @@ Route::get('/api/profil', function () {
         ->select('ref_kecamatan.id', 'ref_kecamatan.nama')
         ->where('ref_kecamatan.nama', 'LIKE', '%' . strtoupper(request('q')) . '%')
         ->paginate(10);
-});
+})->name('api.profil');
 
 // Profil By id
 Route::get('/api/profil-byid', function () {
@@ -250,4 +250,4 @@ Route::get('/api/profil-byid', function () {
         ->join('ref_kecamatan', 'das_profil.kecamatan_id', '=', 'ref_kecamatan.id')
         ->select('ref_kecamatan.id', 'ref_kecamatan.nama')
         ->where('ref_kecamatan.id', '=',  request('id'))->get();
-});
+})->name('api.profil-byid');
