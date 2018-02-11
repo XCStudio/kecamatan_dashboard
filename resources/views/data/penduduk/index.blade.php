@@ -29,7 +29,6 @@
             </div>
         </div>
         <div class="box-body">
-            @include( 'flash::message' )
             <table class="table table-striped table-bordered" id="penduduk-table">
                 <thead>
                 <tr>
@@ -80,14 +79,6 @@
             ],
             order: [[0, 'desc']]
         });
-
-        $.fn.dataTable.ext.errMode = 'throw';
-
-        data.columns(1).every( function () {
-            var data = this.data().eq(0);
-            //alert(data['tanggal_lahir']); // ... do something with data(), or this.nodes(), etc
-            console.log(data.column(1));
-        } );
     });
 </script>
 @include('forms.datatable-vertical')

@@ -33,7 +33,6 @@ class DataUmumController extends Controller
         return DataTables::of(DataUmum::with(['Kecamatan'])->select(['id', 'kecamatan_id', 'tipologi', 'luas_wilayah', 'jumlah_penduduk','bts_wil_utara','bts_wil_timur','bts_wil_selatan','bts_wil_barat'])->get())
             ->addColumn( 'action', function ( $data ) {
                 $edit_url = route('data.data-umum.edit', $data->id );
-                $delete_url = route('data.data-umum.destroy', $data->id);
 
                 $data['edit_url']   = $edit_url;
 

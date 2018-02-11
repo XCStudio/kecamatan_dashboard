@@ -46,12 +46,12 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <div class="form-group">
-                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                            <a href="{{ route('informasi.faq.index') }}">
-                                <button type="button" class="btn btn-default btn-sm">Batal</button>
+                    <div class="pull-right">
+                        <div class="control-group">
+                            <a href="{{ route('informasi.event.index') }}">
+                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
                         </div>
                     </div>
                 </div>

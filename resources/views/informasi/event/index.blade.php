@@ -57,7 +57,7 @@ use Carbon\Carbon;
 
                             <div class="timeline-footer">
                                 <div class="row">
-                                    <div class="col-md-9">
+                                    <div class="col-md-6">
                                         <?php
                                         $attendants = explode(',', trim($value->attendants));
                                         ?>
@@ -66,19 +66,21 @@ use Carbon\Carbon;
                                             <span class="label label-info">{{ ucfirst($attendant) }}</span>
                                         @endforeach
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-6">
                                         <div class="pull-right">
                                             @unless(!Sentinel::check())
-                                                <a href="{{ route('informasi.event.edit', $value->id) }}">
-                                                    <button type="submit"
-                                                            class="btn btn-sm btn-primary">Ubah
-                                                    </button>
-                                                </a>&nbsp;
-                                                {!! Form::open(['method' => 'DELETE','route' => ['informasi.event.destroy', $value->id],'style'=>'display:inline']) !!}
+                                                    <a href="{!! route('informasi.event.edit', $value->id) !!}" class="btn btn-xs btn-primary"
+                                                       title="Ubah" data-button="edit"><i class="fa fa-edit"></i> Ubah
+                                                    </a>
 
-                                                {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
-
-                                                {!! Form::close() !!}
+                                                    <a href="javascript:void(0)" class="" title="Hapus"
+                                                       data-href="{!! route('informasi.event.destroy', $value->id) !!}" data-button="delete"
+                                                       id="deleteModal">
+                                                        <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"
+                                                                                                                        aria-hidden="true"></i>
+                                                            Hapus
+                                                        </button>
+                                                    </a>
                                             @endunless
                                         </div>
                                     </div>
@@ -102,18 +104,17 @@ use Carbon\Carbon;
                 <div class="box box-primary limit-p-width">
                     <div class="box-body">
                         <div class="caption">
-                            <form class="form-horizontal">
+                           {{-- <form class="form-horizontal">
                                 <div class="input-group input-group-sm">
                                     <input class="form-control" type="text" name="cari" placeholder="Cari">
                                     <span class="input-group-btn">
                                       <button type="submit" class="btn btn-primary btn-flat">Cari</button>
                                     </span>
                                 </div>
-                            </form>
+                            </form>--}}
 
-                            <h3></h3>
                             <a href="{{route('informasi.event.create')}}"
-                               class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
+                               class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}"><i class="fa fa-plus"></i> Tambah Event</a>
                         </div>
 
                     </div>
@@ -127,3 +128,9 @@ use Carbon\Carbon;
 </section>
 <!-- /.content -->
 @endsection
+
+@push('scripts')
+
+@include('forms.delete-modal')
+
+@endpush

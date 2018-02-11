@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.faq.index')}}">Events</a></li>
+        <li><a href="{{route('informasi.prosedur.index')}}">Prosedur</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -26,7 +26,7 @@
 
                 @if (count($errors) > 0)
                     <div class="alert alert-danger">
-                        <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                        <strong>Oops!</strong> Ada kesalahan pada kolom inputan.<br><br>
                         <ul>
                             @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
@@ -37,21 +37,19 @@
 
                     @endif
 
-                            <!-- form start -->
-                    {!!  Form::model($event, [ 'route' => ['informasi.event.update', $event->id], 'method' => 'post','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                    <!-- form start -->
+                    {!!  Form::model($prosedur, [ 'route' => ['informasi.prosedur.update', $prosedur->id], 'method' => 'put','id' => 'form-event', 'class' => 'form-horizontal form-label-left', 'files'=>true ] ) !!}
 
                     <div class="box-body">
 
-
-                        @include( 'flash::message' )
-                        @include('informasi.event.form')
+                        @include('informasi.prosedur.form_edit')
 
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
                         <div class="pull-right">
                             <div class="control-group">
-                                <a href="{{ route('informasi.event.index') }}">
+                                <a href="{{ route('informasi.prosedur.index') }}">
                                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                                 </a>
                                 <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
@@ -68,21 +66,23 @@
 <!-- /.content -->
 @endsection
 
-@include(('partials.asset_wysihtml5'))
-@include(('partials.asset_datetimepicker'))
+@include(('partials.asset_select2'))
 @push('scripts')
 <script>
     $(function () {
-        // Replace the <textarea id="editor1"> with a CKEditor
-        //bootstrap WYSIHTML5 - text editor
-        $('.textarea').wysihtml5()
+        $('#provinsi_id').select2({
+            placeholder: "Pilih Provinsi",
+            allowClear: true
+        });
 
-        //Datetimepicker
-        $('.datetime').each(function () {
-            var $this = $(this);
-            $this.datetimepicker({
-                format: 'YYYY-MM-D HH:mm'
-            });
+        $('#kabupaten_id').select2({
+            placeholder: "Pilih Kabupaten",
+            allowClear: true
+        });
+
+        $('#kecamatan_id').select2({
+            placeholder: "Pilih Kecamatan",
+            allowClear: true
         });
     })
 </script>

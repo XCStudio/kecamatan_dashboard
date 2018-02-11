@@ -89,11 +89,13 @@ Route::namespace('Informasi')->group(function () {
         Route::group(['prefix' => 'prosedur'], function () {
             Route::get('/', ['as' => 'informasi.prosedur.index', 'uses' => 'ProsedurController@index']);
             Route::get('show/{id}', ['as' => 'informasi.prosedur.show', 'uses' => 'ProsedurController@show']);
+            Route::get('getdata', ['as' => 'informasi.prosedur.getdata', 'uses' => 'ProsedurController@getDataProsedur']);
             Route::get('create', ['as' => 'informasi.prosedur.create', 'uses' => 'ProsedurController@create']);
             Route::post('store', ['as' => 'informasi.prosedur.store', 'uses' => 'ProsedurController@store']);
             Route::get('edit/{id}', ['as' => 'informasi.prosedur.edit', 'uses' => 'ProsedurController@edit']);
             Route::put('update/{id}', ['as' => 'informasi.prosedur.update', 'uses' => 'ProsedurController@update']);
             Route::delete('destroy/{id}', ['as' => 'informasi.prosedur.destroy', 'uses' => 'ProsedurController@destroy']);
+            Route::get('download/{id}', ['as' => 'informasi.prosedur.download', 'uses' => 'ProsedurController@download']);
         });
 
         //Routes for FAQ resources
