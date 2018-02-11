@@ -25,7 +25,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left', 'enctype'=>"multipart/form-data" ] ) !!}
+                {!! Form::open( [ 'route' => 'data.profil.store', 'method' => 'post','id' => 'form-profil', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
 
                 <div class="box-body">
 
@@ -46,12 +46,12 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <div class="form-group">
-                        <div class="col-md-8 col-md-offset-9">
+                    <div class="pull-right">
+                        <div class="control-group">
                             <a href="{{ route('data.profil.index') }}">
-                                <button type="button" class="btn btn-default btn-sm">Batal</button>
+                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
                         </div>
                     </div>
                 </div>

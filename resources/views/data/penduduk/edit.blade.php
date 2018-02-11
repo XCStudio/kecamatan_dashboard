@@ -26,7 +26,7 @@
 
                 @if (count($errors) > 0)
                     <div class="alert alert-danger">
-                        <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                        <strong>Oops!</strong> Ada kesalahan pada kolom inputan.<br><br>
                         <ul>
                             @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
@@ -38,7 +38,7 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($penduduk, [ 'route' => ['data.penduduk.update', $penduduk->id], 'method' => 'put','id' => 'form-penduduk', 'class' => 'form-horizontal form-label-left', 'enctype'=>"multipart/form-data"] ) !!}
+                    {!!  Form::model($penduduk, [ 'route' => ['data.penduduk.update', $penduduk->id], 'method' => 'put','id' => 'form-penduduk', 'class' => 'form-horizontal form-label-left', 'files' => true] ) !!}
 
                     <div class="box-body">
 
@@ -52,9 +52,9 @@
                         <div class="pull-right">
                             <div class="control-group">
                                 <a href="{{ route('data.penduduk.index') }}">
-                                    <button type="button" class="btn btn-default btn-sm">Batal</button>
+                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                                 </a>
-                                <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                                <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
                             </div>
                         </div>
                     </div>

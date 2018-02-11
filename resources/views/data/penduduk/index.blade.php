@@ -21,12 +21,10 @@
 
     <div class="box box-primary">
         <div class="box-header with-border">
-            <h3 class="box-title">Data {{ $page_title or "Page Title" }}</h3>
 
-            <div class="pull-right"><a href="{{ route('data.penduduk.create') }}">
-                    <div class="pull-right">
-                        <button type="button" class="btn btn-primary btn-sm">Buat Penduduk</button>
-                    </div>
+            <div class="">
+                <a href="{{ route('data.penduduk.create') }}">
+                        <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Penduduk</button>
                 </a>
             </div>
         </div>
@@ -46,7 +44,7 @@
                     <th>Pendidikan dalam KK</th>
                     <th>Umur</th>
                     <th>Pekerjaan</th>
-                    <th>Kawin</th>
+                    <th>Status Kawin</th>
                 </tr>
                 </thead>
             </table>
@@ -64,7 +62,7 @@
     $(document).ready(function () {
         var data = $('#penduduk-table').DataTable({
             processing: true,
-            //serverSide: true,
+            serverSide: false,
             ajax: "{!! route( 'data.penduduk.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
@@ -76,7 +74,7 @@
                 {data: 'id_kk', name: 'rw'},
                 {data: 'id_kk', name: 'rt'},
                 {data: 'pendidikan_kk.nama', name: 'pendidikan_kk'},
-                {data: 'tanggal_lahir', name: 'umur'},
+                {data: 'tanggal_lahir', name: 'tanggal_lahir'},
                 {data: 'pekerjaan.nama', name: 'pekerjaan'},
                 {data: 'kawin.nama', name: 'kawin'},
             ],

@@ -1,6 +1,5 @@
 @extends('layouts.dashboard_template')
 
-@section('title') Data Profil @endsection
 
 @section('content')
         <!-- Content Header (Page header) -->
@@ -21,12 +20,9 @@
 
     <div class="box box-primary">
         <div class="box-header with-border">
-            <h3 class="box-title">Data {{ $page_title or "Page Title" }}</h3>
-
-            <div class="pull-right"><a href="{{ route('data.profil.create') }}">
-                    <div class="pull-right">
-                        <button type="button" class="btn btn-primary btn-sm">Buat Profil</button>
-                    </div>
+            <div class="">
+                <a href="{{ route('data.profil.create') }}">
+                    <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Profil</button>
                 </a>
             </div>
         </div>

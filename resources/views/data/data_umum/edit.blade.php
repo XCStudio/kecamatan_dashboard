@@ -49,12 +49,12 @@
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
-                        <div class="form-group">
-                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                        <div class="pull-right">
+                            <div class="control-group">
                                 <a href="{{ route('data.data-umum.index') }}">
-                                    <button type="button" class="btn btn-default btn-sm">Batal</button>
+                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                                 </a>
-                                <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                                <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
                             </div>
                         </div>
                     </div>

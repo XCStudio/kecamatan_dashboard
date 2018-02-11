@@ -18,7 +18,8 @@ class ProfilController extends Controller
     public function index()
     {
         $page_title = 'Profil';
-        return view('data.profil.index', compact('page_title'));
+        $page_description= 'Data Profil Kecamatan';
+        return view('data.profil.index', compact('page_title', 'page_description'));
     }
 
 
@@ -44,8 +45,8 @@ class ProfilController extends Controller
      */
     public function create()
     {
-        $page_title = 'Buat Profil';
-        $page_description = '';
+        $page_title = 'Tambah';
+        $page_description = 'Tambah Profil Kecamatan';
         $profil = new Profil();
 
 
@@ -112,7 +113,7 @@ class ProfilController extends Controller
             $profil->file_struktur_organisasi = 'http://placehold.it/600x400';
         }
         $page_title = 'Ubah';
-        $page_description = 'Ubah Profil: ' . $profil->kecamatan->nama;
+        $page_description = 'Ubah Profil Kecamatan: ' . ucwords(strtolower($profil->kecamatan->nama));
 
 
         return view('data.profil.edit', compact('page_title', 'page_description', 'profil'));

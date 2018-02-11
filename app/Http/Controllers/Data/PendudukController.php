@@ -35,14 +35,17 @@ class PendudukController extends Controller
     public function getPenduduk()
     {
         return DataTables::of(Penduduk::with(['Pekerjaan', 'Kawin', 'Pendidikan_kk'])->select('*')->get())
-            ->addColumn('action', function ($data) {
-                $edit_url = route('data.penduduk.edit', $data->id);
-                $delete_url = route('data.penduduk.destroy', $data->id);
+            ->addColumn('action', function ($row) {
+                $edit_url = route('data.penduduk.edit', $row->id);
+                $delete_url = route('data.penduduk.destroy', $row->id);
 
                 $data['edit_url'] = $edit_url;
                 $data['delete_url'] = $delete_url;
 
                 return view('forms.action', $data);
+            })
+            ->addColumn('tanggal_lahir', function ($row) {
+                return convert_born_date_to_age($row->tanggal_lahir);
             })->make();
     }
 
@@ -91,8 +94,6 @@ class PendudukController extends Controller
                 'pekerjaan_id' => 'required',
                 'status_kawin' => 'required',
                 'warga_negara_id' => 'required',
-                'dokumen_pasport' => 'required',
-                'dokumen_kitas' => 'required',
                 'akta_lahir' => 'required',
                 'tanggal_akhir_pasport' => 'required',
             ]);
@@ -136,7 +137,7 @@ class PendudukController extends Controller
             $penduduk->file_struktur_organisasi = 'http://placehold.it/120x150';
         }
         $page_title = 'Ubah';
-        $page_description = 'Ubah Penduduk: ' . $penduduk->nama;
+        $page_description = 'Ubah Penduduk: ' . ucwords(strtolower($penduduk->nama));
 
 
         return view('data.penduduk.edit', compact('page_title', 'page_description', 'penduduk'));
@@ -168,8 +169,6 @@ class PendudukController extends Controller
                 'pekerjaan_id' => 'required',
                 'status_kawin' => 'required',
                 'warga_negara_id' => 'required',
-                'dokumen_pasport' => 'required',
-                'dokumen_kitas' => 'required',
                 'akta_lahir' => 'required',
                 'tanggal_akhir_pasport' => 'required',
             ]);

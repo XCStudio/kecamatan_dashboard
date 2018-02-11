@@ -25,7 +25,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.penduduk.store', 'method' => 'post','id' => 'form-penduduk', 'class' => 'form-horizontal form-label-left', 'enctype'=>"multipart/form-data" ] ) !!}
+                {!! Form::open( [ 'route' => 'data.penduduk.store', 'method' => 'post','id' => 'form-penduduk', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
 
                 <div class="box-body">
 
@@ -40,7 +40,6 @@
                         </div>
                     @endif
 
-                    @include( 'flash::message' )
                     @include('data.penduduk.form_create')
 
                 </div>
@@ -49,9 +48,9 @@
                     <div class="pull-right">
                         <div class="control-group">
                             <a href="{{ route('data.penduduk.index') }}">
-                                <button type="button" class="btn btn-default btn-sm">Batal</button>
+                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
                         </div>
                     </div>
                 </div>
