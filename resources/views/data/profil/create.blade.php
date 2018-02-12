@@ -68,16 +68,6 @@
 @push('scripts')
 <script>
     $(function () {
-        $('#provinsi_id').select2({
-            placeholder: "Pilih Provinsi",
-            allowClear: true
-        });
-
-        $('#kabupaten_id').select2({
-            placeholder: "Pilih Kabupaten",
-            allowClear: true
-        });
-
         $('#kecamatan_id').select2({
             placeholder: "Pilih Kecamatan",
             allowClear: true

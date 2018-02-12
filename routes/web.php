@@ -98,6 +98,17 @@ Route::namespace('Informasi')->group(function () {
             Route::get('download/{id}', ['as' => 'informasi.prosedur.download', 'uses' => 'ProsedurController@download']);
         });
 
+        //Routes for Regulasi resources
+        Route::group(['prefix' => 'regulasi'], function () {
+            Route::get('/', ['as' => 'informasi.regulasi.index', 'uses' => 'RegulasiController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.regulasi.show', 'uses' => 'RegulasiController@show']);
+            Route::get('create', ['as' => 'informasi.regulasi.create', 'uses' => 'RegulasiController@create']);
+            Route::post('store', ['as' => 'informasi.regulasi.store', 'uses' => 'RegulasiController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.regulasi.edit', 'uses' => 'RegulasiController@edit']);
+            Route::post('update/{id}', ['as' => 'informasi.regulasi.update', 'uses' => 'RegulasiController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.regulasi.destroy', 'uses' => 'RegulasiController@destroy']);
+        });
+
         //Routes for FAQ resources
         Route::group(['prefix' => 'faq'], function () {
             Route::get('/', ['as' => 'informasi.faq.index', 'uses' => 'FaqController@index']);
@@ -145,16 +156,7 @@ Route::namespace('Profil')->group(function () {
             Route::delete('destroy/{id}', ['as' => 'profil.visi-misi.destroy', 'uses' => 'VisiMisiController@destroy']);
         });
 
-        //Routes for Regulasi resources
-        Route::group(['prefix' => 'regulasi'], function () {
-            Route::get('/', ['as' => 'profil.regulasi.index', 'uses' => 'RegulasiController@index']);
-            Route::get('show/{id}', ['as' => 'profil.regulasi.show', 'uses' => 'RegulasiController@show']);
-            Route::get('create', ['as' => 'profil.regulasi.create', 'uses' => 'RegulasiController@create']);
-            Route::post('store', ['as' => 'profil.regulasi.store', 'uses' => 'RegulasiController@store']);
-            Route::get('edit/{id}', ['as' => 'profil.regulasi.edit', 'uses' => 'RegulasiController@edit']);
-            Route::post('update/{id}', ['as' => 'profil.regulasi.update', 'uses' => 'RegulasiController@update']);
-            Route::delete('destroy/{id}', ['as' => 'profil.regulasi.destroy', 'uses' => 'RegulasiController@destroy']);
-        });
+
     });
 });
 
@@ -200,6 +202,20 @@ Route::namespace('Data')->group(function () {
             Route::get('edit/{id}', ['as' => 'data.penduduk.edit', 'uses' => 'PendudukController@edit']);
             Route::put('update/{id}', ['as' => 'data.penduduk.update', 'uses' => 'PendudukController@update']);
             Route::delete('destroy/{id}', ['as' => 'data.penduduk.destroy', 'uses' => 'PendudukController@destroy']);
+        });
+
+
+
+        //Routes Resource Layanan e-KTP
+        Route::group(['prefix' => 'proses-ektp'], function () {
+            Route::get('getdata', ['as' => 'data.proses-ektp.getdata', 'uses' => 'ProsesEKTPController@getDataProsesKTP']);
+            Route::get('/', ['as' => 'data.proses-ektp.index', 'uses' => 'ProsesEKTPController@index']);
+            Route::get('create', ['as' => 'data.proses-ektp.create', 'uses' => 'ProsesEKTPController@create']);
+            Route::post('store', ['as' => 'data.proses-ektp.store', 'uses' => 'ProsesEKTPController@store']);
+            Route::get('show/{id}', ['as' => 'data.proses-ektp.show', 'uses' => 'ProsesEKTPController@show']);
+            Route::get('edit/{id}', ['as' => 'data.proses-ektp.edit', 'uses' => 'ProsesEKTPController@edit']);
+            Route::put('update/{id}', ['as' => 'data.proses-ektp.update', 'uses' => 'ProsesEKTPController@update']);
+            Route::delete('destroy/{id}', ['as' => 'data.proses-ektp.destroy', 'uses' => 'ProsesEKTPController@destroy']);
         });
 
     });
@@ -251,3 +267,14 @@ Route::get('/api/profil-byid', function () {
         ->select('ref_kecamatan.id', 'ref_kecamatan.nama')
         ->where('ref_kecamatan.id', '=',  request('id'))->get();
 })->name('api.profil-byid');
+
+// All Penduduk Select2
+Route::get('/api/penduduk', function () {
+    return \App\Models\Penduduk::where('nama', 'LIKE', '%' . strtoupper(request('q')) . '%')->paginate(10);
+})->name('api.penduduk');
+
+// Penduduk By id
+Route::get('/api/penduduk-byid', function () {
+    return DB::table('das_penduduk')
+        ->where('id', '=', request('id'))->get();
+})->name('api.penduduk-byid');

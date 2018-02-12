@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Profil;
+namespace App\Http\Controllers\Informasi;
 
 use App\Models\Regulasi;
 use Illuminate\Http\Request;
@@ -19,7 +19,7 @@ class RegulasiController extends Controller
         $page_description = 'Kumpulan regulasi';
         $regulasi = Regulasi::find(1);
 
-        return view('profil.regulasi.index', compact('page_title', 'page_description', 'regulasi'));
+        return view('informasi.regulasi.index', compact('page_title', 'page_description', 'regulasi'));
     }
 
     /**
@@ -32,7 +32,7 @@ class RegulasiController extends Controller
         $page_title = 'Tambah';
         $page_description = 'Tambah baru Regulasi Kecamatan';
 
-        return view('profil.regulasi.create', compact('page_title', 'page_description'));
+        return view('informasi.regulasi.create', compact('page_title', 'page_description'));
     }
 
     /**
@@ -54,7 +54,7 @@ class RegulasiController extends Controller
             $id = Regulasi::create($request->all())->id;
 
 
-            return redirect()->route('profil.regulasi.show', $id)->with('success', 'Regulasi berhasil disimpan!');
+            return redirect()->route('informasi.regulasi.show', $id)->with('success', 'Regulasi berhasil disimpan!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Regulasi gagal disimpan!!');
         }

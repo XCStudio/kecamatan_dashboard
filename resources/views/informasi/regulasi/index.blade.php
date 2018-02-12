@@ -39,12 +39,12 @@
                     <div class="box-footer clearfix">
                         <div class="pull-right">
                             @unless(!Sentinel::check())
-                                <a href="{{ route('profil.regulasi.edit', $regulasi->id) }}">
+                                <a href="{{ route('informasi.regulasi.edit', $regulasi->id) }}">
                                     <button type="submit"
                                             class="btn btn-sm btn-primary">Ubah
                                     </button>
                                 </a>&nbsp;
-                                {!! Form::open(['method' => 'DELETE','route' => ['profil.regulasi.destroy', $regulasi->id],'style'=>'display:inline']) !!}
+                                {!! Form::open(['method' => 'DELETE','route' => ['informasi.regulasi.destroy', $regulasi->id],'style'=>'display:inline']) !!}
 
                                 {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
 
@@ -82,7 +82,7 @@
                         </div>
 
                         <h3></h3>
-                        <a href="{{route('profil.regulasi.create')}}"
+                        <a href="{{route('informasi.regulasi.create')}}"
                            class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
                     </div>
 

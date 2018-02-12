@@ -26,6 +26,9 @@
                 <a href="{{ route('data.penduduk.create') }}">
                         <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Penduduk</button>
                 </a>
+                <a href="{{ route('data.penduduk.index') }}">
+                        <button type="button" class="btn btn-warning btn-sm" title="Upload Data"><i class="fa fa-upload"></i> Unggah dari OpenSID</button>
+                </a>
             </div>
         </div>
         <div class="box-body">

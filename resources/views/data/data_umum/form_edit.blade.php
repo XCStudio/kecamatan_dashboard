@@ -5,16 +5,8 @@
             <label class="control-label col-md-4 col-sm-3 col-xs-12">Kecamatan <span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <select name="kecamatan_id" class="form-control" data-placeholder="Pilih Kecamatan" id="kecamatan_id">
-                    @foreach(\App\Models\Profil::with('Kecamatan')->get() as $profil)
-                        @if($profil->kecamatan_id == $data_umum->kecamatan_id)
-                            <option value="{{ $profil->kecamatan_id }}"
-                                    selected="true">{{ $profil->kecamatan->nama }}</option>
-                        @else
-                            <option value="{{ $profil->kecamatan_id }}">{{ $profil->kecamatan->nama }}</option>
-                        @endif
-                    @endforeach
-                </select>
+                {!! Form::hidden('kecamatan_id', $data_umum->kecamatan_id) !!}
+                {!! Form::text('kecamatan', $data_umum->kecamatan->nama, ['class'=>'form-control', 'disabled'=>true]) !!}
             </div>
         </div>
 

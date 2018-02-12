@@ -35,11 +35,11 @@ use Illuminate\Support\Facades\URL;
                 </a>
                 <ul class="treeview-menu">
                     <li {{ (Request::is(['informasi/prosedur/*', 'informasi/prosedur/index', 'informasi/prosedur'])? 'class=active' : '') }}><a href="{{ route('informasi.prosedur.index') }}"><i class="fa fa-circle-o"></i>Prosedur</a></li>
+                    <li {{ (Request::is(['informasi/regulasi/*', 'informasi/regulasi/index', 'informasi/regulasi'])? 'class=active' : '') }}><a href="{{ route('informasi.regulasi.index') }}"><i class="fa fa-circle-o"></i>Regulasi</a></li>
                     <li {{ (Request::is(['informasi/layanan'])? 'class=active' : '') }}><a href="{{ route('informasi.layanan') }}"><i class="fa fa-circle-o"></i>Layanan</a></li>
                     <li {{ (Request::is(['informasi/potensi'])? 'class=active' : '') }}><a href="{{ route('informasi.potensi') }}"><i class="fa fa-circle-o"></i>Potensi</a></li>
                     <li {{ (Request::is(['informasi/event/*', 'informasi/event/index', 'informasi/event'])? 'class=active' : '') }}><a href="{{ route('informasi.event.index') }}"><i class="fa fa-circle-o"></i>Event</a></li>
                     <li {{ (Request::is(['informasi/faq/*', 'informasi/faq/index', 'informasi/faq'])? 'class=active' : '') }}><a href="{{ route('informasi.faq.index') }}"><i class="fa fa-circle-o"></i>FAQ</a></li>
-                    <li {{ (Request::is(['informasi/kontak'])? 'class=active' : '') }}><a href="{{ route('informasi.kontak') }}"><i class="fa fa-circle-o"></i>Kontak</a></li>
                     <li {{ (Request::is(['informasi/kalender'])? 'class=active' : '') }}><a href="{{ route('informasi.kalender') }}"><i class="fa fa-circle-o"></i>Kalender</a></li>
                 </ul>
             </li>
@@ -51,7 +51,7 @@ use Illuminate\Support\Facades\URL;
                 </a>
                 <ul class="treeview-menu">
                     <li {{ (Request::is(['profil/visi-misi/*', 'profil/visi-misi/index', 'profil/visi-misi'])? 'class=active' : '') }}><a href="{{ route('profil.visi-misi.index') }}"><i class="fa fa-circle-o"></i>Visi & Misi</a></li>
-                    <li {{ (Request::is(['profil/regulasi/*', 'profil/regulasi/index', 'profil/regulasi'])? 'class=active' : '') }}><a href="{{ route('profil.regulasi.index') }}"><i class="fa fa-circle-o"></i>Regulasi</a></li>
+
                 </ul>
             </li>
             @if(! Sentinel::guest())
@@ -68,6 +68,9 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
                     <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>
                     <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a></li>
+
+                    <li {{ (Request::is(['data/proses-ektp/*', 'data/proses-ektp/index', 'data/proses-ektp'])? 'class=active' : '') }}><a href="{{ route('data.proses-ektp.index') }}"><i class="fa fa-circle-o"></i>Proses e-KTP</a></li>
+
                 </ul>
             </li>
             <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}">

@@ -65,8 +65,6 @@ class ProfilController extends Controller
         try {
             $profil = new Profil($request->input());
             request()->validate([
-                'provinsi_id' => 'required',
-                'kabupaten_id' => 'required',
                 'kecamatan_id' => 'required',
                 'alamat' => 'required',
                 'kode_pos' => 'required',
@@ -148,8 +146,6 @@ class ProfilController extends Controller
             }
 
             request()->validate([
-                'provinsi_id' => 'required',
-                'kabupaten_id' => 'required',
                 'kecamatan_id' => 'required',
                 'alamat' => 'required',
                 'kode_pos' => 'required',

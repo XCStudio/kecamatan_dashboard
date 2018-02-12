@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('profil.regulasi.index')}}">Regulasi</a></li>
+        <li><a href="{{route('informasi.regulasi.index')}}">Regulasi</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -25,7 +25,7 @@
                 <!-- /.box-header -->
 
                         <!-- form start -->
-                {!! Form::open( [ 'route' => 'profil.regulasi.store', 'method' => 'post','id' => 'form-regulasi', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                {!! Form::open( [ 'route' => 'informasi.regulasi.store', 'method' => 'post','id' => 'form-regulasi', 'class' => 'form-horizontal form-label-left' ] ) !!}
 
                 <div class="box-body">
 
@@ -41,14 +41,14 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('profil.regulasi.form')
+                    @include('informasi.regulasi.form')
 
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
                     <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                            <a href="{{ route('profil.regulasi.index') }}">
+                            <a href="{{ route('informasi.regulasi.index') }}">
                                 <button type="button" class="btn btn-default btn-sm">Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary btn-sm">Simpan</button>

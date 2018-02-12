@@ -25,7 +25,7 @@ class InformasiController extends Controller
 
     public function showLayanan()
     {
-        $data['page_title'] = 'Layanan Kecamatan';
+        $data['page_title'] = 'Layanan';
         $data['page_description'] = 'Layanan Kecamatan';
 
         return view('informasi.layanan')->with($data);

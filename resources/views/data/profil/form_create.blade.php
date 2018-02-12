@@ -1,37 +1,6 @@
 <div class="row">
     <div class="col-md-6">
         <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">Provinsi <span class="required">*</span></label>
-        
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <select name="provinsi_id" class="form-control" data-placeholder="Pilih Provinsi" id="provinsi_id">
-                    @foreach(\App\Models\Provinsi::all() as $provinsi)
-                        @if($provinsi->id == $profil->provinsi_id)
-                            <option value="{{ $provinsi->id }}" selected="true">{{ $provinsi->nama }}</option>
-                        @else
-                            <option value="{{ $provinsi->id }}">{{ $provinsi->nama }}</option>
-                        @endif
-                    @endforeach
-                </select>
-
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">Kabupaten <span class="required">*</span></label>
-        
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <select name="kabupaten_id" class="form-control" data-placeholder="Pilih Kabupaten" id="kabupaten_id">
-                    @foreach(\App\Models\Kabupaten::all() as $kabupaten)
-                        @if($kabupaten->id == $profil->kabupaten_id)
-                            <option value="{{ $kabupaten->id }}" selected="true">{{ $kabupaten->nama }}</option>
-                        @else
-                            <option value="{{ $kabupaten->id }}">{{ $kabupaten->nama }}</option>
-                        @endif
-                    @endforeach
-                </select>
-            </div>
-        </div>
-        <div class="form-group">
             <label class="control-label col-md-4 col-sm-3 col-xs-12">Kecamatan <span class="required">*</span></label>
         
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -72,6 +41,14 @@
         
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::text('email', null,['placeholder'=>'021-4567890', 'class'=>'form-control', 'required']) !!}
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-4 col-sm-3 col-xs-12">File Struktur Organisasi</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input type="file" id="file_struktur" name="file_struktur_organisasi" class="validate form-control" />
+                <br>
+                <img src="http://placehold.it/600x400" id="showgambar" style="max-width:200px;max-height:200px;float:left;" />
             </div>
         </div>
     </div>
@@ -126,14 +103,7 @@
                 {!! Form::text('kepsek_trantib', null,['placeholder'=>'Kepala Seksi TRANTIB', 'class'=>'form-control', 'required']) !!}
             </div>
         </div>
-        <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">File Struktur Organisasi</label>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <input type="file" id="file_struktur" name="file_struktur_organisasi" class="validate form-control" />
-                <br>
-                <img src="http://placehold.it/600x400" id="showgambar" style="max-width:200px;max-height:200px;float:left;" />
-            </div>
-        </div>
+
     </div>
 </div>
 
