@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\Data;
 
 use App\Models\DataUmum;
+use App\Models\Kabupaten;
+use App\Models\Kecamatan;
 use App\Models\Profil;
+use App\Models\VisiMisi;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\DataTables;
@@ -25,7 +28,7 @@ class ProfilController extends Controller
 
     public function getDataProfil()
     {
-        return DataTables::of(Profil::with(['Kecamatan', 'Kabupaten', 'Provinsi'])->get())
+        return DataTables::of(Profil::with(['Kecamatan'])->get())
             ->addColumn('action', function ($data) {
                 $edit_url = route('data.profil.edit', $data->id);
                 $delete_url = route('data.profil.destroy', $data->id);
@@ -64,6 +67,11 @@ class ProfilController extends Controller
         // Save Request
         try {
             $profil = new Profil($request->input());
+            $visiMisi = new VisiMisi($request->input('visiMisi'));
+            $visiMisi->kecamatan_id = $request->input('kecamatan_id');
+            $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
+            $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
+
             request()->validate([
                 'kecamatan_id' => 'required',
                 'alamat' => 'required',
@@ -79,7 +87,7 @@ class ProfilController extends Controller
                 $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
             }
 
-            if($profil->save())
+            if($profil->save() && $visiMisi->save())
                 DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.']);
             return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
@@ -130,8 +138,9 @@ class ProfilController extends Controller
         try {
             $profil = Profil::where('id', $id)->first();
             $profil->fill($request->all());
+            $visiMisi = VisiMisi::where('kecamatan_id',$profil->kecamatan_id)->first();
 
-
+            $visiMisi->fill($request->input('visiMisi'));
 
             if($request->file('file_struktur_organisasi') == "")
             {
@@ -154,6 +163,7 @@ class ProfilController extends Controller
             ]);
 
             $profil->update();
+            $visiMisi->update();
 
             return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Update Profil sukses!');
         } catch (Exception $e) {
@@ -170,7 +180,10 @@ class ProfilController extends Controller
     public function destroy($id)
     {
         try {
-            Profil::findOrFail($id)->delete();
+            $profil = Profil::findOrFail($id);
+            $profil->dataUmum()->delete();
+            $profil->visiMisi()->delete();
+            $profil->delete();
 
             return redirect()->route('data.profil.index')->with('success', 'Profil sukses dihapus!');
 

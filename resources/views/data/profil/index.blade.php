@@ -34,10 +34,9 @@
                     <th style="max-width: 80px;">Aksi</th>
                     <th>Kode</th>
                     <th>Nama Kecamatan</th>
-                    <th>Kabupaten</th>
-                    <th>Provinsi</th>
                     <th>Nama Camat</th>
                     <th>Sekretaris Camat</th>
+                    <th>Alamat</th>
                 </tr>
                 </thead>
             </table>
@@ -61,10 +60,11 @@
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'kecamatan.id', name: 'id'},
                 {data: 'kecamatan.nama', name: 'kecamatan'},
-                {data: 'kabupaten.nama', name: 'kabupaten'},
-                {data: 'provinsi.nama', name: 'provinsi'},
+               /* {data: 'kabupaten.nama', name: 'kabupaten'},
+                {data: 'provinsi.nama', name: 'provinsi'},*/
                 {data: 'nama_camat', name: 'nama_camat'},
                 {data: 'sekretaris_camat', name: 'sekretaris_camat'},
+                {data: 'alamat', name: 'alamat'},
             ],
             order: [[0, 'desc']]
         });

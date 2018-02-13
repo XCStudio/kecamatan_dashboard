@@ -15,7 +15,7 @@ class CreateVisiMisiTable extends Migration
     {
         Schema::create('das_visimisi', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('kecamatan_id');
+            $table->char('kecamatan_id', 7);
             $table->longText('visi');
             $table->longText('misi');
             $table->timestamps();

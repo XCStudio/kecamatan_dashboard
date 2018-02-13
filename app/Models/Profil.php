@@ -13,8 +13,6 @@ class Profil extends Model
     protected $table = 'das_profil';
     
     protected $fillable = [
-        'provinsi_id',
-        'kabupaten_id',
         'kecamatan_id',
         'alamat',
         'kode_pos',
@@ -59,5 +57,10 @@ class Profil extends Model
     public function dataUmum()
     {
         return $this->hasOne(DataUmum::class, 'kecamatan_id', 'kecamatan_id');
+    }
+
+    public function visiMisi()
+    {
+        return $this->hasOne(VisiMisi::class, 'kecamatan_id', 'kecamatan_id');
     }
 }

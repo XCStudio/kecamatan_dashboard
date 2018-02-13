@@ -15,8 +15,8 @@ class CreateProfilsTable extends Migration
     {
         Schema::create('das_profil', function (Blueprint $table) {
             $table->increments('id');
-            $table->char('provinsi_id', 2);
-            $table->char('kabupaten_id', 4);
+            $table->char('provinsi_id', 2)->nullable(true);
+            $table->char('kabupaten_id', 4)->nullable(true);
             $table->char('kecamatan_id', 7);
             $table->string('alamat', 200);
             $table->char('kode_pos', 12);

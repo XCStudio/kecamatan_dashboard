@@ -68,6 +68,7 @@
 <!-- /.content -->
 @endsection
 
+@include('partials.asset_wysihtml5')
 @include(('partials.asset_select2'))
 @push('scripts')
 <script>
@@ -92,6 +93,8 @@
         $("#file_struktur").change(function () {
             readURL(this);
         });
+
+        $('.textarea').wysihtml5();
     })
 </script>
 @endpush

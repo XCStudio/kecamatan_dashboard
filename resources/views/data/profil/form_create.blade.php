@@ -107,4 +107,26 @@
     </div>
 </div>
 
+<div class="row">
+    <div class="col-md-12">
+        <legend>Visi & Misi</legend>
+        <div class="form-group">
+            <label class="control-label col-md-2 col-sm-3 col-xs-12">Visi <span class="required">*</span></label>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                {!! Form::textarea('visiMisi[visi]', null,['class'=>'textarea', 'placeholder'=>'Visi Kecamatan', 'style'=>'width: 100%;
+                 height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;', 'required'=>'required']) !!}
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2 col-sm-3 col-xs-12">Misi <span class="required">*</span></label>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                {!! Form::textarea('visiMisi[misi]', null,['class'=>'textarea', 'placeholder'=>'Misi Kecamatan', 'style'=>'width: 100%;
+                 height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;', 'required'=>'required']) !!}
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="ln_solid"></div>

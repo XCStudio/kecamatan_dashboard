@@ -43,17 +43,6 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['informasi/kalender'])? 'class=active' : '') }}><a href="{{ route('informasi.kalender') }}"><i class="fa fa-circle-o"></i>Kalender</a></li>
                 </ul>
             </li>
-            <li class="treeview {{ (Request::is(['profil/*'])? 'active' : '') }}">
-                <a href="#"><i class="fa fa-book"></i> <span>Profil</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li {{ (Request::is(['profil/visi-misi/*', 'profil/visi-misi/index', 'profil/visi-misi'])? 'class=active' : '') }}><a href="{{ route('profil.visi-misi.index') }}"><i class="fa fa-circle-o"></i>Visi & Misi</a></li>
-
-                </ul>
-            </li>
             @if(! Sentinel::guest())
             <li class="treeview {{ (Request::is(['data/*'])? 'active' : '') }}">
                 <a href="#"><i class="fa fa-database"></i> <span>Data</span>
