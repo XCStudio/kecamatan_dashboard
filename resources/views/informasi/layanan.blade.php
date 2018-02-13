@@ -39,8 +39,7 @@ use Carbon\Carbon;
                         <li class="active"><a href="#tab_ektp" data-toggle="tab">Pembuatan e-KTP</a></li>
                         <li><a href="#tab_kk" data-toggle="tab">Pembuatan Kartu Keluarga</a></li>
                         <li><a href="#tab_akta" data-toggle="tab">Pembuatan Akta Kelahiran</a></li>
-                        <li><a href="#tab_skck" data-toggle="tab">Pembuatan SKCK</a></li>
-                        <li><a href="#tab_domisili" data-toggle="tab">Pembuatan Surat Domisili</a></li>
+                        <li><a href="#tab_domisili" data-toggle="tab">Pembuatan Surat Pindah Alamat (Domisili)</a></li>
 
                     </ul>
                     <div class="tab-content">
@@ -108,30 +107,26 @@ use Carbon\Carbon;
                             </table>
                         </div>
                         <!-- /.tab-pane -->
-                        <div class="tab-pane" id="tab_skck">
-                            <p>Pembuatan SKCK</p>
-
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset
-                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum.
-                        </div>
-                        <!-- /.tab-pane -->
                         <div class="tab-pane" id="tab_domisili">
-                            <p>Pembuatan Domisili</p>
+                            <div class="callout callout-info">
+                                <h4>Informasi!</h4>
 
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset
-                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum.
+                                <p>Untuk pengajuan Surat Pindah Alamat (Domisili), silahkan hubungi kantor kelurahan Anda
+                                    masing-masing. <br>Untuk melihat status pengajuan Surat Pindah Alamat (Domisili) tersebut Anda bisa
+                                    melihat tabel di bawah ini.</p>
+                            </div>
+                            <table class="table table-bordered table-striped" id="domisili-table" style="width: 100%;">
+                                <thead>
+                                <tr>
+                                    <th>Nama Penduduk</th>
+                                    <th>Alamat</th>
+                                    <th>Tanggal Pengajuan</th>
+                                    <th>Tanggal Selesai</th>
+                                    <th>Status</th>
+                                    <th>Catatan</th>
+                                </tr>
+                                </thead>
+                            </table>
                         </div>
                         <!-- /.tab-pane -->
                     </div>
@@ -188,6 +183,23 @@ use Carbon\Carbon;
             //processing: true,
             //serverSide: false,
             ajax: "{!! route( 'data.proses-aktalahir.getdata' ) !!}",
+            columns: [
+                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'alamat', name: 'alamat'},
+                {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
+                {data: 'tanggal_selesai', name: 'tanggal_selesai'},
+                {data: 'status', name: 'status'},
+                {data: 'catatan', name: 'catatan'},
+            ],
+            order: [[0, 'desc']],
+            info: true,
+            autoWidth: true
+        });
+
+        var data = $('#domisili-table').DataTable({
+            //processing: true,
+            //serverSide: false,
+            ajax: "{!! route( 'data.proses-domisili.getdata' ) !!}",
             columns: [
                 {data: 'penduduk.nama', name: 'nama_penduduk'},
                 {data: 'alamat', name: 'alamat'},
