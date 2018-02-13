@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.proses-ektp.index')}}">Proses e-KTP</a></li>
+        <li><a href="{{route('data.proses-kk.index')}}">Proses Kartu Keluarga</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -39,18 +39,18 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($ektp, [ 'route' => ['data.proses-ektp.update', $ektp->id], 'method' => 'put','id' => 'form-ektp', 'class' => 'form-horizontal form-label-left'] ) !!}
+                    {!!  Form::model($kk, [ 'route' => ['data.proses-kk.update', $kk->id], 'method' => 'put','id' => 'form-kk', 'class' => 'form-horizontal form-label-left'] ) !!}
 
                     <div class="box-body">
 
-                        @include('data.proses_ektp.form_edit')
+                        @include('data.proses_kk.form_edit')
 
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
                         <div class="pull-right">
                             <div class="control-group">
-                                <a href="{{ route('data.proses-ektp.index') }}">
+                                <a href="{{ route('data.proses-kk.index') }}">
                                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                                 </a>
                                 <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>

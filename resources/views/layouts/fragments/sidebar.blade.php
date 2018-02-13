@@ -70,6 +70,7 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a></li>
 
                     <li {{ (Request::is(['data/proses-ektp/*', 'data/proses-ektp/index', 'data/proses-ektp'])? 'class=active' : '') }}><a href="{{ route('data.proses-ektp.index') }}"><i class="fa fa-circle-o"></i>Proses e-KTP</a></li>
+                    <li {{ (Request::is(['data/proses-kk/*', 'data/proses-kk/index', 'data/proses-kk'])? 'class=active' : '') }}><a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>Proses Kartu Keluarga</a></li>
 
                 </ul>
             </li>

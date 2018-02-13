@@ -218,6 +218,18 @@ Route::namespace('Data')->group(function () {
             Route::delete('destroy/{id}', ['as' => 'data.proses-ektp.destroy', 'uses' => 'ProsesEKTPController@destroy']);
         });
 
+        //Routes Resource Layanan Kartu Keluarga
+        Route::group(['prefix' => 'proses-kk'], function () {
+            Route::get('getdata', ['as' => 'data.proses-kk.getdata', 'uses' => 'ProsesKKController@getDataProsesKK']);
+            Route::get('/', ['as' => 'data.proses-kk.index', 'uses' => 'ProsesKKController@index']);
+            Route::get('create', ['as' => 'data.proses-kk.create', 'uses' => 'ProsesKKController@create']);
+            Route::post('store', ['as' => 'data.proses-kk.store', 'uses' => 'ProsesKKController@store']);
+            Route::get('show/{id}', ['as' => 'data.proses-kk.show', 'uses' => 'ProsesKKController@show']);
+            Route::get('edit/{id}', ['as' => 'data.proses-kk.edit', 'uses' => 'ProsesKKController@edit']);
+            Route::put('update/{id}', ['as' => 'data.proses-kk.update', 'uses' => 'ProsesKKController@update']);
+            Route::delete('destroy/{id}', ['as' => 'data.proses-kk.destroy', 'uses' => 'ProsesKKController@destroy']);
+        });
+
     });
 });
 
