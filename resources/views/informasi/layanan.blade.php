@@ -84,11 +84,28 @@ use Carbon\Carbon;
                                 </tr>
                                 </thead>
                             </table>
-
                         </div>
                         <!-- /.tab-pane -->
                         <div class="tab-pane" id="tab_akta">
-                            <p>Akta</p>
+                            <div class="callout callout-info">
+                                <h4>Informasi!</h4>
+
+                                <p>Untuk pengajuan Akta Kelahiran baru, silahkan hubungi kantor kelurahan Anda
+                                    masing-masing. <br>Untuk melihat status pengajuan Akta Kelahiran tersebut Anda bisa
+                                    melihat tabel di bawah ini.</p>
+                            </div>
+                            <table class="table table-bordered table-striped" id="akta-table" style="width: 100%;">
+                                <thead>
+                                <tr>
+                                    <th>Nama Penduduk</th>
+                                    <th>Alamat</th>
+                                    <th>Tanggal Pengajuan</th>
+                                    <th>Tanggal Selesai</th>
+                                    <th>Status</th>
+                                    <th>Catatan</th>
+                                </tr>
+                                </thead>
+                            </table>
                         </div>
                         <!-- /.tab-pane -->
                         <div class="tab-pane" id="tab_skck">
@@ -135,7 +152,7 @@ use Carbon\Carbon;
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#ektp-table').DataTable({
-           // processing: true,
+            // processing: true,
             //serverSide: true,
             ajax: "{!! route( 'data.proses-ektp.getdata' ) !!}",
             columns: [
@@ -146,8 +163,8 @@ use Carbon\Carbon;
                 {data: 'status', name: 'status', class: 'text-center'},
             ],
             order: [[0, 'desc']],
-            info        : true,
-            autoWidth   : true
+            info: true,
+            autoWidth: true
         });
 
         var data = $('#kk-table').DataTable({
@@ -163,8 +180,25 @@ use Carbon\Carbon;
                 {data: 'catatan', name: 'catatan'},
             ],
             order: [[0, 'desc']],
-            info        : true,
-            autoWidth   : true
+            info: true,
+            autoWidth: true
+        });
+
+        var data = $('#akta-table').DataTable({
+            //processing: true,
+            //serverSide: false,
+            ajax: "{!! route( 'data.proses-aktalahir.getdata' ) !!}",
+            columns: [
+                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'alamat', name: 'alamat'},
+                {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
+                {data: 'tanggal_selesai', name: 'tanggal_selesai'},
+                {data: 'status', name: 'status'},
+                {data: 'catatan', name: 'catatan'},
+            ],
+            order: [[0, 'desc']],
+            info: true,
+            autoWidth: true
         });
 
     });
