@@ -27,6 +27,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             1 => 
             array (
@@ -38,6 +42,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             2 => 
             array (
@@ -49,6 +57,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             3 => 
             array (
@@ -60,6 +72,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             4 => 
             array (
@@ -71,6 +87,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             5 => 
             array (
@@ -82,6 +102,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             6 => 
             array (
@@ -93,6 +117,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             7 => 
             array (
@@ -104,6 +132,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             8 => 
             array (
@@ -115,6 +147,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             9 => 
             array (
@@ -126,6 +162,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             10 => 
             array (
@@ -137,6 +177,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             11 => 
             array (
@@ -148,6 +192,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             12 => 
             array (
@@ -159,6 +207,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             13 => 
             array (
@@ -170,6 +222,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             14 => 
             array (
@@ -181,6 +237,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             15 => 
             array (
@@ -192,6 +252,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             16 => 
             array (
@@ -203,6 +267,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             17 => 
             array (
@@ -214,6 +282,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             18 => 
             array (
@@ -225,6 +297,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             19 => 
             array (
@@ -236,6 +312,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             20 => 
             array (
@@ -247,6 +327,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             21 => 
             array (
@@ -258,6 +342,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             22 => 
             array (
@@ -269,6 +357,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             23 => 
             array (
@@ -280,6 +372,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             24 => 
             array (
@@ -291,6 +387,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             25 => 
             array (
@@ -302,6 +402,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             26 => 
             array (
@@ -313,6 +417,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             27 => 
             array (
@@ -324,6 +432,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             28 => 
             array (
@@ -335,6 +447,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             29 => 
             array (
@@ -346,6 +462,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             30 => 
             array (
@@ -357,6 +477,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             31 => 
             array (
@@ -368,6 +492,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             32 => 
             array (
@@ -379,6 +507,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             33 => 
             array (
@@ -390,6 +522,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             34 => 
             array (
@@ -401,6 +537,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             35 => 
             array (
@@ -412,6 +552,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             36 => 
             array (
@@ -423,6 +567,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             37 => 
             array (
@@ -434,6 +582,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             38 => 
             array (
@@ -445,6 +597,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             39 => 
             array (
@@ -456,6 +612,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             40 => 
             array (
@@ -467,6 +627,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             41 => 
             array (
@@ -478,6 +642,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             42 => 
             array (
@@ -489,6 +657,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             43 => 
             array (
@@ -500,6 +672,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             44 => 
             array (
@@ -511,6 +687,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             45 => 
             array (
@@ -522,6 +702,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             46 => 
             array (
@@ -533,6 +717,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             47 => 
             array (
@@ -544,6 +732,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             48 => 
             array (
@@ -555,6 +747,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             49 => 
             array (
@@ -566,6 +762,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             50 => 
             array (
@@ -577,6 +777,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             51 => 
             array (
@@ -588,6 +792,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             52 => 
             array (
@@ -599,6 +807,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             53 => 
             array (
@@ -610,6 +822,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             54 => 
             array (
@@ -621,6 +837,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             55 => 
             array (
@@ -632,6 +852,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             56 => 
             array (
@@ -643,6 +867,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             57 => 
             array (
@@ -654,6 +882,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             58 => 
             array (
@@ -665,6 +897,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             59 => 
             array (
@@ -676,6 +912,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             60 => 
             array (
@@ -687,6 +927,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             61 => 
             array (
@@ -698,6 +942,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             62 => 
             array (
@@ -709,6 +957,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             63 => 
             array (
@@ -720,6 +972,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             64 => 
             array (
@@ -731,6 +987,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             65 => 
             array (
@@ -742,6 +1002,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             66 => 
             array (
@@ -753,6 +1017,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             67 => 
             array (
@@ -764,6 +1032,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             68 => 
             array (
@@ -775,6 +1047,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             69 => 
             array (
@@ -786,6 +1062,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             70 => 
             array (
@@ -797,6 +1077,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             71 => 
             array (
@@ -808,6 +1092,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             72 => 
             array (
@@ -819,6 +1107,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             73 => 
             array (
@@ -830,6 +1122,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             74 => 
             array (
@@ -841,6 +1137,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             75 => 
             array (
@@ -852,6 +1152,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             76 => 
             array (
@@ -863,6 +1167,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             77 => 
             array (
@@ -874,6 +1182,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             78 => 
             array (
@@ -885,6 +1197,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             79 => 
             array (
@@ -896,6 +1212,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             80 => 
             array (
@@ -907,6 +1227,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             81 => 
             array (
@@ -918,6 +1242,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             82 => 
             array (
@@ -929,6 +1257,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             83 => 
             array (
@@ -940,6 +1272,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             84 => 
             array (
@@ -951,6 +1287,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             85 => 
             array (
@@ -962,6 +1302,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             86 => 
             array (
@@ -973,6 +1317,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             87 => 
             array (
@@ -984,6 +1332,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             88 => 
             array (
@@ -995,6 +1347,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             89 => 
             array (
@@ -1006,6 +1362,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             90 => 
             array (
@@ -1017,6 +1377,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             91 => 
             array (
@@ -1028,6 +1392,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             92 => 
             array (
@@ -1039,6 +1407,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             93 => 
             array (
@@ -1050,6 +1422,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             94 => 
             array (
@@ -1061,6 +1437,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             95 => 
             array (
@@ -1072,6 +1452,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             96 => 
             array (
@@ -1083,6 +1467,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             97 => 
             array (
@@ -1094,6 +1482,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             98 => 
             array (
@@ -1105,6 +1497,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             99 => 
             array (
@@ -1116,6 +1512,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             100 => 
             array (
@@ -1127,6 +1527,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             101 => 
             array (
@@ -1138,6 +1542,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             102 => 
             array (
@@ -1149,6 +1557,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             103 => 
             array (
@@ -1160,6 +1572,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             104 => 
             array (
@@ -1171,6 +1587,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             105 => 
             array (
@@ -1182,6 +1602,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             106 => 
             array (
@@ -1193,6 +1617,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             107 => 
             array (
@@ -1204,6 +1632,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             108 => 
             array (
@@ -1215,6 +1647,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             109 => 
             array (
@@ -1226,6 +1662,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             110 => 
             array (
@@ -1237,6 +1677,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             111 => 
             array (
@@ -1248,6 +1692,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             112 => 
             array (
@@ -1259,6 +1707,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             113 => 
             array (
@@ -1270,6 +1722,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             114 => 
             array (
@@ -1281,6 +1737,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             115 => 
             array (
@@ -1292,6 +1752,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             116 => 
             array (
@@ -1303,6 +1767,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             117 => 
             array (
@@ -1314,6 +1782,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             118 => 
             array (
@@ -1325,6 +1797,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             119 => 
             array (
@@ -1336,6 +1812,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             120 => 
             array (
@@ -1347,6 +1827,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             121 => 
             array (
@@ -1358,6 +1842,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             122 => 
             array (
@@ -1369,6 +1857,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             123 => 
             array (
@@ -1380,6 +1872,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             124 => 
             array (
@@ -1391,6 +1887,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             125 => 
             array (
@@ -1402,6 +1902,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             126 => 
             array (
@@ -1413,6 +1917,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             127 => 
             array (
@@ -1424,6 +1932,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             128 => 
             array (
@@ -1435,6 +1947,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             129 => 
             array (
@@ -1446,6 +1962,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             130 => 
             array (
@@ -1457,6 +1977,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             131 => 
             array (
@@ -1468,6 +1992,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             132 => 
             array (
@@ -1479,6 +2007,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             133 => 
             array (
@@ -1490,6 +2022,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             134 => 
             array (
@@ -1501,6 +2037,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             135 => 
             array (
@@ -1512,6 +2052,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             136 => 
             array (
@@ -1523,6 +2067,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             137 => 
             array (
@@ -1534,6 +2082,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             138 => 
             array (
@@ -1545,6 +2097,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             139 => 
             array (
@@ -1556,6 +2112,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             140 => 
             array (
@@ -1567,6 +2127,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             141 => 
             array (
@@ -1578,6 +2142,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             142 => 
             array (
@@ -1589,6 +2157,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             143 => 
             array (
@@ -1600,6 +2172,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             144 => 
             array (
@@ -1611,6 +2187,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             145 => 
             array (
@@ -1622,6 +2202,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             146 => 
             array (
@@ -1633,6 +2217,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             147 => 
             array (
@@ -1644,6 +2232,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             148 => 
             array (
@@ -1655,6 +2247,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             149 => 
             array (
@@ -1666,6 +2262,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             150 => 
             array (
@@ -1677,6 +2277,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             151 => 
             array (
@@ -1688,6 +2292,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             152 => 
             array (
@@ -1699,6 +2307,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             153 => 
             array (
@@ -1710,6 +2322,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             154 => 
             array (
@@ -1721,6 +2337,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             155 => 
             array (
@@ -1732,6 +2352,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             156 => 
             array (
@@ -1743,6 +2367,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             157 => 
             array (
@@ -1754,6 +2382,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             158 => 
             array (
@@ -1765,6 +2397,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             159 => 
             array (
@@ -1776,6 +2412,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             160 => 
             array (
@@ -1787,6 +2427,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             161 => 
             array (
@@ -1798,6 +2442,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             162 => 
             array (
@@ -1809,6 +2457,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             163 => 
             array (
@@ -1820,6 +2472,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             164 => 
             array (
@@ -1831,6 +2487,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             165 => 
             array (
@@ -1842,6 +2502,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             166 => 
             array (
@@ -1853,6 +2517,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             167 => 
             array (
@@ -1864,6 +2532,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             168 => 
             array (
@@ -1875,6 +2547,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             169 => 
             array (
@@ -1886,6 +2562,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             170 => 
             array (
@@ -1897,6 +2577,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             171 => 
             array (
@@ -1908,6 +2592,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             172 => 
             array (
@@ -1919,6 +2607,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             173 => 
             array (
@@ -1930,6 +2622,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             174 => 
             array (
@@ -1941,6 +2637,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             175 => 
             array (
@@ -1952,6 +2652,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             176 => 
             array (
@@ -1963,6 +2667,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             177 => 
             array (
@@ -1974,6 +2682,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             178 => 
             array (
@@ -1985,6 +2697,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             179 => 
             array (
@@ -1996,6 +2712,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             180 => 
             array (
@@ -2007,6 +2727,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             181 => 
             array (
@@ -2018,6 +2742,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             182 => 
             array (
@@ -2029,6 +2757,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             183 => 
             array (
@@ -2040,6 +2772,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             184 => 
             array (
@@ -2051,6 +2787,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             185 => 
             array (
@@ -2062,6 +2802,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             186 => 
             array (
@@ -2073,6 +2817,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             187 => 
             array (
@@ -2084,6 +2832,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             188 => 
             array (
@@ -2095,6 +2847,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             189 => 
             array (
@@ -2106,6 +2862,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             190 => 
             array (
@@ -2117,6 +2877,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             191 => 
             array (
@@ -2128,6 +2892,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             192 => 
             array (
@@ -2139,6 +2907,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             193 => 
             array (
@@ -2150,6 +2922,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             194 => 
             array (
@@ -2161,6 +2937,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             195 => 
             array (
@@ -2172,6 +2952,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             196 => 
             array (
@@ -2183,6 +2967,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             197 => 
             array (
@@ -2194,6 +2982,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             198 => 
             array (
@@ -2205,6 +2997,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             199 => 
             array (
@@ -2216,6 +3012,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             200 => 
             array (
@@ -2227,6 +3027,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             201 => 
             array (
@@ -2238,6 +3042,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             202 => 
             array (
@@ -2249,6 +3057,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             203 => 
             array (
@@ -2260,6 +3072,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             204 => 
             array (
@@ -2271,6 +3087,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             205 => 
             array (
@@ -2282,6 +3102,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             206 => 
             array (
@@ -2293,6 +3117,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             207 => 
             array (
@@ -2304,6 +3132,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             208 => 
             array (
@@ -2315,6 +3147,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             209 => 
             array (
@@ -2326,6 +3162,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             210 => 
             array (
@@ -2337,6 +3177,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             211 => 
             array (
@@ -2348,6 +3192,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             212 => 
             array (
@@ -2359,6 +3207,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             213 => 
             array (
@@ -2370,6 +3222,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             214 => 
             array (
@@ -2381,6 +3237,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             215 => 
             array (
@@ -2392,6 +3252,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             216 => 
             array (
@@ -2403,6 +3267,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             217 => 
             array (
@@ -2414,6 +3282,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             218 => 
             array (
@@ -2425,6 +3297,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             219 => 
             array (
@@ -2436,6 +3312,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             220 => 
             array (
@@ -2447,6 +3327,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             221 => 
             array (
@@ -2458,6 +3342,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             222 => 
             array (
@@ -2469,6 +3357,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             223 => 
             array (
@@ -2480,6 +3372,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             224 => 
             array (
@@ -2491,6 +3387,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             225 => 
             array (
@@ -2502,6 +3402,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             226 => 
             array (
@@ -2513,6 +3417,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             227 => 
             array (
@@ -2524,6 +3432,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             228 => 
             array (
@@ -2535,6 +3447,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             229 => 
             array (
@@ -2546,6 +3462,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             230 => 
             array (
@@ -2557,6 +3477,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             231 => 
             array (
@@ -2568,6 +3492,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             232 => 
             array (
@@ -2579,6 +3507,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             233 => 
             array (
@@ -2590,6 +3522,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             234 => 
             array (
@@ -2601,6 +3537,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             235 => 
             array (
@@ -2612,6 +3552,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             236 => 
             array (
@@ -2623,6 +3567,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             237 => 
             array (
@@ -2634,6 +3582,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             238 => 
             array (
@@ -2645,6 +3597,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             239 => 
             array (
@@ -2656,6 +3612,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             240 => 
             array (
@@ -2667,6 +3627,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             241 => 
             array (
@@ -2678,6 +3642,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             242 => 
             array (
@@ -2689,6 +3657,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             243 => 
             array (
@@ -2700,6 +3672,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             244 => 
             array (
@@ -2711,6 +3687,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             245 => 
             array (
@@ -2722,6 +3702,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             246 => 
             array (
@@ -2733,6 +3717,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             247 => 
             array (
@@ -2744,6 +3732,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             248 => 
             array (
@@ -2755,6 +3747,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             249 => 
             array (
@@ -2766,6 +3762,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             250 => 
             array (
@@ -2777,6 +3777,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             251 => 
             array (
@@ -2788,6 +3792,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             252 => 
             array (
@@ -2799,6 +3807,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             253 => 
             array (
@@ -2810,6 +3822,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             254 => 
             array (
@@ -2821,6 +3837,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             255 => 
             array (
@@ -2832,6 +3852,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             256 => 
             array (
@@ -2843,6 +3867,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             257 => 
             array (
@@ -2854,6 +3882,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             258 => 
             array (
@@ -2865,6 +3897,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             259 => 
             array (
@@ -2876,6 +3912,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             260 => 
             array (
@@ -2887,6 +3927,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             261 => 
             array (
@@ -2898,6 +3942,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             262 => 
             array (
@@ -2909,6 +3957,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             263 => 
             array (
@@ -2920,6 +3972,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             264 => 
             array (
@@ -2931,6 +3987,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             265 => 
             array (
@@ -2942,6 +4002,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             266 => 
             array (
@@ -2953,6 +4017,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             267 => 
             array (
@@ -2964,6 +4032,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             268 => 
             array (
@@ -2975,6 +4047,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             269 => 
             array (
@@ -2986,6 +4062,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             270 => 
             array (
@@ -2997,6 +4077,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             271 => 
             array (
@@ -3008,6 +4092,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             272 => 
             array (
@@ -3019,6 +4107,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             273 => 
             array (
@@ -3030,6 +4122,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             274 => 
             array (
@@ -3041,6 +4137,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             275 => 
             array (
@@ -3052,6 +4152,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             276 => 
             array (
@@ -3063,6 +4167,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             277 => 
             array (
@@ -3074,6 +4182,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             278 => 
             array (
@@ -3085,6 +4197,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             279 => 
             array (
@@ -3096,6 +4212,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             280 => 
             array (
@@ -3107,6 +4227,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             281 => 
             array (
@@ -3118,6 +4242,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             282 => 
             array (
@@ -3129,6 +4257,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             283 => 
             array (
@@ -3140,6 +4272,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             284 => 
             array (
@@ -3151,6 +4287,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             285 => 
             array (
@@ -3162,6 +4302,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             286 => 
             array (
@@ -3173,6 +4317,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             287 => 
             array (
@@ -3184,6 +4332,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             288 => 
             array (
@@ -3195,6 +4347,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             289 => 
             array (
@@ -3206,6 +4362,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             290 => 
             array (
@@ -3217,6 +4377,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             291 => 
             array (
@@ -3228,6 +4392,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             292 => 
             array (
@@ -3239,6 +4407,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             293 => 
             array (
@@ -3250,6 +4422,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             294 => 
             array (
@@ -3261,6 +4437,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             295 => 
             array (
@@ -3272,6 +4452,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             296 => 
             array (
@@ -3283,6 +4467,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             297 => 
             array (
@@ -3294,6 +4482,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             298 => 
             array (
@@ -3305,6 +4497,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             299 => 
             array (
@@ -3316,6 +4512,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             300 => 
             array (
@@ -3327,6 +4527,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             301 => 
             array (
@@ -3338,6 +4542,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             302 => 
             array (
@@ -3349,6 +4557,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             303 => 
             array (
@@ -3360,6 +4572,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             304 => 
             array (
@@ -3371,6 +4587,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             305 => 
             array (
@@ -3382,6 +4602,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             306 => 
             array (
@@ -3393,6 +4617,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             307 => 
             array (
@@ -3404,6 +4632,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             308 => 
             array (
@@ -3415,6 +4647,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             309 => 
             array (
@@ -3426,6 +4662,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             310 => 
             array (
@@ -3437,6 +4677,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             311 => 
             array (
@@ -3448,6 +4692,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             312 => 
             array (
@@ -3459,6 +4707,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             313 => 
             array (
@@ -3470,6 +4722,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             314 => 
             array (
@@ -3481,6 +4737,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             315 => 
             array (
@@ -3492,6 +4752,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             316 => 
             array (
@@ -3503,6 +4767,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             317 => 
             array (
@@ -3514,6 +4782,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             318 => 
             array (
@@ -3525,6 +4797,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             319 => 
             array (
@@ -3536,6 +4812,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             320 => 
             array (
@@ -3547,6 +4827,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             321 => 
             array (
@@ -3558,6 +4842,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             322 => 
             array (
@@ -3569,6 +4857,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             323 => 
             array (
@@ -3580,6 +4872,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             324 => 
             array (
@@ -3591,6 +4887,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             325 => 
             array (
@@ -3602,6 +4902,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             326 => 
             array (
@@ -3613,6 +4917,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             327 => 
             array (
@@ -3624,6 +4932,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             328 => 
             array (
@@ -3635,6 +4947,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             329 => 
             array (
@@ -3646,6 +4962,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             330 => 
             array (
@@ -3657,6 +4977,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             331 => 
             array (
@@ -3668,6 +4992,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             332 => 
             array (
@@ -3679,6 +5007,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             333 => 
             array (
@@ -3690,6 +5022,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             334 => 
             array (
@@ -3701,6 +5037,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             335 => 
             array (
@@ -3712,6 +5052,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             336 => 
             array (
@@ -3723,6 +5067,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             337 => 
             array (
@@ -3734,6 +5082,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             338 => 
             array (
@@ -3745,6 +5097,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             339 => 
             array (
@@ -3756,6 +5112,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             340 => 
             array (
@@ -3767,6 +5127,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             341 => 
             array (
@@ -3778,6 +5142,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             342 => 
             array (
@@ -3789,6 +5157,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             343 => 
             array (
@@ -3800,6 +5172,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             344 => 
             array (
@@ -3811,6 +5187,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 62,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             345 => 
             array (
@@ -3822,6 +5202,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             346 => 
             array (
@@ -3833,6 +5217,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             347 => 
             array (
@@ -3844,6 +5232,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             348 => 
             array (
@@ -3855,6 +5247,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             349 => 
             array (
@@ -3866,6 +5262,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             350 => 
             array (
@@ -3877,6 +5277,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             351 => 
             array (
@@ -3888,6 +5292,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             352 => 
             array (
@@ -3899,6 +5307,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             353 => 
             array (
@@ -3910,6 +5322,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             354 => 
             array (
@@ -3921,6 +5337,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             355 => 
             array (
@@ -3932,6 +5352,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             356 => 
             array (
@@ -3943,6 +5367,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             357 => 
             array (
@@ -3954,6 +5382,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             358 => 
             array (
@@ -3965,6 +5397,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             359 => 
             array (
@@ -3976,6 +5412,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             360 => 
             array (
@@ -3987,6 +5427,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             361 => 
             array (
@@ -3998,6 +5442,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             362 => 
             array (
@@ -4009,6 +5457,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             363 => 
             array (
@@ -4020,6 +5472,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             364 => 
             array (
@@ -4031,6 +5487,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             365 => 
             array (
@@ -4042,6 +5502,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             366 => 
             array (
@@ -4053,6 +5517,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             367 => 
             array (
@@ -4064,6 +5532,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             368 => 
             array (
@@ -4075,6 +5547,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             369 => 
             array (
@@ -4086,6 +5562,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             370 => 
             array (
@@ -4097,6 +5577,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             371 => 
             array (
@@ -4108,6 +5592,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             372 => 
             array (
@@ -4119,6 +5607,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             373 => 
             array (
@@ -4130,6 +5622,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             374 => 
             array (
@@ -4141,6 +5637,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             375 => 
             array (
@@ -4152,6 +5652,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             376 => 
             array (
@@ -4163,6 +5667,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             377 => 
             array (
@@ -4174,6 +5682,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             378 => 
             array (
@@ -4185,6 +5697,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             379 => 
             array (
@@ -4196,6 +5712,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             380 => 
             array (
@@ -4207,6 +5727,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             381 => 
             array (
@@ -4218,6 +5742,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             382 => 
             array (
@@ -4229,6 +5757,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             383 => 
             array (
@@ -4240,6 +5772,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             384 => 
             array (
@@ -4251,6 +5787,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             385 => 
             array (
@@ -4262,6 +5802,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             386 => 
             array (
@@ -4273,6 +5817,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             387 => 
             array (
@@ -4284,6 +5832,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             388 => 
             array (
@@ -4295,6 +5847,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             389 => 
             array (
@@ -4306,6 +5862,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             390 => 
             array (
@@ -4317,6 +5877,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             391 => 
             array (
@@ -4328,6 +5892,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             392 => 
             array (
@@ -4339,6 +5907,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             393 => 
             array (
@@ -4350,6 +5922,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             394 => 
             array (
@@ -4361,6 +5937,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             395 => 
             array (
@@ -4372,6 +5952,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             396 => 
             array (
@@ -4383,6 +5967,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             397 => 
             array (
@@ -4394,6 +5982,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             398 => 
             array (
@@ -4405,6 +5997,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             399 => 
             array (
@@ -4416,6 +6012,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             400 => 
             array (
@@ -4427,6 +6027,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             401 => 
             array (
@@ -4438,6 +6042,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             402 => 
             array (
@@ -4449,6 +6057,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             403 => 
             array (
@@ -4460,6 +6072,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             404 => 
             array (
@@ -4471,6 +6087,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             405 => 
             array (
@@ -4482,6 +6102,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             406 => 
             array (
@@ -4493,6 +6117,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             407 => 
             array (
@@ -4504,6 +6132,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             408 => 
             array (
@@ -4515,6 +6147,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             409 => 
             array (
@@ -4526,6 +6162,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             410 => 
             array (
@@ -4537,6 +6177,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             411 => 
             array (
@@ -4548,6 +6192,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             412 => 
             array (
@@ -4559,6 +6207,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             413 => 
             array (
@@ -4570,6 +6222,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             414 => 
             array (
@@ -4581,6 +6237,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             415 => 
             array (
@@ -4592,6 +6252,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             416 => 
             array (
@@ -4603,6 +6267,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             417 => 
             array (
@@ -4614,6 +6282,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             418 => 
             array (
@@ -4625,6 +6297,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             419 => 
             array (
@@ -4636,6 +6312,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             420 => 
             array (
@@ -4647,6 +6327,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             421 => 
             array (
@@ -4658,6 +6342,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             422 => 
             array (
@@ -4669,6 +6357,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             423 => 
             array (
@@ -4680,6 +6372,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             424 => 
             array (
@@ -4691,6 +6387,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             425 => 
             array (
@@ -4702,6 +6402,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             426 => 
             array (
@@ -4713,6 +6417,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             427 => 
             array (
@@ -4724,6 +6432,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             428 => 
             array (
@@ -4735,6 +6447,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             429 => 
             array (
@@ -4746,6 +6462,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             430 => 
             array (
@@ -4757,6 +6477,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             431 => 
             array (
@@ -4768,6 +6492,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             432 => 
             array (
@@ -4779,6 +6507,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             433 => 
             array (
@@ -4790,6 +6522,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             434 => 
             array (
@@ -4801,6 +6537,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             435 => 
             array (
@@ -4812,6 +6552,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             436 => 
             array (
@@ -4823,6 +6567,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             437 => 
             array (
@@ -4834,6 +6582,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             438 => 
             array (
@@ -4845,6 +6597,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             439 => 
             array (
@@ -4856,6 +6612,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             440 => 
             array (
@@ -4867,6 +6627,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             441 => 
             array (
@@ -4878,6 +6642,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             442 => 
             array (
@@ -4889,6 +6657,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             443 => 
             array (
@@ -4900,6 +6672,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             444 => 
             array (
@@ -4911,6 +6687,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             445 => 
             array (
@@ -4922,6 +6702,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             446 => 
             array (
@@ -4933,6 +6717,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             447 => 
             array (
@@ -4944,6 +6732,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             448 => 
             array (
@@ -4955,6 +6747,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             449 => 
             array (
@@ -4966,6 +6762,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             450 => 
             array (
@@ -4977,6 +6777,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             451 => 
             array (
@@ -4988,6 +6792,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             452 => 
             array (
@@ -4999,6 +6807,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             453 => 
             array (
@@ -5010,6 +6822,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             454 => 
             array (
@@ -5021,6 +6837,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             455 => 
             array (
@@ -5032,6 +6852,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             456 => 
             array (
@@ -5043,6 +6867,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             457 => 
             array (
@@ -5054,6 +6882,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             458 => 
             array (
@@ -5065,6 +6897,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             459 => 
             array (
@@ -5076,6 +6912,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             460 => 
             array (
@@ -5087,6 +6927,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             461 => 
             array (
@@ -5098,6 +6942,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             462 => 
             array (
@@ -5109,6 +6957,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             463 => 
             array (
@@ -5120,6 +6972,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             464 => 
             array (
@@ -5131,6 +6987,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             465 => 
             array (
@@ -5142,6 +7002,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             466 => 
             array (
@@ -5153,6 +7017,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             467 => 
             array (
@@ -5164,6 +7032,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             468 => 
             array (
@@ -5175,6 +7047,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             469 => 
             array (
@@ -5186,6 +7062,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             470 => 
             array (
@@ -5197,6 +7077,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             471 => 
             array (
@@ -5208,6 +7092,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             472 => 
             array (
@@ -5219,6 +7107,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             473 => 
             array (
@@ -5230,6 +7122,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             474 => 
             array (
@@ -5241,6 +7137,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             475 => 
             array (
@@ -5252,6 +7152,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             476 => 
             array (
@@ -5263,6 +7167,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             477 => 
             array (
@@ -5274,6 +7182,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             478 => 
             array (
@@ -5285,6 +7197,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             479 => 
             array (
@@ -5296,6 +7212,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             480 => 
             array (
@@ -5307,6 +7227,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             481 => 
             array (
@@ -5318,6 +7242,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             482 => 
             array (
@@ -5329,6 +7257,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             483 => 
             array (
@@ -5340,6 +7272,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             484 => 
             array (
@@ -5351,6 +7287,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             485 => 
             array (
@@ -5362,6 +7302,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             486 => 
             array (
@@ -5373,6 +7317,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             487 => 
             array (
@@ -5384,6 +7332,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             488 => 
             array (
@@ -5395,6 +7347,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             489 => 
             array (
@@ -5406,6 +7362,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             490 => 
             array (
@@ -5417,6 +7377,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             491 => 
             array (
@@ -5428,6 +7392,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             492 => 
             array (
@@ -5439,6 +7407,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             493 => 
             array (
@@ -5450,6 +7422,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             494 => 
             array (
@@ -5461,6 +7437,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             495 => 
             array (
@@ -5472,6 +7452,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             496 => 
             array (
@@ -5483,6 +7467,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             497 => 
             array (
@@ -5494,6 +7482,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             498 => 
             array (
@@ -5505,6 +7497,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             499 => 
             array (
@@ -5516,6 +7512,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
         ));
         \DB::table('das_keluarga')->insert(array (
@@ -5529,6 +7529,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             1 => 
             array (
@@ -5540,6 +7544,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             2 => 
             array (
@@ -5551,6 +7559,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             3 => 
             array (
@@ -5562,6 +7574,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             4 => 
             array (
@@ -5573,6 +7589,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             5 => 
             array (
@@ -5584,6 +7604,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             6 => 
             array (
@@ -5595,6 +7619,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             7 => 
             array (
@@ -5606,6 +7634,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             8 => 
             array (
@@ -5617,6 +7649,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             9 => 
             array (
@@ -5628,6 +7664,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             10 => 
             array (
@@ -5639,6 +7679,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             11 => 
             array (
@@ -5650,6 +7694,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             12 => 
             array (
@@ -5661,6 +7709,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             13 => 
             array (
@@ -5672,6 +7724,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             14 => 
             array (
@@ -5683,6 +7739,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             15 => 
             array (
@@ -5694,6 +7754,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             16 => 
             array (
@@ -5705,6 +7769,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             17 => 
             array (
@@ -5716,6 +7784,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             18 => 
             array (
@@ -5727,6 +7799,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             19 => 
             array (
@@ -5738,6 +7814,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             20 => 
             array (
@@ -5749,6 +7829,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             21 => 
             array (
@@ -5760,6 +7844,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             22 => 
             array (
@@ -5771,6 +7859,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             23 => 
             array (
@@ -5782,6 +7874,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             24 => 
             array (
@@ -5793,6 +7889,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             25 => 
             array (
@@ -5804,6 +7904,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             26 => 
             array (
@@ -5815,6 +7919,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             27 => 
             array (
@@ -5826,6 +7934,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             28 => 
             array (
@@ -5837,6 +7949,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             29 => 
             array (
@@ -5848,6 +7964,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             30 => 
             array (
@@ -5859,6 +7979,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             31 => 
             array (
@@ -5870,6 +7994,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             32 => 
             array (
@@ -5881,6 +8009,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             33 => 
             array (
@@ -5892,6 +8024,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             34 => 
             array (
@@ -5903,6 +8039,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             35 => 
             array (
@@ -5914,6 +8054,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             36 => 
             array (
@@ -5925,6 +8069,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             37 => 
             array (
@@ -5936,6 +8084,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             38 => 
             array (
@@ -5947,6 +8099,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             39 => 
             array (
@@ -5958,6 +8114,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             40 => 
             array (
@@ -5969,6 +8129,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             41 => 
             array (
@@ -5980,6 +8144,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             42 => 
             array (
@@ -5991,6 +8159,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             43 => 
             array (
@@ -6002,6 +8174,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             44 => 
             array (
@@ -6013,6 +8189,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             45 => 
             array (
@@ -6024,6 +8204,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             46 => 
             array (
@@ -6035,6 +8219,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             47 => 
             array (
@@ -6046,6 +8234,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             48 => 
             array (
@@ -6057,6 +8249,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             49 => 
             array (
@@ -6068,6 +8264,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             50 => 
             array (
@@ -6079,6 +8279,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             51 => 
             array (
@@ -6090,6 +8294,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             52 => 
             array (
@@ -6101,6 +8309,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             53 => 
             array (
@@ -6112,6 +8324,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             54 => 
             array (
@@ -6123,6 +8339,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             55 => 
             array (
@@ -6134,6 +8354,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             56 => 
             array (
@@ -6145,6 +8369,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             57 => 
             array (
@@ -6156,6 +8384,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             58 => 
             array (
@@ -6167,6 +8399,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             59 => 
             array (
@@ -6178,6 +8414,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             60 => 
             array (
@@ -6189,6 +8429,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             61 => 
             array (
@@ -6200,6 +8444,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             62 => 
             array (
@@ -6211,6 +8459,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             63 => 
             array (
@@ -6222,6 +8474,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             64 => 
             array (
@@ -6233,6 +8489,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             65 => 
             array (
@@ -6244,6 +8504,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             66 => 
             array (
@@ -6255,6 +8519,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             67 => 
             array (
@@ -6266,6 +8534,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             68 => 
             array (
@@ -6277,6 +8549,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             69 => 
             array (
@@ -6288,6 +8564,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             70 => 
             array (
@@ -6299,6 +8579,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             71 => 
             array (
@@ -6310,6 +8594,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             72 => 
             array (
@@ -6321,6 +8609,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             73 => 
             array (
@@ -6332,6 +8624,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             74 => 
             array (
@@ -6343,6 +8639,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             75 => 
             array (
@@ -6354,6 +8654,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             76 => 
             array (
@@ -6365,6 +8669,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             77 => 
             array (
@@ -6376,6 +8684,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             78 => 
             array (
@@ -6387,6 +8699,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             79 => 
             array (
@@ -6398,6 +8714,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             80 => 
             array (
@@ -6409,6 +8729,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             81 => 
             array (
@@ -6420,6 +8744,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             82 => 
             array (
@@ -6431,6 +8759,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             83 => 
             array (
@@ -6442,6 +8774,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             84 => 
             array (
@@ -6453,6 +8789,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             85 => 
             array (
@@ -6464,6 +8804,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             86 => 
             array (
@@ -6475,6 +8819,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             87 => 
             array (
@@ -6486,6 +8834,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             88 => 
             array (
@@ -6497,6 +8849,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             89 => 
             array (
@@ -6508,6 +8864,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             90 => 
             array (
@@ -6519,6 +8879,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             91 => 
             array (
@@ -6530,6 +8894,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             92 => 
             array (
@@ -6541,6 +8909,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             93 => 
             array (
@@ -6552,6 +8924,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             94 => 
             array (
@@ -6563,6 +8939,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             95 => 
             array (
@@ -6574,6 +8954,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             96 => 
             array (
@@ -6585,6 +8969,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             97 => 
             array (
@@ -6596,6 +8984,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 63,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             98 => 
             array (
@@ -6607,6 +8999,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             99 => 
             array (
@@ -6618,6 +9014,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             100 => 
             array (
@@ -6629,6 +9029,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             101 => 
             array (
@@ -6640,6 +9044,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             102 => 
             array (
@@ -6651,6 +9059,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             103 => 
             array (
@@ -6662,6 +9074,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             104 => 
             array (
@@ -6673,6 +9089,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             105 => 
             array (
@@ -6684,6 +9104,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             106 => 
             array (
@@ -6695,6 +9119,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             107 => 
             array (
@@ -6706,6 +9134,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             108 => 
             array (
@@ -6717,6 +9149,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             109 => 
             array (
@@ -6728,6 +9164,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             110 => 
             array (
@@ -6739,6 +9179,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             111 => 
             array (
@@ -6750,6 +9194,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             112 => 
             array (
@@ -6761,6 +9209,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             113 => 
             array (
@@ -6772,6 +9224,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             114 => 
             array (
@@ -6783,6 +9239,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             115 => 
             array (
@@ -6794,6 +9254,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             116 => 
             array (
@@ -6805,6 +9269,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             117 => 
             array (
@@ -6816,6 +9284,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             118 => 
             array (
@@ -6827,6 +9299,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             119 => 
             array (
@@ -6838,6 +9314,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             120 => 
             array (
@@ -6849,6 +9329,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             121 => 
             array (
@@ -6860,6 +9344,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             122 => 
             array (
@@ -6871,6 +9359,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             123 => 
             array (
@@ -6882,6 +9374,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             124 => 
             array (
@@ -6893,6 +9389,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             125 => 
             array (
@@ -6904,6 +9404,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             126 => 
             array (
@@ -6915,6 +9419,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             127 => 
             array (
@@ -6926,6 +9434,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             128 => 
             array (
@@ -6937,6 +9449,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             129 => 
             array (
@@ -6948,6 +9464,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             130 => 
             array (
@@ -6959,6 +9479,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             131 => 
             array (
@@ -6970,6 +9494,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             132 => 
             array (
@@ -6981,6 +9509,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             133 => 
             array (
@@ -6992,6 +9524,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             134 => 
             array (
@@ -7003,6 +9539,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             135 => 
             array (
@@ -7014,6 +9554,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             136 => 
             array (
@@ -7025,6 +9569,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             137 => 
             array (
@@ -7036,6 +9584,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             138 => 
             array (
@@ -7047,6 +9599,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             139 => 
             array (
@@ -7058,6 +9614,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             140 => 
             array (
@@ -7069,6 +9629,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             141 => 
             array (
@@ -7080,6 +9644,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             142 => 
             array (
@@ -7091,6 +9659,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             143 => 
             array (
@@ -7102,6 +9674,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             144 => 
             array (
@@ -7113,6 +9689,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             145 => 
             array (
@@ -7124,6 +9704,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             146 => 
             array (
@@ -7135,6 +9719,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             147 => 
             array (
@@ -7146,6 +9734,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             148 => 
             array (
@@ -7157,6 +9749,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             149 => 
             array (
@@ -7168,6 +9764,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             150 => 
             array (
@@ -7179,6 +9779,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             151 => 
             array (
@@ -7190,6 +9794,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             152 => 
             array (
@@ -7201,6 +9809,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             153 => 
             array (
@@ -7212,6 +9824,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             154 => 
             array (
@@ -7223,6 +9839,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             155 => 
             array (
@@ -7234,6 +9854,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             156 => 
             array (
@@ -7245,6 +9869,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             157 => 
             array (
@@ -7256,6 +9884,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             158 => 
             array (
@@ -7267,6 +9899,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             159 => 
             array (
@@ -7278,6 +9914,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             160 => 
             array (
@@ -7289,6 +9929,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             161 => 
             array (
@@ -7300,6 +9944,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             162 => 
             array (
@@ -7311,6 +9959,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             163 => 
             array (
@@ -7322,6 +9974,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             164 => 
             array (
@@ -7333,6 +9989,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             165 => 
             array (
@@ -7344,6 +10004,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             166 => 
             array (
@@ -7355,6 +10019,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             167 => 
             array (
@@ -7366,6 +10034,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             168 => 
             array (
@@ -7377,6 +10049,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             169 => 
             array (
@@ -7388,6 +10064,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             170 => 
             array (
@@ -7399,6 +10079,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             171 => 
             array (
@@ -7410,6 +10094,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             172 => 
             array (
@@ -7421,6 +10109,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             173 => 
             array (
@@ -7432,6 +10124,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             174 => 
             array (
@@ -7443,6 +10139,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             175 => 
             array (
@@ -7454,6 +10154,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             176 => 
             array (
@@ -7465,6 +10169,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             177 => 
             array (
@@ -7476,6 +10184,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             178 => 
             array (
@@ -7487,6 +10199,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             179 => 
             array (
@@ -7498,6 +10214,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             180 => 
             array (
@@ -7509,6 +10229,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             181 => 
             array (
@@ -7520,6 +10244,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             182 => 
             array (
@@ -7531,6 +10259,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             183 => 
             array (
@@ -7542,6 +10274,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             184 => 
             array (
@@ -7553,6 +10289,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             185 => 
             array (
@@ -7564,6 +10304,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             186 => 
             array (
@@ -7575,6 +10319,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             187 => 
             array (
@@ -7586,6 +10334,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             188 => 
             array (
@@ -7597,6 +10349,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             189 => 
             array (
@@ -7608,6 +10364,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             190 => 
             array (
@@ -7619,6 +10379,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             191 => 
             array (
@@ -7630,6 +10394,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             192 => 
             array (
@@ -7641,6 +10409,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             193 => 
             array (
@@ -7652,6 +10424,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             194 => 
             array (
@@ -7663,6 +10439,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             195 => 
             array (
@@ -7674,6 +10454,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             196 => 
             array (
@@ -7685,6 +10469,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             197 => 
             array (
@@ -7696,6 +10484,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             198 => 
             array (
@@ -7707,6 +10499,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             199 => 
             array (
@@ -7718,6 +10514,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             200 => 
             array (
@@ -7729,6 +10529,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             201 => 
             array (
@@ -7740,6 +10544,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             202 => 
             array (
@@ -7751,6 +10559,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             203 => 
             array (
@@ -7762,6 +10574,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             204 => 
             array (
@@ -7773,6 +10589,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             205 => 
             array (
@@ -7784,6 +10604,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             206 => 
             array (
@@ -7795,6 +10619,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             207 => 
             array (
@@ -7806,6 +10634,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             208 => 
             array (
@@ -7817,6 +10649,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             209 => 
             array (
@@ -7828,6 +10664,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             210 => 
             array (
@@ -7839,6 +10679,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             211 => 
             array (
@@ -7850,6 +10694,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             212 => 
             array (
@@ -7861,6 +10709,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             213 => 
             array (
@@ -7872,6 +10724,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             214 => 
             array (
@@ -7883,6 +10739,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             215 => 
             array (
@@ -7894,6 +10754,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             216 => 
             array (
@@ -7905,6 +10769,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             217 => 
             array (
@@ -7916,6 +10784,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             218 => 
             array (
@@ -7927,6 +10799,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 64,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             219 => 
             array (
@@ -7938,6 +10814,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             220 => 
             array (
@@ -7949,6 +10829,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             221 => 
             array (
@@ -7960,6 +10844,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             222 => 
             array (
@@ -7971,6 +10859,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             223 => 
             array (
@@ -7982,6 +10874,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             224 => 
             array (
@@ -7993,6 +10889,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             225 => 
             array (
@@ -8004,6 +10904,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             226 => 
             array (
@@ -8015,6 +10919,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             227 => 
             array (
@@ -8026,6 +10934,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             228 => 
             array (
@@ -8037,6 +10949,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             229 => 
             array (
@@ -8048,6 +10964,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             230 => 
             array (
@@ -8059,6 +10979,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             231 => 
             array (
@@ -8070,6 +10994,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             232 => 
             array (
@@ -8081,6 +11009,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             233 => 
             array (
@@ -8092,6 +11024,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             234 => 
             array (
@@ -8103,6 +11039,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             235 => 
             array (
@@ -8114,6 +11054,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             236 => 
             array (
@@ -8125,6 +11069,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             237 => 
             array (
@@ -8136,6 +11084,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             238 => 
             array (
@@ -8147,6 +11099,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             239 => 
             array (
@@ -8158,6 +11114,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             240 => 
             array (
@@ -8169,6 +11129,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             241 => 
             array (
@@ -8180,6 +11144,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             242 => 
             array (
@@ -8191,6 +11159,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             243 => 
             array (
@@ -8202,6 +11174,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             244 => 
             array (
@@ -8213,6 +11189,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             245 => 
             array (
@@ -8224,6 +11204,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             246 => 
             array (
@@ -8235,6 +11219,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             247 => 
             array (
@@ -8246,6 +11234,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             248 => 
             array (
@@ -8257,6 +11249,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             249 => 
             array (
@@ -8268,6 +11264,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             250 => 
             array (
@@ -8279,6 +11279,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             251 => 
             array (
@@ -8290,6 +11294,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             252 => 
             array (
@@ -8301,6 +11309,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             253 => 
             array (
@@ -8312,6 +11324,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             254 => 
             array (
@@ -8323,6 +11339,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             255 => 
             array (
@@ -8334,6 +11354,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             256 => 
             array (
@@ -8345,6 +11369,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             257 => 
             array (
@@ -8356,6 +11384,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             258 => 
             array (
@@ -8367,6 +11399,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             259 => 
             array (
@@ -8378,6 +11414,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             260 => 
             array (
@@ -8389,6 +11429,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             261 => 
             array (
@@ -8400,6 +11444,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             262 => 
             array (
@@ -8411,6 +11459,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             263 => 
             array (
@@ -8422,6 +11474,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             264 => 
             array (
@@ -8433,6 +11489,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             265 => 
             array (
@@ -8444,6 +11504,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             266 => 
             array (
@@ -8455,6 +11519,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             267 => 
             array (
@@ -8466,6 +11534,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             268 => 
             array (
@@ -8477,6 +11549,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             269 => 
             array (
@@ -8488,6 +11564,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             270 => 
             array (
@@ -8499,6 +11579,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             271 => 
             array (
@@ -8510,6 +11594,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             272 => 
             array (
@@ -8521,6 +11609,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             273 => 
             array (
@@ -8532,6 +11624,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             274 => 
             array (
@@ -8543,6 +11639,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             275 => 
             array (
@@ -8554,6 +11654,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             276 => 
             array (
@@ -8565,6 +11669,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             277 => 
             array (
@@ -8576,6 +11684,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             278 => 
             array (
@@ -8587,6 +11699,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             279 => 
             array (
@@ -8598,6 +11714,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             280 => 
             array (
@@ -8609,6 +11729,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             281 => 
             array (
@@ -8620,6 +11744,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             282 => 
             array (
@@ -8631,6 +11759,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             283 => 
             array (
@@ -8642,6 +11774,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             284 => 
             array (
@@ -8653,6 +11789,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             285 => 
             array (
@@ -8664,6 +11804,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             286 => 
             array (
@@ -8675,6 +11819,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             287 => 
             array (
@@ -8686,6 +11834,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             288 => 
             array (
@@ -8697,6 +11849,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             289 => 
             array (
@@ -8708,6 +11864,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             290 => 
             array (
@@ -8719,6 +11879,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             291 => 
             array (
@@ -8730,6 +11894,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             292 => 
             array (
@@ -8741,6 +11909,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             293 => 
             array (
@@ -8752,6 +11924,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             294 => 
             array (
@@ -8763,6 +11939,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             295 => 
             array (
@@ -8774,6 +11954,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             296 => 
             array (
@@ -8785,6 +11969,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             297 => 
             array (
@@ -8796,6 +11984,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             298 => 
             array (
@@ -8807,6 +11999,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             299 => 
             array (
@@ -8818,6 +12014,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             300 => 
             array (
@@ -8829,6 +12029,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             301 => 
             array (
@@ -8840,6 +12044,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             302 => 
             array (
@@ -8851,6 +12059,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             303 => 
             array (
@@ -8862,6 +12074,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             304 => 
             array (
@@ -8873,6 +12089,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             305 => 
             array (
@@ -8884,6 +12104,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             306 => 
             array (
@@ -8895,6 +12119,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             307 => 
             array (
@@ -8906,6 +12134,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             308 => 
             array (
@@ -8917,6 +12149,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             309 => 
             array (
@@ -8928,6 +12164,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             310 => 
             array (
@@ -8939,6 +12179,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             311 => 
             array (
@@ -8950,6 +12194,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             312 => 
             array (
@@ -8961,6 +12209,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             313 => 
             array (
@@ -8972,6 +12224,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             314 => 
             array (
@@ -8983,6 +12239,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             315 => 
             array (
@@ -8994,6 +12254,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             316 => 
             array (
@@ -9005,6 +12269,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             317 => 
             array (
@@ -9016,6 +12284,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             318 => 
             array (
@@ -9027,6 +12299,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             319 => 
             array (
@@ -9038,6 +12314,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             320 => 
             array (
@@ -9049,6 +12329,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             321 => 
             array (
@@ -9060,6 +12344,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             322 => 
             array (
@@ -9071,6 +12359,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             323 => 
             array (
@@ -9082,6 +12374,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             324 => 
             array (
@@ -9093,6 +12389,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             325 => 
             array (
@@ -9104,6 +12404,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             326 => 
             array (
@@ -9115,6 +12419,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             327 => 
             array (
@@ -9126,6 +12434,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             328 => 
             array (
@@ -9137,6 +12449,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             329 => 
             array (
@@ -9148,6 +12464,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             330 => 
             array (
@@ -9159,6 +12479,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             331 => 
             array (
@@ -9170,6 +12494,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             332 => 
             array (
@@ -9181,6 +12509,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             333 => 
             array (
@@ -9192,6 +12524,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             334 => 
             array (
@@ -9203,6 +12539,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             335 => 
             array (
@@ -9214,6 +12554,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             336 => 
             array (
@@ -9225,6 +12569,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             337 => 
             array (
@@ -9236,6 +12584,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             338 => 
             array (
@@ -9247,6 +12599,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             339 => 
             array (
@@ -9258,6 +12614,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             340 => 
             array (
@@ -9269,6 +12629,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             341 => 
             array (
@@ -9280,6 +12644,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             342 => 
             array (
@@ -9291,6 +12659,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             343 => 
             array (
@@ -9302,6 +12674,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             344 => 
             array (
@@ -9313,6 +12689,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             345 => 
             array (
@@ -9324,6 +12704,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             346 => 
             array (
@@ -9335,6 +12719,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             347 => 
             array (
@@ -9346,6 +12734,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             348 => 
             array (
@@ -9357,6 +12749,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             349 => 
             array (
@@ -9368,6 +12764,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             350 => 
             array (
@@ -9379,6 +12779,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             351 => 
             array (
@@ -9390,6 +12794,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             352 => 
             array (
@@ -9401,6 +12809,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             353 => 
             array (
@@ -9412,6 +12824,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             354 => 
             array (
@@ -9423,6 +12839,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             355 => 
             array (
@@ -9434,6 +12854,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             356 => 
             array (
@@ -9445,6 +12869,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             357 => 
             array (
@@ -9456,6 +12884,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             358 => 
             array (
@@ -9467,6 +12899,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             359 => 
             array (
@@ -9478,6 +12914,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             360 => 
             array (
@@ -9489,6 +12929,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             361 => 
             array (
@@ -9500,6 +12944,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             362 => 
             array (
@@ -9511,6 +12959,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             363 => 
             array (
@@ -9522,6 +12974,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             364 => 
             array (
@@ -9533,6 +12989,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             365 => 
             array (
@@ -9544,6 +13004,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             366 => 
             array (
@@ -9555,6 +13019,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             367 => 
             array (
@@ -9566,6 +13034,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             368 => 
             array (
@@ -9577,6 +13049,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             369 => 
             array (
@@ -9588,6 +13064,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             370 => 
             array (
@@ -9599,6 +13079,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             371 => 
             array (
@@ -9610,6 +13094,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             372 => 
             array (
@@ -9621,6 +13109,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             373 => 
             array (
@@ -9632,6 +13124,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             374 => 
             array (
@@ -9643,6 +13139,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             375 => 
             array (
@@ -9654,6 +13154,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             376 => 
             array (
@@ -9665,6 +13169,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             377 => 
             array (
@@ -9676,6 +13184,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             378 => 
             array (
@@ -9687,6 +13199,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             379 => 
             array (
@@ -9698,6 +13214,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             380 => 
             array (
@@ -9709,6 +13229,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             381 => 
             array (
@@ -9720,6 +13244,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             382 => 
             array (
@@ -9731,6 +13259,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             383 => 
             array (
@@ -9742,6 +13274,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             384 => 
             array (
@@ -9753,6 +13289,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             385 => 
             array (
@@ -9764,6 +13304,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             386 => 
             array (
@@ -9775,6 +13319,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             387 => 
             array (
@@ -9786,6 +13334,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             388 => 
             array (
@@ -9797,6 +13349,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             389 => 
             array (
@@ -9808,6 +13364,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             390 => 
             array (
@@ -9819,6 +13379,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             391 => 
             array (
@@ -9830,6 +13394,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             392 => 
             array (
@@ -9841,6 +13409,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             393 => 
             array (
@@ -9852,6 +13424,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             394 => 
             array (
@@ -9863,6 +13439,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             395 => 
             array (
@@ -9874,6 +13454,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             396 => 
             array (
@@ -9885,6 +13469,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             397 => 
             array (
@@ -9896,6 +13484,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             398 => 
             array (
@@ -9907,6 +13499,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             399 => 
             array (
@@ -9918,6 +13514,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             400 => 
             array (
@@ -9929,6 +13529,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             401 => 
             array (
@@ -9940,6 +13544,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             402 => 
             array (
@@ -9951,6 +13559,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             403 => 
             array (
@@ -9962,6 +13574,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             404 => 
             array (
@@ -9973,6 +13589,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             405 => 
             array (
@@ -9984,6 +13604,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             406 => 
             array (
@@ -9995,6 +13619,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             407 => 
             array (
@@ -10006,6 +13634,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             408 => 
             array (
@@ -10017,6 +13649,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             409 => 
             array (
@@ -10028,6 +13664,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             410 => 
             array (
@@ -10039,6 +13679,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             411 => 
             array (
@@ -10050,6 +13694,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             412 => 
             array (
@@ -10061,6 +13709,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             413 => 
             array (
@@ -10072,6 +13724,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             414 => 
             array (
@@ -10083,6 +13739,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             415 => 
             array (
@@ -10094,6 +13754,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             416 => 
             array (
@@ -10105,6 +13769,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             417 => 
             array (
@@ -10116,6 +13784,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             418 => 
             array (
@@ -10127,6 +13799,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             419 => 
             array (
@@ -10138,6 +13814,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             420 => 
             array (
@@ -10149,6 +13829,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             421 => 
             array (
@@ -10160,6 +13844,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             422 => 
             array (
@@ -10171,6 +13859,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             423 => 
             array (
@@ -10182,6 +13874,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             424 => 
             array (
@@ -10193,6 +13889,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             425 => 
             array (
@@ -10204,6 +13904,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             426 => 
             array (
@@ -10215,6 +13919,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             427 => 
             array (
@@ -10226,6 +13934,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             428 => 
             array (
@@ -10237,6 +13949,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             429 => 
             array (
@@ -10248,6 +13964,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             430 => 
             array (
@@ -10259,6 +13979,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             431 => 
             array (
@@ -10270,6 +13994,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             432 => 
             array (
@@ -10281,6 +14009,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             433 => 
             array (
@@ -10292,6 +14024,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             434 => 
             array (
@@ -10303,6 +14039,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             435 => 
             array (
@@ -10314,6 +14054,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             436 => 
             array (
@@ -10325,6 +14069,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             437 => 
             array (
@@ -10336,6 +14084,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             438 => 
             array (
@@ -10347,6 +14099,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             439 => 
             array (
@@ -10358,6 +14114,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             440 => 
             array (
@@ -10369,6 +14129,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             441 => 
             array (
@@ -10380,6 +14144,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             442 => 
             array (
@@ -10391,6 +14159,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             443 => 
             array (
@@ -10402,6 +14174,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             444 => 
             array (
@@ -10413,6 +14189,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             445 => 
             array (
@@ -10424,6 +14204,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             446 => 
             array (
@@ -10435,6 +14219,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             447 => 
             array (
@@ -10446,6 +14234,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             448 => 
             array (
@@ -10457,6 +14249,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             449 => 
             array (
@@ -10468,6 +14264,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             450 => 
             array (
@@ -10479,6 +14279,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             451 => 
             array (
@@ -10490,6 +14294,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             452 => 
             array (
@@ -10501,6 +14309,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             453 => 
             array (
@@ -10512,6 +14324,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             454 => 
             array (
@@ -10523,6 +14339,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             455 => 
             array (
@@ -10534,6 +14354,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             456 => 
             array (
@@ -10545,6 +14369,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             457 => 
             array (
@@ -10556,6 +14384,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             458 => 
             array (
@@ -10567,6 +14399,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             459 => 
             array (
@@ -10578,6 +14414,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             460 => 
             array (
@@ -10589,6 +14429,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             461 => 
             array (
@@ -10600,6 +14444,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             462 => 
             array (
@@ -10611,6 +14459,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             463 => 
             array (
@@ -10622,6 +14474,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             464 => 
             array (
@@ -10633,6 +14489,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             465 => 
             array (
@@ -10644,6 +14504,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             466 => 
             array (
@@ -10655,6 +14519,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             467 => 
             array (
@@ -10666,6 +14534,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             468 => 
             array (
@@ -10677,6 +14549,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             469 => 
             array (
@@ -10688,6 +14564,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             470 => 
             array (
@@ -10699,6 +14579,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             471 => 
             array (
@@ -10710,6 +14594,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             472 => 
             array (
@@ -10721,6 +14609,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             473 => 
             array (
@@ -10732,6 +14624,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             474 => 
             array (
@@ -10743,6 +14639,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             475 => 
             array (
@@ -10754,6 +14654,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             476 => 
             array (
@@ -10765,6 +14669,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             477 => 
             array (
@@ -10776,6 +14684,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             478 => 
             array (
@@ -10787,6 +14699,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             479 => 
             array (
@@ -10798,6 +14714,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             480 => 
             array (
@@ -10809,6 +14729,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             481 => 
             array (
@@ -10820,6 +14744,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             482 => 
             array (
@@ -10831,6 +14759,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             483 => 
             array (
@@ -10842,6 +14774,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             484 => 
             array (
@@ -10853,6 +14789,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             485 => 
             array (
@@ -10864,6 +14804,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             486 => 
             array (
@@ -10875,6 +14819,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             487 => 
             array (
@@ -10886,6 +14834,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             488 => 
             array (
@@ -10897,6 +14849,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             489 => 
             array (
@@ -10908,6 +14864,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             490 => 
             array (
@@ -10919,6 +14879,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             491 => 
             array (
@@ -10930,6 +14894,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             492 => 
             array (
@@ -10941,6 +14909,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             493 => 
             array (
@@ -10952,6 +14924,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             494 => 
             array (
@@ -10963,6 +14939,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             495 => 
             array (
@@ -10974,6 +14954,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             496 => 
             array (
@@ -10985,6 +14969,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             497 => 
             array (
@@ -10996,6 +14984,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             498 => 
             array (
@@ -11007,6 +14999,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             499 => 
             array (
@@ -11018,6 +15014,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
         ));
         \DB::table('das_keluarga')->insert(array (
@@ -11031,6 +15031,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             1 => 
             array (
@@ -11042,6 +15046,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             2 => 
             array (
@@ -11053,6 +15061,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             3 => 
             array (
@@ -11064,6 +15076,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             4 => 
             array (
@@ -11075,6 +15091,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             5 => 
             array (
@@ -11086,6 +15106,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             6 => 
             array (
@@ -11097,6 +15121,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             7 => 
             array (
@@ -11108,6 +15136,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             8 => 
             array (
@@ -11119,6 +15151,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             9 => 
             array (
@@ -11130,6 +15166,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             10 => 
             array (
@@ -11141,6 +15181,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             11 => 
             array (
@@ -11152,6 +15196,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             12 => 
             array (
@@ -11163,6 +15211,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             13 => 
             array (
@@ -11174,6 +15226,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             14 => 
             array (
@@ -11185,6 +15241,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             15 => 
             array (
@@ -11196,6 +15256,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             16 => 
             array (
@@ -11207,6 +15271,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             17 => 
             array (
@@ -11218,6 +15286,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             18 => 
             array (
@@ -11229,6 +15301,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             19 => 
             array (
@@ -11240,6 +15316,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             20 => 
             array (
@@ -11251,6 +15331,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             21 => 
             array (
@@ -11262,6 +15346,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             22 => 
             array (
@@ -11273,6 +15361,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             23 => 
             array (
@@ -11284,6 +15376,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             24 => 
             array (
@@ -11295,6 +15391,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             25 => 
             array (
@@ -11306,6 +15406,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             26 => 
             array (
@@ -11317,6 +15421,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             27 => 
             array (
@@ -11328,6 +15436,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             28 => 
             array (
@@ -11339,6 +15451,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             29 => 
             array (
@@ -11350,6 +15466,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             30 => 
             array (
@@ -11361,6 +15481,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             31 => 
             array (
@@ -11372,6 +15496,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             32 => 
             array (
@@ -11383,6 +15511,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             33 => 
             array (
@@ -11394,6 +15526,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             34 => 
             array (
@@ -11405,6 +15541,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             35 => 
             array (
@@ -11416,6 +15556,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             36 => 
             array (
@@ -11427,6 +15571,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             37 => 
             array (
@@ -11438,6 +15586,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             38 => 
             array (
@@ -11449,6 +15601,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             39 => 
             array (
@@ -11460,6 +15616,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             40 => 
             array (
@@ -11471,6 +15631,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             41 => 
             array (
@@ -11482,6 +15646,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             42 => 
             array (
@@ -11493,6 +15661,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             43 => 
             array (
@@ -11504,6 +15676,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             44 => 
             array (
@@ -11515,6 +15691,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             45 => 
             array (
@@ -11526,6 +15706,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             46 => 
             array (
@@ -11537,6 +15721,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             47 => 
             array (
@@ -11548,6 +15736,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             48 => 
             array (
@@ -11559,6 +15751,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             49 => 
             array (
@@ -11570,6 +15766,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             50 => 
             array (
@@ -11581,6 +15781,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             51 => 
             array (
@@ -11592,6 +15796,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             52 => 
             array (
@@ -11603,6 +15811,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             53 => 
             array (
@@ -11614,6 +15826,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             54 => 
             array (
@@ -11625,6 +15841,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             55 => 
             array (
@@ -11636,6 +15856,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             56 => 
             array (
@@ -11647,6 +15871,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             57 => 
             array (
@@ -11658,6 +15886,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             58 => 
             array (
@@ -11669,6 +15901,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             59 => 
             array (
@@ -11680,6 +15916,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             60 => 
             array (
@@ -11691,6 +15931,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             61 => 
             array (
@@ -11702,6 +15946,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             62 => 
             array (
@@ -11713,6 +15961,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             63 => 
             array (
@@ -11724,6 +15976,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             64 => 
             array (
@@ -11735,6 +15991,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             65 => 
             array (
@@ -11746,6 +16006,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             66 => 
             array (
@@ -11757,6 +16021,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             67 => 
             array (
@@ -11768,6 +16036,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             68 => 
             array (
@@ -11779,6 +16051,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             69 => 
             array (
@@ -11790,6 +16066,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             70 => 
             array (
@@ -11801,6 +16081,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             71 => 
             array (
@@ -11812,6 +16096,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             72 => 
             array (
@@ -11823,6 +16111,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             73 => 
             array (
@@ -11834,6 +16126,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             74 => 
             array (
@@ -11845,6 +16141,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             75 => 
             array (
@@ -11856,6 +16156,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             76 => 
             array (
@@ -11867,6 +16171,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             77 => 
             array (
@@ -11878,6 +16186,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             78 => 
             array (
@@ -11889,6 +16201,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             79 => 
             array (
@@ -11900,6 +16216,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             80 => 
             array (
@@ -11911,6 +16231,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             81 => 
             array (
@@ -11922,6 +16246,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             82 => 
             array (
@@ -11933,6 +16261,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             83 => 
             array (
@@ -11944,6 +16276,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             84 => 
             array (
@@ -11955,6 +16291,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             85 => 
             array (
@@ -11966,6 +16306,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             86 => 
             array (
@@ -11977,6 +16321,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             87 => 
             array (
@@ -11988,6 +16336,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             88 => 
             array (
@@ -11999,6 +16351,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             89 => 
             array (
@@ -12010,6 +16366,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             90 => 
             array (
@@ -12021,6 +16381,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             91 => 
             array (
@@ -12032,6 +16396,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             92 => 
             array (
@@ -12043,6 +16411,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             93 => 
             array (
@@ -12054,6 +16426,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             94 => 
             array (
@@ -12065,6 +16441,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             95 => 
             array (
@@ -12076,6 +16456,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             96 => 
             array (
@@ -12087,6 +16471,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             97 => 
             array (
@@ -12098,6 +16486,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             98 => 
             array (
@@ -12109,6 +16501,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             99 => 
             array (
@@ -12120,6 +16516,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             100 => 
             array (
@@ -12131,6 +16531,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             101 => 
             array (
@@ -12142,6 +16546,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             102 => 
             array (
@@ -12153,6 +16561,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             103 => 
             array (
@@ -12164,6 +16576,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             104 => 
             array (
@@ -12175,6 +16591,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             105 => 
             array (
@@ -12186,6 +16606,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             106 => 
             array (
@@ -12197,6 +16621,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             107 => 
             array (
@@ -12208,6 +16636,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             108 => 
             array (
@@ -12219,6 +16651,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             109 => 
             array (
@@ -12230,6 +16666,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             110 => 
             array (
@@ -12241,6 +16681,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             111 => 
             array (
@@ -12252,6 +16696,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             112 => 
             array (
@@ -12263,6 +16711,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             113 => 
             array (
@@ -12274,6 +16726,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             114 => 
             array (
@@ -12285,6 +16741,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             115 => 
             array (
@@ -12296,6 +16756,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 64,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             116 => 
             array (
@@ -12307,6 +16771,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             117 => 
             array (
@@ -12318,6 +16786,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             118 => 
             array (
@@ -12329,6 +16801,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             119 => 
             array (
@@ -12340,6 +16816,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             120 => 
             array (
@@ -12351,6 +16831,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             121 => 
             array (
@@ -12362,6 +16846,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             122 => 
             array (
@@ -12373,6 +16861,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             123 => 
             array (
@@ -12384,6 +16876,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             124 => 
             array (
@@ -12395,6 +16891,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             125 => 
             array (
@@ -12406,6 +16906,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             126 => 
             array (
@@ -12417,6 +16921,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             127 => 
             array (
@@ -12428,6 +16936,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             128 => 
             array (
@@ -12439,6 +16951,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             129 => 
             array (
@@ -12450,6 +16966,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             130 => 
             array (
@@ -12461,6 +16981,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             131 => 
             array (
@@ -12472,6 +16996,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             132 => 
             array (
@@ -12483,6 +17011,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             133 => 
             array (
@@ -12494,6 +17026,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             134 => 
             array (
@@ -12505,6 +17041,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             135 => 
             array (
@@ -12516,6 +17056,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             136 => 
             array (
@@ -12527,6 +17071,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             137 => 
             array (
@@ -12538,6 +17086,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             138 => 
             array (
@@ -12549,6 +17101,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             139 => 
             array (
@@ -12560,6 +17116,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             140 => 
             array (
@@ -12571,6 +17131,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             141 => 
             array (
@@ -12582,6 +17146,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             142 => 
             array (
@@ -12593,6 +17161,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             143 => 
             array (
@@ -12604,6 +17176,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             144 => 
             array (
@@ -12615,6 +17191,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             145 => 
             array (
@@ -12626,6 +17206,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             146 => 
             array (
@@ -12637,6 +17221,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             147 => 
             array (
@@ -12648,6 +17236,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             148 => 
             array (
@@ -12659,6 +17251,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             149 => 
             array (
@@ -12670,6 +17266,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             150 => 
             array (
@@ -12681,6 +17281,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             151 => 
             array (
@@ -12692,6 +17296,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             152 => 
             array (
@@ -12703,6 +17311,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             153 => 
             array (
@@ -12714,6 +17326,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             154 => 
             array (
@@ -12725,6 +17341,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             155 => 
             array (
@@ -12736,6 +17356,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             156 => 
             array (
@@ -12747,6 +17371,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             157 => 
             array (
@@ -12758,6 +17386,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             158 => 
             array (
@@ -12769,6 +17401,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             159 => 
             array (
@@ -12780,6 +17416,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             160 => 
             array (
@@ -12791,6 +17431,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             161 => 
             array (
@@ -12802,6 +17446,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             162 => 
             array (
@@ -12813,6 +17461,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             163 => 
             array (
@@ -12824,6 +17476,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             164 => 
             array (
@@ -12835,6 +17491,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             165 => 
             array (
@@ -12846,6 +17506,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             166 => 
             array (
@@ -12857,6 +17521,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             167 => 
             array (
@@ -12868,6 +17536,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             168 => 
             array (
@@ -12879,6 +17551,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             169 => 
             array (
@@ -12890,6 +17566,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             170 => 
             array (
@@ -12901,6 +17581,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             171 => 
             array (
@@ -12912,6 +17596,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             172 => 
             array (
@@ -12923,6 +17611,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             173 => 
             array (
@@ -12934,6 +17626,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             174 => 
             array (
@@ -12945,6 +17641,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             175 => 
             array (
@@ -12956,6 +17656,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             176 => 
             array (
@@ -12967,6 +17671,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             177 => 
             array (
@@ -12978,6 +17686,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             178 => 
             array (
@@ -12989,6 +17701,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             179 => 
             array (
@@ -13000,6 +17716,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             180 => 
             array (
@@ -13011,6 +17731,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             181 => 
             array (
@@ -13022,6 +17746,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             182 => 
             array (
@@ -13033,6 +17761,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             183 => 
             array (
@@ -13044,6 +17776,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             184 => 
             array (
@@ -13055,6 +17791,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             185 => 
             array (
@@ -13066,6 +17806,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             186 => 
             array (
@@ -13077,6 +17821,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             187 => 
             array (
@@ -13088,6 +17836,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             188 => 
             array (
@@ -13099,6 +17851,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             189 => 
             array (
@@ -13110,6 +17866,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             190 => 
             array (
@@ -13121,6 +17881,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             191 => 
             array (
@@ -13132,6 +17896,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             192 => 
             array (
@@ -13143,6 +17911,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             193 => 
             array (
@@ -13154,6 +17926,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             194 => 
             array (
@@ -13165,6 +17941,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             195 => 
             array (
@@ -13176,6 +17956,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             196 => 
             array (
@@ -13187,6 +17971,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             197 => 
             array (
@@ -13198,6 +17986,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             198 => 
             array (
@@ -13209,6 +18001,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             199 => 
             array (
@@ -13220,6 +18016,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             200 => 
             array (
@@ -13231,6 +18031,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             201 => 
             array (
@@ -13242,6 +18046,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             202 => 
             array (
@@ -13253,6 +18061,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             203 => 
             array (
@@ -13264,6 +18076,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             204 => 
             array (
@@ -13275,6 +18091,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             205 => 
             array (
@@ -13286,6 +18106,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             206 => 
             array (
@@ -13297,6 +18121,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             207 => 
             array (
@@ -13308,6 +18136,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             208 => 
             array (
@@ -13319,6 +18151,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             209 => 
             array (
@@ -13330,6 +18166,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             210 => 
             array (
@@ -13341,6 +18181,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             211 => 
             array (
@@ -13352,6 +18196,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             212 => 
             array (
@@ -13363,6 +18211,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             213 => 
             array (
@@ -13374,6 +18226,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             214 => 
             array (
@@ -13385,6 +18241,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 63,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             215 => 
             array (
@@ -13396,6 +18256,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             216 => 
             array (
@@ -13407,6 +18271,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             217 => 
             array (
@@ -13418,6 +18286,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             218 => 
             array (
@@ -13429,6 +18301,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             219 => 
             array (
@@ -13440,6 +18316,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             220 => 
             array (
@@ -13451,6 +18331,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             221 => 
             array (
@@ -13462,6 +18346,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             222 => 
             array (
@@ -13473,6 +18361,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             223 => 
             array (
@@ -13484,6 +18376,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             224 => 
             array (
@@ -13495,6 +18391,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             225 => 
             array (
@@ -13506,6 +18406,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             226 => 
             array (
@@ -13517,6 +18421,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             227 => 
             array (
@@ -13528,6 +18436,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             228 => 
             array (
@@ -13539,6 +18451,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             229 => 
             array (
@@ -13550,6 +18466,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             230 => 
             array (
@@ -13561,6 +18481,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             231 => 
             array (
@@ -13572,6 +18496,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             232 => 
             array (
@@ -13583,6 +18511,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             233 => 
             array (
@@ -13594,6 +18526,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             234 => 
             array (
@@ -13605,6 +18541,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             235 => 
             array (
@@ -13616,6 +18556,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             236 => 
             array (
@@ -13627,6 +18571,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             237 => 
             array (
@@ -13638,6 +18586,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             238 => 
             array (
@@ -13649,6 +18601,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             239 => 
             array (
@@ -13660,6 +18616,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             240 => 
             array (
@@ -13671,6 +18631,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             241 => 
             array (
@@ -13682,6 +18646,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             242 => 
             array (
@@ -13693,6 +18661,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             243 => 
             array (
@@ -13704,6 +18676,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             244 => 
             array (
@@ -13715,6 +18691,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             245 => 
             array (
@@ -13726,6 +18706,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             246 => 
             array (
@@ -13737,6 +18721,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             247 => 
             array (
@@ -13748,6 +18736,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             248 => 
             array (
@@ -13759,6 +18751,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             249 => 
             array (
@@ -13770,6 +18766,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             250 => 
             array (
@@ -13781,6 +18781,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             251 => 
             array (
@@ -13792,6 +18796,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             252 => 
             array (
@@ -13803,6 +18811,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             253 => 
             array (
@@ -13814,6 +18826,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             254 => 
             array (
@@ -13825,6 +18841,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             255 => 
             array (
@@ -13836,6 +18856,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             256 => 
             array (
@@ -13847,6 +18871,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             257 => 
             array (
@@ -13858,6 +18886,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             258 => 
             array (
@@ -13869,6 +18901,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             259 => 
             array (
@@ -13880,6 +18916,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             260 => 
             array (
@@ -13891,6 +18931,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             261 => 
             array (
@@ -13902,6 +18946,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             262 => 
             array (
@@ -13913,6 +18961,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             263 => 
             array (
@@ -13924,6 +18976,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             264 => 
             array (
@@ -13935,6 +18991,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             265 => 
             array (
@@ -13946,6 +19006,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             266 => 
             array (
@@ -13957,6 +19021,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             267 => 
             array (
@@ -13968,6 +19036,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             268 => 
             array (
@@ -13979,6 +19051,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             269 => 
             array (
@@ -13990,6 +19066,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             270 => 
             array (
@@ -14001,6 +19081,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             271 => 
             array (
@@ -14012,6 +19096,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             272 => 
             array (
@@ -14023,6 +19111,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             273 => 
             array (
@@ -14034,6 +19126,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             274 => 
             array (
@@ -14045,6 +19141,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             275 => 
             array (
@@ -14056,6 +19156,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             276 => 
             array (
@@ -14067,6 +19171,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             277 => 
             array (
@@ -14078,6 +19186,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             278 => 
             array (
@@ -14089,6 +19201,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             279 => 
             array (
@@ -14100,6 +19216,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             280 => 
             array (
@@ -14111,6 +19231,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             281 => 
             array (
@@ -14122,6 +19246,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             282 => 
             array (
@@ -14133,6 +19261,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             283 => 
             array (
@@ -14144,6 +19276,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             284 => 
             array (
@@ -14155,6 +19291,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             285 => 
             array (
@@ -14166,6 +19306,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             286 => 
             array (
@@ -14177,6 +19321,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             287 => 
             array (
@@ -14188,6 +19336,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             288 => 
             array (
@@ -14199,6 +19351,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             289 => 
             array (
@@ -14210,6 +19366,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             290 => 
             array (
@@ -14221,6 +19381,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             291 => 
             array (
@@ -14232,6 +19396,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             292 => 
             array (
@@ -14243,6 +19411,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             293 => 
             array (
@@ -14254,6 +19426,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             294 => 
             array (
@@ -14265,6 +19441,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             295 => 
             array (
@@ -14276,6 +19456,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             296 => 
             array (
@@ -14287,6 +19471,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             297 => 
             array (
@@ -14298,6 +19486,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             298 => 
             array (
@@ -14309,6 +19501,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             299 => 
             array (
@@ -14320,6 +19516,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             300 => 
             array (
@@ -14331,6 +19531,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             301 => 
             array (
@@ -14342,6 +19546,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             302 => 
             array (
@@ -14353,6 +19561,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             303 => 
             array (
@@ -14364,6 +19576,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             304 => 
             array (
@@ -14375,6 +19591,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             305 => 
             array (
@@ -14386,6 +19606,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             306 => 
             array (
@@ -14397,6 +19621,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             307 => 
             array (
@@ -14408,6 +19636,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             308 => 
             array (
@@ -14419,6 +19651,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             309 => 
             array (
@@ -14430,6 +19666,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             310 => 
             array (
@@ -14441,6 +19681,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             311 => 
             array (
@@ -14452,6 +19696,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             312 => 
             array (
@@ -14463,6 +19711,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             313 => 
             array (
@@ -14474,6 +19726,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             314 => 
             array (
@@ -14485,6 +19741,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             315 => 
             array (
@@ -14496,6 +19756,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             316 => 
             array (
@@ -14507,6 +19771,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             317 => 
             array (
@@ -14518,6 +19786,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             318 => 
             array (
@@ -14529,6 +19801,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             319 => 
             array (
@@ -14540,6 +19816,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             320 => 
             array (
@@ -14551,6 +19831,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             321 => 
             array (
@@ -14562,6 +19846,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             322 => 
             array (
@@ -14573,6 +19861,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             323 => 
             array (
@@ -14584,6 +19876,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             324 => 
             array (
@@ -14595,6 +19891,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             325 => 
             array (
@@ -14606,6 +19906,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             326 => 
             array (
@@ -14617,6 +19921,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             327 => 
             array (
@@ -14628,6 +19936,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             328 => 
             array (
@@ -14639,6 +19951,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             329 => 
             array (
@@ -14650,6 +19966,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             330 => 
             array (
@@ -14661,6 +19981,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             331 => 
             array (
@@ -14672,6 +19996,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             332 => 
             array (
@@ -14683,6 +20011,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             333 => 
             array (
@@ -14694,6 +20026,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             334 => 
             array (
@@ -14705,6 +20041,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             335 => 
             array (
@@ -14716,6 +20056,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             336 => 
             array (
@@ -14727,6 +20071,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             337 => 
             array (
@@ -14738,6 +20086,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             338 => 
             array (
@@ -14749,6 +20101,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             339 => 
             array (
@@ -14760,6 +20116,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             340 => 
             array (
@@ -14771,6 +20131,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             341 => 
             array (
@@ -14782,6 +20146,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             342 => 
             array (
@@ -14793,6 +20161,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             343 => 
             array (
@@ -14804,6 +20176,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             344 => 
             array (
@@ -14815,6 +20191,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             345 => 
             array (
@@ -14826,6 +20206,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             346 => 
             array (
@@ -14837,6 +20221,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             347 => 
             array (
@@ -14848,6 +20236,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             348 => 
             array (
@@ -14859,6 +20251,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             349 => 
             array (
@@ -14870,6 +20266,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             350 => 
             array (
@@ -14881,6 +20281,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             351 => 
             array (
@@ -14892,6 +20296,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             352 => 
             array (
@@ -14903,6 +20311,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             353 => 
             array (
@@ -14914,6 +20326,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             354 => 
             array (
@@ -14925,6 +20341,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             355 => 
             array (
@@ -14936,6 +20356,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             356 => 
             array (
@@ -14947,6 +20371,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             357 => 
             array (
@@ -14958,6 +20386,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             358 => 
             array (
@@ -14969,6 +20401,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             359 => 
             array (
@@ -14980,6 +20416,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             360 => 
             array (
@@ -14991,6 +20431,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             361 => 
             array (
@@ -15002,6 +20446,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             362 => 
             array (
@@ -15013,6 +20461,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             363 => 
             array (
@@ -15024,6 +20476,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             364 => 
             array (
@@ -15035,6 +20491,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             365 => 
             array (
@@ -15046,6 +20506,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             366 => 
             array (
@@ -15057,6 +20521,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             367 => 
             array (
@@ -15068,6 +20536,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             368 => 
             array (
@@ -15079,6 +20551,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             369 => 
             array (
@@ -15090,6 +20566,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             370 => 
             array (
@@ -15101,6 +20581,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             371 => 
             array (
@@ -15112,6 +20596,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             372 => 
             array (
@@ -15123,6 +20611,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             373 => 
             array (
@@ -15134,6 +20626,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             374 => 
             array (
@@ -15145,6 +20641,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             375 => 
             array (
@@ -15156,6 +20656,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             376 => 
             array (
@@ -15167,6 +20671,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             377 => 
             array (
@@ -15178,6 +20686,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             378 => 
             array (
@@ -15189,6 +20701,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             379 => 
             array (
@@ -15200,6 +20716,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             380 => 
             array (
@@ -15211,6 +20731,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             381 => 
             array (
@@ -15222,6 +20746,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             382 => 
             array (
@@ -15233,6 +20761,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             383 => 
             array (
@@ -15244,6 +20776,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             384 => 
             array (
@@ -15255,6 +20791,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             385 => 
             array (
@@ -15266,6 +20806,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             386 => 
             array (
@@ -15277,6 +20821,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             387 => 
             array (
@@ -15288,6 +20836,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             388 => 
             array (
@@ -15299,6 +20851,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             389 => 
             array (
@@ -15310,6 +20866,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             390 => 
             array (
@@ -15321,6 +20881,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             391 => 
             array (
@@ -15332,6 +20896,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             392 => 
             array (
@@ -15343,6 +20911,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             393 => 
             array (
@@ -15354,6 +20926,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             394 => 
             array (
@@ -15365,6 +20941,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             395 => 
             array (
@@ -15376,6 +20956,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             396 => 
             array (
@@ -15387,6 +20971,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             397 => 
             array (
@@ -15398,6 +20986,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             398 => 
             array (
@@ -15409,6 +21001,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             399 => 
             array (
@@ -15420,6 +21016,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             400 => 
             array (
@@ -15431,6 +21031,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             401 => 
             array (
@@ -15442,6 +21046,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             402 => 
             array (
@@ -15453,6 +21061,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             403 => 
             array (
@@ -15464,6 +21076,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             404 => 
             array (
@@ -15475,6 +21091,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             405 => 
             array (
@@ -15486,6 +21106,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 61,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             406 => 
             array (
@@ -15497,6 +21121,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             407 => 
             array (
@@ -15508,6 +21136,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             408 => 
             array (
@@ -15519,6 +21151,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             409 => 
             array (
@@ -15530,6 +21166,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             410 => 
             array (
@@ -15541,6 +21181,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             411 => 
             array (
@@ -15552,6 +21196,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             412 => 
             array (
@@ -15563,6 +21211,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             413 => 
             array (
@@ -15574,6 +21226,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             414 => 
             array (
@@ -15585,6 +21241,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             415 => 
             array (
@@ -15596,6 +21256,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             416 => 
             array (
@@ -15607,6 +21271,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             417 => 
             array (
@@ -15618,6 +21286,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             418 => 
             array (
@@ -15629,6 +21301,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             419 => 
             array (
@@ -15640,6 +21316,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             420 => 
             array (
@@ -15651,6 +21331,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             421 => 
             array (
@@ -15662,6 +21346,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             422 => 
             array (
@@ -15673,6 +21361,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             423 => 
             array (
@@ -15684,6 +21376,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             424 => 
             array (
@@ -15695,6 +21391,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             425 => 
             array (
@@ -15706,6 +21406,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             426 => 
             array (
@@ -15717,6 +21421,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             427 => 
             array (
@@ -15728,6 +21436,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             428 => 
             array (
@@ -15739,6 +21451,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             429 => 
             array (
@@ -15750,6 +21466,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             430 => 
             array (
@@ -15761,6 +21481,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             431 => 
             array (
@@ -15772,6 +21496,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             432 => 
             array (
@@ -15783,6 +21511,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             433 => 
             array (
@@ -15794,6 +21526,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             434 => 
             array (
@@ -15805,6 +21541,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             435 => 
             array (
@@ -15816,6 +21556,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             436 => 
             array (
@@ -15827,6 +21571,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             437 => 
             array (
@@ -15838,6 +21586,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             438 => 
             array (
@@ -15849,6 +21601,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             439 => 
             array (
@@ -15860,6 +21616,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             440 => 
             array (
@@ -15871,6 +21631,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             441 => 
             array (
@@ -15882,6 +21646,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             442 => 
             array (
@@ -15893,6 +21661,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             443 => 
             array (
@@ -15904,6 +21676,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             444 => 
             array (
@@ -15915,6 +21691,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             445 => 
             array (
@@ -15926,6 +21706,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             446 => 
             array (
@@ -15937,6 +21721,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             447 => 
             array (
@@ -15948,6 +21736,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             448 => 
             array (
@@ -15959,6 +21751,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             449 => 
             array (
@@ -15970,6 +21766,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             450 => 
             array (
@@ -15981,6 +21781,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             451 => 
             array (
@@ -15992,6 +21796,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             452 => 
             array (
@@ -16003,6 +21811,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             453 => 
             array (
@@ -16014,6 +21826,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             454 => 
             array (
@@ -16025,6 +21841,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             455 => 
             array (
@@ -16036,6 +21856,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             456 => 
             array (
@@ -16047,6 +21871,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             457 => 
             array (
@@ -16058,6 +21886,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             458 => 
             array (
@@ -16069,6 +21901,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             459 => 
             array (
@@ -16080,6 +21916,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             460 => 
             array (
@@ -16091,6 +21931,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             461 => 
             array (
@@ -16102,6 +21946,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             462 => 
             array (
@@ -16113,6 +21961,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             463 => 
             array (
@@ -16124,6 +21976,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             464 => 
             array (
@@ -16135,6 +21991,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             465 => 
             array (
@@ -16146,6 +22006,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             466 => 
             array (
@@ -16157,6 +22021,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             467 => 
             array (
@@ -16168,6 +22036,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             468 => 
             array (
@@ -16179,6 +22051,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             469 => 
             array (
@@ -16190,6 +22066,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             470 => 
             array (
@@ -16201,6 +22081,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             471 => 
             array (
@@ -16212,6 +22096,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             472 => 
             array (
@@ -16223,6 +22111,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             473 => 
             array (
@@ -16234,6 +22126,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             474 => 
             array (
@@ -16245,6 +22141,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             475 => 
             array (
@@ -16256,6 +22156,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             476 => 
             array (
@@ -16267,6 +22171,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             477 => 
             array (
@@ -16278,6 +22186,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             478 => 
             array (
@@ -16289,6 +22201,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             479 => 
             array (
@@ -16300,6 +22216,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             480 => 
             array (
@@ -16311,6 +22231,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             481 => 
             array (
@@ -16322,6 +22246,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             482 => 
             array (
@@ -16333,6 +22261,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             483 => 
             array (
@@ -16344,6 +22276,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             484 => 
             array (
@@ -16355,6 +22291,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             485 => 
             array (
@@ -16366,6 +22306,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             486 => 
             array (
@@ -16377,6 +22321,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             487 => 
             array (
@@ -16388,6 +22336,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             488 => 
             array (
@@ -16399,6 +22351,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             489 => 
             array (
@@ -16410,6 +22366,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             490 => 
             array (
@@ -16421,6 +22381,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             491 => 
             array (
@@ -16432,6 +22396,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             492 => 
             array (
@@ -16443,6 +22411,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             493 => 
             array (
@@ -16454,6 +22426,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             494 => 
             array (
@@ -16465,6 +22441,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             495 => 
             array (
@@ -16476,6 +22456,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             496 => 
             array (
@@ -16487,6 +22471,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             497 => 
             array (
@@ -16498,6 +22486,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             498 => 
             array (
@@ -16509,6 +22501,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             499 => 
             array (
@@ -16520,6 +22516,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
         ));
         \DB::table('das_keluarga')->insert(array (
@@ -16533,6 +22533,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             1 => 
             array (
@@ -16544,6 +22548,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             2 => 
             array (
@@ -16555,6 +22563,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             3 => 
             array (
@@ -16566,6 +22578,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             4 => 
             array (
@@ -16577,6 +22593,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             5 => 
             array (
@@ -16588,6 +22608,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             6 => 
             array (
@@ -16599,6 +22623,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             7 => 
             array (
@@ -16610,6 +22638,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             8 => 
             array (
@@ -16621,6 +22653,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             9 => 
             array (
@@ -16632,6 +22668,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             10 => 
             array (
@@ -16643,6 +22683,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             11 => 
             array (
@@ -16654,6 +22698,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             12 => 
             array (
@@ -16665,6 +22713,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             13 => 
             array (
@@ -16676,6 +22728,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             14 => 
             array (
@@ -16687,6 +22743,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             15 => 
             array (
@@ -16698,6 +22758,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             16 => 
             array (
@@ -16709,6 +22773,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             17 => 
             array (
@@ -16720,6 +22788,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             18 => 
             array (
@@ -16731,6 +22803,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             19 => 
             array (
@@ -16742,6 +22818,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             20 => 
             array (
@@ -16753,6 +22833,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             21 => 
             array (
@@ -16764,6 +22848,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             22 => 
             array (
@@ -16775,6 +22863,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             23 => 
             array (
@@ -16786,6 +22878,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             24 => 
             array (
@@ -16797,6 +22893,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             25 => 
             array (
@@ -16808,6 +22908,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             26 => 
             array (
@@ -16819,6 +22923,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             27 => 
             array (
@@ -16830,6 +22938,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             28 => 
             array (
@@ -16841,6 +22953,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             29 => 
             array (
@@ -16852,6 +22968,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             30 => 
             array (
@@ -16863,6 +22983,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             31 => 
             array (
@@ -16874,6 +22998,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             32 => 
             array (
@@ -16885,6 +23013,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             33 => 
             array (
@@ -16896,6 +23028,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             34 => 
             array (
@@ -16907,6 +23043,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             35 => 
             array (
@@ -16918,6 +23058,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             36 => 
             array (
@@ -16929,6 +23073,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             37 => 
             array (
@@ -16940,6 +23088,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             38 => 
             array (
@@ -16951,6 +23103,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             39 => 
             array (
@@ -16962,6 +23118,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             40 => 
             array (
@@ -16973,6 +23133,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             41 => 
             array (
@@ -16984,6 +23148,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             42 => 
             array (
@@ -16995,6 +23163,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             43 => 
             array (
@@ -17006,6 +23178,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             44 => 
             array (
@@ -17017,6 +23193,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             45 => 
             array (
@@ -17028,6 +23208,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 62,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             46 => 
             array (
@@ -17039,6 +23223,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             47 => 
             array (
@@ -17050,6 +23238,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             48 => 
             array (
@@ -17061,6 +23253,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             49 => 
             array (
@@ -17072,6 +23268,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             50 => 
             array (
@@ -17083,6 +23283,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             51 => 
             array (
@@ -17094,6 +23298,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             52 => 
             array (
@@ -17105,6 +23313,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             53 => 
             array (
@@ -17116,6 +23328,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             54 => 
             array (
@@ -17127,6 +23343,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             55 => 
             array (
@@ -17138,6 +23358,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             56 => 
             array (
@@ -17149,6 +23373,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             57 => 
             array (
@@ -17160,6 +23388,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             58 => 
             array (
@@ -17171,6 +23403,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             59 => 
             array (
@@ -17182,6 +23418,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             60 => 
             array (
@@ -17193,6 +23433,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             61 => 
             array (
@@ -17204,6 +23448,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             62 => 
             array (
@@ -17215,6 +23463,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             63 => 
             array (
@@ -17226,6 +23478,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             64 => 
             array (
@@ -17237,6 +23493,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             65 => 
             array (
@@ -17248,6 +23508,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             66 => 
             array (
@@ -17259,6 +23523,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             67 => 
             array (
@@ -17270,6 +23538,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             68 => 
             array (
@@ -17281,6 +23553,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             69 => 
             array (
@@ -17292,6 +23568,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             70 => 
             array (
@@ -17303,6 +23583,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             71 => 
             array (
@@ -17314,6 +23598,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             72 => 
             array (
@@ -17325,6 +23613,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             73 => 
             array (
@@ -17336,6 +23628,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             74 => 
             array (
@@ -17347,6 +23643,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             75 => 
             array (
@@ -17358,6 +23658,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             76 => 
             array (
@@ -17369,6 +23673,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             77 => 
             array (
@@ -17380,6 +23688,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             78 => 
             array (
@@ -17391,6 +23703,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             79 => 
             array (
@@ -17402,6 +23718,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             80 => 
             array (
@@ -17413,6 +23733,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             81 => 
             array (
@@ -17424,6 +23748,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             82 => 
             array (
@@ -17435,6 +23763,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             83 => 
             array (
@@ -17446,6 +23778,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             84 => 
             array (
@@ -17457,6 +23793,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             85 => 
             array (
@@ -17468,6 +23808,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             86 => 
             array (
@@ -17479,6 +23823,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             87 => 
             array (
@@ -17490,6 +23838,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             88 => 
             array (
@@ -17501,6 +23853,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             89 => 
             array (
@@ -17512,6 +23868,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             90 => 
             array (
@@ -17523,6 +23883,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             91 => 
             array (
@@ -17534,6 +23898,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             92 => 
             array (
@@ -17545,6 +23913,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             93 => 
             array (
@@ -17556,6 +23928,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 45,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             94 => 
             array (
@@ -17567,6 +23943,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             95 => 
             array (
@@ -17578,6 +23958,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             96 => 
             array (
@@ -17589,6 +23973,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             97 => 
             array (
@@ -17600,6 +23988,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             98 => 
             array (
@@ -17611,6 +24003,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             99 => 
             array (
@@ -17622,6 +24018,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             100 => 
             array (
@@ -17633,6 +24033,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             101 => 
             array (
@@ -17644,6 +24048,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             102 => 
             array (
@@ -17655,6 +24063,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             103 => 
             array (
@@ -17666,6 +24078,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 60,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             104 => 
             array (
@@ -17677,6 +24093,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             105 => 
             array (
@@ -17688,6 +24108,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             106 => 
             array (
@@ -17699,6 +24123,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             107 => 
             array (
@@ -17710,6 +24138,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             108 => 
             array (
@@ -17721,6 +24153,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             109 => 
             array (
@@ -17732,6 +24168,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             110 => 
             array (
@@ -17743,6 +24183,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 52,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             111 => 
             array (
@@ -17754,6 +24198,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             112 => 
             array (
@@ -17765,6 +24213,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             113 => 
             array (
@@ -17776,6 +24228,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             114 => 
             array (
@@ -17787,6 +24243,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             115 => 
             array (
@@ -17798,6 +24258,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Kampung Muhajirin',
                 'id_cluster' => 62,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             116 => 
             array (
@@ -17809,6 +24273,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             117 => 
             array (
@@ -17820,6 +24288,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             118 => 
             array (
@@ -17831,6 +24303,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 49,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             119 => 
             array (
@@ -17842,6 +24318,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             120 => 
             array (
@@ -17853,6 +24333,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             121 => 
             array (
@@ -17864,6 +24348,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 40,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             122 => 
             array (
@@ -17875,6 +24363,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             123 => 
             array (
@@ -17886,6 +24378,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             124 => 
             array (
@@ -17897,6 +24393,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 24,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             125 => 
             array (
@@ -17908,6 +24408,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             126 => 
             array (
@@ -17919,6 +24423,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             127 => 
             array (
@@ -17930,6 +24438,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             128 => 
             array (
@@ -17941,6 +24453,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 32,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             129 => 
             array (
@@ -17952,6 +24468,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             130 => 
             array (
@@ -17963,6 +24483,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             131 => 
             array (
@@ -17974,6 +24498,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 46,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             132 => 
             array (
@@ -17985,6 +24513,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             133 => 
             array (
@@ -17996,6 +24528,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             134 => 
             array (
@@ -18007,6 +24543,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 6,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             135 => 
             array (
@@ -18018,6 +24558,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             136 => 
             array (
@@ -18029,6 +24573,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             137 => 
             array (
@@ -18040,6 +24588,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             138 => 
             array (
@@ -18051,6 +24603,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 39,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             139 => 
             array (
@@ -18062,6 +24618,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             140 => 
             array (
@@ -18073,6 +24633,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             141 => 
             array (
@@ -18084,6 +24648,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             142 => 
             array (
@@ -18095,6 +24663,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             143 => 
             array (
@@ -18106,6 +24678,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Lauk',
                 'id_cluster' => 42,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             144 => 
             array (
@@ -18117,6 +24693,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             145 => 
             array (
@@ -18128,6 +24708,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             146 => 
             array (
@@ -18139,6 +24723,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             147 => 
             array (
@@ -18150,6 +24738,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             148 => 
             array (
@@ -18161,6 +24753,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             149 => 
             array (
@@ -18172,6 +24768,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             150 => 
             array (
@@ -18183,6 +24783,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             151 => 
             array (
@@ -18194,6 +24798,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             152 => 
             array (
@@ -18205,6 +24813,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             153 => 
             array (
@@ -18216,6 +24828,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             154 => 
             array (
@@ -18227,6 +24843,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             155 => 
             array (
@@ -18238,6 +24858,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 41,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             156 => 
             array (
@@ -18249,6 +24873,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 54,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             157 => 
             array (
@@ -18260,6 +24888,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             158 => 
             array (
@@ -18271,6 +24903,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             159 => 
             array (
@@ -18282,6 +24918,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             160 => 
             array (
@@ -18293,6 +24933,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             161 => 
             array (
@@ -18304,6 +24948,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             162 => 
             array (
@@ -18315,6 +24963,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             163 => 
             array (
@@ -18326,6 +24978,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             164 => 
             array (
@@ -18337,6 +24993,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             165 => 
             array (
@@ -18348,6 +25008,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 50,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             166 => 
             array (
@@ -18359,6 +25023,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             167 => 
             array (
@@ -18370,6 +25038,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             168 => 
             array (
@@ -18381,6 +25053,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             169 => 
             array (
@@ -18392,6 +25068,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 53,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             170 => 
             array (
@@ -18403,6 +25083,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             171 => 
             array (
@@ -18414,6 +25098,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             172 => 
             array (
@@ -18425,6 +25113,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             173 => 
             array (
@@ -18436,6 +25128,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             174 => 
             array (
@@ -18447,6 +25143,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             175 => 
             array (
@@ -18458,6 +25158,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             176 => 
             array (
@@ -18469,6 +25173,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             177 => 
             array (
@@ -18480,6 +25188,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 47,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             178 => 
             array (
@@ -18491,6 +25203,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             179 => 
             array (
@@ -18502,6 +25218,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             180 => 
             array (
@@ -18513,6 +25233,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             181 => 
             array (
@@ -18524,6 +25248,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 51,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             182 => 
             array (
@@ -18535,6 +25263,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => 44,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             183 => 
             array (
@@ -18546,6 +25278,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 26,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             184 => 
             array (
@@ -18557,6 +25293,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             185 => 
             array (
@@ -18568,6 +25308,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => 33,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             186 => 
             array (
@@ -18579,6 +25323,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 25,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             187 => 
             array (
@@ -18590,6 +25338,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => 43,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             188 => 
             array (
@@ -18601,6 +25353,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Erot Daya',
                 'id_cluster' => 18,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             189 => 
             array (
@@ -18612,6 +25368,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             190 => 
             array (
@@ -18623,6 +25383,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 12,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             191 => 
             array (
@@ -18634,6 +25398,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             192 => 
             array (
@@ -18645,6 +25413,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             193 => 
             array (
@@ -18656,6 +25428,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Rahayu',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             194 => 
             array (
@@ -18667,6 +25443,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang Bongkot',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             195 => 
             array (
@@ -18678,6 +25458,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             196 => 
             array (
@@ -18689,6 +25473,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             197 => 
             array (
@@ -18700,6 +25488,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             198 => 
             array (
@@ -18711,6 +25503,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             199 => 
             array (
@@ -18722,6 +25518,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             200 => 
             array (
@@ -18733,6 +25533,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Dasan Re',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             201 => 
             array (
@@ -18744,6 +25548,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => 48,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
             202 => 
             array (
@@ -18755,6 +25563,10 @@ class DasKeluargaTableSeeder extends Seeder
                 'tgl_cetak_kk' => NULL,
                 'alamat' => 'Lendang Karang',
                 'id_cluster' => NULL,
+                'provinsi_id' => '52',
+                'kabupaten_id' => '5271',
+                'kecamatan_id' => '5203090',
+                'desa_id' => NULL,
             ),
         ));
         
