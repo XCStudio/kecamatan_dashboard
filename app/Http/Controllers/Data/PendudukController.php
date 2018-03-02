@@ -29,12 +29,12 @@ class PendudukController extends Controller
 
     /**
      *
-     * Return datatable Data Umum
+     * Return datatable Data Penduduk
      */
 
     public function getPenduduk()
     {
-        return DataTables::of(Penduduk::with(['Pekerjaan', 'Kawin', 'Pendidikan_kk'])->select('*')->get())
+        return DataTables::of(Penduduk::with(['Pekerjaan', 'Kawin', 'Pendidikan_kk', 'Keluarga'])->select('*')->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.penduduk.edit', $row->id);
                 $delete_url = route('data.penduduk.destroy', $row->id);

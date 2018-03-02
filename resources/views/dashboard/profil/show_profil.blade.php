@@ -20,12 +20,12 @@
 <section class="content container-fluid">
     <div class="box box-primary">
         <div class="box-header with-border">
-            <div class="col-sm-4">
+            <div class="col-sm-12">
                 <form class="form-horizontal">
                     <div class="form-group">
                         <label for="kecamatan" class="col-sm-2 control-label">Kecamatan</label>
 
-                        <div class="col-sm-6">
+                        <div class="col-sm-4">
                             <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
                             <select class="form-control" id="kecamatan" name="kecamatan" onchange=""></select>
                         </div>
@@ -431,7 +431,7 @@
     $(function () {
 
         $('#kecamatan').select2({
-            placeholder: "Select a state",
+            placeholder: "Pilih Kecamatan",
             allowClear: true,
             ajax: {
                 url: '{!! route('api.profil') !!}',

@@ -18,41 +18,49 @@
 <!-- Main content -->
 <section class="content container-fluid">
     @include('partials.flash_message')
+    <div class="nav-tabs-custom">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="{{ route('data.penduduk.index') }}">Penduduk</a></li>
+            <li><a href="{{ route('data.keluarga.index') }}" >Keluarga</a></li>
+        </ul>
 
-    <div class="box box-primary">
-        <div class="box-header with-border">
-
-            <div class="">
-                <a href="{{ route('data.penduduk.create') }}">
-                        <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Penduduk</button>
-                </a>
-                <a href="{{ route('data.penduduk.index') }}">
-                        <button type="button" class="btn btn-warning btn-sm" title="Upload Data"><i class="fa fa-upload"></i> Unggah dari OpenSID</button>
-                </a>
+        <div class="tab-content">
+            <div class="row">
+                <div class="col-md-12">
+                        <a href="{{ route('data.penduduk.create') }}">
+                            <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Penduduk</button>
+                        </a>
+                        <a href="{{ route('data.penduduk.index') }}">
+                            <button type="button" class="btn btn-warning btn-sm" title="Upload Data"><i class="fa fa-upload"></i> Unggah dari OpenSID</button>
+                        </a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-striped table-bordered" id="penduduk-table">
+                        <thead>
+                        <tr>
+                            <th style="max-width: 80px;">Aksi</th>
+                            <th>NIK</th>
+                            <th>Nama</th>
+                            <th>No. KK</th>
+                            <th>Alamat</th>
+                            <th>Dusun</th>
+                            <th>RW</th>
+                            <th>RT</th>
+                            <th>Pendidikan dalam KK</th>
+                            <th>Umur</th>
+                            <th>Pekerjaan</th>
+                            <th>Status Kawin</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
             </div>
         </div>
-        <div class="box-body">
-            <table class="table table-striped table-bordered" id="penduduk-table">
-                <thead>
-                <tr>
-                    <th style="max-width: 80px;">Aksi</th>
-                    <th>NIK</th>
-                    <th>Nama</th>
-                    <th>No. KK</th>
-                    <th>Alamat</th>
-                    <th>Dusun</th>
-                    <th>RW</th>
-                    <th>RT</th>
-                    <th>Pendidikan dalam KK</th>
-                    <th>Umur</th>
-                    <th>Pekerjaan</th>
-                    <th>Status Kawin</th>
-                </tr>
-                </thead>
-            </table>
-        </div>
+        <!-- /.nav-tabs-custom -->
     </div>
-
 </section>
 <!-- /.content -->
 @endsection
@@ -64,17 +72,17 @@
     $(document).ready(function () {
         var data = $('#penduduk-table').DataTable({
             processing: true,
-            serverSide: false,
+            serverSide: true,
             ajax: "{!! route( 'data.penduduk.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'nik', name: 'nik'},
                 {data: 'nama', name: 'nama'},
-                {data: 'id_kk', name: 'id_kk'},
-                {data: 'alamat_sekarang', name: 'alamat'},
-                {data: 'id_kk', name: 'dusun'},
-                {data: 'id_kk', name: 'rw'},
-                {data: 'id_kk', name: 'rt'},
+                {data: 'keluarga.no_kk', name: 'no_kk'},
+                {data: 'keluarga.alamat', name: 'alamat'},
+                {data: 'keluarga.cluster.dusun', name: 'dusun'},
+                {data: 'keluarga.cluster.rw', name: 'rw'},
+                {data: 'keluarga.cluster.rt', name: 'rt'},
                 {data: 'pendidikan_kk.nama', name: 'pendidikan_kk'},
                 {data: 'tanggal_lahir', name: 'tanggal_lahir'},
                 {data: 'pekerjaan.nama', name: 'pekerjaan'},

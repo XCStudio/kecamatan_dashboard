@@ -71,4 +71,9 @@ class Penduduk extends Model
     {
         return $this->hasOne(PendidikanKK::class, 'id', 'pendidikan_kk_id');
     }
+
+    public function keluarga()
+    {
+        return $this->hasOne(Keluarga::class, 'id', 'id_kk')->with('Cluster');
+    }
 }

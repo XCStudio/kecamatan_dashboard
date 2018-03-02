@@ -70,6 +70,9 @@ Route::namespace('Dashboard')->group(function () {
 
 
         Route::get('kependudukan', 'DashboardController@showKependudukan')->name('dashboard.kependudukan');
+        Route::get('show-kependudukan', 'DashboardController@showKependudukanPartial')->name('dashboard.show-kependudukan');
+
+
         Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');
         Route::get('pendidikan', 'DashboardController@showPendidikan')->name('dashboard.pendidikan');
         Route::get('program-bantuan', 'DashboardController@showProgramBantuan')->name('dashboard.program-bantuan');
@@ -183,6 +186,18 @@ Route::namespace('Data')->group(function () {
             Route::delete('destroy/{id}', ['as' => 'data.penduduk.destroy', 'uses' => 'PendudukController@destroy']);
         });
 
+        //Routes Resource Keluarga
+        Route::group(['prefix' => 'keluarga'], function () {
+            Route::get('getdata', ['as' => 'data.keluarga.getdata', 'uses' => 'KeluargaController@getKeluarga']);
+            Route::get('/', ['as' => 'data.keluarga.index', 'uses' => 'KeluargaController@index']);
+            Route::get('create', ['as' => 'data.keluarga.create', 'uses' => 'KeluargaController@create']);
+            Route::post('store', ['as' => 'data.keluarga.store', 'uses' => 'KeluargaController@store']);
+            Route::get('show/{id}', ['as' => 'data.keluarga.show', 'uses' => 'KeluargaController@show']);
+            Route::get('edit/{id}', ['as' => 'data.keluarga.edit', 'uses' => 'KeluargaController@edit']);
+            Route::put('update/{id}', ['as' => 'data.keluarga.update', 'uses' => 'KeluargaController@update']);
+            Route::delete('destroy/{id}', ['as' => 'data.keluarga.destroy', 'uses' => 'KeluargaController@destroy']);
+        });
+
 
 
         //Routes Resource Layanan e-KTP
@@ -293,3 +308,9 @@ Route::get('/api/penduduk-byid', function () {
     return DB::table('das_penduduk')
         ->where('id', '=', request('id'))->get();
 })->name('api.penduduk-byid');
+
+// Dashboard Kependudukan
+Route::namespace('Dashboard')->group(function () {
+
+    Route::get('/api/dashboard/kependudukan', ['as' => 'dashboard.kekendudukan.getdata', 'uses' => 'DashboardController@getDashboardKependudukan']);
+});

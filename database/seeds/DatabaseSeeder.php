@@ -31,5 +31,8 @@ class DatabaseSeeder extends Seeder
         $this->call(RefCacatTableSeeder::class);
         $this->call(RefSakitMenahunTableSeeder::class);
         $this->call(DasPendudukTableSeeder::class);
+        $this->call(DasWilClusterdesaTableSeeder::class);
+        $this->call(DasKeluargaTableSeeder::class);
+        $this->call(RefUmurTableSeeder::class);
     }
 }
