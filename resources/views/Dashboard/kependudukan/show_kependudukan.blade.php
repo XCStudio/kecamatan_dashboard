@@ -30,7 +30,8 @@
                             <select class="form-control" id="list_kecamatan" name="kecamatan">
                                 @foreach($list_kecamatan as $kecamatan)
                                     @if($kecamatan->kecamatan_id == $defaultProfil)
-                                        <option value="{{ $kecamatan->kecamatan_id }}" selected="true">{{ $kecamatan->kecamatan->nama }}</option>
+                                        <option value="{{ $kecamatan->kecamatan_id }}"
+                                                selected="true">{{ $kecamatan->kecamatan->nama }}</option>
                                     @else
                                         <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
                                     @endif
@@ -288,55 +289,7 @@
         // Select 2 Kecamatan
         $('#list_kecamatan').select2();
         $('#list_desa').select2();
-       /* $('#kecamatan').select2({
-            placeholder: "Pilih Kecamatan",
-            allowClear: true,
-            ajax: {
-                url: '{!! route('api.profil') !!}',
-                dataType: 'json',
-                delay: 200,
-                data: function (params) {
-                    return {
-                        q: params.term,
-                        page: params.page
-                    };
-                },
-                processResults: function (data, params) {
-                    params.page = params.page || 1;
-                    return {
-                        results: data.data,
-                        pagination: {
-                            more: (params.page * 10) < data.total
-                        }
-                    };
-                }
-            },
-            minimumInputLength: 1,
-            templateResult: function (repo) {
-                if (repo.loading) return repo.nama;
-                var markup = repo.nama;
-                return markup;
-            },
-            templateSelection: function (repo) {
-                return repo.nama;
-            },
-            escapeMarkup: function (markup) {
-                return markup;
-            },
-            initSelection: function (element, callback) {
-
-                //var id = $(element).val();
-                var id = $('#defaultProfil').val();
-                if (id !== "") {
-                    $.ajax('{!! route('api.profil-byid') !!}', {
-                        data: {id: id},
-                        dataType: "json"
-                    }).done(function (data) {
-                        callback(data);
-                    });
-                }
-            }
-        });*/
+        $('#list_year').select2();
 
         // Change div das_kependudukan when Kecamatan changed
         $('#list_kecamatan').on('select2:select', function (e) {
@@ -355,11 +308,8 @@
             change_das_kependudukan(kid, did.id, year);
         });
 
-        $('#list_year').on('change', function () {
+        $('#list_year').on('select2:select', function (e) {
             var kid = $('#list_kecamatan').val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
             var did = $('#list_desa').find(":selected").val();
             var year = this.value;
             change_das_kependudukan(kid, did, year);
@@ -432,23 +382,6 @@
                  "drop":true
                  }*/
             }],
-            /*"chartScrollbar": {
-             "graph":"g1",
-             "gridAlpha":0,
-             "color":"#888888",
-             "scrollbarHeight":55,
-             "backgroundAlpha":0,
-             "selectedBackgroundAlpha":0.1,
-             "selectedBackgroundColor":"#888888",
-             "graphFillAlpha":0,
-             "autoGridCount":true,
-             "selectedGraphFillAlpha":0,
-             "graphLineAlpha":0.2,
-             "graphLineColor":"#c2c2c2",
-             "selectedGraphLineColor":"#888888",
-             "selectedGraphLineAlpha":1
-
-             },*/
             "chartCursor": {
                 "categoryBalloonDateFormat": "YYYY",
                 "cursorAlpha": 0,
@@ -470,15 +403,6 @@
             }
         });
     }
-    /*chart_penduduk.addListener("rendered", zoomChart);
-     if(chart_penduduk.zoomChart){
-     chart_penduduk.zoomChart();
-     }
-
-     function zoomChart(){
-     chart_penduduk.zoomToIndexes(Math.round(chart_penduduk.dataProvider.length * 0.4), Math.round(chart_penduduk.dataProvider.length * 0.55));
-     }*/
-
 
     function create_chart_usia(data) {
         // Chart Perbandingan Usia
