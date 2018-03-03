@@ -69,8 +69,8 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('show-profil/{id}', 'DashboardProfilController@showProfilPartial')->name('dashboard.show-profil');
 
 
-        Route::get('kependudukan', 'DashboardController@showKependudukan')->name('dashboard.kependudukan');
-        Route::get('show-kependudukan', 'DashboardController@showKependudukanPartial')->name('dashboard.show-kependudukan');
+        Route::get('kependudukan', 'DashboardKependudukanController@showKependudukan')->name('dashboard.kependudukan');
+        Route::get('show-kependudukan', 'DashboardKependudukanController@showKependudukanPartial')->name('dashboard.show-kependudukan');
 
 
         Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');

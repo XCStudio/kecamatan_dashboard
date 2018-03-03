@@ -20,26 +20,48 @@
         <div class="box-header with-border">
 
             <form class="form-horizontal">
-                <div class="col-md-6">
+                <div class="col-md-4">
 
                     <div class="form-group">
-                        <label for="kecamatan" class="col-sm-6 control-label">Kecamatan</label>
+                        <label for="list_kecamatan" class="col-sm-4 control-label">Kecamatan</label>
 
-                        <div class="col-sm-6">
+                        <div class="col-sm-8">
                             <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
-                            <select class="form-control" id="kecamatan" name="kecamatan" value="{{ $defaultProfil }}"></select>
+                            <select class="form-control" id="list_kecamatan" name="kecamatan">
+                                @foreach($list_kecamatan as $kecamatan)
+                                    @if($kecamatan->kecamatan_id == $defaultProfil)
+                                        <option value="{{ $kecamatan->kecamatan_id }}" selected="true">{{ $kecamatan->kecamatan->nama }}</option>
+                                    @else
+                                        <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
+                                    @endif
+                                @endforeach
+                            </select>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="form-group">
-                        <label for="listyear" class="col-sm-6 control-label">Tahun</label>
+                        <label for="list_desa" class="col-sm-4 control-label">Desa</label>
 
-                        <div class="col-sm-6">
-                            <select class="form-control" id="listyear" onchange="">
+                        <div class="col-sm-8">
+                            <select class="form-control" id="list_desa">
                                 <option value="ALL">ALL</option>
+                                @foreach($list_desa as $desa)
+                                    <option value="{{$desa->id}}">{{$desa->nama}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="list_year" class="col-sm-4 control-label">Tahun</label>
+
+                        <div class="col-sm-8">
+                            <select class="form-control" id="list_year">
                                 @foreach($year_list as $year)
                                     <option value="{{$year}}">{{$year}}</option>
                                 @endforeach
@@ -54,202 +76,205 @@
 
     {{--Div replace by Kecamatan--}}
 
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="info-box">
-                    <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-text">Penduduk</span>
-                        <span class="info-box-number" id="total_penduduk">{!! $total_penduduk !!}</span>
-                        <a id="hrefpenduduk" class="small-box-footer"
-                           href="data.php?cat=allpenduduk&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info <i
-                                    class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                    <!-- /.info-box-content -->
+                <div class="info-box-content">
+                    <span class="info-box-text">Penduduk</span>
+                    <span class="info-box-number" id="total_penduduk">{!! $total_penduduk !!}</span>
+                    <a id="hrefpenduduk" class="small-box-footer"
+                       href="data.php?cat=allpenduduk&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info <i
+                                class="fa fa-arrow-circle-right"></i></a>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
             </div>
+            <!-- /.info-box -->
+        </div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="info-box">
-                    <span class="info-box-icon bg-aqua"><i class="fa fa-male"></i></span>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="fa fa-male"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-text">Laki-Laki</span>
-                        <span class="info-box-number" id="total_lakilaki">{!! $total_lakilaki !!}</span>
-                        <a id="hrefpenduduklakilaki" class="small-box-footer"
-                           href="data.php?cat=allpenduduklaki&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info
-                            <i
-                                    class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                    <!-- /.info-box-content -->
+                <div class="info-box-content">
+                    <span class="info-box-text">Laki-Laki</span>
+                    <span class="info-box-number" id="total_lakilaki">{!! $total_lakilaki !!}</span>
+                    <a id="hrefpenduduklakilaki" class="small-box-footer"
+                       href="data.php?cat=allpenduduklaki&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info
+                        <i
+                                class="fa fa-arrow-circle-right"></i></a>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
             </div>
-            <!-- /.col -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="info-box">
-                    <span class="info-box-icon bg-red"><i class="fa fa-female"></i></span>
+            <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-red"><i class="fa fa-female"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-text">Perempuan</span>
-                        <span class="info-box-number" id="total_perempuan">{!! $total_perempuan !!}</span>
-                        <a id="hrefpendudukperempuan" class="small-box-footer"
-                           href="data.php?cat=allpendudukperempuan&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail
-                            Info
-                            <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                    <!-- /.info-box-content -->
+                <div class="info-box-content">
+                    <span class="info-box-text">Perempuan</span>
+                    <span class="info-box-number" id="total_perempuan">{!! $total_perempuan !!}</span>
+                    <a id="hrefpendudukperempuan" class="small-box-footer"
+                       href="data.php?cat=allpendudukperempuan&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail
+                        Info
+                        <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
             </div>
-            <!-- /.col -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="info-box">
+            <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
                 <span><img src="{{asset("img/cacat_logo.png")}}" style="width:90px;height:90px;float:left;">
                     <!-- <i class="fa fa-wheelchair"></i> --></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-text">Disabilitas</span>
-                        <span class="info-box-number" id="total_disabilitas">{!! $total_disabilitas !!}</span>
-                        <a id="hrefpendudukcacat" class="small-box-footer"
-                           href="data.php?cat=allpendudukcacat&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info
-                            <i
-                                    class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                    <!-- /.info-box-content -->
+                <div class="info-box-content">
+                    <span class="info-box-text">Disabilitas</span>
+                    <span class="info-box-number" id="total_disabilitas">{!! $total_disabilitas !!}</span>
+                    <a id="hrefpendudukcacat" class="small-box-footer"
+                       href="data.php?cat=allpendudukcacat&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info
+                        <i
+                                class="fa fa-arrow-circle-right"></i></a>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
             </div>
-            <!-- /.col -->
-            <!-- fix for small devices only -->
-            <div class="clearfix visible-sm-block"></div>
-
-
-            <!-- /.col -->
-            <!-- /.col -->
+            <!-- /.info-box -->
         </div>
-        <!-- /.row -->
-        <div class="row">
-            <div class="col-md-8">
-                <div class="box box-success">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">Grafik Penduduk Per Tahun</h3>
+        <!-- /.col -->
+        <!-- fix for small devices only -->
+        <div class="clearfix visible-sm-block"></div>
 
-                        <div class="box-tools pull-right">
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
-                                        class="fa fa-minus"></i>
-                            </button>
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i
-                                        class="fa fa-times"></i>
-                            </button>
-                        </div>
+
+        <!-- /.col -->
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-md-8">
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Grafik Penduduk Per Tahun</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                    class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                    class="fa fa-times"></i>
+                        </button>
                     </div>
-                    <div class="box-body">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="text-center">
-                                    <strong></strong>
-                                </p>
+                </div>
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">
+                                <strong></strong>
+                            </p>
 
-                                <div id="chart_pertumbuhan_penduduk"
-                                     style="width: 100%; height: 300px; overflow: visible; text-align: left;"></div>
-                            </div>
+                            <div id="chart_pertumbuhan_penduduk"
+                                 style="width: 100%; height: 300px; overflow: visible; text-align: left;"></div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-md-4">
-                <!-- Info Boxes Style 2 -->
-                <div class="info-box bg-green">
-                    <span class="info-box-icon"><i class="ion ion-card"></i></span>
+        <div class="col-md-4">
+            <!-- Info Boxes Style 2 -->
+            <div class="info-box bg-green">
+                <span class="info-box-icon"><i class="ion ion-card"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-number">KTP</span>
+                <div class="info-box-content">
+                    <span class="info-box-number">KTP</span>
                     <span class="info-box-text" id="data_ktp">{!! $ktp_terpenuhi !!} dari {!! $total_penduduk !!}
                         Jiwa Terpenuhi</span>
 
-                        <div class="progress">
-                            <div id="ktp_persen" class="progress-bar" style="width: {!! $ktp_persen_terpenuhi !!}%"></div>
-                        </div>
-                        <span id="ktp_terpenuhi" class="progress-description">{!! $ktp_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
+                    <div class="progress">
+                        <div id="ktp_persen" class="progress-bar" style="width: {!! $ktp_persen_terpenuhi !!}%"></div>
                     </div>
-                    <!-- /.info-box-content -->
+                    <span id="ktp_terpenuhi" class="progress-description">{!! $ktp_persen_terpenuhi !!}
+                        % Jiwa Terpenuhi</span>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
 
-                <div class="info-box bg-red">
-                    <span class="info-box-icon"><i class="ion ion-ios-paper-outline"></i></span>
+            <div class="info-box bg-red">
+                <span class="info-box-icon"><i class="ion ion-ios-paper-outline"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-number">Akta Kelahiran</span>
+                <div class="info-box-content">
+                    <span class="info-box-number">Akta Kelahiran</span>
                     <span class="info-box-text" id="data_akta">{!! $akta_terpenuhi !!} dari {!! $total_penduduk !!}
                         Jiwa Terpenuhi</span>
 
-                        <div class="progress">
-                            <div id="akta_persen" class="progress-bar" style="width: {!! $akta_persen_terpenuhi !!}%"></div>
-                        </div>
-                        <span id="akta_terpenuhi" class="progress-description">{!! $akta_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
+                    <div class="progress">
+                        <div id="akta_persen" class="progress-bar" style="width: {!! $akta_persen_terpenuhi !!}%"></div>
                     </div>
-                    <!-- /.info-box-content -->
+                    <span id="akta_terpenuhi" class="progress-description">{!! $akta_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
 
-                <div class="info-box bg-yellow">
-                    <span class="info-box-icon"><i class="ion ion-clipboard"></i></span>
+            <div class="info-box bg-yellow">
+                <span class="info-box-icon"><i class="ion ion-clipboard"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-number">Akta Nikah</span>
-                    <span class="info-box-text" id="data_nikah">{!! $aktanikah_terpenuhi !!} dari {!! $total_penduduk !!}
+                <div class="info-box-content">
+                    <span class="info-box-number">Akta Nikah</span>
+                    <span class="info-box-text" id="data_nikah">{!! $aktanikah_terpenuhi !!}
+                        dari {!! $total_penduduk !!}
                         Jiwa Terpenuhi</span>
 
-                        <div class="progress">
-                            <div id="nikah_persen" class="progress-bar" style="width: {!! $aktanikah_persen_terpenuhi !!}%"></div>
-                        </div>
-                        <span id="nikah_terpenuhi" class="progress-description">{!! $aktanikah_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
+                    <div class="progress">
+                        <div id="nikah_persen" class="progress-bar"
+                             style="width: {!! $aktanikah_persen_terpenuhi !!}%"></div>
                     </div>
-                    <!-- /.info-box-content -->
+                    <span id="nikah_terpenuhi" class="progress-description">{!! $aktanikah_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
                 </div>
-                <!-- /.info-box -->
+                <!-- /.info-box-content -->
             </div>
-            <!-- /.row -->
+            <!-- /.info-box -->
+        </div>
+        <!-- /.row -->
 
-            <div class="col-md-12">
-                <div class="box">
-                    <div class="box-header with-border">
-                        <h3 class="box-title" id="idtest">Jumlah Penduduk Berdasarkan Usia</h3>
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title" id="idtest">Jumlah Penduduk Berdasarkan Usia</h3>
 
-                        <div class="box-tools pull-right">
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
-                                        class="fa fa-minus"></i>
-                            </button>
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i
-                                        class="fa fa-times"></i>
-                            </button>
-                        </div>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                    class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                    class="fa fa-times"></i>
+                        </button>
                     </div>
+                </div>
 
-                    <!-- ./box-body -->
-                    <div class="box-footer">
-                        <div class="row">
-                            <div class="col-sm-12 col-xs-6">
-                                <div id="chart_usia"
-                                     style="width:100%; height: 500px; overflow: visible; text-align: left;">
+                <!-- ./box-body -->
+                <div class="box-footer">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-6">
+                            <div id="chart_usia"
+                                 style="width:100%; height: 500px; overflow: visible; text-align: left;">
 
-                                </div>
                             </div>
                         </div>
-                        <!-- /.row -->
                     </div>
-                    <!-- /.box-footer -->
+                    <!-- /.row -->
                 </div>
-                <!-- /.box -->
+                <!-- /.box-footer -->
             </div>
-            <!-- /.col -->
-            <!-- /.row -->
+            <!-- /.box -->
         </div>
+        <!-- /.col -->
+        <!-- /.row -->
+    </div>
 </section>
 <!-- /.content -->
 @endsection
@@ -261,7 +286,9 @@
     $(function () {
 
         // Select 2 Kecamatan
-        $('#kecamatan').select2({
+        $('#list_kecamatan').select2();
+        $('#list_desa').select2();
+       /* $('#kecamatan').select2({
             placeholder: "Pilih Kecamatan",
             allowClear: true,
             ajax: {
@@ -309,40 +336,51 @@
                     });
                 }
             }
-        });
+        });*/
 
         // Change div das_kependudukan when Kecamatan changed
-        $('#kecamatan').on('select2:select', function (e) {
-            var data = e.params.data;
-            var year = $('#listyear').find(":selected").text();
+        $('#list_kecamatan').on('select2:select', function (e) {
+            var kid = e.params.data;
+            var did = $('#list_desa').find(":selected").val();
+            var year = $('#list_year').find(":selected").text();
 
-            change_das_kependudukan(data.id, year);
+            change_das_kependudukan(kid.id, did, year);
         });
-        $('#listyear').on('change', function() {
-            var kid = $('#kecamatan').val();
-            if(kid == null){
+
+        $('#list_desa').on('select2:select', function (e) {
+            var kid = $('#list_kecamatan').val();
+            var did = e.params.data;
+            var year = $('#list_year').find(":selected").text();
+
+            change_das_kependudukan(kid, did.id, year);
+        });
+
+        $('#list_year').on('change', function () {
+            var kid = $('#list_kecamatan').val();
+            if (kid == null) {
                 kid = $('#defaultProfil').val();
             }
+            var did = $('#list_desa').find(":selected").val();
             var year = this.value;
-            change_das_kependudukan(kid, year);
+            change_das_kependudukan(kid, did, year);
         });
 
 
-        var kid = $('#kecamatan').val();
-        if(kid == null){
+        var kid = $('#list_kecamatan').val();
+        if (kid == null) {
             kid = $('#defaultProfil').val();
         }
-        var year = $('#listyear').find(":selected").text();
+        var did = $('#list_desa').find(":selected").val();
+        var year = $('#list_year').find(":selected").text();
 
-        change_das_kependudukan(kid,year);
+        change_das_kependudukan(kid, did, year);
 
 
     });
 
-    function change_das_kependudukan(kid,year)
-    {
+    function change_das_kependudukan(kid, did, year) {
         $.ajax('{!! route('dashboard.show-kependudukan') !!}', {
-            data: {kid: kid,y: year}
+            data: {kid: kid, did: did, y: year}
         }).done(function (data) {
 
             $('#total_penduduk').html(data.total_penduduk);
@@ -351,17 +389,17 @@
             $('#total_disabilitas').html(data.total_disabilitas);
             $('#total_disabilitas').html(data.total_disabilitas);
 
-            $('#data_ktp').html(data.ktp_terpenuhi +' dari '+data.total_penduduk + ' Jiwa Terpenuhi');
-            $('#ktp_persen').css('width', data.ktp_persen_terpenuhi+'%');
+            $('#data_ktp').html(data.ktp_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
+            $('#ktp_persen').css('width', data.ktp_persen_terpenuhi + '%');
             $('#ktp_terpenuhi').html(data.ktp_persen_terpenuhi + '% Jiwa Terpenuhi');
 
-            $('#data_akta').html(data.akta_terpenuhi +' dari '+data.total_penduduk + ' Jiwa Terpenuhi');
-            $('#akta_persen').css('width', data.akta_persen_terpenuhi+'%');
+            $('#data_akta').html(data.akta_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
+            $('#akta_persen').css('width', data.akta_persen_terpenuhi + '%');
             $('#akta_terpenuhi').html(data.akta_persen_terpenuhi + '% Jiwa Terpenuhi');
 
-            $('#data_nikah').html(data.nikah_terpenuhi +' dari '+data.total_penduduk + ' Jiwa Terpenuhi');
-            $('#nikah_persen').css('width', data.nikah_persen_terpenuhi+'%');
-            $('#nikah_terpenuhi').html(data.nikah_persen_terpenuhi + '% Jiwa Terpenuhi');
+            $('#data_nikah').html(data.aktanikah_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
+            $('#nikah_persen').css('width', data.aktanikah_persen_terpenuhi + '%');
+            $('#nikah_terpenuhi').html(data.aktanikah_persen_terpenuhi + '% Jiwa Terpenuhi');
 
             create_chart_penduduk(data.data_pertumbuhan);
             create_chart_usia(data.data_umur);
