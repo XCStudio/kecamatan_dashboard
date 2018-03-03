@@ -294,6 +294,18 @@
         // Change div das_kependudukan when Kecamatan changed
         $('#list_kecamatan').on('select2:select', function (e) {
             var kid = e.params.data;
+            $.ajax('{!! route('api.desa-by-kid') !!}', {
+                data: {kid: kid.id},
+                dataType: "json"
+            }).done(function (data) {
+                var $el = $("#list_desa");
+                $('#list_desa option:gt(0)').remove(); // remove old options
+                $.each(data, function(key,value) {
+                    $el.append($("<option></option>")
+                            .attr("value", data[key].id).text(data[key].nama));
+                });
+            });
+
             var did = $('#list_desa').find(":selected").val();
             var year = $('#list_year').find(":selected").text();
 

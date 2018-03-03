@@ -281,6 +281,11 @@ Route::get('/api/desa', function () {
     return \App\Models\Desa::where('nama', 'LIKE', '%' . strtoupper(request('q')) . '%')->paginate(10);
 });
 
+// Desa Select2 By Kecamatan ID
+Route::get('/api/desa-by-kid', function () {
+    return DB::table('ref_desa')->select('id', 'nama')->where('kecamatan_id', '=', strtoupper(request('kid')))->get();
+})->name('api.desa-by-kid');
+
 // All Profil Select2
 Route::get('/api/profil', function () {
     return DB::table('das_profil')
