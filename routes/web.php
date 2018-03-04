@@ -68,13 +68,13 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('profil', 'DashboardProfilController@showProfile')->name('dashboard.profil');
         Route::get('show-profil/{id}', 'DashboardProfilController@showProfilPartial')->name('dashboard.show-profil');
 
-
         Route::get('kependudukan', 'DashboardKependudukanController@showKependudukan')->name('dashboard.kependudukan');
         Route::get('show-kependudukan', 'DashboardKependudukanController@showKependudukanPartial')->name('dashboard.show-kependudukan');
 
+        Route::get('pendidikan', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
+
 
         Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');
-        Route::get('pendidikan', 'DashboardController@showPendidikan')->name('dashboard.pendidikan');
         Route::get('program-bantuan', 'DashboardController@showProgramBantuan')->name('dashboard.program-bantuan');
         Route::get('anggaran-dan-realisasi', 'DashboardController@showAnggaranDanRealisasi')->name('dashboard.anggaran-dan-realisasi');
         Route::get('anggaran-desa', 'DashboardController@showAnggaranDesa')->name('dashboard.anggaran-desa');

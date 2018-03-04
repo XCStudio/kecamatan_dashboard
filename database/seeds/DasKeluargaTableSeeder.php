@@ -30,7 +30,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             1 => 
             array (
@@ -45,7 +45,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             2 => 
             array (
@@ -60,7 +60,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             3 => 
             array (
@@ -75,7 +75,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             4 => 
             array (
@@ -90,7 +90,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             5 => 
             array (
@@ -105,7 +105,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             6 => 
             array (
@@ -120,7 +120,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             7 => 
             array (
@@ -135,7 +135,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             8 => 
             array (
@@ -150,7 +150,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             9 => 
             array (
@@ -165,7 +165,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             10 => 
             array (
@@ -180,7 +180,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             11 => 
             array (
@@ -195,7 +195,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             12 => 
             array (
@@ -210,7 +210,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             13 => 
             array (
@@ -225,7 +225,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             14 => 
             array (
@@ -240,7 +240,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             15 => 
             array (
@@ -255,7 +255,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             16 => 
             array (
@@ -270,7 +270,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             17 => 
             array (
@@ -285,7 +285,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             18 => 
             array (
@@ -300,7 +300,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             19 => 
             array (
@@ -315,7 +315,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             20 => 
             array (
@@ -330,7 +330,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             21 => 
             array (
@@ -345,7 +345,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             22 => 
             array (
@@ -360,7 +360,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             23 => 
             array (
@@ -375,7 +375,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             24 => 
             array (
@@ -390,7 +390,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             25 => 
             array (
@@ -405,7 +405,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             26 => 
             array (
@@ -420,7 +420,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             27 => 
             array (
@@ -435,7 +435,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             28 => 
             array (
@@ -450,7 +450,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             29 => 
             array (
@@ -465,7 +465,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             30 => 
             array (
@@ -480,7 +480,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             31 => 
             array (
@@ -495,7 +495,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             32 => 
             array (
@@ -510,7 +510,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             33 => 
             array (
@@ -525,7 +525,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             34 => 
             array (
@@ -540,7 +540,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             35 => 
             array (
@@ -555,7 +555,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             36 => 
             array (
@@ -570,7 +570,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             37 => 
             array (
@@ -585,7 +585,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             38 => 
             array (
@@ -600,7 +600,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             39 => 
             array (
@@ -615,7 +615,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             40 => 
             array (
@@ -630,7 +630,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             41 => 
             array (
@@ -645,7 +645,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             42 => 
             array (
@@ -660,7 +660,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             43 => 
             array (
@@ -675,7 +675,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             44 => 
             array (
@@ -690,7 +690,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             45 => 
             array (
@@ -705,7 +705,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             46 => 
             array (
@@ -720,7 +720,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             47 => 
             array (
@@ -735,7 +735,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             48 => 
             array (
@@ -750,7 +750,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             49 => 
             array (
@@ -765,7 +765,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             50 => 
             array (
@@ -780,7 +780,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             51 => 
             array (
@@ -795,7 +795,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             52 => 
             array (
@@ -810,7 +810,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             53 => 
             array (
@@ -825,7 +825,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             54 => 
             array (
@@ -840,7 +840,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             55 => 
             array (
@@ -855,7 +855,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             56 => 
             array (
@@ -870,7 +870,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             57 => 
             array (
@@ -885,7 +885,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             58 => 
             array (
@@ -900,7 +900,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             59 => 
             array (
@@ -915,7 +915,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             60 => 
             array (
@@ -930,7 +930,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             61 => 
             array (
@@ -945,7 +945,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             62 => 
             array (
@@ -960,7 +960,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             63 => 
             array (
@@ -975,7 +975,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             64 => 
             array (
@@ -990,7 +990,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             65 => 
             array (
@@ -1005,7 +1005,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             66 => 
             array (
@@ -1020,7 +1020,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             67 => 
             array (
@@ -1035,7 +1035,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             68 => 
             array (
@@ -1050,7 +1050,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             69 => 
             array (
@@ -1065,7 +1065,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             70 => 
             array (
@@ -1080,7 +1080,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             71 => 
             array (
@@ -1095,7 +1095,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             72 => 
             array (
@@ -1110,7 +1110,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             73 => 
             array (
@@ -1125,7 +1125,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             74 => 
             array (
@@ -1140,7 +1140,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             75 => 
             array (
@@ -1155,7 +1155,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             76 => 
             array (
@@ -1170,7 +1170,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             77 => 
             array (
@@ -1185,7 +1185,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             78 => 
             array (
@@ -1200,7 +1200,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             79 => 
             array (
@@ -1215,7 +1215,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             80 => 
             array (
@@ -1230,7 +1230,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             81 => 
             array (
@@ -1245,7 +1245,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             82 => 
             array (
@@ -1260,7 +1260,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             83 => 
             array (
@@ -1275,7 +1275,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             84 => 
             array (
@@ -1290,7 +1290,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             85 => 
             array (
@@ -1305,7 +1305,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             86 => 
             array (
@@ -1320,7 +1320,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             87 => 
             array (
@@ -1335,7 +1335,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             88 => 
             array (
@@ -1350,7 +1350,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             89 => 
             array (
@@ -1365,7 +1365,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             90 => 
             array (
@@ -1380,7 +1380,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             91 => 
             array (
@@ -1395,7 +1395,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             92 => 
             array (
@@ -1410,7 +1410,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             93 => 
             array (
@@ -1425,7 +1425,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             94 => 
             array (
@@ -1440,7 +1440,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             95 => 
             array (
@@ -1455,7 +1455,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             96 => 
             array (
@@ -1470,7 +1470,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             97 => 
             array (
@@ -1485,7 +1485,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             98 => 
             array (
@@ -1500,7 +1500,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             99 => 
             array (
@@ -1515,7 +1515,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             100 => 
             array (
@@ -1530,7 +1530,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             101 => 
             array (
@@ -1545,7 +1545,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             102 => 
             array (
@@ -1560,7 +1560,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             103 => 
             array (
@@ -1575,7 +1575,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             104 => 
             array (
@@ -1590,7 +1590,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             105 => 
             array (
@@ -1605,7 +1605,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             106 => 
             array (
@@ -1620,7 +1620,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             107 => 
             array (
@@ -1635,7 +1635,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             108 => 
             array (
@@ -1650,7 +1650,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             109 => 
             array (
@@ -1665,7 +1665,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             110 => 
             array (
@@ -1680,7 +1680,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             111 => 
             array (
@@ -1695,7 +1695,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             112 => 
             array (
@@ -1710,7 +1710,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             113 => 
             array (
@@ -1725,7 +1725,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             114 => 
             array (
@@ -1740,7 +1740,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             115 => 
             array (
@@ -1755,7 +1755,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             116 => 
             array (
@@ -1770,7 +1770,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             117 => 
             array (
@@ -1785,7 +1785,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             118 => 
             array (
@@ -1800,7 +1800,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             119 => 
             array (
@@ -1815,7 +1815,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             120 => 
             array (
@@ -1830,7 +1830,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             121 => 
             array (
@@ -1845,7 +1845,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             122 => 
             array (
@@ -1860,7 +1860,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             123 => 
             array (
@@ -1875,7 +1875,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             124 => 
             array (
@@ -1890,7 +1890,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             125 => 
             array (
@@ -1905,7 +1905,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             126 => 
             array (
@@ -1920,7 +1920,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             127 => 
             array (
@@ -1935,7 +1935,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             128 => 
             array (
@@ -1950,7 +1950,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             129 => 
             array (
@@ -1965,7 +1965,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             130 => 
             array (
@@ -1980,7 +1980,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             131 => 
             array (
@@ -1995,7 +1995,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             132 => 
             array (
@@ -2010,7 +2010,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             133 => 
             array (
@@ -2025,7 +2025,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             134 => 
             array (
@@ -2040,7 +2040,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             135 => 
             array (
@@ -2055,7 +2055,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             136 => 
             array (
@@ -2070,7 +2070,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             137 => 
             array (
@@ -2085,7 +2085,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             138 => 
             array (
@@ -2100,7 +2100,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             139 => 
             array (
@@ -2115,7 +2115,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             140 => 
             array (
@@ -2130,7 +2130,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             141 => 
             array (
@@ -2145,7 +2145,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             142 => 
             array (
@@ -2160,7 +2160,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             143 => 
             array (
@@ -2175,7 +2175,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             144 => 
             array (
@@ -2190,7 +2190,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             145 => 
             array (
@@ -2205,7 +2205,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             146 => 
             array (
@@ -2220,7 +2220,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             147 => 
             array (
@@ -2235,7 +2235,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             148 => 
             array (
@@ -2250,7 +2250,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             149 => 
             array (
@@ -2265,7 +2265,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             150 => 
             array (
@@ -2280,7 +2280,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             151 => 
             array (
@@ -2295,7 +2295,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             152 => 
             array (
@@ -2310,7 +2310,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             153 => 
             array (
@@ -2325,7 +2325,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             154 => 
             array (
@@ -2340,7 +2340,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             155 => 
             array (
@@ -2355,7 +2355,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             156 => 
             array (
@@ -2370,7 +2370,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             157 => 
             array (
@@ -2385,7 +2385,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             158 => 
             array (
@@ -2400,7 +2400,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             159 => 
             array (
@@ -2415,7 +2415,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             160 => 
             array (
@@ -2430,7 +2430,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             161 => 
             array (
@@ -2445,7 +2445,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             162 => 
             array (
@@ -2460,7 +2460,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             163 => 
             array (
@@ -2475,7 +2475,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             164 => 
             array (
@@ -2490,7 +2490,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             165 => 
             array (
@@ -2505,7 +2505,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             166 => 
             array (
@@ -2520,7 +2520,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             167 => 
             array (
@@ -2535,7 +2535,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             168 => 
             array (
@@ -2550,7 +2550,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             169 => 
             array (
@@ -2565,7 +2565,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             170 => 
             array (
@@ -2580,7 +2580,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             171 => 
             array (
@@ -2595,7 +2595,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             172 => 
             array (
@@ -2610,7 +2610,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             173 => 
             array (
@@ -2625,7 +2625,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             174 => 
             array (
@@ -2640,7 +2640,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             175 => 
             array (
@@ -2655,7 +2655,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             176 => 
             array (
@@ -2670,7 +2670,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             177 => 
             array (
@@ -2685,7 +2685,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             178 => 
             array (
@@ -2700,7 +2700,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             179 => 
             array (
@@ -2715,7 +2715,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             180 => 
             array (
@@ -2730,7 +2730,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             181 => 
             array (
@@ -2745,7 +2745,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             182 => 
             array (
@@ -2760,7 +2760,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             183 => 
             array (
@@ -2775,7 +2775,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             184 => 
             array (
@@ -2790,7 +2790,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             185 => 
             array (
@@ -2805,7 +2805,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             186 => 
             array (
@@ -2820,7 +2820,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             187 => 
             array (
@@ -2835,7 +2835,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             188 => 
             array (
@@ -2850,7 +2850,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             189 => 
             array (
@@ -2865,7 +2865,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             190 => 
             array (
@@ -2880,7 +2880,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             191 => 
             array (
@@ -2895,7 +2895,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             192 => 
             array (
@@ -2910,7 +2910,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             193 => 
             array (
@@ -2925,7 +2925,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             194 => 
             array (
@@ -2940,7 +2940,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             195 => 
             array (
@@ -2955,7 +2955,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             196 => 
             array (
@@ -2970,7 +2970,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             197 => 
             array (
@@ -2985,7 +2985,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             198 => 
             array (
@@ -3000,7 +3000,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             199 => 
             array (
@@ -3015,7 +3015,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             200 => 
             array (
@@ -3030,7 +3030,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             201 => 
             array (
@@ -3045,7 +3045,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             202 => 
             array (
@@ -3060,7 +3060,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             203 => 
             array (
@@ -3075,7 +3075,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             204 => 
             array (
@@ -3090,7 +3090,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             205 => 
             array (
@@ -3105,7 +3105,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             206 => 
             array (
@@ -3120,7 +3120,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             207 => 
             array (
@@ -3135,7 +3135,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             208 => 
             array (
@@ -3150,7 +3150,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             209 => 
             array (
@@ -3165,7 +3165,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             210 => 
             array (
@@ -3180,7 +3180,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             211 => 
             array (
@@ -3195,7 +3195,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             212 => 
             array (
@@ -3210,7 +3210,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             213 => 
             array (
@@ -3225,7 +3225,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             214 => 
             array (
@@ -3240,7 +3240,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             215 => 
             array (
@@ -3255,7 +3255,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             216 => 
             array (
@@ -3270,7 +3270,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             217 => 
             array (
@@ -3285,7 +3285,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             218 => 
             array (
@@ -3300,7 +3300,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             219 => 
             array (
@@ -3315,7 +3315,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             220 => 
             array (
@@ -3330,7 +3330,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             221 => 
             array (
@@ -3345,7 +3345,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             222 => 
             array (
@@ -3360,7 +3360,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             223 => 
             array (
@@ -3375,7 +3375,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             224 => 
             array (
@@ -3390,7 +3390,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             225 => 
             array (
@@ -3405,7 +3405,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             226 => 
             array (
@@ -3420,7 +3420,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             227 => 
             array (
@@ -3435,7 +3435,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             228 => 
             array (
@@ -3450,7 +3450,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             229 => 
             array (
@@ -3465,7 +3465,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             230 => 
             array (
@@ -3480,7 +3480,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             231 => 
             array (
@@ -3495,7 +3495,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             232 => 
             array (
@@ -3510,7 +3510,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             233 => 
             array (
@@ -3525,7 +3525,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             234 => 
             array (
@@ -3540,7 +3540,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             235 => 
             array (
@@ -3555,7 +3555,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             236 => 
             array (
@@ -3570,7 +3570,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             237 => 
             array (
@@ -3585,7 +3585,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             238 => 
             array (
@@ -3600,7 +3600,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             239 => 
             array (
@@ -3615,7 +3615,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             240 => 
             array (
@@ -3630,7 +3630,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             241 => 
             array (
@@ -3645,7 +3645,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             242 => 
             array (
@@ -3660,7 +3660,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             243 => 
             array (
@@ -3675,7 +3675,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             244 => 
             array (
@@ -3690,7 +3690,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             245 => 
             array (
@@ -3705,7 +3705,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             246 => 
             array (
@@ -3720,7 +3720,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             247 => 
             array (
@@ -3735,7 +3735,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             248 => 
             array (
@@ -3750,7 +3750,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             249 => 
             array (
@@ -3765,7 +3765,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             250 => 
             array (
@@ -3780,7 +3780,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             251 => 
             array (
@@ -3795,7 +3795,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             252 => 
             array (
@@ -3810,7 +3810,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             253 => 
             array (
@@ -3825,7 +3825,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             254 => 
             array (
@@ -3840,7 +3840,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             255 => 
             array (
@@ -3855,7 +3855,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             256 => 
             array (
@@ -3870,7 +3870,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             257 => 
             array (
@@ -3885,7 +3885,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             258 => 
             array (
@@ -3900,7 +3900,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             259 => 
             array (
@@ -3915,7 +3915,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             260 => 
             array (
@@ -3930,7 +3930,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             261 => 
             array (
@@ -3945,7 +3945,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             262 => 
             array (
@@ -3960,7 +3960,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             263 => 
             array (
@@ -3975,7 +3975,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             264 => 
             array (
@@ -3990,7 +3990,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             265 => 
             array (
@@ -4005,7 +4005,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             266 => 
             array (
@@ -4020,7 +4020,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             267 => 
             array (
@@ -4035,7 +4035,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             268 => 
             array (
@@ -4050,7 +4050,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             269 => 
             array (
@@ -4065,7 +4065,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             270 => 
             array (
@@ -4080,7 +4080,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             271 => 
             array (
@@ -4095,7 +4095,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             272 => 
             array (
@@ -4110,7 +4110,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             273 => 
             array (
@@ -4125,7 +4125,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             274 => 
             array (
@@ -4140,7 +4140,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             275 => 
             array (
@@ -4155,7 +4155,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             276 => 
             array (
@@ -4170,7 +4170,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             277 => 
             array (
@@ -4185,7 +4185,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             278 => 
             array (
@@ -4200,7 +4200,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             279 => 
             array (
@@ -4215,7 +4215,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             280 => 
             array (
@@ -4230,7 +4230,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             281 => 
             array (
@@ -4245,7 +4245,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             282 => 
             array (
@@ -4260,7 +4260,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             283 => 
             array (
@@ -4275,7 +4275,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             284 => 
             array (
@@ -4290,7 +4290,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             285 => 
             array (
@@ -4305,7 +4305,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             286 => 
             array (
@@ -4320,7 +4320,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             287 => 
             array (
@@ -4335,7 +4335,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             288 => 
             array (
@@ -4350,7 +4350,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             289 => 
             array (
@@ -4365,7 +4365,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             290 => 
             array (
@@ -4380,7 +4380,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             291 => 
             array (
@@ -4395,7 +4395,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             292 => 
             array (
@@ -4410,7 +4410,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             293 => 
             array (
@@ -4425,7 +4425,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             294 => 
             array (
@@ -4440,7 +4440,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             295 => 
             array (
@@ -4455,7 +4455,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             296 => 
             array (
@@ -4470,7 +4470,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             297 => 
             array (
@@ -4485,7 +4485,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             298 => 
             array (
@@ -4500,7 +4500,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             299 => 
             array (
@@ -4515,7 +4515,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             300 => 
             array (
@@ -4530,7 +4530,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             301 => 
             array (
@@ -4545,7 +4545,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             302 => 
             array (
@@ -4560,7 +4560,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             303 => 
             array (
@@ -4575,7 +4575,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             304 => 
             array (
@@ -4590,7 +4590,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             305 => 
             array (
@@ -4605,7 +4605,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             306 => 
             array (
@@ -4620,7 +4620,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             307 => 
             array (
@@ -4635,7 +4635,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             308 => 
             array (
@@ -4650,7 +4650,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             309 => 
             array (
@@ -4665,7 +4665,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             310 => 
             array (
@@ -4680,7 +4680,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             311 => 
             array (
@@ -4695,7 +4695,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             312 => 
             array (
@@ -4710,7 +4710,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             313 => 
             array (
@@ -4725,7 +4725,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             314 => 
             array (
@@ -4740,7 +4740,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             315 => 
             array (
@@ -4755,7 +4755,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             316 => 
             array (
@@ -4770,7 +4770,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             317 => 
             array (
@@ -4785,7 +4785,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             318 => 
             array (
@@ -4800,7 +4800,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             319 => 
             array (
@@ -4815,7 +4815,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             320 => 
             array (
@@ -4830,7 +4830,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             321 => 
             array (
@@ -4845,7 +4845,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             322 => 
             array (
@@ -4860,7 +4860,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             323 => 
             array (
@@ -4875,7 +4875,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             324 => 
             array (
@@ -4890,7 +4890,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             325 => 
             array (
@@ -4905,7 +4905,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             326 => 
             array (
@@ -4920,7 +4920,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             327 => 
             array (
@@ -4935,7 +4935,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             328 => 
             array (
@@ -4950,7 +4950,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             329 => 
             array (
@@ -4965,7 +4965,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             330 => 
             array (
@@ -4980,7 +4980,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             331 => 
             array (
@@ -4995,7 +4995,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             332 => 
             array (
@@ -5010,7 +5010,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             333 => 
             array (
@@ -5025,7 +5025,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             334 => 
             array (
@@ -5040,7 +5040,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             335 => 
             array (
@@ -5055,7 +5055,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             336 => 
             array (
@@ -5070,7 +5070,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             337 => 
             array (
@@ -5085,7 +5085,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             338 => 
             array (
@@ -5100,7 +5100,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             339 => 
             array (
@@ -5115,7 +5115,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             340 => 
             array (
@@ -5130,7 +5130,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             341 => 
             array (
@@ -5145,7 +5145,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             342 => 
             array (
@@ -5160,7 +5160,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             343 => 
             array (
@@ -5175,7 +5175,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             344 => 
             array (
@@ -5190,7 +5190,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             345 => 
             array (
@@ -5205,7 +5205,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             346 => 
             array (
@@ -5220,7 +5220,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             347 => 
             array (
@@ -5235,7 +5235,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             348 => 
             array (
@@ -5250,7 +5250,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             349 => 
             array (
@@ -5265,7 +5265,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             350 => 
             array (
@@ -5280,7 +5280,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             351 => 
             array (
@@ -5295,7 +5295,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             352 => 
             array (
@@ -5310,7 +5310,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             353 => 
             array (
@@ -5325,7 +5325,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             354 => 
             array (
@@ -5340,7 +5340,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             355 => 
             array (
@@ -5355,7 +5355,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             356 => 
             array (
@@ -5370,7 +5370,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             357 => 
             array (
@@ -5385,7 +5385,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             358 => 
             array (
@@ -5400,7 +5400,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             359 => 
             array (
@@ -5415,7 +5415,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             360 => 
             array (
@@ -5430,7 +5430,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             361 => 
             array (
@@ -5445,7 +5445,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             362 => 
             array (
@@ -5460,7 +5460,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             363 => 
             array (
@@ -5475,7 +5475,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             364 => 
             array (
@@ -5490,7 +5490,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             365 => 
             array (
@@ -5505,7 +5505,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             366 => 
             array (
@@ -5520,7 +5520,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             367 => 
             array (
@@ -5535,7 +5535,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             368 => 
             array (
@@ -5550,7 +5550,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             369 => 
             array (
@@ -5565,7 +5565,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             370 => 
             array (
@@ -5580,7 +5580,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             371 => 
             array (
@@ -5595,7 +5595,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             372 => 
             array (
@@ -5610,7 +5610,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             373 => 
             array (
@@ -5625,7 +5625,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             374 => 
             array (
@@ -5640,7 +5640,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             375 => 
             array (
@@ -5655,7 +5655,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             376 => 
             array (
@@ -5670,7 +5670,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             377 => 
             array (
@@ -5685,7 +5685,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             378 => 
             array (
@@ -5700,7 +5700,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             379 => 
             array (
@@ -5715,7 +5715,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             380 => 
             array (
@@ -5730,7 +5730,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             381 => 
             array (
@@ -5745,7 +5745,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             382 => 
             array (
@@ -5760,7 +5760,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             383 => 
             array (
@@ -5775,7 +5775,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             384 => 
             array (
@@ -5790,7 +5790,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             385 => 
             array (
@@ -5805,7 +5805,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             386 => 
             array (
@@ -5820,7 +5820,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             387 => 
             array (
@@ -5835,7 +5835,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             388 => 
             array (
@@ -5850,7 +5850,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             389 => 
             array (
@@ -5865,7 +5865,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             390 => 
             array (
@@ -5880,7 +5880,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             391 => 
             array (
@@ -5895,7 +5895,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             392 => 
             array (
@@ -5910,7 +5910,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             393 => 
             array (
@@ -5925,7 +5925,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             394 => 
             array (
@@ -5940,7 +5940,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             395 => 
             array (
@@ -5955,7 +5955,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             396 => 
             array (
@@ -5970,7 +5970,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             397 => 
             array (
@@ -5985,7 +5985,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             398 => 
             array (
@@ -6000,7 +6000,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             399 => 
             array (
@@ -6015,7 +6015,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             400 => 
             array (
@@ -6030,7 +6030,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             401 => 
             array (
@@ -6045,7 +6045,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             402 => 
             array (
@@ -6060,7 +6060,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             403 => 
             array (
@@ -6075,7 +6075,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             404 => 
             array (
@@ -6090,7 +6090,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             405 => 
             array (
@@ -6105,7 +6105,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             406 => 
             array (
@@ -6120,7 +6120,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             407 => 
             array (
@@ -6135,7 +6135,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             408 => 
             array (
@@ -6150,7 +6150,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             409 => 
             array (
@@ -6165,7 +6165,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             410 => 
             array (
@@ -6180,7 +6180,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             411 => 
             array (
@@ -6195,7 +6195,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             412 => 
             array (
@@ -6210,7 +6210,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             413 => 
             array (
@@ -6225,7 +6225,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             414 => 
             array (
@@ -6240,7 +6240,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             415 => 
             array (
@@ -6255,7 +6255,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             416 => 
             array (
@@ -6270,7 +6270,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             417 => 
             array (
@@ -6285,7 +6285,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             418 => 
             array (
@@ -6300,7 +6300,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             419 => 
             array (
@@ -6315,7 +6315,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             420 => 
             array (
@@ -6330,7 +6330,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             421 => 
             array (
@@ -6345,7 +6345,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             422 => 
             array (
@@ -6360,7 +6360,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             423 => 
             array (
@@ -6375,7 +6375,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             424 => 
             array (
@@ -6390,7 +6390,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             425 => 
             array (
@@ -6405,7 +6405,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             426 => 
             array (
@@ -6420,7 +6420,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             427 => 
             array (
@@ -6435,7 +6435,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             428 => 
             array (
@@ -6450,7 +6450,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             429 => 
             array (
@@ -6465,7 +6465,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             430 => 
             array (
@@ -6480,7 +6480,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             431 => 
             array (
@@ -6495,7 +6495,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             432 => 
             array (
@@ -6510,7 +6510,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             433 => 
             array (
@@ -6525,7 +6525,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             434 => 
             array (
@@ -6540,7 +6540,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             435 => 
             array (
@@ -6555,7 +6555,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             436 => 
             array (
@@ -6570,7 +6570,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             437 => 
             array (
@@ -6585,7 +6585,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             438 => 
             array (
@@ -6600,7 +6600,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             439 => 
             array (
@@ -6615,7 +6615,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             440 => 
             array (
@@ -6630,7 +6630,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             441 => 
             array (
@@ -6645,7 +6645,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             442 => 
             array (
@@ -6660,7 +6660,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             443 => 
             array (
@@ -6675,7 +6675,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             444 => 
             array (
@@ -6690,7 +6690,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             445 => 
             array (
@@ -6705,7 +6705,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             446 => 
             array (
@@ -6720,7 +6720,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             447 => 
             array (
@@ -6735,7 +6735,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             448 => 
             array (
@@ -6750,7 +6750,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             449 => 
             array (
@@ -6765,7 +6765,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             450 => 
             array (
@@ -6780,7 +6780,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             451 => 
             array (
@@ -6795,7 +6795,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             452 => 
             array (
@@ -6810,7 +6810,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             453 => 
             array (
@@ -6825,7 +6825,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             454 => 
             array (
@@ -6840,7 +6840,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             455 => 
             array (
@@ -6855,7 +6855,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             456 => 
             array (
@@ -6870,7 +6870,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             457 => 
             array (
@@ -6885,7 +6885,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             458 => 
             array (
@@ -6900,7 +6900,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             459 => 
             array (
@@ -6915,7 +6915,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             460 => 
             array (
@@ -6930,7 +6930,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             461 => 
             array (
@@ -6945,7 +6945,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             462 => 
             array (
@@ -6960,7 +6960,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             463 => 
             array (
@@ -6975,7 +6975,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             464 => 
             array (
@@ -6990,7 +6990,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             465 => 
             array (
@@ -7005,7 +7005,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             466 => 
             array (
@@ -7020,7 +7020,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             467 => 
             array (
@@ -7035,7 +7035,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             468 => 
             array (
@@ -7050,7 +7050,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             469 => 
             array (
@@ -7065,7 +7065,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             470 => 
             array (
@@ -7080,7 +7080,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             471 => 
             array (
@@ -7095,7 +7095,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             472 => 
             array (
@@ -7110,7 +7110,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             473 => 
             array (
@@ -7125,7 +7125,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             474 => 
             array (
@@ -7140,7 +7140,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             475 => 
             array (
@@ -7155,7 +7155,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             476 => 
             array (
@@ -7170,7 +7170,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             477 => 
             array (
@@ -7185,7 +7185,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             478 => 
             array (
@@ -7200,7 +7200,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             479 => 
             array (
@@ -7215,7 +7215,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             480 => 
             array (
@@ -7230,7 +7230,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             481 => 
             array (
@@ -7245,7 +7245,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             482 => 
             array (
@@ -7260,7 +7260,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             483 => 
             array (
@@ -7275,7 +7275,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             484 => 
             array (
@@ -7290,7 +7290,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             485 => 
             array (
@@ -7305,7 +7305,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             486 => 
             array (
@@ -7320,7 +7320,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             487 => 
             array (
@@ -7335,7 +7335,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             488 => 
             array (
@@ -7350,7 +7350,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             489 => 
             array (
@@ -7365,7 +7365,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             490 => 
             array (
@@ -7380,7 +7380,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             491 => 
             array (
@@ -7395,7 +7395,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             492 => 
             array (
@@ -7410,7 +7410,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             493 => 
             array (
@@ -7425,7 +7425,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             494 => 
             array (
@@ -7440,7 +7440,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             495 => 
             array (
@@ -7455,7 +7455,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             496 => 
             array (
@@ -7470,7 +7470,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             497 => 
             array (
@@ -7485,7 +7485,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             498 => 
             array (
@@ -7500,7 +7500,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             499 => 
             array (
@@ -7515,7 +7515,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
         ));
         \DB::table('das_keluarga')->insert(array (
@@ -7532,7 +7532,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             1 => 
             array (
@@ -7547,7 +7547,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             2 => 
             array (
@@ -7562,7 +7562,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             3 => 
             array (
@@ -7577,7 +7577,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             4 => 
             array (
@@ -7592,7 +7592,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             5 => 
             array (
@@ -7607,7 +7607,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             6 => 
             array (
@@ -7622,7 +7622,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             7 => 
             array (
@@ -7637,7 +7637,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             8 => 
             array (
@@ -7652,7 +7652,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             9 => 
             array (
@@ -7667,7 +7667,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             10 => 
             array (
@@ -7682,7 +7682,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             11 => 
             array (
@@ -7697,7 +7697,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             12 => 
             array (
@@ -7712,7 +7712,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             13 => 
             array (
@@ -7727,7 +7727,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             14 => 
             array (
@@ -7742,7 +7742,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             15 => 
             array (
@@ -7757,7 +7757,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             16 => 
             array (
@@ -7772,7 +7772,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             17 => 
             array (
@@ -7787,7 +7787,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             18 => 
             array (
@@ -7802,7 +7802,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             19 => 
             array (
@@ -7817,7 +7817,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             20 => 
             array (
@@ -7832,7 +7832,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             21 => 
             array (
@@ -7847,7 +7847,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             22 => 
             array (
@@ -7862,7 +7862,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             23 => 
             array (
@@ -7877,7 +7877,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             24 => 
             array (
@@ -7892,7 +7892,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             25 => 
             array (
@@ -7907,7 +7907,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             26 => 
             array (
@@ -7922,7 +7922,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             27 => 
             array (
@@ -7937,7 +7937,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             28 => 
             array (
@@ -7952,7 +7952,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             29 => 
             array (
@@ -7967,7 +7967,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             30 => 
             array (
@@ -7982,7 +7982,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             31 => 
             array (
@@ -7997,7 +7997,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             32 => 
             array (
@@ -8012,7 +8012,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             33 => 
             array (
@@ -8027,7 +8027,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             34 => 
             array (
@@ -8042,7 +8042,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             35 => 
             array (
@@ -8057,7 +8057,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             36 => 
             array (
@@ -8072,7 +8072,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             37 => 
             array (
@@ -8087,7 +8087,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             38 => 
             array (
@@ -8102,7 +8102,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             39 => 
             array (
@@ -8117,7 +8117,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             40 => 
             array (
@@ -8132,7 +8132,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             41 => 
             array (
@@ -8147,7 +8147,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             42 => 
             array (
@@ -8162,7 +8162,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             43 => 
             array (
@@ -8177,7 +8177,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             44 => 
             array (
@@ -8192,7 +8192,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             45 => 
             array (
@@ -8207,7 +8207,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             46 => 
             array (
@@ -8222,7 +8222,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             47 => 
             array (
@@ -8237,7 +8237,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             48 => 
             array (
@@ -8252,7 +8252,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             49 => 
             array (
@@ -8267,7 +8267,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             50 => 
             array (
@@ -8282,7 +8282,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             51 => 
             array (
@@ -8297,7 +8297,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             52 => 
             array (
@@ -8312,7 +8312,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             53 => 
             array (
@@ -8327,7 +8327,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             54 => 
             array (
@@ -8342,7 +8342,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             55 => 
             array (
@@ -8357,7 +8357,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             56 => 
             array (
@@ -8372,7 +8372,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             57 => 
             array (
@@ -8387,7 +8387,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             58 => 
             array (
@@ -8402,7 +8402,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             59 => 
             array (
@@ -8417,7 +8417,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             60 => 
             array (
@@ -8432,7 +8432,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             61 => 
             array (
@@ -8447,7 +8447,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             62 => 
             array (
@@ -8462,7 +8462,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             63 => 
             array (
@@ -8477,7 +8477,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             64 => 
             array (
@@ -8492,7 +8492,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             65 => 
             array (
@@ -8507,7 +8507,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             66 => 
             array (
@@ -8522,7 +8522,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             67 => 
             array (
@@ -8537,7 +8537,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             68 => 
             array (
@@ -8552,7 +8552,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             69 => 
             array (
@@ -8567,7 +8567,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             70 => 
             array (
@@ -8582,7 +8582,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             71 => 
             array (
@@ -8597,7 +8597,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             72 => 
             array (
@@ -8612,7 +8612,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             73 => 
             array (
@@ -8627,7 +8627,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             74 => 
             array (
@@ -8642,7 +8642,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             75 => 
             array (
@@ -8657,7 +8657,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             76 => 
             array (
@@ -8672,7 +8672,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             77 => 
             array (
@@ -8687,7 +8687,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             78 => 
             array (
@@ -8702,7 +8702,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             79 => 
             array (
@@ -8717,7 +8717,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             80 => 
             array (
@@ -8732,7 +8732,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             81 => 
             array (
@@ -8747,7 +8747,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             82 => 
             array (
@@ -8762,7 +8762,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             83 => 
             array (
@@ -8777,7 +8777,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             84 => 
             array (
@@ -8792,7 +8792,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             85 => 
             array (
@@ -8807,7 +8807,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             86 => 
             array (
@@ -8822,7 +8822,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             87 => 
             array (
@@ -8837,7 +8837,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             88 => 
             array (
@@ -8852,7 +8852,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             89 => 
             array (
@@ -8867,7 +8867,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             90 => 
             array (
@@ -8882,7 +8882,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             91 => 
             array (
@@ -8897,7 +8897,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             92 => 
             array (
@@ -8912,7 +8912,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             93 => 
             array (
@@ -8927,7 +8927,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             94 => 
             array (
@@ -8942,7 +8942,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             95 => 
             array (
@@ -8957,7 +8957,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             96 => 
             array (
@@ -8972,7 +8972,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             97 => 
             array (
@@ -8987,7 +8987,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             98 => 
             array (
@@ -9002,7 +9002,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             99 => 
             array (
@@ -9017,7 +9017,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             100 => 
             array (
@@ -9032,7 +9032,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             101 => 
             array (
@@ -9047,7 +9047,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             102 => 
             array (
@@ -9062,7 +9062,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             103 => 
             array (
@@ -9077,7 +9077,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             104 => 
             array (
@@ -9092,7 +9092,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             105 => 
             array (
@@ -9107,7 +9107,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             106 => 
             array (
@@ -9122,7 +9122,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             107 => 
             array (
@@ -9137,7 +9137,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             108 => 
             array (
@@ -9152,7 +9152,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             109 => 
             array (
@@ -9167,7 +9167,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             110 => 
             array (
@@ -9182,7 +9182,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             111 => 
             array (
@@ -9197,7 +9197,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             112 => 
             array (
@@ -9212,7 +9212,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             113 => 
             array (
@@ -9227,7 +9227,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             114 => 
             array (
@@ -9242,7 +9242,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             115 => 
             array (
@@ -9257,7 +9257,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             116 => 
             array (
@@ -9272,7 +9272,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             117 => 
             array (
@@ -9287,7 +9287,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             118 => 
             array (
@@ -9302,7 +9302,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             119 => 
             array (
@@ -9317,7 +9317,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             120 => 
             array (
@@ -9332,7 +9332,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             121 => 
             array (
@@ -9347,7 +9347,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             122 => 
             array (
@@ -9362,7 +9362,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             123 => 
             array (
@@ -9377,7 +9377,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             124 => 
             array (
@@ -9392,7 +9392,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             125 => 
             array (
@@ -9407,7 +9407,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             126 => 
             array (
@@ -9422,7 +9422,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             127 => 
             array (
@@ -9437,7 +9437,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             128 => 
             array (
@@ -9452,7 +9452,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             129 => 
             array (
@@ -9467,7 +9467,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             130 => 
             array (
@@ -9482,7 +9482,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             131 => 
             array (
@@ -9497,7 +9497,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             132 => 
             array (
@@ -9512,7 +9512,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             133 => 
             array (
@@ -9527,7 +9527,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             134 => 
             array (
@@ -9542,7 +9542,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             135 => 
             array (
@@ -9557,7 +9557,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             136 => 
             array (
@@ -9572,7 +9572,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             137 => 
             array (
@@ -9587,7 +9587,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             138 => 
             array (
@@ -9602,7 +9602,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             139 => 
             array (
@@ -9617,7 +9617,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             140 => 
             array (
@@ -9632,7 +9632,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             141 => 
             array (
@@ -9647,7 +9647,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             142 => 
             array (
@@ -9662,7 +9662,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             143 => 
             array (
@@ -9677,7 +9677,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             144 => 
             array (
@@ -9692,7 +9692,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             145 => 
             array (
@@ -9707,7 +9707,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             146 => 
             array (
@@ -9722,7 +9722,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             147 => 
             array (
@@ -9737,7 +9737,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             148 => 
             array (
@@ -9752,7 +9752,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             149 => 
             array (
@@ -9767,7 +9767,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             150 => 
             array (
@@ -9782,7 +9782,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             151 => 
             array (
@@ -9797,7 +9797,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             152 => 
             array (
@@ -9812,7 +9812,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             153 => 
             array (
@@ -9827,7 +9827,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             154 => 
             array (
@@ -9842,7 +9842,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             155 => 
             array (
@@ -9857,7 +9857,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             156 => 
             array (
@@ -9872,7 +9872,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             157 => 
             array (
@@ -9887,7 +9887,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             158 => 
             array (
@@ -9902,7 +9902,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             159 => 
             array (
@@ -9917,7 +9917,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             160 => 
             array (
@@ -9932,7 +9932,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             161 => 
             array (
@@ -9947,7 +9947,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             162 => 
             array (
@@ -9962,7 +9962,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             163 => 
             array (
@@ -9977,7 +9977,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             164 => 
             array (
@@ -9992,7 +9992,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             165 => 
             array (
@@ -10007,7 +10007,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             166 => 
             array (
@@ -10022,7 +10022,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             167 => 
             array (
@@ -10037,7 +10037,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             168 => 
             array (
@@ -10052,7 +10052,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             169 => 
             array (
@@ -10067,7 +10067,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             170 => 
             array (
@@ -10082,7 +10082,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             171 => 
             array (
@@ -10097,7 +10097,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             172 => 
             array (
@@ -10112,7 +10112,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             173 => 
             array (
@@ -10127,7 +10127,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             174 => 
             array (
@@ -10142,7 +10142,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             175 => 
             array (
@@ -10157,7 +10157,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             176 => 
             array (
@@ -10172,7 +10172,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             177 => 
             array (
@@ -10187,7 +10187,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             178 => 
             array (
@@ -10202,7 +10202,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             179 => 
             array (
@@ -10217,7 +10217,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             180 => 
             array (
@@ -10232,7 +10232,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             181 => 
             array (
@@ -10247,7 +10247,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             182 => 
             array (
@@ -10262,7 +10262,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             183 => 
             array (
@@ -10277,7 +10277,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             184 => 
             array (
@@ -10292,7 +10292,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             185 => 
             array (
@@ -10307,7 +10307,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             186 => 
             array (
@@ -10322,7 +10322,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             187 => 
             array (
@@ -10337,7 +10337,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             188 => 
             array (
@@ -10352,7 +10352,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             189 => 
             array (
@@ -10367,7 +10367,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             190 => 
             array (
@@ -10382,7 +10382,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             191 => 
             array (
@@ -10397,7 +10397,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             192 => 
             array (
@@ -10412,7 +10412,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             193 => 
             array (
@@ -10427,7 +10427,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             194 => 
             array (
@@ -10442,7 +10442,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             195 => 
             array (
@@ -10457,7 +10457,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             196 => 
             array (
@@ -10472,7 +10472,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             197 => 
             array (
@@ -10487,7 +10487,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             198 => 
             array (
@@ -10502,7 +10502,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             199 => 
             array (
@@ -10517,7 +10517,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             200 => 
             array (
@@ -10532,7 +10532,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             201 => 
             array (
@@ -10547,7 +10547,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             202 => 
             array (
@@ -10562,7 +10562,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             203 => 
             array (
@@ -10577,7 +10577,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             204 => 
             array (
@@ -10592,7 +10592,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             205 => 
             array (
@@ -10607,7 +10607,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             206 => 
             array (
@@ -10622,7 +10622,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             207 => 
             array (
@@ -10637,7 +10637,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             208 => 
             array (
@@ -10652,7 +10652,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             209 => 
             array (
@@ -10667,7 +10667,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             210 => 
             array (
@@ -10682,7 +10682,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             211 => 
             array (
@@ -10697,7 +10697,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             212 => 
             array (
@@ -10712,7 +10712,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             213 => 
             array (
@@ -10727,7 +10727,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             214 => 
             array (
@@ -10742,7 +10742,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             215 => 
             array (
@@ -10757,7 +10757,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             216 => 
             array (
@@ -10772,7 +10772,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             217 => 
             array (
@@ -10787,7 +10787,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             218 => 
             array (
@@ -10802,7 +10802,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             219 => 
             array (
@@ -10817,7 +10817,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             220 => 
             array (
@@ -10832,7 +10832,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             221 => 
             array (
@@ -10847,7 +10847,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             222 => 
             array (
@@ -10862,7 +10862,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             223 => 
             array (
@@ -10877,7 +10877,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             224 => 
             array (
@@ -10892,7 +10892,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             225 => 
             array (
@@ -10907,7 +10907,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             226 => 
             array (
@@ -10922,7 +10922,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             227 => 
             array (
@@ -10937,7 +10937,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             228 => 
             array (
@@ -10952,7 +10952,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             229 => 
             array (
@@ -10967,7 +10967,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             230 => 
             array (
@@ -10982,7 +10982,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             231 => 
             array (
@@ -10997,7 +10997,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             232 => 
             array (
@@ -11012,7 +11012,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             233 => 
             array (
@@ -11027,7 +11027,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             234 => 
             array (
@@ -11042,7 +11042,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             235 => 
             array (
@@ -11057,7 +11057,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             236 => 
             array (
@@ -11072,7 +11072,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             237 => 
             array (
@@ -11087,7 +11087,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             238 => 
             array (
@@ -11102,7 +11102,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             239 => 
             array (
@@ -11117,7 +11117,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             240 => 
             array (
@@ -11132,7 +11132,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             241 => 
             array (
@@ -11147,7 +11147,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             242 => 
             array (
@@ -11162,7 +11162,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             243 => 
             array (
@@ -11177,7 +11177,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             244 => 
             array (
@@ -11192,7 +11192,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             245 => 
             array (
@@ -11207,7 +11207,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             246 => 
             array (
@@ -11222,7 +11222,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             247 => 
             array (
@@ -11237,7 +11237,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             248 => 
             array (
@@ -11252,7 +11252,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             249 => 
             array (
@@ -11267,7 +11267,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             250 => 
             array (
@@ -11282,7 +11282,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             251 => 
             array (
@@ -11297,7 +11297,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             252 => 
             array (
@@ -11312,7 +11312,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             253 => 
             array (
@@ -11327,7 +11327,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             254 => 
             array (
@@ -11342,7 +11342,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             255 => 
             array (
@@ -11357,7 +11357,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             256 => 
             array (
@@ -11372,7 +11372,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             257 => 
             array (
@@ -11387,7 +11387,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             258 => 
             array (
@@ -11402,7 +11402,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             259 => 
             array (
@@ -11417,7 +11417,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             260 => 
             array (
@@ -11432,7 +11432,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             261 => 
             array (
@@ -11447,7 +11447,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             262 => 
             array (
@@ -11462,7 +11462,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             263 => 
             array (
@@ -11477,7 +11477,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             264 => 
             array (
@@ -11492,7 +11492,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             265 => 
             array (
@@ -11507,7 +11507,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             266 => 
             array (
@@ -11522,7 +11522,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             267 => 
             array (
@@ -11537,7 +11537,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             268 => 
             array (
@@ -11552,7 +11552,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             269 => 
             array (
@@ -11567,7 +11567,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             270 => 
             array (
@@ -11582,7 +11582,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             271 => 
             array (
@@ -11597,7 +11597,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             272 => 
             array (
@@ -11612,7 +11612,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             273 => 
             array (
@@ -11627,7 +11627,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             274 => 
             array (
@@ -11642,7 +11642,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             275 => 
             array (
@@ -11657,7 +11657,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             276 => 
             array (
@@ -11672,7 +11672,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             277 => 
             array (
@@ -11687,7 +11687,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             278 => 
             array (
@@ -11702,7 +11702,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             279 => 
             array (
@@ -11717,7 +11717,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             280 => 
             array (
@@ -11732,7 +11732,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             281 => 
             array (
@@ -11747,7 +11747,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             282 => 
             array (
@@ -11762,7 +11762,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             283 => 
             array (
@@ -11777,7 +11777,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             284 => 
             array (
@@ -11792,7 +11792,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             285 => 
             array (
@@ -11807,7 +11807,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             286 => 
             array (
@@ -11822,7 +11822,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             287 => 
             array (
@@ -11837,7 +11837,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             288 => 
             array (
@@ -11852,7 +11852,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             289 => 
             array (
@@ -11867,7 +11867,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             290 => 
             array (
@@ -11882,7 +11882,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             291 => 
             array (
@@ -11897,7 +11897,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             292 => 
             array (
@@ -11912,7 +11912,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             293 => 
             array (
@@ -11927,7 +11927,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             294 => 
             array (
@@ -11942,7 +11942,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             295 => 
             array (
@@ -11957,7 +11957,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             296 => 
             array (
@@ -11972,7 +11972,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             297 => 
             array (
@@ -11987,7 +11987,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             298 => 
             array (
@@ -12002,7 +12002,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             299 => 
             array (
@@ -12017,7 +12017,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             300 => 
             array (
@@ -12032,7 +12032,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             301 => 
             array (
@@ -12047,7 +12047,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             302 => 
             array (
@@ -12062,7 +12062,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             303 => 
             array (
@@ -12077,7 +12077,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             304 => 
             array (
@@ -12092,7 +12092,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             305 => 
             array (
@@ -12107,7 +12107,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             306 => 
             array (
@@ -12122,7 +12122,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             307 => 
             array (
@@ -12137,7 +12137,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             308 => 
             array (
@@ -12152,7 +12152,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             309 => 
             array (
@@ -12167,7 +12167,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             310 => 
             array (
@@ -12182,7 +12182,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             311 => 
             array (
@@ -12197,7 +12197,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             312 => 
             array (
@@ -12212,7 +12212,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             313 => 
             array (
@@ -12227,7 +12227,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             314 => 
             array (
@@ -12242,7 +12242,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             315 => 
             array (
@@ -12257,7 +12257,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             316 => 
             array (
@@ -12272,7 +12272,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             317 => 
             array (
@@ -12287,7 +12287,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             318 => 
             array (
@@ -12302,7 +12302,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             319 => 
             array (
@@ -12317,7 +12317,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             320 => 
             array (
@@ -12332,7 +12332,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             321 => 
             array (
@@ -12347,7 +12347,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             322 => 
             array (
@@ -12362,7 +12362,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             323 => 
             array (
@@ -12377,7 +12377,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             324 => 
             array (
@@ -12392,7 +12392,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             325 => 
             array (
@@ -12407,7 +12407,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             326 => 
             array (
@@ -12422,7 +12422,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             327 => 
             array (
@@ -12437,7 +12437,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             328 => 
             array (
@@ -12452,7 +12452,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             329 => 
             array (
@@ -12467,7 +12467,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             330 => 
             array (
@@ -12482,7 +12482,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             331 => 
             array (
@@ -12497,7 +12497,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             332 => 
             array (
@@ -12512,7 +12512,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             333 => 
             array (
@@ -12527,7 +12527,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             334 => 
             array (
@@ -12542,7 +12542,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             335 => 
             array (
@@ -12557,7 +12557,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             336 => 
             array (
@@ -12572,7 +12572,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             337 => 
             array (
@@ -12587,7 +12587,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             338 => 
             array (
@@ -12602,7 +12602,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             339 => 
             array (
@@ -12617,7 +12617,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             340 => 
             array (
@@ -12632,7 +12632,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             341 => 
             array (
@@ -12647,7 +12647,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             342 => 
             array (
@@ -12662,7 +12662,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             343 => 
             array (
@@ -12677,7 +12677,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             344 => 
             array (
@@ -12692,7 +12692,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             345 => 
             array (
@@ -12707,7 +12707,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             346 => 
             array (
@@ -12722,7 +12722,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             347 => 
             array (
@@ -12737,7 +12737,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             348 => 
             array (
@@ -12752,7 +12752,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             349 => 
             array (
@@ -12767,7 +12767,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             350 => 
             array (
@@ -12782,7 +12782,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             351 => 
             array (
@@ -12797,7 +12797,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             352 => 
             array (
@@ -12812,7 +12812,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             353 => 
             array (
@@ -12827,7 +12827,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             354 => 
             array (
@@ -12842,7 +12842,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             355 => 
             array (
@@ -12857,7 +12857,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             356 => 
             array (
@@ -12872,7 +12872,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             357 => 
             array (
@@ -12887,7 +12887,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             358 => 
             array (
@@ -12902,7 +12902,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             359 => 
             array (
@@ -12917,7 +12917,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             360 => 
             array (
@@ -12932,7 +12932,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             361 => 
             array (
@@ -12947,7 +12947,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             362 => 
             array (
@@ -12962,7 +12962,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             363 => 
             array (
@@ -12977,7 +12977,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             364 => 
             array (
@@ -12992,7 +12992,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             365 => 
             array (
@@ -13007,7 +13007,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             366 => 
             array (
@@ -13022,7 +13022,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             367 => 
             array (
@@ -13037,7 +13037,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             368 => 
             array (
@@ -13052,7 +13052,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             369 => 
             array (
@@ -13067,7 +13067,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             370 => 
             array (
@@ -13082,7 +13082,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             371 => 
             array (
@@ -13097,7 +13097,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             372 => 
             array (
@@ -13112,7 +13112,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             373 => 
             array (
@@ -13127,7 +13127,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             374 => 
             array (
@@ -13142,7 +13142,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             375 => 
             array (
@@ -13157,7 +13157,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             376 => 
             array (
@@ -13172,7 +13172,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             377 => 
             array (
@@ -13187,7 +13187,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             378 => 
             array (
@@ -13202,7 +13202,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             379 => 
             array (
@@ -13217,7 +13217,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             380 => 
             array (
@@ -13232,7 +13232,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             381 => 
             array (
@@ -13247,7 +13247,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             382 => 
             array (
@@ -13262,7 +13262,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             383 => 
             array (
@@ -13277,7 +13277,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             384 => 
             array (
@@ -13292,7 +13292,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             385 => 
             array (
@@ -13307,7 +13307,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             386 => 
             array (
@@ -13322,7 +13322,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             387 => 
             array (
@@ -13337,7 +13337,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             388 => 
             array (
@@ -13352,7 +13352,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             389 => 
             array (
@@ -13367,7 +13367,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             390 => 
             array (
@@ -13382,7 +13382,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             391 => 
             array (
@@ -13397,7 +13397,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             392 => 
             array (
@@ -13412,7 +13412,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             393 => 
             array (
@@ -13427,7 +13427,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             394 => 
             array (
@@ -13442,7 +13442,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             395 => 
             array (
@@ -13457,7 +13457,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             396 => 
             array (
@@ -13472,7 +13472,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             397 => 
             array (
@@ -13487,7 +13487,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             398 => 
             array (
@@ -13502,7 +13502,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             399 => 
             array (
@@ -13517,7 +13517,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             400 => 
             array (
@@ -13532,7 +13532,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             401 => 
             array (
@@ -13547,7 +13547,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             402 => 
             array (
@@ -13562,7 +13562,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             403 => 
             array (
@@ -13577,7 +13577,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             404 => 
             array (
@@ -13592,7 +13592,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             405 => 
             array (
@@ -13607,7 +13607,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             406 => 
             array (
@@ -13622,7 +13622,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             407 => 
             array (
@@ -13637,7 +13637,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             408 => 
             array (
@@ -13652,7 +13652,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             409 => 
             array (
@@ -13667,7 +13667,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             410 => 
             array (
@@ -13682,7 +13682,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             411 => 
             array (
@@ -13697,7 +13697,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             412 => 
             array (
@@ -13712,7 +13712,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             413 => 
             array (
@@ -13727,7 +13727,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             414 => 
             array (
@@ -13742,7 +13742,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             415 => 
             array (
@@ -13757,7 +13757,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             416 => 
             array (
@@ -13772,7 +13772,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             417 => 
             array (
@@ -13787,7 +13787,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             418 => 
             array (
@@ -13802,7 +13802,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             419 => 
             array (
@@ -13817,7 +13817,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             420 => 
             array (
@@ -13832,7 +13832,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             421 => 
             array (
@@ -13847,7 +13847,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             422 => 
             array (
@@ -13862,7 +13862,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             423 => 
             array (
@@ -13877,7 +13877,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             424 => 
             array (
@@ -13892,7 +13892,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             425 => 
             array (
@@ -13907,7 +13907,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             426 => 
             array (
@@ -13922,7 +13922,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             427 => 
             array (
@@ -13937,7 +13937,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             428 => 
             array (
@@ -13952,7 +13952,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             429 => 
             array (
@@ -13967,7 +13967,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             430 => 
             array (
@@ -13982,7 +13982,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             431 => 
             array (
@@ -13997,7 +13997,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             432 => 
             array (
@@ -14012,7 +14012,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             433 => 
             array (
@@ -14027,7 +14027,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             434 => 
             array (
@@ -14042,7 +14042,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             435 => 
             array (
@@ -14057,7 +14057,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             436 => 
             array (
@@ -14072,7 +14072,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             437 => 
             array (
@@ -14087,7 +14087,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             438 => 
             array (
@@ -14102,7 +14102,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             439 => 
             array (
@@ -14117,7 +14117,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             440 => 
             array (
@@ -14132,7 +14132,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             441 => 
             array (
@@ -14147,7 +14147,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             442 => 
             array (
@@ -14162,7 +14162,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             443 => 
             array (
@@ -14177,7 +14177,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             444 => 
             array (
@@ -14192,7 +14192,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             445 => 
             array (
@@ -14207,7 +14207,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             446 => 
             array (
@@ -14222,7 +14222,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             447 => 
             array (
@@ -14237,7 +14237,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             448 => 
             array (
@@ -14252,7 +14252,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             449 => 
             array (
@@ -14267,7 +14267,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             450 => 
             array (
@@ -14282,7 +14282,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             451 => 
             array (
@@ -14297,7 +14297,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             452 => 
             array (
@@ -14312,7 +14312,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             453 => 
             array (
@@ -14327,7 +14327,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             454 => 
             array (
@@ -14342,7 +14342,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             455 => 
             array (
@@ -14357,7 +14357,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             456 => 
             array (
@@ -14372,7 +14372,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             457 => 
             array (
@@ -14387,7 +14387,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             458 => 
             array (
@@ -14402,7 +14402,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             459 => 
             array (
@@ -14417,7 +14417,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             460 => 
             array (
@@ -14432,7 +14432,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             461 => 
             array (
@@ -14447,7 +14447,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             462 => 
             array (
@@ -14462,7 +14462,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             463 => 
             array (
@@ -14477,7 +14477,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             464 => 
             array (
@@ -14492,7 +14492,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             465 => 
             array (
@@ -14507,7 +14507,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             466 => 
             array (
@@ -14522,7 +14522,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             467 => 
             array (
@@ -14537,7 +14537,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             468 => 
             array (
@@ -14552,7 +14552,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             469 => 
             array (
@@ -14567,7 +14567,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             470 => 
             array (
@@ -14582,7 +14582,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             471 => 
             array (
@@ -14597,7 +14597,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             472 => 
             array (
@@ -14612,7 +14612,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             473 => 
             array (
@@ -14627,7 +14627,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             474 => 
             array (
@@ -14642,7 +14642,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             475 => 
             array (
@@ -14657,7 +14657,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             476 => 
             array (
@@ -14672,7 +14672,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             477 => 
             array (
@@ -14687,7 +14687,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             478 => 
             array (
@@ -14702,7 +14702,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             479 => 
             array (
@@ -14717,7 +14717,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             480 => 
             array (
@@ -14732,7 +14732,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             481 => 
             array (
@@ -14747,7 +14747,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             482 => 
             array (
@@ -14762,7 +14762,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             483 => 
             array (
@@ -14777,7 +14777,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             484 => 
             array (
@@ -14792,7 +14792,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             485 => 
             array (
@@ -14807,7 +14807,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             486 => 
             array (
@@ -14822,7 +14822,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             487 => 
             array (
@@ -14837,7 +14837,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             488 => 
             array (
@@ -14852,7 +14852,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             489 => 
             array (
@@ -14867,7 +14867,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             490 => 
             array (
@@ -14882,7 +14882,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             491 => 
             array (
@@ -14897,7 +14897,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             492 => 
             array (
@@ -14912,7 +14912,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             493 => 
             array (
@@ -14927,7 +14927,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             494 => 
             array (
@@ -14942,7 +14942,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             495 => 
             array (
@@ -14957,7 +14957,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             496 => 
             array (
@@ -14972,7 +14972,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             497 => 
             array (
@@ -14987,7 +14987,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             498 => 
             array (
@@ -15002,7 +15002,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             499 => 
             array (
@@ -15017,7 +15017,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
         ));
         \DB::table('das_keluarga')->insert(array (
@@ -15034,7 +15034,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             1 => 
             array (
@@ -15049,7 +15049,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             2 => 
             array (
@@ -15064,7 +15064,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             3 => 
             array (
@@ -15079,7 +15079,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             4 => 
             array (
@@ -15094,7 +15094,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             5 => 
             array (
@@ -15109,7 +15109,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             6 => 
             array (
@@ -15124,7 +15124,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             7 => 
             array (
@@ -15139,7 +15139,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             8 => 
             array (
@@ -15154,7 +15154,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             9 => 
             array (
@@ -15169,7 +15169,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             10 => 
             array (
@@ -15184,7 +15184,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             11 => 
             array (
@@ -15199,7 +15199,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             12 => 
             array (
@@ -15214,7 +15214,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             13 => 
             array (
@@ -15229,7 +15229,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             14 => 
             array (
@@ -15244,7 +15244,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             15 => 
             array (
@@ -15259,7 +15259,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             16 => 
             array (
@@ -15274,7 +15274,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             17 => 
             array (
@@ -15289,7 +15289,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             18 => 
             array (
@@ -15304,7 +15304,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             19 => 
             array (
@@ -15319,7 +15319,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             20 => 
             array (
@@ -15334,7 +15334,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             21 => 
             array (
@@ -15349,7 +15349,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             22 => 
             array (
@@ -15364,7 +15364,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             23 => 
             array (
@@ -15379,7 +15379,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             24 => 
             array (
@@ -15394,7 +15394,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             25 => 
             array (
@@ -15409,7 +15409,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             26 => 
             array (
@@ -15424,7 +15424,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             27 => 
             array (
@@ -15439,7 +15439,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             28 => 
             array (
@@ -15454,7 +15454,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             29 => 
             array (
@@ -15469,7 +15469,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             30 => 
             array (
@@ -15484,7 +15484,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             31 => 
             array (
@@ -15499,7 +15499,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             32 => 
             array (
@@ -15514,7 +15514,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             33 => 
             array (
@@ -15529,7 +15529,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             34 => 
             array (
@@ -15544,7 +15544,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             35 => 
             array (
@@ -15559,7 +15559,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             36 => 
             array (
@@ -15574,7 +15574,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             37 => 
             array (
@@ -15589,7 +15589,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             38 => 
             array (
@@ -15604,7 +15604,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             39 => 
             array (
@@ -15619,7 +15619,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             40 => 
             array (
@@ -15634,7 +15634,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             41 => 
             array (
@@ -15649,7 +15649,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             42 => 
             array (
@@ -15664,7 +15664,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             43 => 
             array (
@@ -15679,7 +15679,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             44 => 
             array (
@@ -15694,7 +15694,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             45 => 
             array (
@@ -15709,7 +15709,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             46 => 
             array (
@@ -15724,7 +15724,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             47 => 
             array (
@@ -15739,7 +15739,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             48 => 
             array (
@@ -15754,7 +15754,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             49 => 
             array (
@@ -15769,7 +15769,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             50 => 
             array (
@@ -15784,7 +15784,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             51 => 
             array (
@@ -15799,7 +15799,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             52 => 
             array (
@@ -15814,7 +15814,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             53 => 
             array (
@@ -15829,7 +15829,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             54 => 
             array (
@@ -15844,7 +15844,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             55 => 
             array (
@@ -15859,7 +15859,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             56 => 
             array (
@@ -15874,7 +15874,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             57 => 
             array (
@@ -15889,7 +15889,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             58 => 
             array (
@@ -15904,7 +15904,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             59 => 
             array (
@@ -15919,7 +15919,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             60 => 
             array (
@@ -15934,7 +15934,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             61 => 
             array (
@@ -15949,7 +15949,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             62 => 
             array (
@@ -15964,7 +15964,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             63 => 
             array (
@@ -15979,7 +15979,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             64 => 
             array (
@@ -15994,7 +15994,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             65 => 
             array (
@@ -16009,7 +16009,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             66 => 
             array (
@@ -16024,7 +16024,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             67 => 
             array (
@@ -16039,7 +16039,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             68 => 
             array (
@@ -16054,7 +16054,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             69 => 
             array (
@@ -16069,7 +16069,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             70 => 
             array (
@@ -16084,7 +16084,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             71 => 
             array (
@@ -16099,7 +16099,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             72 => 
             array (
@@ -16114,7 +16114,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             73 => 
             array (
@@ -16129,7 +16129,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             74 => 
             array (
@@ -16144,7 +16144,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             75 => 
             array (
@@ -16159,7 +16159,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             76 => 
             array (
@@ -16174,7 +16174,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             77 => 
             array (
@@ -16189,7 +16189,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             78 => 
             array (
@@ -16204,7 +16204,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             79 => 
             array (
@@ -16219,7 +16219,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             80 => 
             array (
@@ -16234,7 +16234,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             81 => 
             array (
@@ -16249,7 +16249,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             82 => 
             array (
@@ -16264,7 +16264,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             83 => 
             array (
@@ -16279,7 +16279,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             84 => 
             array (
@@ -16294,7 +16294,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             85 => 
             array (
@@ -16309,7 +16309,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             86 => 
             array (
@@ -16324,7 +16324,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             87 => 
             array (
@@ -16339,7 +16339,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             88 => 
             array (
@@ -16354,7 +16354,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             89 => 
             array (
@@ -16369,7 +16369,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             90 => 
             array (
@@ -16384,7 +16384,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             91 => 
             array (
@@ -16399,7 +16399,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             92 => 
             array (
@@ -16414,7 +16414,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             93 => 
             array (
@@ -16429,7 +16429,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             94 => 
             array (
@@ -16444,7 +16444,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             95 => 
             array (
@@ -16459,7 +16459,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             96 => 
             array (
@@ -16474,7 +16474,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             97 => 
             array (
@@ -16489,7 +16489,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             98 => 
             array (
@@ -16504,7 +16504,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             99 => 
             array (
@@ -16519,7 +16519,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             100 => 
             array (
@@ -16534,7 +16534,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             101 => 
             array (
@@ -16549,7 +16549,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             102 => 
             array (
@@ -16564,7 +16564,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             103 => 
             array (
@@ -16579,7 +16579,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             104 => 
             array (
@@ -16594,7 +16594,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             105 => 
             array (
@@ -16609,7 +16609,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             106 => 
             array (
@@ -16624,7 +16624,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             107 => 
             array (
@@ -16639,7 +16639,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             108 => 
             array (
@@ -16654,7 +16654,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             109 => 
             array (
@@ -16669,7 +16669,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             110 => 
             array (
@@ -16684,7 +16684,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             111 => 
             array (
@@ -16699,7 +16699,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             112 => 
             array (
@@ -16714,7 +16714,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             113 => 
             array (
@@ -16729,7 +16729,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             114 => 
             array (
@@ -16744,7 +16744,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             115 => 
             array (
@@ -16759,7 +16759,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             116 => 
             array (
@@ -16774,7 +16774,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             117 => 
             array (
@@ -16789,7 +16789,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             118 => 
             array (
@@ -16804,7 +16804,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             119 => 
             array (
@@ -16819,7 +16819,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             120 => 
             array (
@@ -16834,7 +16834,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             121 => 
             array (
@@ -16849,7 +16849,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             122 => 
             array (
@@ -16864,7 +16864,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             123 => 
             array (
@@ -16879,7 +16879,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             124 => 
             array (
@@ -16894,7 +16894,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             125 => 
             array (
@@ -16909,7 +16909,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             126 => 
             array (
@@ -16924,7 +16924,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             127 => 
             array (
@@ -16939,7 +16939,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             128 => 
             array (
@@ -16954,7 +16954,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             129 => 
             array (
@@ -16969,7 +16969,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             130 => 
             array (
@@ -16984,7 +16984,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             131 => 
             array (
@@ -16999,7 +16999,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             132 => 
             array (
@@ -17014,7 +17014,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             133 => 
             array (
@@ -17029,7 +17029,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             134 => 
             array (
@@ -17044,7 +17044,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             135 => 
             array (
@@ -17059,7 +17059,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             136 => 
             array (
@@ -17074,7 +17074,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             137 => 
             array (
@@ -17089,7 +17089,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             138 => 
             array (
@@ -17104,7 +17104,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             139 => 
             array (
@@ -17119,7 +17119,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             140 => 
             array (
@@ -17134,7 +17134,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             141 => 
             array (
@@ -17149,7 +17149,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             142 => 
             array (
@@ -17164,7 +17164,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             143 => 
             array (
@@ -17179,7 +17179,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             144 => 
             array (
@@ -17194,7 +17194,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             145 => 
             array (
@@ -17209,7 +17209,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             146 => 
             array (
@@ -17224,7 +17224,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             147 => 
             array (
@@ -17239,7 +17239,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             148 => 
             array (
@@ -17254,7 +17254,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             149 => 
             array (
@@ -17269,7 +17269,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             150 => 
             array (
@@ -17284,7 +17284,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             151 => 
             array (
@@ -17299,7 +17299,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             152 => 
             array (
@@ -17314,7 +17314,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             153 => 
             array (
@@ -17329,7 +17329,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             154 => 
             array (
@@ -17344,7 +17344,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             155 => 
             array (
@@ -17359,7 +17359,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             156 => 
             array (
@@ -17374,7 +17374,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             157 => 
             array (
@@ -17389,7 +17389,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             158 => 
             array (
@@ -17404,7 +17404,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             159 => 
             array (
@@ -17419,7 +17419,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             160 => 
             array (
@@ -17434,7 +17434,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             161 => 
             array (
@@ -17449,7 +17449,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             162 => 
             array (
@@ -17464,7 +17464,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             163 => 
             array (
@@ -17479,7 +17479,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             164 => 
             array (
@@ -17494,7 +17494,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             165 => 
             array (
@@ -17509,7 +17509,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             166 => 
             array (
@@ -17524,7 +17524,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             167 => 
             array (
@@ -17539,7 +17539,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             168 => 
             array (
@@ -17554,7 +17554,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             169 => 
             array (
@@ -17569,7 +17569,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             170 => 
             array (
@@ -17584,7 +17584,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             171 => 
             array (
@@ -17599,7 +17599,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             172 => 
             array (
@@ -17614,7 +17614,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             173 => 
             array (
@@ -17629,7 +17629,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             174 => 
             array (
@@ -17644,7 +17644,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             175 => 
             array (
@@ -17659,7 +17659,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             176 => 
             array (
@@ -17674,7 +17674,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             177 => 
             array (
@@ -17689,7 +17689,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             178 => 
             array (
@@ -17704,7 +17704,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             179 => 
             array (
@@ -17719,7 +17719,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             180 => 
             array (
@@ -17734,7 +17734,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             181 => 
             array (
@@ -17749,7 +17749,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             182 => 
             array (
@@ -17764,7 +17764,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             183 => 
             array (
@@ -17779,7 +17779,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             184 => 
             array (
@@ -17794,7 +17794,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             185 => 
             array (
@@ -17809,7 +17809,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             186 => 
             array (
@@ -17824,7 +17824,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             187 => 
             array (
@@ -17839,7 +17839,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             188 => 
             array (
@@ -17854,7 +17854,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             189 => 
             array (
@@ -17869,7 +17869,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             190 => 
             array (
@@ -17884,7 +17884,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             191 => 
             array (
@@ -17899,7 +17899,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             192 => 
             array (
@@ -17914,7 +17914,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             193 => 
             array (
@@ -17929,7 +17929,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             194 => 
             array (
@@ -17944,7 +17944,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             195 => 
             array (
@@ -17959,7 +17959,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             196 => 
             array (
@@ -17974,7 +17974,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             197 => 
             array (
@@ -17989,7 +17989,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             198 => 
             array (
@@ -18004,7 +18004,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             199 => 
             array (
@@ -18019,7 +18019,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             200 => 
             array (
@@ -18034,7 +18034,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             201 => 
             array (
@@ -18049,7 +18049,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             202 => 
             array (
@@ -18064,7 +18064,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             203 => 
             array (
@@ -18079,7 +18079,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             204 => 
             array (
@@ -18094,7 +18094,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             205 => 
             array (
@@ -18109,7 +18109,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             206 => 
             array (
@@ -18124,7 +18124,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             207 => 
             array (
@@ -18139,7 +18139,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             208 => 
             array (
@@ -18154,7 +18154,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             209 => 
             array (
@@ -18169,7 +18169,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             210 => 
             array (
@@ -18184,7 +18184,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             211 => 
             array (
@@ -18199,7 +18199,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             212 => 
             array (
@@ -18214,7 +18214,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             213 => 
             array (
@@ -18229,7 +18229,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             214 => 
             array (
@@ -18244,7 +18244,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             215 => 
             array (
@@ -18259,7 +18259,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             216 => 
             array (
@@ -18274,7 +18274,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             217 => 
             array (
@@ -18289,7 +18289,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             218 => 
             array (
@@ -18304,7 +18304,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             219 => 
             array (
@@ -18319,7 +18319,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             220 => 
             array (
@@ -18334,7 +18334,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             221 => 
             array (
@@ -18349,7 +18349,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             222 => 
             array (
@@ -18364,7 +18364,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             223 => 
             array (
@@ -18379,7 +18379,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             224 => 
             array (
@@ -18394,7 +18394,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             225 => 
             array (
@@ -18409,7 +18409,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             226 => 
             array (
@@ -18424,7 +18424,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             227 => 
             array (
@@ -18439,7 +18439,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             228 => 
             array (
@@ -18454,7 +18454,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             229 => 
             array (
@@ -18469,7 +18469,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             230 => 
             array (
@@ -18484,7 +18484,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             231 => 
             array (
@@ -18499,7 +18499,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             232 => 
             array (
@@ -18514,7 +18514,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             233 => 
             array (
@@ -18529,7 +18529,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             234 => 
             array (
@@ -18544,7 +18544,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             235 => 
             array (
@@ -18559,7 +18559,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             236 => 
             array (
@@ -18574,7 +18574,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             237 => 
             array (
@@ -18589,7 +18589,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             238 => 
             array (
@@ -18604,7 +18604,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             239 => 
             array (
@@ -18619,7 +18619,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             240 => 
             array (
@@ -18634,7 +18634,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             241 => 
             array (
@@ -18649,7 +18649,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             242 => 
             array (
@@ -18664,7 +18664,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             243 => 
             array (
@@ -18679,7 +18679,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             244 => 
             array (
@@ -18694,7 +18694,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             245 => 
             array (
@@ -18709,7 +18709,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             246 => 
             array (
@@ -18724,7 +18724,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             247 => 
             array (
@@ -18739,7 +18739,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             248 => 
             array (
@@ -18754,7 +18754,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             249 => 
             array (
@@ -18769,7 +18769,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             250 => 
             array (
@@ -18784,7 +18784,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             251 => 
             array (
@@ -18799,7 +18799,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             252 => 
             array (
@@ -18814,7 +18814,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             253 => 
             array (
@@ -18829,7 +18829,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             254 => 
             array (
@@ -18844,7 +18844,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             255 => 
             array (
@@ -18859,7 +18859,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             256 => 
             array (
@@ -18874,7 +18874,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             257 => 
             array (
@@ -18889,7 +18889,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             258 => 
             array (
@@ -18904,7 +18904,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             259 => 
             array (
@@ -18919,7 +18919,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             260 => 
             array (
@@ -18934,7 +18934,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             261 => 
             array (
@@ -18949,7 +18949,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             262 => 
             array (
@@ -18964,7 +18964,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             263 => 
             array (
@@ -18979,7 +18979,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             264 => 
             array (
@@ -18994,7 +18994,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             265 => 
             array (
@@ -19009,7 +19009,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             266 => 
             array (
@@ -19024,7 +19024,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             267 => 
             array (
@@ -19039,7 +19039,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             268 => 
             array (
@@ -19054,7 +19054,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             269 => 
             array (
@@ -19069,7 +19069,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             270 => 
             array (
@@ -19084,7 +19084,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             271 => 
             array (
@@ -19099,7 +19099,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             272 => 
             array (
@@ -19114,7 +19114,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             273 => 
             array (
@@ -19129,7 +19129,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             274 => 
             array (
@@ -19144,7 +19144,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             275 => 
             array (
@@ -19159,7 +19159,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             276 => 
             array (
@@ -19174,7 +19174,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             277 => 
             array (
@@ -19189,7 +19189,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             278 => 
             array (
@@ -19204,7 +19204,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             279 => 
             array (
@@ -19219,7 +19219,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             280 => 
             array (
@@ -19234,7 +19234,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             281 => 
             array (
@@ -19249,7 +19249,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             282 => 
             array (
@@ -19264,7 +19264,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             283 => 
             array (
@@ -19279,7 +19279,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             284 => 
             array (
@@ -19294,7 +19294,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             285 => 
             array (
@@ -19309,7 +19309,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             286 => 
             array (
@@ -19324,7 +19324,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             287 => 
             array (
@@ -19339,7 +19339,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             288 => 
             array (
@@ -19354,7 +19354,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             289 => 
             array (
@@ -19369,7 +19369,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             290 => 
             array (
@@ -19384,7 +19384,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             291 => 
             array (
@@ -19399,7 +19399,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             292 => 
             array (
@@ -19414,7 +19414,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             293 => 
             array (
@@ -19429,7 +19429,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             294 => 
             array (
@@ -19444,7 +19444,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             295 => 
             array (
@@ -19459,7 +19459,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             296 => 
             array (
@@ -19474,7 +19474,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             297 => 
             array (
@@ -19489,7 +19489,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             298 => 
             array (
@@ -19504,7 +19504,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             299 => 
             array (
@@ -19519,7 +19519,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             300 => 
             array (
@@ -19534,7 +19534,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             301 => 
             array (
@@ -19549,7 +19549,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             302 => 
             array (
@@ -19564,7 +19564,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             303 => 
             array (
@@ -19579,7 +19579,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             304 => 
             array (
@@ -19594,7 +19594,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             305 => 
             array (
@@ -19609,7 +19609,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             306 => 
             array (
@@ -19624,7 +19624,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             307 => 
             array (
@@ -19639,7 +19639,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             308 => 
             array (
@@ -19654,7 +19654,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             309 => 
             array (
@@ -19669,7 +19669,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             310 => 
             array (
@@ -19684,7 +19684,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             311 => 
             array (
@@ -19699,7 +19699,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             312 => 
             array (
@@ -19714,7 +19714,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             313 => 
             array (
@@ -19729,7 +19729,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             314 => 
             array (
@@ -19744,7 +19744,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             315 => 
             array (
@@ -19759,7 +19759,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             316 => 
             array (
@@ -19774,7 +19774,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             317 => 
             array (
@@ -19789,7 +19789,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             318 => 
             array (
@@ -19804,7 +19804,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             319 => 
             array (
@@ -19819,7 +19819,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             320 => 
             array (
@@ -19834,7 +19834,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             321 => 
             array (
@@ -19849,7 +19849,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             322 => 
             array (
@@ -19864,7 +19864,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             323 => 
             array (
@@ -19879,7 +19879,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             324 => 
             array (
@@ -19894,7 +19894,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             325 => 
             array (
@@ -19909,7 +19909,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             326 => 
             array (
@@ -19924,7 +19924,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             327 => 
             array (
@@ -19939,7 +19939,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             328 => 
             array (
@@ -19954,7 +19954,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             329 => 
             array (
@@ -19969,7 +19969,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             330 => 
             array (
@@ -19984,7 +19984,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             331 => 
             array (
@@ -19999,7 +19999,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             332 => 
             array (
@@ -20014,7 +20014,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             333 => 
             array (
@@ -20029,7 +20029,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             334 => 
             array (
@@ -20044,7 +20044,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             335 => 
             array (
@@ -20059,7 +20059,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             336 => 
             array (
@@ -20074,7 +20074,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             337 => 
             array (
@@ -20089,7 +20089,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             338 => 
             array (
@@ -20104,7 +20104,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             339 => 
             array (
@@ -20119,7 +20119,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             340 => 
             array (
@@ -20134,7 +20134,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             341 => 
             array (
@@ -20149,7 +20149,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             342 => 
             array (
@@ -20164,7 +20164,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             343 => 
             array (
@@ -20179,7 +20179,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             344 => 
             array (
@@ -20194,7 +20194,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             345 => 
             array (
@@ -20209,7 +20209,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             346 => 
             array (
@@ -20224,7 +20224,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             347 => 
             array (
@@ -20239,7 +20239,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             348 => 
             array (
@@ -20254,7 +20254,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             349 => 
             array (
@@ -20269,7 +20269,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             350 => 
             array (
@@ -20284,7 +20284,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             351 => 
             array (
@@ -20299,7 +20299,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             352 => 
             array (
@@ -20314,7 +20314,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             353 => 
             array (
@@ -20329,7 +20329,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             354 => 
             array (
@@ -20344,7 +20344,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             355 => 
             array (
@@ -20359,7 +20359,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             356 => 
             array (
@@ -20374,7 +20374,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             357 => 
             array (
@@ -20389,7 +20389,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             358 => 
             array (
@@ -20404,7 +20404,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             359 => 
             array (
@@ -20419,7 +20419,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             360 => 
             array (
@@ -20434,7 +20434,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             361 => 
             array (
@@ -20449,7 +20449,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             362 => 
             array (
@@ -20464,7 +20464,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             363 => 
             array (
@@ -20479,7 +20479,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             364 => 
             array (
@@ -20494,7 +20494,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             365 => 
             array (
@@ -20509,7 +20509,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             366 => 
             array (
@@ -20524,7 +20524,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             367 => 
             array (
@@ -20539,7 +20539,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             368 => 
             array (
@@ -20554,7 +20554,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             369 => 
             array (
@@ -20569,7 +20569,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             370 => 
             array (
@@ -20584,7 +20584,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             371 => 
             array (
@@ -20599,7 +20599,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             372 => 
             array (
@@ -20614,7 +20614,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             373 => 
             array (
@@ -20629,7 +20629,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             374 => 
             array (
@@ -20644,7 +20644,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             375 => 
             array (
@@ -20659,7 +20659,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             376 => 
             array (
@@ -20674,7 +20674,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             377 => 
             array (
@@ -20689,7 +20689,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             378 => 
             array (
@@ -20704,7 +20704,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             379 => 
             array (
@@ -20719,7 +20719,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             380 => 
             array (
@@ -20734,7 +20734,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             381 => 
             array (
@@ -20749,7 +20749,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             382 => 
             array (
@@ -20764,7 +20764,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             383 => 
             array (
@@ -20779,7 +20779,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             384 => 
             array (
@@ -20794,7 +20794,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             385 => 
             array (
@@ -20809,7 +20809,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             386 => 
             array (
@@ -20824,7 +20824,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             387 => 
             array (
@@ -20839,7 +20839,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             388 => 
             array (
@@ -20854,7 +20854,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             389 => 
             array (
@@ -20869,7 +20869,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             390 => 
             array (
@@ -20884,7 +20884,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             391 => 
             array (
@@ -20899,7 +20899,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             392 => 
             array (
@@ -20914,7 +20914,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             393 => 
             array (
@@ -20929,7 +20929,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             394 => 
             array (
@@ -20944,7 +20944,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             395 => 
             array (
@@ -20959,7 +20959,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             396 => 
             array (
@@ -20974,7 +20974,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             397 => 
             array (
@@ -20989,7 +20989,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             398 => 
             array (
@@ -21004,7 +21004,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             399 => 
             array (
@@ -21019,7 +21019,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             400 => 
             array (
@@ -21034,7 +21034,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             401 => 
             array (
@@ -21049,7 +21049,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             402 => 
             array (
@@ -21064,7 +21064,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             403 => 
             array (
@@ -21079,7 +21079,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             404 => 
             array (
@@ -21094,7 +21094,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             405 => 
             array (
@@ -21109,7 +21109,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             406 => 
             array (
@@ -21124,7 +21124,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             407 => 
             array (
@@ -21139,7 +21139,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             408 => 
             array (
@@ -21154,7 +21154,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             409 => 
             array (
@@ -21169,7 +21169,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             410 => 
             array (
@@ -21184,7 +21184,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             411 => 
             array (
@@ -21199,7 +21199,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             412 => 
             array (
@@ -21214,7 +21214,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             413 => 
             array (
@@ -21229,7 +21229,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             414 => 
             array (
@@ -21244,7 +21244,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             415 => 
             array (
@@ -21259,7 +21259,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             416 => 
             array (
@@ -21274,7 +21274,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             417 => 
             array (
@@ -21289,7 +21289,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             418 => 
             array (
@@ -21304,7 +21304,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             419 => 
             array (
@@ -21319,7 +21319,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             420 => 
             array (
@@ -21334,7 +21334,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             421 => 
             array (
@@ -21349,7 +21349,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             422 => 
             array (
@@ -21364,7 +21364,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             423 => 
             array (
@@ -21379,7 +21379,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             424 => 
             array (
@@ -21394,7 +21394,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             425 => 
             array (
@@ -21409,7 +21409,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             426 => 
             array (
@@ -21424,7 +21424,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             427 => 
             array (
@@ -21439,7 +21439,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             428 => 
             array (
@@ -21454,7 +21454,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             429 => 
             array (
@@ -21469,7 +21469,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             430 => 
             array (
@@ -21484,7 +21484,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             431 => 
             array (
@@ -21499,7 +21499,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             432 => 
             array (
@@ -21514,7 +21514,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             433 => 
             array (
@@ -21529,7 +21529,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             434 => 
             array (
@@ -21544,7 +21544,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             435 => 
             array (
@@ -21559,7 +21559,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             436 => 
             array (
@@ -21574,7 +21574,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             437 => 
             array (
@@ -21589,7 +21589,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             438 => 
             array (
@@ -21604,7 +21604,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             439 => 
             array (
@@ -21619,7 +21619,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             440 => 
             array (
@@ -21634,7 +21634,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             441 => 
             array (
@@ -21649,7 +21649,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             442 => 
             array (
@@ -21664,7 +21664,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             443 => 
             array (
@@ -21679,7 +21679,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             444 => 
             array (
@@ -21694,7 +21694,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             445 => 
             array (
@@ -21709,7 +21709,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             446 => 
             array (
@@ -21724,7 +21724,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             447 => 
             array (
@@ -21739,7 +21739,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             448 => 
             array (
@@ -21754,7 +21754,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             449 => 
             array (
@@ -21769,7 +21769,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             450 => 
             array (
@@ -21784,7 +21784,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             451 => 
             array (
@@ -21799,7 +21799,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             452 => 
             array (
@@ -21814,7 +21814,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             453 => 
             array (
@@ -21829,7 +21829,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             454 => 
             array (
@@ -21844,7 +21844,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             455 => 
             array (
@@ -21859,7 +21859,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             456 => 
             array (
@@ -21874,7 +21874,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             457 => 
             array (
@@ -21889,7 +21889,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             458 => 
             array (
@@ -21904,7 +21904,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             459 => 
             array (
@@ -21919,7 +21919,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             460 => 
             array (
@@ -21934,7 +21934,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             461 => 
             array (
@@ -21949,7 +21949,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             462 => 
             array (
@@ -21964,7 +21964,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             463 => 
             array (
@@ -21979,7 +21979,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             464 => 
             array (
@@ -21994,7 +21994,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             465 => 
             array (
@@ -22009,7 +22009,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             466 => 
             array (
@@ -22024,7 +22024,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             467 => 
             array (
@@ -22039,7 +22039,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             468 => 
             array (
@@ -22054,7 +22054,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             469 => 
             array (
@@ -22069,7 +22069,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             470 => 
             array (
@@ -22084,7 +22084,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             471 => 
             array (
@@ -22099,7 +22099,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             472 => 
             array (
@@ -22114,7 +22114,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             473 => 
             array (
@@ -22129,7 +22129,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             474 => 
             array (
@@ -22144,7 +22144,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             475 => 
             array (
@@ -22159,7 +22159,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             476 => 
             array (
@@ -22174,7 +22174,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             477 => 
             array (
@@ -22189,7 +22189,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             478 => 
             array (
@@ -22204,7 +22204,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             479 => 
             array (
@@ -22219,7 +22219,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             480 => 
             array (
@@ -22234,7 +22234,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             481 => 
             array (
@@ -22249,7 +22249,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             482 => 
             array (
@@ -22264,7 +22264,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             483 => 
             array (
@@ -22279,7 +22279,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             484 => 
             array (
@@ -22294,7 +22294,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             485 => 
             array (
@@ -22309,7 +22309,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             486 => 
             array (
@@ -22324,7 +22324,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             487 => 
             array (
@@ -22339,7 +22339,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             488 => 
             array (
@@ -22354,7 +22354,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             489 => 
             array (
@@ -22369,7 +22369,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             490 => 
             array (
@@ -22384,7 +22384,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             491 => 
             array (
@@ -22399,7 +22399,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             492 => 
             array (
@@ -22414,7 +22414,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             493 => 
             array (
@@ -22429,7 +22429,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             494 => 
             array (
@@ -22444,7 +22444,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             495 => 
             array (
@@ -22459,7 +22459,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             496 => 
             array (
@@ -22474,7 +22474,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             497 => 
             array (
@@ -22489,7 +22489,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             498 => 
             array (
@@ -22504,7 +22504,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             499 => 
             array (
@@ -22519,7 +22519,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
         ));
         \DB::table('das_keluarga')->insert(array (
@@ -22536,7 +22536,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             1 => 
             array (
@@ -22551,7 +22551,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             2 => 
             array (
@@ -22566,7 +22566,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             3 => 
             array (
@@ -22581,7 +22581,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             4 => 
             array (
@@ -22596,7 +22596,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             5 => 
             array (
@@ -22611,7 +22611,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             6 => 
             array (
@@ -22626,7 +22626,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             7 => 
             array (
@@ -22641,7 +22641,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             8 => 
             array (
@@ -22656,7 +22656,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             9 => 
             array (
@@ -22671,7 +22671,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             10 => 
             array (
@@ -22686,7 +22686,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             11 => 
             array (
@@ -22701,7 +22701,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             12 => 
             array (
@@ -22716,7 +22716,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             13 => 
             array (
@@ -22731,7 +22731,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             14 => 
             array (
@@ -22746,7 +22746,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             15 => 
             array (
@@ -22761,7 +22761,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             16 => 
             array (
@@ -22776,7 +22776,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             17 => 
             array (
@@ -22791,7 +22791,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             18 => 
             array (
@@ -22806,7 +22806,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             19 => 
             array (
@@ -22821,7 +22821,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             20 => 
             array (
@@ -22836,7 +22836,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             21 => 
             array (
@@ -22851,7 +22851,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             22 => 
             array (
@@ -22866,7 +22866,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             23 => 
             array (
@@ -22881,7 +22881,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             24 => 
             array (
@@ -22896,7 +22896,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             25 => 
             array (
@@ -22911,7 +22911,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             26 => 
             array (
@@ -22926,7 +22926,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             27 => 
             array (
@@ -22941,7 +22941,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             28 => 
             array (
@@ -22956,7 +22956,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             29 => 
             array (
@@ -22971,7 +22971,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             30 => 
             array (
@@ -22986,7 +22986,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             31 => 
             array (
@@ -23001,7 +23001,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             32 => 
             array (
@@ -23016,7 +23016,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             33 => 
             array (
@@ -23031,7 +23031,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             34 => 
             array (
@@ -23046,7 +23046,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             35 => 
             array (
@@ -23061,7 +23061,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             36 => 
             array (
@@ -23076,7 +23076,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             37 => 
             array (
@@ -23091,7 +23091,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             38 => 
             array (
@@ -23106,7 +23106,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             39 => 
             array (
@@ -23121,7 +23121,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             40 => 
             array (
@@ -23136,7 +23136,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             41 => 
             array (
@@ -23151,7 +23151,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             42 => 
             array (
@@ -23166,7 +23166,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             43 => 
             array (
@@ -23181,7 +23181,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             44 => 
             array (
@@ -23196,7 +23196,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             45 => 
             array (
@@ -23211,7 +23211,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             46 => 
             array (
@@ -23226,7 +23226,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             47 => 
             array (
@@ -23241,7 +23241,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             48 => 
             array (
@@ -23256,7 +23256,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             49 => 
             array (
@@ -23271,7 +23271,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             50 => 
             array (
@@ -23286,7 +23286,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             51 => 
             array (
@@ -23301,7 +23301,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             52 => 
             array (
@@ -23316,7 +23316,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             53 => 
             array (
@@ -23331,7 +23331,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             54 => 
             array (
@@ -23346,7 +23346,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             55 => 
             array (
@@ -23361,7 +23361,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             56 => 
             array (
@@ -23376,7 +23376,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             57 => 
             array (
@@ -23391,7 +23391,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             58 => 
             array (
@@ -23406,7 +23406,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             59 => 
             array (
@@ -23421,7 +23421,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             60 => 
             array (
@@ -23436,7 +23436,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             61 => 
             array (
@@ -23451,7 +23451,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             62 => 
             array (
@@ -23466,7 +23466,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             63 => 
             array (
@@ -23481,7 +23481,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             64 => 
             array (
@@ -23496,7 +23496,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             65 => 
             array (
@@ -23511,7 +23511,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             66 => 
             array (
@@ -23526,7 +23526,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             67 => 
             array (
@@ -23541,7 +23541,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             68 => 
             array (
@@ -23556,7 +23556,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             69 => 
             array (
@@ -23571,7 +23571,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             70 => 
             array (
@@ -23586,7 +23586,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             71 => 
             array (
@@ -23601,7 +23601,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             72 => 
             array (
@@ -23616,7 +23616,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             73 => 
             array (
@@ -23631,7 +23631,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             74 => 
             array (
@@ -23646,7 +23646,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             75 => 
             array (
@@ -23661,7 +23661,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             76 => 
             array (
@@ -23676,7 +23676,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             77 => 
             array (
@@ -23691,7 +23691,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             78 => 
             array (
@@ -23706,7 +23706,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             79 => 
             array (
@@ -23721,7 +23721,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             80 => 
             array (
@@ -23736,7 +23736,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             81 => 
             array (
@@ -23751,7 +23751,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             82 => 
             array (
@@ -23766,7 +23766,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             83 => 
             array (
@@ -23781,7 +23781,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             84 => 
             array (
@@ -23796,7 +23796,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             85 => 
             array (
@@ -23811,7 +23811,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             86 => 
             array (
@@ -23826,7 +23826,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             87 => 
             array (
@@ -23841,7 +23841,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             88 => 
             array (
@@ -23856,7 +23856,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             89 => 
             array (
@@ -23871,7 +23871,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             90 => 
             array (
@@ -23886,7 +23886,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             91 => 
             array (
@@ -23901,7 +23901,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             92 => 
             array (
@@ -23916,7 +23916,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             93 => 
             array (
@@ -23931,7 +23931,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             94 => 
             array (
@@ -23946,7 +23946,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             95 => 
             array (
@@ -23961,7 +23961,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             96 => 
             array (
@@ -23976,7 +23976,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             97 => 
             array (
@@ -23991,7 +23991,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             98 => 
             array (
@@ -24006,7 +24006,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             99 => 
             array (
@@ -24021,7 +24021,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             100 => 
             array (
@@ -24036,7 +24036,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             101 => 
             array (
@@ -24051,7 +24051,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             102 => 
             array (
@@ -24066,7 +24066,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             103 => 
             array (
@@ -24081,7 +24081,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             104 => 
             array (
@@ -24096,7 +24096,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             105 => 
             array (
@@ -24111,7 +24111,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             106 => 
             array (
@@ -24126,7 +24126,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             107 => 
             array (
@@ -24141,7 +24141,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             108 => 
             array (
@@ -24156,7 +24156,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             109 => 
             array (
@@ -24171,7 +24171,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             110 => 
             array (
@@ -24186,7 +24186,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             111 => 
             array (
@@ -24201,7 +24201,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             112 => 
             array (
@@ -24216,7 +24216,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             113 => 
             array (
@@ -24231,7 +24231,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             114 => 
             array (
@@ -24246,7 +24246,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             115 => 
             array (
@@ -24261,7 +24261,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             116 => 
             array (
@@ -24276,7 +24276,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             117 => 
             array (
@@ -24291,7 +24291,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             118 => 
             array (
@@ -24306,7 +24306,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             119 => 
             array (
@@ -24321,7 +24321,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             120 => 
             array (
@@ -24336,7 +24336,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             121 => 
             array (
@@ -24351,7 +24351,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             122 => 
             array (
@@ -24366,7 +24366,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             123 => 
             array (
@@ -24381,7 +24381,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             124 => 
             array (
@@ -24396,7 +24396,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             125 => 
             array (
@@ -24411,7 +24411,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             126 => 
             array (
@@ -24426,7 +24426,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             127 => 
             array (
@@ -24441,7 +24441,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             128 => 
             array (
@@ -24456,7 +24456,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             129 => 
             array (
@@ -24471,7 +24471,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             130 => 
             array (
@@ -24486,7 +24486,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             131 => 
             array (
@@ -24501,7 +24501,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             132 => 
             array (
@@ -24516,7 +24516,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             133 => 
             array (
@@ -24531,7 +24531,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             134 => 
             array (
@@ -24546,7 +24546,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             135 => 
             array (
@@ -24561,7 +24561,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             136 => 
             array (
@@ -24576,7 +24576,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             137 => 
             array (
@@ -24591,7 +24591,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             138 => 
             array (
@@ -24606,7 +24606,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             139 => 
             array (
@@ -24621,7 +24621,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             140 => 
             array (
@@ -24636,7 +24636,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             141 => 
             array (
@@ -24651,7 +24651,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             142 => 
             array (
@@ -24666,7 +24666,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             143 => 
             array (
@@ -24681,7 +24681,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             144 => 
             array (
@@ -24696,7 +24696,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             145 => 
             array (
@@ -24711,7 +24711,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             146 => 
             array (
@@ -24726,7 +24726,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             147 => 
             array (
@@ -24741,7 +24741,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             148 => 
             array (
@@ -24756,7 +24756,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             149 => 
             array (
@@ -24771,7 +24771,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             150 => 
             array (
@@ -24786,7 +24786,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             151 => 
             array (
@@ -24801,7 +24801,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             152 => 
             array (
@@ -24816,7 +24816,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             153 => 
             array (
@@ -24831,7 +24831,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             154 => 
             array (
@@ -24846,7 +24846,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             155 => 
             array (
@@ -24861,7 +24861,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             156 => 
             array (
@@ -24876,7 +24876,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             157 => 
             array (
@@ -24891,7 +24891,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             158 => 
             array (
@@ -24906,7 +24906,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             159 => 
             array (
@@ -24921,7 +24921,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             160 => 
             array (
@@ -24936,7 +24936,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             161 => 
             array (
@@ -24951,7 +24951,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             162 => 
             array (
@@ -24966,7 +24966,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             163 => 
             array (
@@ -24981,7 +24981,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             164 => 
             array (
@@ -24996,7 +24996,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             165 => 
             array (
@@ -25011,7 +25011,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             166 => 
             array (
@@ -25026,7 +25026,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             167 => 
             array (
@@ -25041,7 +25041,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             168 => 
             array (
@@ -25056,7 +25056,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             169 => 
             array (
@@ -25071,7 +25071,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             170 => 
             array (
@@ -25086,7 +25086,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             171 => 
             array (
@@ -25101,7 +25101,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             172 => 
             array (
@@ -25116,7 +25116,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             173 => 
             array (
@@ -25131,7 +25131,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             174 => 
             array (
@@ -25146,7 +25146,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             175 => 
             array (
@@ -25161,7 +25161,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             176 => 
             array (
@@ -25176,7 +25176,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             177 => 
             array (
@@ -25191,7 +25191,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             178 => 
             array (
@@ -25206,7 +25206,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             179 => 
             array (
@@ -25221,7 +25221,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             180 => 
             array (
@@ -25236,7 +25236,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             181 => 
             array (
@@ -25251,7 +25251,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             182 => 
             array (
@@ -25266,7 +25266,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             183 => 
             array (
@@ -25281,7 +25281,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             184 => 
             array (
@@ -25296,7 +25296,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             185 => 
             array (
@@ -25311,7 +25311,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             186 => 
             array (
@@ -25326,7 +25326,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             187 => 
             array (
@@ -25341,7 +25341,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             188 => 
             array (
@@ -25356,7 +25356,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             189 => 
             array (
@@ -25371,7 +25371,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             190 => 
             array (
@@ -25386,7 +25386,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             191 => 
             array (
@@ -25401,7 +25401,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             192 => 
             array (
@@ -25416,7 +25416,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             193 => 
             array (
@@ -25431,7 +25431,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             194 => 
             array (
@@ -25446,7 +25446,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             195 => 
             array (
@@ -25461,7 +25461,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             196 => 
             array (
@@ -25476,7 +25476,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             197 => 
             array (
@@ -25491,7 +25491,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             198 => 
             array (
@@ -25506,7 +25506,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             199 => 
             array (
@@ -25521,7 +25521,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             200 => 
             array (
@@ -25536,7 +25536,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             201 => 
             array (
@@ -25551,7 +25551,7 @@ class DasKeluargaTableSeeder extends Seeder
                 'provinsi_id' => '52',
                 'kabupaten_id' => '5271',
                 'kecamatan_id' => '5203090',
-                'desa_id' => NULL,
+                'desa_id' => '5203090012',
             ),
             202 => 
             array (

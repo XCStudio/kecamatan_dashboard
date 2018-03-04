@@ -4,7 +4,6 @@ namespace App\Http\Controllers\dashboard;
 
 use App\Models\Penduduk;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
 
 class dashboardController extends Controller
 {
@@ -19,38 +18,6 @@ class dashboardController extends Controller
         $data['page_description'] = 'Data Kesehatan';
 
         return view('dashboard.kesehatan')->with($data);
-    }
-
-    /**
-     * Menampilkan Data Pendidikan
-     **/
-    public function showPendidikan()
-    {
-        $data['page_title'] = 'Pendidikan';
-        $data['page_description'] = 'Data Pendidikan';
-        $data['years_list'] = years_list();
-
-        // Grafik Data Pendidikan
-        $data_pendidikan = array();
-        $pendidikan = DB::table('ref_pendidikan_kk')->orderBy('id')->get();
-
-        foreach (years_list() as $year) {
-            $item = array();
-            foreach ($pendidikan as $val) {
-                $jumlah = DB::table('das_penduduk')
-                    ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
-                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
-                    ->where('das_penduduk.pendidikan_kk_id', '=', $val->id)
-                    ->count();
-                $item[] = array('jenjang' => $val->nama, 'jumlah' => $jumlah);
-
-            }
-            $data_pendidikan[$year] = $item;
-        }
-        $data['data_pendidikan'] = $data_pendidikan;
-
-        return view('dashboard.pendidikan.pendidikan')->with($data);
     }
 
     /**
