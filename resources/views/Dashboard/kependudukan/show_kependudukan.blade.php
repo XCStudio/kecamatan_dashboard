@@ -156,6 +156,7 @@
     <!-- /.row -->
     <div class="row">
         <div class="col-md-8">
+
             <div class="box box-success">
                 <div class="box-header with-border">
                     <h3 class="box-title">Grafik Penduduk Per Tahun</h3>
@@ -243,35 +244,60 @@
         <!-- /.row -->
 
         <div class="col-md-12">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title" id="idtest">Jumlah Penduduk Berdasarkan Usia</h3>
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#usia" data-toggle="tab">Usia</a></li>
+                    <li><a href="#pendidikan" data-toggle="tab">Pendidikan</a></li>
+                    <li><a href="#gol-darah" data-toggle="tab">Golongan Darah</a></li>
+                    <li><a href="#perkawinan" data-toggle="tab">Perkawinan</a></li>
+                    <li><a href="#agama" data-toggle="tab">Agama</a></li>
+                    <li><a href="#kelamin" data-toggle="tab">Kelamin</a></li>
+                    <li><a href="#status-tinggal" data-toggle="tab">Status Tinggal</a></li>
+                </ul>
 
-                    <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
-                                    class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
-                                    class="fa fa-times"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- ./box-body -->
-                <div class="box-footer">
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-6">
-                            <div id="chart_usia"
-                                 style="width:100%; height: 500px; overflow: visible; text-align: left;">
-
+                <div class="tab-content">
+                    <div class="active tab-pane" id="usia">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="chart_usia"
+                                     style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- /.row -->
+
+                    <div class="tab-pane" id="pendidikan">
+                        <div id="chart_pendidikan"
+                             style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="gol-darah">
+                        <div id="chart_goldarah"
+                             style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="perkawinan">
+                        <div id="chart_kawin"
+                             style="width:100%; height: 200px; overflow: visible; text-align: left; padding: 10px;;">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="agama">
+                        <div id="chart_agama"
+                             style="width:100%; height: 300px; overflow: visible; text-align: left; padding: 10px;;">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="kelamin">
+                        <div id="chart_kelamin"
+                             style="width:100%; height: 150px; overflow: visible; text-align: left; padding: 10px;;">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="status-tinggal">
+                        status tinggal
+                    </div>
+
                 </div>
-                <!-- /.box-footer -->
+                <!-- /.nav-tabs-custom -->
             </div>
-            <!-- /.box -->
         </div>
         <!-- /.col -->
         <!-- /.row -->
@@ -291,7 +317,7 @@
         $('#list_desa').select2();
         $('#list_year').select2();
 
-        // Change div das_kependudukan when Kecamatan changed
+        // Change Dashboard when Kecamatan changed
         $('#list_kecamatan').on('select2:select', function (e) {
             var kid = e.params.data;
             $.ajax('{!! route('api.desa-by-kid') !!}', {
@@ -300,7 +326,7 @@
             }).done(function (data) {
                 var $el = $("#list_desa");
                 $('#list_desa option:gt(0)').remove(); // remove old options
-                $.each(data, function(key,value) {
+                $.each(data, function (key, value) {
                     $el.append($("<option></option>")
                             .attr("value", data[key].id).text(data[key].nama));
                 });
@@ -312,6 +338,7 @@
             change_das_kependudukan(kid.id, did, year);
         });
 
+        // Change Dashboard when Lsit Desa changed
         $('#list_desa').on('select2:select', function (e) {
             var kid = $('#list_kecamatan').val();
             var did = e.params.data;
@@ -320,6 +347,7 @@
             change_das_kependudukan(kid, did.id, year);
         });
 
+        // Change Dashboard when List Year changed
         $('#list_year').on('select2:select', function (e) {
             var kid = $('#list_kecamatan').val();
             var did = $('#list_desa').find(":selected").val();
@@ -328,6 +356,9 @@
         });
 
 
+        /*
+        Initial Dashboard
+         */
         var kid = $('#list_kecamatan').val();
         if (kid == null) {
             kid = $('#defaultProfil').val();
@@ -336,11 +367,15 @@
         var year = $('#list_year').find(":selected").text();
 
         change_das_kependudukan(kid, did, year);
-
+        /*
+        End Initial Dashboard
+         */
 
     });
 
     function change_das_kependudukan(kid, did, year) {
+
+        // Load ajax data penduduk
         $.ajax('{!! route('dashboard.show-kependudukan') !!}', {
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
@@ -362,12 +397,59 @@
             $('#data_nikah').html(data.aktanikah_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
             $('#nikah_persen').css('width', data.aktanikah_persen_terpenuhi + '%');
             $('#nikah_terpenuhi').html(data.aktanikah_persen_terpenuhi + '% Jiwa Terpenuhi');
+        });
 
-            create_chart_penduduk(data.data_pertumbuhan);
-            create_chart_usia(data.data_umur);
+        // Load Ajax Chart Pertumbuhan Penduduk
+        $.ajax('{!! route('dashboard.chart-kependudukan') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_penduduk(data);
+        });
+
+        // Load Ajax Chart Penduduk By Usia
+        $.ajax('{!! route('dashboard.chart-kependudukan-usia') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_usia(data);
+        });
+
+        // Load Ajax Chart Penduduk By Pendidikan
+        $.ajax('{!! route('dashboard.chart-kependudukan-pendidikan') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_pendidikan(data);
+        });
+
+        // Load Ajax Chart Penduduk By Golongan Darah
+        $.ajax('{!! route('dashboard.chart-kependudukan-goldarah') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_goldarah(data);
+        });
+
+        // Load Ajax Chart Penduduk By Status Kawin
+        $.ajax('{!! route('dashboard.chart-kependudukan-kawin') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_kawin(data);
+        });
+
+        // Load Ajax Chart Penduduk By Agama
+        $.ajax('{!! route('dashboard.chart-kependudukan-agama') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_agama(data);
+        });
+
+        // Load Ajax Chart Penduduk By Jenis Kelamin
+        $.ajax('{!! route('dashboard.chart-kependudukan-kelamin') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_kelamin(data);
         });
     }
 
+    // Create Chart Penduduk
     function create_chart_penduduk(data) {
         // Chart Pertumbuhan Penduduk
         var chart_penduduk = AmCharts.makeChart("chart_pertumbuhan_penduduk", {
@@ -416,16 +498,25 @@
         });
     }
 
+    // Create Chart Usia
     function create_chart_usia(data) {
         // Chart Perbandingan Usia
         var chart_usia = AmCharts.makeChart("chart_usia", {
             "theme": "light",
             "type": "serial",
-            "startDuration": 2,
+            "startDuration": 1,
+            "rotate": true,
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
                 "title": "Jumlah Penduduk"
+            }],
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Kelompok Usia",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
             }],
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
@@ -435,8 +526,8 @@
                 "type": "column",
                 "valueField": "value"
             }],
-            "depth3D": 20,
-            "angle": 30,
+            "depth3D": 5,
+            "angle": 10,
             "chartCursor": {
                 "categoryBalloonEnabled": false,
                 "cursorAlpha": 0,
@@ -453,6 +544,242 @@
 
         });
     }
+
+    // Create Chart Pendidikan
+    function create_chart_pendidikan(data) {
+        // Chart Perbandingan Pendidikan
+        var chart_pendidikan = AmCharts.makeChart("chart_pendidikan", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 1,
+            "rotate": true,
+            "dataProvider": data,
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penduduk"
+            }],
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Pendidikan",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+            "graphs": [{
+                "balloonText": "[[category]]: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "valueField": "total"
+            }],
+            "depth3D": 5,
+            "angle": 10,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "level",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            }
+
+        });
+    }
+
+    // Create Chart Golongan Darah
+    function create_chart_goldarah(data) {
+        // Chart Perbandingan Pendidikan
+        var chart_goldarah = AmCharts.makeChart("chart_goldarah", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 1,
+            "rotate": true,
+            "dataProvider": data,
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penduduk"
+            }],
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Golongan Darah",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+            "graphs": [{
+                "balloonText": "[[category]]: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "valueField": "total"
+            }],
+            "depth3D": 5,
+            "angle": 10,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "blod_type",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            }
+
+        });
+    }
+
+    //Create Chart Status Kawin
+    function create_chart_kawin(data){
+        // Chart Perbandingan Status Kawin
+        var chart_kawin = AmCharts.makeChart("chart_kawin", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 1,
+            "rotate": true,
+            "dataProvider": data,
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penduduk"
+            }],
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Status Perkawinan",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+            "graphs": [{
+                "balloonText": "[[category]]: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "valueField": "total"
+            }],
+            "depth3D": 5,
+            "angle": 10,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "status",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            }
+
+        });
+    }
+
+    //Create Chart Agama
+    function create_chart_agama(data){
+        // Chart Perbandingan Status Kawin
+        var chart_agama = AmCharts.makeChart("chart_agama", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 1,
+            "rotate": true,
+            "dataProvider": data,
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penduduk"
+            }],
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Agama",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+            "graphs": [{
+                "balloonText": "[[category]]: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "valueField": "total"
+            }],
+            "depth3D": 5,
+            "angle": 10,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "religion",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            }
+
+        });
+    }
+
+    //Create Chart Jenis Kelamin
+    function create_chart_kelamin(data){
+        // Chart Perbandingan Status Kawin
+        var chart_kelamin = AmCharts.makeChart("chart_kelamin", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 1,
+            "rotate": true,
+            "dataProvider": data,
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penduduk"
+            }],
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Jenis Kelamin",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+            "graphs": [{
+                "balloonText": "[[category]]: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "valueField": "total"
+            }],
+            "depth3D": 5,
+            "angle": 10,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "sex",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            }
+
+        });
+    }
+
 </script>
 
 @endpush

@@ -149,8 +149,18 @@ class DashboardKependudukanController extends Controller
             $data['aktanikah_persen_terpenuhi'] = number_format($aktanikah_persen_terpenuhi);
 
         }
+
+        return $data;
+    }
+
+    public function getChartPenduduk()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
         // Data Grafik Pertumbuhan
-        $data_pertumbuhan = array();
+        $data = array();
         foreach (array_sort(years_list()) as $yearls) {
             $query_result = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
@@ -161,14 +171,20 @@ class DashboardKependudukanController extends Controller
                 $query_result->where('das_keluarga.desa_id', '=', $did);
             }
             $result = $query_result->count();
-            $data_pertumbuhan[] = array('year' => $yearls, 'value' => $result);
+            $data[] = array('year' => $yearls, 'value' => $result);
         }
-        $data['data_pertumbuhan'] = $data_pertumbuhan;
+        return $data;
+    }
 
+    public function getChartPendudukUsia()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
 
         // Data Grafik Kategori Usia
         $categories = DB::table('ref_umur')->orderBy('ref_umur.dari')->where('status', '=', 1)->get();
-        $data_umur = array();
+        $data = array();
         foreach ($categories as $umur) {
             $query_total = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
@@ -180,10 +196,157 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_keluarga.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data_umur[] = array('umur' => $umur->nama, 'value' => $total, 'color' => '#' . random_color());
+            $data[] = array('umur' => $umur->nama, 'value' => $total, 'color' => '#' . random_color());
         }
 
-        $data['data_umur'] = $data_umur;
+        return $data;
+    }
+
+    public function getChartPendudukPendidikan()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Data Chart Penduduk By Pendidikan
+        $data = array();
+        $pendidikan = DB::table('ref_pendidikan_kk')->orderBy('id')->get();
+        foreach ($pendidikan as $val) {
+            $query_total = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.pendidikan_kk_id', '=', $val->id);
+            if ($did != 'ALL') {
+                $query_total->where('das_keluarga.desa_id', '=', $did);
+            }
+            $total = $query_total->count();
+            $data[] = array('level' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+
+        }
+
+        return $data;
+    }
+
+    public function getChartPendudukGolDarah()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Data Chart Penduduk By Golongan Darah
+        $data = array();
+        $golongan_darah = DB::table('ref_golongan_darah')->orderBy('id')->get();
+        foreach ($golongan_darah as $val) {
+            $query_total = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
+            if($val->id != 13){
+                $query_total->where('das_penduduk.golongan_darah_id', '=', $val->id);
+            }else{
+                $query_total->whereRaw('das_penduduk.golongan_darah_id = 0 or das_penduduk.golongan_darah_id = 13');
+            }
+
+            if ($did != 'ALL') {
+                $query_total->where('das_keluarga.desa_id', '=', $did);
+            }
+            $total = $query_total->count();
+            $data[] = array('blod_type' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+
+        }
+
+        return $data;
+    }
+
+    public function getChartPendudukKawin()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Data Chart Penduduk By Status Perkawinan
+        $data = array();
+        $status_kawin = DB::table('ref_kawin')->orderBy('id')->get();
+        foreach ($status_kawin as $val) {
+            $query_total = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.status_kawin', '=', $val->id);
+
+            if ($did != 'ALL') {
+                $query_total->where('das_keluarga.desa_id', '=', $did);
+            }
+            $total = $query_total->count();
+            $data[] = array('status' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+        }
+
+        return $data;
+    }
+
+    public function getChartPendudukAgama()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Data Chart Penduduk By Aama
+        $data = array();
+        $agama = DB::table('ref_agama')->orderBy('id')->get();
+        foreach ($agama as $val) {
+            $query_total = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.agama_id', '=', $val->id);
+
+            if ($did != 'ALL') {
+                $query_total->where('das_keluarga.desa_id', '=', $did);
+            }
+            $total = $query_total->count();
+            $data[] = array('religion' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+        }
+
+        return $data;
+    }
+
+    public function getChartPendudukKelamin()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Data Chart Penduduk By Jenis Kelamin
+        $data = array();
+        $agama = [
+            [
+                'id' => 1,
+                'nama' => 'LAKI-LAKI'
+            ],
+            [
+                'id' => 2,
+                'nama' => 'PEREMPUAN'
+            ]
+        ];
+        foreach ($agama as $val) {
+            $query_total = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.sex', '=', $val['id']);
+
+            if ($did != 'ALL') {
+                $query_total->where('das_keluarga.desa_id', '=', $did);
+            }
+            $total = $query_total->count();
+            $data[] = array('sex' => $val['nama'], 'total' => $total, 'color' => '#'.random_color());
+        }
+
         return $data;
     }
 }

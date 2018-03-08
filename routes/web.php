@@ -70,6 +70,13 @@ Route::namespace('Dashboard')->group(function () {
 
         Route::get('kependudukan', 'DashboardKependudukanController@showKependudukan')->name('dashboard.kependudukan');
         Route::get('show-kependudukan', 'DashboardKependudukanController@showKependudukanPartial')->name('dashboard.show-kependudukan');
+        Route::get('chart-kependudukan', 'DashboardKependudukanController@getChartPenduduk')->name('dashboard.chart-kependudukan');
+        Route::get('chart-kependudukan-usia', 'DashboardKependudukanController@getChartPendudukUsia')->name('dashboard.chart-kependudukan-usia');
+        Route::get('chart-kependudukan-pendidikan', 'DashboardKependudukanController@getChartPendudukPendidikan')->name('dashboard.chart-kependudukan-pendidikan');
+        Route::get('chart-kependudukan-goldarah', 'DashboardKependudukanController@getChartPendudukGolDarah')->name('dashboard.chart-kependudukan-goldarah');
+        Route::get('chart-kependudukan-kawin', 'DashboardKependudukanController@getChartPendudukKawin')->name('dashboard.chart-kependudukan-kawin');
+        Route::get('chart-kependudukan-agama', 'DashboardKependudukanController@getChartPendudukAgama')->name('dashboard.chart-kependudukan-agama');
+        Route::get('chart-kependudukan-kelamin', 'DashboardKependudukanController@getChartPendudukKelamin')->name('dashboard.chart-kependudukan-kelamin');
 
         Route::get('pendidikan', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
 
