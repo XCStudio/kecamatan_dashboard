@@ -191,6 +191,8 @@ Route::namespace('Data')->group(function () {
             Route::get('edit/{id}', ['as' => 'data.penduduk.edit', 'uses' => 'PendudukController@edit']);
             Route::put('update/{id}', ['as' => 'data.penduduk.update', 'uses' => 'PendudukController@update']);
             Route::delete('destroy/{id}', ['as' => 'data.penduduk.destroy', 'uses' => 'PendudukController@destroy']);
+            Route::get('import', ['as' => 'data.penduduk.import', 'uses' => 'PendudukController@import']);
+            Route::post('import-excel', ['as' => 'data.penduduk.import-excel', 'uses' => 'PendudukController@importExcel']);
         });
 
         //Routes Resource Keluarga
