@@ -236,7 +236,7 @@ class PendudukController extends Controller
 
             $path = Input::file('data_file')->getRealPath();
 
-            Excel::filter('chunk')->load($path)->chunk(250, function($results)
+            Excel::filter('chunk')->load($path)->chunk(1000, function($results)
             {
                 foreach($results as $row)
                 {
