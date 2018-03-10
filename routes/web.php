@@ -80,6 +80,8 @@ Route::namespace('Dashboard')->group(function () {
 
         Route::get('pendidikan', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
 
+        Route::get('chart-pendidikan-penduduk', 'DashboardPendidikanController@getChartPendidikanPenduduk')->name('dashboard.chart-pendidikan-penduduk');
+
 
         Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');
         Route::get('program-bantuan', 'DashboardController@showProgramBantuan')->name('dashboard.program-bantuan');

@@ -97,8 +97,6 @@ class PendudukController extends Controller
                 'pekerjaan_id' => 'required',
                 'status_kawin' => 'required',
                 'warga_negara_id' => 'required',
-                'akta_lahir' => 'required',
-                'tanggal_akhir_pasport' => 'required',
             ]);
 
             if ($request->hasFile('foto')) {
@@ -172,8 +170,6 @@ class PendudukController extends Controller
                 'pekerjaan_id' => 'required',
                 'status_kawin' => 'required',
                 'warga_negara_id' => 'required',
-                'akta_lahir' => 'required',
-                'tanggal_akhir_pasport' => 'required',
             ]);
 
             if ($request->file('foto') == "") {
