@@ -18,8 +18,8 @@
 Route::namespace('Auth')->group(function () {
     Route::get('login', ['as' => 'login', 'uses' => 'AuthController@index']);
     Route::post('login', ['as' => 'login', 'uses' => 'AuthController@loginProcess']);
-    Route::get('register', ['as' => 'register', 'uses' => 'AuthController@register']);
-    Route::post('register', ['as' => 'register', 'uses' => 'AuthController@registerProcess']);
+    //Route::get('register', ['as' => 'register', 'uses' => 'AuthController@register']);
+    //Route::post('register', ['as' => 'register', 'uses' => 'AuthController@registerProcess']);
 });
 
 Route::group(['middleware' => 'sentinel_access:admin'], function () {

@@ -105,9 +105,6 @@ desired effect
             </div>
         </form>
 
-        {{--<a class="btn btn-link" href="{{ route('password.request') }}">Forgot Your Password?</a><br>--}}
-        <a href="{{ route('register') }}" class="text-center">Register a new membership</a>
-
     </div>
     <!-- /.login-box-body -->
 </div>
