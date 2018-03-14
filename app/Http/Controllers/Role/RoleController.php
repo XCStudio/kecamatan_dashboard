@@ -164,7 +164,7 @@ class RoleController extends Controller
      */
     public function getData()
     {
-        return DataTables::of(Role::all())
+        return DataTables::of(Role::datatables())
         ->addColumn( 'action', function ( $role ) {
             $edit_url = route('setting.role.edit', $role->id );
             $delete_url = route('setting.role.destroy', $role->id);

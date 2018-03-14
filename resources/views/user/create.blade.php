@@ -20,6 +20,18 @@
 		<h3 class="box-title">Users</h3>
 	</div>
 	<div class="box-body">
+		@if (count($errors) > 0)
+			<div class="alert alert-danger">
+				<strong>Whoops!</strong> There were some problems with your input.<br><br>
+				<ul>
+					@foreach ($errors->all() as $error)
+						<li>{{ $error }}</li>
+					@endforeach
+				</ul>
+
+			</div>
+
+		@endif
 		{!! Form::open( [ 'route' => 'setting.user.store', 'method' => 'post', 'files' => true, 'id' => 'form-user', 'class' => 'form-horizontal form-label-left' ] ) !!}
 		@include( 'flash::message' )
 		@include('user.form')
