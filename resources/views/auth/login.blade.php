@@ -68,7 +68,8 @@ desired effect
         @include( 'flash::message' )
 
         <form method="POST" action="{{ route('login') }}">
-            {{ csrf_field() }}
+          {{ csrf_field() }}
+            
             <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required
                        autofocus placeholder="Email">
