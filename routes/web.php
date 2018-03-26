@@ -156,7 +156,7 @@ Route::namespace('Informasi')->group(function () {
  *
  */
 
-Route::group(['middleware' => 'check_role'], function () {
+Route::group(['middleware' => 'sentinel_access:admin'], function () {
     Route::namespace('Data')->group(function () {
         Route::group(['prefix' => 'data'], function () {
 
