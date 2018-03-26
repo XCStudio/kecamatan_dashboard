@@ -1,4 +1,4 @@
-@extends( 'backend.layouts.index' )
+@extends( 'layouts.dashboard_template' )
 
 @section('title') Update User @endsection
 
@@ -20,8 +20,20 @@
 		<h3 class="box-title">Users</h3>
 	</div>
 	<div class="box-body">
-		{!! Form::model($user, ['route'=>['admin.user.update', $user->id], 'method' => 'put', 'autocomplete'=>'off', 'id'=>'form-user',  'class' => 'form-horizontal form-label-left', 'files' => true,]) !!}
-			@include('backend.user.form')
+	 	@if (count($errors) > 0)
+		<div class="alert alert-danger">
+			<strong>Whoops!</strong> There were some problems with your input.<br><br>
+			<ul>
+				@foreach ($errors->all() as $error)
+				<li>{{ $error }}</li>
+				@endforeach
+			</ul>
+
+		</div>
+
+		@endif
+		{!! Form::model($user, ['route'=>['setting.user.update', $user->id], 'method' => 'put', 'autocomplete'=>'off', 'id'=>'form-user',  'class' => 'form-horizontal form-label-left', 'files' => true,]) !!}
+			@include('user.form')
 		{!! Form::close() !!}
 	</div>
 </div>

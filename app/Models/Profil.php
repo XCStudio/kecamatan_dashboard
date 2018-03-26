@@ -25,7 +25,9 @@ class Profil extends Model
         'kepsek_pemberdayaan_masyarakat',
         'kepsek_pelayanan_umum',
         'kepsek_trantib',
-        'file_struktur_organisasi'
+        'file_struktur_organisasi',
+        'visi',
+        'misi'
     ];
 
     public function kecamatan()
@@ -57,10 +59,5 @@ class Profil extends Model
     public function dataUmum()
     {
         return $this->hasOne(DataUmum::class, 'kecamatan_id', 'kecamatan_id');
-    }
-
-    public function visiMisi()
-    {
-        return $this->hasOne(VisiMisi::class, 'kecamatan_id', 'kecamatan_id');
     }
 }

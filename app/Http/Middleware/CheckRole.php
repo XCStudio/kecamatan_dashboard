@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Sentinel;
 
-class SentinelAuth
+class CheckRole
 {
     /**
      * Handle an incoming request.
@@ -16,12 +16,8 @@ class SentinelAuth
      */
     public function handle($request, Closure $next)
     {
-        if ( Sentinel::guest() ) {
-            if ( $request->ajax() || $request->wantsJson() ) {
-                return response( 'Unauthorized.', 401 );
-            }
-
-            return redirect()->route( 'login' );
+        if (! $request->user()->hasRole('data-entry')) {
+            return response( 'Unauthorized.', 401 );
         }
 
         return $next($request);

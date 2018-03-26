@@ -136,11 +136,8 @@ class ProfilController extends Controller
     {
 
         try {
-            $profil = Profil::where('id', $id)->first();
+            $profil = Profil::find($id);
             $profil->fill($request->all());
-            $visiMisi = VisiMisi::where('kecamatan_id',$profil->kecamatan_id)->first();
-
-            $visiMisi->fill($request->input('visiMisi'));
 
             if($request->file('file_struktur_organisasi') == "")
             {
@@ -163,7 +160,6 @@ class ProfilController extends Controller
             ]);
 
             $profil->update();
-            $visiMisi->update();
 
             return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Update Profil sukses!');
         } catch (Exception $e) {

@@ -44,7 +44,7 @@
 			$myrole = 0;
 		}
 		@endphp
-		@if($permission['slug'] != 'dashboard')
+		@if($permission['slug'] != 'admin')
 		<tr>
 			<td>
 				<ul>

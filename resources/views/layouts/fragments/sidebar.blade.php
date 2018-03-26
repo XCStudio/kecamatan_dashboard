@@ -57,12 +57,21 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
                     <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>
                     <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a></li>
-
-                    <li {{ (Request::is(['data/proses-ektp/*', 'data/proses-ektp/index', 'data/proses-ektp'])? 'class=active' : '') }}><a href="{{ route('data.proses-ektp.index') }}"><i class="fa fa-circle-o"></i>Proses e-KTP</a></li>
-                    <li {{ (Request::is(['data/proses-kk/*', 'data/proses-kk/index', 'data/proses-kk'])? 'class=active' : '') }}><a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>Proses Kartu Keluarga</a></li>
-                    <li {{ (Request::is(['data/proses-aktalahir/*', 'data/proses-aktalahir/index', 'data/proses-aktalahir'])? 'class=active' : '') }}><a href="{{ route('data.proses-aktalahir.index') }}"><i class="fa fa-circle-o"></i>Proses Akta Lahir</a></li>
-                    <li {{ (Request::is(['data/proses-domisili/*', 'data/proses-domisili/index', 'data/proses-domisili'])? 'class=active' : '') }}><a href="{{ route('data.proses-domisili.index') }}"><i class="fa fa-circle-o"></i>Proses Surat Domisili</a></li>
-
+                    
+                     <li class="treeview {{ (Request::is(['data/proses-ektp/*', 'data/proses-kk/*', 'data/proses-aktalahir/*','data/proses-domisili/*', 'data/proses-ektp', 'data/proses-kk', 'data/proses-aktalahir','data/proses-domisili'])? 'active' : '') }}">
+                      <a href="#"><i class="fa fa-circle-o"></i>Layanan Kecamatan
+                        <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                      </a>
+                      <ul class="treeview-menu">
+                        <li {{ (Request::is(['data/proses-ektp/*', 'data/proses-ektp/index', 'data/proses-ektp'])? 'class=active' : '') }}><a href="{{ route('data.proses-ektp.index') }}"><i class="fa fa-circle-o"></i>e-KTP</a></li>
+                        <li {{ (Request::is(['data/proses-kk/*', 'data/proses-kk/index', 'data/proses-kk'])? 'class=active' : '') }}><a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>Kartu Keluarga</a></li>
+                        <li {{ (Request::is(['data/proses-aktalahir/*', 'data/proses-aktalahir/index', 'data/proses-aktalahir'])? 'class=active' : '') }}><a href="{{ route('data.proses-aktalahir.index') }}"><i class="fa fa-circle-o"></i>Akta Lahir</a></li>
+                        <li {{ (Request::is(['data/proses-domisili/*', 'data/proses-domisili/index', 'data/proses-domisili'])? 'class=active' : '') }}><a href="{{ route('data.proses-domisili.index') }}"><i class="fa fa-circle-o"></i>Surat Domisili</a></li>
+                      </ul>
+                    </li>
+                    
                 </ul>
             </li>
             <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}">
