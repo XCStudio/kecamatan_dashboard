@@ -30,8 +30,8 @@ class CreateProfilsTable extends Migration
             $table->string('kepsek_pelayanan_umum', 150)->nullable(true);
             $table->string('kepsek_trantib', 150)->nullable(true);
             $table->string('file_struktur_organisasi', 255)->nullable(true);
-            $table->longText('visi');
-            $table->longText('misi');
+            $table->longText('visi')->nullable(true);
+            $table->longText('misi')->nullable(true);
             $table->timestamps();
         });
     }
