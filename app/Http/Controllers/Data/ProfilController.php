@@ -67,8 +67,6 @@ class ProfilController extends Controller
         // Save Request
         try {
             $profil = new Profil($request->input());
-            $visiMisi = new VisiMisi($request->input('visiMisi'));
-            $visiMisi->kecamatan_id = $request->input('kecamatan_id');
             $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
             $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
 
@@ -87,7 +85,7 @@ class ProfilController extends Controller
                 $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
             }
 
-            if($profil->save() && $visiMisi->save())
+            if($profil->save())
                 DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.']);
             return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
@@ -178,7 +176,6 @@ class ProfilController extends Controller
         try {
             $profil = Profil::findOrFail($id);
             $profil->dataUmum()->delete();
-            $profil->visiMisi()->delete();
             $profil->delete();
 
             return redirect()->route('data.profil.index')->with('success', 'Profil sukses dihapus!');

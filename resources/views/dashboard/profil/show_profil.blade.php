@@ -18,6 +18,7 @@
 
 <!-- Main content -->
 <section class="content container-fluid">
+    @if(isset($profil))
     <div class="box box-primary">
         <div class="box-header with-border">
             <div class="col-sm-12">
@@ -421,6 +422,21 @@
             <!-- /.row -->
         </div>
     </div>
+    @else
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        Data profil tidak ditemukan!
+                    </div>
+                    <div class="box-body">
+                        Silahkan hubungi Administrator untuk menambahkan data profil.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    @endif
 </section>
 <!-- /.content -->
 @endsection
