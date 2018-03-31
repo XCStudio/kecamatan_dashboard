@@ -31,6 +31,8 @@ class DatabaseSeeder extends Seeder
         $this->call(RefUmurTableSeeder::class);
         $this->call(DasProfilTableSeeder::class);
         $this->call(DasDataUmumTableSeeder::class);
+        $this->call(DasKeluargaTableSeeder::class);
+        $this->call(DasPendudukTableSeeder::class);
 
         /*
          * Data Seeder Kecamatan Aikmel

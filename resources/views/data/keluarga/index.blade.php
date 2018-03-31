@@ -20,7 +20,7 @@
     @include('partials.flash_message')
     <div class="nav-tabs-custom">
         <ul class="nav nav-tabs">
-            <li><a href="{{ route('data.keluarga.index') }}">Keluarga</a></li>
+            <li><a href="{{ route('data.penduduk.index') }}">Penduduk</a></li>
             <li class="active"><a href="{{ route('data.keluarga.index') }}" >Keluarga</a></li>
         </ul>
 
