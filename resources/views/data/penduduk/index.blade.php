@@ -71,18 +71,18 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#penduduk-table').DataTable({
-            processing: true,
-            serverSide: true,
+            processing: false,
+            serverSide: false,
             ajax: "{!! route( 'data.penduduk.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'nik', name: 'nik'},
                 {data: 'nama', name: 'nama'},
-                {data: 'keluarga.no_kk', name: 'no_kk'},
+                {data: 'no_kk', name: 'no_kk'},
                 {data: 'keluarga.alamat', name: 'alamat'},
-                {data: 'keluarga.cluster.dusun', name: 'dusun'},
-                {data: 'keluarga.cluster.rw', name: 'rw'},
-                {data: 'keluarga.cluster.rt', name: 'rt'},
+                {data: 'keluarga.dusun', name: 'dusun'},
+                {data: 'keluarga.rw', name: 'rw'},
+                {data: 'keluarga.rt', name: 'rt'},
                 {data: 'pendidikan_kk.nama', name: 'pendidikan_kk'},
                 {data: 'tanggal_lahir', name: 'tanggal_lahir'},
                 {data: 'pekerjaan.nama', name: 'pekerjaan'},
@@ -91,6 +91,7 @@
             order: [[0, 'desc']]
         });
     });
+    //$.fn.dataTable.ext.errMode = 'throw';
 </script>
 @include('forms.datatable-vertical')
 @include('forms.delete-modal')

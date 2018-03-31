@@ -16,9 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RefProvinsiTableSeeder::class);
         $this->call(RefKabupatenTableSeeder::class);
         $this->call(RefKecamatanTableSeeder::class);
-        $this->call(RefDesaTableSeeder::class);        
-        $this->call(DasProfilTableSeeder::class);
-		$this->call(DasDataUmumTableSeeder::class);
+        $this->call(RefDesaTableSeeder::class);
         $this->call(RefPekerjaanTableSeeder::class);
         $this->call(RefAgamaTableSeeder::class);
         $this->call(RefKawinTableSeeder::class);
@@ -30,9 +28,18 @@ class DatabaseSeeder extends Seeder
         $this->call(RefWarganegaraTableSeeder::class);
         $this->call(RefCacatTableSeeder::class);
         $this->call(RefSakitMenahunTableSeeder::class);
+        $this->call(RefUmurTableSeeder::class);
+        $this->call(DasProfilTableSeeder::class);
+        $this->call(DasDataUmumTableSeeder::class);
+
+        /*
+         * Data Seeder Kecamatan Aikmel
+         */
+        /*$this->call(DasProfilTableSeeder::class);
+        $this->call(DasDataUmumTableSeeder::class);
         $this->call(DasPendudukTableSeeder::class);
         $this->call(DasWilClusterdesaTableSeeder::class);
-        $this->call(DasKeluargaTableSeeder::class);
-        $this->call(RefUmurTableSeeder::class);
+        $this->call(DasKeluargaTableSeeder::class);*/
+
     }
 }

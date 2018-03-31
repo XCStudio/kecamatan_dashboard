@@ -18,7 +18,7 @@
 
 <!-- Main content -->
 <section class="content container-fluid">
-    @if(isset($profil))
+    @if(!empty($profil))
     <div class="box box-primary">
         <div class="box-header with-border">
             <div class="col-sm-12">

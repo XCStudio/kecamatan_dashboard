@@ -16,7 +16,7 @@ class CreatePendudukTable extends Migration
         Schema::create('das_penduduk', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nama', 100);
-            $table->decimal('nik', 16, 0);
+            $table->char('nik', 16)->unique();
             $table->integer('id_kk')->nullable(true);
             $table->tinyInteger('kk_level')->nullable(true);
             $table->integer('id_rtm')->nullable(true);
@@ -55,7 +55,12 @@ class CreatePendudukTable extends Migration
             $table->tinyInteger('cara_kb_id')->nullable(true);
             $table->string('telepon', 20)->nullable(true);
             $table->date('tanggal_akhir_pasport')->nullable(true);
+            $table->string('no_kk', 30)->nullable(true);
             $table->string('no_kk_sebelumnya', 30)->nullable(true);
+            $table->char('desa_id', 10)->nullable(true);
+            $table->char('kecamatan_id', 7)->nullable(true);
+            $table->char('kabupaten_id', 4)->nullable(true);
+            $table->char('provinsi_id', 2)->nullable(true);
             $table->timestamps();
         });
     }

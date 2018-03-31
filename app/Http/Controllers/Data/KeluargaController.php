@@ -6,6 +6,8 @@ use App\Models\Keluarga;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\DataTables;
+use Illuminate\Support\Facades\Input;
+use Excel;
 
 class KeluargaController extends Controller
 {
@@ -30,7 +32,7 @@ class KeluargaController extends Controller
 
     public function getKeluarga()
     {
-        return DataTables::of(Keluarga::with(['kepala_kk', 'cluster'])->select('*')->get())
+        return DataTables::of(Keluarga::select('*')->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.keluarga.edit', $row->id);
                 $delete_url = route('data.keluarga.destroy', $row->id);
@@ -106,5 +108,45 @@ class KeluargaController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function import()
+    {
+        $page_title = 'Import';
+        $page_description = 'Import Data Keluarga';
+
+        return view('data.keluarga.import', compact('page_title', 'page_description'));
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function importExcel()
+    {
+        ini_set('max_execution_time', 300);
+        if (Input::hasFile('data_file')) {
+
+            $path = Input::file('data_file')->getRealPath();
+
+
+            Excel::filter('chunk')->load($path)->chunk(1000, function ($results) {
+                foreach ($results as $row) {
+                    Keluarga::insert($row->toArray());
+                }
+            });
+
+            $data = Excel::load($path, function ($reader) {
+
+            })->get();
+
+            return redirect()->route('data.keluarga.import')->with('success', 'Data Keluarga berhasil diunggah!');
+        }
     }
 }

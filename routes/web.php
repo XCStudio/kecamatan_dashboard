@@ -208,6 +208,8 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::get('edit/{id}', ['as' => 'data.keluarga.edit', 'uses' => 'KeluargaController@edit']);
                 Route::put('update/{id}', ['as' => 'data.keluarga.update', 'uses' => 'KeluargaController@update']);
                 Route::delete('destroy/{id}', ['as' => 'data.keluarga.destroy', 'uses' => 'KeluargaController@destroy']);
+                Route::get('import', ['as' => 'data.keluarga.import', 'uses' => 'KeluargaController@import']);
+                Route::post('import-excel', ['as' => 'data.keluarga.import-excel', 'uses' => 'KeluargaController@importExcel']);
             });
 
 

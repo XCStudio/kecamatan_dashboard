@@ -136,6 +136,8 @@ class ProfilController extends Controller
         try {
             $profil = Profil::find($id);
             $profil->fill($request->all());
+            $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
+            $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
 
             if($request->file('file_struktur_organisasi') == "")
             {

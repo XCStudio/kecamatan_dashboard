@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Profil extends Model
 {
     // ID Kecamatan untuk default profil
-    public static $defaultProfil = '5203090';
 
     protected $table = 'das_profil';
     
@@ -58,6 +57,6 @@ class Profil extends Model
 
     public function dataUmum()
     {
-        return $this->hasOne(DataUmum::class, 'kecamatan_id', 'kecamatan_id');
+        return $this->hasOne(DataUmum::class, 'profil_id', 'id');
     }
 }

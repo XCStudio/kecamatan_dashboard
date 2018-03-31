@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers\Data;
 
-use Doctrine\DBAL\Driver\Mysqli\MysqliException;
 use Doctrine\DBAL\Query\QueryException;
 use DummyFullModelClass;
 use App\Models\Penduduk;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Excel;
 use Yajra\DataTables\DataTables;
@@ -232,10 +230,9 @@ class PendudukController extends Controller
 
             $path = Input::file('data_file')->getRealPath();
 
-            Excel::filter('chunk')->load($path)->chunk(1000, function($results)
-            {
-                foreach($results as $row)
-                {
+
+            Excel::filter('chunk')->load($path)->chunk(1000, function ($results) {
+                foreach ($results as $row) {
                     Penduduk::insert($row->toArray());
                 }
             });
@@ -244,71 +241,7 @@ class PendudukController extends Controller
 
             })->get();
 
-           /* if (!empty($data) && $data->count()) {
-
-                DB::table('das_penduduk')->insert($data[0][7]->toArray());
-                print_r($data[0][7]);
-
-                foreach ($data as $key => $value) {
-
-                    $insert[] = [
-                        'id' => $value['id'],
-                        'nama' => $value->nama,
-                        'nik' => $value->nik,
-                        'id_kk' => $value->id_kk,
-                        'kk_level' => $value->kk_level,
-                        'id_rtm' => $value->id_rtm,
-                        'rtm_level' => $value->rtm_level,
-                        'sex' => $value->sex,
-                        'tempat_lahir' => $value->tempat_lahir,
-                        'tanggal_lahir' => $value->tanggal_lahir,
-                        'agama_id' => $value->agama_id,
-                        'pendidikan_kk_id' => $value->pendidikan_kk_id,
-                        'pendidikan_id' => $value->pendidikan_id,
-                        'pendidikan_sedang_id' => $value->pendidikan_sedang_id,
-                        'pekerjaan_id' => $value->pekerjaan_id,
-                        'status_kawin' => $value->status_kawin,
-                        'warga_negara_id' => $value->warga_negara_id,
-                        'dokumen_pasport' => $value->dokumen_pasport,
-                        'dokumen_kitas' => $value->dokumen_kitas,
-                        'ayah_nik' => $value->ayah_nik,
-                        'ibu_nik' => $value->ibu_nik,
-                        'nama_ayah' => $value->nama_ayah,
-                        'nama_ibu' => $value->nama_ibu,
-                        'foto' => $value->foto,
-                        'golongan_darah_id' => $value->golongan_darah_id,
-                        'id_cluster' => $value->id_cluster,
-                        'status' => $value->status,
-                        'alamat_sebelumnya' => $value->alamat_sebelumnya,
-                        'alamat_sekarang' => $value->alamat_sekarang,
-                        'status_dasar' => $value->status_dasar,
-                        'hamil' => $value->hamil,
-                        'cacat_id' => $value->cacat_id,
-                        'sakit_menahun_id' => $value->sakit_menahun_id,
-                        'akta_lahir' => $value->akta_lahir,
-                        'akta_perkawinan' => $value->akta_perkawinan,
-                        'tanggal_perkawinan' => $value->tanggal_perkawinan,
-                        'akta_perceraian' => $value->akta_perceraian,
-                        'tanggal_perceraian' => $value->tanggal_perceraian,
-                        'cara_kb_id' => $value->cara_kb_id,
-                        'telepon' => $value->telepon,
-                        'tanggal_akhir_pasport' => $value->tanggal_akhir_pasport,
-                        'no_kk_sebelumnya' => $value->no_kk_sebelumnya,
-                    ];
-
-                }
-
-
-                if(!empty($insert)){
-
-                    DB::table('das_penduduk')->insert($insert);
-
-                    dd('Insert Record successfully.');
-
-                }
-
-            }*/
-
+            return redirect()->route('data.penduduk.import')->with('success', 'Data Penduduk berhasil diunggah!');
         }
     }
 }

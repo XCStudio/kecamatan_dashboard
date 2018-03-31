@@ -14,7 +14,8 @@ class DashboardProfilController extends Controller
 
     public function showProfile()
     {
-        $defaultProfil = Profil::$defaultProfil;
+        $defaultProfil = env('KD_DEFAULT_PROFIL','1');
+
         $profil = Profil::where(['kecamatan_id'=>$defaultProfil])->first();
 
         $page_title = 'Profile Kecamatan';

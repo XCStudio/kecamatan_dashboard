@@ -20,7 +20,7 @@
     @include('partials.flash_message')
     <div class="nav-tabs-custom">
         <ul class="nav nav-tabs">
-            <li><a href="{{ route('data.penduduk.index') }}">Penduduk</a></li>
+            <li><a href="{{ route('data.keluarga.index') }}">Keluarga</a></li>
             <li class="active"><a href="{{ route('data.keluarga.index') }}" >Keluarga</a></li>
         </ul>
 
@@ -30,8 +30,8 @@
                         <a href="{{ route('data.keluarga.create') }}">
                             <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Keluarga</button>
                         </a>
-                        <a href="{{ route('data.keluarga.index') }}">
-                            <button type="button" class="btn btn-warning btn-sm" title="Upload Data"><i class="fa fa-upload"></i> Unggah dari OpenSID</button>
+                        <a href="{{ route('data.keluarga.import') }}">
+                            <button type="button" class="btn btn-warning btn-sm" title="Upload Data"><i class="fa fa-upload"></i> Import</button>
                         </a>
                 </div>
             </div>
@@ -68,19 +68,19 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#keluarga-table').DataTable({
-            processing: true,
-            serverSide: true,
+            processing: false,
+            serverSide: false,
             ajax: "{!! route( 'data.keluarga.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'no_kk', name: 'no_kk'},
-                {data: 'kepala_kk.nama', name: 'nama'},
+                {data: 'nik_kepala', name: 'nama'},
                 {data: 'tgl_daftar', name: 'tgl_daftar'},
                 {data: 'kelas_sosial', name: 'kelas_sosial'},
                 {data: 'tgl_cetak_kk', name: 'tgl_cetak_kk'},
                 {data: 'alamat', name: 'alamat'},
-                {data: 'cluster.rw', name: 'rw'},
-                {data: 'cluster.rt', name: 'rt'},
+                {data: 'rw', name: 'rw'},
+                {data: 'rt', name: 'rt'},
             ],
             order: [[0, 'desc']]
         });

@@ -15,7 +15,7 @@ class DashboardKependudukanController extends Controller
     {
         $data['page_title'] = 'Kependudukan';
         $data['page_description'] = 'Statistik Kependudukan';
-        $defaultProfil = Profil::$defaultProfil;
+        $defaultProfil = env('KD_DEFAULT_PROFIL','1');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
@@ -30,7 +30,7 @@ class DashboardKependudukanController extends Controller
     {
         $data['page_title'] = 'Kependudukan';
         $data['page_description'] = 'Statistik Kependudukan';
-        $defaultProfil = Profil::$defaultProfil;
+        $defaultProfil = env('DAS_DEFAULT_PROFIL', '1');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
 
@@ -48,46 +48,46 @@ class DashboardKependudukanController extends Controller
 
         // Get Total Penduduk
         $query_total_penduduk = DB::table('das_penduduk')
-            ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-            ->where('das_keluarga.kecamatan_id', '=', $kid)
+            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            ->where('das_penduduk.kecamatan_id', '=', $kid)
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
-            $query_total_penduduk->where('das_keluarga.desa_id', '=', $did);
+            $query_total_penduduk->where('das_penduduk.desa_id', '=', $did);
         }
         $total_penduduk = $query_total_penduduk->count();
         $data['total_penduduk'] = number_format($total_penduduk);
 
         // Get Total Lakilaki
         $query_total_lakilaki = DB::table('das_penduduk')
-            ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-            ->where('das_keluarga.kecamatan_id', '=', $kid)
+            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            ->where('das_penduduk.kecamatan_id', '=', $kid)
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
-            $query_total_lakilaki->where('das_keluarga.desa_id', '=', $did);
+            $query_total_lakilaki->where('das_penduduk.desa_id', '=', $did);
         }
         $total_lakilaki = $query_total_lakilaki->where('sex', '=', 1)->count();
         $data['total_lakilaki'] = number_format($total_lakilaki);
 
         // Get Total Perempuan
         $query_total_perempuan = DB::table('das_penduduk')
-            ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-            ->where('das_keluarga.kecamatan_id', '=', $kid)
+            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            ->where('das_penduduk.kecamatan_id', '=', $kid)
             ->where('sex', '=', 2)
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
-            $query_total_perempuan->where('das_keluarga.desa_id', '=', $did);
+            $query_total_perempuan->where('das_penduduk.desa_id', '=', $did);
         }
         $total_perempuan = $query_total_perempuan->count();
         $data['total_perempuan'] = number_format($total_perempuan);
 
         // Get Total Disabilitas
         $query_total_disabilitas = DB::table('das_penduduk')
-            ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-            ->where('das_keluarga.kecamatan_id', '=', $kid)
+            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            ->where('das_penduduk.kecamatan_id', '=', $kid)
             ->where('cacat_id', '<>', null)
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
-            $query_total_disabilitas->where('das_keluarga.desa_id', '=', $did);
+            $query_total_disabilitas->where('das_penduduk.desa_id', '=', $did);
         }
         $total_disabilitas = $query_total_disabilitas->count();
         $data['total_disabilitas'] = number_format($total_disabilitas);
@@ -106,12 +106,12 @@ class DashboardKependudukanController extends Controller
         } else {
             // Get Data KTP Penduduk Terpenuhi
             $query_ktp_terpenuhi = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 17)
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
             if ($did != 'ALL') {
-                $query_ktp_terpenuhi->where('das_keluarga.desa_id', '=', $did);
+                $query_ktp_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $ktp_terpenuhi = $query_ktp_terpenuhi->count();
             $ktp_persen_terpenuhi = $ktp_terpenuhi / $total_penduduk * 100;
@@ -120,13 +120,13 @@ class DashboardKependudukanController extends Controller
 
             // Get Data Akta Penduduk Terpenuhi
             $query_akta_terpenuhi = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->where('das_penduduk.akta_lahir', '<>', null)
                 ->where('das_penduduk.akta_lahir', '<>', ' ')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
             if ($did != 'ALL') {
-                $query_akta_terpenuhi->where('das_keluarga.desa_id', '=', $did);
+                $query_akta_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $akta_terpenuhi = $query_akta_terpenuhi->count();
             $akta_persen_terpenuhi = $akta_terpenuhi / $total_penduduk * 100;
@@ -135,13 +135,13 @@ class DashboardKependudukanController extends Controller
 
             // Get Data Akta Nikah Penduduk Terpenuhi
             $query_aktanikah_terpenuhi = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->where('das_penduduk.akta_perkawinan', '<>', null)
                 ->where('das_penduduk.akta_perkawinan', '<>', ' ')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
             if ($did != 'ALL') {
-                $query_aktanikah_terpenuhi->where('das_keluarga.desa_id', '=', $did);
+                $query_aktanikah_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $aktanikah_terpenuhi = $query_aktanikah_terpenuhi->count();
             $aktanikah_persen_terpenuhi = $aktanikah_terpenuhi / $total_penduduk * 100;
@@ -163,12 +163,12 @@ class DashboardKependudukanController extends Controller
         $data = array();
         foreach (array_sort(years_list()) as $yearls) {
             $query_result = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->select('das_keluarga.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar) = ?', $yearls);
             if ($did != 'ALL') {
-                $query_result->where('das_keluarga.desa_id', '=', $did);
+                $query_result->where('das_penduduk.desa_id', '=', $did);
             }
             $result = $query_result->count();
             $data[] = array('year' => $yearls, 'value' => $result);
@@ -187,13 +187,13 @@ class DashboardKependudukanController extends Controller
         $data = array();
         foreach ($categories as $umur) {
             $query_total = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar) = ?', $year)
                 ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', $umur->dari)
                 ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', $umur->sampai);
             if ($did != 'ALL') {
-                $query_total->where('das_keluarga.desa_id', '=', $did);
+                $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
             $data[] = array('umur' => $umur->nama, 'value' => $total, 'color' => '#' . random_color());
@@ -213,13 +213,13 @@ class DashboardKependudukanController extends Controller
         $pendidikan = DB::table('ref_pendidikan_kk')->orderBy('id')->get();
         foreach ($pendidikan as $val) {
             $query_total = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
                 ->where('das_penduduk.pendidikan_kk_id', '=', $val->id);
             if ($did != 'ALL') {
-                $query_total->where('das_keluarga.desa_id', '=', $did);
+                $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
             $data[] = array('level' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
@@ -240,9 +240,9 @@ class DashboardKependudukanController extends Controller
         $golongan_darah = DB::table('ref_golongan_darah')->orderBy('id')->get();
         foreach ($golongan_darah as $val) {
             $query_total = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
             if($val->id != 13){
                 $query_total->where('das_penduduk.golongan_darah_id', '=', $val->id);
@@ -251,7 +251,7 @@ class DashboardKependudukanController extends Controller
             }
 
             if ($did != 'ALL') {
-                $query_total->where('das_keluarga.desa_id', '=', $did);
+                $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
             $data[] = array('blod_type' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
@@ -272,14 +272,14 @@ class DashboardKependudukanController extends Controller
         $status_kawin = DB::table('ref_kawin')->orderBy('id')->get();
         foreach ($status_kawin as $val) {
             $query_total = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
                 ->where('das_penduduk.status_kawin', '=', $val->id);
 
             if ($did != 'ALL') {
-                $query_total->where('das_keluarga.desa_id', '=', $did);
+                $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
             $data[] = array('status' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
@@ -299,14 +299,14 @@ class DashboardKependudukanController extends Controller
         $agama = DB::table('ref_agama')->orderBy('id')->get();
         foreach ($agama as $val) {
             $query_total = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
                 ->where('das_penduduk.agama_id', '=', $val->id);
 
             if ($did != 'ALL') {
-                $query_total->where('das_keluarga.desa_id', '=', $did);
+                $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
             $data[] = array('religion' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
@@ -335,13 +335,13 @@ class DashboardKependudukanController extends Controller
         ];
         foreach ($agama as $val) {
             $query_total = DB::table('das_penduduk')
-                ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
-                ->where('das_keluarga.kecamatan_id', '=', $kid)
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
                 ->where('das_penduduk.sex', '=', $val['id']);
 
             if ($did != 'ALL') {
-                $query_total->where('das_keluarga.desa_id', '=', $did);
+                $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
             $data[] = array('sex' => $val['nama'], 'total' => $total, 'color' => '#'.random_color());

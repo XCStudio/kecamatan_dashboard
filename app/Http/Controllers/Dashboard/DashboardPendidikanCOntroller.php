@@ -16,7 +16,7 @@ class DashboardPendidikanController extends Controller
     {
         $data['page_title'] = 'Pendidikan';
         $data['page_description'] = 'Data Tingkat Pendidikan Kecamatan';
-        $defaultProfil = Profil::$defaultProfil;
+        $defaultProfil = env('DAS_DEFAULT_PROIFL', '1');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
@@ -40,13 +40,13 @@ class DashboardPendidikanController extends Controller
             $item = array();
             foreach ($pendidikan as $val) {
                 $query_total = DB::table('das_penduduk')
-                    ->join('das_keluarga', 'das_penduduk.id_kk', '=', 'das_keluarga.id')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                     ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
-                    ->where('das_keluarga.kecamatan_id', '=', $kid)
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
                     ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
                     ->where('das_penduduk.pendidikan_kk_id', '=', $val->id);
                 if ($did != 'ALL') {
-                    $query_total->where('das_keluarga.desa_id', '=', $did);
+                    $query_total->where('das_penduduk.desa_id', '=', $did);
                 }
                 $total = $query_total->count();
                 $item[] = array('level' => $val->nama, 'total' => $total);

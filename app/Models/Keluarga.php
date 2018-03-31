@@ -20,6 +20,6 @@ class Keluarga extends Model
 
     public function kepala_kk()
     {
-        return $this->hasOne(Penduduk::class, 'id', 'nik_kepala');
+        return $this->hasOne(Penduduk::class, 'nik_kepala', 'nik');
     }
 }
