@@ -84,7 +84,7 @@ class DashboardKependudukanController extends Controller
         $query_total_disabilitas = DB::table('das_penduduk')
             ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
             ->where('das_penduduk.kecamatan_id', '=', $kid)
-            ->where('cacat_id', '<>', null)
+            ->whereRaw('cacat_id IS NOT NULL or cacat_id <> 7')
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
             $query_total_disabilitas->where('das_penduduk.desa_id', '=', $did);
