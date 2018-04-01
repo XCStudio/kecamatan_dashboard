@@ -252,7 +252,7 @@
                     <li><a href="#perkawinan" data-toggle="tab">Perkawinan</a></li>
                     <li><a href="#agama" data-toggle="tab">Agama</a></li>
                     <li><a href="#kelamin" data-toggle="tab">Kelamin</a></li>
-                    <li><a href="#status-tinggal" data-toggle="tab">Status Tinggal</a></li>
+                    {{--<li><a href="#status-tinggal" data-toggle="tab">Status Tinggal</a></li>--}}
                 </ul>
 
                 <div class="tab-content">
@@ -291,9 +291,9 @@
                              style="width:100%; height: 150px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
-                    <div class="tab-pane" id="status-tinggal">
+                    {{--<div class="tab-pane" id="status-tinggal">
                         status tinggal
-                    </div>
+                    </div>--}}
 
                 </div>
                 <!-- /.nav-tabs-custom -->
