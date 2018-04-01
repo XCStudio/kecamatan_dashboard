@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\URL;
                 </a>
                 <ul class="treeview-menu">
                     <li {{ (Request::is(['/','dashboard/', 'dashboard/profil'])? 'class=active' : '') }}><a href="{{ route('dashboard.profil') }}"><i class="fa fa-circle-o"></i>Profile</a></li>
-                    <li {{ (Request::is(['dashboard/kependudukan'])? 'class=active' : '') }}><a href="{{ route('dashboard.kependudukan') }}"><i class="fa fa-circle-o"></i>Kependudukan</a></li>
+                    <li {{ (Request::is(['dashboard/kependudukan', 'dashboard/kependudukan/*'])? 'class=active' : '') }}><a href="{{ route('dashboard.kependudukan') }}"><i class="fa fa-circle-o"></i>Kependudukan</a></li>
                     <li {{ (Request::is(['dashboard/kesehatan'])? 'class=active' : '') }}><a href="{{ route('dashboard.kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
                     <li {{ (Request::is(['dashboard/pendidikan'])? 'class=active' : '') }}><a href="{{ route('dashboard.pendidikan') }}"><i class="fa fa-circle-o"></i>Pendidikan</a></li>
                     <li {{ (Request::is(['dashboard/program-bantuan'])? 'class=active' : '') }}><a href="{{ route('dashboard.program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>

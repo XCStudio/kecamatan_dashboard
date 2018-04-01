@@ -86,7 +86,7 @@
                     <span class="info-box-text">Penduduk</span>
                     <span class="info-box-number" id="total_penduduk">{!! $total_penduduk !!}</span>
                     <a id="hrefpenduduk" class="small-box-footer"
-                       href="data.php?cat=allpenduduk&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info <i
+                       href="#" onclick="goto_detail('C')">Detail Info <i
                                 class="fa fa-arrow-circle-right"></i></a>
                 </div>
                 <!-- /.info-box-content -->
@@ -102,7 +102,7 @@
                     <span class="info-box-text">Laki-Laki</span>
                     <span class="info-box-number" id="total_lakilaki">{!! $total_lakilaki !!}</span>
                     <a id="hrefpenduduklakilaki" class="small-box-footer"
-                       href="data.php?cat=allpenduduklaki&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info
+                       href="#" onclick="goto_detail('L')">Detail Info
                         <i
                                 class="fa fa-arrow-circle-right"></i></a>
                 </div>
@@ -119,7 +119,7 @@
                     <span class="info-box-text">Perempuan</span>
                     <span class="info-box-number" id="total_perempuan">{!! $total_perempuan !!}</span>
                     <a id="hrefpendudukperempuan" class="small-box-footer"
-                       href="data.php?cat=allpendudukperempuan&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail
+                       href="#" onclick="goto_detail('P')">Detail
                         Info
                         <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
@@ -137,7 +137,7 @@
                     <span class="info-box-text">Disabilitas</span>
                     <span class="info-box-number" id="total_disabilitas">{!! $total_disabilitas !!}</span>
                     <a id="hrefpendudukcacat" class="small-box-footer"
-                       href="data.php?cat=allpendudukcacat&amp;kec=5203090&amp;desa=ALL&amp;tahun=2017">Detail Info
+                       href="#" onclick="goto_detail('D')">Detail Info
                         <i
                                 class="fa fa-arrow-circle-right"></i></a>
                 </div>
@@ -778,6 +778,18 @@
             }
 
         });
+    }
+
+    // REdirect to detail data
+    function goto_detail(type)
+    {
+        var kid = $('#list_kecamatan').val();
+        if (kid == null) {
+            kid = $('#defaultProfil').val();
+        }
+        var did = $('#list_desa').find(":selected").val();
+        var year = $('#list_year').find(":selected").text();
+        location.href = '{!! route('dashboard.detail-penduduk') !!}' + '?t='+type+'&kid='+kid+'&did='+did+'&year='+year;
     }
 
 </script>

@@ -3,8 +3,12 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
+use App\Models\Desa;
+use App\Models\Kecamatan;
+use App\Models\Penduduk;
 use App\Models\Profil;
 use Illuminate\Support\Facades\DB;
+use Yajra\DataTables\DataTables;
 
 class DashboardKependudukanController extends Controller
 {
@@ -84,7 +88,7 @@ class DashboardKependudukanController extends Controller
         $query_total_disabilitas = DB::table('das_penduduk')
             ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
             ->where('das_penduduk.kecamatan_id', '=', $kid)
-            ->whereRaw('cacat_id IS NOT NULL or cacat_id <> 7')
+            ->where('cacat_id', '<>', 7)
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
             $query_total_disabilitas->where('das_penduduk.desa_id', '=', $did);
@@ -348,5 +352,75 @@ class DashboardKependudukanController extends Controller
         }
 
         return $data;
+    }
+
+
+    // Detail Kependudukan
+    public function detailPenduduk()
+    {
+        $type = request('t');
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('year');
+        $page_title = 'Penduduk';
+        if($did=='ALL'){
+            $page_description = 'Data Penduduk Kecamatan '.Kecamatan::find($kid)->nama.' Tahun '.$year;
+        }else{
+            $page_description = 'Data Penduduk Kecamatan '.Kecamatan::find($kid)->nama.' Desa '.Desa::find($did)->nama.' Tahun '.$year;
+        }
+
+
+        return view('dashboard.kependudukan.detail_penduduk', compact('type', 'kid', 'did', 'year', 'page_title', 'page_description'));
+    }
+
+    public function getDataPenduduk()
+    {
+        $type = request('t');
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('year');
+
+        $query = DB::table('das_penduduk')
+            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            ->join('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+            ->join('ref_kawin', 'das_penduduk.status_kawin', '=', 'ref_kawin.id')
+            ->join('ref_pekerjaan', 'das_penduduk.pekerjaan_id', '=', 'ref_pekerjaan.id')
+            ->selectRaw('das_penduduk.id, das_penduduk.nik, das_penduduk.nama, das_penduduk.no_kk, das_keluarga.alamat, das_keluarga.dusun, das_keluarga.rw, das_keluarga.rt, ref_pendidikan_kk.nama as pendidikan, das_penduduk.tanggal_lahir, ref_kawin.nama as status_kawin, ref_pekerjaan.nama as pekerjaan');
+        if($type=='C'){
+            $query->where('das_penduduk.kecamatan_id','=',$kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
+            if($did != 'ALL'){
+                $query->where('das_penduduk.desa_id','=',$did);
+            }
+        }
+        if($type=='L'){
+            $query->where('das_penduduk.kecamatan_id','=',$kid)
+                ->where('das_penduduk.sex', '=', 1)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
+            if($did != 'ALL'){
+                $query->where('das_penduduk.desa_id','=',$did);
+            }
+        }
+        if($type=='P'){
+            $query->where('das_penduduk.kecamatan_id','=',$kid)
+                ->where('das_penduduk.sex', '=', 2)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
+            if($did != 'ALL'){
+                $query->where('das_penduduk.desa_id','=',$did);
+            }
+        }
+        if($type=='D'){
+            $query->where('das_penduduk.kecamatan_id','=',$kid)
+                ->where('das_penduduk.cacat_id', '<>', 7)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
+            if($did != 'ALL'){
+                $query->where('das_penduduk.desa_id','=',$did);
+            }
+        }
+
+        return DataTables::of($query->get())
+            ->addColumn('tanggal_lahir', function ($row) {
+                return convert_born_date_to_age($row->tanggal_lahir);
+            })->make();
     }
 }

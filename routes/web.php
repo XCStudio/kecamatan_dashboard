@@ -77,6 +77,8 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('chart-kependudukan-kawin', 'DashboardKependudukanController@getChartPendudukKawin')->name('dashboard.chart-kependudukan-kawin');
         Route::get('chart-kependudukan-agama', 'DashboardKependudukanController@getChartPendudukAgama')->name('dashboard.chart-kependudukan-agama');
         Route::get('chart-kependudukan-kelamin', 'DashboardKependudukanController@getChartPendudukKelamin')->name('dashboard.chart-kependudukan-kelamin');
+        Route::get('detail-penduduk', 'DashboardKependudukanController@detailPenduduk')->name('dashboard.detail-penduduk');
+        Route::get('data-penduduk', 'DashboardKependudukanController@getDataPenduduk')->name('dashboard.data-penduduk');
 
         Route::get('pendidikan', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
 
