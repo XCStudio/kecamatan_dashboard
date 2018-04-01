@@ -16,110 +16,66 @@
 
 <!-- Main content -->
 <section class="content container-fluid">
-    <div class="box">
+    <div class="box box-primary">
         <div class="box-header with-border">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td width="20%"><b>Grafik:</b></td>
-                            <td>
-                            </td>
-                            <td>
-                                <form>
-                                    <select class="form-control" id="listgrafik" name="listgrafik"
-                                            onchange="selectgrafik();">
-                                        <option value="kesehatan1">Profil Kesehatan Ibu dan Anak</option>
-                                        ";
-                                        <option value="kesehatan2">Epidemi Penyakit</option>
-                                        ";
-                                        <option value="kesehatan3">Kepemilikan Sanitasi/Toilet</option>
-                                        ";
-                                        <option value="kesehatan4">Jumlah Kunjungan Bayi/Balita ke Posyandu</option>
-                                        ";
-                                    </select>
-                                </form>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="20%"><b>Kecamatan:</b></td>
-                            <td>
-                            </td>
-                            <td>
-                                <form>
-                                    <select class="form-control" id="kecamatan" name="kecamatan" onchange="addlist();">
-                                        <option value="5203090">Aikmel</option>
-                                        <option value="5203030">Terara</option>
-                                        <option value="5203070">Selong</option>
-                                        <option value="5203010">Keruak</option>
-                                    </select>
-                                </form>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+            <form class="form-horizontal">
+                <div class="col-md-4">
 
-            <div class="col-md-6">
-                <div class="form-group">
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td width="20%"><b>Desa:</b></td>
-                            <td>
-                            </td>
-                            <td>
-                                <select class="form-control" id="desalist" name="desalist" onchange="addlistnd();">
-                                    <option value="ALL">ALL</option>
-                                    <option value="5203090001">Lenek Daya</option>
-                                    <option value="5203090002">Lenek</option>
-                                    <option value="5203090003">Lenek Lauq</option>
-                                    <option value="5203090004">Kalijaga</option>
-                                    <option value="5203090008">Kembang Kerang</option>
-                                    <option value="5203090009">Aikmel</option>
-                                    <option value="5203090010">Aikmel Utara</option>
-                                    <option value="5203090011">Kalijaga Selatan</option>
-                                    <option value="5203090012">Kalijaga Timur</option>
-                                    <option value="5203090013">Lenek Baru</option>
-                                    <option value="5203090014">Kembang Kerang Daya</option>
-                                    <option value="5203090015">Aikmel Barat</option>
-                                    <option value="5203090016">Lenek Pesiraman</option>
-                                    <option value="5203090017">Toya</option>
-                                    <option value="5203090018">Lenek Ramban Biak</option>
-                                    <option value="5203090019">Lenek Kali Bambang</option>
-                                    <option value="5203090020">KalijagaTengah</option>
-                                    <option value="5203090021">Bagik Nyaka Santri</option>
-                                    <option value="5203090022">Aik Prapa</option>
-                                    <option value="5203090023">Sukarema</option>
-                                    <option value="5203090024">Kalijaga Baru</option>
-                                    <option value="5203090025">Lenek Duren</option>
-                                    <option value="5203090026">Keroya</option>
-                                    <option value="5203090027">Aikmel Timur</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="20%"><b>Tahun:</b></td>
-                            <td>
-                            </td>
-                            <td>
-                                <select class="form-control" id="listyear" onchange="addlistrd();">
-                                    <option value="ALL">ALL</option>
-                                    <option value="2015">2015</option>
-                                    <option value="2016">2016</option>
-                                    <option value="2017">2017</option>
-                                    <option value="2018">2018</option>
-                                </select>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class="form-group">
+                        <label for="list_kecamatan" class="col-sm-4 control-label">Kecamatan</label>
+
+                        <div class="col-sm-8">
+                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
+                            <select class="form-control" id="list_kecamatan" name="kecamatan">
+                                @foreach($list_kecamatan as $kecamatan)
+                                    @if($kecamatan->kecamatan_id == $defaultProfil)
+                                        <option value="{{ $kecamatan->kecamatan_id }}"
+                                                selected="true">{{ $kecamatan->kecamatan->nama }}</option>
+                                    @else
+                                        <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
+                                    @endif
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="list_desa" class="col-sm-4 control-label">Desa</label>
+
+                        <div class="col-sm-8">
+                            <select class="form-control" id="list_desa">
+                                <option value="ALL">ALL</option>
+                                @foreach($list_desa as $desa)
+                                    <option value="{{$desa->id}}">{{$desa->nama}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="list_year" class="col-sm-4 control-label">Tahun</label>
+
+                        <div class="col-sm-8">
+                            <select class="form-control" id="list_year">
+                                <option value="ALL">ALL</option>
+                                @foreach($year_list as $year)
+                                    <option value="{{$year}}">{{$year}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
+
+
+
     <!-- /.row -->
     <!-- /.row -->
     <div class="row">

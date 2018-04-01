@@ -22,7 +22,7 @@ class DashboardPendidikanController extends Controller
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
         $data['list_desa'] = DB::table('ref_desa')->select('*')->where('kecamatan_id', '=', $defaultProfil)->get();
 
-        return view('dashboard.pendidikan.pendidikan')->with($data);
+        return view('dashboard.pendidikan.show_pendidikan')->with($data);
     }
 
 
