@@ -90,7 +90,8 @@
                     <div class="active tab-pane" id="jumlah_penduduk">
                         <div class="row">
                             <div class="col-md-12">
-                                <div id="chart_penduduk_pendidikan" style="width: 100%; min-height: 400px; overflow: auto; text-align: left;">
+                                <div id="chart_penduduk_pendidikan"
+                                     style="width: 100%; min-height: 400px; overflow: auto; text-align: left;">
 
                                 </div>
                             </div>
@@ -144,16 +145,28 @@
          */
         change_das_pendidikan(kid, did, year);
         /*
-        End Initial
+         End Initial
          */
 
 
         // Change div das_kependudukan when Kecamatan changed
         $('#list_kecamatan').on('select2:select', function (e) {
+            var kid = $('#list_kecamatan').find(":selected").val();
+            if (kid == null) {
+                kid = $('#defaultProfil').val();
+            }
+            var did = $('#list_desa').find(":selected").val();
+            var year = $('#list_year').find(":selected").val();
             change_das_pendidikan(kid, did, year);
         });
 
         $('#list_desa').on('select2:select', function (e) {
+            var kid = $('#list_kecamatan').find(":selected").val();
+            if (kid == null) {
+                kid = $('#defaultProfil').val();
+            }
+            var did = $('#list_desa').find(":selected").val();
+            var year = $('#list_year').find(":selected").val();
             change_das_pendidikan(kid, did, year);
         });
 
@@ -175,6 +188,12 @@
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
             create_chart_tingkat_pendidikan(data);
+        });
+
+        $.ajax('{!! route('dashboard.chart-pendidikan-siswa') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_jumlah_siswa(data);
         });
     }
 
@@ -203,19 +222,25 @@
              //"text": "South African Economy"
              }],*/
             "allLabels": [{
-                "y": "54%",
-                "align": "center",
-                "size": 25,
-                "bold": true,
-                "text": "2015",
-                "color": "#555"
-            }, {
-                "y": "49%",
-                "align": "center",
-                "size": 15,
-                "text": "Year",
-                "color": "#555"
-            }],
+                    "y": "54%",
+                    "align": "center",
+                    "size": 25,
+                    "bold": true,
+                    "text": "2015",
+                    "color": "#555"
+                }, {
+                    "y": "49%",
+                    "align": "center",
+                    "size": 15,
+                    "text": "Year",
+                    "color": "#555"
+                }, {
+                    "text": "Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
+                    "align": "center",
+                    "bold": true,
+                    "size": 20,
+                    "y": 0
+                }],
             "listeners": [{
                 "event": "init",
                 "method": function (e) {
@@ -249,6 +274,82 @@
         });
     }
 
+    //Create Chart Jumlah Siswa
+    function create_chart_jumlah_siswa(data) {
+        // Chart Perbandingan Jumlah Siswa berdasarkan TIngkat Pendidikan
+        var chart_siswa_pendidikan = AmCharts.makeChart("chart_siswa_pendidikan", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 2,
+            "dataProvider": data,
+            "graphs": [{
+                "balloonText": "SD: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SD",
+                "valueField": "SD"
+            },{
+                "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTP/Sederajat",
+                "valueField": "SLTP"
+            },{
+                "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "valueField": "SLTA"
+            },{
+                "balloonText": "DIPLOMA: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "DIPLOMA",
+                "valueField": "DIPLOMA"
+            },{
+                "balloonText": "SARJANA: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SARJANA",
+                "valueField": "SARJANA"
+            }],
+            "depth3D": 20,
+            "angle": 30,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "year",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            },
+            "legend": {
+                "enabled": true,
+                "useGraphSettings": true
+            },
+            "allLabels": [{
+                "text": "Jumlah Siswa Berdasarkan Tingkat Pendidikan",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+        });
+    }
 </script>
 
 @endpush
