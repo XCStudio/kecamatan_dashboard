@@ -18,6 +18,8 @@ class Profil extends Model
         'telepon',
         'email',
         'nama_camat',
+        'tahun_pembentukan',
+        'dasar_pembentukan',
         'sekretaris_camat',
         'kepsek_pemerintahan_umum',
         'kepsek_kesejahteraan_masyarakat',

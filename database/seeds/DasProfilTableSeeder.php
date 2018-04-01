@@ -27,6 +27,8 @@ class DasProfilTableSeeder extends Seeder
                 'kode_pos' => '-',
                 'telepon' => '-',
                 'email' => 'admin@mail.com',
+                'tahun_pembentukan' => 1990,
+                'dasar_pembentukan' => 'PERGUB No 4 1990',
                 'nama_camat' => '-',
                 'sekretaris_camat' => '-',
                 'kepsek_pemerintahan_umum' => '-',
@@ -38,7 +40,7 @@ class DasProfilTableSeeder extends Seeder
                 'visi' => NULL,
                 'misi' => NULL,
                 'created_at' => '2018-03-30 06:39:09',
-                'updated_at' => '2018-03-30 06:46:10',
+                'updated_at' => '2018-04-01 16:40:00',
             ),
         ));
         

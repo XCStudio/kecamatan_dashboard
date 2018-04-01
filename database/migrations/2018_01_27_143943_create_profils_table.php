@@ -22,6 +22,8 @@ class CreateProfilsTable extends Migration
             $table->char('kode_pos', 12);
             $table->char('telepon', 15)->nullable(true);
             $table->string('email', 255)->nullable(true);
+            $table->integer('tahun_pembentukan')->nullable(true);
+            $table->string('dasar_pembentukan', 20)->nullable(true);
             $table->string('nama_camat', 150)->nullable(true);
             $table->string('sekretaris_camat', 150)->nullable(true);
             $table->string('kepsek_pemerintahan_umum', 150)->nullable(true);

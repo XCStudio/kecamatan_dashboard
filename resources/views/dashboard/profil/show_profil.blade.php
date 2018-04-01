@@ -148,12 +148,12 @@
 
                                 <tr>
                                     <th class="col-md-2">Tahun Pembentukan</th>
-                                    <td class="col-md-9">: No Field</td>
+                                    <td class="col-md-9">: {{ $profil->tahun_pembentukan }}</td>
                                 </tr>
 
                                 <tr>
                                     <th class="col-md-2">Dasar Hukum Pembentukan</th>
-                                    <td class="col-md-9">: No Field</td>
+                                    <td class="col-md-9">: {{ $profil->dasar_pembentukan }}</td>
                                 </tr>
 
                                 <tr>
