@@ -210,4 +210,119 @@ class DashboardPendidikanController extends Controller
 
         return $data_pendidikan;
     }
+
+    public function getChartTidakSekolah()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Grafik Data Tidak Sekolah
+        $data_pendidikan = array();
+
+        if($year == 'ALL') {
+            foreach (years_list() as $yearl) {
+                // SD
+                $query_total_sd = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 6)
+                    ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', 12)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->where('das_penduduk.pendidikan_kk_id', '=', 1);
+                if ($did != 'ALL') {
+                    $query_total_sd->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_sd = $query_total_sd->count();
+
+                // SMP
+                $query_total_sltp = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 13)
+                    ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', 15)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->where('das_penduduk.pendidikan_kk_id', '=', 1);
+                if ($did != 'ALL') {
+                    $query_total_sltp->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_sltp = $query_total_sltp->count();
+
+                //SMA
+                $query_total_slta = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 16)
+                    ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', 18)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->where('das_penduduk.pendidikan_kk_id', '=', 1);
+                if ($did != 'ALL') {
+                    $query_total_slta->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_slta = $query_total_slta->count();
+
+
+                $data_pendidikan[] = [
+                    'year' => $yearl,
+                    'SD' => $total_sd,
+                    'SLTP' => $total_sltp,
+                    'SLTA' => $total_slta,
+                ];
+            }
+        }else{
+            // SD
+            $query_total_sd = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 6)
+                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', 12)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.pendidikan_kk_id', '=', 1);
+            if ($did != 'ALL') {
+                $query_total_sd->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_sd = $query_total_sd->count();
+
+            // SMP
+            $query_total_sltp = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 13)
+                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', 15)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.pendidikan_kk_id', '=', 1);
+            if ($did != 'ALL') {
+                $query_total_sltp->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_sltp = $query_total_sltp->count();
+
+            //SMA
+            $query_total_slta = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 16)
+                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(tanggal_lahir)), \'%Y\')+0 <= ?', 18)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.pendidikan_kk_id', '=', 1);
+            if ($did != 'ALL') {
+                $query_total_slta->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_slta = $query_total_slta->count();
+
+
+            $data_pendidikan[] = [
+                'year' => $year,
+                'SD' => $total_sd,
+                'SLTP' => $total_sltp,
+                'SLTA' => $total_slta,
+            ];
+        }
+        return $data_pendidikan;
+    }
 }

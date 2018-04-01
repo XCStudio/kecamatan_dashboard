@@ -195,6 +195,12 @@
         }).done(function (data) {
             create_chart_jumlah_siswa(data);
         });
+
+        $.ajax('{!! route('dashboard.chart-tidak-sekolah') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_tidak_sekolah(data);
+        });
     }
 
 
@@ -304,6 +310,7 @@
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
+                "title": "SLTA/Sederajat",
                 "valueField": "SLTA"
             },{
                 "balloonText": "DIPLOMA: <b>[[value]]</b>",
@@ -343,6 +350,68 @@
             },
             "allLabels": [{
                 "text": "Jumlah Siswa Berdasarkan Tingkat Pendidikan",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
+        });
+    }
+
+    //Create Chart Jumlah Anak TIdak Sekolah
+    function create_chart_tidak_sekolah(data) {
+        // Chart Perbandingan Jumlah Anak Tidak Sekolah
+        var chart_tidak_sekolah = AmCharts.makeChart("chart_tidak_sekolah", {
+            "theme": "light",
+            "type": "serial",
+            "startDuration": 2,
+            "dataProvider": data,
+            "graphs": [{
+                "balloonText": "Usia Anak 6-12 (SD): <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SD",
+                "valueField": "SD"
+            },{
+                "balloonText": "Usia Anak 13-15 (SLTP/Sederajat): <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTP/Sederajat",
+                "valueField": "SLTP"
+            },{
+                "balloonText": "Usia Anak 15-18 (SLTA/Sederajat): <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTA/Sederajat",
+                "valueField": "SLTA"
+            }],
+            "depth3D": 20,
+            "angle": 30,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "year",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "export": {
+                "enabled": true
+            },
+            "legend": {
+                "enabled": true,
+                "useGraphSettings": true
+            },
+            "allLabels": [{
+                "text": "Jumlah Anak Tidak Sekolah",
                 "align": "center",
                 "bold": true,
                 "size": 20,

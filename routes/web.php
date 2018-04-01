@@ -83,6 +83,7 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('pendidikan', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
         Route::get('chart-pendidikan-penduduk', 'DashboardPendidikanController@getChartPendidikanPenduduk')->name('dashboard.chart-pendidikan-penduduk');
         Route::get('chart-pendidikan-siswa', 'DashboardPendidikanController@getChartPendidikanSiswa')->name('dashboard.chart-pendidikan-siswa');
+        Route::get('chart-tidak-sekolah', 'DashboardPendidikanController@getChartTidakSekolah')->name('dashboard.chart-tidak-sekolah');
 
 
         Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');
