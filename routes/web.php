@@ -90,8 +90,8 @@ Route::namespace('Dashboard')->group(function () {
 
         Route::get('program-bantuan', 'DashboardController@showProgramBantuan')->name('dashboard.program-bantuan');
 
-        Route::get('anggaran-dan-realisasi', 'DashboardController@showAnggaranDanRealisasi')->name('dashboard.anggaran-dan-realisasi');
-        Route::get('chart-anggaran-realisasi', 'DashboardController@getChartAnggaranRealisasi')->name('dashboard.chart-anggaran-realisasi');
+        Route::get('anggaran-dan-realisasi', 'DashboardAnggaranRealisasiController@showAnggaranDanRealisasi')->name('dashboard.anggaran-dan-realisasi');
+        Route::get('chart-anggaran-realisasi', 'DashboardAnggaranRealisasiController@getChartAnggaranRealisasi')->name('dashboard.chart-anggaran-realisasi');
 
         Route::get('anggaran-desa', 'DashboardController@showAnggaranDesa')->name('dashboard.anggaran-desa');
     });

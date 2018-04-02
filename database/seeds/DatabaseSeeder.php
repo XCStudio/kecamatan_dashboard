@@ -33,6 +33,7 @@ class DatabaseSeeder extends Seeder
         $this->call(DasDataUmumTableSeeder::class);
         $this->call(DasKeluargaTableSeeder::class);
         $this->call(DasPendudukTableSeeder::class);
+        $this->call(DasAnggaranKecamatanTableSeeder::class);
 
         /*
          * Data Seeder Kecamatan Aikmel

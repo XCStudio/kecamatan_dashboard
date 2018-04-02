@@ -44,21 +44,6 @@
 
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label for="list_desa" class="col-sm-4 control-label">Desa</label>
-
-                            <div class="col-sm-8">
-                                <select class="form-control" id="list_desa">
-                                    <option value="ALL">ALL</option>
-                                    @foreach($list_desa as $desa)
-                                        <option value="{{$desa->id}}">{{$desa->nama}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="form-group">
                             <label for="list_year" class="col-sm-4 control-label">Tahun</label>
 
                             <div class="col-sm-8">
@@ -240,20 +225,18 @@
 
         // Select 2 Kecamatan
         $('#list_kecamatan').select2();
-        $('#list_desa').select2();
         $('#list_year').select2();
 
         var kid = $('#list_kecamatan').find(":selected").val();
         if (kid == null) {
             kid = $('#defaultProfil').val();
         }
-        var did = $('#list_desa').find(":selected").val();
         var year = $('#list_year').find(":selected").val();
 
         /*
          Initial Chart Dashboard Pendidikan
          */
-        change_das_anggaran(kid, did, year);
+        change_das_anggaran(kid, year);
         /*
          End Initial
          */
@@ -265,19 +248,8 @@
             if (kid == null) {
                 kid = $('#defaultProfil').val();
             }
-            var did = $('#list_desa').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-            change_das_pendidikan(kid, did, year);
-        });
-
-        $('#list_desa').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
-            var did = $('#list_desa').find(":selected").val();
-            var year = $('#list_year').find(":selected").val();
-            change_das_pendidikan(kid, did, year);
+            change_das_pendidikan(kid, year);
         });
 
         $('#list_year').on('select2:select', function (e) {
@@ -285,17 +257,16 @@
             if (kid == null) {
                 kid = $('#defaultProfil').val();
             }
-            var did = $('#list_desa').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
 
-            change_das_anggaran(kid, did, year);
+            change_das_anggaran(kid,year);
         });
     });
 
-    function change_das_anggaran(kid, did, year) {
+    function change_das_anggaran(kid, year) {
 
         $.ajax('{!! route('dashboard.chart-anggaran-realisasi') !!}', {
-            data: {kid: kid, did: did, y: year}
+            data: {kid: kid, y: year}
         }).done(function (data) {
             $('#total_belanja').html('Rp '+data.sum.total_belanja);
             $('#total_belanja_persen').html(data.sum.total_belanja_persen+'%');
