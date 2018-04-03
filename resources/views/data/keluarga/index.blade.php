@@ -68,13 +68,13 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#keluarga-table').DataTable({
-            processing: false,
-            serverSide: false,
+            processing: true,
+            serverSide: true,
             ajax: "{!! route( 'data.keluarga.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'no_kk', name: 'no_kk'},
-                {data: 'nik_kepala', name: 'nama'},
+                {data: 'nik_kepala', name: 'nik_kepala'},
                 {data: 'tgl_daftar', name: 'tgl_daftar'},
                 {data: 'kelas_sosial', name: 'kelas_sosial'},
                 {data: 'tgl_cetak_kk', name: 'tgl_cetak_kk'},

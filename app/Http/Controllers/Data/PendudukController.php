@@ -6,6 +6,7 @@ use Doctrine\DBAL\Query\QueryException;
 use DummyFullModelClass;
 use App\Models\Penduduk;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 use Excel;
@@ -35,7 +36,14 @@ class PendudukController extends Controller
 
     public function getPenduduk()
     {
-        return DataTables::of(Penduduk::with(['Pekerjaan', 'Kawin', 'Pendidikan_kk', 'Keluarga'])->select('*')->get())
+      $query = DB::table('das_penduduk')
+            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            ->join('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+            ->join('ref_kawin', 'das_penduduk.status_kawin', '=', 'ref_kawin.id')
+            ->join('ref_pekerjaan', 'das_penduduk.pekerjaan_id', '=', 'ref_pekerjaan.id')
+            ->selectRaw('das_penduduk.id, das_penduduk.nik, das_penduduk.nama, das_penduduk.no_kk, das_keluarga.alamat, das_keluarga.dusun, das_keluarga.rw, das_keluarga.rt, ref_pendidikan_kk.nama as pendidikan, das_penduduk.tanggal_lahir, ref_kawin.nama as status_kawin, ref_pekerjaan.nama as pekerjaan');
+      
+        return DataTables::of($query->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.penduduk.edit', $row->id);
                 $delete_url = route('data.penduduk.destroy', $row->id);
