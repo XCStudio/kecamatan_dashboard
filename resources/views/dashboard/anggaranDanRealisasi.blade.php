@@ -267,7 +267,7 @@
             }
             var did = $('#list_desa').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-            change_das_pendidikan(kid, did, year);
+            create_chart_anggaran(kid, did, year);
         });
 
         $('#list_desa').on('select2:select', function (e) {
@@ -277,7 +277,7 @@
             }
             var did = $('#list_desa').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-            change_das_pendidikan(kid, did, year);
+            create_chart_anggaran(kid, did, year);
         });
 
         $('#list_year').on('select2:select', function (e) {
