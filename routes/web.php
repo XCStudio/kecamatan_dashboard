@@ -93,7 +93,8 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('anggaran-dan-realisasi', 'DashboardAnggaranRealisasiController@showAnggaranDanRealisasi')->name('dashboard.anggaran-dan-realisasi');
         Route::get('chart-anggaran-realisasi', 'DashboardAnggaranRealisasiController@getChartAnggaranRealisasi')->name('dashboard.chart-anggaran-realisasi');
 
-        Route::get('anggaran-desa', 'DashboardController@showAnggaranDesa')->name('dashboard.anggaran-desa');
+        Route::get('anggaran-desa', 'DashboardAnggaranDesaController@showAnggaranDesa')->name('dashboard.anggaran-desa');
+        Route::get('chart-anggaran-desa', 'DashboardAnggaranDesaController@getChartAnggaranDesa')->name('dashboard.chart-anggaran-desa');
     });
 
 });

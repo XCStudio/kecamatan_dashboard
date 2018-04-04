@@ -250,6 +250,7 @@
             }
             var year = $('#list_year').find(":selected").val();
             change_das_pendidikan(kid, year);
+
         });
 
         $('#list_year').on('select2:select', function (e) {

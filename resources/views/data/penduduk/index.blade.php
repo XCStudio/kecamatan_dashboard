@@ -71,22 +71,22 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#penduduk-table').DataTable({
-            processing: false,
-            serverSide: false,
+            processing: true,
+            serverSide: true,
             ajax: "{!! route( 'data.penduduk.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'nik', name: 'nik'},
                 {data: 'nama', name: 'nama'},
                 {data: 'no_kk', name: 'no_kk'},
-                {data: 'keluarga.alamat', name: 'alamat'},
-                {data: 'keluarga.dusun', name: 'dusun'},
-                {data: 'keluarga.rw', name: 'rw'},
-                {data: 'keluarga.rt', name: 'rt'},
-                {data: 'pendidikan_kk.nama', name: 'pendidikan_kk'},
+                {data: 'alamat', name: 'alamat'},
+                {data: 'dusun', name: 'dusun'},
+                {data: 'rw', name: 'rw'},
+                {data: 'rt', name: 'rt'},
+                {data: 'pendidikan', name: 'pendidikan'},
                 {data: 'tanggal_lahir', name: 'tanggal_lahir'},
-                {data: 'pekerjaan.nama', name: 'pekerjaan'},
-                {data: 'kawin.nama', name: 'kawin'},
+                {data: 'pekerjaan', name: 'pekerjaan'},
+                {data: 'status_kawin', name: 'status_kawin'},
             ],
             order: [[0, 'desc']]
         });

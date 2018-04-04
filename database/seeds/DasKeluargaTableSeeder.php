@@ -19,7 +19,7 @@ class DasKeluargaTableSeeder extends Seeder
         \DB::table('das_keluarga')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                'id' => '1',
                 'no_kk' => '1105070208130002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -33,7 +33,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
+                'id' => '2',
                 'no_kk' => '1105072808070078',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -47,7 +47,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
+                'id' => '3',
                 'no_kk' => '1105071101128300',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -61,7 +61,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
+                'id' => '4',
                 'no_kk' => '1105072708070041',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -75,7 +75,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 5,
+                'id' => '5',
                 'no_kk' => '1105072409070010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -89,7 +89,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 6,
+                'id' => '6',
                 'no_kk' => '1105072609070005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -103,7 +103,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 7,
+                'id' => '7',
                 'no_kk' => '1105070208013000',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -117,7 +117,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 8,
+                'id' => '8',
                 'no_kk' => '1105070712110008',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -131,7 +131,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 9,
+                'id' => '9',
                 'no_kk' => '1105070708150002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -145,7 +145,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 10,
+                'id' => '10',
                 'no_kk' => '1105072709070005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -159,7 +159,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 11,
+                'id' => '11',
                 'no_kk' => '1105070705130002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -173,7 +173,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 12,
+                'id' => '12',
                 'no_kk' => '1105072011150001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -187,7 +187,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 13,
+                'id' => '13',
                 'no_kk' => '1105071812120005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -201,7 +201,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 14,
+                'id' => '14',
                 'no_kk' => '1105070807100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -215,7 +215,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 15,
+                'id' => '15',
                 'no_kk' => '1105071701170001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -229,7 +229,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 16,
+                'id' => '16',
                 'no_kk' => '1105071708066066',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -243,7 +243,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 17,
+                'id' => '17',
                 'no_kk' => '1105072808070085',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -257,7 +257,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 18,
+                'id' => '18',
                 'no_kk' => '1105072709070017',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -271,7 +271,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 19,
+                'id' => '19',
                 'no_kk' => '110501708063913',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -285,7 +285,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 20,
+                'id' => '20',
                 'no_kk' => '1105071708063998',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -299,7 +299,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 21,
+                'id' => '21',
                 'no_kk' => '1105072609070041',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -313,7 +313,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 22,
+                'id' => '22',
                 'no_kk' => '1105072709070003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -327,7 +327,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 23,
+                'id' => '23',
                 'no_kk' => '1105072709070012',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -341,7 +341,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 24,
+                'id' => '24',
                 'no_kk' => '1105072709070028',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -355,7 +355,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 25,
+                'id' => '25',
                 'no_kk' => '1105072609070021',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -369,7 +369,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 26,
+                'id' => '26',
                 'no_kk' => '1105072709070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -383,7 +383,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 27,
+                'id' => '27',
                 'no_kk' => '1105071708061810',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -397,7 +397,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => 28,
+                'id' => '28',
                 'no_kk' => '1105072609070046',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -411,7 +411,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => 29,
+                'id' => '29',
                 'no_kk' => '1105072609070029',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -425,7 +425,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 30,
+                'id' => '30',
                 'no_kk' => '1105072609070035',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -439,7 +439,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => 31,
+                'id' => '31',
                 'no_kk' => '1105072709070020',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -453,7 +453,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 32,
+                'id' => '32',
                 'no_kk' => '1105072609077003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -467,7 +467,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => 33,
+                'id' => '33',
                 'no_kk' => '1105100106110004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -481,7 +481,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => 34,
+                'id' => '34',
                 'no_kk' => '1105072808070076',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -495,7 +495,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => 35,
+                'id' => '35',
                 'no_kk' => '1105071308150001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -509,7 +509,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => 36,
+                'id' => '36',
                 'no_kk' => '1105071504110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -523,7 +523,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => 37,
+                'id' => '37',
                 'no_kk' => '1105071708065691',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -537,7 +537,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => 38,
+                'id' => '38',
                 'no_kk' => '1105070105070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -551,7 +551,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => 39,
+                'id' => '39',
                 'no_kk' => '1105072509070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -565,7 +565,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => 40,
+                'id' => '40',
                 'no_kk' => '1105072509070006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -579,7 +579,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 41,
+                'id' => '41',
                 'no_kk' => '1105072509070008',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -593,7 +593,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => 42,
+                'id' => '42',
                 'no_kk' => '1105072609074500',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -607,7 +607,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             42 => 
             array (
-                'id' => 43,
+                'id' => '43',
                 'no_kk' => '1105072609070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -621,7 +621,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             43 => 
             array (
-                'id' => 44,
+                'id' => '44',
                 'no_kk' => '1105072609070008',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -635,7 +635,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             44 => 
             array (
-                'id' => 45,
+                'id' => '45',
                 'no_kk' => '1105072708070038',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -649,7 +649,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             45 => 
             array (
-                'id' => 46,
+                'id' => '46',
                 'no_kk' => '1105072709070009',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -663,7 +663,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             46 => 
             array (
-                'id' => 47,
+                'id' => '47',
                 'no_kk' => '1105072808070075',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -677,7 +677,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             47 => 
             array (
-                'id' => 48,
+                'id' => '48',
                 'no_kk' => '1105072808070084',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -691,7 +691,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             48 => 
             array (
-                'id' => 49,
+                'id' => '49',
                 'no_kk' => '1105073010070015',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -705,7 +705,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             49 => 
             array (
-                'id' => 50,
+                'id' => '50',
                 'no_kk' => '1105070110070069',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -719,7 +719,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             50 => 
             array (
-                'id' => 51,
+                'id' => '51',
                 'no_kk' => '1105072107170001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -733,7 +733,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             51 => 
             array (
-                'id' => 52,
+                'id' => '52',
                 'no_kk' => '1105070910140001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -747,7 +747,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             52 => 
             array (
-                'id' => 53,
+                'id' => '53',
                 'no_kk' => '1105072408070006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -761,7 +761,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             53 => 
             array (
-                'id' => 54,
+                'id' => '54',
                 'no_kk' => '1105072007070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -775,7 +775,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             54 => 
             array (
-                'id' => 55,
+                'id' => '55',
                 'no_kk' => '1105071708062764',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -789,7 +789,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             55 => 
             array (
-                'id' => 56,
+                'id' => '56',
                 'no_kk' => '1105072809070076',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -803,7 +803,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             56 => 
             array (
-                'id' => 57,
+                'id' => '57',
                 'no_kk' => '1105072708070046',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -817,7 +817,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             57 => 
             array (
-                'id' => 58,
+                'id' => '58',
                 'no_kk' => '1105073112090001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -831,7 +831,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             58 => 
             array (
-                'id' => 59,
+                'id' => '59',
                 'no_kk' => '1105071605070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -845,7 +845,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             59 => 
             array (
-                'id' => 60,
+                'id' => '60',
                 'no_kk' => '1105072708070036',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -859,7 +859,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             60 => 
             array (
-                'id' => 61,
+                'id' => '61',
                 'no_kk' => '1105070110070015',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -873,7 +873,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             61 => 
             array (
-                'id' => 62,
+                'id' => '62',
                 'no_kk' => '1105073105070002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -887,7 +887,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             62 => 
             array (
-                'id' => 63,
+                'id' => '63',
                 'no_kk' => '1105071708062333',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -901,7 +901,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             63 => 
             array (
-                'id' => 64,
+                'id' => '64',
                 'no_kk' => '1105072408070026',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -915,7 +915,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             64 => 
             array (
-                'id' => 65,
+                'id' => '65',
                 'no_kk' => '1105072809070073',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -929,7 +929,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             65 => 
             array (
-                'id' => 66,
+                'id' => '66',
                 'no_kk' => '1105073010070027',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -943,7 +943,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             66 => 
             array (
-                'id' => 67,
+                'id' => '67',
                 'no_kk' => '1105070110070056',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -957,7 +957,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             67 => 
             array (
-                'id' => 68,
+                'id' => '68',
                 'no_kk' => '1105071708061777',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -971,7 +971,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             68 => 
             array (
-                'id' => 69,
+                'id' => '69',
                 'no_kk' => '1105070401110003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -985,7 +985,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             69 => 
             array (
-                'id' => 70,
+                'id' => '70',
                 'no_kk' => '1105071110130001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -999,7 +999,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             70 => 
             array (
-                'id' => 71,
+                'id' => '71',
                 'no_kk' => '1105071411110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1013,7 +1013,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             71 => 
             array (
-                'id' => 72,
+                'id' => '72',
                 'no_kk' => '1105071605070003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1027,7 +1027,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             72 => 
             array (
-                'id' => 73,
+                'id' => '73',
                 'no_kk' => '1105073010070023',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1041,7 +1041,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             73 => 
             array (
-                'id' => 74,
+                'id' => '74',
                 'no_kk' => '1105070706130002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1055,7 +1055,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             74 => 
             array (
-                'id' => 75,
+                'id' => '75',
                 'no_kk' => '1105072408070030',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1069,7 +1069,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             75 => 
             array (
-                'id' => 76,
+                'id' => '76',
                 'no_kk' => '1105072910070009',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1083,7 +1083,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             76 => 
             array (
-                'id' => 77,
+                'id' => '77',
                 'no_kk' => '1105072408070034',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1097,7 +1097,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             77 => 
             array (
-                'id' => 78,
+                'id' => '78',
                 'no_kk' => '1105072910070010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1111,7 +1111,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             78 => 
             array (
-                'id' => 79,
+                'id' => '79',
                 'no_kk' => '1105072308070037',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1125,7 +1125,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             79 => 
             array (
-                'id' => 80,
+                'id' => '80',
                 'no_kk' => '1105072809070056',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1139,7 +1139,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             80 => 
             array (
-                'id' => 81,
+                'id' => '81',
                 'no_kk' => '1105071404100003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1153,7 +1153,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             81 => 
             array (
-                'id' => 82,
+                'id' => '82',
                 'no_kk' => '1105010509060025',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1167,7 +1167,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             82 => 
             array (
-                'id' => 83,
+                'id' => '83',
                 'no_kk' => '1105072302090002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1181,7 +1181,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             83 => 
             array (
-                'id' => 84,
+                'id' => '84',
                 'no_kk' => '1105072809070031',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1195,7 +1195,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             84 => 
             array (
-                'id' => 85,
+                'id' => '85',
                 'no_kk' => '1105070110070011',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1209,7 +1209,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             85 => 
             array (
-                'id' => 86,
+                'id' => '86',
                 'no_kk' => '1105070110070022',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1223,7 +1223,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             86 => 
             array (
-                'id' => 87,
+                'id' => '87',
                 'no_kk' => '1105072809070008',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1237,7 +1237,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             87 => 
             array (
-                'id' => 88,
+                'id' => '88',
                 'no_kk' => '1105072106170001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1251,7 +1251,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             88 => 
             array (
-                'id' => 89,
+                'id' => '89',
                 'no_kk' => '1105070401110004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1265,7 +1265,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             89 => 
             array (
-                'id' => 90,
+                'id' => '90',
                 'no_kk' => '1105071607070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1279,7 +1279,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             90 => 
             array (
-                'id' => 91,
+                'id' => '91',
                 'no_kk' => '1105071708065304',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1293,7 +1293,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             91 => 
             array (
-                'id' => 92,
+                'id' => '92',
                 'no_kk' => '1105072809070044',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1307,7 +1307,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             92 => 
             array (
-                'id' => 93,
+                'id' => '93',
                 'no_kk' => '1105072904080002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1321,7 +1321,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             93 => 
             array (
-                'id' => 94,
+                'id' => '94',
                 'no_kk' => '1105072408070037',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1335,7 +1335,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             94 => 
             array (
-                'id' => 95,
+                'id' => '95',
                 'no_kk' => '1105070110070028',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1349,7 +1349,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             95 => 
             array (
-                'id' => 96,
+                'id' => '96',
                 'no_kk' => '1105070110070036',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1363,7 +1363,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             96 => 
             array (
-                'id' => 97,
+                'id' => '97',
                 'no_kk' => '1105072408070002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1377,7 +1377,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             97 => 
             array (
-                'id' => 98,
+                'id' => '98',
                 'no_kk' => '1105072408070023',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1391,7 +1391,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             98 => 
             array (
-                'id' => 99,
+                'id' => '99',
                 'no_kk' => '1105071708061566',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1405,7 +1405,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             99 => 
             array (
-                'id' => 100,
+                'id' => '100',
                 'no_kk' => '1105071708060038',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1419,7 +1419,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             100 => 
             array (
-                'id' => 101,
+                'id' => '101',
                 'no_kk' => '1105072809070079',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1433,7 +1433,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             101 => 
             array (
-                'id' => 102,
+                'id' => '102',
                 'no_kk' => '1105071708060972',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1447,7 +1447,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             102 => 
             array (
-                'id' => 103,
+                'id' => '103',
                 'no_kk' => '1105070110070007',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1461,7 +1461,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             103 => 
             array (
-                'id' => 104,
+                'id' => '104',
                 'no_kk' => '1105072708070047',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1475,7 +1475,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             104 => 
             array (
-                'id' => 105,
+                'id' => '105',
                 'no_kk' => '1105072809070066',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1489,7 +1489,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             105 => 
             array (
-                'id' => 106,
+                'id' => '106',
                 'no_kk' => '1105072302090004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1503,7 +1503,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             106 => 
             array (
-                'id' => 107,
+                'id' => '107',
                 'no_kk' => '1105070401110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1517,7 +1517,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             107 => 
             array (
-                'id' => 108,
+                'id' => '108',
                 'no_kk' => '1105072308070036',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1531,7 +1531,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             108 => 
             array (
-                'id' => 109,
+                'id' => '109',
                 'no_kk' => '1105071708062616',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1545,7 +1545,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             109 => 
             array (
-                'id' => 110,
+                'id' => '110',
                 'no_kk' => '1105071708063375',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1559,7 +1559,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             110 => 
             array (
-                'id' => 111,
+                'id' => '111',
                 'no_kk' => '1105071412100003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1573,7 +1573,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             111 => 
             array (
-                'id' => 112,
+                'id' => '112',
                 'no_kk' => '1105072708070034',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1587,7 +1587,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             112 => 
             array (
-                'id' => 113,
+                'id' => '113',
                 'no_kk' => '1105071708060117',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1601,7 +1601,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             113 => 
             array (
-                'id' => 114,
+                'id' => '114',
                 'no_kk' => '110507260308001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1615,7 +1615,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             114 => 
             array (
-                'id' => 115,
+                'id' => '115',
                 'no_kk' => '1105071708060770',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1629,7 +1629,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             115 => 
             array (
-                'id' => 116,
+                'id' => '116',
                 'no_kk' => '1105071912170001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1643,7 +1643,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             116 => 
             array (
-                'id' => 117,
+                'id' => '117',
                 'no_kk' => '1105072809070037',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1657,7 +1657,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             117 => 
             array (
-                'id' => 118,
+                'id' => '118',
                 'no_kk' => '1107070309070003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1671,7 +1671,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             118 => 
             array (
-                'id' => 119,
+                'id' => '119',
                 'no_kk' => '1105072310070006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1685,7 +1685,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             119 => 
             array (
-                'id' => 120,
+                'id' => '120',
                 'no_kk' => '1100570912110017',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1699,7 +1699,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             120 => 
             array (
-                'id' => 121,
+                'id' => '121',
                 'no_kk' => '1105071708064481',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1713,7 +1713,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             121 => 
             array (
-                'id' => 122,
+                'id' => '122',
                 'no_kk' => '1105071708065316',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1727,7 +1727,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             122 => 
             array (
-                'id' => 123,
+                'id' => '123',
                 'no_kk' => '1105071708060455',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1741,7 +1741,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             123 => 
             array (
-                'id' => 124,
+                'id' => '124',
                 'no_kk' => '1105071708065100',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1755,7 +1755,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             124 => 
             array (
-                'id' => 125,
+                'id' => '125',
                 'no_kk' => '1105070405110009',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1769,7 +1769,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             125 => 
             array (
-                'id' => 126,
+                'id' => '126',
                 'no_kk' => '1105070309077004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1783,7 +1783,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             126 => 
             array (
-                'id' => 127,
+                'id' => '127',
                 'no_kk' => '1105071708063320',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1797,7 +1797,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             127 => 
             array (
-                'id' => 128,
+                'id' => '128',
                 'no_kk' => '1105070912110015',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1811,7 +1811,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             128 => 
             array (
-                'id' => 129,
+                'id' => '129',
                 'no_kk' => '1105070309070055',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1825,7 +1825,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             129 => 
             array (
-                'id' => 130,
+                'id' => '130',
                 'no_kk' => '1105070912110024',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1839,7 +1839,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             130 => 
             array (
-                'id' => 131,
+                'id' => '131',
                 'no_kk' => '1105070605100002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1853,7 +1853,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             131 => 
             array (
-                'id' => 132,
+                'id' => '132',
                 'no_kk' => '1105071502160001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1867,7 +1867,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             132 => 
             array (
-                'id' => 133,
+                'id' => '133',
                 'no_kk' => '1105071708062742',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1881,7 +1881,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             133 => 
             array (
-                'id' => 134,
+                'id' => '134',
                 'no_kk' => '1105072212110004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1895,7 +1895,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             134 => 
             array (
-                'id' => 135,
+                'id' => '135',
                 'no_kk' => '1105072212110003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1909,7 +1909,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             135 => 
             array (
-                'id' => 136,
+                'id' => '136',
                 'no_kk' => '1105070309070006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1923,7 +1923,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             136 => 
             array (
-                'id' => 137,
+                'id' => '137',
                 'no_kk' => '1105071404110003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1937,7 +1937,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             137 => 
             array (
-                'id' => 138,
+                'id' => '138',
                 'no_kk' => '1105072010150003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1951,7 +1951,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             138 => 
             array (
-                'id' => 139,
+                'id' => '139',
                 'no_kk' => '1105070910070014',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1965,7 +1965,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             139 => 
             array (
-                'id' => 140,
+                'id' => '140',
                 'no_kk' => '1105070912110005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1979,7 +1979,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             140 => 
             array (
-                'id' => 141,
+                'id' => '141',
                 'no_kk' => '1105071708062449',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -1993,7 +1993,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             141 => 
             array (
-                'id' => 142,
+                'id' => '142',
                 'no_kk' => '1105072202110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2007,7 +2007,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             142 => 
             array (
-                'id' => 143,
+                'id' => '143',
                 'no_kk' => '1105072810140003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2021,7 +2021,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             143 => 
             array (
-                'id' => 144,
+                'id' => '144',
                 'no_kk' => '1105071708061068',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2035,7 +2035,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             144 => 
             array (
-                'id' => 145,
+                'id' => '145',
                 'no_kk' => '1105071708063369',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2049,7 +2049,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             145 => 
             array (
-                'id' => 146,
+                'id' => '146',
                 'no_kk' => '1105070109140001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2063,7 +2063,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             146 => 
             array (
-                'id' => 147,
+                'id' => '147',
                 'no_kk' => '1105072302150002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2077,7 +2077,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             147 => 
             array (
-                'id' => 148,
+                'id' => '148',
                 'no_kk' => '1105070912110004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2091,7 +2091,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             148 => 
             array (
-                'id' => 149,
+                'id' => '149',
                 'no_kk' => '1105071708060100',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2105,7 +2105,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             149 => 
             array (
-                'id' => 150,
+                'id' => '150',
                 'no_kk' => '1105070309070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2119,7 +2119,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             150 => 
             array (
-                'id' => 151,
+                'id' => '151',
                 'no_kk' => '1105071105120001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2133,7 +2133,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             151 => 
             array (
-                'id' => 152,
+                'id' => '152',
                 'no_kk' => '1105072408110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2147,7 +2147,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             152 => 
             array (
-                'id' => 153,
+                'id' => '153',
                 'no_kk' => '1105070109140002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2161,7 +2161,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             153 => 
             array (
-                'id' => 154,
+                'id' => '154',
                 'no_kk' => '1105070011200004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2175,7 +2175,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             154 => 
             array (
-                'id' => 155,
+                'id' => '155',
                 'no_kk' => '1105071708062687',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2189,7 +2189,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             155 => 
             array (
-                'id' => 156,
+                'id' => '156',
                 'no_kk' => '1105070401120007',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2203,7 +2203,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             156 => 
             array (
-                'id' => 157,
+                'id' => '157',
                 'no_kk' => '1105071708065578',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2217,7 +2217,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             157 => 
             array (
-                'id' => 158,
+                'id' => '158',
                 'no_kk' => '1105071708062862',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2231,7 +2231,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             158 => 
             array (
-                'id' => 159,
+                'id' => '159',
                 'no_kk' => '1105071708063488',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2245,7 +2245,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             159 => 
             array (
-                'id' => 160,
+                'id' => '160',
                 'no_kk' => '1105070912110009',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2259,7 +2259,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             160 => 
             array (
-                'id' => 161,
+                'id' => '161',
                 'no_kk' => '1105073108070026',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2273,7 +2273,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             161 => 
             array (
-                'id' => 162,
+                'id' => '162',
                 'no_kk' => '1105071812120002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2287,7 +2287,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             162 => 
             array (
-                'id' => 163,
+                'id' => '163',
                 'no_kk' => '1105070912110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2301,7 +2301,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             163 => 
             array (
-                'id' => 164,
+                'id' => '164',
                 'no_kk' => '1105070107110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2315,7 +2315,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             164 => 
             array (
-                'id' => 165,
+                'id' => '165',
                 'no_kk' => '1105070401120003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2329,7 +2329,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             165 => 
             array (
-                'id' => 166,
+                'id' => '166',
                 'no_kk' => '1105070801130001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2343,7 +2343,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             166 => 
             array (
-                'id' => 167,
+                'id' => '167',
                 'no_kk' => '1105071708063294',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2357,7 +2357,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             167 => 
             array (
-                'id' => 168,
+                'id' => '168',
                 'no_kk' => '1105071708062298',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2371,7 +2371,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             168 => 
             array (
-                'id' => 169,
+                'id' => '169',
                 'no_kk' => '1105070912110019',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2385,7 +2385,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             169 => 
             array (
-                'id' => 170,
+                'id' => '170',
                 'no_kk' => '1105071702160004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2399,7 +2399,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             170 => 
             array (
-                'id' => 171,
+                'id' => '171',
                 'no_kk' => '1105071708060161',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2413,7 +2413,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             171 => 
             array (
-                'id' => 172,
+                'id' => '172',
                 'no_kk' => '1105071708065272',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2427,7 +2427,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             172 => 
             array (
-                'id' => 173,
+                'id' => '173',
                 'no_kk' => '1105072701120002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2441,7 +2441,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             173 => 
             array (
-                'id' => 174,
+                'id' => '174',
                 'no_kk' => '1105071708062268',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2455,7 +2455,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             174 => 
             array (
-                'id' => 175,
+                'id' => '175',
                 'no_kk' => '1105070603150003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2469,7 +2469,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             175 => 
             array (
-                'id' => 176,
+                'id' => '176',
                 'no_kk' => '1105072612110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2483,7 +2483,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             176 => 
             array (
-                'id' => 177,
+                'id' => '177',
                 'no_kk' => '1105073008070016',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2497,7 +2497,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             177 => 
             array (
-                'id' => 178,
+                'id' => '178',
                 'no_kk' => '1111111111111111',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2511,7 +2511,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             178 => 
             array (
-                'id' => 179,
+                'id' => '179',
                 'no_kk' => '1105072312110010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2525,7 +2525,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             179 => 
             array (
-                'id' => 180,
+                'id' => '180',
                 'no_kk' => '1105070912110018',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2539,7 +2539,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             180 => 
             array (
-                'id' => 181,
+                'id' => '181',
                 'no_kk' => '1105071810100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2553,7 +2553,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             181 => 
             array (
-                'id' => 182,
+                'id' => '182',
                 'no_kk' => '1105071706064233',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2567,7 +2567,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             182 => 
             array (
-                'id' => 183,
+                'id' => '183',
                 'no_kk' => '1105071708061905',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2581,7 +2581,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             183 => 
             array (
-                'id' => 184,
+                'id' => '184',
                 'no_kk' => '1105071010070012',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2595,7 +2595,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             184 => 
             array (
-                'id' => 185,
+                'id' => '185',
                 'no_kk' => '1105072306110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2609,7 +2609,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             185 => 
             array (
-                'id' => 186,
+                'id' => '186',
                 'no_kk' => '1105070407110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2623,7 +2623,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             186 => 
             array (
-                'id' => 187,
+                'id' => '187',
                 'no_kk' => '1105071812120001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2637,7 +2637,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             187 => 
             array (
-                'id' => 188,
+                'id' => '188',
                 'no_kk' => '1105071708065290',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2651,7 +2651,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             188 => 
             array (
-                'id' => 189,
+                'id' => '189',
                 'no_kk' => '1105071504110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2665,7 +2665,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             189 => 
             array (
-                'id' => 190,
+                'id' => '190',
                 'no_kk' => '1105071708063947',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2679,7 +2679,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             190 => 
             array (
-                'id' => 191,
+                'id' => '191',
                 'no_kk' => '1105071010070010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2693,7 +2693,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             191 => 
             array (
-                'id' => 192,
+                'id' => '192',
                 'no_kk' => '1105070602120003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2707,7 +2707,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             192 => 
             array (
-                'id' => 193,
+                'id' => '193',
                 'no_kk' => '1105071708063239',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2721,7 +2721,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             193 => 
             array (
-                'id' => 194,
+                'id' => '194',
                 'no_kk' => '1105071708065935',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2735,7 +2735,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             194 => 
             array (
-                'id' => 195,
+                'id' => '195',
                 'no_kk' => '1105072312110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2749,7 +2749,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             195 => 
             array (
-                'id' => 196,
+                'id' => '196',
                 'no_kk' => '1105072002140002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2763,7 +2763,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             196 => 
             array (
-                'id' => 197,
+                'id' => '197',
                 'no_kk' => '1105071080600164',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2777,7 +2777,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             197 => 
             array (
-                'id' => 198,
+                'id' => '198',
                 'no_kk' => '1105070601120002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2791,7 +2791,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             198 => 
             array (
-                'id' => 199,
+                'id' => '199',
                 'no_kk' => '1105072210140005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2805,7 +2805,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             199 => 
             array (
-                'id' => 200,
+                'id' => '200',
                 'no_kk' => '1105070912110014',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2819,7 +2819,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             200 => 
             array (
-                'id' => 201,
+                'id' => '201',
                 'no_kk' => '1105072101140001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2833,7 +2833,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             201 => 
             array (
-                'id' => 202,
+                'id' => '202',
                 'no_kk' => '1105071201120002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2847,7 +2847,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             202 => 
             array (
-                'id' => 203,
+                'id' => '203',
                 'no_kk' => '1105072312110006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2861,7 +2861,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             203 => 
             array (
-                'id' => 204,
+                'id' => '204',
                 'no_kk' => '1105071708065850',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2875,7 +2875,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             204 => 
             array (
-                'id' => 205,
+                'id' => '205',
                 'no_kk' => '1105070509070020',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2889,7 +2889,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             205 => 
             array (
-                'id' => 206,
+                'id' => '206',
                 'no_kk' => '1105070601120003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2903,7 +2903,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             206 => 
             array (
-                'id' => 207,
+                'id' => '207',
                 'no_kk' => '1105070912110011',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2917,7 +2917,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             207 => 
             array (
-                'id' => 208,
+                'id' => '208',
                 'no_kk' => '1105071708061988',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2931,7 +2931,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             208 => 
             array (
-                'id' => 209,
+                'id' => '209',
                 'no_kk' => '1105070912110010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2945,7 +2945,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             209 => 
             array (
-                'id' => 210,
+                'id' => '210',
                 'no_kk' => '1105073008070014',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2959,7 +2959,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             210 => 
             array (
-                'id' => 211,
+                'id' => '211',
                 'no_kk' => '1105070111110008',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2973,7 +2973,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             211 => 
             array (
-                'id' => 212,
+                'id' => '212',
                 'no_kk' => '1105070409070016',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -2987,7 +2987,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             212 => 
             array (
-                'id' => 213,
+                'id' => '213',
                 'no_kk' => '1105070110100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3001,7 +3001,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             213 => 
             array (
-                'id' => 214,
+                'id' => '214',
                 'no_kk' => '1105070110100002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3015,7 +3015,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             214 => 
             array (
-                'id' => 215,
+                'id' => '215',
                 'no_kk' => '1105073008070029',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3029,7 +3029,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             215 => 
             array (
-                'id' => 216,
+                'id' => '216',
                 'no_kk' => '1105072612110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3043,7 +3043,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             216 => 
             array (
-                'id' => 217,
+                'id' => '217',
                 'no_kk' => '1105070912110013',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3057,7 +3057,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             217 => 
             array (
-                'id' => 218,
+                'id' => '218',
                 'no_kk' => '1105072701120005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3071,7 +3071,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             218 => 
             array (
-                'id' => 219,
+                'id' => '219',
                 'no_kk' => '1105070912110020',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3085,7 +3085,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             219 => 
             array (
-                'id' => 220,
+                'id' => '220',
                 'no_kk' => '1105070903150001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3099,7 +3099,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             220 => 
             array (
-                'id' => 221,
+                'id' => '221',
                 'no_kk' => '1105072410070005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3113,7 +3113,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             221 => 
             array (
-                'id' => 222,
+                'id' => '222',
                 'no_kk' => '1105092712120005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3127,7 +3127,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             222 => 
             array (
-                'id' => 223,
+                'id' => '223',
                 'no_kk' => '1105071708061685',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3141,7 +3141,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             223 => 
             array (
-                'id' => 224,
+                'id' => '224',
                 'no_kk' => '1105071612080001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3155,7 +3155,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             224 => 
             array (
-                'id' => 225,
+                'id' => '225',
                 'no_kk' => '1105070502080001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3169,7 +3169,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             225 => 
             array (
-                'id' => 226,
+                'id' => '226',
                 'no_kk' => '1105070912110016',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3183,7 +3183,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             226 => 
             array (
-                'id' => 227,
+                'id' => '227',
                 'no_kk' => '1105070808110005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3197,7 +3197,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             227 => 
             array (
-                'id' => 228,
+                'id' => '228',
                 'no_kk' => '1105072310070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3211,7 +3211,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             228 => 
             array (
-                'id' => 229,
+                'id' => '229',
                 'no_kk' => '1105070311110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3225,7 +3225,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             229 => 
             array (
-                'id' => 230,
+                'id' => '230',
                 'no_kk' => '1105070808110006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3239,7 +3239,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             230 => 
             array (
-                'id' => 231,
+                'id' => '231',
                 'no_kk' => '1105071708063936',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3253,7 +3253,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             231 => 
             array (
-                'id' => 232,
+                'id' => '232',
                 'no_kk' => '1105071708062638',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3267,7 +3267,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             232 => 
             array (
-                'id' => 233,
+                'id' => '233',
                 'no_kk' => '1105071708064469',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3281,7 +3281,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             233 => 
             array (
-                'id' => 234,
+                'id' => '234',
                 'no_kk' => '1105071708060288',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3295,7 +3295,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             234 => 
             array (
-                'id' => 235,
+                'id' => '235',
                 'no_kk' => '1105070912110022',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3309,7 +3309,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             235 => 
             array (
-                'id' => 236,
+                'id' => '236',
                 'no_kk' => '1105072312110003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3323,7 +3323,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             236 => 
             array (
-                'id' => 237,
+                'id' => '237',
                 'no_kk' => '1105071808110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3337,7 +3337,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             237 => 
             array (
-                'id' => 238,
+                'id' => '238',
                 'no_kk' => '1105071708060278',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3351,7 +3351,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             238 => 
             array (
-                'id' => 239,
+                'id' => '239',
                 'no_kk' => '1105072009130001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3365,7 +3365,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             239 => 
             array (
-                'id' => 240,
+                'id' => '240',
                 'no_kk' => '1105071612080002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3379,7 +3379,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             240 => 
             array (
-                'id' => 241,
+                'id' => '241',
                 'no_kk' => '1105071809150001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3393,7 +3393,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             241 => 
             array (
-                'id' => 242,
+                'id' => '242',
                 'no_kk' => '1105072010150002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3407,7 +3407,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             242 => 
             array (
-                'id' => 243,
+                'id' => '243',
                 'no_kk' => '1105071708062461',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3421,7 +3421,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             243 => 
             array (
-                'id' => 244,
+                'id' => '244',
                 'no_kk' => '1105072701120003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3435,7 +3435,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             244 => 
             array (
-                'id' => 245,
+                'id' => '245',
                 'no_kk' => '1105071708064654',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3449,7 +3449,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             245 => 
             array (
-                'id' => 246,
+                'id' => '246',
                 'no_kk' => '1105071010110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3463,7 +3463,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             246 => 
             array (
-                'id' => 247,
+                'id' => '247',
                 'no_kk' => '1105072701120006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3477,7 +3477,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             247 => 
             array (
-                'id' => 248,
+                'id' => '248',
                 'no_kk' => '1105070703120001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3491,7 +3491,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             248 => 
             array (
-                'id' => 249,
+                'id' => '249',
                 'no_kk' => '1105072312110004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3505,7 +3505,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             249 => 
             array (
-                'id' => 250,
+                'id' => '250',
                 'no_kk' => '1105071708641224',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3519,7 +3519,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             250 => 
             array (
-                'id' => 251,
+                'id' => '251',
                 'no_kk' => '1105070311110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3533,7 +3533,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             251 => 
             array (
-                'id' => 252,
+                'id' => '252',
                 'no_kk' => '1105073008070003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3547,7 +3547,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             252 => 
             array (
-                'id' => 253,
+                'id' => '253',
                 'no_kk' => '1105072312110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3561,7 +3561,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             253 => 
             array (
-                'id' => 254,
+                'id' => '254',
                 'no_kk' => '1105070701140002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3575,7 +3575,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             254 => 
             array (
-                'id' => 255,
+                'id' => '255',
                 'no_kk' => '1105072312110007',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3589,7 +3589,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             255 => 
             array (
-                'id' => 256,
+                'id' => '256',
                 'no_kk' => '1105070809160001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3603,7 +3603,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             256 => 
             array (
-                'id' => 257,
+                'id' => '257',
                 'no_kk' => '1105070304120001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3617,7 +3617,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             257 => 
             array (
-                'id' => 258,
+                'id' => '258',
                 'no_kk' => '1105071708060880',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3631,7 +3631,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             258 => 
             array (
-                'id' => 259,
+                'id' => '259',
                 'no_kk' => '1105071708064991',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3645,7 +3645,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             259 => 
             array (
-                'id' => 260,
+                'id' => '260',
                 'no_kk' => '1105070509110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3659,7 +3659,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             260 => 
             array (
-                'id' => 261,
+                'id' => '261',
                 'no_kk' => '1105071708061908',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3673,7 +3673,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             261 => 
             array (
-                'id' => 262,
+                'id' => '262',
                 'no_kk' => '1105071212110007',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3687,7 +3687,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             262 => 
             array (
-                'id' => 263,
+                'id' => '263',
                 'no_kk' => '1105071212110005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3701,7 +3701,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             263 => 
             array (
-                'id' => 264,
+                'id' => '264',
                 'no_kk' => '1105071212110006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3715,7 +3715,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             264 => 
             array (
-                'id' => 265,
+                'id' => '265',
                 'no_kk' => '1105070910070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3729,7 +3729,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             265 => 
             array (
-                'id' => 266,
+                'id' => '266',
                 'no_kk' => '1105072404830002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3743,7 +3743,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             266 => 
             array (
-                'id' => 267,
+                'id' => '267',
                 'no_kk' => '1105072808070092',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3757,7 +3757,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             267 => 
             array (
-                'id' => 268,
+                'id' => '268',
                 'no_kk' => '1105071708065523',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3771,7 +3771,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             268 => 
             array (
-                'id' => 269,
+                'id' => '269',
                 'no_kk' => '1105070210070012',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3785,7 +3785,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             269 => 
             array (
-                'id' => 270,
+                'id' => '270',
                 'no_kk' => '1105071708063943',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3799,7 +3799,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             270 => 
             array (
-                'id' => 271,
+                'id' => '271',
                 'no_kk' => '1105072208070015',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3813,7 +3813,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             271 => 
             array (
-                'id' => 272,
+                'id' => '272',
                 'no_kk' => '1105073007100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3827,7 +3827,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             272 => 
             array (
-                'id' => 273,
+                'id' => '273',
                 'no_kk' => '1105072908070014',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3841,7 +3841,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             273 => 
             array (
-                'id' => 274,
+                'id' => '274',
                 'no_kk' => '1105070310070011',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3855,7 +3855,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             274 => 
             array (
-                'id' => 275,
+                'id' => '275',
                 'no_kk' => '1105071708065708',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3869,7 +3869,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             275 => 
             array (
-                'id' => 276,
+                'id' => '276',
                 'no_kk' => '1105071708060776',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3883,7 +3883,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             276 => 
             array (
-                'id' => 277,
+                'id' => '277',
                 'no_kk' => '1105070505140005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3897,7 +3897,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             277 => 
             array (
-                'id' => 278,
+                'id' => '278',
                 'no_kk' => '1105071708062270',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3911,7 +3911,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             278 => 
             array (
-                'id' => 279,
+                'id' => '279',
                 'no_kk' => '1105070210070022',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3925,7 +3925,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             279 => 
             array (
-                'id' => 280,
+                'id' => '280',
                 'no_kk' => '1105071708060005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3939,7 +3939,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             280 => 
             array (
-                'id' => 281,
+                'id' => '281',
                 'no_kk' => '1105071708062269',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3953,7 +3953,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             281 => 
             array (
-                'id' => 282,
+                'id' => '282',
                 'no_kk' => '1105071708061120',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3967,7 +3967,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             282 => 
             array (
-                'id' => 283,
+                'id' => '283',
                 'no_kk' => '1105072808070119',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3981,7 +3981,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             283 => 
             array (
-                'id' => 284,
+                'id' => '284',
                 'no_kk' => '1105070310070017',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -3995,7 +3995,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             284 => 
             array (
-                'id' => 285,
+                'id' => '285',
                 'no_kk' => '1105071708061681',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4009,7 +4009,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             285 => 
             array (
-                'id' => 286,
+                'id' => '286',
                 'no_kk' => '1105070310070022',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4023,7 +4023,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             286 => 
             array (
-                'id' => 287,
+                'id' => '287',
                 'no_kk' => '1105072808070111',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4037,7 +4037,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             287 => 
             array (
-                'id' => 288,
+                'id' => '288',
                 'no_kk' => '1105071708063376',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4051,7 +4051,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             288 => 
             array (
-                'id' => 289,
+                'id' => '289',
                 'no_kk' => '1105071708060837',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4065,7 +4065,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             289 => 
             array (
-                'id' => 290,
+                'id' => '290',
                 'no_kk' => '1105071708065909',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4079,7 +4079,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             290 => 
             array (
-                'id' => 291,
+                'id' => '291',
                 'no_kk' => '1105072808070122',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4093,7 +4093,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             291 => 
             array (
-                'id' => 292,
+                'id' => '292',
                 'no_kk' => '1105073112720001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4107,7 +4107,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             292 => 
             array (
-                'id' => 293,
+                'id' => '293',
                 'no_kk' => '1105072108070042',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4121,7 +4121,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             293 => 
             array (
-                'id' => 294,
+                'id' => '294',
                 'no_kk' => '1105072303090002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4135,7 +4135,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             294 => 
             array (
-                'id' => 295,
+                'id' => '295',
                 'no_kk' => '1105072908070024',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4149,7 +4149,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             295 => 
             array (
-                'id' => 296,
+                'id' => '296',
                 'no_kk' => '1105070810070012',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4163,7 +4163,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             296 => 
             array (
-                'id' => 297,
+                'id' => '297',
                 'no_kk' => '1105072808070110',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4177,7 +4177,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             297 => 
             array (
-                'id' => 298,
+                'id' => '298',
                 'no_kk' => '1105071708061897',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4191,7 +4191,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             298 => 
             array (
-                'id' => 299,
+                'id' => '299',
                 'no_kk' => '1105070210070019',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4205,7 +4205,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             299 => 
             array (
-                'id' => 300,
+                'id' => '300',
                 'no_kk' => '1105073110130004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4219,7 +4219,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             300 => 
             array (
-                'id' => 301,
+                'id' => '301',
                 'no_kk' => '1105070210070016',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4233,7 +4233,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             301 => 
             array (
-                'id' => 302,
+                'id' => '302',
                 'no_kk' => '1105071708065847',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4247,7 +4247,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             302 => 
             array (
-                'id' => 303,
+                'id' => '303',
                 'no_kk' => '1105071708060723',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4261,7 +4261,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             303 => 
             array (
-                'id' => 304,
+                'id' => '304',
                 'no_kk' => '1105071708061733',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4275,7 +4275,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             304 => 
             array (
-                'id' => 305,
+                'id' => '305',
                 'no_kk' => '1105072212110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4289,7 +4289,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             305 => 
             array (
-                'id' => 306,
+                'id' => '306',
                 'no_kk' => '1105071708060146',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4303,7 +4303,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             306 => 
             array (
-                'id' => 307,
+                'id' => '307',
                 'no_kk' => '1105071907080001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4317,7 +4317,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             307 => 
             array (
-                'id' => 308,
+                'id' => '308',
                 'no_kk' => '1105070410070005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4331,7 +4331,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             308 => 
             array (
-                'id' => 309,
+                'id' => '309',
                 'no_kk' => '1105071708062078',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4345,7 +4345,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             309 => 
             array (
-                'id' => 310,
+                'id' => '310',
                 'no_kk' => '1105071207170002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4359,7 +4359,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             310 => 
             array (
-                'id' => 311,
+                'id' => '311',
                 'no_kk' => '1105073005170001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4373,7 +4373,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             311 => 
             array (
-                'id' => 312,
+                'id' => '312',
                 'no_kk' => '1105072810140003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4387,7 +4387,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             312 => 
             array (
-                'id' => 313,
+                'id' => '313',
                 'no_kk' => '1105070503080001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4401,7 +4401,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             313 => 
             array (
-                'id' => 314,
+                'id' => '314',
                 'no_kk' => '1105071705130001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4415,7 +4415,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             314 => 
             array (
-                'id' => 315,
+                'id' => '315',
                 'no_kk' => '1105071910100002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4429,7 +4429,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             315 => 
             array (
-                'id' => 316,
+                'id' => '316',
                 'no_kk' => '1105072401120007',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4443,7 +4443,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             316 => 
             array (
-                'id' => 317,
+                'id' => '317',
                 'no_kk' => '1105071708066105',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4457,7 +4457,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             317 => 
             array (
-                'id' => 318,
+                'id' => '318',
                 'no_kk' => '1105071708061887',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4471,7 +4471,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             318 => 
             array (
-                'id' => 319,
+                'id' => '319',
                 'no_kk' => '1105072208070010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4485,7 +4485,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             319 => 
             array (
-                'id' => 320,
+                'id' => '320',
                 'no_kk' => '1105072306150001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4499,7 +4499,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             320 => 
             array (
-                'id' => 321,
+                'id' => '321',
                 'no_kk' => '1105071708061124',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4513,7 +4513,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             321 => 
             array (
-                'id' => 322,
+                'id' => '322',
                 'no_kk' => '1105102001110006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4527,7 +4527,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             322 => 
             array (
-                'id' => 323,
+                'id' => '323',
                 'no_kk' => '1105071708063350',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4541,7 +4541,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             323 => 
             array (
-                'id' => 324,
+                'id' => '324',
                 'no_kk' => '1105070810070004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4555,7 +4555,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             324 => 
             array (
-                'id' => 325,
+                'id' => '325',
                 'no_kk' => '1105070510070017',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4569,7 +4569,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             325 => 
             array (
-                'id' => 326,
+                'id' => '326',
                 'no_kk' => '1105071708065328',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4583,7 +4583,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             326 => 
             array (
-                'id' => 327,
+                'id' => '327',
                 'no_kk' => '1105070510070021',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4597,7 +4597,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             327 => 
             array (
-                'id' => 328,
+                'id' => '328',
                 'no_kk' => '1105071708060789',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4611,7 +4611,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             328 => 
             array (
-                'id' => 329,
+                'id' => '329',
                 'no_kk' => '1105071612110002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4625,7 +4625,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             329 => 
             array (
-                'id' => 330,
+                'id' => '330',
                 'no_kk' => '1105071612110000',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4639,7 +4639,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             330 => 
             array (
-                'id' => 331,
+                'id' => '331',
                 'no_kk' => '1105071708065103',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4653,7 +4653,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             331 => 
             array (
-                'id' => 332,
+                'id' => '332',
                 'no_kk' => '1105071708065515',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4667,7 +4667,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             332 => 
             array (
-                'id' => 333,
+                'id' => '333',
                 'no_kk' => '1105072808070117',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4681,7 +4681,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             333 => 
             array (
-                'id' => 334,
+                'id' => '334',
                 'no_kk' => '1105070510070010',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4695,7 +4695,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             334 => 
             array (
-                'id' => 335,
+                'id' => '335',
                 'no_kk' => '1105072908130002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4709,7 +4709,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             335 => 
             array (
-                'id' => 336,
+                'id' => '336',
                 'no_kk' => '1105071708062716',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4723,7 +4723,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             336 => 
             array (
-                'id' => 337,
+                'id' => '337',
                 'no_kk' => '1105070410070028',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4737,7 +4737,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             337 => 
             array (
-                'id' => 338,
+                'id' => '338',
                 'no_kk' => '1105071708065532',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4751,7 +4751,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             338 => 
             array (
-                'id' => 339,
+                'id' => '339',
                 'no_kk' => '1105070704150001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4765,7 +4765,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             339 => 
             array (
-                'id' => 340,
+                'id' => '340',
                 'no_kk' => '1105072805070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4779,7 +4779,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             340 => 
             array (
-                'id' => 341,
+                'id' => '341',
                 'no_kk' => '1105070304100006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4793,7 +4793,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             341 => 
             array (
-                'id' => 342,
+                'id' => '342',
                 'no_kk' => '1105070910070028',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4807,7 +4807,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             342 => 
             array (
-                'id' => 343,
+                'id' => '343',
                 'no_kk' => '1105072601110001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4821,7 +4821,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             343 => 
             array (
-                'id' => 344,
+                'id' => '344',
                 'no_kk' => '1105072309130002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4835,7 +4835,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             344 => 
             array (
-                'id' => 345,
+                'id' => '345',
                 'no_kk' => '1105070810070006',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4849,7 +4849,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             345 => 
             array (
-                'id' => 346,
+                'id' => '346',
                 'no_kk' => '1105071708063516',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4863,7 +4863,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             346 => 
             array (
-                'id' => 347,
+                'id' => '347',
                 'no_kk' => '1105072203100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4877,7 +4877,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             347 => 
             array (
-                'id' => 348,
+                'id' => '348',
                 'no_kk' => '1105073010090007',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4891,7 +4891,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             348 => 
             array (
-                'id' => 349,
+                'id' => '349',
                 'no_kk' => '1105073001120001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4905,7 +4905,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             349 => 
             array (
-                'id' => 350,
+                'id' => '350',
                 'no_kk' => '1105071304090001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4919,7 +4919,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             350 => 
             array (
-                'id' => 351,
+                'id' => '351',
                 'no_kk' => '1105072901070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4933,7 +4933,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             351 => 
             array (
-                'id' => 352,
+                'id' => '352',
                 'no_kk' => '1105070405100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4947,7 +4947,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             352 => 
             array (
-                'id' => 353,
+                'id' => '353',
                 'no_kk' => '1105070510070022',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4961,7 +4961,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             353 => 
             array (
-                'id' => 354,
+                'id' => '354',
                 'no_kk' => '1105072411080003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4975,7 +4975,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             354 => 
             array (
-                'id' => 355,
+                'id' => '355',
                 'no_kk' => '1105071708065687',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -4989,7 +4989,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             355 => 
             array (
-                'id' => 356,
+                'id' => '356',
                 'no_kk' => '1105071712080002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5003,7 +5003,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             356 => 
             array (
-                'id' => 357,
+                'id' => '357',
                 'no_kk' => '110507112090001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5017,7 +5017,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             357 => 
             array (
-                'id' => 358,
+                'id' => '358',
                 'no_kk' => '1105071708063596',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5031,7 +5031,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             358 => 
             array (
-                'id' => 359,
+                'id' => '359',
                 'no_kk' => '1105070410070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5045,7 +5045,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             359 => 
             array (
-                'id' => 360,
+                'id' => '360',
                 'no_kk' => '1105071109130001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5059,7 +5059,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             360 => 
             array (
-                'id' => 361,
+                'id' => '361',
                 'no_kk' => '1105070310070028',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5073,7 +5073,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             361 => 
             array (
-                'id' => 362,
+                'id' => '362',
                 'no_kk' => '1105070510070014',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5087,7 +5087,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             362 => 
             array (
-                'id' => 363,
+                'id' => '363',
                 'no_kk' => '1105072404080002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5101,7 +5101,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             363 => 
             array (
-                'id' => 364,
+                'id' => '364',
                 'no_kk' => '1105071708061492',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5115,7 +5115,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             364 => 
             array (
-                'id' => 365,
+                'id' => '365',
                 'no_kk' => '1105071102090001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5129,7 +5129,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             365 => 
             array (
-                'id' => 366,
+                'id' => '366',
                 'no_kk' => '1105071708061882',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5143,7 +5143,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             366 => 
             array (
-                'id' => 367,
+                'id' => '367',
                 'no_kk' => '1105077804100004',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5157,7 +5157,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             367 => 
             array (
-                'id' => 368,
+                'id' => '368',
                 'no_kk' => '1105072404120002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5171,7 +5171,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             368 => 
             array (
-                'id' => 369,
+                'id' => '369',
                 'no_kk' => '1105070910070018',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5185,7 +5185,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             369 => 
             array (
-                'id' => 370,
+                'id' => '370',
                 'no_kk' => '1105071501090002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5199,7 +5199,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             370 => 
             array (
-                'id' => 371,
+                'id' => '371',
                 'no_kk' => '1105072307850001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5213,7 +5213,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             371 => 
             array (
-                'id' => 372,
+                'id' => '372',
                 'no_kk' => '1105070204900001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5227,7 +5227,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             372 => 
             array (
-                'id' => 373,
+                'id' => '373',
                 'no_kk' => '1105075003990001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5241,7 +5241,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             373 => 
             array (
-                'id' => 374,
+                'id' => '374',
                 'no_kk' => '1105074603780001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5255,7 +5255,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             374 => 
             array (
-                'id' => 375,
+                'id' => '375',
                 'no_kk' => '1105074604560001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5269,7 +5269,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             375 => 
             array (
-                'id' => 376,
+                'id' => '376',
                 'no_kk' => '1105070207960002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5283,7 +5283,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             376 => 
             array (
-                'id' => 377,
+                'id' => '377',
                 'no_kk' => '1105070110820001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5297,7 +5297,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             377 => 
             array (
-                'id' => 378,
+                'id' => '378',
                 'no_kk' => '1105074202910001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5311,7 +5311,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             378 => 
             array (
-                'id' => 379,
+                'id' => '379',
                 'no_kk' => '1105074708750002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5325,7 +5325,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             379 => 
             array (
-                'id' => 380,
+                'id' => '380',
                 'no_kk' => '1112034304680002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5339,7 +5339,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             380 => 
             array (
-                'id' => 381,
+                'id' => '381',
                 'no_kk' => '1105075911630014',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5353,7 +5353,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             381 => 
             array (
-                'id' => 382,
+                'id' => '382',
                 'no_kk' => '1105070609890001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5367,7 +5367,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             382 => 
             array (
-                'id' => 383,
+                'id' => '383',
                 'no_kk' => '1105070206940001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5381,7 +5381,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             383 => 
             array (
-                'id' => 384,
+                'id' => '384',
                 'no_kk' => '1105073112600043',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5395,7 +5395,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             384 => 
             array (
-                'id' => 385,
+                'id' => '385',
                 'no_kk' => '1105071011650005',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5409,7 +5409,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             385 => 
             array (
-                'id' => 386,
+                'id' => '386',
                 'no_kk' => '1114020310120001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5423,7 +5423,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             386 => 
             array (
-                'id' => 387,
+                'id' => '387',
                 'no_kk' => '1105075505010001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5437,7 +5437,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             387 => 
             array (
-                'id' => 388,
+                'id' => '388',
                 'no_kk' => '1105074609100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5451,7 +5451,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             388 => 
             array (
-                'id' => 389,
+                'id' => '389',
                 'no_kk' => '1105070705930001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5465,7 +5465,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             389 => 
             array (
-                'id' => 390,
+                'id' => '390',
                 'no_kk' => '1105070505950001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5479,7 +5479,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             390 => 
             array (
-                'id' => 391,
+                'id' => '391',
                 'no_kk' => '1105010608860011',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5493,7 +5493,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             391 => 
             array (
-                'id' => 392,
+                'id' => '392',
                 'no_kk' => '1105077112840075',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5507,7 +5507,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             392 => 
             array (
-                'id' => 393,
+                'id' => '393',
                 'no_kk' => '1105077007100001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5521,7 +5521,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             393 => 
             array (
-                'id' => 394,
+                'id' => '394',
                 'no_kk' => '1105076403840001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5535,7 +5535,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             394 => 
             array (
-                'id' => 395,
+                'id' => '395',
                 'no_kk' => '1105074507780002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5549,7 +5549,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             395 => 
             array (
-                'id' => 396,
+                'id' => '396',
                 'no_kk' => '1105078805050002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5563,7 +5563,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             396 => 
             array (
-                'id' => 397,
+                'id' => '397',
                 'no_kk' => '1105072605070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5577,7 +5577,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             397 => 
             array (
-                'id' => 398,
+                'id' => '398',
                 'no_kk' => '1105090107480044',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5591,7 +5591,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             398 => 
             array (
-                'id' => 399,
+                'id' => '399',
                 'no_kk' => '1105070508930001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5605,7 +5605,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             399 => 
             array (
-                'id' => 400,
+                'id' => '400',
                 'no_kk' => '1105072508090001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5619,7 +5619,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             400 => 
             array (
-                'id' => 401,
+                'id' => '401',
                 'no_kk' => '1105070102910001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5633,7 +5633,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             401 => 
             array (
-                'id' => 402,
+                'id' => '402',
                 'no_kk' => '1105074903940002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5647,7 +5647,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             402 => 
             array (
-                'id' => 403,
+                'id' => '403',
                 'no_kk' => '1105074610970001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5661,7 +5661,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             403 => 
             array (
-                'id' => 404,
+                'id' => '404',
                 'no_kk' => '1105074211090002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5675,7 +5675,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             404 => 
             array (
-                'id' => 405,
+                'id' => '405',
                 'no_kk' => '1105076707560002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5689,7 +5689,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             405 => 
             array (
-                'id' => 406,
+                'id' => '406',
                 'no_kk' => '1112075403890001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5703,7 +5703,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             406 => 
             array (
-                'id' => 407,
+                'id' => '407',
                 'no_kk' => '1105070108780003',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5717,7 +5717,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             407 => 
             array (
-                'id' => 408,
+                'id' => '408',
                 'no_kk' => '1105073112780035',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5731,7 +5731,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             408 => 
             array (
-                'id' => 409,
+                'id' => '409',
                 'no_kk' => '1105070907790002',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5745,7 +5745,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             409 => 
             array (
-                'id' => 410,
+                'id' => '410',
                 'no_kk' => '1105073004070001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5759,7 +5759,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             410 => 
             array (
-                'id' => 411,
+                'id' => '411',
                 'no_kk' => '1105070510960001',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -5773,4391 +5773,7 @@ class DasKeluargaTableSeeder extends Seeder
             ),
             411 => 
             array (
-                'id' => 412,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            412 => 
-            array (
-                'id' => 413,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            413 => 
-            array (
-                'id' => 414,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            414 => 
-            array (
-                'id' => 415,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            415 => 
-            array (
-                'id' => 416,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            416 => 
-            array (
-                'id' => 417,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            417 => 
-            array (
-                'id' => 418,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            418 => 
-            array (
-                'id' => 419,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            419 => 
-            array (
-                'id' => 420,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            420 => 
-            array (
-                'id' => 421,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            421 => 
-            array (
-                'id' => 422,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            422 => 
-            array (
-                'id' => 423,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            423 => 
-            array (
-                'id' => 424,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            424 => 
-            array (
-                'id' => 425,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            425 => 
-            array (
-                'id' => 426,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            426 => 
-            array (
-                'id' => 427,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            427 => 
-            array (
-                'id' => 428,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            428 => 
-            array (
-                'id' => 429,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            429 => 
-            array (
-                'id' => 430,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            430 => 
-            array (
-                'id' => 431,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            431 => 
-            array (
-                'id' => 432,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            432 => 
-            array (
-                'id' => 433,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            433 => 
-            array (
-                'id' => 434,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            434 => 
-            array (
-                'id' => 435,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            435 => 
-            array (
-                'id' => 436,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            436 => 
-            array (
-                'id' => 437,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            437 => 
-            array (
-                'id' => 438,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            438 => 
-            array (
-                'id' => 439,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            439 => 
-            array (
-                'id' => 440,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            440 => 
-            array (
-                'id' => 441,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            441 => 
-            array (
-                'id' => 442,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            442 => 
-            array (
-                'id' => 443,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            443 => 
-            array (
-                'id' => 444,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            444 => 
-            array (
-                'id' => 445,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            445 => 
-            array (
-                'id' => 446,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            446 => 
-            array (
-                'id' => 447,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            447 => 
-            array (
-                'id' => 448,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            448 => 
-            array (
-                'id' => 449,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            449 => 
-            array (
-                'id' => 450,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            450 => 
-            array (
-                'id' => 451,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            451 => 
-            array (
-                'id' => 452,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            452 => 
-            array (
-                'id' => 453,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            453 => 
-            array (
-                'id' => 454,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            454 => 
-            array (
-                'id' => 455,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            455 => 
-            array (
-                'id' => 456,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            456 => 
-            array (
-                'id' => 457,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            457 => 
-            array (
-                'id' => 458,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            458 => 
-            array (
-                'id' => 459,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            459 => 
-            array (
-                'id' => 460,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            460 => 
-            array (
-                'id' => 461,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            461 => 
-            array (
-                'id' => 462,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            462 => 
-            array (
-                'id' => 463,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            463 => 
-            array (
-                'id' => 464,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            464 => 
-            array (
-                'id' => 465,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            465 => 
-            array (
-                'id' => 466,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            466 => 
-            array (
-                'id' => 467,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            467 => 
-            array (
-                'id' => 468,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            468 => 
-            array (
-                'id' => 469,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            469 => 
-            array (
-                'id' => 470,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            470 => 
-            array (
-                'id' => 471,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            471 => 
-            array (
-                'id' => 472,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            472 => 
-            array (
-                'id' => 473,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            473 => 
-            array (
-                'id' => 474,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            474 => 
-            array (
-                'id' => 475,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            475 => 
-            array (
-                'id' => 476,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            476 => 
-            array (
-                'id' => 477,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            477 => 
-            array (
-                'id' => 478,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            478 => 
-            array (
-                'id' => 479,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            479 => 
-            array (
-                'id' => 480,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            480 => 
-            array (
-                'id' => 481,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            481 => 
-            array (
-                'id' => 482,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            482 => 
-            array (
-                'id' => 483,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            483 => 
-            array (
-                'id' => 484,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            484 => 
-            array (
-                'id' => 485,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            485 => 
-            array (
-                'id' => 486,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            486 => 
-            array (
-                'id' => 487,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            487 => 
-            array (
-                'id' => 488,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            488 => 
-            array (
-                'id' => 489,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            489 => 
-            array (
-                'id' => 490,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            490 => 
-            array (
-                'id' => 491,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            491 => 
-            array (
-                'id' => 492,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            492 => 
-            array (
-                'id' => 493,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            493 => 
-            array (
-                'id' => 494,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            494 => 
-            array (
-                'id' => 495,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            495 => 
-            array (
-                'id' => 496,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            496 => 
-            array (
-                'id' => 497,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            497 => 
-            array (
-                'id' => 498,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            498 => 
-            array (
-                'id' => 499,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            499 => 
-            array (
-                'id' => 500,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-        ));
-        \DB::table('das_keluarga')->insert(array (
-            0 => 
-            array (
-                'id' => 501,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            1 => 
-            array (
-                'id' => 502,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            2 => 
-            array (
-                'id' => 503,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            3 => 
-            array (
-                'id' => 504,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            4 => 
-            array (
-                'id' => 505,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            5 => 
-            array (
-                'id' => 506,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            6 => 
-            array (
-                'id' => 507,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            7 => 
-            array (
-                'id' => 508,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            8 => 
-            array (
-                'id' => 509,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            9 => 
-            array (
-                'id' => 510,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            10 => 
-            array (
-                'id' => 511,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            11 => 
-            array (
-                'id' => 512,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            12 => 
-            array (
-                'id' => 513,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            13 => 
-            array (
-                'id' => 514,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            14 => 
-            array (
-                'id' => 515,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            15 => 
-            array (
-                'id' => 516,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            16 => 
-            array (
-                'id' => 517,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            17 => 
-            array (
-                'id' => 518,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            18 => 
-            array (
-                'id' => 519,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            19 => 
-            array (
-                'id' => 520,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            20 => 
-            array (
-                'id' => 521,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            21 => 
-            array (
-                'id' => 522,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            22 => 
-            array (
-                'id' => 523,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            23 => 
-            array (
-                'id' => 524,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            24 => 
-            array (
-                'id' => 525,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            25 => 
-            array (
-                'id' => 526,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            26 => 
-            array (
-                'id' => 527,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            27 => 
-            array (
-                'id' => 528,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            28 => 
-            array (
-                'id' => 529,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            29 => 
-            array (
-                'id' => 530,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            30 => 
-            array (
-                'id' => 531,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            31 => 
-            array (
-                'id' => 532,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            32 => 
-            array (
-                'id' => 533,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            33 => 
-            array (
-                'id' => 534,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            34 => 
-            array (
-                'id' => 535,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            35 => 
-            array (
-                'id' => 536,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            36 => 
-            array (
-                'id' => 537,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            37 => 
-            array (
-                'id' => 538,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            38 => 
-            array (
-                'id' => 539,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            39 => 
-            array (
-                'id' => 540,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            40 => 
-            array (
-                'id' => 541,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            41 => 
-            array (
-                'id' => 542,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            42 => 
-            array (
-                'id' => 543,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            43 => 
-            array (
-                'id' => 544,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            44 => 
-            array (
-                'id' => 545,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            45 => 
-            array (
-                'id' => 546,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            46 => 
-            array (
-                'id' => 547,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            47 => 
-            array (
-                'id' => 548,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            48 => 
-            array (
-                'id' => 549,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            49 => 
-            array (
-                'id' => 550,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            50 => 
-            array (
-                'id' => 551,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            51 => 
-            array (
-                'id' => 552,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            52 => 
-            array (
-                'id' => 553,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            53 => 
-            array (
-                'id' => 554,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            54 => 
-            array (
-                'id' => 555,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            55 => 
-            array (
-                'id' => 556,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            56 => 
-            array (
-                'id' => 557,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            57 => 
-            array (
-                'id' => 558,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            58 => 
-            array (
-                'id' => 559,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            59 => 
-            array (
-                'id' => 560,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            60 => 
-            array (
-                'id' => 561,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            61 => 
-            array (
-                'id' => 562,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            62 => 
-            array (
-                'id' => 563,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            63 => 
-            array (
-                'id' => 564,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            64 => 
-            array (
-                'id' => 565,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            65 => 
-            array (
-                'id' => 566,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            66 => 
-            array (
-                'id' => 567,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            67 => 
-            array (
-                'id' => 568,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            68 => 
-            array (
-                'id' => 569,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            69 => 
-            array (
-                'id' => 570,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            70 => 
-            array (
-                'id' => 571,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            71 => 
-            array (
-                'id' => 572,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            72 => 
-            array (
-                'id' => 573,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            73 => 
-            array (
-                'id' => 574,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            74 => 
-            array (
-                'id' => 575,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            75 => 
-            array (
-                'id' => 576,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            76 => 
-            array (
-                'id' => 577,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            77 => 
-            array (
-                'id' => 578,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            78 => 
-            array (
-                'id' => 579,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            79 => 
-            array (
-                'id' => 580,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            80 => 
-            array (
-                'id' => 581,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            81 => 
-            array (
-                'id' => 582,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            82 => 
-            array (
-                'id' => 583,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            83 => 
-            array (
-                'id' => 584,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            84 => 
-            array (
-                'id' => 585,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            85 => 
-            array (
-                'id' => 586,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            86 => 
-            array (
-                'id' => 587,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            87 => 
-            array (
-                'id' => 588,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            88 => 
-            array (
-                'id' => 589,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            89 => 
-            array (
-                'id' => 590,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            90 => 
-            array (
-                'id' => 591,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            91 => 
-            array (
-                'id' => 592,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            92 => 
-            array (
-                'id' => 593,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            93 => 
-            array (
-                'id' => 594,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            94 => 
-            array (
-                'id' => 595,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            95 => 
-            array (
-                'id' => 596,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            96 => 
-            array (
-                'id' => 597,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            97 => 
-            array (
-                'id' => 598,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            98 => 
-            array (
-                'id' => 599,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            99 => 
-            array (
-                'id' => 600,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            100 => 
-            array (
-                'id' => 601,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            101 => 
-            array (
-                'id' => 602,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            102 => 
-            array (
-                'id' => 603,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            103 => 
-            array (
-                'id' => 604,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            104 => 
-            array (
-                'id' => 605,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            105 => 
-            array (
-                'id' => 606,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            106 => 
-            array (
-                'id' => 607,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            107 => 
-            array (
-                'id' => 608,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            108 => 
-            array (
-                'id' => 609,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            109 => 
-            array (
-                'id' => 610,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            110 => 
-            array (
-                'id' => 611,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            111 => 
-            array (
-                'id' => 612,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            112 => 
-            array (
-                'id' => 613,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            113 => 
-            array (
-                'id' => 614,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            114 => 
-            array (
-                'id' => 615,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            115 => 
-            array (
-                'id' => 616,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            116 => 
-            array (
-                'id' => 617,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            117 => 
-            array (
-                'id' => 618,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            118 => 
-            array (
-                'id' => 619,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            119 => 
-            array (
-                'id' => 620,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            120 => 
-            array (
-                'id' => 621,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            121 => 
-            array (
-                'id' => 622,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            122 => 
-            array (
-                'id' => 623,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            123 => 
-            array (
-                'id' => 624,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            124 => 
-            array (
-                'id' => 625,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            125 => 
-            array (
-                'id' => 626,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            126 => 
-            array (
-                'id' => 627,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            127 => 
-            array (
-                'id' => 628,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            128 => 
-            array (
-                'id' => 629,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            129 => 
-            array (
-                'id' => 630,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            130 => 
-            array (
-                'id' => 631,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            131 => 
-            array (
-                'id' => 632,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            132 => 
-            array (
-                'id' => 633,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            133 => 
-            array (
-                'id' => 634,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            134 => 
-            array (
-                'id' => 635,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            135 => 
-            array (
-                'id' => 636,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            136 => 
-            array (
-                'id' => 637,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            137 => 
-            array (
-                'id' => 638,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            138 => 
-            array (
-                'id' => 639,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            139 => 
-            array (
-                'id' => 640,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            140 => 
-            array (
-                'id' => 641,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            141 => 
-            array (
-                'id' => 642,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            142 => 
-            array (
-                'id' => 643,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            143 => 
-            array (
-                'id' => 644,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            144 => 
-            array (
-                'id' => 645,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            145 => 
-            array (
-                'id' => 646,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            146 => 
-            array (
-                'id' => 647,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            147 => 
-            array (
-                'id' => 648,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            148 => 
-            array (
-                'id' => 649,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            149 => 
-            array (
-                'id' => 650,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            150 => 
-            array (
-                'id' => 651,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            151 => 
-            array (
-                'id' => 652,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            152 => 
-            array (
-                'id' => 653,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            153 => 
-            array (
-                'id' => 654,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            154 => 
-            array (
-                'id' => 655,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            155 => 
-            array (
-                'id' => 656,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            156 => 
-            array (
-                'id' => 657,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            157 => 
-            array (
-                'id' => 658,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            158 => 
-            array (
-                'id' => 659,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            159 => 
-            array (
-                'id' => 660,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            160 => 
-            array (
-                'id' => 661,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            161 => 
-            array (
-                'id' => 662,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            162 => 
-            array (
-                'id' => 663,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            163 => 
-            array (
-                'id' => 664,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            164 => 
-            array (
-                'id' => 665,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            165 => 
-            array (
-                'id' => 666,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            166 => 
-            array (
-                'id' => 667,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            167 => 
-            array (
-                'id' => 668,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            168 => 
-            array (
-                'id' => 669,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            169 => 
-            array (
-                'id' => 670,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            170 => 
-            array (
-                'id' => 671,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            171 => 
-            array (
-                'id' => 672,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            172 => 
-            array (
-                'id' => 673,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            173 => 
-            array (
-                'id' => 674,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            174 => 
-            array (
-                'id' => 675,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            175 => 
-            array (
-                'id' => 676,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            176 => 
-            array (
-                'id' => 677,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            177 => 
-            array (
-                'id' => 678,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            178 => 
-            array (
-                'id' => 679,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            179 => 
-            array (
-                'id' => 680,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            180 => 
-            array (
-                'id' => 681,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            181 => 
-            array (
-                'id' => 682,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            182 => 
-            array (
-                'id' => 683,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            183 => 
-            array (
-                'id' => 684,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            184 => 
-            array (
-                'id' => 685,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            185 => 
-            array (
-                'id' => 686,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            186 => 
-            array (
-                'id' => 687,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            187 => 
-            array (
-                'id' => 688,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            188 => 
-            array (
-                'id' => 689,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            189 => 
-            array (
-                'id' => 690,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            190 => 
-            array (
-                'id' => 691,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            191 => 
-            array (
-                'id' => 692,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            192 => 
-            array (
-                'id' => 693,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            193 => 
-            array (
-                'id' => 694,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            194 => 
-            array (
-                'id' => 695,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            195 => 
-            array (
-                'id' => 696,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            196 => 
-            array (
-                'id' => 697,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            197 => 
-            array (
-                'id' => 698,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            198 => 
-            array (
-                'id' => 699,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            199 => 
-            array (
-                'id' => 700,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            200 => 
-            array (
-                'id' => 701,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            201 => 
-            array (
-                'id' => 702,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            202 => 
-            array (
-                'id' => 703,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            203 => 
-            array (
-                'id' => 704,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            204 => 
-            array (
-                'id' => 705,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            205 => 
-            array (
-                'id' => 706,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            206 => 
-            array (
-                'id' => 707,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            207 => 
-            array (
-                'id' => 708,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            208 => 
-            array (
-                'id' => 709,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            209 => 
-            array (
-                'id' => 710,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            210 => 
-            array (
-                'id' => 711,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            211 => 
-            array (
-                'id' => 712,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            212 => 
-            array (
-                'id' => 713,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            213 => 
-            array (
-                'id' => 714,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            214 => 
-            array (
-                'id' => 715,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            215 => 
-            array (
-                'id' => 716,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            216 => 
-            array (
-                'id' => 717,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            217 => 
-            array (
-                'id' => 718,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            218 => 
-            array (
-                'id' => 719,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            219 => 
-            array (
-                'id' => 720,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            220 => 
-            array (
-                'id' => 721,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            221 => 
-            array (
-                'id' => 722,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            222 => 
-            array (
-                'id' => 723,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            223 => 
-            array (
-                'id' => 724,
-                'no_kk' => NULL,
-                'nik_kepala' => NULL,
-                'tgl_daftar' => NULL,
-                'kelas_sosial' => NULL,
-                'tgl_cetak_kk' => NULL,
-                'alamat' => NULL,
-                'dusun' => NULL,
-                'rt' => NULL,
-                'rw' => NULL,
-                'id_cluster' => NULL,
-            ),
-            224 => 
-            array (
-                'id' => 725,
+                'id' => '725',
                 'no_kk' => '1.10507040879e15',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -10169,9 +5785,9 @@ class DasKeluargaTableSeeder extends Seeder
                 'rw' => '1',
                 'id_cluster' => NULL,
             ),
-            225 => 
+            412 => 
             array (
-                'id' => 726,
+                'id' => '726',
                 'no_kk' => '1.10507630577e15',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-01',
@@ -10183,9 +5799,9 @@ class DasKeluargaTableSeeder extends Seeder
                 'rw' => '1',
                 'id_cluster' => NULL,
             ),
-            226 => 
+            413 => 
             array (
-                'id' => 727,
+                'id' => '727',
                 'no_kk' => '1.10507470771e15',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-02',
@@ -10197,9 +5813,9 @@ class DasKeluargaTableSeeder extends Seeder
                 'rw' => '1',
                 'id_cluster' => NULL,
             ),
-            227 => 
+            414 => 
             array (
-                'id' => 728,
+                'id' => '728',
                 'no_kk' => '1.10507050562e15',
                 'nik_kepala' => NULL,
                 'tgl_daftar' => '2017-01-03',
