@@ -160,6 +160,15 @@ Route::namespace('Informasi')->group(function () {
 });
 
 /**
+ * Group Routing for Informasi
+ */
+Route::namespace('SistemKomplain')->group(function () {
+    Route::group(['prefix' => 'sistem-komplain'], function () {
+        Route::get('/', ['as' => 'sistem-komplain.index', 'uses' => 'SistemKomplainController@index']);
+    });
+});
+
+/**
  * Group Routing for Data
  *
  */

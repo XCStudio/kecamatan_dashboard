@@ -154,3 +154,8 @@ function years_list()
 
     return $year_list;
 }
+
+function get_words($sentence, $count = 10) {
+    preg_match("/(?:\w+(?:\W+|$)){0,$count}/", $sentence, $matches);
+    return $matches[0];
+}

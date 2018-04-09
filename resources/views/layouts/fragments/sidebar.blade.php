@@ -86,7 +86,12 @@ use Illuminate\Support\Facades\URL;
 
                 </ul>
             </li>
+                      
             @endif
+            <li class="header">LAYANAN BANTUAN</li>
+            <li class="{{ (Request::is(['sistem-komplain/*'])? 'active' : '') }}">
+                <a href="{{ route('sistem-komplain.index') }}" title="Sistem Komplain Masyarakat"><i class="fa fa-comments"></i> <span>SIKOMA</span></a>
+            </li>
         </ul>
 
         <!-- /.sidebar-menu -->
