@@ -165,6 +165,8 @@ Route::namespace('Informasi')->group(function () {
 Route::namespace('SistemKomplain')->group(function () {
     Route::group(['prefix' => 'sistem-komplain'], function () {
         Route::get('/', ['as' => 'sistem-komplain.index', 'uses' => 'SistemKomplainController@index']);
+        Route::get('kirim', ['as' => 'sistem-komplain.kirim', 'uses' => 'SistemKomplainController@kirim']);
+        Route::post('store', ['as' => 'sistem-komplain.store', 'uses' => 'SistemKomplainController@store']);
     });
 });
 
@@ -282,6 +284,12 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
         });
     });
 });
+
+/**
+ * Utilities
+ */
+Route::any('refresh-captcha', 'HomeController@refresh_captcha')->name('refresh-captcha');
+
 
 /**
  *

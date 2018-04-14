@@ -180,6 +180,8 @@ return [
         // iSeed
         Orangehill\Iseed\IseedServiceProvider::class,
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
+        //Captcha
+        Mews\Captcha\CaptchaServiceProvider::class,
 
     ],
 
@@ -234,7 +236,7 @@ return [
         'Activation' => Cartalyst\Sentinel\Laravel\Facades\Activation::class,
         'Reminder'   => Cartalyst\Sentinel\Laravel\Facades\Reminder::class,
         'Sentinel'   => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
-
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
     ],
 
 ];

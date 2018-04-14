@@ -20,13 +20,13 @@
 
     <div class="row">
         <div class="col-md-3">
-          <a href="#" class="btn btn-warning btn-block margin-bottom"><b><i class="fa fa-paper-plane"></i> Kirim Komplain</b></a>
+          <a href="{{ route('sistem-komplain.kirim') }}" class="btn btn-warning btn-block margin-bottom"><b><i class="fa fa-paper-plane"></i> Kirim Komplain</b></a>
 
         <!-- Form Tracking Komplain -->
         <div class="box box-danger box-solid">
             <div class="box-header with-border">
               <i class="fa fa-search"></i>
-              <h3 class="box-title">Lacak Komplain Anda!{{ mt_rand(100000, 999999) }}</h3>
+              <h3 class="box-title">Lacak Komplain Anda!</h3>
           </div>
           <!-- /.box-header -->
           <div class="box-body box-profile">
@@ -137,7 +137,7 @@
                 @endif
             </div>
             <div class="box-footer clearfix">
-             
+                <span></span>
             </div>
           </div>
         </div>
