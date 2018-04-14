@@ -26,7 +26,7 @@
         <div class="box box-danger box-solid">
             <div class="box-header with-border">
               <i class="fa fa-search"></i>
-              <h3 class="box-title">Lacak Komplain Anda!</h3>
+              <h3 class="box-title">Lacak Komplain Anda!{{ mt_rand(100000, 999999) }}</h3>
           </div>
           <!-- /.box-header -->
           <div class="box-body box-profile">
@@ -98,112 +98,46 @@
               <h3 class="box-title">Daftar Komplain</h3>
             </div>
             <div class="box-body">
-                <!-- Post -->
-                <div class="post">
-                  <div class="user-block">
-                    <img class="img-circle img-bordered-sm" src="{{ asset('/bower_components/admin-lte/dist/img/user2-160x160.jpg') }}"  alt="user image">
-                        <span class="username">
-                          <a href="#">Jonathan Burke Jr.</a>
-                          <a href="#" class="pull-right btn-box-tool"><span class="label label-default">INFRASTRUKTUR</span></i></a>
-                        </span>
-                    <span class="description">Shared publicly - 7:30 PM today</span>
-                  </div>
-                  <!-- /.user-block -->
-                  <h4>
-                      <strong>LAMPU JALAN MATI TOTAL</strong>
-                  </h4>
-                  @php
-                    $sentence = "Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans."
-              
-                    
-                  @endphp
-                  <p>
-                    {!! get_words($sentence, 35) !!} ...
-                  </p>
-                  <ul class="list-inline">
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                    </li>
-                    <li class="pull-right">
-                      <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                        (5)</a></li>
-                  </ul>
-
-                  <input class="form-control input-sm" type="text" placeholder="Type a comment">
-                </div>
-                <!-- /.post -->
-
-                <!-- Post -->
-                <div class="post clearfix">
-                  <div class="user-block">
-                    <img class="img-circle img-bordered-sm" src="{{ asset('/bower_components/admin-lte/dist/img/user2-160x160.jpg') }}"  alt="User Image">
-                        <span class="username">
-                          <a href="#">Sarah Ross</a>
-                          <a href="#" class="pull-right btn-box-tool"><span class="label label-default">INFRASTRUKTUR</span></i></a>
-                        </span>
-                    <span class="description">Sent you a message - 3 days ago</span>
-                  </div>
-                  <!-- /.user-block -->
-                  <h4>
-                    <strong>Trotoar yang dijadikan tempat berdagang oleh Pedagang Kaki Lima</strong>
-                  </h4>
-                  <p>
-                    Lorem ipsum represents a long-held tradition for designers,
-                    typographers and the like. Some people hate it and argue for
-                    its demise, but others ignore the hate as they create awesome
-                    tools to help create filler text for everyone from bacon lovers
-                    to Charlie Sheen fans.
-                  </p>
-
-                  <form class="form-horizontal">
-                    <div class="form-group margin-bottom-none">
-                      <div class="col-sm-9">
-                        <input class="form-control input-sm" placeholder="Response">
-                      </div>
-                      <div class="col-sm-3">
-                        <button type="submit" class="btn btn-danger pull-right btn-block btn-sm">Send</button>
-                      </div>
+                @if(count($komplains) > 0)
+                  @foreach ($komplains as $item)
+                  <!-- Post -->
+                  <div class="post">
+                    <div class="user-block">
+                      <img class="img-circle img-bordered-sm" src="{{ asset('/bower_components/admin-lte/dist/img/user2-160x160.jpg') }}"  alt="user image">
+                          <span class="username">
+                            <a href="#">Jonathan Burke Jr.</a>
+                            <a href="#" class="pull-right btn-box-tool"><span class="label label-default">INFRASTRUKTUR</span></i></a>
+                          </span>
+                      <span class="description">Shared publicly - 7:30 PM today</span>
                     </div>
-                  </form>
-                </div>
-                <!-- /.post -->
+                    <!-- /.user-block -->
+                    <h4>
+                        <strong>LAMPU JALAN MATI TOTAL</strong>
+                    </h4>               
+                    <p>
+                      {!! get_words($item->laporan, 35) !!} ...
+                    </p>
+                    <ul class="list-inline">
+                      <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
+                      <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
+                      </li>
+                      <li class="pull-right">
+                        <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
+                          (5)</a></li>
+                    </ul>
 
-                <!-- Post -->
-                <div class="post">
-                  <div class="user-block">
-                    <img class="img-circle img-bordered-sm" src="{{ asset('/bower_components/admin-lte/dist/img/user2-160x160.jpg') }}" alt="User Image">
-                        <span class="username">
-                          <a href="#">Adam Jones</a>
-                          <a href="#" class="pull-right btn-box-tool"><span class="label label-default">INFRASTRUKTUR</span></a>
-                        </span>
-                    <span class="description">Posted 5 photos - 5 days ago</span>
+                    <input class="form-control input-sm" type="text" placeholder="Type a comment">
                   </div>
-                  <!-- /.user-block -->
-                  <h4>
-                    <strong>Keluhan Kebersihan RS Pelamonia Makassar</strong>
-                  </h4>
-                  <div class="row margin-bottom">
-                    
-                   
-                  </div>
-                  <!-- /.row -->
-
-                  <ul class="list-inline">
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
-                    <li><a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
-                    </li>
-                    <li class="pull-right">
-                      <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                        (5)</a></li>
-                  </ul>
-
-                  <input class="form-control input-sm" type="text" placeholder="Type a comment">
-                </div>
-                <!-- /.post -->
+                  <!-- /.post -->
+                   @endforeach
+                @else
+                   <h3>
+                    Data tidak tersedia!
+                  </h3>
+                @endif
             </div>
             <div class="box-footer clearfix">
-              <button type="button" class="pull-right btn btn-default" id="sendEmail">Send
-                <i class="fa fa-arrow-circle-right"></i></button>
+             
             </div>
           </div>
         </div>
