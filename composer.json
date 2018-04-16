@@ -17,6 +17,7 @@
         "laravelcollective/html": "^5.4.0",
         "maatwebsite/excel": "~2.1.0",
         "mews/captcha": "^2.1",
+        "nesbot/carbon": "^1.26",
         "orangehill/iseed": "dev-master",
         "proengsoft/laravel-jsvalidation": "^2.0",
         "yajra/laravel-datatables-oracle": "~8."

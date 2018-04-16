@@ -104,7 +104,7 @@
         <!-- /.col -->
         <div class="col-md-9">
             <!-- kirim komplain form -->
-            {!! Form::open( [ 'route' => 'sistem-komplain.store', 'method' => 'post','id' => 'form-komplain', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
+            {!! Form::model($komplain, [ 'route' => ['sistem-komplain.update', $komplain->id], 'method' => 'put','id' => 'form-komplain', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
             <div class="box box-primary">
                 <div class="box-header">
                     <i class="fa fa-paper-plane"></i>
@@ -201,7 +201,7 @@
                                             <label for="lampiran1"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview1" style="background-image: url(http://placehold.it/80x100);">
+                                            <div id="lampiranPreview1" style="background-image: url(@if(! $komplain->lampiran1 == '') {{ asset($komplain->lampiran1) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
                                             </div>
                                         </div>
                                     </div>
@@ -212,7 +212,7 @@
                                             <label for="lampiran2"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview2" style="background-image: url(http://placehold.it/80x100);">
+                                            <div id="lampiranPreview2" style="background-image: url(@if(! $komplain->lampiran2 == '') {{ asset($komplain->lampiran2) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
                                             </div>
                                         </div>
                                     </div>
@@ -223,18 +223,18 @@
                                             <label for="lampiran3"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview3" style="background-image: url(http://placehold.it/80x100);">
+                                            <div id="lampiranPreview3" style="background-image: url(@if(! $komplain->lampiran3 == '') {{ asset($komplain->lampiran3) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
-                                            <input type='file' id="lampiran4" name="lampiran3" accept=".png, .jpg, .jpeg" />
+                                            <input type='file' id="lampiran4" name="lampiran4" accept=".png, .jpg, .jpeg" />
                                             <label for="lampiran4"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview4" style="background-image: url(http://placehold.it/80x100);">
+                                            <div id="lampiranPreview4" style="background-image: url(@if(! $komplain->lampiran4 == '') {{ asset($komplain->lampiran4) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
                                             </div>
                                         </div>
                                     </div>
@@ -249,24 +249,6 @@
                                     @if ($errors->has('anonim'))
                                         <span class="help-block">
                                             <strong>{{ $errors->first('anonim') }}</strong>
-                                        </span>
-                                    @endif
-                                </div>
-                            </div>
-
-
-                            <div class="form-group{{ $errors->has('captcha') ? ' has-error' : '' }}">
-                                <label for="password" class="control-label col-md-2 col-sm-3 col-xs-12">Kode Verifikasi <span class="required">*</span></label>
-
-                                <div class="col-md-3 col-sm-3 col-xs-12">
-                                    <div class="captcha">
-                                        <span>{!! captcha_img('mini') !!}</span>
-                                        <button type="button" class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></button>
-                                    </div>
-                                    <input id="captcha" type="text" class="form-control" placeholder="Masukan Kode Verifikasi" name="captcha">
-                                    @if ($errors->has('captcha'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('captcha') }}</strong>
                                         </span>
                                     @endif
                                 </div>

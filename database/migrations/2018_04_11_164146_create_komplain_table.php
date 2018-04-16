@@ -23,7 +23,7 @@ class CreateKomplainTable extends Migration
             $table->string('judul', 255);
             $table->string('slug', 255);
             $table->text('laporan');
-            $table->boolean('anonim');
+            $table->boolean('anonim')->nullable();
             $table->string('status', 15);
             $table->integer('dilihat');
             $table->string('lampiran1', 255)->nullable();
