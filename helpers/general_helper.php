@@ -9,6 +9,7 @@
 
 use App\Models\Menu;
 use App\Models\Role;
+use Illuminate\Support\Carbon;
 
 /**
  * { function_description }
@@ -158,4 +159,10 @@ function years_list()
 function get_words($sentence, $count = 10) {
     preg_match("/(?:\w+(?:\W+|$)){0,$count}/", $sentence, $matches);
     return $matches[0];
+}
+
+function diff_for_humans($date)
+{
+    Carbon::setLocale('id');
+    return  Carbon::parse($date)->diffForHumans();
 }

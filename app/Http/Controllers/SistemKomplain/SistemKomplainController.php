@@ -14,7 +14,7 @@ class SistemKomplainController extends Controller
         $page_title = 'SIKOMA';
         $page_description = 'Sistem Komplain Masyarakat';
       
-        $komplains = Komplain::simplePaginate(10);
+        $komplains = Komplain::orderBy('created_at', 'desc')->simplePaginate(10);
         return view('sistem_komplain.index', compact('page_title', 'page_description', 'komplains'));
     }
 

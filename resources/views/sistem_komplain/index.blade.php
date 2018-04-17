@@ -108,7 +108,7 @@
                             <a href="#">{{ $item->judul }}</a>
                             <a href="#" class="pull-right btn-box-tool"><span class="label label-default">{{ $item->kategori }}</span></a>
                           </span>
-                      <span class="description">{{ $item->nama }} melaporkan - 7:30 PM today</span>
+                      <span class="description">{{ $item->nama }} melaporkan - {{ diff_for_humans($item->created_at) }}</span>
                     </div>
                     <!-- /.user-block -->
                     <p>
