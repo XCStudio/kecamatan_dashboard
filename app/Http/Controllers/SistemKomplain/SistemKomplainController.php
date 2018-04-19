@@ -56,7 +56,7 @@ class SistemKomplainController extends Controller
             $komplain = new Komplain($request->all());
             $komplain->komplain_id = mt_rand(100000, 999999);
             $komplain->slug = str_slug($komplain->judul).'-'.$komplain->komplain_id;
-            $komplain->status = 'Belum';
+            $komplain->status = 'BELUM';
             $komplain->dilihat = 0;
             $komplain->nama = $komplain->nik;
 

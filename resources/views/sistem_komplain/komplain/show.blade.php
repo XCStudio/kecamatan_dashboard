@@ -176,7 +176,7 @@
                                 </tr>
                                 <tr>
                                     <th>STATUS</th>
-                                    <td>{{ ucfirst($komplain->status) }}</td>
+                                    <td>{{ ucfirst(strtolower($komplain->status)) }}</td>
                                 </tr>
                             </table>
                             <div class="pull-right">

@@ -57,7 +57,7 @@
                                 <label class="control-label col-md-2 col-sm-3 col-xs-12">NIK <span class="required">*</span></label>
 
                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                    {!! Form::text('nik', null,['placeholder'=>'NIK', 'class'=>'form-control', 'required']) !!}
+                                    {!! Form::text('nik', null,['placeholder'=>'NIK', 'class'=>'form-control', 'required', 'readonly'=>true]) !!}
                                     @if ($errors->has('nik'))
                                         <span class="help-block">
                                             <strong>{{ $errors->first('nik') }}</strong>
@@ -175,6 +175,19 @@
                                     @if ($errors->has('anonim'))
                                         <span class="help-block">
                                             <strong>{{ $errors->first('anonim') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                            </div>
+
+                            <div class="form-group{{ $errors->has('status') ? ' has-error' : '' }}">
+                                <label class="control-label col-md-2 col-sm-3 col-xs-12">Status</label>
+
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    {!! Form::select('status', ['BELUM'=>'Belum', 'PROSES'=>'Proses', 'SELESAI'=>'Selesai'], null, ['class'=>'form-control']) !!}
+                                    @if ($errors->has('status'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('status') }}</strong>
                                         </span>
                                     @endif
                                 </div>
