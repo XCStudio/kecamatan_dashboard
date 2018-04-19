@@ -20,91 +20,16 @@
 
     <div class="row">
         <div class="col-md-3">
-            <a href="{{ route('sistem-komplain.kirim') }}" class="btn btn-warning btn-block margin-bottom"><b><i class="fa fa-paper-plane"></i> Kirim Komplain</b></a>
+            @include('sistem_komplain.komplain._tracking')
 
-            <!-- Form Tracking Komplain -->
-            {{ csrf_field() }}
+            @include('sistem_komplain.komplain._komplain_populer')
 
-            <div class="box box-danger box-solid">
-                <div class="box-header with-border">
-                    <i class="fa fa-search"></i>
-
-                    <h3 class="box-title">Lacak Komplain Anda!</h3>
-                </div>
-                <!-- /.box-header -->
-                <div class="box-body box-profile">
-                    <form class="form-horizontal">
-                        <div class="input-group input-group-sm">
-                            <input class="form-control" type="text" name="q" placeholder="Tracking ID Komplain Anda">
-                            <span class="input-group-btn"><button type="submit" class="btn btn-warning btn-flat">Lacak
-                                </button></span>
-                        </div>
-                    </form>
-                </div>
-                <!-- /.box-body -->
-            </div>
-            <!-- /.box -->
-
-            <!-- Trending Box -->
-            <div class="box box-primary">
-                <div class="box-header">
-                    <i class="fa fa-line-chart"></i>
-
-                    <h3 class="box-title">Terpopuler</h3>
-                </div>
-                <!-- /.box-header -->
-                <div class="box-body no-padding">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li><a href="#"><i class="fa fa-comment"></i> LAMPU JALAN MATI TOTAL</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Trotoar yang dijadikan tempat berdagang oleh
-                                Pedagang Kaki Lima</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Keluhan Kebersihan RS Pelamonia Makassar</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> LAMPU JALAN MATI TOTAL</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Trotoar yang dijadikan tempat berdagang oleh
-                                Pedagang Kaki Lima</a></li>
-                    </ul>
-                </div>
-                <!-- /.box-body -->
-            </div>
-            <!-- /.box -->
-
-            <!-- Trending Box -->
-            <div class="box box-success">
-                <div class="box-header">
-                    <i class="fa fa-check-square-o"></i>
-
-                    <h3 class="box-title">Kisah Sukses</h3>
-                </div>
-                <!-- /.box-header -->
-                <div class="box-body no-padding">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li><a href="#"><i class="fa fa-comment"></i> LAMPU JALAN MATI TOTAL</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Trotoar yang dijadikan tempat berdagang oleh
-                                Pedagang Kaki Lima</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Keluhan Kebersihan RS Pelamonia Makassar</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> LAMPU JALAN MATI TOTAL</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Trotoar yang dijadikan tempat berdagang oleh
-                                Pedagang Kaki Lima</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> LAMPU JALAN MATI TOTAL</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Trotoar yang dijadikan tempat berdagang oleh
-                                Pedagang Kaki Lima</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Keluhan Kebersihan RS Pelamonia Makassar</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> LAMPU JALAN MATI TOTAL</a></li>
-                        <li><a href="#"><i class="fa fa-comment"></i> Trotoar yang dijadikan tempat berdagang oleh
-                                Pedagang Kaki Lima</a></li>
-                    </ul>
-                </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-                    <a href="#" class="footer">Lihat Semua</a>
-                </div>
-            </div>
-            <!-- /.box -->
+            @include('sistem_komplain.komplain._komplain_sukses')
         </div>
         <!-- /.col -->
         <div class="col-md-9">
             <!-- kirim komplain form -->
-            {!! Form::model($komplain, [ 'route' => ['sistem-komplain.update', $komplain->id], 'method' => 'put','id' => 'form-komplain', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
+            {!! Form::open( [ 'route' => 'sistem-komplain.store', 'method' => 'post','id' => 'form-komplain', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
             <div class="box box-primary">
                 <div class="box-header">
                     <i class="fa fa-paper-plane"></i>
@@ -126,6 +51,7 @@
                     @include( 'flash::message' )
 
                     <div class="row">
+                        {{ csrf_field() }}
                         <div class="col-md-12">
                             <div class="form-group{{ $errors->has('nik') ? ' has-error' : '' }}">
                                 <label class="control-label col-md-2 col-sm-3 col-xs-12">NIK <span class="required">*</span></label>
@@ -201,7 +127,7 @@
                                             <label for="lampiran1"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview1" style="background-image: url(@if(! $komplain->lampiran1 == '') {{ asset($komplain->lampiran1) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
+                                            <div id="lampiranPreview1" style="background-image: url(http://placehold.it/80x100);">
                                             </div>
                                         </div>
                                     </div>
@@ -212,7 +138,7 @@
                                             <label for="lampiran2"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview2" style="background-image: url(@if(! $komplain->lampiran2 == '') {{ asset($komplain->lampiran2) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
+                                            <div id="lampiranPreview2" style="background-image: url(http://placehold.it/80x100);">
                                             </div>
                                         </div>
                                     </div>
@@ -223,18 +149,18 @@
                                             <label for="lampiran3"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview3" style="background-image: url(@if(! $komplain->lampiran3 == '') {{ asset($komplain->lampiran3) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
+                                            <div id="lampiranPreview3" style="background-image: url(http://placehold.it/80x100);">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
-                                            <input type='file' id="lampiran4" name="lampiran4" accept=".png, .jpg, .jpeg" />
+                                            <input type='file' id="lampiran4" name="lampiran3" accept=".png, .jpg, .jpeg" />
                                             <label for="lampiran4"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="lampiranPreview4" style="background-image: url(@if(! $komplain->lampiran4 == '') {{ asset($komplain->lampiran4) }} @else {{ 'http://placehold.it/80x100' }} @endif );">
+                                            <div id="lampiranPreview4" style="background-image: url(http://placehold.it/80x100);">
                                             </div>
                                         </div>
                                     </div>
@@ -249,6 +175,24 @@
                                     @if ($errors->has('anonim'))
                                         <span class="help-block">
                                             <strong>{{ $errors->first('anonim') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                            </div>
+
+
+                            <div class="form-group{{ $errors->has('captcha') ? ' has-error' : '' }}">
+                                <label for="password" class="control-label col-md-2 col-sm-3 col-xs-12">Kode Verifikasi <span class="required">*</span></label>
+
+                                <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <div class="captcha">
+                                        <span>{!! captcha_img('mini') !!}</span>
+                                        <button type="button" class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></button>
+                                    </div>
+                                    <input id="captcha" type="text" class="form-control" placeholder="Masukan Kode Verifikasi" name="captcha">
+                                    @if ($errors->has('captcha'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('captcha') }}</strong>
                                         </span>
                                     @endif
                                 </div>

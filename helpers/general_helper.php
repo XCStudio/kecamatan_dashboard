@@ -169,6 +169,6 @@ function diff_for_humans($date)
 
 function format_date($date)
 {
-    $dt = new Carbon($date);
+    $dt = Carbon::createFromFormat('Y-m-d H:m:s', $date);
     return $dt->toDateTimeString();
 }

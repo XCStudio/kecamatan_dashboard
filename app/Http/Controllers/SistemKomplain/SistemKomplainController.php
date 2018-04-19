@@ -14,8 +14,26 @@ class SistemKomplainController extends Controller
         $page_title = 'SIKOMA';
         $page_description = 'Sistem Komplain Masyarakat';
       
-        $komplains = Komplain::orderBy('created_at', 'desc')->simplePaginate(10);
-        return view('sistem_komplain.index', compact('page_title', 'page_description', 'komplains'));
+        $komplains = Komplain::orderBy('created_at', 'desc')->paginate(10);
+        return view('sistem_komplain.komplain.index', compact('page_title', 'page_description', 'komplains'));
+    }
+
+    public function indexKategori($slug)
+    {
+        $page_title = 'SIKOMA';
+        $page_description = 'Sistem Komplain Masyarakat';
+
+        $komplains = Komplain::where('kategori','=', $slug)->orderBy('created_at', 'desc')->paginate(10);
+        return view('sistem_komplain.komplain.index', compact('page_title', 'page_description', 'komplains'));
+    }
+
+    public function indexSukses()
+    {
+        $page_title = 'SIKOMA';
+        $page_description = 'Sistem Komplain Masyarakat';
+
+        $komplains = Komplain::where('status','=', 'Belum')->orderBy('created_at', 'desc')->paginate(10);
+        return view('sistem_komplain.komplain.index', compact('page_title', 'page_description', 'komplains'));
     }
 
     public function kirim()
@@ -23,7 +41,13 @@ class SistemKomplainController extends Controller
         $page_title = 'Kirim Komplain';
         $page_description = 'Kirim Komplain Baru';
 
-        return view('sistem_komplain.kirim', compact('page_title', 'page_description'));
+        return view('sistem_komplain.komplain.kirim', compact('page_title', 'page_description'));
+    }
+
+    public function tracking(Request $request)
+    {
+        $komplain = Komplain::where('komplain_id', '=', $request->post('q'))->firstOrFail();
+        return redirect()->route('sistem-komplain.komplain', $komplain->slug);
     }
 
     public function store(Request $request)
@@ -31,7 +55,7 @@ class SistemKomplainController extends Controller
         try{
             $komplain = new Komplain($request->all());
             $komplain->komplain_id = mt_rand(100000, 999999);
-            $komplain->slug = str_slug($komplain->judul);
+            $komplain->slug = str_slug($komplain->judul).'-'.$komplain->komplain_id;
             $komplain->status = 'Belum';
             $komplain->dilihat = 0;
             $komplain->nama = $komplain->nik;
@@ -61,6 +85,22 @@ class SistemKomplainController extends Controller
                 $komplain->lampiran2 = $path . $fileName2;
             }
 
+            if ($request->hasFile('lampiran3')) {
+                $lampiran3 = $request->file('lampiran3');
+                $fileName3 = $lampiran3->getClientOriginalName();
+                $path = "storage/komplain/".$komplain->komplain_id.'/';
+                $request->file('lampiran3')->move($path, $fileName3);
+                $komplain->lampiran3 = $path . $fileName3;
+            }
+
+            if ($request->hasFile('lampiran4')) {
+                $lampiran4 = $request->file('lampiran4');
+                $fileName4 = $lampiran4->getClientOriginalName();
+                $path = "storage/komplain/".$komplain->komplain_id.'/';
+                $request->file('lampiran3')->move($path, $fileName4);
+                $komplain->lampiran4 = $path . $fileName4;
+            }
+
             $komplain->save();
             return redirect()->route('sistem-komplain.index')->with('success', 'Komplain berhasil dikirim!');
 
@@ -80,7 +120,7 @@ class SistemKomplainController extends Controller
         $komplain = Komplain::where('komplain_id', '=', $id)->first();
         $page_title = 'Edit Komplain';
         $page_description = 'Komplain '.$komplain->komplain_id;
-        return view('sistem_komplain.edit', compact('page_title', 'page_description', 'komplain'));
+        return view('sistem_komplain.komplain.edit', compact('page_title', 'page_description', 'komplain'));
     }
 
     /**
@@ -94,6 +134,7 @@ class SistemKomplainController extends Controller
         // Save Request
         try{
             $komplain = Komplain::findOrFail($id);
+            $komplain->fill($request->all());
 
             request()->validate([
                 'nik' => 'required|numeric',
@@ -117,6 +158,22 @@ class SistemKomplainController extends Controller
                 $path = "storage/komplain/".$komplain->komplain_id.'/';
                 $request->file('lampiran2')->move($path, $fileName2);
                 $komplain->lampiran2 = $path . $fileName2;
+            }
+
+            if ($request->hasFile('lampiran3')) {
+                $lampiran3 = $request->file('lampiran3');
+                $fileName3 = $lampiran3->getClientOriginalName();
+                $path = "storage/komplain/".$komplain->komplain_id.'/';
+                $request->file('lampiran3')->move($path, $fileName3);
+                $komplain->lampiran3 = $path . $fileName3;
+            }
+
+            if ($request->hasFile('lampiran4')) {
+                $lampiran4 = $request->file('lampiran4');
+                $fileName4 = $lampiran4->getClientOriginalName();
+                $path = "storage/komplain/".$komplain->komplain_id.'/';
+                $request->file('lampiran3')->move($path, $fileName4);
+                $komplain->lampiran4 = $path . $fileName4;
             }
 
             $komplain->save();
@@ -162,6 +219,6 @@ class SistemKomplainController extends Controller
         $page_title = 'Detail Laporan';
         $page_description = $komplain->judul;
       
-        return view('sistem_komplain.show', compact('page_title', 'page_description', 'komplain'));
+        return view('sistem_komplain.komplain.show', compact('page_title', 'page_description', 'komplain'));
     }
 }
