@@ -160,7 +160,7 @@ Route::namespace('Informasi')->group(function () {
 });
 
 /**
- * Group Routing for Informasi
+ * Group Routing for Sistem Komplain
  */
 Route::namespace('SistemKomplain')->group(function () {
     Route::group(['prefix' => 'sistem-komplain'], function () {
@@ -170,6 +170,7 @@ Route::namespace('SistemKomplain')->group(function () {
         Route::get('edit/{id}', ['as' => 'sistem-komplain.edit', 'uses' => 'SistemKomplainController@edit']);
         Route::put('update/{id}', ['as' => 'sistem-komplain.update', 'uses' => 'SistemKomplainController@update']);
         Route::delete('destroy/{id}', ['as' => 'sistem-komplain.destroy', 'uses' => 'SistemKomplainController@destroy']);
+        Route::get('komplain/{slug}', ['as' => 'sistem-komplain.komplain', 'uses' => 'SistemKomplainController@show']);
     });
 });
 

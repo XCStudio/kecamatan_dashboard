@@ -144,4 +144,24 @@ class SistemKomplainController extends Controller
             return redirect()->route('sistem-komplain.index')->with('error', 'Komplain gagal dihapus!');
         }
     }
+  
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  slug
+     * @return \Illuminate\Http\Response
+     */
+    public function show($slug)
+    {
+        try{
+            $komplain = Komplain::where('slug', '=', $slug)->first();
+        }catch(Exception $ex){
+            return back()->withInput()->with('error', $ex);
+        }
+              
+        $page_title = 'Detail Laporan';
+        $page_description = $komplain->judul;
+      
+        return view('sistem_komplain.show', compact('page_title', 'page_description', 'komplain'));
+    }
 }

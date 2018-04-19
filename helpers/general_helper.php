@@ -166,3 +166,9 @@ function diff_for_humans($date)
     Carbon::setLocale('id');
     return  Carbon::parse($date)->diffForHumans();
 }
+
+function format_date($date)
+{
+    $dt = new Carbon($date);
+    return $dt->toDateTimeString();
+}
