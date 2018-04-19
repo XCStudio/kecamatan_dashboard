@@ -42,7 +42,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <style type="text/css">
         .scrollToTop{
 
-            padding:12px;
+            padding:9px 12px;
             text-align:center;
             background: whiteSmoke;
             font-weight: bold;
