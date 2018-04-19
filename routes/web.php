@@ -53,8 +53,15 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
             Route::put('update/{id}', ['as' => 'setting.role.update', 'uses' => 'Role\RoleController@update']);
             Route::delete('destroy/{id}', ['as' => 'setting.role.destroy', 'uses' => 'Role\RoleController@destroy']);
         });
-
     });
+
+    /**
+    * Group Routing for COUNTER
+    */
+    Route::group(['prefix' => 'counter'], function () {
+        Route::get('/', ['as'=>'counter.index', 'uses' => 'Counter\CounterController@index']);
+    });
+    
 });
 
 /**

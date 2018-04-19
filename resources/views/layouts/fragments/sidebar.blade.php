@@ -133,9 +133,16 @@ use Illuminate\Support\Facades\URL;
 
                     </ul>
                 </li>
-
-
             @endif
+            <li class="header">VISITOR COUNTER</li>
+            <li>
+                <a href="{{ route('counter.index') }}" title="Jumlah Pengunjung"><i
+                            class="fa fa-bullhorn"></i> <span>Total Pengunjung</span>
+                            <span class="pull-right-container">
+                <small class="label pull-right bg-red">{{ Counter::allHits() }}</small>
+              </span>
+            </a>
+            </li>
         </ul>
 
         <!-- /.sidebar-menu -->
