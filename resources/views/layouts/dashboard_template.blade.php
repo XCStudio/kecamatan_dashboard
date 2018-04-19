@@ -39,6 +39,27 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <style type="text/css">
+        .scrollToTop{
+
+            padding:12px;
+            text-align:center;
+            background: whiteSmoke;
+            font-weight: bold;
+            font-size: 12px;
+            color: #ffffff;
+            text-decoration: none;
+            position:fixed;
+            bottom:50px;
+            right:0px;
+            display:none;
+            background: #3F3F3F;
+        }
+        .scrollToTop:hover{
+            text-decoration:none;
+            color: #8996A8;;
+        }
+    </style>
 </head>
 <!--
 BODY TAG OPTIONS:
@@ -80,6 +101,7 @@ desired effect
             <!-- Control Sidebar -->
     @include('layouts.fragments.control_sidebar')
 </div>
+<button class="scrollToTop btn"><i class="fa fa-arrow-up fa-lg"></i></button>
 <!-- ./wrapper -->
 
 <!-- REQUIRED JS SCRIPTS -->
@@ -97,5 +119,25 @@ desired effect
         <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. -->
+<script type="application/javascript">
+    $(document).ready(function(){
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+
+    });
+</script>
 </body>
 </html>

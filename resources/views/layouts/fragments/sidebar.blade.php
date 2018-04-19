@@ -43,55 +43,57 @@ use Illuminate\Support\Facades\URL;
                     <li {{ (Request::is(['informasi/kalender'])? 'class=active' : '') }}><a href="{{ route('informasi.kalender') }}"><i class="fa fa-circle-o"></i>Kalender</a></li>
                 </ul>
             </li>
-            @if(! Sentinel::guest())
-            <li class="treeview {{ (Request::is(['data/*'])? 'active' : '') }}">
-                <a href="#"><i class="fa fa-database"></i> <span>Data</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li {{ (Request::is(['data/profil/*', 'data/profil/index', 'data/profil'])? 'class=active' : '') }}><a href="{{ route('data.profil.index') }}"><i class="fa fa-circle-o"></i>Profil</a></li>
-                    <li {{ (Request::is(['data/data-umum/*', 'data/data-umum/index', 'data/data-umum'])? 'class=active' : '') }}><a href="{{ route('data.data-umum.index') }}"><i class="fa fa-circle-o"></i>Data Umum</a></li>
-                    <li {{ (Request::is(['data/penduduk/*', 'data/penduduk/index', 'data/penduduk', 'data/keluarga/*', 'data/keluarga'])? 'class=active' : '') }}><a href="{{ route('data.penduduk.index') }}"><i class="fa fa-circle-o"></i>Penduduk</a></li>
-                    <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
-                    <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>
-                    <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a></li>
-                    
-                     <li class="treeview {{ (Request::is(['data/proses-ektp/*', 'data/proses-kk/*', 'data/proses-aktalahir/*','data/proses-domisili/*', 'data/proses-ektp', 'data/proses-kk', 'data/proses-aktalahir','data/proses-domisili'])? 'active' : '') }}">
-                      <a href="#"><i class="fa fa-circle-o"></i>Layanan Kecamatan
-                        <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                      </a>
-                      <ul class="treeview-menu">
-                        <li {{ (Request::is(['data/proses-ektp/*', 'data/proses-ektp/index', 'data/proses-ektp'])? 'class=active' : '') }}><a href="{{ route('data.proses-ektp.index') }}"><i class="fa fa-circle-o"></i>e-KTP</a></li>
-                        <li {{ (Request::is(['data/proses-kk/*', 'data/proses-kk/index', 'data/proses-kk'])? 'class=active' : '') }}><a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>Kartu Keluarga</a></li>
-                        <li {{ (Request::is(['data/proses-aktalahir/*', 'data/proses-aktalahir/index', 'data/proses-aktalahir'])? 'class=active' : '') }}><a href="{{ route('data.proses-aktalahir.index') }}"><i class="fa fa-circle-o"></i>Akta Lahir</a></li>
-                        <li {{ (Request::is(['data/proses-domisili/*', 'data/proses-domisili/index', 'data/proses-domisili'])? 'class=active' : '') }}><a href="{{ route('data.proses-domisili.index') }}"><i class="fa fa-circle-o"></i>Surat Domisili</a></li>
-                      </ul>
-                    </li>
-                    
-                </ul>
-            </li>
-            <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}">
-                <a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
-                    <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a href="{{ route('setting.user.index') }}"><i class="fa fa-circle-o"></i>User</a></li>
 
-                </ul>
-            </li>
-                      
-            @endif
-            <li class="header">LAYANAN BANTUAN</li>
             <li class="{{ (Request::is(['sistem-komplain/*', 'sistem-komplain'])? 'active' : '') }}">
                 <a href="{{ route('sistem-komplain.index') }}" title="Sistem Komplain Masyarakat"><i class="fa fa-comments"></i> <span>SIKOMA</span></a>
             </li>
+            <li class="header">MENU ADMINISTRATOR</li>
+            @if(! Sentinel::guest())
+                <li class="treeview {{ (Request::is(['data/*'])? 'active' : '') }}">
+                    <a href="#"><i class="fa fa-database"></i> <span>Data</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li {{ (Request::is(['data/profil/*', 'data/profil/index', 'data/profil'])? 'class=active' : '') }}><a href="{{ route('data.profil.index') }}"><i class="fa fa-circle-o"></i>Profil</a></li>
+                        <li {{ (Request::is(['data/data-umum/*', 'data/data-umum/index', 'data/data-umum'])? 'class=active' : '') }}><a href="{{ route('data.data-umum.index') }}"><i class="fa fa-circle-o"></i>Data Umum</a></li>
+                        <li {{ (Request::is(['data/penduduk/*', 'data/penduduk/index', 'data/penduduk', 'data/keluarga/*', 'data/keluarga'])? 'class=active' : '') }}><a href="{{ route('data.penduduk.index') }}"><i class="fa fa-circle-o"></i>Penduduk</a></li>
+                        <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a></li>
+                        <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program Bantuan</a></li>
+                        <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a></li>
+
+                        <li class="treeview {{ (Request::is(['data/proses-ektp/*', 'data/proses-kk/*', 'data/proses-aktalahir/*','data/proses-domisili/*', 'data/proses-ektp', 'data/proses-kk', 'data/proses-aktalahir','data/proses-domisili'])? 'active' : '') }}">
+                            <a href="#"><i class="fa fa-circle-o"></i>Layanan Kecamatan
+                        <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li {{ (Request::is(['data/proses-ektp/*', 'data/proses-ektp/index', 'data/proses-ektp'])? 'class=active' : '') }}><a href="{{ route('data.proses-ektp.index') }}"><i class="fa fa-circle-o"></i>e-KTP</a></li>
+                                <li {{ (Request::is(['data/proses-kk/*', 'data/proses-kk/index', 'data/proses-kk'])? 'class=active' : '') }}><a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>Kartu Keluarga</a></li>
+                                <li {{ (Request::is(['data/proses-aktalahir/*', 'data/proses-aktalahir/index', 'data/proses-aktalahir'])? 'class=active' : '') }}><a href="{{ route('data.proses-aktalahir.index') }}"><i class="fa fa-circle-o"></i>Akta Lahir</a></li>
+                                <li {{ (Request::is(['data/proses-domisili/*', 'data/proses-domisili/index', 'data/proses-domisili'])? 'class=active' : '') }}><a href="{{ route('data.proses-domisili.index') }}"><i class="fa fa-circle-o"></i>Surat Domisili</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}">
+                    <a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
+                        <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a href="{{ route('setting.user.index') }}"><i class="fa fa-circle-o"></i>User</a></li>
+
+                    </ul>
+                </li>
+
+
+            @endif
         </ul>
 
         <!-- /.sidebar-menu -->
