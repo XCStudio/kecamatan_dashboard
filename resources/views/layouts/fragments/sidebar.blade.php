@@ -126,6 +126,8 @@ use Illuminate\Support\Facades\URL;
               </span>
                     </a>
                     <ul class="treeview-menu">
+                        <li {{ (Request::is(['setting/komplain-kategori/*', 'setting/komplain-kategori'])? 'class=active' : '') }}><a
+                                    href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori Komplain</a></li>
                         <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a
                                     href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
                         <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a

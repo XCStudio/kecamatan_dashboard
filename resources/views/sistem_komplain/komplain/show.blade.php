@@ -168,7 +168,7 @@
                             <table class="table table-bordered table-striped">
                                 <tr>
                                     <th>KATEGORI</th>
-                                    <td>{{ $komplain->kategori }}</td>
+                                    <td>{{ $komplain->kategori_komplain->nama }}</td>
                                 </tr>
                                 <tr>
                                     <th>TANGGAL LAPOR</th>

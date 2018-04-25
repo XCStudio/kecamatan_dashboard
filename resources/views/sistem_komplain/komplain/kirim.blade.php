@@ -82,7 +82,7 @@
                                 <label class="control-label col-md-2 col-sm-3 col-xs-12">Kategori <span class="required">*</span></label>
 
                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                    {!! Form::select('kategori', ['Infrasturktur (Sanitasi, Air)'=>'Infrasturktur (Sanitasi, Air)', 'Pendidikan'=>'Pendidikan', 'Kesehatan'=>'Kesehatan', 'Anggaran Desa'=>'Anggaran Desa', 'Lainnya'=>'Lainnya'],null,['class'=>'form-control', 'required']) !!}
+                                    {!! Form::select('kategori', \App\Models\KategoriKomplain::pluck('nama', 'id'), null,['class'=>'form-control', 'id'=>'kategori', 'required']) !!}
                                     @if ($errors->has('kategori'))
                                         <span class="help-block">
                                             <strong>{{ $errors->first('kategori') }}</strong>

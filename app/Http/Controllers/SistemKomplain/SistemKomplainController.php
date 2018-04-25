@@ -14,7 +14,7 @@ class SistemKomplainController extends Controller
         $page_title = 'SIKOMA';
         $page_description = 'Sistem Komplain Masyarakat';
       
-        $komplains = Komplain::orderBy('created_at', 'desc')->paginate(10);
+        $komplains = Komplain::with('kategori_komplain')->orderBy('created_at', 'desc')->paginate(10);
         return view('sistem_komplain.komplain.index', compact('page_title', 'page_description', 'komplains'));
     }
 
@@ -104,7 +104,7 @@ class SistemKomplainController extends Controller
             $komplain->save();
             return redirect()->route('sistem-komplain.index')->with('success', 'Komplain berhasil dikirim!');
 
-        }catch (Eception $e){
+        }catch (Exception $e){
             return back()->withInput()->with('error', 'Komplain gagal dikirim!');
         }
     }
@@ -179,7 +179,7 @@ class SistemKomplainController extends Controller
             $komplain->save();
             return redirect()->route('sistem-komplain.index')->with('success', 'Komplain berhasil dikirim!');
 
-        }catch (Eception $e){
+        }catch (Exception $e){
             return back()->withInput()->with('error', 'Komplain gagal dikirim!');
         }
     }
