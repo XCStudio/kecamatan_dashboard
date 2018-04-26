@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('profil.visi-misi.index')}}">Visi & Misi</a></li>
+        <li><a href="{{route('informasi.regulasi.index')}}">Regulasi</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -38,23 +38,25 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($visiMisi, [ 'route' => ['profil.visi-misi.update', $visiMisi->id], 'method' => 'post','id' => 'form-visimisi', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                    {!!  Form::model($regulasi, [ 'route' => ['informasi.regulasi.update', $regulasi->id], 'method' => 'put','id' => 'form-visimisi', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
 
                     <div class="box-body">
 
 
                         @include( 'flash::message' )
-                        @include('profil.visi-misi.form')
+                        @include('informasi.regulasi.form')
 
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">
-                        <div class="form-group">
-                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                <a href="{{ route('profil.visi-misi.index') }}">
-                                    <button type="button" class="btn btn-default btn-sm">Batal</button>
+                        <div class="pull-right">
+                            <div class="control-group">
+                                <a href="{{ route('informasi.regulasi.index') }}">
+                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal
+                                    </button>
                                 </a>
-                                <button type="submit" class="btn btn-primary btn-sm">Simpan</button>
+                                <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -84,4 +86,62 @@
         $('.textarea').wysihtml5()
     })
 </script>
+@endpush
+@include('partials.asset_select2')
+@push('scripts')
+<script>
+    $(function () {
+
+        $('#kecamatan_id').select2({
+            placeholder: "Pilih Kecamatan",
+            allowClear: true,
+            ajax: {
+                url: '{!! route('api.profil') !!}',
+                dataType: 'json',
+                delay: 200,
+                data: function (params) {
+                    return {
+                        q: params.term,
+                        page: params.page
+                    };
+                },
+                processResults: function (data, params) {
+                    params.page = params.page || 1;
+                    return {
+                        results: data.data,
+                        pagination: {
+                            more: (params.page * 10) < data.total
+                        }
+                    };
+                }
+            },
+            minimumInputLength: 1,
+            templateResult: function (repo) {
+                if (repo.loading) return repo.nama;
+                var markup = repo.nama;
+                return markup;
+            },
+            templateSelection: function (repo) {
+                return repo.nama;
+            },
+            escapeMarkup: function (markup) {
+                return markup;
+            },
+            initSelection: function (element, callback) {
+
+                var id = '{{ env('KD_DEFAULT_PROFIL', null)}}';
+                //var id = $('#defaultProfil').val();
+                if (id !== "") {
+                    $.ajax('{!! route('api.profil-byid') !!}', {
+                        data: {id: id},
+                        dataType: "json"
+                    }).done(function (data) {
+                        callback(data);
+                    });
+                }
+            }
+        });
+    });
+</script>
+
 @endpush

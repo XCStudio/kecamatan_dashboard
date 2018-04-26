@@ -16,4 +16,9 @@ class Regulasi extends Model
             'deskripsi',
             'file_regulasi'
         ];
+
+    public function tipe()
+    {
+        return $this->hasOne(TipeRegulasi::class, 'id', 'tipe_regulasi');
+    }
 }

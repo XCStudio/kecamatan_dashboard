@@ -39,7 +39,7 @@ use Carbon\Carbon;
                         <li class="active"><a href="#tab_ektp" data-toggle="tab">Pembuatan e-KTP</a></li>
                         <li><a href="#tab_kk" data-toggle="tab">Pembuatan Kartu Keluarga</a></li>
                         <li><a href="#tab_akta" data-toggle="tab">Pembuatan Akta Kelahiran</a></li>
-                        <li><a href="#tab_domisili" data-toggle="tab">Pembuatan Surat Pindah Alamat (Domisili)</a></li>
+                        <li><a href="#tab_domisili" data-toggle="tab">Pembuatan Surat Pindah Alamat</a></li>
 
                     </ul>
                     <div class="tab-content">
@@ -111,8 +111,8 @@ use Carbon\Carbon;
                             <div class="callout callout-info">
                                 <h4>Informasi!</h4>
 
-                                <p>Untuk pengajuan Surat Pindah Alamat (Domisili), silahkan hubungi kantor kelurahan Anda
-                                    masing-masing. <br>Untuk melihat status pengajuan Surat Pindah Alamat (Domisili) tersebut Anda bisa
+                                <p>Untuk pengajuan Surat Pindah Alamat, silahkan hubungi kantor kelurahan Anda
+                                    masing-masing. <br>Untuk melihat status pengajuan Surat Pindah Alamat tersebut Anda bisa
                                     melihat tabel di bawah ini.</p>
                             </div>
                             <table class="table table-bordered table-striped" id="domisili-table" style="width: 100%;">

@@ -64,6 +64,17 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
             Route::put('update/{id}', ['as' => 'setting.komplain-kategori.update', 'uses' => 'Setting\KategoriKomplainController@update']);
             Route::delete('destroy/{id}', ['as' => 'setting.komplain-kategori.destroy', 'uses' => 'Setting\KategoriKomplainController@destroy']);
         });
+
+        // Tipe Regulasi
+        Route::group(['prefix' => 'tipe-regulasi'], function(){
+            Route::get('/', ['as' => 'setting.tipe-regulasi.index', 'uses' => 'Setting\TipeRegulasiController@index']);
+            Route::get('getdata', ['as' => 'setting.tipe-regulasi.getdata', 'uses' => 'Setting\TipeRegulasiController@getData']);
+            Route::get('create', ['as' => 'setting.tipe-regulasi.create', 'uses' => 'Setting\TipeRegulasiController@create']);
+            Route::post('store', ['as' => 'setting.tipe-regulasi.store', 'uses' => 'Setting\TipeRegulasiController@store']);
+            Route::get('edit/{id}', ['as' => 'setting.tipe-regulasi.edit', 'uses' => 'Setting\TipeRegulasiController@edit']);
+            Route::put('update/{id}', ['as' => 'setting.tipe-regulasi.update', 'uses' => 'Setting\TipeRegulasiController@update']);
+            Route::delete('destroy/{id}', ['as' => 'setting.tipe-regulasi.destroy', 'uses' => 'Setting\TipeRegulasiController@destroy']);
+        });
     });
 
     /**
@@ -143,7 +154,7 @@ Route::namespace('Informasi')->group(function () {
             Route::get('create', ['as' => 'informasi.regulasi.create', 'uses' => 'RegulasiController@create']);
             Route::post('store', ['as' => 'informasi.regulasi.store', 'uses' => 'RegulasiController@store']);
             Route::get('edit/{id}', ['as' => 'informasi.regulasi.edit', 'uses' => 'RegulasiController@edit']);
-            Route::post('update/{id}', ['as' => 'informasi.regulasi.update', 'uses' => 'RegulasiController@update']);
+            Route::put('update/{id}', ['as' => 'informasi.regulasi.update', 'uses' => 'RegulasiController@update']);
             Route::delete('destroy/{id}', ['as' => 'informasi.regulasi.destroy', 'uses' => 'RegulasiController@destroy']);
         });
 

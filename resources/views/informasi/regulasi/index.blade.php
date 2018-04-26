@@ -33,24 +33,35 @@
                 <!-- /.box-header -->
                 @if(isset($regulasi))
                     <div class="box-body">
+                        <ul class="list-group">
 
+                            @foreach($regulasi as $item)
+                                <a class="list-group-item" href="{{ route('informasi.regulasi.show', $item->id) }}" title="{{ $item->judul }}">
+                                    <h4 class="list-group-item-heading">{{ $item->judul }}</h4>
+
+                                    <p class="list-group-item-text">
+
+                                        {{ $item->deskripsi }}
+                                    </p>
+                                    @unless(!Sentinel::check())
+                                        <a href="{{ route('informasi.regulasi.edit', $item->id) }}">
+                                            <button type="submit"
+                                                    class="btn btn-xs btn-primary">Ubah
+                                            </button>
+                                        </a>&nbsp;
+                                        {!! Form::open(['method' => 'DELETE','route' => ['informasi.regulasi.destroy', $item->id],'style'=>'display:inline']) !!}
+
+                                        {!! Form::submit('Hapus', ['class' => 'btn btn-xs btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
+
+                                        {!! Form::close() !!}
+                                    @endunless
+                                </a>
+                            @endforeach
+                        </ul>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                        <div class="pull-right">
-                            @unless(!Sentinel::check())
-                                <a href="{{ route('informasi.regulasi.edit', $regulasi->id) }}">
-                                    <button type="submit"
-                                            class="btn btn-sm btn-primary">Ubah
-                                    </button>
-                                </a>&nbsp;
-                                {!! Form::open(['method' => 'DELETE','route' => ['informasi.regulasi.destroy', $regulasi->id],'style'=>'display:inline']) !!}
-
-                                {!! Form::submit('Hapus', ['class' => 'btn btn-sm btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
-
-                                {!! Form::close() !!}
-                            @endunless
-                        </div>
+                        {!! $regulasi->links() !!}
                     </div>
                 @else
                     <div class="box-body">
@@ -63,8 +74,8 @@
 
                         </div>
                     </div>
-                @endif
-                <!-- /.box-footer -->
+                    @endif
+                            <!-- /.box-footer -->
             </div>
         </div>
         <div class="col-md-4">
@@ -73,12 +84,8 @@
                     <div class="caption">
                         <div class="form-group">
                             <label>Kecamatan</label>
-                            <select name="kid" class="form-control select2" id="kid" style="width: 100%;">
-                                <option value="1" selected="selected">Aikmel</option>
-                                <option value="2">Sarang Selatan</option>
-                                <option value="3">Cipunagara</option>
-                                <option value="4">Pegaden Baru</option>
-                            </select>
+                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
+                            <select class="form-control" id="kecamatan" name="kecamatan" onchange=""></select>
                         </div>
 
                         <h3></h3>
@@ -98,16 +105,60 @@
 @endsection
 
 @include('partials.asset_select2')
-
 @push('scripts')
-<script lang="javascript">
+<script>
     $(function () {
 
-        $('.select2').select2();
-        $('#kid').on('select2:select', function (e) {
-            var url = "{{ \Illuminate\Support\Facades\URL::to('profil/visi-misi/show') }}";
-            window.location = url + "/" + this.value;
+        $('#kecamatan').select2({
+            placeholder: "Pilih Kecamatan",
+            allowClear: true,
+            ajax: {
+                url: '{!! route('api.profil') !!}',
+                dataType: 'json',
+                delay: 200,
+                data: function (params) {
+                    return {
+                        q: params.term,
+                        page: params.page
+                    };
+                },
+                processResults: function (data, params) {
+                    params.page = params.page || 1;
+                    return {
+                        results: data.data,
+                        pagination: {
+                            more: (params.page * 10) < data.total
+                        }
+                    };
+                }
+            },
+            minimumInputLength: 1,
+            templateResult: function (repo) {
+                if (repo.loading) return repo.nama;
+                var markup = repo.nama;
+                return markup;
+            },
+            templateSelection: function (repo) {
+                return repo.nama;
+            },
+            escapeMarkup: function (markup) {
+                return markup;
+            },
+            initSelection: function (element, callback) {
+
+                //var id = $(element).val();
+                var id = $('#defaultProfil').val();
+                if (id !== "") {
+                    $.ajax('{!! route('api.profil-byid') !!}', {
+                        data: {id: id},
+                        dataType: "json"
+                    }).done(function (data) {
+                        callback(data);
+                    });
+                }
+            }
         });
     });
 </script>
+
 @endpush
