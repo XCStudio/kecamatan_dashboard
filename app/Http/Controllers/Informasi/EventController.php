@@ -16,7 +16,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        Counter::count('informasi.prosedur');
+        Counter::count('informasi.event.index');
 
         $page_title = 'Event';
         $page_description = 'Kumpulan even-even terdekat';

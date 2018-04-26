@@ -17,7 +17,7 @@ class RegulasiController extends Controller
      */
     public function index()
     {
-        Counter::count('informasi.regulasi');
+        Counter::count('informasi.regulasi.index');
 
         $page_title = 'Regulasi Kecamatan';
         $page_description = 'Kumpulan regulasi';
@@ -60,7 +60,7 @@ class RegulasiController extends Controller
                  'deskripsi' => 'required',
                  'file_regulasi' => 'required'
              ]);
-             
+
              $regulasi = new Regulasi($request->all());
              $regulasi->kecamatan_id = env('KD_DEFAULT_PROFIL', null);
 

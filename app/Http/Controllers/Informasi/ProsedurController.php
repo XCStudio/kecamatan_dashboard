@@ -19,7 +19,7 @@ class ProsedurController extends Controller
     public function index()
     {
         //
-        Counter::count('informasi.prosedur');
+        Counter::count('informasi.prosedur.index');
 
         $page_title = 'Prosedur';
         $page_description = 'Kumpulan Prosedur';
