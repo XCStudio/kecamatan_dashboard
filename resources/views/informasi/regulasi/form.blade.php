@@ -1,10 +1,4 @@
 <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12">Kecamatan <span class="required">*</span></label>
-    <div class="col-md-6 col-sm-6 col-xs-12">
-        <select name="kecamatan_id" class="form-control" id="kecamatan_id" style="width: 100%;"></select>
-    </div>
-</div>
-<div class="form-group">
     <label class="control-label col-md-3 col-sm-3 col-xs-12">Tipe <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -27,7 +21,33 @@
 <div class="form-group">
     <label class="control-label col-md-3 col-sm-3 col-xs-12">File Regulasi <span class="required">*</span></label>
     <div class="col-md-6 col-sm-6 col-xs-12">
-        <input type="file" name="file_regulasi" class="form-control" >
+        <input type="file" id="file_regulasi" name="file_regulasi" class="form-control" @if(isset($regulasi->file_regulasi)) required @else {{ " " }}@endif>
+        <br>
+        <img src="@if(isset($regulasi->file_regulasi)) {{ asset($regulasi->file_regulasi) }} @else {{ "http://placehold.it/1000x600" }} @endif"  id="showgambar"
+             style="max-width:400px;max-height:250px;float:left;"/>
     </div>
 </div>
 <div class="ln_solid"></div>
+
+@push('scripts')
+<script>
+    $(function () {
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#showgambar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#file_regulasi").change(function () {
+            readURL(this);
+        });
+    });
+</script>
+@endpush

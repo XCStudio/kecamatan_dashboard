@@ -32,33 +32,42 @@
                 </div>--}}
                 <!-- /.box-header -->
                 @if(isset($regulasi))
-                    <div class="box-body">
-                        <ul class="list-group">
-
+                    <div class="box-body no-padding">
+                        <table class="table table-striped">
+                            <tr>
+                                <th>Judul Prosedur</th>
+                                <th style="width: 150px">Aksi</th>
+                            </tr>
                             @foreach($regulasi as $item)
-                                <a class="list-group-item" href="{{ route('informasi.regulasi.show', $item->id) }}" title="{{ $item->judul }}">
-                                    <h4 class="list-group-item-heading">{{ $item->judul }}</h4>
+                            <tr>
 
-                                    <p class="list-group-item-text">
+                                <td><a href="{{ route('informasi.regulasi.show', $item->id) }}">{{ $item->judul }}</a></td>
 
-                                        {{ $item->deskripsi }}
-                                    </p>
                                     @unless(!Sentinel::check())
-                                        <a href="{{ route('informasi.regulasi.edit', $item->id) }}">
-                                            <button type="submit"
-                                                    class="btn btn-xs btn-primary">Ubah
-                                            </button>
-                                        </a>&nbsp;
-                                        {!! Form::open(['method' => 'DELETE','route' => ['informasi.regulasi.destroy', $item->id],'style'=>'display:inline']) !!}
-
-                                        {!! Form::submit('Hapus', ['class' => 'btn btn-xs btn-danger', 'onclick' => 'return confirm("Yakin akan menghapus data tersebut?")']) !!}
-
-                                        {!! Form::close() !!}
+                                    <td>
+                                            <a href="{{ route('informasi.regulasi.edit', $item->id) }}">
+                                                <button type="submit"
+                                                        class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> Ubah
+                                                </button>
+                                            </a>&nbsp;
+                                            <a href="javascript:void(0)" class="" title="Hapus"
+                                               data-href="{!! route('informasi.regulasi.destroy', $item->id) !!}"
+                                               data-button="delete"
+                                               id="deleteModal">
+                                                <button type="button" class="btn btn-icon btn-danger btn-xs"><i class="fa fa-trash"
+                                                                                                                aria-hidden="true"></i>
+                                                    Hapus
+                                                </button>
+                                            </a>
+                                    </td>
                                     @endunless
-                                </a>
+
+                            </tr>
                             @endforeach
-                        </ul>
+                        </table>
                     </div>
+
+
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
                         {!! $regulasi->links() !!}
@@ -104,7 +113,10 @@
 <!-- /.content -->
 @endsection
 
+
+
 @include('partials.asset_select2')
+
 @push('scripts')
 <script>
     $(function () {
@@ -161,4 +173,7 @@
     });
 </script>
 
+@include('forms.delete-modal')
 @endpush
+
+

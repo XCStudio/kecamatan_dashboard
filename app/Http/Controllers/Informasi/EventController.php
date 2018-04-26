@@ -5,6 +5,7 @@ namespace App\Http\Controllers\INformasi;
 use App\Models\Event;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Counter;
 
 class EventController extends Controller
 {
@@ -15,6 +16,8 @@ class EventController extends Controller
      */
     public function index()
     {
+        Counter::count('informasi.prosedur');
+
         $page_title = 'Event';
         $page_description = 'Kumpulan even-even terdekat';
         $events = Event::getOpenEvents();

@@ -15,7 +15,8 @@ class DashboardProfilController extends Controller
 
     public function showProfile()
     {
-        Counter::showAndCount('dashboard.profil');
+        Counter::count('dashboard.profil');
+
         $defaultProfil = env('KD_DEFAULT_PROFIL','1');
 
         $profil = Profil::where(['kecamatan_id'=>$defaultProfil])->first();

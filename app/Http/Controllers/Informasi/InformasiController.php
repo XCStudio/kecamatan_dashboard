@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Informasi;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Counter;
 
 class InformasiController extends Controller
 {
@@ -37,6 +38,7 @@ class InformasiController extends Controller
 
     public function showPotensi()
     {
+        Counter::count('informasi.potensi');
         $data['page_title'] = 'Potensi Kecamatan';
         $data['page_description'] = 'Menampilkan Data Potensi Kecamatan';
 

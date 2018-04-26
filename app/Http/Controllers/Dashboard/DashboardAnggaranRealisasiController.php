@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use Illuminate\Http\Request;
+use Counter;
 use App\Http\Controllers\Controller;
 use App\Models\Profil;
 use Illuminate\Support\Facades\DB;
@@ -15,6 +15,8 @@ class DashboardAnggaranRealisasiController extends Controller
      **/
     public function showAnggaranDanRealisasi()
     {
+        Counter::count('dashboard.anggaran-dan-realisasi');
+
         $data['page_title'] = 'Anggaran Dan realisasi Kecamatan';
         $data['page_description'] = 'Data Anggaran Dan realisasi Kecamatan';
         $defaultProfil = env('KD_DEFAULT_PROFIL', '1');

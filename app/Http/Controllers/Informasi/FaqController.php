@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Informasi;
 use App\Models\Faq;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Counter;
 
 class FaqController extends Controller
 {
@@ -15,6 +16,8 @@ class FaqController extends Controller
      */
     public function index()
     {
+        Counter::count('informasi.faq');
+
         $page_title = 'FAQ';
         $page_description = 'Frequently Ask and Question';
 

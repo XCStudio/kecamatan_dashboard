@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use League\Flysystem\Exception;
 use Yajra\DataTables\DataTables;
+use Counter;
 
 class ProsedurController extends Controller
 {
@@ -18,6 +19,8 @@ class ProsedurController extends Controller
     public function index()
     {
         //
+        Counter::count('informasi.prosedur');
+
         $page_title = 'Prosedur';
         $page_description = 'Kumpulan Prosedur';
         $prosedurs = Prosedur::latest()->paginate(10);
@@ -53,15 +56,14 @@ class ProsedurController extends Controller
         ]);
         $prosedur = new Prosedur($request->input());
 
-        if ($file = $request->hasFile('file_prosedur')) {
-
+        if ($request->hasFile('file_prosedur')) {
             $file = $request->file('file_prosedur');
-
             $fileName = $file->getClientOriginalName();
-            $destinationPath = public_path() . '/data/informasi/prosedur/';
-            $file->move($destinationPath, $fileName);
-            $prosedur->file_prosedur = $fileName;
+            $path = "storage/regulasi/";
+            $request->file('file_prosedur')->move($path, $fileName);
+            $prosedur->file_prosedur = $path . $fileName;
         }
+
         $prosedur->save();
 
         return redirect()->route('informasi.prosedur.index')->with('success', 'Prosedur berhasil ditambah!');
@@ -128,17 +130,14 @@ class ProsedurController extends Controller
             ]);
 
 
-            if ($file = $request->hasFile('file_prosedur')) {
-
+            if ($request->hasFile('file_prosedur')) {
                 $file = $request->file('file_prosedur');
-
                 $fileName = $file->getClientOriginalName();
-                $destinationPath = public_path() . '/data/informasi/prosedur/';
-                $file->move($destinationPath, $fileName);
-                $prosedur->file_prosedur = $fileName;
-            }else{
-                $prosedur->file_prosedur =  $prosedur->file_prosedur;
+                $path = "storage/regulasi/";
+                $request->file('file_prosedur')->move($path, $fileName);
+                $prosedur->file_prosedur = $path . $fileName;
             }
+
             $prosedur->save();
 
             return redirect()->route('informasi.prosedur.index')->with('success', 'Data Prosedur berhasil disimpan!');
@@ -170,12 +169,12 @@ class ProsedurController extends Controller
                 $show_url = route('informasi.prosedur.show', $row->id);
                 $edit_url = route('informasi.prosedur.edit', $row->id);
                 $delete_url = route('informasi.prosedur.destroy', $row->id);
-                $download_url = route('informasi.prosedur.download', $row->id);
+               // $download_url = route('informasi.prosedur.download', $row->id);
 
                 $data['show_url'] = $show_url;
                 $data['edit_url'] = $edit_url;
                 $data['delete_url'] = $delete_url;
-                $data['download_url'] = $download_url;
+                //$data['download_url'] = $download_url;
 
                 return view('forms.action', $data);
             })

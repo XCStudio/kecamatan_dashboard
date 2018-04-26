@@ -50,7 +50,7 @@
                     <!-- form start -->
                     <div class="row overflow-x">
                         <div class="col-md-12">
-                            <img src="{{ asset("data/informasi/prosedur/$prosedur->file_prosedur") }}" width="100%">
+                            <img src="{{ asset($prosedur->file_prosedur) }}" width="100%">
                         </div>
                     </div>
                 </div>

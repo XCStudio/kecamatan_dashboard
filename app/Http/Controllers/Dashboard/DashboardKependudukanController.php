@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use App\Models\Desa;
 use App\Models\Kecamatan;
-use App\Models\Penduduk;
 use App\Models\Profil;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
+use Counter;
 
 class DashboardKependudukanController extends Controller
 {
@@ -17,6 +17,8 @@ class DashboardKependudukanController extends Controller
      **/
     public function showKependudukan()
     {
+        Counter::count('dashboard.kependudukan');
+
         $data['page_title'] = 'Kependudukan';
         $data['page_description'] = 'Statistik Kependudukan';
         $defaultProfil = env('KD_DEFAULT_PROFIL','1');

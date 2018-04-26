@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Dashboard;
 use App\Models\Profil;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
+use Counter;
 
 class DashboardPendidikanController extends Controller
 {
@@ -14,6 +15,8 @@ class DashboardPendidikanController extends Controller
      **/
     public function showPendidikan()
     {
+        Counter::count('dashboard.pendidikan');
+
         $data['page_title'] = 'Pendidikan';
         $data['page_description'] = 'Data Tingkat Pendidikan Kecamatan';
         $defaultProfil = env('KD_DEFAULT_PROFIL', '1');

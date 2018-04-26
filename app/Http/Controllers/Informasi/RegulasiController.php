@@ -6,6 +6,7 @@ use App\Models\Profil;
 use App\Models\Regulasi;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Counter;
 
 class RegulasiController extends Controller
 {
@@ -16,6 +17,8 @@ class RegulasiController extends Controller
      */
     public function index()
     {
+        Counter::count('informasi.regulasi');
+
         $page_title = 'Regulasi Kecamatan';
         $page_description = 'Kumpulan regulasi';
         $regulasi = Regulasi::orderBy('id', 'asc')->paginate(10);
@@ -50,7 +53,16 @@ class RegulasiController extends Controller
     {
          try {
 
+             request()->validate([
+                 //'kecamatan_id' => 'required|integer',
+                 'tipe_regulasi' => 'required',
+                 'judul' => 'required',
+                 'deskripsi' => 'required',
+                 'file_regulasi' => 'required'
+             ]);
+             
              $regulasi = new Regulasi($request->all());
+             $regulasi->kecamatan_id = env('KD_DEFAULT_PROFIL', null);
 
 
              if ($request->hasFile('file_regulasi')) {
@@ -61,12 +73,7 @@ class RegulasiController extends Controller
                  $regulasi->file_regulasi = $path . $fileName1;
              }
 
-             request()->validate([
-                 'kecamatan_id' => 'required|integer',
-                 'tipe_regulasi' => 'required',
-                 'judul' => 'required',
-                 'deskripsi' => 'required',
-             ]);
+
              $regulasi->save();
 
             return redirect()->route('informasi.regulasi.index')->with('success', 'Regulasi berhasil disimpan!');
@@ -131,7 +138,7 @@ class RegulasiController extends Controller
             }
 
             request()->validate([
-                'kecamatan_id' => 'required|integer',
+                //'kecamatan_id' => 'required|integer',
                 'tipe_regulasi' => 'required',
                 'judul' => 'required',
                 'deskripsi' => 'required',

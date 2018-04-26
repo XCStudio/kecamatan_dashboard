@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use Illuminate\Http\Request;
+use Counter;
 use App\Http\Controllers\Controller;
 use App\Models\Profil;
 use Illuminate\Support\Facades\DB;
@@ -15,6 +15,8 @@ class DashboardAnggaranDesaController extends Controller
      **/
     public function showAnggaranDesa()
     {
+        Counter::count('dashboard.anggaran-desa');
+
         $data['page_title'] = 'APBDes';
         $data['page_description'] = 'Data Anggaran Desa';
         $defaultProfil = env('KD_DEFAULT_PROFIL', '1');

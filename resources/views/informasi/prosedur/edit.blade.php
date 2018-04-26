@@ -66,24 +66,25 @@
 <!-- /.content -->
 @endsection
 
-@include(('partials.asset_select2'))
 @push('scripts')
 <script>
     $(function () {
-        $('#provinsi_id').select2({
-            placeholder: "Pilih Provinsi",
-            allowClear: true
-        });
 
-        $('#kabupaten_id').select2({
-            placeholder: "Pilih Kabupaten",
-            allowClear: true
-        });
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
 
-        $('#kecamatan_id').select2({
-            placeholder: "Pilih Kecamatan",
-            allowClear: true
+                reader.onload = function (e) {
+                    $('#showgambar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#file_prosedur").change(function () {
+            readURL(this);
         });
-    })
+    });
 </script>
 @endpush

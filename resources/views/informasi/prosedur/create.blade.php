@@ -49,9 +49,11 @@
                     <div class="pull-right">
                         <div class="control-group">
                             <a href="{{ route('informasi.prosedur.index') }}">
-                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
+                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal
+                                </button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -64,3 +66,26 @@
 </section>
 <!-- /.content -->
 @endsection
+
+@push('scripts')
+<script>
+    $(function () {
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#showgambar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#file_prosedur").change(function () {
+            readURL(this);
+        });
+    });
+</script>
+@endpush
