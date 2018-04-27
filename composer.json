@@ -11,7 +11,6 @@
         "doctrine/dbal": "^2.5",
         "fideloper/proxy": "~3.3",
         "guzzlehttp/guzzle": "^6.3",
-        "kryptonit3/counter": "5.2.*",
         "laracasts/flash": "^3.0",
         "laravel/framework": "5.5.28",
         "laravel/tinker": "~1.0",
@@ -21,7 +20,8 @@
         "nesbot/carbon": "^1.26",
         "orangehill/iseed": "dev-master",
         "proengsoft/laravel-jsvalidation": "^2.0",
-        "yajra/laravel-datatables-oracle": "~8."
+        "yajra/laravel-datatables-oracle": "~8.",
+        "jaybizzle/crawler-detect" :"1.*"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

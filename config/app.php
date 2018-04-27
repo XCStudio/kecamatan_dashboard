@@ -184,8 +184,7 @@ return [
         Mews\Captcha\CaptchaServiceProvider::class,
 
         // Visitor Counter
-        Kryptonit3\Counter\CounterServiceProvider::class,
-
+        \App\Providers\KDServiceProvider::class,
     ],
 
     /*
@@ -240,7 +239,7 @@ return [
         'Reminder'   => Cartalyst\Sentinel\Laravel\Facades\Reminder::class,
         'Sentinel'   => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
-        'Counter' => Kryptonit3\Counter\Facades\CounterFacade::class,
+        'Counter' => \App\Facades\Counter::class,
     ],
 
 ];

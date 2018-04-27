@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateKryptonit3CounterVisitorTable extends Migration
+class CreateCounterPageTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +13,9 @@ class CreateKryptonit3CounterVisitorTable extends Migration
      */
     public function up()
     {
-        Schema::create('kryptonit3_counter_visitor', function (Blueprint $table) {
+        Schema::create('das_counter_page', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('visitor')->unique();
+            $table->string('page')->unique();
         });
     }
 
@@ -25,6 +26,6 @@ class CreateKryptonit3CounterVisitorTable extends Migration
      */
     public function down()
     {
-        Schema::drop('kryptonit3_counter_visitor');
+        Schema::dropIfExists('das_counter_page');
     }
 }
