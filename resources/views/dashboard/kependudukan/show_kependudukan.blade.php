@@ -510,7 +510,10 @@
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
-                "title": "Jumlah Penduduk"
+                "title": "Jumlah Penduduk",
+                "autoGridCount" : false,
+                "gridCount" : 100,
+                "labelFrequency": 1,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Kelompok Usia",
@@ -557,7 +560,10 @@
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
-                "title": "Jumlah Penduduk"
+                "title": "Jumlah Penduduk",
+                "autoGridCount" : false,
+                "gridCount" : 100,
+                "labelFrequency": 1,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Pendidikan",
@@ -604,7 +610,10 @@
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
-                "title": "Jumlah Penduduk"
+                "title": "Jumlah Penduduk",
+                "autoGridCount" : false,
+                "gridCount" : 100,
+                "labelFrequency": 1,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Golongan Darah",
@@ -651,7 +660,10 @@
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
-                "title": "Jumlah Penduduk"
+                "title": "Jumlah Penduduk",
+                "autoGridCount" : false,
+                "gridCount" : 100,
+                "labelFrequency": 1,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Status Perkawinan",
@@ -698,7 +710,10 @@
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
-                "title": "Jumlah Penduduk"
+                "title": "Jumlah Penduduk",
+                "autoGridCount" : false,
+                "gridCount" : 100,
+                "labelFrequency": 1,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Agama",

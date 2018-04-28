@@ -190,6 +190,7 @@ class DashboardKependudukanController extends Controller
 
         // Data Grafik Kategori Usia
         $categories = DB::table('ref_umur')->orderBy('ref_umur.dari')->where('status', '=', 1)->get();
+        $colors = array(7 => '#09a8ff', 6=>'#09bcff', 5=> '#09d1ff', 4=> '#09e5ff', 3=> '#09faff', 2=> '#09fff0', 1=>'#09ffdc');
         $data = array();
         foreach ($categories as $umur) {
             $query_total = DB::table('das_penduduk')
@@ -202,7 +203,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('umur' => $umur->nama, 'value' => $total, 'color' => '#' . random_color());
+            $data[] = array('umur' => $umur->nama, 'value' => $total, 'color' => $colors[$umur->id]);
         }
 
         return $data;
@@ -217,6 +218,7 @@ class DashboardKependudukanController extends Controller
         // Data Chart Penduduk By Pendidikan
         $data = array();
         $pendidikan = DB::table('ref_pendidikan_kk')->orderBy('id')->get();
+        $colors = array(1 => '#f8f613', 2=>'#e7f813', 3=> '#d4f813', 4=> '#c1f813', 5=> '#aef813', 6=> '#9bf813', 7=>'#88f813', 8=>'#75f813', 9=>'#62f813', 10=>'#4ff813');
         foreach ($pendidikan as $val) {
             $query_total = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
@@ -228,7 +230,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('level' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+            $data[] = array('level' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
 
         }
 
@@ -244,6 +246,7 @@ class DashboardKependudukanController extends Controller
         // Data Chart Penduduk By Golongan Darah
         $data = array();
         $golongan_darah = DB::table('ref_golongan_darah')->orderBy('id')->get();
+        $colors = array(1 => '#f97d7d', 2=>'#f86565', 3=> '#f74d4d', 4=> '#f63434', 5=> '#f51c1c');
         foreach ($golongan_darah as $val) {
             $query_total = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
@@ -253,14 +256,14 @@ class DashboardKependudukanController extends Controller
             if($val->id != 13){
                 $query_total->where('das_penduduk.golongan_darah_id', '=', $val->id);
             }else{
-                $query_total->whereRaw('das_penduduk.golongan_darah_id = 0 or das_penduduk.golongan_darah_id = 13');
+                $query_total->whereRaw('das_penduduk.golongan_darah_id = 0 or das_penduduk.golongan_darah_id = 5');
             }
 
             if ($did != 'ALL') {
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('blod_type' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+            $data[] = array('blod_type' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
 
         }
 
@@ -276,6 +279,7 @@ class DashboardKependudukanController extends Controller
         // Data Chart Penduduk By Status Perkawinan
         $data = array();
         $status_kawin = DB::table('ref_kawin')->orderBy('id')->get();
+        $colors = array(1 => '#d365f8', 2=>'#c534f6', 3=> '#b40aed', 4=> '#8f08bc');
         foreach ($status_kawin as $val) {
             $query_total = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
@@ -288,7 +292,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('status' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+            $data[] = array('status' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
         }
 
         return $data;
