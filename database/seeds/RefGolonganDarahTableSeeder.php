@@ -12,39 +12,39 @@ class RefGolonganDarahTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('ref_golongan_darah')->delete();
-        
+
         \DB::table('ref_golongan_darah')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'nama' => 'A',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'nama' => 'B',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'nama' => 'AB',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'nama' => 'O',
             ),
-            
-            4 => 
+
+            4 =>
             array (
-                'id' => 4,
+                'id' => 5,
                 'nama' => 'TIDAK TAHU',
             ),
         ));
-        
-        
+
+
     }
 }
