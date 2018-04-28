@@ -251,7 +251,7 @@
                     <li><a href="#gol-darah" data-toggle="tab">Golongan Darah</a></li>
                     <li><a href="#perkawinan" data-toggle="tab">Perkawinan</a></li>
                     <li><a href="#agama" data-toggle="tab">Agama</a></li>
-                    <li><a href="#kelamin" data-toggle="tab">Kelamin</a></li>
+                    {{--<li><a href="#kelamin" data-toggle="tab">Kelamin</a></li>--}}
                     {{--<li><a href="#status-tinggal" data-toggle="tab">Status Tinggal</a></li>--}}
                 </ul>
 
@@ -286,12 +286,12 @@
                              style="width:100%; height: 300px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
-                    <div class="tab-pane" id="kelamin">
+                    {{--<<div class="tab-pane" id="kelamin">
                         <div id="chart_kelamin"
                              style="width:100%; height: 150px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
-                    {{--<div class="tab-pane" id="status-tinggal">
+                    div class="tab-pane" id="status-tinggal">
                         status tinggal
                     </div>--}}
 
@@ -442,11 +442,11 @@
         });
 
         // Load Ajax Chart Penduduk By Jenis Kelamin
-        $.ajax('{!! route('dashboard.chart-kependudukan-kelamin') !!}', {
+        /*$.ajax('{!! route('dashboard.chart-kependudukan-kelamin') !!}', {
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
             create_chart_kelamin(data);
-        });
+        });*/
     }
 
     // Create Chart Penduduk
@@ -494,7 +494,8 @@
             },
             "export": {
                 "enabled": true
-            }
+            },
+            "hideCredits": true
         });
     }
 
@@ -540,8 +541,8 @@
             },
             "export": {
                 "enabled": true
-            }
-
+            },
+            "hideCredits": true
         });
     }
 
@@ -587,8 +588,8 @@
             },
             "export": {
                 "enabled": true
-            }
-
+            },
+            "hideCredits": true
         });
     }
 
@@ -634,8 +635,8 @@
             },
             "export": {
                 "enabled": true
-            }
-
+            },
+            "hideCredits": true
         });
     }
 
@@ -681,8 +682,8 @@
             },
             "export": {
                 "enabled": true
-            }
-
+            },
+            "hideCredits": true
         });
     }
 
@@ -728,8 +729,8 @@
             },
             "export": {
                 "enabled": true
-            }
-
+            },
+            "hideCredits": true
         });
     }
 
@@ -775,8 +776,8 @@
             },
             "export": {
                 "enabled": true
-            }
-
+            },
+            "hideCredits": true
         });
     }
 
