@@ -37,49 +37,10 @@ class RefGolonganDarahTableSeeder extends Seeder
                 'id' => 4,
                 'nama' => 'O',
             ),
+            
             4 => 
             array (
-                'id' => 5,
-                'nama' => 'A+',
-            ),
-            5 => 
-            array (
-                'id' => 6,
-                'nama' => 'A-',
-            ),
-            6 => 
-            array (
-                'id' => 7,
-                'nama' => 'B+',
-            ),
-            7 => 
-            array (
-                'id' => 8,
-                'nama' => 'B-',
-            ),
-            8 => 
-            array (
-                'id' => 9,
-                'nama' => 'AB+',
-            ),
-            9 => 
-            array (
-                'id' => 10,
-                'nama' => 'AB-',
-            ),
-            10 => 
-            array (
-                'id' => 11,
-                'nama' => 'O+',
-            ),
-            11 => 
-            array (
-                'id' => 12,
-                'nama' => 'O-',
-            ),
-            12 => 
-            array (
-                'id' => 13,
+                'id' => 4,
                 'nama' => 'TIDAK TAHU',
             ),
         ));
