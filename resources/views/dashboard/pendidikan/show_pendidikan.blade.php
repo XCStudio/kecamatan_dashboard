@@ -83,7 +83,7 @@
                     <li class="active"><a href="#jumlah_penduduk" data-toggle="tab">Jumlah Penduduk</a></li>
                     <li><a href="#jumlah_siswa" data-toggle="tab">Jumlah Siswa</a></li>
                     <li><a href="#jumlah_tidak_sekolah" data-toggle="tab">Jumlah Anak Tidak Bersekolah</a></li>
-                    <li><a href="#jumlah_siswa_fasilitas" data-toggle="tab">Jumlah Siswa dan Fasilitas</a></li>
+                    {{-- <li><a href="#jumlah_siswa_fasilitas" data-toggle="tab">Jumlah Siswa dan Fasilitas</a></li> --}}
                 </ul>
 
                 <div class="tab-content">
@@ -107,11 +107,11 @@
                              style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
-                    <div class="tab-pane" id="jumlah_siswa_fasilitas">
+                    {{-- <div class="tab-pane" id="jumlah_siswa_fasilitas">
                         <div id="chart_siswa_fasilitas"
                              style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <!-- /.nav-tabs-custom -->
             </div>
@@ -215,68 +215,77 @@
          */
         var currentYear = 2015;
         var chart_penduduk_pendidikan = AmCharts.makeChart("chart_penduduk_pendidikan", {
-            "type": "pie",
             "theme": "light",
-            "dataProvider": [],
-            "valueField": "total",
-            "titleField": "level",
-            "startDuration": 0,
-            "innerRadius": 80,
-            "pullOutRadius": 20,
-            "marginTop": 30,
-            /* "titles": [{
-             //"text": "South African Economy"
-             }],*/
-            "allLabels": [{
-                    "y": "54%",
-                    "align": "center",
-                    "size": 25,
-                    "bold": true,
-                    "text": "2015",
-                    "color": "#555"
-                }, {
-                    "y": "49%",
-                    "align": "center",
-                    "size": 15,
-                    "text": "Year",
-                    "color": "#555"
-                }, {
-                    "text": "Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
-                    "align": "center",
-                    "bold": true,
-                    "size": 20,
-                    "y": 0
-                }],
-            "listeners": [{
-                "event": "init",
-                "method": function (e) {
-                    var chart = e.chart;
-
-                    function getCurrentData() {
-                        var data = chartData[currentYear];
-                        currentYear++;
-                        if (currentYear > 2018)
-                            currentYear = 2015;
-                        return data;
-                    }
-
-                    function loop() {
-                        chart.allLabels[0].text = currentYear;
-                        var data = getCurrentData();
-                        chart.animateData(data, {
-                            duration: 1000,
-                            complete: function () {
-                                setTimeout(loop, 3000);
-                            }
-                        });
-                    }
-
-                    loop();
-                }
+            "type": "serial",
+            "startDuration": 2,
+            "dataProvider": data,
+            "graphs": [{
+                "balloonText": "SD: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SD",
+                "valueField": "SD"
+            },{
+                "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTP/Sederajat",
+                "valueField": "SLTP"
+            },{
+                "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTA/Sederajat",
+                "valueField": "SLTA"
+            },{
+                "balloonText": "DIPLOMA: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "DIPLOMA",
+                "valueField": "DIPLOMA"
+            },{
+                "balloonText": "SARJANA: <b>[[value]]</b>",
+                "fillColorsField": "color",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SARJANA",
+                "valueField": "SARJANA"
             }],
+            "depth3D": 20,
+            "angle": 30,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "year",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
             "export": {
                 "enabled": true
-            }
+            },
+            "legend": {
+                "enabled": true,
+                "useGraphSettings": true
+            },
+            "allLabels": [{
+                "text": "Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": -4
+            }],
         });
     }
 

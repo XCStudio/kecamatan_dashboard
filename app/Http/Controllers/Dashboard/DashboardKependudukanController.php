@@ -307,6 +307,7 @@ class DashboardKependudukanController extends Controller
         // Data Chart Penduduk By Aama
         $data = array();
         $agama = DB::table('ref_agama')->orderBy('id')->get();
+        $colors = array(1 => '#dcaf1e', 2=>'#dc9f1e', 3=> '#dc8f1e', 4=> '#dc7f1e', 5=> '#dc6f1e', 6=> '#dc5f1e', 7=> '#dc4f1e');
         foreach ($agama as $val) {
             $query_total = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
@@ -319,7 +320,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('religion' => $val->nama, 'total' => $total, 'color' => '#'.random_color());
+            $data[] = array('religion' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
         }
 
         return $data;

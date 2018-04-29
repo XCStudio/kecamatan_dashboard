@@ -39,33 +39,25 @@
     <div id="profil-kecamatan">
         <div class="row">
             <div class="col-md-3">
-                <!-- profil Image -->
-                <div class="box box-primary">
-                    <div class="box-body box-profil">
-                        <h4 class="profil-username text-center" >Kecamatan {{ ucwords(strtolower($profil->kecamatan->nama)) }}</h4>
-                        <ul class="list-group list-group-unbordered">
-                            <li class="list-group-item">
-                                <b>Luas wilayah</b> <a class="pull-right"
-                                                       id="luaswilayah">{{ $profil->dataumum->luas_wilayah }}
-                                    km<sup>2</sup></a>
-                            </li>
-                            <li class="list-group-item">
-                                <b>Jumlah Penduduk</b> <a class="pull-right"
-                                                          id="jumlahpenduduk">{{ $profil->dataumum->jumlah_penduduk }}
-                                    orang</a>
-                            </li>
-                            <li class="list-group-item">
-                                <b>Kepadatan Penduduk</b> <a class="pull-right"
-                                                             id="kepadatanpenduduk">{{ $profil->dataumum->kepadatan_penduduk }}
-                                    orang/km<sup>2</sup></a>
-                            </li>
-                            <li class="list-group-item">
-                                <b>Kelurahan/Desa</b> <a class="pull-right" id="kelurahandesa">24</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.box-body -->
+              <!-- Widget: user widget style 1 -->
+              <div class="box box-widget widget-user-2">
+                <!-- Add the bg color to the header using any of the bg-* classes -->
+                <div class="widget-user-header bg-blue">
+
+                  <!-- /.widget-user-image -->
+                  <h3 style="margin: 5px; text-align: center; margin-bottom: 5px;font-size: 25px;font-weight: 300;">{{ ucwords(strtolower($profil->kecamatan->nama)) }}</h3>
                 </div>
+                <div class="box-footer no-padding">
+                  <ul class="nav nav-stacked">
+                    <li><a href="#"><strong>Luas Wilayah </strong><span class="pull-right badge bg-aqua" id="luaswilayah">{{ $profil->dataumum->luas_wilayah }} km</span></a></li>
+                    <li><a href="#"><strong>Jumlah Penduduk </strong><span class="pull-right badge bg-aqua" id="jumlahpenduduk">{{ $profil->dataumum->jumlah_penduduk }} orang</span></a></li>
+                    <li><a href="#"><strong>Kepadatan Penduduk </strong><span class="pull-right badge bg-aqua" id="kepadatanpenduduk">{{ $profil->dataumum->kepadatan_penduduk }} orang/km</span></a></li>
+                    <li><a href="#"><strong>Kelurahan/Desa </strong><span class="pull-right badge bg-aqua" id="kelurahandesa">24</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.widget-user -->
+
                 <!-- /.box -->
 
                 <!-- About Me Box -->
