@@ -29,9 +29,9 @@ use Carbon\Carbon;
                 <!-- The time line -->
                 <ul class="timeline">
 
-
+                @if(count($events) > 0)
                     @foreach($events as $key => $event)
-                            <!-- timeline time label -->
+                    <!-- timeline time label -->
                     <li class="time-label">
                         <span class="bg-red">
                             {!! Carbon::parse($key)->format('d M Y') !!}
@@ -39,59 +39,75 @@ use Carbon\Carbon;
                     </li>
                     <!-- /.timeline-label -->
 
-                    @foreach($event as $value)
-                            <!-- timeline item -->
-                    <li>
-                        <!-- timeline icon -->
-                        <i class="fa fa-envelope bg-blue"></i>
+                        @foreach($event as $value)
+                                <!-- timeline item -->
+                        <li>
+                            <!-- timeline icon -->
+                            <i class="fa fa-envelope @if($value->status=='OPEN') bg-blue @else bg-gray @endif"></i>
 
-                        <div class="timeline-item">
-                            <span class="time bg-blue label"><i class="fa fa-clock-o"></i>
-                                {{ Carbon::parse($value->start)->format('d M Y, H:m') }}-{{ Carbon::parse($value->end)->format('d M Y, H:m') }}</span>
+                            <div class="timeline-item">
+                                <span class="time bg-blue label"><i class="fa fa-clock-o"></i>
+                                    {{ Carbon::parse($value->start)->format('d M Y, H:m') }} s/d {{ Carbon::parse($value->end)->format('d M Y, H:m') }}</span>
 
-                            <h3 class="timeline-header"><a href="#">{{ $value->event_name }}</a></h3>
+                                <h3 class="timeline-header"><a href="#">{{ $value->event_name }}</a></h3>
 
-                            <div class="timeline-body">
-                                {!! $value->description !!}
-                            </div>
+                                <div class="timeline-body">
+                                    {!! $value->description !!}
+                                    @if($value->status== 'CLOSED' && !$value->attachment=="")
+                                        <label class="control-label">Attachment: </label>
+                                        <a href="{{ asset($value->attachment) }}" target="_blank">Download</a>
+                                    @endif
+                                </div>
 
-                            <div class="timeline-footer">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <?php
-                                        $attendants = explode(',', trim($value->attendants));
-                                        ?>
-                                        <strong>Attendants:</strong>
-                                        @foreach($attendants as $attendant)
-                                            <span class="label label-info">{{ ucfirst($attendant) }}</span>
-                                        @endforeach
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="pull-right">
-                                            @unless(!Sentinel::check())
-                                                    <a href="{!! route('informasi.event.edit', $value->id) !!}" class="btn btn-xs btn-primary"
-                                                       title="Ubah" data-button="edit"><i class="fa fa-edit"></i> Ubah
-                                                    </a>
+                                <div class="timeline-footer">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <?php
+                                            $attendants = explode(',', trim($value->attendants));
+                                            ?>
+                                            <strong>Attendants:</strong>
+                                            @foreach($attendants as $attendant)
+                                                <span class="label label-info">{{ ucfirst($attendant) }}</span>
+                                            @endforeach
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="pull-right">
+                                                @if($value->status== 'OPEN')
+                                                    @if(Sentinel::check())
+                                                        <a href="{!! route('informasi.event.edit', $value->id) !!}" class="btn btn-xs btn-primary"
+                                                           title="Ubah" data-button="edit"><i class="fa fa-edit"></i> Ubah
+                                                        </a>
 
-                                                    <a href="javascript:void(0)" class="" title="Hapus"
-                                                       data-href="{!! route('informasi.event.destroy', $value->id) !!}" data-button="delete"
-                                                       id="deleteModal">
-                                                        <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"
-                                                                                                                        aria-hidden="true"></i>
-                                                            Hapus
-                                                        </button>
-                                                    </a>
-                                            @endunless
+                                                        <a href="javascript:void(0)" class="" title="Hapus"
+                                                           data-href="{!! route('informasi.event.destroy', $value->id) !!}" data-button="delete"
+                                                           id="deleteModal">
+                                                            <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash"
+                                                                                                                            aria-hidden="true"></i>
+                                                                Hapus
+                                                            </button>
+                                                        </a>
+                                                    @else
+                                                        <span class="time label label-success">OPEN</span>
+                                                    @endif
+                                                @else
+                                                    <span class="time label label-default">CLOSED</span>
+                                                @endif
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                        @endforeach
                     @endforeach
-
-                    @endforeach
-
+                    @else
+                        <li class="time-label">
+                            <span class="bg-gray">
+                                No events available.
+                            </span>
+                        </li>
+                @endif
                     <li>
                         <i class="fa fa-clock-o bg-gray"></i>
                     </li>
@@ -101,6 +117,7 @@ use Carbon\Carbon;
             </div>
             <!-- /.col -->
             <div class="col-md-4">
+                @if(! Sentinel::guest())
                 <div class="box box-primary limit-p-width">
                     <div class="box-body">
                         <div class="caption">
@@ -114,11 +131,12 @@ use Carbon\Carbon;
                             </form>--}}
 
                             <a href="{{route('informasi.event.create')}}"
-                               class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}"><i class="fa fa-plus"></i> Tambah Event</a>
+                               class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> Tambah Event</a>
                         </div>
 
                     </div>
                 </div>
+                @endif
             </div>
         </div>
         <!-- /.row -->

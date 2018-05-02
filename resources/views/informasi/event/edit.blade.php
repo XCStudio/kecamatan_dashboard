@@ -37,15 +37,12 @@
 
                     @endif
 
-                            <!-- form start -->
-                    {!!  Form::model($event, [ 'route' => ['informasi.event.update', $event->id], 'method' => 'post','id' => 'form-event', 'class' => 'form-horizontal form-label-left' ] ) !!}
+                    <!-- form start -->
+                    {!!  Form::model($event, [ 'route' => ['informasi.event.update', $event->id], 'method' => 'post','id' => 'form-event', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
 
                     <div class="box-body">
-
-
                         @include( 'flash::message' )
-                        @include('informasi.event.form')
-
+                        @include('informasi.event.form_edit')
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">

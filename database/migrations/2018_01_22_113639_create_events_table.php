@@ -21,6 +21,7 @@ class CreateEventsTable extends Migration
             $table->string('attendants', 100);
             $table->longText('description');
             $table->string('status', 10);
+            $table->string('attachment', 255)->nullable();
             $table->timestamps();
         });
     }

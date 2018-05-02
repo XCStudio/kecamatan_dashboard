@@ -16,12 +16,13 @@ class Event extends Model
         'end',
         'description',
         'attendants',
-        'status'
+        'status',
+        'attachment'
     ];
 
     public static function getOpenEvents()
     {
-        $events = self::where(['status'=>'OPEN'])->get()->groupBy(function($item)
+        $events = self::get()->groupBy(function($item)
         {
             return Carbon::parse($item->start)->format('d-M-y');
         });

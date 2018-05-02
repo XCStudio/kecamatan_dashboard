@@ -310,6 +310,7 @@
          * Create the chart
          */
         var chart = AmCharts.makeChart( "chartdiv", {
+            "hideCredits": true,
             "type": "pie",
             "theme": "light",
             "dataProvider": chartData,

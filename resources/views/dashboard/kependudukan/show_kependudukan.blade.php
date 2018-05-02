@@ -85,9 +85,9 @@
                 <div class="info-box-content">
                     <span class="info-box-text">Penduduk</span>
                     <span class="info-box-number" id="total_penduduk">{!! $total_penduduk !!}</span>
-                    <a id="hrefpenduduk" class="small-box-footer"
-                       href="#" onclick="goto_detail('C')">Detail Info <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    @if(! Sentinel::guest())
+                    <a id="hrefpenduduk" class="small-box-footer" href="#">Detail Info <i class="fa fa-arrow-circle-right"></i></a>
+                    @endif
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -101,10 +101,9 @@
                 <div class="info-box-content">
                     <span class="info-box-text">Laki-Laki</span>
                     <span class="info-box-number" id="total_lakilaki">{!! $total_lakilaki !!}</span>
-                    <a id="hrefpenduduklakilaki" class="small-box-footer"
-                       href="#" onclick="goto_detail('L')">Detail Info
-                        <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    @if(! Sentinel::guest())
+                    <a id="hrefpenduduklakilaki" class="small-box-footer" href="#">Detail Info <i class="fa fa-arrow-circle-right"></i></a>
+                    @endif
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -118,10 +117,9 @@
                 <div class="info-box-content">
                     <span class="info-box-text">Perempuan</span>
                     <span class="info-box-number" id="total_perempuan">{!! $total_perempuan !!}</span>
-                    <a id="hrefpendudukperempuan" class="small-box-footer"
-                       href="#" onclick="goto_detail('P')">Detail
-                        Info
-                        <i class="fa fa-arrow-circle-right"></i></a>
+                    @if(! Sentinel::guest())
+                    <a id="hrefpendudukperempuan" class="small-box-footer" href="#">Detail Info <i class="fa fa-arrow-circle-right"></i></a>
+                    @endif
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -136,10 +134,9 @@
                 <div class="info-box-content">
                     <span class="info-box-text">Disabilitas</span>
                     <span class="info-box-number" id="total_disabilitas">{!! $total_disabilitas !!}</span>
-                    <a id="hrefpendudukcacat" class="small-box-footer"
-                       href="#" onclick="goto_detail('D')">Detail Info
-                        <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    @if(! Sentinel::guest())
+                    <a id="hrefpendudukcacat" class="small-box-footer" href="#">Detail Info <i class="fa fa-arrow-circle-right"></i></a>
+                    @endif
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -148,8 +145,6 @@
         <!-- /.col -->
         <!-- fix for small devices only -->
         <div class="clearfix visible-sm-block"></div>
-
-
         <!-- /.col -->
         <!-- /.col -->
     </div>
@@ -162,12 +157,8 @@
                     <h3 class="box-title">Grafik Penduduk Per Tahun</h3>
 
                     <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
-                                    class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i
-                                    class="fa fa-times"></i>
-                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                     </div>
                 </div>
                 <div class="box-body">
@@ -177,8 +168,7 @@
                                 <strong></strong>
                             </p>
 
-                            <div id="chart_pertumbuhan_penduduk"
-                                 style="width: 100%; height: 300px; overflow: visible; text-align: left;"></div>
+                            <div id="chart_pertumbuhan_penduduk" style="width: 100%; height: 300px; overflow: visible; text-align: left;"></div>
                         </div>
                     </div>
                 </div>
@@ -198,8 +188,7 @@
                     <div class="progress">
                         <div id="ktp_persen" class="progress-bar" style="width: {!! $ktp_persen_terpenuhi !!}%"></div>
                     </div>
-                    <span id="ktp_terpenuhi" class="progress-description">{!! $ktp_persen_terpenuhi !!}
-                        % Jiwa Terpenuhi</span>
+                    <span id="ktp_terpenuhi" class="progress-description">{!! $ktp_persen_terpenuhi !!}% Jiwa Tidak Terpenuhi</span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -216,7 +205,7 @@
                     <div class="progress">
                         <div id="akta_persen" class="progress-bar" style="width: {!! $akta_persen_terpenuhi !!}%"></div>
                     </div>
-                    <span id="akta_terpenuhi" class="progress-description">{!! $akta_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
+                    <span id="akta_terpenuhi" class="progress-description">{!! $akta_persen_terpenuhi !!}% Jiwa Tidak Terpenuhi</span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -227,15 +216,32 @@
 
                 <div class="info-box-content">
                     <span class="info-box-number">Akta Nikah</span>
-                    <span class="info-box-text" id="data_nikah">{!! $aktanikah_terpenuhi !!}
-                        dari {!! $total_penduduk !!}
+                    <span class="info-box-text" id="data_nikah">{!! $aktanikah_terpenuhi !!}dari {!! $total_penduduk !!}
                         Jiwa Terpenuhi</span>
 
                     <div class="progress">
                         <div id="nikah_persen" class="progress-bar"
                              style="width: {!! $aktanikah_persen_terpenuhi !!}%"></div>
                     </div>
-                    <span id="nikah_terpenuhi" class="progress-description">{!! $aktanikah_persen_terpenuhi !!}% Jiwa Terpenuhi</span>
+                    <span id="nikah_terpenuhi" class="progress-description">{!! $aktanikah_persen_terpenuhi !!}% Jiwa Tidak Terpenuhi</span>
+                </div>
+                <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+
+            <div class="info-box bg-black">
+                <span class="info-box-icon"><i class="ion ion-ios-minus-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-number">Meninggal</span>
+                    <span class="info-box-text" id="data_nikah">{!! $aktanikah_terpenuhi !!}dari {!! $total_penduduk !!}
+                        Jiwa Terpenuhi</span>
+
+                    <div class="progress">
+                        <div id="nikah_persen" class="progress-bar"
+                             style="width: {!! $aktanikah_persen_terpenuhi !!}%"></div>
+                    </div>
+                    <span id="nikah_terpenuhi" class="progress-description">{!! $aktanikah_persen_terpenuhi !!}% Jiwa Tidak Terpenuhi</span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -305,7 +311,7 @@
 </section>
 <!-- /.content -->
 @endsection
-
+@include('partials.asset_datatables')
 @include('partials.asset_amcharts')
 @include('partials.asset_select2')
 @push('scripts')
@@ -388,15 +394,15 @@
 
             $('#data_ktp').html(data.ktp_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
             $('#ktp_persen').css('width', data.ktp_persen_terpenuhi + '%');
-            $('#ktp_terpenuhi').html(data.ktp_persen_terpenuhi + '% Jiwa Terpenuhi');
+            $('#ktp_terpenuhi').html(data.ktp_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
 
             $('#data_akta').html(data.akta_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
             $('#akta_persen').css('width', data.akta_persen_terpenuhi + '%');
-            $('#akta_terpenuhi').html(data.akta_persen_terpenuhi + '% Jiwa Terpenuhi');
+            $('#akta_terpenuhi').html(data.akta_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
 
             $('#data_nikah').html(data.aktanikah_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
             $('#nikah_persen').css('width', data.aktanikah_persen_terpenuhi + '%');
-            $('#nikah_terpenuhi').html(data.aktanikah_persen_terpenuhi + '% Jiwa Terpenuhi');
+            $('#nikah_terpenuhi').html(data.aktanikah_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
         });
 
         // Load Ajax Chart Pertumbuhan Penduduk
@@ -462,20 +468,30 @@
                 "axisAlpha": 0,
                 "position": "left"
             }],
-            "graphs": [{
-                "id": "g1",
-                "balloonText": "[[category]]<br><b><span style='font-size:14px;'>[[value]]</span></b>",
-                "bullet": "round",
-                "bulletSize": 8,
-                "lineColor": "#d1655d",
-                "lineThickness": 2,
-                "negativeLineColor": "#637bb6",
-                "type": "smoothedLine",
-                "valueField": "value",
-                /*"balloon":{
-                 "drop":true
-                 }*/
-            }],
+            "graphs": [
+                {
+                    "id": "g1",
+                    "balloonText": "Laki-Laki<br><b><span style='font-size:14px;'>[[value]]</span></b>",
+                    "bullet": "round",
+                    "bulletSize": 8,
+                    "lineColor": "#00c0ef",
+                    "lineThickness": 2,
+                    "negativeLineColor": "#637bb6",
+                    "type": "smoothedLine",
+                    "valueField": "value_lk",
+                },
+                {
+                    "id": "gp",
+                    "balloonText": "Perempuan<br><b><span style='font-size:14px;'>[[value]]</span></b>",
+                    "bullet": "round",
+                    "bulletSize": 8,
+                    "lineColor": "#dd4b39",
+                    "lineThickness": 2,
+                    "negativeLineColor": "#637bb6",
+                    "type": "smoothedLine",
+                    "valueField": "value_pr",
+                }
+            ],
             "chartCursor": {
                 "categoryBalloonDateFormat": "YYYY",
                 "cursorAlpha": 0,
@@ -511,9 +527,7 @@
             "valueAxes": [{
                 "position": "left",
                 "title": "Jumlah Penduduk",
-                "autoGridCount" : false,
-                "gridCount" : 100,
-                "labelFrequency": 1,
+                "baseValue" : 0,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Kelompok Usia",
@@ -561,9 +575,7 @@
             "valueAxes": [{
                 "position": "left",
                 "title": "Jumlah Penduduk",
-                "autoGridCount" : false,
-                "gridCount" : 100,
-                "labelFrequency": 1,
+                "baseValue" : 0,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Pendidikan",
@@ -611,9 +623,7 @@
             "valueAxes": [{
                 "position": "left",
                 "title": "Jumlah Penduduk",
-                "autoGridCount" : false,
-                "gridCount" : 100,
-                "labelFrequency": 1,
+                "baseValue" : 0,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Golongan Darah",
@@ -661,9 +671,7 @@
             "valueAxes": [{
                 "position": "left",
                 "title": "Jumlah Penduduk",
-                "autoGridCount" : false,
-                "gridCount" : 100,
-                "labelFrequency": 1,
+                "baseValue" : 0,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Status Perkawinan",
@@ -711,9 +719,7 @@
             "valueAxes": [{
                 "position": "left",
                 "title": "Jumlah Penduduk",
-                "autoGridCount" : false,
-                "gridCount" : 100,
-                "labelFrequency": 1,
+                "baseValue" : 0,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Agama",
@@ -760,7 +766,8 @@
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
-                "title": "Jumlah Penduduk"
+                "title": "Jumlah Penduduk",
+                "baseValue" : 0,
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Jenis Kelamin",
@@ -796,18 +803,130 @@
         });
     }
 
-    // REdirect to detail data
-    function goto_detail(type)
-    {
-        var kid = $('#list_kecamatan').val();
-        if (kid == null) {
-            kid = $('#defaultProfil').val();
-        }
-        var did = $('#list_desa').find(":selected").val();
-        var year = $('#list_year').find(":selected").text();
-        location.href = '{!! route('dashboard.detail-penduduk') !!}' + '?t='+type+'&kid='+kid+'&did='+did+'&year='+year;
-    }
 
+</script>
+
+<div id="detail-modal" class="modal fade in">
+    <div class="modal-dialog" style="width: auto; max-width: 85%">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Detail Penduduk</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-striped table-bordered table-responsive" id="penduduk-table">
+                    <thead>
+                    <tr>
+                        <th>NIK</th>
+                        <th>Nama</th>
+                        <th>No. KK</th>
+                        <th>Alamat</th>
+                        <th>Dusun</th>
+                        <th>RW</th>
+                        <th>RT</th>
+                        <th>Pendidikan dalam KK</th>
+                        <th>Umur</th>
+                        <th>Pekerjaan</th>
+                        <th>Status Kawin</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <a id="delete-modal-cancel" href="#" class="btn btn-default waves-effect waves-light" data-dismiss="modal">Keluar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+
+        var type = '';
+        var data = null;
+
+        $(document).on('click', '#hrefpenduduk', function(e) {
+            type = 'C';
+            $('#detail-modal').find('.modal-title').html('Detail Penduduk');
+
+            $('#detail-modal').modal('show');
+            e.preventDefault();
+        });
+
+        $(document).on('click', '#hrefpenduduklakilaki', function(e) {
+            type = 'L';
+            $('#detail-modal').find('.modal-title').html('Detail Penduduk Laki-Laki');
+
+            $('#detail-modal').modal('show');
+            e.preventDefault();
+        });
+
+        $(document).on('click', '#hrefpendudukperempuan', function(e) {
+            type = 'P';
+            $('#detail-modal').find('.modal-title').html('Detail Penduduk Perempuan');
+
+            $('#detail-modal').modal('show');
+            e.preventDefault();
+        });
+
+        $(document).on('click', '#hrefpendudukcacat', function(e) {
+            type = 'D';
+            $('#detail-modal').find('.modal-title').html('Detail Penduduk Disabilitas');
+
+            $('#detail-modal').modal('show');
+            e.preventDefault();
+        });
+
+        $("#detail-modal").on("show.bs.modal", function (e) {
+
+            var id = $(e.relatedTarget).data('target-id');
+            var kid = $('#list_kecamatan').val();
+            if (kid == null) {
+                kid = $('#defaultProfil').val();
+            }
+            var did = $('#list_desa').find(":selected").val();
+            var year = $('#list_year').find(":selected").text();
+
+            data = $('#penduduk-table').DataTable({
+                processing: false,
+                serverSide: false,
+                ajax: {
+                    url: "{!! route( 'dashboard.data-penduduk' ) !!}",
+                    type: 'GET',
+                    data: {t:type, kid:kid, did:did, year:year},
+                },
+                columns: [
+                    // {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
+                    {data: 'nik', name: 'nik'},
+                    {data: 'nama', name: 'nama'},
+                    {data: 'no_kk', name: 'no_kk'},
+                    {data: 'alamat', name: 'alamat'},
+                    {data: 'dusun', name: 'dusun'},
+                    {data: 'rw', name: 'rw'},
+                    {data: 'rt', name: 'rt'},
+                    {data: 'pendidikan', name: 'pendidikan_kk'},
+                    {data: 'tanggal_lahir', name: 'tanggal_lahir'},
+                    {data: 'pekerjaan', name: 'pekerjaan'},
+                    {data: 'status_kawin', name: 'status_kawin'},
+                ],
+                order: [[0, 'desc']]
+            });
+
+            $(this).find('.modal-body').css({
+                width:'auto', //probably not needed
+                height:'auto', //probably not needed
+                margin: 'auto',
+                'max-height':'80%'
+            });
+
+        });
+
+        $('#detail-modal').on('hidden.bs.modal', function () {
+            // do something…
+            data.destroy();
+            $('#penduduk-table').empty();
+        })
+    });
 </script>
 
 @endpush

@@ -60,8 +60,6 @@ class EventController extends Controller
         }catch (Exception $e){
             return back()->withInput()->with('error', 'Simpan Event gagal!');
         }
-
-
     }
 
     /**
@@ -107,7 +105,18 @@ class EventController extends Controller
                 'attendants' => 'required'
             ]);
 
-            Event::find($id)->update($request->all());
+            $event = Event::findOrFail($id);
+            $event->fill($request->all());
+
+            if ($request->hasFile('attachment')) {
+                $lampiran = $request->file('attachment');
+                $fileName = $lampiran->getClientOriginalName();
+                $path = "storage/event/".$event->id.'/';
+                $request->file('attachment')->move($path, $fileName);
+                $event->attachment = $path . $fileName;
+            }
+
+            $event->save();
 
             return redirect()->route('informasi.event.index')->with('success', 'Update Event sukses!');
         } catch (Exception $e) {

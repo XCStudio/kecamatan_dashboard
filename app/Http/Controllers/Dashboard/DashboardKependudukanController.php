@@ -120,7 +120,8 @@ class DashboardKependudukanController extends Controller
                 $query_ktp_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $ktp_terpenuhi = $query_ktp_terpenuhi->count();
-            $ktp_persen_terpenuhi = $ktp_terpenuhi / $total_penduduk * 100;
+            $ktp_persen_terpenuhi = ($total_penduduk-$ktp_terpenuhi) / $total_penduduk * 100;
+
             $data['ktp_terpenuhi'] = number_format($ktp_terpenuhi);
             $data['ktp_persen_terpenuhi'] = number_format($ktp_persen_terpenuhi);
 
@@ -135,7 +136,7 @@ class DashboardKependudukanController extends Controller
                 $query_akta_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $akta_terpenuhi = $query_akta_terpenuhi->count();
-            $akta_persen_terpenuhi = $akta_terpenuhi / $total_penduduk * 100;
+            $akta_persen_terpenuhi = ($total_penduduk-$akta_terpenuhi) / $total_penduduk * 100;
             $data['akta_terpenuhi'] = number_format($akta_terpenuhi);
             $data['akta_persen_terpenuhi'] = number_format($akta_persen_terpenuhi);
 
@@ -150,7 +151,7 @@ class DashboardKependudukanController extends Controller
                 $query_aktanikah_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $aktanikah_terpenuhi = $query_aktanikah_terpenuhi->count();
-            $aktanikah_persen_terpenuhi = $aktanikah_terpenuhi / $total_penduduk * 100;
+            $aktanikah_persen_terpenuhi = ($total_penduduk-$aktanikah_terpenuhi) / $total_penduduk * 100;
             $data['aktanikah_terpenuhi'] = number_format($aktanikah_terpenuhi);
             $data['aktanikah_persen_terpenuhi'] = number_format($aktanikah_persen_terpenuhi);
 
@@ -168,16 +169,27 @@ class DashboardKependudukanController extends Controller
         // Data Grafik Pertumbuhan
         $data = array();
         foreach (array_sort(years_list()) as $yearls) {
-            $query_result = DB::table('das_penduduk')
+            $query_result_laki = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->select('das_keluarga.id')
                 ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.sex', '=', 1)
                 ->whereRaw('year(das_keluarga.tgl_daftar) = ?', $yearls);
             if ($did != 'ALL') {
-                $query_result->where('das_penduduk.desa_id', '=', $did);
+                $query_result_laki->where('das_penduduk.desa_id', '=', $did);
             }
-            $result = $query_result->count();
-            $data[] = array('year' => $yearls, 'value' => $result);
+
+
+            $query_result_perempuan = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->select('das_keluarga.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->where('das_penduduk.sex', '=', 2)
+                ->whereRaw('year(das_keluarga.tgl_daftar) = ?', $yearls);
+            if ($did != 'ALL') {
+                $query_result_perempuan->where('das_penduduk.desa_id', '=', $did);
+            }
+            $data[] = array('year' => $yearls, 'value_lk' => $query_result_laki->count(), 'value_pr' => $query_result_perempuan->count());
         }
         return $data;
     }
@@ -253,10 +265,10 @@ class DashboardKependudukanController extends Controller
                 ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
                 ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year);
-            if($val->id != 13){
+            if($val->id != 5 || $val->id != 0 || $val->id != ''){
                 $query_total->where('das_penduduk.golongan_darah_id', '=', $val->id);
             }else{
-                $query_total->whereRaw('das_penduduk.golongan_darah_id = 0 or das_penduduk.golongan_darah_id = 5');
+                $query_total->whereRaw('das_penduduk.golongan_darah_id = 5');
             }
 
             if ($did != 'ALL') {
@@ -359,25 +371,6 @@ class DashboardKependudukanController extends Controller
         }
 
         return $data;
-    }
-
-
-    // Detail Kependudukan
-    public function detailPenduduk()
-    {
-        $type = request('t');
-        $kid = request('kid');
-        $did = request('did');
-        $year = request('year');
-        $page_title = 'Penduduk';
-        if($did=='ALL'){
-            $page_description = 'Data Penduduk Kecamatan '.Kecamatan::find($kid)->nama.' Tahun '.$year;
-        }else{
-            $page_description = 'Data Penduduk Kecamatan '.Kecamatan::find($kid)->nama.' Desa '.Desa::find($did)->nama.' Tahun '.$year;
-        }
-
-
-        return view('dashboard.kependudukan.detail_penduduk', compact('type', 'kid', 'did', 'year', 'page_title', 'page_description'));
     }
 
     public function getDataPenduduk()

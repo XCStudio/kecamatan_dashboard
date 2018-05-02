@@ -208,20 +208,20 @@
         /**
          * Define data for each year
          */
-        var chartData = data;
 
         /**
          * Create the chart
          */
-        var currentYear = 2015;
         var chart_penduduk_pendidikan = AmCharts.makeChart("chart_penduduk_pendidikan", {
             "theme": "light",
             "type": "serial",
+            "hideCredits": true,
             "startDuration": 2,
             "dataProvider": data,
             "graphs": [{
                 "balloonText": "SD: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                //"fillColorsField": "color",
+                "fillColors" : "#0491c7",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -229,7 +229,8 @@
                 "valueField": "SD"
             },{
                 "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                //"fillColorsField": "color",
+                "fillColors" : "#03749f",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -237,7 +238,8 @@
                 "valueField": "SLTP"
             },{
                 "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                //"fillColorsField": "color",
+                "fillColors" : "#025777",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -245,7 +247,8 @@
                 "valueField": "SLTA"
             },{
                 "balloonText": "DIPLOMA: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                //"fillColorsField": "color",
+                "fillColors" : "#013a4f",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -253,7 +256,8 @@
                 "valueField": "DIPLOMA"
             },{
                 "balloonText": "SARJANA: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                //"fillColorsField": "color",
+                "fillColors" : "#001d27",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -270,7 +274,6 @@
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",
-                "labelRotation": 90
             },
             "export": {
                 "enabled": true
@@ -286,6 +289,9 @@
                 "size": 20,
                 "y": -4
             }],
+            "valueAxes": [{
+                "baseValue" : 0,
+            }],
         });
     }
 
@@ -295,11 +301,12 @@
         var chart_siswa_pendidikan = AmCharts.makeChart("chart_siswa_pendidikan", {
             "theme": "light",
             "type": "serial",
+            "hideCredits": true,
             "startDuration": 2,
             "dataProvider": data,
             "graphs": [{
                 "balloonText": "SD: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#5ef250",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -307,7 +314,7 @@
                 "valueField": "SD"
             },{
                 "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#54d948",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -315,7 +322,7 @@
                 "valueField": "SLTP"
             },{
                 "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#4bc140",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -323,7 +330,7 @@
                 "valueField": "SLTA"
             },{
                 "balloonText": "DIPLOMA: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#41a938",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -331,7 +338,7 @@
                 "valueField": "DIPLOMA"
             },{
                 "balloonText": "SARJANA: <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#389130",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -348,7 +355,6 @@
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",
-                "labelRotation": 90
             },
             "export": {
                 "enabled": true
@@ -364,6 +370,9 @@
                 "size": 20,
                 "y": -4
             }],
+            "valueAxes": [{
+                "baseValue" : 0,
+            }],
         });
     }
 
@@ -373,11 +382,12 @@
         var chart_tidak_sekolah = AmCharts.makeChart("chart_tidak_sekolah", {
             "theme": "light",
             "type": "serial",
+            "hideCredits": true,
             "startDuration": 2,
             "dataProvider": data,
             "graphs": [{
                 "balloonText": "Usia Anak 6-12 (SD): <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#fdff10",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -385,7 +395,7 @@
                 "valueField": "SD"
             },{
                 "balloonText": "Usia Anak 13-15 (SLTP/Sederajat): <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#cacc0c",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -393,7 +403,7 @@
                 "valueField": "SLTP"
             },{
                 "balloonText": "Usia Anak 15-18 (SLTA/Sederajat): <b>[[value]]</b>",
-                "fillColorsField": "color",
+                "fillColors": "#979909",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
@@ -410,7 +420,6 @@
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",
-                "labelRotation": 90
             },
             "export": {
                 "enabled": true
@@ -425,6 +434,9 @@
                 "bold": true,
                 "size": 20,
                 "y": -4
+            }],
+            "valueAxes": [{
+                "baseValue" : 0,
             }],
         });
     }
