@@ -41,19 +41,19 @@
                     <div class="pad box-pane-right bg-green" style="min-height: 280px">
                         <div class="description-block margin-bottom">
                             <div class="sparkbar pad" data-color="#fff">Hari Ini</div>
-                            <h5 class="description-header">{{ Counter::allHits(1) }}</h5>
+                            <h5 class="description-header">{{ Counter::allVisitors(1) }}</h5>
                             <span class="description-text">Kunjungan</span>
                         </div>
                         <!-- /.description-block -->
                         <div class="description-block margin-bottom">
                             <div class="sparkbar pad" data-color="#fff">7 Hari yang Lalu</div>
-                            <h5 class="description-header">{{ Counter::allHits(7) }}</h5>
+                            <h5 class="description-header">{{ Counter::allVisitors(7) }}</h5>
                             <span class="description-text">Kunjungan</span>
                         </div>
                         <!-- /.description-block -->
                         <div class="description-block">
                             <div class="sparkbar pad" data-color="#fff">Total</div>
-                            <h5 class="description-header">{{ Counter::allHits() }}</h5>
+                            <h5 class="description-header">{{ Counter::allVisitors() }}</h5>
                             <span class="description-text">Kunjungan</span>
                         </div>
                         <!-- /.description-block -->

@@ -50,11 +50,25 @@ class SistemKomplainController extends Controller
         return redirect()->route('sistem-komplain.komplain', $komplain->slug);
     }
 
+    protected function generateID()
+    {
+        $id = mt_rand(100000, 999999);
+        $kid = '';
+
+        if(! Komplain::where('komplain_id', '=', $id)->exists()){
+            $kid = $id;
+        }else{
+            $this->generateID();
+        }
+
+        return $kid;
+    }
     public function store(Request $request)
     {
         try{
             $komplain = new Komplain($request->all());
-            $komplain->komplain_id = mt_rand(100000, 999999);
+
+            $komplain->komplain_id = $this->generateID();
             $komplain->slug = str_slug($komplain->judul).'-'.$komplain->komplain_id;
             $komplain->status = 'BELUM';
             $komplain->dilihat = 0;

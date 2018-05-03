@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use League\Flysystem\Exception;
 use Yajra\DataTables\DataTables;
 use Counter;
+Use Sentinel;
 
 class ProsedurController extends Controller
 {
@@ -169,12 +170,13 @@ class ProsedurController extends Controller
                 $show_url = route('informasi.prosedur.show', $row->id);
                 $edit_url = route('informasi.prosedur.edit', $row->id);
                 $delete_url = route('informasi.prosedur.destroy', $row->id);
-               // $download_url = route('informasi.prosedur.download', $row->id);
 
                 $data['show_url'] = $show_url;
-                $data['edit_url'] = $edit_url;
-                $data['delete_url'] = $delete_url;
-                //$data['download_url'] = $download_url;
+
+                if(!Sentinel::guest()){
+                    $data['edit_url'] = $edit_url;
+                    $data['delete_url'] = $delete_url;
+                }
 
                 return view('forms.action', $data);
             })

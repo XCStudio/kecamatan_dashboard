@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
+use Illuminate\Support\Facades\DB;
 use App\Models\Profil;
 use App\Http\Controllers\Controller;
 use Counter;
@@ -21,20 +22,12 @@ class DashboardProfilController extends Controller
 
         $profil = Profil::where(['kecamatan_id'=>$defaultProfil])->first();
 
+        $dokumen = DB::table('das_form_dokumen')->take(5)->get();
+
         $page_title = 'Profile Kecamatan';
-        $page_description= 'Profil Kecamatan';
+        $page_description= ucwords(strtolower($profil->kecamatan->nama));
 
 
-        return view('dashboard.profil.show_profil', compact('page_title', 'page_description', 'profil', 'defaultProfil'));
+        return view('dashboard.profil.show_profil', compact('page_title', 'page_description', 'profil', 'defaultProfil', 'dokumen'));
     }
-
-    public function showProfilPartial($id)
-    {
-        $profil = Profil::where(['kecamatan_id'=>$id])->first();
-        $page_title = 'Profile Kecamatan';
-        $page_description= 'Profil Kecamatan';
-        return view('dashboard.profil._profil_partial', compact('page_title', 'page_description', 'profil'));
-    }
-
-
 }

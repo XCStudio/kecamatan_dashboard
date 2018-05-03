@@ -19,7 +19,7 @@
 <!-- Main content -->
 <section class="content container-fluid">
     @if(!empty($profil))
-    <div class="box box-primary">
+    <div class="box box-primary hidden">
         <div class="box-header with-border">
             <div class="col-sm-12">
                 <form class="form-horizontal">
@@ -68,45 +68,18 @@
                     <!-- /.box-header -->
                     <div class="box-body">
 
-                        <strong><i class="fa fa-file-text-o margin-r-5"></i> Info Pelayanan </strong>
+                        <strong><i class="fa fa-file-text-o margin-r-5"></i> Form-Form Pelayanan</strong>
 
                         <div id="InfoPelayanan" style="margin:0px 0px 0px 0px;">
-                            <ul>
-                                <li><a href="http://localhost/kecamatanver1.0/documentation/SYARATSURATPENGANTAR.doc">Surat
-                                        Pengantar Pembuatan Akta Kelahiran</a></li>
-                                <li><a href="#">Surat Pindah Keluar</a></li>
-                                <li><a href="#">Surat Keterangan Tidak mampu</a></li>
-                                <li><a href="#">Surat Izin Gangguan</a></li>
-                                <li><a href="#">Surat Izin Tempat Usaha</a></li>
-                                <li><a href="#">Surat Izin Usaha Mikro Kecil</a></li>
+                            <ul class="nav nav-stacked">
+                                @foreach($dokumen as $item)
+                                <li><a href="{{ asset($item->file_dokumen) }}"><i class="fa fa-circle"></i> {{ $item->nama_dokumen }}</a></li>
+                                @endforeach
+                                <li class="footer"><center><a href="{{ route('informasi.form-dokumen.index') }}">Lihat Semua</a></center></li>
                             </ul>
                         </div>
                         <hr>
 
-                        <!--
-                          <strong><i class="fa fa-map-marker margin-r-5"></i> Lokasi</strong>
-
-                          <p class="text-muted">SEKOTONG, SEKOTONG</p>
-
-                          <hr>
-                        -->
-                        <!--
-                          <strong><i class="fa fa-map-marker margin-r-5"></i> Parawisata</strong>
-
-                          <p class="text-muted">SEKOTONG, SEKOTONG</p>
-
-                          <hr>
-                        -->
-                        <!--
-                          <strong><i class="fa fa-pencil margin-r-5"></i> Kemampuan Usaha</strong>
-                          <p>
-                            <span class="label label-danger">Bertani</span>
-                            <span class="label label-success">Berdagang</span>
-                            <span class="label label-info">Guru</span>
-                            <span class="label label-warning">Beternak</span>
-                          </p>
-                          <hr>
-                        -->
                         <strong><i class="fa fa-book margin-r-5"></i> Kontak</strong>
                         <br><br>
 
@@ -432,72 +405,3 @@
 </section>
 <!-- /.content -->
 @endsection
-
-@include('partials.asset_select2')
-@push('scripts')
-<script>
-    $(function () {
-
-        $('#kecamatan').select2({
-            placeholder: "Pilih Kecamatan",
-            allowClear: true,
-            ajax: {
-                url: '{!! route('api.profil') !!}',
-                dataType: 'json',
-                delay: 200,
-                data: function (params) {
-                    return {
-                        q: params.term,
-                        page: params.page
-                    };
-                },
-                processResults: function (data, params) {
-                    params.page = params.page || 1;
-                    return {
-                        results: data.data,
-                        pagination: {
-                            more: (params.page * 10) < data.total
-                        }
-                    };
-                }
-            },
-            minimumInputLength: 1,
-            templateResult: function (repo) {
-                if (repo.loading) return repo.nama;
-                var markup = repo.nama;
-                return markup;
-            },
-            templateSelection: function (repo) {
-                return repo.nama;
-            },
-            escapeMarkup: function (markup) {
-                return markup;
-            },
-            initSelection: function(element, callback) {
-
-                //var id = $(element).val();
-                var id = $('#defaultProfil').val();
-                if (id !== "") {
-                    $.ajax('{!! route('api.profil-byid') !!}', {
-                        data: {id: id},
-                        dataType: "json"
-                    }).done(function (data) {
-                        callback(data);
-                    });
-                }
-            }
-        });
-
-        $('#kecamatan').on('select2:select', function (e) {
-            var data = e.params.data;
-            console.log(data);
-
-
-            $.get('{!! URL::to('/dashboard/show-profil/') !!}/' + data.id, function (data) {
-                $('#profil-kecamatan').html(data);
-            });
-        });
-    })
-</script>
-
-@endpush

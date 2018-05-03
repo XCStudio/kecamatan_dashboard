@@ -62,8 +62,10 @@ use Illuminate\Support\Facades\URL;
                         <a href="{{ route('informasi.event.index') }}"><i class="fa fa-circle-o"></i>Event</a></li>
                     <li {{ (Request::is(['informasi/faq/*', 'informasi/faq/index', 'informasi/faq'])? 'class=active' : '') }}>
                         <a href="{{ route('informasi.faq.index') }}"><i class="fa fa-circle-o"></i>FAQ</a></li>
-                    <li {{ (Request::is(['informasi/kalender'])? 'class=active' : '') }}><a
-                                href="{{ route('informasi.kalender') }}"><i class="fa fa-circle-o"></i>Kalender</a></li>
+                    <li {{ (Request::is(['informasi/form-dokumen/*', 'informasi/form-dokumen/index', 'informasi/form-dokumen'])? 'class=active' : '') }}>
+                        <a
+                                href="{{ route('informasi.form-dokumen.index') }}"><i class="fa fa-circle-o"></i>Form
+                            Dokumen</a></li>
                 </ul>
             </li>
 
@@ -120,16 +122,35 @@ use Illuminate\Support\Facades\URL;
 
                     </ul>
                 </li>
-                <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
+                <li class="treeview {{ (Request::is(['admin-komplain/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-comments-o"></i> <span>Admin SIKOMA</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li {{ (Request::is(['setting/komplain-kategori/*', 'setting/komplain-kategori'])? 'class=active' : '') }}><a
-                                    href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori Komplain</a></li>
-                        <li {{ (Request::is(['setting/tipe-regulasi/*', 'setting/tipe-regulasi'])? 'class=active' : '') }}><a
-                                    href="{{ route('setting.tipe-regulasi.index') }}"><i class="fa fa-circle-o"></i>Tipe Regulasi</a></li>
+
+                        <li {{ (Request::is(['admin-komplain/index'])? 'class=active' : '') }}><a
+                                    href="{{ route('sistem-komplain.index') }}"><i class="fa fa-circle-o"></i>Daftar Komplain</a></li>
+                        <li {{ (Request::is(['admin-komplain/statistik'])? 'class=active' : '') }}><a
+                                    href="{{ route('sistem-komplain.index') }}"><i class="fa fa-circle-o"></i>Statistik</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li {{ (Request::is(['setting/komplain-kategori/*', 'setting/komplain-kategori'])? 'class=active' : '') }}>
+                            <a
+                                    href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori
+                                Komplain</a></li>
+                        <li {{ (Request::is(['setting/tipe-regulasi/*', 'setting/tipe-regulasi'])? 'class=active' : '') }}>
+                            <a
+                                    href="{{ route('setting.tipe-regulasi.index') }}"><i class="fa fa-circle-o"></i>Tipe
+                                Regulasi</a></li>
                         <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a
                                     href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
                         <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a
@@ -143,9 +164,9 @@ use Illuminate\Support\Facades\URL;
                 <a href="{{ route('counter.index') }}" title="Jumlah Pengunjung"><i
                             class="fa fa-bullhorn"></i> <span>Total Pengunjung</span>
                             <span class="pull-right-container">
-                <small class="label pull-right bg-red">{{ Counter::allHits() }}</small>
+                <small class="label pull-right bg-red">{{ Counter::allVisitors() }}</small>
               </span>
-            </a>
+                </a>
             </li>
         </ul>
 

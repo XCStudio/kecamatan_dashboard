@@ -93,9 +93,8 @@ Route::namespace('Dashboard')->group(function () {
     Route::get('/', 'DashboardProfilController@showProfile')->name('dashboard.profil');
 
     Route::group(['prefix' => 'dashboard'], function () {
-        Route::get('index', 'DashboardProfilController@showProfile')->name('dashboard.profil');
+        Route::get('index', 'DashboardProfilController@showProfile')->name('dashboard.profil.index');
         Route::get('profil', 'DashboardProfilController@showProfile')->name('dashboard.profil');
-        Route::get('show-profil/{id}', 'DashboardProfilController@showProfilPartial')->name('dashboard.show-profil');
 
         Route::get('kependudukan', 'DashboardKependudukanController@showKependudukan')->name('dashboard.kependudukan');
         Route::get('show-kependudukan', 'DashboardKependudukanController@showKependudukanPartial')->name('dashboard.show-kependudukan');
@@ -177,6 +176,18 @@ Route::namespace('Informasi')->group(function () {
             Route::get('edit/{id}', ['as' => 'informasi.event.edit', 'uses' => 'EventController@edit']);
             Route::post('update/{id}', ['as' => 'informasi.event.update', 'uses' => 'EventController@update']);
             Route::delete('destroy/{id}', ['as' => 'informasi.event.destroy', 'uses' => 'EventController@destroy']);
+        });
+
+        //Routes for Form Dokumen resources
+        Route::group(['prefix' => 'form-dokumen'], function () {
+            Route::get('/', ['as' => 'informasi.form-dokumen.index', 'uses' => 'FormDokumenController@index']);
+            Route::get('show/{id}', ['as' => 'informasi.form-dokumen.show', 'uses' => 'FormDokumenController@show']);
+            Route::get('create', ['as' => 'informasi.form-dokumen.create', 'uses' => 'FormDokumenController@create']);
+            Route::get('getdata', ['as' => 'informasi.form-dokumen.getdata', 'uses' => 'FormDokumenController@getDataDokumen']);
+            Route::post('store', ['as' => 'informasi.form-dokumen.store', 'uses' => 'FormDokumenController@store']);
+            Route::get('edit/{id}', ['as' => 'informasi.form-dokumen.edit', 'uses' => 'FormDokumenController@edit']);
+            Route::put('update/{id}', ['as' => 'informasi.form-dokumen.update', 'uses' => 'FormDokumenController@update']);
+            Route::delete('destroy/{id}', ['as' => 'informasi.form-dokumen.destroy', 'uses' => 'FormDokumenController@destroy']);
         });
 
         Route::get('layanan', 'InformasiController@showLayanan')->name('informasi.layanan');
