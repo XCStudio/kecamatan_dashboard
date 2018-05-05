@@ -360,17 +360,25 @@
                         <!-- /.tab-pane -->
 
                         <div class="tab-pane" id="desa">
-                            <h1>Under Construction!</h1>
+                            <div class="row">
+                              <div class="col-md-3 col-sm-6 col-xs-12">
+                                <ul class="nav nav-stacked">
+                                  @foreach($profil->datadesa as $desa)
+                                  <li><a href="{{ $desa->website}}" class="nav-item" target="_blank">{{ $desa->nama }}<span class="pull-right" ><i class="fa fa-globe"></i></span></a></li>
+                                  @endforeach
+                                </ul>                                
+                              </div>  
+                            </div>
                         </div>
 
                         <div class="active tab-pane" id="peta">
                             <!-- /.box-header -->
                             <div class="box-body no-padding">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-8">
-                                        {{-- <img id="petakecamatan"
-                                              src="http://dashboard.kompak.or.id/dash-kecamatan2/ammap/images/aikmel.jpg">--}}
-                                        {!! $profil->dataumum->embed_peta !!}
+                                    <div class="col-md-12 col-sm-12">
+                                      <iframe src="{!! $profil->dataumum->embed_peta !!}" frameborder="0" style="border:0; width:100%; height:600px; margin: 0px!;" allowfullscreen></iframe>
+                                        
+                                      </iframe>
                                                 <!-- /.col -->
                                     </div>
                                     <!-- /.row -->

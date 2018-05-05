@@ -235,6 +235,7 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::put('update/{id}', ['as' => 'data.profil.update', 'uses' => 'ProfilController@update']);
                 Route::delete('destroy/{id}', ['as' => 'data.profil.destroy', 'uses' => 'ProfilController@destroy']);
                 Route::get('success/{id}', ['as' => 'data.profil.success', 'uses' => 'ProfilController@success']);
+              Route::get('show', ['as' => 'data.profil.show', 'uses' => 'ProfilController@show']);
             });
 
             //Routes Resource Data Umum
@@ -247,6 +248,18 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::get('edit/{id}', ['as' => 'data.data-umum.edit', 'uses' => 'DataUmumController@edit']);
                 Route::put('update/{id}', ['as' => 'data.data-umum.update', 'uses' => 'DataUmumController@update']);
                 Route::delete('destroy/{id}', ['as' => 'data.data-umum.destroy', 'uses' => 'DataUmumController@destroy']);
+            });
+          
+          //Routes Resource Data Desa
+            Route::group(['prefix' => 'data-desa'], function () {
+                Route::get('getdata', ['as' => 'data.data-desa.getdata', 'uses' => 'DataDesaController@getDataDesa']);
+                Route::get('/', ['as' => 'data.data-desa.index', 'uses' => 'DataDesaController@index']);
+                Route::get('create', ['as' => 'data.data-desa.create', 'uses' => 'DataDesaController@create']);
+                Route::post('store', ['as' => 'data.data-desa.store', 'uses' => 'DataDesaController@store']);
+                Route::get('show/{id}', ['as' => 'data.data-desa.show', 'uses' => 'DataDesaController@show']);
+                Route::get('edit/{id}', ['as' => 'data.data-desa.edit', 'uses' => 'DataDesaController@edit']);
+                Route::put('update/{id}', ['as' => 'data.data-desa.update', 'uses' => 'DataDesaController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.data-desa.destroy', 'uses' => 'DataDesaController@destroy']);
             });
 
             //Routes Resource Penduduk

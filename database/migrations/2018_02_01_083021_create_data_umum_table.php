@@ -15,7 +15,7 @@ class CreateDataUmumTable extends Migration
     {
         Schema::create('das_data_umum', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('profil_id');
+            $table->integer('profil_id')->nullable();
             $table->char('kecamatan_id', 7);
             $table->string('tipologi', 255)->nullable(true);
             $table->double('luas_wilayah')->nullable(true);

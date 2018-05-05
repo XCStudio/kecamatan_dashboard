@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Data;
 use App\Models\DataUmum;
 use App\Models\Kabupaten;
 use App\Models\Kecamatan;
+use App\Models\Desa;
+use App\Models\DataDesa;
 use App\Models\Profil;
 use App\Models\VisiMisi;
 use Illuminate\Http\Request;
@@ -66,7 +68,8 @@ class ProfilController extends Controller
     {
         // Save Request
         try {
-            $profil = new Profil($request->input());
+            $profil = new Profil();
+            $profil->fill($request->all());
             $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
             $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
 
@@ -86,8 +89,20 @@ class ProfilController extends Controller
             }
 
             if($profil->save())
-                DataUmum::create(['kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.']);
-            return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Profil berhasil disimpan!');
+                $id = DataUmum::create(['profil_id'=> $profil->id, 'kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.'])->id;
+                $desa = Desa::where('kecamatan_id', '=', $profil->kecamatan_id)->get();
+                $data_desa= array();
+                foreach($desa as $val)
+                {
+                    $data_desa[] = array(
+                        'desa_id' => strval($val->id),
+                        'kecamatan_id' => strval($profil->kecamatan_id),
+                        'nama' => $val->nama
+                    );
+                }
+                
+                DataDesa::insert($data_desa);
+            return redirect()->route('data.profil.success', $id)->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
             return back()->withInput()->with('error', 'Profil gagal disimpan!');
         }
@@ -99,9 +114,22 @@ class ProfilController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
         //
+      $desa = Desa::where('kecamatan_id', '=', '1107062')->get();
+                $data_desa= array();
+                foreach($desa as $val)
+                {
+                    $data_desa[] = array(
+                        'desa_id' => strval($val->id),
+                        'kecamatan_id' => strval('1107062'),
+                        'nama' => $val->nama
+                    );
+                }
+                
+                DataDesa::insert($data_desa);
+      return $data_desa;
     }
 
     /**
@@ -178,6 +206,7 @@ class ProfilController extends Controller
         try {
             $profil = Profil::findOrFail($id);
             $profil->dataUmum()->delete();
+            $profil->dataDesa()->delete();
             $profil->delete();
 
             return redirect()->route('data.profil.index')->with('success', 'Profil sukses dihapus!');
