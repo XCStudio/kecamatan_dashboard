@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Data;
 
 use App\Models\Keluarga;
+use App\Models\Penduduk;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\DataTables;
@@ -52,6 +53,11 @@ class KeluargaController extends Controller
     public function create()
     {
         //
+        $page_title = 'Tambah Keluarga';
+        $page_description = 'Tambah Data Keluarga';
+        $penduduk = Penduduk::select(['nik', 'nama'])->get();
+      
+        return view('data.keluarga.create', compact('page_title', 'page_description', 'penduduk'));
     }
 
     /**
@@ -63,6 +69,24 @@ class KeluargaController extends Controller
     public function store(Request $request)
     {
         //
+        try{
+            request()->validate([
+                'no_kk' => 'required|max:16',
+                'nik_kepala' => 'required',
+                'tgl_daftar'=>'required|date',
+                'tgl_cetak_kk'=>'required|date',
+                'alamat' => 'required',
+                'dusun' => 'required',
+                'rw' => 'required',
+                'rt' => 'required',
+            ]);
+
+            Keluarga::create($request->all());
+
+            return redirect()->route('data.keluarga.index')->with('success', 'Data Keluarga berhasil disimpan!');
+        }catch (Exception $e){
+            return back()->withInput()->with('error', 'Data Keluarga gagal disimpan!');
+        }
     }
 
     /**

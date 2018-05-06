@@ -8,9 +8,17 @@ class Keluarga extends Model
 {
     //
     protected $table = 'das_keluarga';
+    public $timestamps = false;
 
     protected $fillable = [
-
+        'nik_kepala',
+        'no_kk',
+        'tgl_daftar',
+        'tgl_cetak_kk',
+        'alamat',
+        'dusun',
+        'rw',
+        'rt'
     ];
 
     public function cluster()

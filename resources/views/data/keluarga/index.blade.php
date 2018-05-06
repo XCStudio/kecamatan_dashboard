@@ -45,7 +45,6 @@
                             <th>No. KK</th>
                             <th>Nama Kepala</th>
                             <th>Tanggal Daftar</th>
-                            <th>Kelas Sosial</th>
                             <th>Tanggal Cetak KK</th>
                             <th>Alamat</th>
                             <th>RW</th>
@@ -76,7 +75,6 @@
                 {data: 'no_kk', name: 'no_kk'},
                 {data: 'nik_kepala', name: 'nik_kepala'},
                 {data: 'tgl_daftar', name: 'tgl_daftar'},
-                {data: 'kelas_sosial', name: 'kelas_sosial'},
                 {data: 'tgl_cetak_kk', name: 'tgl_cetak_kk'},
                 {data: 'alamat', name: 'alamat'},
                 {data: 'rw', name: 'rw'},
