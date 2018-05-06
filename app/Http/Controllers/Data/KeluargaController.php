@@ -42,6 +42,15 @@ class KeluargaController extends Controller
                 $data['delete_url'] = $delete_url;
 
                 return view('forms.action', $data);
+            })
+            ->editColumn('nik_kepala', function($row) {
+                if(isset($row->nik_kepala)){
+                    $penduduk = Penduduk::where('nik', $row->nik_kepala)->first();
+                    return $penduduk->nama;
+                }else{
+                  return '';
+                }
+                
             })->make();
     }
 
@@ -109,6 +118,12 @@ class KeluargaController extends Controller
     public function edit($id)
     {
         //
+        $page_title = 'Edit Keluarga';
+        $page_description = 'Edit Data Keluarga';
+        $penduduk = Penduduk::select(['nik', 'nama'])->get();
+        $keluarga = Keluarga::findOrFail($id);
+      
+        return view('data.keluarga.edit', compact('page_title', 'page_description', 'penduduk', 'keluarga'));
     }
 
     /**
@@ -121,6 +136,26 @@ class KeluargaController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $keluarga = Keluarga::findOrFail($id);
+        $keluarga->fill($request->all());
+        try{
+            request()->validate([
+                'no_kk' => 'required|max:16',
+                'nik_kepala' => 'required',
+                'tgl_daftar'=>'required|date',
+                'tgl_cetak_kk'=>'required|date',
+                'alamat' => 'required',
+                'dusun' => 'required',
+                'rw' => 'required',
+                'rt' => 'required',
+            ]);
+
+            $keluarga->save();
+
+            return redirect()->route('data.keluarga.index')->with('success', 'Data Keluarga berhasil disimpan!');
+        }catch (Exception $e){
+            return back()->withInput()->with('error', 'Data Keluarga gagal disimpan!');
+        }
     }
 
     /**
@@ -132,6 +167,13 @@ class KeluargaController extends Controller
     public function destroy($id)
     {
         //
+        try {
+            Keluarga::findOrFail($id)->delete();
+
+             return redirect()->route('data.keluarga.index')->with('success', 'Data Keluarga berhasil dihapus!');
+        }catch (Exception $e){
+            return back()->withInput()->with('error', 'Data Keluarga gagal dihapus!');
+        }
     }
 
     /**

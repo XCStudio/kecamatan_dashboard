@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.penduduk.index')}}">Penduduk</a></li>
+        <li><a href="{{route('data.keluarga.index')}}">Keluarga</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -38,13 +38,13 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($penduduk, [ 'route' => ['data.penduduk.update', $penduduk->id], 'method' => 'put','id' => 'form-penduduk', 'class' => 'form-horizontal form-label-left', 'files' => true] ) !!}
+                    {!!  Form::model($keluarga, [ 'route' => ['data.keluarga.update', $keluarga->id], 'method' => 'put','id' => 'form-keluarga', 'class' => 'form-horizontal form-label-left', 'files' => true] ) !!}
 
                     <div class="box-body">
 
 
                         @include( 'flash::message' )
-                        @include('data.penduduk.form_edit')
+                        @include('data.keluarga.form_edit')
 
                     </div>
                     <!-- /.box-body -->
