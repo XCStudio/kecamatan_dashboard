@@ -25,6 +25,10 @@ class CreateKeluargaTable extends Migration
             $table->string('rt',10)->nullable();
             $table->string('rw',10)->nullable();
             $table->integer('id_cluster')->nullable();
+            $table->char('provinsi_id',2)->nullable();
+            $table->char('kabupaten_id',4)->nullable();
+            $table->char('kecamatan_id',7)->nullable();
+            $table->char('desa_id',10)->nullable();
         });
     }
 
