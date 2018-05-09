@@ -19,33 +19,13 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <form class="form-horizontal">
-                <div class="col-md-4">
 
-                    <div class="form-group">
-                        <label for="list_kecamatan" class="col-sm-4 control-label">Kecamatan</label>
-
-                        <div class="col-sm-8">
-                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
-                            <select class="form-control" id="list_kecamatan" name="kecamatan">
-                                @foreach($list_kecamatan as $kecamatan)
-                                    @if($kecamatan->kecamatan_id == $defaultProfil)
-                                        <option value="{{ $kecamatan->kecamatan_id }}"
-                                                selected="true">{{ $kecamatan->kecamatan->nama }}</option>
-                                    @else
-                                        <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
-                                    @endif
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="form-group">
                         <label for="list_desa" class="col-sm-4 control-label">Desa</label>
 
-                        <div class="col-sm-8">
+                        <div class="col-md-8">
+                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
                             <select class="form-control" id="list_desa">
                                 <option value="ALL">ALL</option>
                                 @foreach($list_desa as $desa)
@@ -56,11 +36,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3 col-lg-2 col-sm-12">
                     <div class="form-group">
                         <label for="list_year" class="col-sm-4 control-label">Tahun</label>
 
-                        <div class="col-sm-8">
+                        <div class="col-md-8">
                             <select class="form-control" id="list_year">
                                 <option value="ALL">ALL</option>
                                 @foreach($year_list as $year)
@@ -129,11 +109,10 @@
     $(function () {
 
         // Select 2 Kecamatan
-        $('#list_kecamatan').select2();
         $('#list_desa').select2();
         $('#list_year').select2();
 
-        var kid = $('#list_kecamatan').find(":selected").val();
+        var kid = $('#defaultProfil').find(":selected").val();
         if (kid == null) {
             kid = $('#defaultProfil').val();
         }
@@ -150,18 +129,10 @@
 
 
         // Change div das_kependudukan when Kecamatan changed
-        $('#list_kecamatan').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
-            var did = $('#list_desa').find(":selected").val();
-            var year = $('#list_year').find(":selected").val();
-            change_das_pendidikan(kid, did, year);
-        });
+
 
         $('#list_desa').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
+            var kid = $('#defaultProfil').find(":selected").val();
             if (kid == null) {
                 kid = $('#defaultProfil').val();
             }
@@ -171,7 +142,7 @@
         });
 
         $('#list_year').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
+            var kid = $('#defaultProfil').find(":selected").val();
             if (kid == null) {
                 kid = $('#defaultProfil').val();
             }

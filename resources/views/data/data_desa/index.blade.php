@@ -32,6 +32,7 @@
                 <thead>
                 <tr>
                     <th style="max-width: 100px;">Aksi</th>
+                    <th>ID</th>
                     <th>Nama Desa</th>
                     <th>Website</th>
                     <th>Luas Wilayah (km<sup>2</sup>)</th>
@@ -56,6 +57,7 @@
             ajax: "{!! route( 'data.data-desa.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
+                {data: 'desa_id', name: 'desa_id'},
                 {data: 'nama', name: 'nama'},
                 {data: 'website', name: 'website'},
                 {data: 'luas_wilayah', name: 'luas_wilayah'},

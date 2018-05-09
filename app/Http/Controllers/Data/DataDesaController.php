@@ -151,7 +151,7 @@ class DataDesaController extends Controller
 
     public function getDataDesa()
     {
-        return DataTables::of(DataDesa::select(['id', 'nama', 'website', 'luas_wilayah'])->get())
+        return DataTables::of(DataDesa::select(['id', 'desa_id', 'nama', 'website', 'luas_wilayah'])->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.data-desa.edit', $row->id);
                 $delete_url = route('data.data-desa.destroy', $row->id);

@@ -149,11 +149,29 @@ function years_list()
     $this_year = date('Y');
     $year_list = [];
 
-    for($i = 1; $i<=4; $i++){
+    for($i = 1; $i<=3; $i++){
         $year_list[] = (int) $this_year --;
     }
 
     return $year_list;
+}
+
+function months_list()
+{
+    return array(
+        1 => 'Januari',
+        2 => 'Februari',
+        3 => 'Maret',
+        4 => 'April',
+        5 => 'Mei',
+        6 => 'Juni',
+        7 => 'Juli',
+        8 => 'Agustus',
+        9 => 'September',
+        10 => 'Oktober',
+        11 => 'November',
+        12 => 'Desember',
+    );
 }
 
 function get_words($sentence, $count = 10) {

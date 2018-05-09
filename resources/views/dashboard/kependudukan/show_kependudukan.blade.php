@@ -20,33 +20,13 @@
         <div class="box-header with-border">
 
             <form class="form-horizontal">
-                <div class="col-md-4">
 
-                    <div class="form-group">
-                        <label for="list_kecamatan" class="col-sm-4 control-label">Kecamatan</label>
-
-                        <div class="col-sm-8">
-                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
-                            <select class="form-control" id="list_kecamatan" name="kecamatan">
-                                @foreach($list_kecamatan as $kecamatan)
-                                    @if($kecamatan->kecamatan_id == $defaultProfil)
-                                        <option value="{{ $kecamatan->kecamatan_id }}"
-                                                selected="true">{{ $kecamatan->kecamatan->nama }}</option>
-                                    @else
-                                        <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
-                                    @endif
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="form-group">
                         <label for="list_desa" class="col-sm-4 control-label">Desa</label>
 
                         <div class="col-sm-8">
+                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
                             <select class="form-control" id="list_desa">
                                 <option value="ALL">ALL</option>
                                 @foreach($list_desa as $desa)
@@ -57,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3 col-lg-2 col-sm-12">
                     <div class="form-group">
                         <label for="list_year" class="col-sm-4 control-label">Tahun</label>
 
@@ -302,34 +282,14 @@
     $(function () {
 
         // Select 2 Kecamatan
-        $('#list_kecamatan').select2();
         $('#list_desa').select2();
         $('#list_year').select2();
 
-        // Change Dashboard when Kecamatan changed
-        $('#list_kecamatan').on('select2:select', function (e) {
-            var kid = e.params.data;
-            $.ajax('{!! route('api.desa-by-kid') !!}', {
-                data: {kid: kid.id},
-                dataType: "json"
-            }).done(function (data) {
-                var $el = $("#list_desa");
-                $('#list_desa option:gt(0)').remove(); // remove old options
-                $.each(data, function (key, value) {
-                    $el.append($("<option></option>")
-                            .attr("value", data[key].id).text(data[key].nama));
-                });
-            });
 
-            var did = $('#list_desa').find(":selected").val();
-            var year = $('#list_year').find(":selected").text();
-
-            change_das_kependudukan(kid.id, did, year);
-        });
 
         // Change Dashboard when Lsit Desa changed
         $('#list_desa').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').val();
+            var kid = $('#defaultProfil').val();
             var did = e.params.data;
             var year = $('#list_year').find(":selected").text();
 
@@ -338,7 +298,7 @@
 
         // Change Dashboard when List Year changed
         $('#list_year').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').val();
+            var kid = $('#defaultProfil').val();
             var did = $('#list_desa').find(":selected").val();
             var year = this.value;
             change_das_kependudukan(kid, did, year);
@@ -348,7 +308,7 @@
         /*
         Initial Dashboard
          */
-        var kid = $('#list_kecamatan').val();
+        var kid = $('#defaultProfil').val();
         if (kid == null) {
             kid = $('#defaultProfil').val();
         }
@@ -863,7 +823,7 @@
         $("#detail-modal").on("show.bs.modal", function (e) {
 
             var id = $(e.relatedTarget).data('target-id');
-            var kid = $('#list_kecamatan').val();
+            var kid = $('#defaultProfil').val();
             if (kid == null) {
                 kid = $('#defaultProfil').val();
             }
@@ -871,7 +831,7 @@
             var year = $('#list_year').find(":selected").text();
 
             data = $('#penduduk-table').DataTable({
-                processing: false,
+                processing: true,
                 serverSide: false,
                 ajax: {
                     url: "{!! route( 'dashboard.data-penduduk' ) !!}",
