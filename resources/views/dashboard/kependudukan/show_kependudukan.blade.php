@@ -30,7 +30,7 @@
                             <select class="form-control" id="list_desa">
                                 <option value="ALL">ALL</option>
                                 @foreach($list_desa as $desa)
-                                    <option value="{{$desa->id}}">{{$desa->nama}}</option>
+                                    <option value="{{$desa->desa_id}}">{{$desa->nama}}</option>
                                 @endforeach
                             </select>
                         </div>

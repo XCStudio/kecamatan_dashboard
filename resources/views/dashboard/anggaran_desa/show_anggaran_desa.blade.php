@@ -18,44 +18,24 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <form class="form-horizontal">
-                <div class="col-md-4">
 
-                    <div class="form-group">
-                        <label for="list_kecamatan" class="col-sm-4 control-label">Kecamatan</label>
-
-                        <div class="col-sm-8">
-                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
-                            <select class="form-control" id="list_kecamatan" name="kecamatan">
-                                @foreach($list_kecamatan as $kecamatan)
-                                    @if($kecamatan->kecamatan_id == $defaultProfil)
-                                        <option value="{{ $kecamatan->kecamatan_id }}"
-                                                selected="true">{{ $kecamatan->kecamatan->nama }}</option>
-                                    @else
-                                        <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
-                                    @endif
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="form-group">
                         <label for="list_desa" class="col-sm-4 control-label">Desa</label>
 
                         <div class="col-sm-8">
+                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
                             <select class="form-control" id="list_desa">
                                 <option value="ALL">ALL</option>
                                 @foreach($list_desa as $desa)
-                                    <option value="{{$desa->id}}">{{$desa->nama}}</option>
+                                    <option value="{{$desa->desa_id}}">{{$desa->nama}}</option>
                                 @endforeach
                             </select>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3 col-lg-2 col-sm-12">
                     <div class="form-group">
                         <label for="list_year" class="col-sm-4 control-label">Tahun</label>
 
