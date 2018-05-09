@@ -229,23 +229,6 @@
             </div>
             <!-- /.info-box -->
 
-            <div class="info-box bg-black">
-                <span class="info-box-icon"><i class="ion ion-ios-minus-outline"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-number">Meninggal</span>
-                    <span class="info-box-text" id="data_nikah">{!! $aktanikah_terpenuhi !!}dari {!! $total_penduduk !!}
-                        Jiwa Terpenuhi</span>
-
-                    <div class="progress">
-                        <div id="nikah_persen" class="progress-bar"
-                             style="width: {!! $aktanikah_persen_terpenuhi !!}%"></div>
-                    </div>
-                    <span id="nikah_terpenuhi" class="progress-description">{!! $aktanikah_persen_terpenuhi !!}% Jiwa Tidak Terpenuhi</span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
         </div>
         <!-- /.row -->
 

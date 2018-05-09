@@ -38,7 +38,7 @@
     <!-- /.row -->
     <div id="profil-kecamatan">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
               <!-- Widget: user widget style 1 -->
               <div class="box box-widget widget-user-2">
                 <!-- Add the bg color to the header using any of the bg-* classes -->
@@ -52,7 +52,7 @@
                     <li><a href="#"><strong>Luas Wilayah </strong><span class="pull-right badge bg-aqua" id="luaswilayah">{{ $profil->dataumum->luas_wilayah }} km</span></a></li>
                     <li><a href="#"><strong>Jumlah Penduduk </strong><span class="pull-right badge bg-aqua" id="jumlahpenduduk">{{ $profil->dataumum->jumlah_penduduk }} orang</span></a></li>
                     <li><a href="#"><strong>Kepadatan Penduduk </strong><span class="pull-right badge bg-aqua" id="kepadatanpenduduk">{{ $profil->dataumum->kepadatan_penduduk }} orang/km</span></a></li>
-                    <li><a href="#"><strong>Kelurahan/Desa </strong><span class="pull-right badge bg-aqua" id="kelurahandesa">24</span></a></li>
+                    <li><a href="#"><strong>Kelurahan/Desa </strong><span class="pull-right badge bg-aqua" id="kelurahandesa">{{ count($profil->dataDesa) }}</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -92,7 +92,7 @@
                 <!-- /.box -->
             </div>
             <!-- /.col -->
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div class="nav-tabs-custom">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#peta" data-toggle="tab">Peta</a></li>
@@ -192,12 +192,6 @@
                                             <th class="col-md-2">Perempuan</th>
                                             <td class="col-md-9">: {!! $profil->dataumum->jml_perempuan !!}</td>
                                         </tr>
-
-                                        <tr>
-                                            <th class="col-md-2">Jumlah Penduduk Miskin</th>
-                                            <td class="col-md-9">: No Field</td>
-                                        </tr>
-
                                         </tbody>
                                     </table>
 

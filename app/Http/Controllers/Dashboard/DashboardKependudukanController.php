@@ -64,14 +64,14 @@ class DashboardKependudukanController extends Controller
         $data['total_penduduk'] = number_format($total_penduduk);
 
         // Get Total Lakilaki
-        $query_total_lakilaki = DB::table('das_penduduk')
+        /*$query_total_lakilaki = DB::table('das_penduduk')
             ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
             ->where('das_penduduk.kecamatan_id', '=', $kid)
             ->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
         if ($did != 'ALL') {
             $query_total_lakilaki->where('das_penduduk.desa_id', '=', $did);
-        }
-        $total_lakilaki = $query_total_lakilaki->where('sex', '=', 1)->count();
+        }*/
+        $total_lakilaki = $query_total_penduduk->where('sex', '=', 1)->count();
         $data['total_lakilaki'] = number_format($total_lakilaki);
 
         // Get Total Perempuan

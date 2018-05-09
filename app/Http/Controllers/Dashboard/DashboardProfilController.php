@@ -1,12 +1,9 @@
 <?php
-
 namespace App\Http\Controllers\Dashboard;
-
 use Illuminate\Support\Facades\DB;
 use App\Models\Profil;
 use App\Http\Controllers\Controller;
 use Counter;
-
 class DashboardProfilController extends Controller
 {
     //
