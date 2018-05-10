@@ -95,7 +95,7 @@ class ProfilController extends Controller
                 foreach($desa as $val)
                 {
                     $data_desa[] = array(
-                        'desa_id' => strval($val->id),
+                        'desa_id' => $val->id,
                         'kecamatan_id' => strval($profil->kecamatan_id),
                         'nama' => $val->nama
                     );

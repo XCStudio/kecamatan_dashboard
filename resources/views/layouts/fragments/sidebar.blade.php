@@ -102,6 +102,22 @@ use Illuminate\Support\Facades\URL;
                         
                         <li {{ (Request::is(['data/penduduk/*', 'data/penduduk/index', 'data/penduduk', 'data/keluarga/*', 'data/keluarga'])? 'class=active' : '') }}>
                             <a href="{{ route('data.penduduk.index') }}"><i class="fa fa-circle-o"></i>Penduduk</a></li>
+                        <li class="treeview {{ (Request::is(['data/aki-akb/*', 'data/aki-akb'])? 'active' : '') }}">
+                            <a href="#"><i class="fa fa-circle-o"></i>Kesehatan
+                        <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li {{ (Request::is(['data/aki-akb/*', 'data/aki-akb'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.aki-akb.index') }}"><i class="fa fa-circle-o"></i>AKI & AKB</a>
+                                </li>
+                                <li ><a href=""><i class="fa fa-circle-o"></i>Imunisasi</a></li>
+                                <li ><a href=""><i class="fa fa-circle-o"></i>Epidemi Penyakit</a></li>
+                                <li ><a href=""><i class="fa fa-circle-o"></i>Toilet Sanitasi</a></li>
+                            </ul>
+                        </li>
+
                         <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a
                                     href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a>
                         </li>

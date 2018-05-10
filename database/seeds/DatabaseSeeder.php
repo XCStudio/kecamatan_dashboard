@@ -50,6 +50,6 @@ class DatabaseSeeder extends Seeder
         $this->call(DasPendudukAikmelTableSeeder::class);
         $this->call(DasWilClusterdesaAikmelTableSeeder::class);
         $this->call(DasKeluargaAikmelTableSeeder::class);
-
+        $this->call(DasDataDesaAikmelTableSeeder::class);
     }
 }

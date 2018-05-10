@@ -340,6 +340,17 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::delete('destroy/{id}', ['as' => 'data.proses-domisili.destroy', 'uses' => 'ProsesDomisiliController@destroy']);
             });
 
+            //Routes Resource AKI & AKB
+            Route::group(['prefix' => 'aki-akb'], function () {
+                Route::get('getdata', ['as' => 'data.aki-akb.getdata', 'uses' => 'AKIAKBController@getDataAKIAKB']);
+                Route::get('/', ['as' => 'data.aki-akb.index', 'uses' => 'AKIAKBController@index']);
+                Route::get('edit/{id}', ['as' => 'data.aki-akb.edit', 'uses' => 'AKIAKBController@edit']);
+                Route::put('update/{id}', ['as' => 'data.aki-akb.update', 'uses' => 'AKIAKBController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.aki-akb.destroy', 'uses' => 'AKIAKBController@destroy']);
+                Route::get('import', ['as' => 'data.aki-akb.import', 'uses' => 'AKIAKBController@import']);
+                Route::post('do_import', ['as' => 'data.aki-akb.do_import', 'uses' => 'AKIAKBController@do_import']);
+            });
+
         });
     });
 });
@@ -418,6 +429,10 @@ Route::get('/api/penduduk-byid', function () {
     return DB::table('das_penduduk')
         ->where('id', '=', request('id'))->get();
 })->name('api.penduduk-byid');
+
+Route::get('/api/test', function () {
+    return \App\Models\Desa::where('id', '=', '5203090020')->get();
+})->name('api.test');
 
 // Dashboard Kependudukan
 Route::namespace('Dashboard')->group(function () {

@@ -3,8 +3,6 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
-use App\Models\Desa;
-use App\Models\Kecamatan;
 use App\Models\Profil;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
