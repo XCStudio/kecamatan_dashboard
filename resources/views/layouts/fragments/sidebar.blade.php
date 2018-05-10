@@ -102,7 +102,7 @@ use Illuminate\Support\Facades\URL;
                         
                         <li {{ (Request::is(['data/penduduk/*', 'data/penduduk/index', 'data/penduduk', 'data/keluarga/*', 'data/keluarga'])? 'class=active' : '') }}>
                             <a href="{{ route('data.penduduk.index') }}"><i class="fa fa-circle-o"></i>Penduduk</a></li>
-                        <li class="treeview {{ (Request::is(['data/aki-akb/*', 'data/aki-akb','data/imunisasi/*', 'data/imunisasi','data/epidemi-penyakit/*', 'data/epidemi-penyakit'])? 'active' : '') }}">
+                        <li class="treeview {{ (Request::is(['data/aki-akb/*', 'data/aki-akb','data/imunisasi/*', 'data/imunisasi','data/epidemi-penyakit/*', 'data/epidemi-penyakit','data/toilet-sanitasi/*', 'data/toilet-sanitasi'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Kesehatan
                         <span class="pull-right-container">
                           <i class="fa fa-angle-left pull-right"></i>
@@ -118,7 +118,9 @@ use Illuminate\Support\Facades\URL;
                                 <li {{ (Request::is(['data/epidemi-penyakit/*', 'data/epidemi-penyakit'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.epidemi-penyakit.index') }}"><i class="fa fa-circle-o"></i>Epidemi Penyakit</a>
                                 </li>
-                                <li ><a href=""><i class="fa fa-circle-o"></i>Toilet Sanitasi</a></li>
+                                <li {{ (Request::is(['data/toilet-sanitasi/*', 'data/toilet-sanitasi'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.toilet-sanitasi.index') }}"><i class="fa fa-circle-o"></i>Toilet & Sanitasi</a>
+                                </li>
                             </ul>
                         </li>
                         <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a
