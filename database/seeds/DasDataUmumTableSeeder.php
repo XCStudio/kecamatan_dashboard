@@ -44,7 +44,7 @@ class DasDataUmumTableSeeder extends Seeder
                 'jml_pasar' => 0,
                 'jml_balai_pertemuan' => 0,
                 'kepadatan_penduduk' => 0,
-                'embed_peta' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127308.97383106977!2d95.88368152683026!3d4.334733773483111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303ee24d1bd03e79%3A0xa18899e71f6fd1f0!2sArongan+Lambalek%2C+West+Aceh+Regency%2C+Aceh!5e0!3m2!1sen!2sid!4v1522820484579" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>',
+                'embed_peta' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127308.97383106977!2d95.88368152683026!3d4.334733773483111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303ee24d1bd03e79%3A0xa18899e71f6fd1f0!2sArongan+Lambalek%2C+West+Aceh+Regency%2C+Aceh!5e0!3m2!1sen!2sid!4v1522820484579',
                 'created_at' => '2018-03-30 06:39:09',
                 'updated_at' => '2018-04-04 05:50:55',
             ),

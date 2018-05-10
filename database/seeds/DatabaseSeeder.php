@@ -33,6 +33,7 @@ class DatabaseSeeder extends Seeder
         $this->call(DasAnggaranDesaTableSeeder::class);
         $this->call(DasKategoriKomplainTableSeeder::class);
         $this->call(DasTipeRegulasiTableSeeder::class);
+        $this->call(RefPenyakitTableSeeder::class);
 
         /*
          * Data Seeder Kecamatan Arongan Lambalek

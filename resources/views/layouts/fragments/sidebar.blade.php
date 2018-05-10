@@ -119,10 +119,6 @@ use Illuminate\Support\Facades\URL;
                                 <li ><a href=""><i class="fa fa-circle-o"></i>Toilet Sanitasi</a></li>
                             </ul>
                         </li>
-
-                        <li {{ (Request::is(['data/kesehatan'])? 'class=active' : '') }}><a
-                                    href="{{ URL::to('data/kesehatan') }}"><i class="fa fa-circle-o"></i>Kesehatan</a>
-                        </li>
                         <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a
                                     href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program
                                 Bantuan</a></li>
@@ -176,13 +172,13 @@ use Illuminate\Support\Facades\URL;
                     </a>
                     <ul class="treeview-menu">
                         <li {{ (Request::is(['setting/komplain-kategori/*', 'setting/komplain-kategori'])? 'class=active' : '') }}>
-                            <a
-                                    href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori
+                            <a href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori
                                 Komplain</a></li>
                         <li {{ (Request::is(['setting/tipe-regulasi/*', 'setting/tipe-regulasi'])? 'class=active' : '') }}>
-                            <a
-                                    href="{{ route('setting.tipe-regulasi.index') }}"><i class="fa fa-circle-o"></i>Tipe
+                            <a href="{{ route('setting.tipe-regulasi.index') }}"><i class="fa fa-circle-o"></i>Tipe
                                 Regulasi</a></li>
+                        <li {{ (Request::is(['setting/jenis-penyakit/*', 'setting/jenis-penyakit'])? 'class=active' : '') }}>
+                            <a href="{{ route('setting.jenis-penyakit.index') }}"><i class="fa fa-circle-o"></i>Jenis Penyakit</a></li>
                         <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a
                                     href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
                         <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a
