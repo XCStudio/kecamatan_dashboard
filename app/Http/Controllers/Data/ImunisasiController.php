@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers\Data;
 
-use App\Models\AkiAkb;
-use App\Models\Profil;
+use App\Models\Imunisasi;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Yajra\DataTables\Facades\DataTables;
+use App\Models\Profil;
 use Illuminate\Support\Facades\Input;
+use Yajra\DataTables\DataTables;
 use Excel;
 
-class AKIAKBController extends Controller
+class ImunisasiController extends Controller
 {
     public $nama_kecamatan;
     public $bulan;
@@ -29,9 +29,9 @@ class AKIAKBController extends Controller
     public function index()
     {
         //
-        $page_title = 'AKI & AKB';
-        $page_description = 'Data Kematian Ibu & Bayi Kecamatan '.$this->nama_kecamatan;
-        return view('data.aki_akb.index', compact('page_title', 'page_description'));
+        $page_title = 'Imunisasi';
+        $page_description = 'Data Cakupan Imunisasi Kecamatan '.$this->nama_kecamatan;
+        return view('data.imunisasi.index', compact('page_title', 'page_description'));
     }
 
     /**
@@ -42,10 +42,10 @@ class AKIAKBController extends Controller
     public function getDataAKIAKB()
     {
         //
-        return DataTables::of(AkiAkb::with(['desa'])->select('*')->get())
+        return DataTables::of(Imunisasi::with(['desa'])->select('*')->get())
             ->addColumn('actions', function ($row) {
-                $edit_url = route('data.aki-akb.edit', $row->id);
-                $delete_url = route('data.aki-akb.destroy', $row->id);
+                $edit_url = route('data.imunisasi.edit', $row->id);
+                $delete_url = route('data.imunisasi.destroy', $row->id);
 
                 $data['edit_url'] = $edit_url;
                 $data['delete_url'] = $delete_url;
@@ -70,10 +70,10 @@ class AKIAKBController extends Controller
     {
         //
         $page_title = 'Import';
-        $page_description = 'Import Data AKI & AKB';
+        $page_description = 'Import Data Cakupan Imunisasi';
         $years_list = years_list();
         $months_list = months_list();
-        return view('data.aki_akb.import', compact('page_title', 'page_description', 'kecamatan_id', 'list_desa', 'years_list', 'months_list'));
+        return view('data.imunisasi.import', compact('page_title', 'page_description', 'kecamatan_id', 'list_desa', 'years_list', 'months_list'));
     }
 
     /**
@@ -100,21 +100,18 @@ class AKIAKBController extends Controller
 
                 foreach ($data->toArray() as $key => $value) {
                     if (!empty($value)) {
-                        foreach ($value as $v) {
-                            $insert[] = [
-                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                'desa_id' => $v['desa_id'],
-                                'bulan' => $bulan,
-                                'tahun' => $tahun,
-                                'aki' => $v['jumlah_aki'],
-                                'akb' => $v['jumlah_akb'],
-                            ];
-                        }
+                        $insert[] = [
+                            'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                            'desa_id' => $value['desa_id'],
+                            'cakupan_imunisasi' => $value['cakupan_imunisasi'],
+                            'bulan' => $bulan,
+                            'tahun' => $tahun,
+                        ];
                     }
                 }
 
                 if (!empty($insert)) {
-                    AkiAkb::insert($insert);
+                    Imunisasi::insert($insert);
                     return back()->with('success', 'Import data sukses.');
                 }
 
@@ -125,7 +122,7 @@ class AKIAKBController extends Controller
     }
 
     protected function uploadValidation($bulan, $tahun){
-        return !AkiAkb::where('bulan',$bulan)->where('tahun', $tahun)->exists();
+        return !Imunisasi::where('bulan',$bulan)->where('tahun', $tahun)->exists();
     }
 
     /**
@@ -137,11 +134,11 @@ class AKIAKBController extends Controller
     public function edit($id)
     {
         //
-        $akib = AkiAkb::findOrFail($id);
+        $imunisasi = Imunisasi::findOrFail($id);
         $page_title = 'Ubah';
-        $page_description = 'Ubah Data AKI & AKB: '.$akib->id;
+        $page_description = 'Ubah Data Cakupan Imunisasi: '.$imunisasi->id;
 
-        return view('data.aki_akb.edit', compact('page_title', 'page_description', 'akib'));
+        return view('data.imunisasi.edit', compact('page_title', 'page_description', 'imunisasi'));
     }
 
     /**
@@ -156,13 +153,12 @@ class AKIAKBController extends Controller
         //
         try{
             request()->validate([
-                'aki' => 'required',
-                'akb' => 'required',
+                'cakupan_imunisasi' => 'required',
             ]);
 
-            AkiAkb::find($id)->update($request->all());
+            Imunisasi::find($id)->update($request->all());
 
-            return redirect()->route('data.aki-akb.index')->with('success', 'Data berhasil disimpan!');
+            return redirect()->route('data.imunisasi.index')->with('success', 'Data berhasil disimpan!');
         }catch (Exception $e){
             return back()->withInput()->with('error', 'Data gagal disimpan!');
         }
@@ -178,12 +174,12 @@ class AKIAKBController extends Controller
     {
         //
         try {
-            AkiAkb::findOrFail($id)->delete();
+            Imunisasi::findOrFail($id)->delete();
 
-            return redirect()->route('data.aki-akb.index')->with('success', 'Data sukses dihapus!');
+            return redirect()->route('data.imunisasi.index')->with('success', 'Data sukses dihapus!');
 
         } catch (Exception $e) {
-            return redirect()->route('data.aki-akb.index')->with('error', 'Data gagal dihapus!');
+            return redirect()->route('data.imunisasi.index')->with('error', 'Data gagal dihapus!');
         }
     }
 }

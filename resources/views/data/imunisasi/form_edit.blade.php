@@ -1,15 +1,8 @@
 <div class="form-group">
-    <label for="aki" class="control-label col-md-4 col-sm-3 col-xs-12">Angka Kematian Ibu <span class="required">*</span></label>
+    <label for="cakupan_imunisasi" class="control-label col-md-4 col-sm-3 col-xs-12">Nama <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
-        {!! Form::number('aki', null, ['class' => 'form-control', 'required' => true, 'id'=>'aki']) !!}
-    </div>
-</div>
-<div class="form-group">
-    <label for="akb" class="control-label col-md-4 col-sm-3 col-xs-12">Angka Kematian Bayi <span class="required">*</span></label>
-
-    <div class="col-md-6 col-sm-6 col-xs-12">
-        {!! Form::number('akb', null, ['class' => 'form-control', 'required' => true, 'id'=>'akb']) !!}
+        {!! Form::number('cakupan_imunisasi', null, ['class' => 'form-control', 'required' => true, 'id'=>'cakupan_imunisasi']) !!}
     </div>
 </div>
 <div class="form-group">
@@ -18,7 +11,7 @@
     <div class="col-md-8">
         <select class="form-control" id="bulan" name="bulan">
             @foreach(months_list() as $key=> $month)
-                @if($akib->bulan == $key)
+                @if($imunisasi->bulan == $key)
                 <option selected value="{{$key}}">{{$month}}</option>
                 @else
                 <option value="{{$key}}">{{$month}}</option>
@@ -34,7 +27,7 @@
     <div class="col-md-8">
         <select class="form-control" id="list_year" name="tahun">
             @foreach(years_list() as $year)
-                @if($akib->tahun == $year)
+                @if($imunisasi->tahun == $year)
                 <option selected value="{{$year}}">{{$year}}</option>
                 @else
                 <option value="{{$year}}">{{$year}}</option>

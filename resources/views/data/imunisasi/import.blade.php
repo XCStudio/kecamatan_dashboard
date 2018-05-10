@@ -26,7 +26,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.aki-akb.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
+                {!! Form::open( [ 'route' => 'data.imunisasi.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
 
                 <div class="box-body">
 
@@ -68,7 +68,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data AKI & AKB</label>
+                                <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data Cakupan Imunisasi</label>
 
                                 <div class="col-md-8">
                                     <input type="file" id="data_file" name="file" class="form-control" required/>
@@ -78,7 +78,7 @@
                         <div class="col-md-6">
                             <div class="well">
                                 <p>Instruksi Upload Data:</p>
-                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format Upload AKI & AKB.xlsx') }}">Download</a></p>
+                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format Upload Cakupan Imunisasi.xlsx') }}">Download</a></p>
                             </div>
                         </div>
                     </div>

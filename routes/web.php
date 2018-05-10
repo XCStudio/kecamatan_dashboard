@@ -351,6 +351,17 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::post('do_import', ['as' => 'data.aki-akb.do_import', 'uses' => 'AKIAKBController@do_import']);
             });
 
+            //Routes Resource AKI & AKB
+            Route::group(['prefix' => 'imunisasi'], function () {
+                Route::get('getdata', ['as' => 'data.imunisasi.getdata', 'uses' => 'ImunisasiController@getDataAKIAKB']);
+                Route::get('/', ['as' => 'data.imunisasi.index', 'uses' => 'ImunisasiController@index']);
+                Route::get('edit/{id}', ['as' => 'data.imunisasi.edit', 'uses' => 'ImunisasiController@edit']);
+                Route::put('update/{id}', ['as' => 'data.imunisasi.update', 'uses' => 'ImunisasiController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.imunisasi.destroy', 'uses' => 'ImunisasiController@destroy']);
+                Route::get('import', ['as' => 'data.imunisasi.import', 'uses' => 'ImunisasiController@import']);
+                Route::post('do_import', ['as' => 'data.imunisasi.do_import', 'uses' => 'ImunisasiController@do_import']);
+            });
+
         });
     });
 });
