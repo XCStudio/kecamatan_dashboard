@@ -87,11 +87,6 @@
                              style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
-                    {{-- <div class="tab-pane" id="jumlah_siswa_fasilitas">
-                        <div id="chart_siswa_fasilitas"
-                             style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
-                        </div>
-                    </div> --}}
                 </div>
                 <!-- /.nav-tabs-custom -->
             </div>
@@ -237,11 +232,11 @@
             }],
             "depth3D": 20,
             "angle": 30,
-            "chartCursor": {
+            /*"chartCursor": {
                 "categoryBalloonEnabled": false,
                 "cursorAlpha": 0,
                 "zoomable": false
-            },
+            },*/
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",
@@ -318,11 +313,11 @@
             }],
             "depth3D": 20,
             "angle": 30,
-            "chartCursor": {
+            /*"chartCursor": {
                 "categoryBalloonEnabled": false,
                 "cursorAlpha": 0,
                 "zoomable": false
-            },
+            },*/
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",
@@ -383,11 +378,11 @@
             }],
             "depth3D": 20,
             "angle": 30,
-            "chartCursor": {
-                "categoryBalloonEnabled": false,
+            /*"chartCursor": {
+                "categoryBalloonEnabled": true,
                 "cursorAlpha": 0,
                 "zoomable": false
-            },
+            },*/
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",

@@ -190,3 +190,29 @@ function format_date($date)
     Carbon::setLocale('id');
     return  Carbon::parse($date)->toDayDateTimeString();
 }
+
+function kuartal_bulan()
+{
+    return array(
+        'q1' => array(
+            1 => 'Januari',
+            2 => 'Februari',
+            3 => 'Maret',
+        ),
+        'q2' => array(
+            4 => 'April',
+            5 => 'Mei',
+            6 => 'Juni',
+        ),
+        'q3' => array(
+            7 => 'Juli',
+            8 => 'Agustus',
+            9 => 'September',
+        ),
+        'q4' => array(
+            10 => 'Oktober',
+            11 => 'November',
+            12 => 'Desember',
+        )
+    );
+}

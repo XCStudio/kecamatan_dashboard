@@ -124,7 +124,11 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('chart-tidak-sekolah', 'DashboardPendidikanController@getChartTidakSekolah')->name('dashboard.chart-tidak-sekolah');
 
 
-        Route::get('kesehatan', 'DashboardController@showKesehatan')->name('dashboard.kesehatan');
+        Route::group(['prefix' => 'kesehatan'], function () {
+            Route::get('/', 'DashboardKesehatanController@showKesehatan')->name('dashboard.kesehatan');
+            Route::get('chart-akiakb', 'DashboardKesehatanController@getChartAKIAKB')->name('dashboard.kesehatan.chart-akiakb');
+        });
+
 
         Route::get('program-bantuan', 'DashboardController@showProgramBantuan')->name('dashboard.program-bantuan');
 
@@ -475,7 +479,17 @@ Route::get('/api/penduduk-byid', function () {
 })->name('api.penduduk-byid');
 
 Route::get('/api/test', function () {
-    return \App\Models\Desa::where('id', '=', '5203090020')->get();
+    $data = array();
+    foreach(kuartal_bulan() as $key=>$val)
+    {
+        $data[]=$key;
+    }
+
+    //return $data;
+
+    $con = new \App\Http\Controllers\Dashboard\DashboardKesehatanController();
+
+    return $con->getIdsQuartal('q4');
 })->name('api.test');
 
 // Dashboard Kependudukan
