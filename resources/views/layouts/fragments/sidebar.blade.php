@@ -123,6 +123,24 @@ use Illuminate\Support\Facades\URL;
                                 </li>
                             </ul>
                         </li>
+                        <li class="treeview {{ (Request::is(['data/tingkat-pendidikan/*', 'data/tingkat-pendidikan','data/siswa-paud/*', 'data/siswa-paud','data/fasilitas-paud/*', 'data/fasilitas-paud'])? 'active' : '') }}">
+                            <a href="#"><i class="fa fa-circle-o"></i>Pendidikan
+                        <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li {{ (Request::is(['data/tingkat-pendidikan/*', 'data/tingkat-pendidikan'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.tingkat-pendidikan.index') }}"><i class="fa fa-circle-o"></i>Tingkat Pendidikan</a>
+                                </li>
+                                <li {{ (Request::is(['data/siswa-paud/*', 'data/siswa-paud'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.siswa-paud.index') }}"><i class="fa fa-circle-o"></i>Siswa PAUD</a>
+                                </li>
+                                <li {{ (Request::is(['data/fasilitas-paud/*', 'data/fasilitas-paud'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.fasilitas-paud.index') }}"><i class="fa fa-circle-o"></i>Fasilitas PAUD</a>
+                                </li>
+                            </ul>
+                        </li>
                         <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a
                                     href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program
                                 Bantuan</a></li>

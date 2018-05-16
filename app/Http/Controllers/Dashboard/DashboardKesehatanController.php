@@ -9,19 +9,18 @@ use Illuminate\Support\Facades\DB;
 
 class DashboardKesehatanController extends Controller
 {
-    private $kecamatan_id;
-    private $nama_kecamatan;
+
+    public $nama_kuartal = array('q1'=>'Kuartal 1', 'q2' => 'Kuartal 2', 'q3' => 'Kuartal 3', 'q4' => 'Kuartal 4');
 
     public function __construct()
     {
-        $this->kecamatan_id = env('KD_DEFAULT_PROFIL', null);
-        $this->nama_kecamatan = Kecamatan::findOrFail($this->kecamatan_id)->nama;
+
     }
 
-    //
+    // Dashboiard Kesehatan AKI & AKB
     public function showKesehatan()
     {
-        $defaultProfil = $this->kecamatan_id;
+        $defaultProfil = env('KD_DEFAULT_PROFIL', null);
         $page_title = 'Kesehatan';
         $page_description = 'Data Kesehatan Kecamatan ';
         $year_list = years_list();
@@ -29,6 +28,7 @@ class DashboardKesehatanController extends Controller
         return view('dashboard.kesehatan.show_kesehatan', compact('page_title', 'page_description', 'defaultProfil', 'year_list', 'list_desa'));
     }
 
+    // Get Data Chart AKI & AKB
     public function getChartAKIAKB()
     {
         $kid = request('kid');
@@ -57,20 +57,24 @@ class DashboardKesehatanController extends Controller
                 ];
             }
         }else{
-            $query_aki = DB::table('das_akib')
-                ->where('tahun', '=', $year)
-                ->where('kecamatan_id', '=', $kid);
-            if ($did != 'ALL') {
-                $query_aki->where('desa_id', '=', $did);
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                if ($did != 'ALL') {
+                    $query->where('desa_id', '=', $did);
+                }
+                $data_tabel[] = array(
+                    'year' => $this->nama_kuartal[$key],
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
             }
-            $aki = $query_aki->sum('aki');
-            $akb = $query_aki->sum('akb');
 
-            $data_kesehatan[] = [
-                'year' => $year,
-                'aki' => $aki,
-                'akb' =>  $akb,
-            ];
+
+            $data_kesehatan = $data_tabel;
         }
 
         // Data Tabel AKI & AKB
@@ -126,13 +130,325 @@ class DashboardKesehatanController extends Controller
         );
     }
 
-    public function getIdsQuartal($key)
+    // Get Data Chart Cakupan Imunisasi
+    public function getChartImunisasi()
     {
-        $quartal = kuartal_bulan()[$key];
-        $return = '';
-        foreach($quartal as $key=>$val){
-            $return.=$key.',';
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+        $data = array();
+
+        // Grafik Data Kesehatan Cakupan Imunisasi
+        $data_kesehatan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                // SD
+                $query = DB::table('das_imunisasi')
+                    ->where('tahun', '=', $yearl)
+                    ->where('kecamatan_id', '=', $kid);
+                if ($did != 'ALL') {
+                    $query->where('desa_id', '=', $did);
+                }
+
+                $data_kesehatan[] = [
+                    'year' => $yearl,
+                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                ];
+            }
+        }else{
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_imunisasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                if ($did != 'ALL') {
+                    $query->where('desa_id', '=', $did);
+                }
+                $data_tabel[]= array(
+                    'year' => $this->nama_kuartal[$key],
+                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                );
+            }
+
+            $data_kesehatan = $data_tabel;
         }
-        return rtrim($return,',');
+
+        // Data Tabel Cakupan Imunisasi
+        $tabel_kesehatan = array();
+
+        // Kuartal & Detail Per Desa
+        if($year!='ALL' && $did=='ALL'){
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_imunisasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                $data_tabel['quartal'][$key] = array(
+                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                );
+            }
+
+            // Detail Desa
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_imunisasi')
+                    ->join('das_data_desa', 'das_imunisasi.desa_id', '=', 'das_data_desa.desa_id')
+                    ->selectRaw('das_data_desa.nama, sum(das_imunisasi.cakupan_imunisasi) as cakupan_imunisasi')
+                    ->whereRaw('das_imunisasi.bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('das_imunisasi.tahun', $year)
+                    ->groupBy('das_data_desa.nama')->get();
+                $data_tabel['desa'][$key] = $query;
+            }
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_imunisasi_1', compact('data_tabel'))->render();
+            //$tabel_kesehatan = $data_tabel;
+
+        }elseif($year !='ALL' && $did != 'ALL'){
+            $data_tabel = array();
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_imunisasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year)
+                    ->where('desa_id', $did);
+                $data_tabel['quartal'][$key] = array(
+                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                );
+            }
+
+            //$tabel_kesehatan = $data_tabel;
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_imunisasi_2', compact('data_tabel'))->render();
+        }
+
+        return array(
+            'grafik' => $data_kesehatan,
+            'tabel' => $tabel_kesehatan
+        );
+    }
+
+    // Get Chart Epidemi Penyakit
+    public function getChartEpidemiPenyakit()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+        $data = array();
+
+        // Grafik Data Kesehatan Cakupan Imunisasi
+        $data_kesehatan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                // SD
+                $query = DB::table('das_epidemi_penyakit')
+                    ->where('tahun', '=', $yearl)
+                    ->where('kecamatan_id', '=', $kid);
+                if ($did != 'ALL') {
+                    $query->where('desa_id', '=', $did);
+                }
+
+                $data_kesehatan[] = [
+                    'year' => $yearl,
+                    'jumlah' => $query->sum('jumlah_penderita'),
+                ];
+            }
+        }else{
+            $datas = array();
+            $penyakit = DB::table('ref_penyakit')->get();
+
+            for($i = 1; $i<= 2; $i++)
+            {
+                $year = [
+                    'year' => $i
+                ];
+
+
+                foreach ($penyakit as $value) {
+                    $temp = null;
+                    $query_total = DB::table('das_epidemi_penyakit')
+                        ->join('ref_penyakit', 'das_epidemi_penyakit.penyakit_id', '=', 'ref_penyakit.id')
+                        ->where('das_epidemi_penyakit.kecamatan_id', '=', $kid)
+                        ->whereRaw('bulan in ('.$this->getIdsSemester($i).')')
+                        ->where('tahun', $year);
+
+                    if ($did != 'ALL') {
+                        $query_total->where('das_epidemi_penyakit.desa_id', '=', $did);
+                    }
+                    $total = $query_total->count();
+                    $temp = ['penyakit'.$value->id => $total];
+                    $year = array_merge($temp, $year);
+                }
+                $datas[] = $year;
+            }
+
+            $data_kesehatan = $datas;
+        }
+
+        // Data Tabel Cakupan Imunisasi
+        $tabel_kesehatan = array();
+
+        // Kuartal & Detail Per Desa
+        if($year!='ALL' && $did=='ALL'){
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$semester){
+                $query = DB::table('das_imunisasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                $data_tabel['quartal'][$key] = array(
+                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                );
+            }
+
+            // Detail Desa
+            foreach(kuartal_bulan() as $key=>$semester){
+                $query = DB::table('das_imunisasi')
+                    ->join('das_data_desa', 'das_imunisasi.desa_id', '=', 'das_data_desa.desa_id')
+                    ->selectRaw('das_data_desa.nama, sum(das_imunisasi.cakupan_imunisasi) as cakupan_imunisasi')
+                    ->whereRaw('das_imunisasi.bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('das_imunisasi.tahun', $year)
+                    ->groupBy('das_data_desa.nama')->get();
+                $data_tabel['desa'][$key] = $query;
+            }
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_imunisasi_1', compact('data_tabel'))->render();
+            //$tabel_kesehatan = $data_tabel;
+
+        }elseif($year !='ALL' && $did != 'ALL'){
+            $data_tabel = array();
+            foreach(kuartal_bulan() as $key=>$semester){
+                $query = DB::table('das_imunisasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year)
+                    ->where('desa_id', $did);
+                $data_tabel['quartal'][$key] = array(
+                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                );
+            }
+
+            //$tabel_kesehatan = $data_tabel;
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_imunisasi_2', compact('data_tabel'))->render();
+        }
+
+        return array(
+            'grafik' => $data_kesehatan,
+            'tabel' => $tabel_kesehatan
+        );
+    }
+
+    // Get Chart Toilet & Sanitasi
+    public function getChartToiletSanitasi()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+        $data = array();
+
+        // Grafik Data Toilet & Sanitasi
+        $data_kesehatan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                $query = DB::table('das_toilet_sanitasi')
+                    ->where('tahun', '=', $yearl)
+                    ->where('kecamatan_id', '=', $kid);
+                if ($did != 'ALL') {
+                    $query->where('desa_id', '=', $did);
+                }
+
+                $data_kesehatan[] = [
+                    'year' => $yearl,
+                    'toilet' =>  $query->sum('toilet'),
+                    'sanitasi' =>   $query->sum('sanitasi'),
+                ];
+            }
+        }else{
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_toilet_sanitasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                if ($did != 'ALL') {
+                    $query->where('desa_id', '=', $did);
+                }
+                $data_tabel[]= array(
+                    'year' => $this->nama_kuartal[$key],
+                    'toilet' =>  $query->sum('toilet'),
+                    'sanitasi' =>   $query->sum('sanitasi'),
+                );
+            }
+
+            $data_kesehatan = $data_tabel;
+        }
+
+        // Data Tabel AKI & AKB
+        $tabel_kesehatan = array();
+
+        // Kuartal & Detail Per Desa
+        if($year!='ALL' && $did=='ALL'){
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_toilet_sanitasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                $data_tabel['quartal'][$key] = array(
+                    'toilet' =>  $query->sum('toilet'),
+                    'sanitasi' =>   $query->sum('sanitasi'),
+                );
+            }
+
+            // Detail Desa
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_toilet_sanitasi')
+                    ->join('das_data_desa', 'das_toilet_sanitasi.desa_id', '=', 'das_data_desa.desa_id')
+                    ->selectRaw('das_data_desa.nama, sum(das_toilet_sanitasi.toilet) as toilet, sum(das_toilet_sanitasi.sanitasi) as sanitasi')
+                    ->whereRaw('das_toilet_sanitasi.bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('das_toilet_sanitasi.tahun', $year)
+                    ->groupBy('das_data_desa.nama')->get();
+                $data_tabel['desa'][$key] = $query;
+            }
+
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_sanitasi_1', compact('data_tabel'))->render();
+            //$tabel_kesehatan = $data_tabel;
+        }elseif($year !='ALL' && $did != 'ALL'){
+            $data_tabel = array();
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_toilet_sanitasi')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year)
+                    ->where('desa_id', $did);
+                $data_tabel['quartal'][$key] = array(
+                    'toilet' => $query->sum('toilet'),
+                    'sanitasi' => $query->sum('sanitasi')
+                );
+            }
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_sanitasi_2', compact('data_tabel'))->render();
+        }
+
+        return array(
+            'grafik' => $data_kesehatan,
+            'tabel' => $tabel_kesehatan
+        );
+    }
+
+    private function getIdsQuartal($q)
+    {
+        $quartal = kuartal_bulan()[$q];
+        $ids = '';
+        foreach($quartal as $key=>$val){
+            $ids.=$key.',';
+        }
+        return rtrim($ids,',');
+    }
+
+    public function getIdsSemester($sm)
+    {
+        $semester = semester()[$sm];
+        $ids = '';
+        foreach($semester as $key=>$val)
+        {
+            $ids.=$key.',';
+        }
+        return rtrim($ids,',');
     }
 }

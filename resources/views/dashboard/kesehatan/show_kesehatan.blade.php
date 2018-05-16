@@ -1,8 +1,7 @@
 @extends('layouts.dashboard_template')
-
 @section('content')
-
-        <!-- Content Header (Page header) -->
+        
+<!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
         {{ $page_title or "Page Title" }}
@@ -78,13 +77,34 @@
                         </div>
                     </div>
                     <div class="tab-pane" id="imunisasi">
-                        <div id="chart_imunisasi" style="width: 100%; height: 350px; overflow: visible; text-align: left;"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="chart_imunisasi" style="width: 100%; height: 350px; overflow: visible; text-align: left;"></div>
+                            </div>
+                            <div id="tabel_imunisasi" class="col-md-12">
+
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane" id="epidemi">
-                        <div id="chart_epidemi" style="width: 100%; height: 350px; overflow: visible; text-align: left;"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="chart_penyakit" style="width: 100%; min-height: 350px; overflow: visible; text-align: left;"></div>
+                            </div>
+                            <div id="tabel_penyakit" class="col-md-12">
+
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane" id="toilet_sanitasi">
-                        <div id="chart_toilet_sanitasi" style="width: 100%; height: 350px; overflow: visible; text-align: left;"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="chart_sanitasi" style="width: 100%; min-height: 350px; overflow: visible; text-align: left;"></div>
+                            </div>
+                            <div id="tabel_sanitasi" class="col-md-12">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- /.nav-tabs-custom -->
@@ -104,7 +124,6 @@
         // Select 2 Kecamatan
         $('#list_desa').select2();
         $('#list_year').select2();
-
 
 
         // Change Dashboard when Lsit Desa changed
@@ -141,17 +160,40 @@
          */
     });
 
-    function change_das_kesehatan(kid, did, year)
-    {
+    function change_das_kesehatan(kid, did, year) {
         $.ajax('{!! route('dashboard.kesehatan.chart-akiakb') !!}', {
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
             create_chart_akiakb(data['grafik']);
-            console.log(data);
             $('#tabel_aki_akb').html(data['tabel']);
         });
-    }
 
+        $.ajax('{!! route('dashboard.kesehatan.chart-imunisasi') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_imunisasi(data['grafik']);
+            $('#tabel_imunisasi').html(data['tabel']);
+        });
+
+       /* $.ajax('{!! route('dashboard.kesehatan.chart-penyakit') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            if (year=='ALL'){
+                create_chart_penyakit(data['grafik']);
+            }else{
+                create_chart_penyakit2(data['grafik']);
+            }
+
+            $('#tabel_penyakit').html(data['tabel']);
+        });*/
+
+        $.ajax('{!! route('dashboard.kesehatan.chart-sanitasi') !!}', {
+            data: {kid: kid, did: did, y: year}
+        }).done(function (data) {
+            create_chart_sanitasi(data['grafik']);
+            $('#tabel_sanitasi').html(data['tabel']);
+        });
+    }
 
 
     /**
@@ -175,7 +217,7 @@
                 {
                     "balloonText": "AKI:[[value]]",
                     "fillAlphas": 0.8,
-                    "fillColors" : "#03749f",
+                    "fillColors": "#07749f",
                     "id": "AmGraph-1",
                     "lineAlpha": 0.2,
                     "title": "AKI",
@@ -185,7 +227,7 @@
                 {
                     "balloonText": "AKB:[[value]]",
                     "fillAlphas": 0.8,
-                    "fillColors" : "#025777",
+                    "fillColors": "#025777",
                     "id": "AmGraph-2",
                     "lineAlpha": 0.2,
                     "title": "AKB",
@@ -196,15 +238,220 @@
             "depth3D": 5,
             "angle": 15,
             "guides": [],
-            "valueAxes": [
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Angka Kematian",
+                "baseValue" : 0,
+                "minimum": 0
+            }],
+            "allLabels": [],
+            "balloon": {},
+            "titles": [],
+            "dataProvider": data,
+            "export": {
+                "enabled": true
+            }
+        });
+    }
 
+    function create_chart_imunisasi(data) {
+
+        var chart_imunisasi = AmCharts.makeChart("chart_imunisasi", {
+            "type": "serial",
+            "theme": "light",
+            "categoryField": "year",
+            "hideCredits": true,
+            "rotate": true,
+            "startDuration": 1,
+            "categoryAxis": {
+                "gridPosition": "start",
+                //"position": "left"
+            },
+            //"trendLines": [],
+            "graphs": [
+                {
+                    "balloonText": "Cakupan Imunisasi:[[value]]",
+                    "fillAlphas": 0.8,
+                    "fillColors": "#03749f",
+                    "id": "AmGraph-1",
+                    "lineAlpha": 0.2,
+                    "title": "AKI",
+                    "type": "column",
+                    "valueField": "cakupan_imunisasi"
+                },
+            ],
+            "depth3D": 5,
+            "angle": 15,
+            "guides": [],
+            "valueAxes": [{
+                "position": "left",
+                "title": "Cakupan Imunisas",
+                "baseValue" : 0,
+                "minimum": 0
+            }],
+            "allLabels": [],
+            "balloon": {},
+            "titles": [],
+            "dataProvider": data,
+            "export": {
+                "enabled": true
+            }
+        });
+    }
+
+    function create_chart_penyakit(data) {
+
+        var chart_penyakit = AmCharts.makeChart("chart_penyakit", {
+            "type": "serial",
+            "theme": "light",
+            "categoryField": "year",
+            "hideCredits": true,
+            "rotate": true,
+            "startDuration": 1,
+            "categoryAxis": {
+                "gridPosition": "start",
+                //"position": "left"
+            },
+            //"trendLines": [],
+            "graphs": [
+                {
+                    "balloonText": "Jumlah Penderita:[[value]]",
+                    "fillAlphas": 0.8,
+                    "fillColors": "#03749f",
+                    "id": "AmGraph-1",
+                    "lineAlpha": 0.2,
+                    "title": "Jumlah Penderita",
+                    "type": "column",
+                    "valueField": "jumlah"
+                },
+            ],
+            "depth3D": 5,
+            "angle": 15,
+            "guides": [],
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penderita",
+                "baseValue" : 0,
+                "minimum": 0
+            }],
+            "allLabels": [],
+            "balloon": {},
+            "titles": [],
+            "dataProvider": data,
+            "export": {
+                "enabled": true
+            }
+        });
+    }
+
+    function create_chart_penyakit2(data) {
+        //console.log(data);
+        var chart = AmCharts.makeChart("chart_penyakit", {
+            "type": "serial",
+            "theme": "light",
+            "categoryField": "year",
+            "rotate": true,
+            "startDuration": 1,
+            "categoryAxis": {
+                "gridPosition": "start",
+                "position": "left"
+            },
+            "trendLines": [],
+            "graphs": [
+
+            ],
+            "guides": [],
+            "valueAxes": [
                 {
                     "id": "ValueAxis-1",
                     "position": "top",
-                    "axisAlpha": 0,
-                    "baseValue" : 0
+                    "axisAlpha": 0
                 }
             ],
+            "allLabels": [],
+            "balloon": {},
+            "titles": [],
+            "dataProvider": data,
+            "export": {
+                "enabled": true
+            }
+
+        });
+
+        /*{
+            "balloonText": "Income:[[value]]",
+                "fillAlphas": 0.8,
+                "id": "AmGraph-1",
+                "lineAlpha": 0.2,
+                "title": "Income",
+                "type": "column",
+                "valueField": "income"
+        },
+        {
+            "balloonText": "Expenses:[[value]]",
+                "fillAlphas": 0.8,
+                "id": "AmGraph-2",
+                "lineAlpha": 0.2,
+                "title": "Expenses",
+                "type": "column",
+                "valueField": "expenses"
+        }*/
+
+        var graphs = [new AmCharts.AmGraph()];
+
+        // SETTINGS
+        var i;
+        for (i = 0; i < data.length; i++) {
+            console.log(data[i]);
+        }
+        // ATTACH TO CHART INSTANCE;
+    }
+
+    function create_chart_sanitasi(data) {
+
+        var chart_sanitasi= AmCharts.makeChart("chart_sanitasi", {
+            "type": "serial",
+            "theme": "light",
+            "categoryField": "year",
+            "hideCredits": true,
+            "rotate": true,
+            "startDuration": 1,
+            "categoryAxis": {
+                "gridPosition": "start",
+                //"position": "left"
+            },
+            //"trendLines": [],
+            "graphs": [
+                {
+                    "balloonText": "Toilet:[[value]]",
+                    "fillAlphas": 0.8,
+                    "fillColors": "#07749f",
+                    "id": "AmGraph-1",
+                    "lineAlpha": 0.2,
+                    "title": "Toilet",
+                    "type": "column",
+                    "valueField": "toilet"
+                },
+                {
+                    "balloonText": "Sanitasi:[[value]]",
+                    "fillAlphas": 0.8,
+                    "fillColors": "#025777",
+                    "id": "AmGraph-2",
+                    "lineAlpha": 0.2,
+                    "title": "Sanitasi",
+                    "type": "column",
+                    "valueField": "sanitasi"
+                }
+            ],
+            "depth3D": 5,
+            "angle": 15,
+            "guides": [],
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Toilet dan Sanitasi",
+                "baseValue" : 0,
+                "minimum": 0
+            }],
             "allLabels": [],
             "balloon": {},
             "titles": [],

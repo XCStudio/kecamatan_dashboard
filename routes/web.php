@@ -127,6 +127,9 @@ Route::namespace('Dashboard')->group(function () {
         Route::group(['prefix' => 'kesehatan'], function () {
             Route::get('/', 'DashboardKesehatanController@showKesehatan')->name('dashboard.kesehatan');
             Route::get('chart-akiakb', 'DashboardKesehatanController@getChartAKIAKB')->name('dashboard.kesehatan.chart-akiakb');
+            Route::get('chart-imunisasi', 'DashboardKesehatanController@getChartImunisasi')->name('dashboard.kesehatan.chart-imunisasi');
+            Route::get('chart-penyakit', 'DashboardKesehatanController@getChartEpidemiPenyakit')->name('dashboard.kesehatan.chart-penyakit');
+            Route::get('chart-sanitasi', 'DashboardKesehatanController@getChartToiletSanitasi')->name('dashboard.kesehatan.chart-sanitasi');
         });
 
 
@@ -305,8 +308,6 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::post('import-excel', ['as' => 'data.keluarga.import-excel', 'uses' => 'KeluargaController@importExcel']);
             });
 
-
-
             //Routes Resource Layanan e-KTP
             Route::group(['prefix' => 'proses-ektp'], function () {
                 Route::get('getdata', ['as' => 'data.proses-ektp.getdata', 'uses' => 'ProsesEKTPController@getDataProsesKTP']);
@@ -399,6 +400,38 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::post('do_import', ['as' => 'data.toilet-sanitasi.do_import', 'uses' => 'ToiletSanitasiController@do_import']);
             });
 
+            //Routes Resource Tingkaat Pendidikan
+            Route::group(['prefix' => 'tingkat-pendidikan'], function () {
+                Route::get('getdata', ['as' => 'data.tingkat-pendidikan.getdata', 'uses' => 'TingkatPendidikanController@getDataTingkatPendidikan']);
+                Route::get('/', ['as' => 'data.tingkat-pendidikan.index', 'uses' => 'TingkatPendidikanController@index']);
+                Route::get('edit/{id}', ['as' => 'data.tingkat-pendidikan.edit', 'uses' => 'TingkatPendidikanController@edit']);
+                Route::put('update/{id}', ['as' => 'data.tingkat-pendidikan.update', 'uses' => 'TingkatPendidikanController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.tingkat-pendidikan.destroy', 'uses' => 'TingkatPendidikanController@destroy']);
+                Route::get('import', ['as' => 'data.tingkat-pendidikan.import', 'uses' => 'TingkatPendidikanController@import']);
+                Route::post('do_import', ['as' => 'data.tingkat-pendidikan.do_import', 'uses' => 'TingkatPendidikanController@do_import']);
+            });
+
+            //Routes Resource Siswa PAUD
+            Route::group(['prefix' => 'siswa-paud'], function () {
+                Route::get('getdata', ['as' => 'data.siswa-paud.getdata', 'uses' => 'SiswaPaudController@getDataSiswaPAUD']);
+                Route::get('/', ['as' => 'data.siswa-paud.index', 'uses' => 'SiswaPaudController@index']);
+                Route::get('edit/{id}', ['as' => 'data.siswa-paud.edit', 'uses' => 'SiswaPaudController@edit']);
+                Route::put('update/{id}', ['as' => 'data.siswa-paud.update', 'uses' => 'SiswaPaudController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.siswa-paud.destroy', 'uses' => 'SiswaPaudController@destroy']);
+                Route::get('import', ['as' => 'data.siswa-paud.import', 'uses' => 'SiswaPaudController@import']);
+                Route::post('do_import', ['as' => 'data.siswa-paud.do_import', 'uses' => 'SiswaPaudController@do_import']);
+            });
+
+            //Routes Resource Fasilitas PAUD
+            Route::group(['prefix' => 'fasilitas-paud'], function () {
+                Route::get('getdata', ['as' => 'data.fasilitas-paud.getdata', 'uses' => 'FasilitasPaudController@getDataFasilitasPAUD']);
+                Route::get('/', ['as' => 'data.fasilitas-paud.index', 'uses' => 'FasilitasPaudController@index']);
+                Route::get('edit/{id}', ['as' => 'data.fasilitas-paud.edit', 'uses' => 'FasilitasPaudController@edit']);
+                Route::put('update/{id}', ['as' => 'data.fasilitas-paud.update', 'uses' => 'FasilitasPaudController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.fasilitas-paud.destroy', 'uses' => 'FasilitasPaudController@destroy']);
+                Route::get('import', ['as' => 'data.fasilitas-paud.import', 'uses' => 'FasilitasPaudController@import']);
+                Route::post('do_import', ['as' => 'data.fasilitas-paud.do_import', 'uses' => 'FasilitasPaudController@do_import']);
+            });
         });
     });
 });
@@ -479,17 +512,15 @@ Route::get('/api/penduduk-byid', function () {
 })->name('api.penduduk-byid');
 
 Route::get('/api/test', function () {
-    $data = array();
-    foreach(kuartal_bulan() as $key=>$val)
-    {
-        $data[]=$key;
-    }
+    $return = [];
+    $a = ['year' => 2018];
+    $return = array_merge($return,$a);
+    $b = ['penyakit1' => 23];
+    $return = array_merge($return,$b);
+    $c = ['penyakit2' => 23];
+    $return = array_merge($return,$c);
 
-    //return $data;
-
-    $con = new \App\Http\Controllers\Dashboard\DashboardKesehatanController();
-
-    return $con->getIdsQuartal('q4');
+    return $return;
 })->name('api.test');
 
 // Dashboard Kependudukan

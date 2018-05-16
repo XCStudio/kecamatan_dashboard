@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.aki-akb.index')}}">AKI & AKB</a></li>
+        <li><a href="{{route('data.siswa-paud.index')}}">AKI & AKB</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -26,7 +26,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.aki-akb.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
+                {!! Form::open( [ 'route' => 'data.siswa-paud.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
 
                 <div class="box-body">
 
@@ -68,7 +68,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data AKI & AKB</label>
+                                <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data Siswa PAUD</label>
 
                                 <div class="col-md-8">
                                     <input type="file" id="data_file" name="file" class="form-control" required/>
@@ -78,7 +78,7 @@
                         <div class="col-md-6">
                             <div class="well">
                                 <p>Instruksi Upload Data:</p>
-                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format_Upload_AKI_&_AKB.xlsx') }}">Download</a></p>
+                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format_Upload_Siswa_PAUD.xlsx') }}">Download</a></p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                 <div class="box-footer">
                     <div class="pull-right">
                         <div class="control-group">
-                            <a href="{{ route('data.aki-akb.index') }}">
+                            <a href="{{ route('data.siswa-paud.index') }}">
                                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-upload"></i> Import</button>

@@ -257,6 +257,7 @@
             }],
             "valueAxes": [{
                 "baseValue" : 0,
+                "minimum": 0
             }],
         });
     }
@@ -338,6 +339,7 @@
             }],
             "valueAxes": [{
                 "baseValue" : 0,
+                "minimum": 0
             }],
         });
     }
@@ -403,6 +405,7 @@
             }],
             "valueAxes": [{
                 "baseValue" : 0,
+                "minimum": 0
             }],
         });
     }

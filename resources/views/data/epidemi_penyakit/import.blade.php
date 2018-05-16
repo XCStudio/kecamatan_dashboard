@@ -100,7 +100,7 @@
                 <div class="box-footer">
                     <div class="pull-right">
                         <div class="control-group">
-                            <a href="{{ route('data.penduduk.index') }}">
+                            <a href="{{ route('data.epidemi-penyakit.index') }}">
                                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-upload"></i> Import</button>

@@ -409,7 +409,8 @@
             "dataProvider": data,
             "valueAxes": [{
                 "axisAlpha": 0,
-                "position": "left"
+                "position": "left",
+                "minimum": 0
             }],
             "graphs": [
                 {
@@ -471,6 +472,7 @@
                 "position": "left",
                 "title": "Jumlah Penduduk",
                 "baseValue" : 0,
+                "minimum": 0
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Kelompok Usia",
@@ -512,45 +514,81 @@
         var chart_pendidikan = AmCharts.makeChart("chart_pendidikan", {
             "theme": "light",
             "type": "serial",
+            "hideCredits": true,
             "startDuration": 1,
             "rotate": true,
             "dataProvider": data,
-            "valueAxes": [{
-                "position": "left",
-                "title": "Jumlah Penduduk",
-                "baseValue" : 0,
+            "graphs": [{
+                "balloonText": "SD: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#0491c7",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SD",
+                "valueField": "SD"
+            },{
+                "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#03749f",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTP/Sederajat",
+                "valueField": "SLTP"
+            },{
+                "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#025777",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SLTA/Sederajat",
+                "valueField": "SLTA"
+            },{
+                "balloonText": "DIPLOMA: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#013a4f",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "DIPLOMA",
+                "valueField": "DIPLOMA"
+            },{
+                "balloonText": "SARJANA: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#001d27",
+                "fillAlphas": 1,
+                "lineAlpha": 0.1,
+                "type": "column",
+                "title": "SARJANA",
+                "valueField": "SARJANA"
             }],
+            "depth3D": 5,
+            "angle": 10,
+
+            "categoryField": "year",
+            "categoryAxis": {
+                "gridPosition": "start",
+            },
+            "export": {
+                "enabled": true
+            },
+            "legend": {
+                "enabled": true,
+                "useGraphSettings": true
+            },
             "allLabels": [{
-                "text": "Jumlah Penduduk Berdasarkan Pendidikan",
+                "text": "Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
                 "align": "center",
                 "bold": true,
                 "size": 20,
                 "y": -4
             }],
-            "graphs": [{
-                "balloonText": "[[category]]: <b>[[value]]</b>",
-                "fillColorsField": "color",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "valueField": "total"
+            "valueAxes": [{
+                "baseValue" : 0,
+                "minimum": 0
             }],
-            "depth3D": 5,
-            "angle": 10,
-            "chartCursor": {
-                "categoryBalloonEnabled": false,
-                "cursorAlpha": 0,
-                "zoomable": false
-            },
-            "categoryField": "level",
-            "categoryAxis": {
-                "gridPosition": "start",
-                "labelRotation": 90
-            },
-            "export": {
-                "enabled": true
-            },
-            "hideCredits": true
         });
     }
 
@@ -567,6 +605,7 @@
                 "position": "left",
                 "title": "Jumlah Penduduk",
                 "baseValue" : 0,
+                "minimum": 0
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Golongan Darah",
@@ -615,6 +654,7 @@
                 "position": "left",
                 "title": "Jumlah Penduduk",
                 "baseValue" : 0,
+                "minimum": 0
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Status Perkawinan",
@@ -663,6 +703,7 @@
                 "position": "left",
                 "title": "Jumlah Penduduk",
                 "baseValue" : 0,
+                "minimum": 0
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Agama",
@@ -711,6 +752,7 @@
                 "position": "left",
                 "title": "Jumlah Penduduk",
                 "baseValue" : 0,
+                "minimum": 0
             }],
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Jenis Kelamin",

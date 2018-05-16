@@ -225,26 +225,151 @@ class DashboardKependudukanController extends Controller
         $did = request('did');
         $year = request('y');
 
-        // Data Chart Penduduk By Pendidikan
-        $data = array();
-        $pendidikan = DB::table('ref_pendidikan_kk')->orderBy('id')->get();
-        $colors = array(1 => '#f8f613', 2=>'#e7f813', 3=> '#d4f813', 4=> '#c1f813', 5=> '#aef813', 6=> '#9bf813', 7=>'#88f813', 8=>'#75f813', 9=>'#62f813', 10=>'#4ff813');
-        foreach ($pendidikan as $val) {
-            $query_total = DB::table('das_penduduk')
+        // Grafik Data Pendidikan
+        $data_pendidikan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                // SD
+                $query_total_sd = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->where('das_penduduk.pendidikan_kk_id', '=', 3);
+                if ($did != 'ALL') {
+                    $query_total_sd->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_sd = $query_total_sd->count();
+
+                // SMP
+                $query_total_sltp = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->where('das_penduduk.pendidikan_kk_id', '=', 4);
+                if ($did != 'ALL') {
+                    $query_total_sltp->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_sltp = $query_total_sltp->count();
+
+                //SMA
+                $query_total_slta = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->where('das_penduduk.pendidikan_kk_id', '=', 5);
+                if ($did != 'ALL') {
+                    $query_total_slta->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_slta = $query_total_slta->count();
+
+                // DIPLOMA
+                $query_total_diploma = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->whereRaw('(das_penduduk.pendidikan_kk_id = 6 or das_penduduk.pendidikan_kk_id = 7)');
+                if ($did != 'ALL') {
+                    $query_total_diploma->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_diploma = $query_total_diploma->count();
+
+                // SARJANA
+                $query_total_sarjana = DB::table('das_penduduk')
+                    ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                    ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                    ->where('das_penduduk.kecamatan_id', '=', $kid)
+                    ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $yearl)
+                    ->whereRaw('(das_penduduk.pendidikan_kk_id = 8 or das_penduduk.pendidikan_kk_id = 9 or das_penduduk.pendidikan_kk_id = 10)');
+                if ($did != 'ALL') {
+                    $query_total_sarjana->where('das_penduduk.desa_id', '=', $did);
+                }
+                $total_sarjana = $query_total_sarjana->count();
+
+                $data_pendidikan[] = [
+                    'year' => $yearl,
+                    'SD' => $total_sd,
+                    'SLTP' => $total_sltp,
+                    'SLTA' => $total_slta,
+                    'DIPLOMA' => $total_diploma,
+                    'SARJANA' => $total_sarjana,
+                ];
+            }
+        }else{
+            // SD
+            $query_total_sd = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
                 ->where('das_penduduk.kecamatan_id', '=', $kid)
                 ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
-                ->where('das_penduduk.pendidikan_kk_id', '=', $val->id);
+                ->where('das_penduduk.pendidikan_kk_id', '=', 3);
             if ($did != 'ALL') {
-                $query_total->where('das_penduduk.desa_id', '=', $did);
+                $query_total_sd->where('das_penduduk.desa_id', '=', $did);
             }
-            $total = $query_total->count();
-            $data[] = array('level' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
+            $total_sd = $query_total_sd->count();
 
+            // SMP
+            $query_total_sltp = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.pendidikan_kk_id', '=', 4);
+            if ($did != 'ALL') {
+                $query_total_sltp->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_sltp = $query_total_sltp->count();
+
+            //SMA
+            $query_total_slta = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->where('das_penduduk.pendidikan_kk_id', '=', 5);
+            if ($did != 'ALL') {
+                $query_total_slta->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_slta = $query_total_slta->count();
+
+            // DIPLOMA
+            $query_total_diploma = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->whereRaw('(das_penduduk.pendidikan_kk_id = 6 or das_penduduk.pendidikan_kk_id = 7)');
+            if ($did != 'ALL') {
+                $query_total_diploma->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_diploma = $query_total_diploma->count();
+
+            // SARJANA
+            $query_total_sarjana = DB::table('das_penduduk')
+                ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->leftJoin('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                ->whereRaw('year(das_keluarga.tgl_daftar)= ?', $year)
+                ->whereRaw('(das_penduduk.pendidikan_kk_id = 8 or das_penduduk.pendidikan_kk_id = 9 or das_penduduk.pendidikan_kk_id = 10)');
+            if ($did != 'ALL') {
+                $query_total_sarjana->where('das_penduduk.desa_id', '=', $did);
+            }
+            $total_sarjana = $query_total_sarjana->count();
+
+            $data_pendidikan[] = [
+                'year' => $year,
+                'SD' => $total_sd,
+                'SLTP' => $total_sltp,
+                'SLTA' => $total_slta,
+                'DIPLOMA' => $total_diploma,
+                'SARJANA' => $total_sarjana,
+            ];
         }
 
-        return $data;
+        return $data_pendidikan;
     }
 
     public function getChartPendudukGolDarah()
