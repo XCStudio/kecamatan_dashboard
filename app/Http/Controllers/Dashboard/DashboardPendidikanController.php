@@ -9,6 +9,7 @@ use Counter;
 
 class DashboardPendidikanController extends Controller
 {
+    public $nama_kuartal = array('q1'=>'Kuartal 1', 'q2' => 'Kuartal 2', 'q3' => 'Kuartal 3', 'q4' => 'Kuartal 4');
     //
     /**
      * Menampilkan Data Pendidikan
@@ -27,7 +28,6 @@ class DashboardPendidikanController extends Controller
 
         return view('dashboard.pendidikan.show_pendidikan')->with($data);
     }
-
 
     public function getChartPendidikanPenduduk()
     {
@@ -449,5 +449,317 @@ class DashboardPendidikanController extends Controller
             ];
         }
         return $data_pendidikan;
+    }
+
+    public function getChartTingkatPendidikan()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Grafik Data TIngkat Pendidikan
+        $data_pendidikan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                // SD
+                $query_pendidikan = DB::table('das_tingkat_pendidikan')
+                    ->where('tahun', '=', $yearl)
+                    ->where('kecamatan_id', '=', $kid);
+                if ($did != 'ALL') {
+                    $query_pendidikan->where('desa_id', '=', $did);
+                }
+
+                $data_pendidikan[] = [
+                    'year' => $yearl,
+                    'tidak_tamat_sekolah' => $query_pendidikan->sum('tidak_tamat_sekolah'),
+                    'tamat_sd' =>  $query_pendidikan->sum('tamat_sd'),
+                    'tamat_smp' =>  $query_pendidikan->sum('tamat_smp'),
+                    'tamat_sma' =>  $query_pendidikan->sum('tamat_sma'),
+                    'tamat_diploma_sederajat' =>  $query_pendidikan->sum('tamat_diploma_sederajat'),
+                ];
+            }
+        }else{
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query_pendidikan = DB::table('das_tingkat_pendidikan')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                if ($did != 'ALL') {
+                    $query_pendidikan->where('desa_id', '=', $did);
+                }
+                $data_tabel[] = array(
+                    'year' => $this->nama_kuartal[$key],
+                    'tidak_tamat_sekolah' => $query_pendidikan->sum('tidak_tamat_sekolah'),
+                    'tamat_sd' =>  $query_pendidikan->sum('tamat_sd'),
+                    'tamat_smp' =>  $query_pendidikan->sum('tamat_smp'),
+                    'tamat_sma' =>  $query_pendidikan->sum('tamat_sma'),
+                    'tamat_diploma_sederajat' =>  $query_pendidikan->sum('tamat_diploma_sederajat'),
+                );
+            }
+
+
+            $data_pendidikan = $data_tabel;
+        }
+
+        // Data Tabel AKI & AKB
+        $tabel_kesehatan = array();
+
+        // Kuartal & Detail Per Desa
+        /*if($year!='ALL' && $did=='ALL'){
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                $data_tabel['quartal'][$key] = array(
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
+            }
+
+            // Detail Desa
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->join('das_data_desa', 'das_akib.desa_id', '=', 'das_data_desa.desa_id')
+                    ->selectRaw('das_data_desa.nama, sum(das_akib.aki) as aki, sum(das_akib.akb) as akb')
+                    ->whereRaw('das_akib.bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('das_akib.tahun', $year)
+                    ->groupBy('das_data_desa.nama')->get();
+                $data_tabel['desa'][$key] = $query;
+            }
+
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_akiakb_1', compact('data_tabel'))->render();
+            //$tabel_kesehatan = $data_tabel;
+        }elseif($year !='ALL' && $did != 'ALL'){
+            $data_tabel = array();
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year)
+                    ->where('desa_id', $did);
+                $data_tabel['quartal'][$key] = array(
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
+            }
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_akiakb_2', compact('data_tabel'))->render();
+        }*/
+
+        return array(
+            'grafik' => $data_pendidikan,
+            'tabel' => $tabel_kesehatan
+        );
+    }
+
+    public function getChartSiswaPAUD()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Grafik Data Siswa PAUD
+        $data_pendidikan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                // SD
+                $query_pendidikan = DB::table('das_siswa_paud')
+                    ->where('tahun', '=', $yearl)
+                    ->where('kecamatan_id', '=', $kid);
+                if ($did != 'ALL') {
+                    $query_pendidikan->where('desa_id', '=', $did);
+                }
+
+                $data_pendidikan[] = [
+                    'year' => $yearl,
+                    'siswa_paud' => $query_pendidikan->sum('siswa_paud'),
+                    'anak_usia_paud' =>  $query_pendidikan->sum('anak_usia_paud'),
+                ];
+            }
+        }else{
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query_pendidikan = DB::table('das_siswa_paud')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                if ($did != 'ALL') {
+                    $query_pendidikan->where('desa_id', '=', $did);
+                }
+                $data_tabel[] = array(
+                    'year' => $this->nama_kuartal[$key],
+                    'siswa_paud' => $query_pendidikan->sum('siswa_paud'),
+                    'anak_usia_paud' =>  $query_pendidikan->sum('anak_usia_paud'),
+                );
+            }
+
+
+            $data_pendidikan = $data_tabel;
+        }
+
+        // Data Tabel AKI & AKB
+        $tabel_kesehatan = array();
+
+        // Kuartal & Detail Per Desa
+        /*if($year!='ALL' && $did=='ALL'){
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                $data_tabel['quartal'][$key] = array(
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
+            }
+
+            // Detail Desa
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->join('das_data_desa', 'das_akib.desa_id', '=', 'das_data_desa.desa_id')
+                    ->selectRaw('das_data_desa.nama, sum(das_akib.aki) as aki, sum(das_akib.akb) as akb')
+                    ->whereRaw('das_akib.bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('das_akib.tahun', $year)
+                    ->groupBy('das_data_desa.nama')->get();
+                $data_tabel['desa'][$key] = $query;
+            }
+
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_akiakb_1', compact('data_tabel'))->render();
+            //$tabel_kesehatan = $data_tabel;
+        }elseif($year !='ALL' && $did != 'ALL'){
+            $data_tabel = array();
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year)
+                    ->where('desa_id', $did);
+                $data_tabel['quartal'][$key] = array(
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
+            }
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_akiakb_2', compact('data_tabel'))->render();
+        }*/
+
+        return array(
+            'grafik' => $data_pendidikan,
+            'tabel' => $tabel_kesehatan
+        );
+    }
+
+    public  function getChartFasilitasPAUD()
+    {
+        $kid = request('kid');
+        $did = request('did');
+        $year = request('y');
+
+        // Grafik Data Fasilitas PAUD
+        $data_pendidikan = array();
+        if($year == 'ALL'){
+            foreach (years_list() as $yearl) {
+                // SD
+                $query_pendidikan = DB::table('das_fasilitas_paud')
+                    ->where('tahun', '=', $yearl)
+                    ->where('kecamatan_id', '=', $kid);
+                if ($did != 'ALL') {
+                    $query_pendidikan->where('desa_id', '=', $did);
+                }
+
+                $data_pendidikan[] = [
+                    'year' => $yearl,
+                    'jumlah_paud' => $query_pendidikan->sum('jumlah_paud'),
+                    'jumlah_guru_paud' =>  $query_pendidikan->sum('jumlah_guru_paud'),
+                    'jumlah_siswa_paud' =>  $query_pendidikan->sum('jumlah_siswa_paud'),
+                ];
+            }
+        }else{
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query_pendidikan = DB::table('das_fasilitas_paud')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                if ($did != 'ALL') {
+                    $query_pendidikan->where('desa_id', '=', $did);
+                }
+                $data_tabel[] = array(
+                    'year' => $this->nama_kuartal[$key],
+                    'jumlah_paud' => $query_pendidikan->sum('jumlah_paud'),
+                    'jumlah_guru_paud' =>  $query_pendidikan->sum('jumlah_guru_paud'),
+                    'jumlah_siswa_paud' =>  $query_pendidikan->sum('jumlah_siswa_paud'),
+                );
+            }
+
+
+            $data_pendidikan = $data_tabel;
+        }
+
+        // Data Tabel AKI & AKB
+        $tabel_kesehatan = array();
+
+        // Kuartal & Detail Per Desa
+        /*if($year!='ALL' && $did=='ALL'){
+            $data_tabel = array();
+            // Quartal
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year);
+                $data_tabel['quartal'][$key] = array(
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
+            }
+
+            // Detail Desa
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->join('das_data_desa', 'das_akib.desa_id', '=', 'das_data_desa.desa_id')
+                    ->selectRaw('das_data_desa.nama, sum(das_akib.aki) as aki, sum(das_akib.akb) as akb')
+                    ->whereRaw('das_akib.bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('das_akib.tahun', $year)
+                    ->groupBy('das_data_desa.nama')->get();
+                $data_tabel['desa'][$key] = $query;
+            }
+
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_akiakb_1', compact('data_tabel'))->render();
+            //$tabel_kesehatan = $data_tabel;
+        }elseif($year !='ALL' && $did != 'ALL'){
+            $data_tabel = array();
+            foreach(kuartal_bulan() as $key=>$kuartal){
+                $query = DB::table('das_akib')
+                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
+                    ->where('tahun', $year)
+                    ->where('desa_id', $did);
+                $data_tabel['quartal'][$key] = array(
+                    'aki' => $query->sum('aki'),
+                    'akb' => $query->sum('akb')
+                );
+            }
+
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_akiakb_2', compact('data_tabel'))->render();
+        }*/
+
+        return array(
+            'grafik' => $data_pendidikan,
+            'tabel' => $tabel_kesehatan
+        );
+    }
+
+    private function getIdsQuartal($q)
+    {
+        $quartal = kuartal_bulan()[$q];
+        $ids = '';
+        foreach($quartal as $key=>$val){
+            $ids.=$key.',';
+        }
+        return rtrim($ids,',');
     }
 }

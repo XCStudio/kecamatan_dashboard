@@ -329,23 +329,30 @@
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
 
-            $('#total_penduduk').html(data.total_penduduk);
-            $('#total_lakilaki').html(data.total_lakilaki);
-            $('#total_perempuan').html(data.total_perempuan);
-            $('#total_disabilitas').html(data.total_disabilitas);
-            $('#total_disabilitas').html(data.total_disabilitas);
+           /* if(data.total_penduduk==0){
+                alert("Data penduduk di tahun " + year + " adalah 0. Data dialihkan ke tahun sebelumnya.");
+                $("#list_year").val(year - 1);
+                change_das_kependudukan(kid, did, year-1);
+            }else{*/
+                $('#total_penduduk').html(data.total_penduduk);
+                $('#total_lakilaki').html(data.total_lakilaki);
+                $('#total_perempuan').html(data.total_perempuan);
+                $('#total_disabilitas').html(data.total_disabilitas);
+                $('#total_disabilitas').html(data.total_disabilitas);
 
-            $('#data_ktp').html(data.ktp_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
-            $('#ktp_persen').css('width', data.ktp_persen_terpenuhi + '%');
-            $('#ktp_terpenuhi').html(data.ktp_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
+                $('#data_ktp').html(data.ktp_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
+                $('#ktp_persen').css('width', data.ktp_persen_terpenuhi + '%');
+                $('#ktp_terpenuhi').html(data.ktp_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
 
-            $('#data_akta').html(data.akta_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
-            $('#akta_persen').css('width', data.akta_persen_terpenuhi + '%');
-            $('#akta_terpenuhi').html(data.akta_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
+                $('#data_akta').html(data.akta_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
+                $('#akta_persen').css('width', data.akta_persen_terpenuhi + '%');
+                $('#akta_terpenuhi').html(data.akta_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
 
-            $('#data_nikah').html(data.aktanikah_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
-            $('#nikah_persen').css('width', data.aktanikah_persen_terpenuhi + '%');
-            $('#nikah_terpenuhi').html(data.aktanikah_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
+                $('#data_nikah').html(data.aktanikah_terpenuhi + ' dari ' + data.total_penduduk + ' Jiwa Terpenuhi');
+                $('#nikah_persen').css('width', data.aktanikah_persen_terpenuhi + '%');
+                $('#nikah_terpenuhi').html(data.aktanikah_persen_terpenuhi + '% Jiwa Tidak Terpenuhi');
+           /* }*/
+
         });
 
         // Load Ajax Chart Pertumbuhan Penduduk

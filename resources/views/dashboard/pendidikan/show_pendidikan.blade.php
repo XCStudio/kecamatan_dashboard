@@ -60,9 +60,9 @@
         <div class="col-md-12">
             <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#jumlah_penduduk" data-toggle="tab">Jumlah Penduduk</a></li>
-                    <li><a href="#jumlah_siswa" data-toggle="tab">Jumlah Siswa</a></li>
-                    <li><a href="#jumlah_tidak_sekolah" data-toggle="tab">Jumlah Anak Tidak Bersekolah</a></li>
+                    <li class="active"><a href="#jumlah_penduduk" data-toggle="tab">Tingkat Pendidikan</a></li>
+                    <li><a href="#jumlah_siswa" data-toggle="tab">Jumlah Siswa PAUD</a></li>
+                    <li><a href="#jumlah_tidak_sekolah" data-toggle="tab">Jumlah Fasilitas PAUD</a></li>
                     {{-- <li><a href="#jumlah_siswa_fasilitas" data-toggle="tab">Jumlah Siswa dan Fasilitas</a></li> --}}
                 </ul>
 
@@ -71,7 +71,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div id="chart_penduduk_pendidikan"
-                                     style="width: 100%; min-height: 400px; overflow: auto; text-align: left;">
+                                     style="width: 100%; min-height: 800px; overflow: auto; text-align: left;">
 
                                 </div>
                             </div>
@@ -150,22 +150,22 @@
 
     function change_das_pendidikan(kid, did, year) {
 
-        $.ajax('{!! route('dashboard.chart-pendidikan-penduduk') !!}', {
+        $.ajax('{!! route('dashboard.pendidikan.chart-tingkat-pendidikan') !!}', {
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
-            create_chart_tingkat_pendidikan(data);
+            create_chart_tingkat_pendidikan(data['grafik']);
         });
 
-        $.ajax('{!! route('dashboard.chart-pendidikan-siswa') !!}', {
+        $.ajax('{!! route('dashboard.pendidikan.chart-siswa-paud') !!}', {
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
-            create_chart_jumlah_siswa(data);
+            create_chart_jumlah_siswa(data['grafik']);
         });
 
-        $.ajax('{!! route('dashboard.chart-tidak-sekolah') !!}', {
+        $.ajax('{!! route('dashboard.pendidikan.chart-fasilitas-paud') !!}', {
             data: {kid: kid, did: did, y: year}
         }).done(function (data) {
-            create_chart_tidak_sekolah(data);
+            create_chart_tidak_sekolah(data['grafik']);
         });
     }
 
@@ -182,56 +182,57 @@
             "theme": "light",
             "type": "serial",
             "hideCredits": true,
+            "rotate": true,
             "startDuration": 2,
             "dataProvider": data,
             "graphs": [{
-                "balloonText": "SD: <b>[[value]]</b>",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
                 //"fillColorsField": "color",
-                "fillColors" : "#0491c7",
+                "fillColors" : "#86abf8",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "SD",
-                "valueField": "SD"
+                "title": "Tidak Tamat Sekolah",
+                "valueField": "tidak_tamat_sekolah"
             },{
-                "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
                 //"fillColorsField": "color",
-                "fillColors" : "#03749f",
+                "fillColors" : "#6e9af7",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "SLTP/Sederajat",
-                "valueField": "SLTP"
+                "title": "Tamat SD",
+                "valueField": "tamat_sd"
             },{
-                "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
                 //"fillColorsField": "color",
-                "fillColors" : "#025777",
+                "fillColors" : "#5689f5",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "SLTA/Sederajat",
-                "valueField": "SLTA"
+                "title": "Tamat SMP",
+                "valueField": "tamat_smp"
             },{
-                "balloonText": "DIPLOMA: <b>[[value]]</b>",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
                 //"fillColorsField": "color",
-                "fillColors" : "#013a4f",
+                "fillColors" : "#3e78f4",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "DIPLOMA",
-                "valueField": "DIPLOMA"
+                "title": "Tamat SMA",
+                "valueField": "tamat_sma"
             },{
-                "balloonText": "SARJANA: <b>[[value]]</b>",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
                 //"fillColorsField": "color",
-                "fillColors" : "#001d27",
+                "fillColors" : "#2667f3",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "SARJANA",
-                "valueField": "SARJANA"
+                "title": "Tamat Diploma/Sederajat",
+                "valueField": "tamat_diploma_sederajat"
             }],
-            "depth3D": 20,
-            "angle": 30,
+            "depth3D": 5,
+            "angle": 15,
             /*"chartCursor": {
                 "categoryBalloonEnabled": false,
                 "cursorAlpha": 0,
@@ -269,51 +270,30 @@
             "theme": "light",
             "type": "serial",
             "hideCredits": true,
-            "startDuration": 2,
+            "rotate": true,
+            "startDuration": 1,
             "dataProvider": data,
             "graphs": [{
-                "balloonText": "SD: <b>[[value]]</b>",
-                "fillColors": "#5ef250",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#fbf112",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "SD",
-                "valueField": "SD"
+                "title": "Siswa PAUD",
+                "valueField": "siswa_paud"
             },{
-                "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
-                "fillColors": "#54d948",
+                "balloonText": "[[title]]: <b>[[value]]</b>",
+                //"fillColorsField": "color",
+                "fillColors" : "#d6cd04",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "title": "SLTP/Sederajat",
-                "valueField": "SLTP"
-            },{
-                "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
-                "fillColors": "#4bc140",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "title": "SLTA/Sederajat",
-                "valueField": "SLTA"
-            },{
-                "balloonText": "DIPLOMA: <b>[[value]]</b>",
-                "fillColors": "#41a938",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "title": "DIPLOMA",
-                "valueField": "DIPLOMA"
-            },{
-                "balloonText": "SARJANA: <b>[[value]]</b>",
-                "fillColors": "#389130",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "title": "SARJANA",
-                "valueField": "SARJANA"
+                "title": "Anak Usia PAUD",
+                "valueField": "anak_usia_paud"
             }],
-            "depth3D": 20,
-            "angle": 30,
+            "depth3D": 5,
+            "angle": 15,
             /*"chartCursor": {
                 "categoryBalloonEnabled": false,
                 "cursorAlpha": 0,
@@ -331,7 +311,7 @@
                 "useGraphSettings": true
             },
             "allLabels": [{
-                "text": "Jumlah Siswa Berdasarkan Tingkat Pendidikan",
+                "text": "Jumlah Siswa PAUD",
                 "align": "center",
                 "bold": true,
                 "size": 20,
@@ -348,64 +328,66 @@
     function create_chart_tidak_sekolah(data) {
         // Chart Perbandingan Jumlah Anak Tidak Sekolah
         var chart_tidak_sekolah = AmCharts.makeChart("chart_tidak_sekolah", {
-            "theme": "light",
             "type": "serial",
-            "hideCredits": true,
-            "startDuration": 2,
+            "theme": "light",
+            "legend": {
+                "horizontalGap": 10,
+                "maxColumns": 1,
+                "position": "right",
+                "useGraphSettings": true,
+                "markerSize": 10
+            },
             "dataProvider": data,
-            "graphs": [{
-                "balloonText": "Usia Anak 6-12 (SD): <b>[[value]]</b>",
-                "fillColors": "#fdff10",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "title": "SD",
-                "valueField": "SD"
-            },{
-                "balloonText": "Usia Anak 13-15 (SLTP/Sederajat): <b>[[value]]</b>",
-                "fillColors": "#cacc0c",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "title": "SLTP/Sederajat",
-                "valueField": "SLTP"
-            },{
-                "balloonText": "Usia Anak 15-18 (SLTA/Sederajat): <b>[[value]]</b>",
-                "fillColors": "#979909",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "title": "SLTA/Sederajat",
-                "valueField": "SLTA"
+            "valueAxes": [{
+                "stackType": "regular",
+                "axisAlpha": 0.3,
+                "gridAlpha": 0
             }],
-            "depth3D": 20,
-            "angle": 30,
-            /*"chartCursor": {
-                "categoryBalloonEnabled": true,
-                "cursorAlpha": 0,
-                "zoomable": false
-            },*/
+            "graphs": [{
+                "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
+                "fillAlphas": 0.8,
+                "labelText": "[[value]]",
+                "lineAlpha": 0.3,
+                "title": "Jumlah PAUD",
+                "type": "column",
+                "color": "#000000",
+                "valueField": "jumlah_paud"
+            }, {
+                "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
+                "fillAlphas": 0.8,
+                "labelText": "[[value]]",
+                "lineAlpha": 0.3,
+                "title": "Jumlah Guru PAUD",
+                "type": "column",
+                "color": "#000000",
+                "valueField": "jumlah_guru_paud"
+            }, {
+                "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
+                "fillAlphas": 0.8,
+                "labelText": "[[value]]",
+                "lineAlpha": 0.3,
+                "title": "Jumlah Siswa PAUD",
+                "type": "column",
+                "color": "#000000",
+                "valueField": "jumlah_siswa_paud"
+            }],
             "categoryField": "year",
             "categoryAxis": {
                 "gridPosition": "start",
+                "axisAlpha": 0,
+                "gridAlpha": 0,
+                "position": "left"
             },
             "export": {
                 "enabled": true
             },
-            "legend": {
-                "enabled": true,
-                "useGraphSettings": true
-            },
+            "hideCredits": true,
             "allLabels": [{
-                "text": "Jumlah Anak Tidak Sekolah",
+                "text": "Perbandingan Siswa PAUD dan Jumlah Fasilitas PAUD",
                 "align": "center",
                 "bold": true,
                 "size": 20,
                 "y": -4
-            }],
-            "valueAxes": [{
-                "baseValue" : 0,
-                "minimum": 0
             }],
         });
     }

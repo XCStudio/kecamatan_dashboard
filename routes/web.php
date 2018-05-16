@@ -118,11 +118,12 @@ Route::namespace('Dashboard')->group(function () {
         Route::get('chart-kependudukan-kelamin', 'DashboardKependudukanController@getChartPendudukKelamin')->name('dashboard.chart-kependudukan-kelamin');
         Route::get('data-penduduk', 'DashboardKependudukanController@getDataPenduduk')->name('dashboard.data-penduduk');
 
-        Route::get('pendidikan', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
-        Route::get('chart-pendidikan-penduduk', 'DashboardPendidikanController@getChartPendidikanPenduduk')->name('dashboard.chart-pendidikan-penduduk');
-        Route::get('chart-pendidikan-siswa', 'DashboardPendidikanController@getChartPendidikanSiswa')->name('dashboard.chart-pendidikan-siswa');
-        Route::get('chart-tidak-sekolah', 'DashboardPendidikanController@getChartTidakSekolah')->name('dashboard.chart-tidak-sekolah');
-
+        Route::group(['prefix' => 'pendidikan'], function(){
+            Route::get('/', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
+            Route::get('chart-tingkat-pendidikan', 'DashboardPendidikanController@getChartTingkatPendidikan')->name('dashboard.pendidikan.chart-tingkat-pendidikan');
+            Route::get('chart-siswa-paud', 'DashboardPendidikanController@getChartSiswaPAUD')->name('dashboard.pendidikan.chart-siswa-paud');
+            Route::get('chart-fasilitas-paud', 'DashboardPendidikanController@getChartFasilitasPAUD')->name('dashboard.pendidikan.chart-fasilitas-paud');
+        });
 
         Route::group(['prefix' => 'kesehatan'], function () {
             Route::get('/', 'DashboardKesehatanController@showKesehatan')->name('dashboard.kesehatan');
