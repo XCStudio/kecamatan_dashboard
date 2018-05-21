@@ -161,7 +161,7 @@
                                   <a href="{{ route('sistem-komplain.komplain', $komplain->slug) }}">TRACKING ID
                                       #{{ $komplain->komplain_id }}</a>
                                 </span>
-                                <span class="description">PENGGUNA : {{ $komplain->nama }}</span>
+                                <span class="description">PELAPOR : {{ $komplain->nama }}</span>
                             </div>
                             <!-- /.user-block -->
                             <br>

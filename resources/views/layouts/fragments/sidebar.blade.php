@@ -172,17 +172,15 @@ use Illuminate\Support\Facades\URL;
 
                     </ul>
                 </li>
-                <li class="treeview {{ (Request::is(['admin-komplain/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-comments-o"></i> <span>Admin SIKOMA</span>
+                <li class="treeview {{ (Request::is(['admin-komplain/*', 'admin-komplain'])? 'active' : '') }}"><a href="#"><i class="fa fa-comments-o"></i> <span>Admin SIKOMA</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                     </a>
                     <ul class="treeview-menu">
 
-                        <li {{ (Request::is(['admin-komplain/index'])? 'class=active' : '') }}><a
-                                    href="{{ route('sistem-komplain.index') }}"><i class="fa fa-circle-o"></i>Daftar Komplain</a></li>
-                        <li {{ (Request::is(['admin-komplain/statistik'])? 'class=active' : '') }}><a
-                                    href="{{ route('sistem-komplain.index') }}"><i class="fa fa-circle-o"></i>Statistik</a></li>
+                        <li {{ (Request::is(['admin-komplain', 'admin-komplain/*'])? 'class=active' : '') }}><a href="{{ route('admin-komplain.index') }}"><i class="fa fa-circle-o"></i>Daftar Komplain</a></li>
+                        <li {{ (Request::is(['admin-komplain/statistik'])? 'class=active' : '') }}><a href="{{ route('admin-komplain.statistik') }}"><i class="fa fa-circle-o"></i>Statistik</a></li>
 
                     </ul>
                 </li>

@@ -167,19 +167,6 @@
                                 </div>
                             </div>
 
-                            <div class="form-group{{ $errors->has('anonim') ? ' has-error' : '' }}">
-                                <label class="control-label col-md-2 col-sm-3 col-xs-12">Anonim</label>
-
-                                <div class="col-md-8 col-sm-8 col-xs-12">
-                                    {!! Form::checkbox('anonim', false,true,['placeholder'=>'Anonim']) !!}
-                                    @if ($errors->has('anonim'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('anonim') }}</strong>
-                                        </span>
-                                    @endif
-                                </div>
-                            </div>
-
                             <div class="form-group{{ $errors->has('status') ? ' has-error' : '' }}">
                                 <label class="control-label col-md-2 col-sm-3 col-xs-12">Status</label>
 

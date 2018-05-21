@@ -1,7 +1,7 @@
 @php
 use App\Models\Komplain;
 
-$komplains = Komplain::orderBy('created_at', 'desc')->limit(5)->get();
+$komplains = Komplain::where('status','<>', 'REVIEW')->where('status', '<>', 'DITOLAK')->orderBy('created_at', 'desc')->limit(5)->get();
 
 @endphp
 

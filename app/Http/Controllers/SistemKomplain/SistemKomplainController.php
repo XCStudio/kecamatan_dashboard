@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers\SistemKomplain;
 
+use App\Models\Penduduk;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Komplain;
+use Illuminate\Support\Facades\Validator;
 
 class SistemKomplainController extends Controller
 {
@@ -14,7 +16,10 @@ class SistemKomplainController extends Controller
         $page_title = 'SIKOMA';
         $page_description = 'Sistem Komplain Masyarakat';
       
-        $komplains = Komplain::with('kategori_komplain')->orderBy('created_at', 'desc')->paginate(10);
+        $komplains = Komplain::with('kategori_komplain')
+            ->where('status','<>','DITOLAK')
+            ->where('status','<>','REVIEW')
+            ->orderBy('created_at', 'desc')->paginate(10);
         return view('sistem_komplain.komplain.index', compact('page_title', 'page_description', 'komplains'));
     }
 
@@ -46,8 +51,13 @@ class SistemKomplainController extends Controller
 
     public function tracking(Request $request)
     {
-        $komplain = Komplain::where('komplain_id', '=', $request->post('q'))->firstOrFail();
-        return redirect()->route('sistem-komplain.komplain', $komplain->slug);
+        try{
+            $komplain = Komplain::where('komplain_id', '=', $request->post('q'))->firstOrFail();
+            return redirect()->route('sistem-komplain.komplain', $komplain->slug);
+        }catch (\Exception $e){
+            return back()->with('warning', 'Komplain tidak ditemukan!');
+        }
+
     }
 
     protected function generateID()
@@ -70,17 +80,26 @@ class SistemKomplainController extends Controller
 
             $komplain->komplain_id = $this->generateID();
             $komplain->slug = str_slug($komplain->judul).'-'.$komplain->komplain_id;
-            $komplain->status = 'BELUM';
+            $komplain->status = 'REVIEW';
             $komplain->dilihat = 0;
-            $komplain->nama = $komplain->nik;
+            $komplain->nama = Penduduk::where('nik', $komplain->nik)->first()->nama;
 
-            request()->validate([
-                'nik' => 'required|numeric',
+            $validator = Validator::make($request->all(), [
+                'nik' => 'required|numeric|nik_exists:'.$request->input('tanggal_lahir'),
                 'judul' => 'required',
                 'kategori' => 'required',
-                'laporan' => 'required|min:30',
-                'captcha' => 'required|captcha'
-            ],['captcha.captcha'=>'Invalid captcha code.']);
+                'laporan' => 'required',
+                'captcha' => 'required|captcha',
+                'tanggal_lahir' => 'password_exists:'.$request->input('nik')
+            ],[
+                'captcha.captcha'=>'Invalid captcha code.',
+                'nik_exists' => 'NIK tidak ditemukan atau NIK dan Tanggal Lahir tidak sesuai.'
+            ]);
+
+            if ($validator->fails()) {
+                return back()->withInput()->with('error', 'Komplain gagal dikirim!')->withErrors($validator);
+            }
+
 
             // Save if lampiran available
             if ($request->hasFile('lampiran1')) {
@@ -116,7 +135,7 @@ class SistemKomplainController extends Controller
             }
 
             $komplain->save();
-            return redirect()->route('sistem-komplain.index')->with('success', 'Komplain berhasil dikirim!');
+            return redirect()->route('sistem-komplain.index')->with('success', 'Komplain berhasil dikirim. Tunggu Admin untuk di review terlebih dahulu!');
 
         }catch (Exception $e){
             return back()->withInput()->with('error', 'Komplain gagal dikirim!');
@@ -149,12 +168,14 @@ class SistemKomplainController extends Controller
         try{
             $komplain = Komplain::findOrFail($id);
             $komplain->fill($request->all());
+            $komplain->nama = Penduduk::where('nik', $komplain->nik)->first()->nama;
+
 
             request()->validate([
                 'nik' => 'required|numeric',
                 'judul' => 'required',
                 'kategori' => 'required',
-                'laporan' => 'required|min:30',
+                'laporan' => 'required',
             ],['captcha.captcha'=>'Invalid captcha code.']);
 
             // Save if lampiran available

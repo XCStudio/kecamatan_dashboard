@@ -434,6 +434,17 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::post('do_import', ['as' => 'data.fasilitas-paud.do_import', 'uses' => 'FasilitasPaudController@do_import']);
             });
         });
+
+        //Routes Resource Admin SIKOMA
+        Route::group(['prefix' => 'admin-komplain'], function () {
+            Route::get('getdata', ['as' => 'admin-komplain.getdata', 'uses' => 'AdminKomplainController@getDataKomplain']);
+            Route::get('/', ['as' => 'admin-komplain.index', 'uses' => 'AdminKomplainController@index']);
+            Route::get('edit/{id}', ['as' => 'admin-komplain.edit', 'uses' => 'AdminKomplainController@edit']);
+            Route::put('update/{id}', ['as' => 'admin-komplain.update', 'uses' => 'AdminKomplainController@update']);
+            Route::delete('destroy/{id}', ['as' => 'admin-komplain.destroy', 'uses' => 'AdminKomplainController@destroy']);
+            Route::put('setuju/{id}', ['as' => 'admin-komplain.setuju', 'uses' => 'AdminKomplainController@disetujui']);
+            Route::get('statistik', ['as' => 'admin-komplain.statistik', 'uses' => 'AdminKomplainController@statistik']);
+        });
     });
 });
 
