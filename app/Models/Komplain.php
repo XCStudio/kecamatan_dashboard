@@ -29,4 +29,9 @@ class Komplain extends Model
     {
         return $this->hasOne(KategoriKomplain::class, 'id', 'kategori');
     }
+
+    public function jawabs()
+    {
+        return $this->hasMany(JawabKomplain::class, 'komplain_id', 'komplain_id');
+    }
 }

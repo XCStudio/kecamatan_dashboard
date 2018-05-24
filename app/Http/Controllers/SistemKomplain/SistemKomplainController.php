@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\SistemKomplain;
 
+use App\Models\JawabKomplain;
 use App\Models\Penduduk;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Komplain;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Validator;
 
 class SistemKomplainController extends Controller
@@ -255,5 +257,39 @@ class SistemKomplainController extends Controller
         $page_description = $komplain->judul;
       
         return view('sistem_komplain.komplain.show', compact('page_title', 'page_description', 'komplain'));
+    }
+
+    public function reply(Request $request, $id)
+    {
+        if(request()->ajax()){
+            try{
+                $jawab = new JawabKomplain();
+                $jawab->fill($request->all());
+                $jawab->komplain_id = $id;
+
+                $jawab->save();
+                $response = array(
+                    'status' => 'success',
+                    'msg' => 'Jawaban  berhasil disimpan!',
+                );
+                return response()->json($response);
+            }catch (Exception $ex)
+            {
+
+                $response = array(
+                    'status' => 'error',
+                    'msg' => 'Jawaban  gagal disimpan!',
+                );
+                return response()->json($response);
+            }
+        }else{
+            return response('You not allowed!', 304);
+        }
+    }
+
+    public function getJawabans(Request $request)
+    {
+        $jawabans = JawabKomplain::where('komplain_id', $request->input('id'))->orderBy('id', 'desc')->get();
+        return view('sistem_komplain.komplain.jawabans', compact('jawabans'))->render();
     }
 }

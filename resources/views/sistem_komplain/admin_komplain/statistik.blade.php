@@ -25,7 +25,7 @@
                 </div>
                 <div class="box-body">
                     <div id="chart_status"
-                         style="width: 100%; min-height: 450px; overflow: visible; text-align: left;">
+                         style="width: 100%; height: 450px; overflow: visible; text-align: left;">
                     </div>
                 </div>
             </div>
@@ -73,6 +73,18 @@
 
     // Chart Komplain Kategori
     function create_chart_kategori() {
+        AmCharts.addInitHandler( function ( chart_kategori ) {
+            // set base values
+            var categoryWidth = 45;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * chart_kategori.dataProvider.length;
+
+            // set the value
+            chart_kategori.div.style.height = chartHeight + 'px';
+
+        }, ['serial'] );
+
         var chart_kategori = AmCharts.makeChart("chart_kategori", {
             "theme": "light",
             "type": "serial",
@@ -141,7 +153,7 @@
 
         AmCharts.addInitHandler( function ( chart_desa ) {
             // set base values
-            var categoryWidth = 50;
+            var categoryWidth = 45;
 
             // calculate bottom margin based on number of data points
             var chartHeight = categoryWidth * chart_desa.dataProvider.length;

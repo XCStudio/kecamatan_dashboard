@@ -86,67 +86,8 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <h5 class="bg-primary" style="padding: 2px;">TINDAK LANJUT:</h5>
-
-                                        <div class="media well well-sm">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="http://placehold.it/32x32" alt="...">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading">Media heading</h4>
-
-                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-                                                    viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
-                                                    lacinia congue felis in faucibus.</p>
-                                            </div>
-                                        </div>
-                                        <div class="media well well-sm">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="http://placehold.it/32x32" alt="...">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading">Media heading</h4>
-
-                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-                                                    viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
-                                                    lacinia congue felis in faucibus.</p>
-                                            </div>
-                                        </div>
-                                        <div class="media well well-sm">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="http://placehold.it/32x32" alt="...">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading">Media heading</h4>
-
-                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-                                                    viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
-                                                    lacinia congue felis in faucibus.</p>
-                                            </div>
-                                        </div>
-                                        <div class="media well well-sm">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="http://placehold.it/32x32" alt="...">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading">Media heading</h4>
-
-                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-                                                    viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
-                                                    lacinia congue felis in faucibus.</p>
-                                            </div>
-                                        </div>
+                                        {{ Form::hidden('komplain_id', $komplain->komplain_id,['id'=>'komplain_id']) }}
+                                        <div id="jawabans"></div>
                                     </div>
                                 </div>
                             </div>
@@ -179,11 +120,12 @@
                                     <td>{{ ucfirst(strtolower($komplain->status)) }}</td>
                                 </tr>
                             </table>
+
                             <div class="pull-right">
                                 <div class="control-group">
                                     @if(! Sentinel::guest())
 
-                                        <a href="#" class="btn btn-sm btn-primary"><i
+                                        <a id="btn-reply" href="#" data-href="{{ route('sistem-komplain.reply', $komplain->komplain_id) }}" class="btn btn-sm btn-primary"><i
                                                     class="fa fa-reply margin-r-5"></i> Jawab</a>
                                         <a href="{{ route('sistem-komplain.edit', $komplain->komplain_id) }}"
                                            class="btn btn-sm btn-info"><i class="fa fa-edit margin-r-5"></i> Ubah</a>
@@ -195,6 +137,8 @@
                                         </button>
 
                                         {!! Form::close() !!}
+                                        @else
+                                        <a id="btn-reply" data-href="{{ route('sistem-komplain.reply', $komplain->komplain_id) }}" class="btn btn-sm btn-primary"><i class="fa fa-reply"></i> Jawab</a>
                                     @endif
 
                                 </div>
@@ -218,3 +162,93 @@
 </section>
 <!-- /.content -->
 @endsection
+
+@push('scripts')
+<script type="application/javascript">
+
+
+    $(function () {
+
+        var id_komplain = $('#komplain_id').val();
+        refresh_jawaban(id_komplain);
+
+        var url = '';
+        $(document).on('click', '#btn-reply', function(e) {
+            url = $(this).attr('data-href');
+            $('#form-reply').attr('action', url );
+            $('#myModal').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+            e.preventDefault();
+        });
+
+        $('#form-reply').on('submit', function(e) {
+            e.preventDefault();
+            var jawab = $('#jawab').val();
+            var komplain_id = $('#komplain_id').val();
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#form-reply").serialize(),
+                success: function( msg ) {
+                    if(msg.status == 'success'){
+                        refresh_jawaban(id_komplain);
+                        $('#jawab').val('');
+                        $('#myModal').modal('hide');
+                    }
+                },
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                }
+            });
+        });
+    });
+
+    function refresh_jawaban(id_komplain)
+    {
+        $.ajax({
+            type: "GET",
+            url: '{{ route('sistem-komplain.jawabans') }}',
+            data: {id:id_komplain} ,
+            success: function( data ) {
+                $('#jawabans').html(data);
+            },
+        });
+    }
+</script>
+
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            {!! Form::open(['id' => 'form-reply', 'method' => 'POST']) !!}
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Jawab Laporan</h4>
+            </div>
+            <div class="modal-body">
+                {{ csrf_field() }}
+                <div class="form-group">
+                    <label for="dijawab" class="control-label col-md-4 col-sm-3 col-xs-12">Dijawab oleh <span class="required">*</span></label>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    {!! Form::select('penjawab', ['PELAPOR'=>'Pelapor', 'ADMIN'=>'Admin'], null,['class'=>'form-control', 'id'=>'dijawab', 'required']) !!}
+                    </div>
+                </div>
+
+                <label for="jawab" class="control-label col-md-4 col-sm-3 col-xs-12">Jawaban<span class="required">*</span></label>
+
+                    {{ Form::textarea('jawaban', null, ['class'=>'form-control', 'id'=>'jawab']) }}
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+            {{ Form::close() }}
+        </div>
+    </div>
+</div>
+@endpush

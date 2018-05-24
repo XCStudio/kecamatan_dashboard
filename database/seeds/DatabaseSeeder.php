@@ -52,5 +52,9 @@ class DatabaseSeeder extends Seeder
         $this->call(DasWilClusterdesaAikmelTableSeeder::class);
         $this->call(DasKeluargaAikmelTableSeeder::class);
         $this->call(DasDataDesaAikmelTableSeeder::class);
+        $this->call(RefCoaTypeTableSeeder::class);
+        $this->call(RefSubCoaTableSeeder::class);
+        $this->call(RefSubSubCoaTableSeeder::class);
+        $this->call(RefCoaTableSeeder::class);
     }
 }

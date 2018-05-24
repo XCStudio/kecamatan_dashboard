@@ -77,7 +77,7 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
         });
 
         // Jenis Penyakit
-            Route::group(['prefix' => 'jenis-penyakit'], function(){
+        Route::group(['prefix' => 'jenis-penyakit'], function(){
             Route::get('/', ['as' => 'setting.jenis-penyakit.index', 'uses' => 'Setting\JenisPenyakitController@index']);
             Route::get('getdata', ['as' => 'setting.jenis-penyakit.getdata', 'uses' => 'Setting\JenisPenyakitController@getData']);
             Route::get('create', ['as' => 'setting.jenis-penyakit.create', 'uses' => 'Setting\JenisPenyakitController@create']);
@@ -85,6 +85,11 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
             Route::get('edit/{id}', ['as' => 'setting.jenis-penyakit.edit', 'uses' => 'Setting\JenisPenyakitController@edit']);
             Route::put('update/{id}', ['as' => 'setting.jenis-penyakit.update', 'uses' => 'Setting\JenisPenyakitController@update']);
             Route::delete('destroy/{id}', ['as' => 'setting.jenis-penyakit.destroy', 'uses' => 'Setting\JenisPenyakitController@destroy']);
+        });
+
+        // COA
+        Route::group(['prefix' => 'coa'], function(){
+            Route::get('/', ['as' => 'setting.coa.index', 'uses' => 'Setting\COAController@index']);
         });
     });
 
@@ -232,6 +237,8 @@ Route::namespace('SistemKomplain')->group(function () {
         Route::get('komplain/kategori/{slug}', ['as' => 'sistem-komplain.kategori', 'uses' => 'SistemKomplainController@indexKategori']);
         Route::get('komplain-sukses', ['as' => 'sistem-komplain.komplain-sukses', 'uses' => 'SistemKomplainController@indexSukses']);
         Route::post('tracking', ['as' => 'sistem-komplain.tracking', 'uses' => 'SistemKomplainController@tracking']);
+        Route::post('reply/{id}', ['as' => 'sistem-komplain.reply', 'uses' => 'SistemKomplainController@reply']);
+        Route::get('jawabans', ['as' => 'sistem-komplain.jawabans', 'uses' => 'SistemKomplainController@getJawabans']);
     });
 });
 

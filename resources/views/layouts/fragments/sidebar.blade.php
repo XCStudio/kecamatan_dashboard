@@ -199,6 +199,8 @@ use Illuminate\Support\Facades\URL;
                                 Regulasi</a></li>
                         <li {{ (Request::is(['setting/jenis-penyakit/*', 'setting/jenis-penyakit'])? 'class=active' : '') }}>
                             <a href="{{ route('setting.jenis-penyakit.index') }}"><i class="fa fa-circle-o"></i>Jenis Penyakit</a></li>
+                        <li {{ (Request::is(['setting/coa/*', 'setting/coa'])? 'class=active' : '') }}>
+                            <a href="{{ route('setting.coa.index') }}"><i class="fa fa-circle-o"></i>COA</a></li>
                         <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a
                                     href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
                         <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a

@@ -1,9 +1,16 @@
-@php
+<?php
 use App\Models\Komplain;
 
-$komplains = Komplain::where('status','<>', 'REVIEW')->where('status', '<>', 'DITOLAK')->orderBy('created_at', 'desc')->limit(5)->get();
+//$komplains = Komplain::where('status','<>', 'REVIEW')->where('status', '<>', 'DITOLAK')->orderBy('created_at', 'desc')->limit(5)->get();
 
-@endphp
+$komplains =Komplain::leftJoin('das_jawab_komplain', 'das_komplain.komplain_id', '=', 'das_jawab_komplain.komplain_id')
+        ->selectRaw('das_komplain.judul, das_komplain.slug, count(das_jawab_komplain.id) as total')
+        ->where('status','<>', 'REVIEW')->where('status', '<>', 'DITOLAK')
+        ->groupBy('das_komplain.komplain_id', 'das_komplain.id', 'das_komplain.judul', 'das_komplain.slug')
+        ->orderBy('total', 'DESC')
+        ->limit(5)
+        ->get();
+?>
 
 <!-- Trending Box -->
 <div class="box box-primary">

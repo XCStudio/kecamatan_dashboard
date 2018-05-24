@@ -61,10 +61,10 @@
                                     Tindak Lanjut Laporan (4)</a></li>
                             @if(! Sentinel::guest())
                                 <li class="pull-right">
-                                    <a href="#" class="btn btn-xs btn-primary"><i class="fa fa-reply margin-r-5"></i>
-                                        Jawab</a>
+                                    <a href="{{ route('sistem-komplain.komplain', $item->slug) }}" class="btn btn-xs btn-info"><i class="fa fa-search margin-r-5"></i>
+                                        Lihat</a>
                                     <a href="{{ route('sistem-komplain.edit', $item->komplain_id) }}"
-                                       class="btn btn-xs btn-info"><i class="fa fa-edit margin-r-5"></i> Ubah</a>
+                                       class="btn btn-xs btn-primary"><i class="fa fa-edit margin-r-5"></i> Ubah</a>
                                     {!! Form::open(['method' => 'DELETE','route' => ['sistem-komplain.destroy', $item->id],'style'=>'display:inline']) !!}
 
                                     <button type="submit" class="btn btn-xs btn-danger"
