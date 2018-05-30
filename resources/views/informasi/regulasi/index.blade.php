@@ -19,17 +19,16 @@
     @include('partials.flash_message')
 
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="box box-primary">
-                {{--<div class="box-header with-border">
-                    <h3 class="box-title"></h3>
+                <div class="box-header with-border">
+                    <h3 class="box-title">Data Regulasi</h3>
 
                     <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        <a href="{{route('informasi.regulasi.create')}}"
+                           class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}"><i class="fa fa-plus"></i> Tambah</a>
                     </div>
-                </div>--}}
+                </div>
                 <!-- /.box-header -->
                 @if(isset($regulasi))
                     <div class="box-body no-padding">
@@ -85,24 +84,6 @@
                     </div>
                     @endif
                             <!-- /.box-footer -->
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="box box-primary limit-p-width">
-                <div class="box-body">
-                    <div class="caption">
-                        <div class="form-group">
-                            <label>Kecamatan</label>
-                            <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
-                            <select class="form-control" id="kecamatan" name="kecamatan" onchange=""></select>
-                        </div>
-
-                        <h3></h3>
-                        <a href="{{route('informasi.regulasi.create')}}"
-                           class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
-                    </div>
-
-                </div>
             </div>
         </div>
         <!-- /.col -->

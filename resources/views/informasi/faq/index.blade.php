@@ -19,17 +19,16 @@
     @include('partials.flash_message')
 
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="box box-primary">
-                {{--<div class="box-header with-border">
-                    <h3 class="box-title"></h3>
+                <div class="box-header with-border">
+                    <h3 class="box-title">Daftar FAQ</h3>
 
                     <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        <a href="{{route('informasi.faq.create')}}"
+                           class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}"><i class="fa fa-plus"></i> Tambah</a>
                     </div>
-                </div>--}}
+                </div>
                 <!-- /.box-header -->
                 <div class="box-body">
                     <section class="content-max-width">
@@ -73,27 +72,6 @@
                     {!! $faqs->links() !!}
                 </div>
                 <!-- /.box-footer -->
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="box box-primary limit-p-width">
-                <div class="box-body">
-                    <div class="caption">
-                        <form class="form-horizontal">
-                            <div class="input-group input-group-sm">
-                                <input class="form-control" type="text" name="cari" placeholder="Cari">
-                                    <span class="input-group-btn">
-                                      <button type="submit" class="btn btn-primary btn-flat">Cari</button>
-                                    </span>
-                            </div>
-                        </form>
-
-                        <h3></h3>
-                        <a href="{{route('informasi.faq.create')}}"
-                           class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}">Tambah</a>
-                    </div>
-
-                </div>
             </div>
         </div>
         <!-- /.col -->

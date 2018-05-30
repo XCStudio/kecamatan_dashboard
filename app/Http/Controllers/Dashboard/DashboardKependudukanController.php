@@ -213,7 +213,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('umur' => $umur->nama, 'value' => $total, 'color' => $colors[$umur->id]);
+            $data[] = array('umur' => ucfirst(strtolower($umur->nama)).' ('.$umur->dari.' - '.$umur->sampai.' tahun)', 'value' => $total, 'color' => $colors[$umur->id]);
         }
 
         return $data;
@@ -427,7 +427,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('status' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
+            $data[] = array('status' => ucfirst(strtolower($val->nama)), 'total' => $total, 'color' => $colors[$val->id]);
         }
 
         return $data;
@@ -455,7 +455,7 @@ class DashboardKependudukanController extends Controller
                 $query_total->where('das_penduduk.desa_id', '=', $did);
             }
             $total = $query_total->count();
-            $data[] = array('religion' => $val->nama, 'total' => $total, 'color' => $colors[$val->id]);
+            $data[] = array('religion' => ucfirst(strtolower($val->nama)), 'total' => $total, 'color' => $colors[$val->id]);
         }
 
         return $data;
@@ -469,17 +469,17 @@ class DashboardKependudukanController extends Controller
 
         // Data Chart Penduduk By Jenis Kelamin
         $data = array();
-        $agama = [
+        $kelamin = [
             [
                 'id' => 1,
-                'nama' => 'LAKI-LAKI'
+                'nama' => 'Laki-Laki'
             ],
             [
                 'id' => 2,
-                'nama' => 'PEREMPUAN'
+                'nama' => 'Perempuan'
             ]
         ];
-        foreach ($agama as $val) {
+        foreach ($kelamin as $val) {
             $query_total = DB::table('das_penduduk')
                 ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
                 ->where('das_penduduk.kecamatan_id', '=', $kid)

@@ -60,24 +60,37 @@
                                             </p>
                                         @else
                                             @if(! $komplain->lampiran1 == '')
-                                                <img src="{{ asset($komplain->lampiran1) }}"
-                                                     alt="{{ $komplain->komplain_id}}-Lampiran1" class="img-thumbnail"
-                                                     style="width:80px; height:100px;">
+                                                <a data-fancybox="gallery" href="{{ asset($komplain->lampiran1) }}">
+                                                    <img src="{{ asset($komplain->lampiran1) }}"
+                                                         alt="{{ $komplain->komplain_id}}-Lampiran1"
+                                                         class="img-thumbnail"
+                                                         style="width:80px; height:100px;">
+                                                </a>
                                             @endif
                                             @if(! $komplain->lampiran2 == '')
-                                                <img src="{{ asset($komplain->lampiran2) }}"
-                                                     alt="{{ $komplain->komplain_id}}-Lampiran2" class="img-thumbnail"
-                                                     style="width:80px; height:100px">
+                                                <a data-fancybox="gallery" href="{{ asset($komplain->lampiran2) }}">
+                                                    <img src="{{ asset($komplain->lampiran2) }}"
+                                                         alt="{{ $komplain->komplain_id}}-Lampiran2"
+                                                         class="img-thumbnail"
+                                                         style="width:80px; height:100px">
+                                                </a>
                                             @endif
                                             @if(! $komplain->lampiran3 == '')
-                                                <img src="{{ asset($komplain->lampiran3) }}"
-                                                     alt="{{ $komplain->komplain_id}}-Lampiran3" class="img-thumbnail"
-                                                     style="width:80px; height:100px">
+                                                <a data-fancybox="gallery" href="{{ asset($komplain->lampiran3) }}">
+                                                    <img src="{{ asset($komplain->lampiran3) }}"
+                                                         alt="{{ $komplain->komplain_id}}-Lampiran3"
+                                                         class="img-thumbnail"
+                                                         style="
+                                                     width:80px; height:100px">
+                                                </a>
                                             @endif
                                             @if(! $komplain->lampiran4 == '')
-                                                <img src="{{ asset($komplain->lampiran4) }}"
-                                                     alt="{{ $komplain->komplain_id}}-Lampiran4" class="img-thumbnail"
-                                                     style="width:80px; height:100px">
+                                                <a data-fancybox="gallery" href="{{ asset($komplain->lampiran4) }}">
+                                                    <img src="{{ asset($komplain->lampiran4) }}"
+                                                         alt="{{ $komplain->komplain_id}}-Lampiran4"
+                                                         class="img-thumbnail"
+                                                         style="width:80px; height:100px">
+                                                </a>
                                             @endif
                                         @endif
                                     </div>
@@ -125,8 +138,7 @@
                                 <div class="control-group">
                                     @if(! Sentinel::guest())
 
-                                        <a id="btn-reply" href="#" data-href="{{ route('sistem-komplain.reply', $komplain->komplain_id) }}" class="btn btn-sm btn-primary"><i
-                                                    class="fa fa-reply margin-r-5"></i> Jawab</a>
+                                        <a id="btn-reply-admin" data-href="{{ route('sistem-komplain.reply', $komplain->komplain_id) }}" class="btn btn-sm btn-primary"><i class="fa fa-reply"></i> Jawab</a>
                                         <a href="{{ route('sistem-komplain.edit', $komplain->komplain_id) }}"
                                            class="btn btn-sm btn-info"><i class="fa fa-edit margin-r-5"></i> Ubah</a>
                                         {!! Form::open(['method' => 'DELETE','route' => ['sistem-komplain.destroy', $komplain->id],'style'=>'display:inline']) !!}
@@ -161,8 +173,92 @@
 
 </section>
 <!-- /.content -->
+<!-- Modal HTML -->
+<div id="modalReply" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Jawab Komplain</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {!! Form::open(['id' => 'form-reply', 'method' => 'POST']) !!}
+            <div class="modal-body mx-3">
+                <div id="form-errors"></div>
+                <div class="md-form mb-4">
+                    <label>Jawaban</label>
+                    {{ csrf_field() }}
+                    {{ Form::textarea('jawaban', null, ['class'=>'form-control', 'id'=>'jawab', 'required']) }}
+                </div>
+
+                <legend>Verifikasi Data Penjawab</legend>
+
+                <div class="md-form mb-4{{ $errors->has('nik') ? ' has-error' : '' }}">
+                    <label class="control-label">NIK <span class="required">*</span></label>
+
+                    {!! Form::text('nik', null,['placeholder'=>'NIK', 'class'=>'form-control', 'required', 'id'=>'nik']) !!}
+                    @if ($errors->has('nik'))
+                        <span class="help-block">
+                        <strong>{{ $errors->first('nik') }}</strong>
+                        </span>
+                    @endif
+
+                </div>
+                <div class="md-form mb-4{{ $errors->has('tanggal_lahir') ? ' has-error' : '' }}">
+                    <label class="control-label">Tanggal Lahir <span class="required">*</span></label>
+
+
+                    {!! Form::text('tanggal_lahir', null,['placeholder'=>'1990-01-01', 'class'=>'form-control datepicker', 'required', 'id'=>'tanggal_lahir']) !!}
+                    @if ($errors->has('tanggal_lahir'))
+                        <span class="help-block">
+                        <strong>{{ $errors->first('tanggal_lahir') }}</strong>
+                        </span>
+                    @endif
+
+                </div>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+            {{ Form::close() }}
+        </div>
+    </div>
+</div>
+
+<div id="modalReplyAdmin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalAdminLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Jawab Komplain</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {!! Form::open(['id' => 'form-reply-admin', 'method' => 'POST']) !!}
+            <div class="modal-body mx-3">
+                <div id="form-errors-admin"></div>
+                <div class="md-form mb-4">
+                    <label>Jawaban</label>
+                    {{ Form::textarea('jawaban', null, ['class'=>'form-control', 'id'=>'jawab-admin', 'required']) }}
+                    {{ Form::hidden('nik', '999') }}
+                </div>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+            {{ Form::close() }}
+        </div>
+    </div>
+</div>
+
 @endsection
 
+@include('partials.asset_fancybox')
 @push('scripts')
 <script type="application/javascript">
 
@@ -176,11 +272,76 @@
         $(document).on('click', '#btn-reply', function(e) {
             url = $(this).attr('data-href');
             $('#form-reply').attr('action', url );
-            $('#myModal').modal({
+            $('#modalReply').modal({
                 backdrop: 'static',
                 keyboard: false
             });
             e.preventDefault();
+        });
+
+        $(document).on('click', '#btn-reply-admin', function(e) {
+            url = $(this).attr('data-href');
+            $('#form-reply-admin').attr('action', url );
+            $('#modalReplyAdmin').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+            e.preventDefault();
+        });
+
+        $('#modalReplyAdmin').on('hidden.bs.modal', function () {
+            $('#jawab-admin').val('');
+            $('#form-errors-admin').html('');
+        })
+
+        $('#modalReply').on('hidden.bs.modal', function () {
+            $('#jawab').val('');
+            $('#nik').val('');
+            $('#tanggal_lahir').val('');
+            $('#form-errors').html('');
+        });
+
+        $('#form-reply-admin').on('submit', function(e) {
+            e.preventDefault();
+            var jawab = $('#jawab').val();
+            var komplain_id = $('#komplain_id').val();
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#form-reply-admin").serialize(),
+                success: function( msg ) {
+                    if(msg.status == 'success'){
+                        refresh_jawaban(id_komplain);
+                        $('#jawab-admin').val('');
+                        $('#modalReplyAdmin').modal('hide');
+                    }
+                },
+                error :function( jqXhr ) {
+                    if( jqXhr.status === 401 ) //redirect if not authenticated user.
+                        $( location ).prop( 'pathname', 'auth/login' );
+                    if( jqXhr.status === 422 ) {
+                        //process validation errors here.
+                        $errors = jqXhr.responseJSON; //this will get the errors response data.
+                        console.log($errors);
+                        //show them somewhere in the markup
+                        //e.g
+                        errorsHtml = '<div class="alert alert-danger"><ul>';
+
+                        $.each( $errors.errors, function( key, value ) {
+                            errorsHtml += '<li>' + value[0] + '</li>'; //showing only the first error.
+                        });
+                        errorsHtml += '</ul></di>';
+
+                        $( '#form-errors-admin' ).html( errorsHtml ); //appending to a <div id="form-errors"></div> inside form
+                    } else {
+                        /// do some thing else
+                    }
+                },
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                }
+            });
         });
 
         $('#form-reply').on('submit', function(e) {
@@ -196,7 +357,28 @@
                     if(msg.status == 'success'){
                         refresh_jawaban(id_komplain);
                         $('#jawab').val('');
-                        $('#myModal').modal('hide');
+                        $('#modalReply').modal('hide');
+                    }
+                },
+                error :function( jqXhr ) {
+                    if( jqXhr.status === 401 ) //redirect if not authenticated user.
+                        $( location ).prop( 'pathname', 'auth/login' );
+                    if( jqXhr.status === 422 ) {
+                        //process validation errors here.
+                        $errors = jqXhr.responseJSON; //this will get the errors response data.
+                        console.log($errors);
+                        //show them somewhere in the markup
+                        //e.g
+                        errorsHtml = '<div class="alert alert-danger"><ul>';
+
+                        $.each( $errors.errors, function( key, value ) {
+                            errorsHtml += '<li>' + value[0] + '</li>'; //showing only the first error.
+                        });
+                        errorsHtml += '</ul></di>';
+
+                        $( '#form-errors' ).html( errorsHtml ); //appending to a <div id="form-errors"></div> inside form
+                    } else {
+                        /// do some thing else
                     }
                 },
                 headers: {
@@ -219,36 +401,23 @@
     }
 </script>
 
-<!-- Modal HTML -->
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            {!! Form::open(['id' => 'form-reply', 'method' => 'POST']) !!}
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Jawab Laporan</h4>
-            </div>
-            <div class="modal-body">
-                {{ csrf_field() }}
-                <div class="form-group">
-                    <label for="dijawab" class="control-label col-md-4 col-sm-3 col-xs-12">Dijawab oleh <span class="required">*</span></label>
 
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                    {!! Form::select('penjawab', ['PELAPOR'=>'Pelapor', 'ADMIN'=>'Admin'], null,['class'=>'form-control', 'id'=>'dijawab', 'required']) !!}
-                    </div>
-                </div>
+@endpush
+@include(('partials.asset_datetimepicker'))
+@push('scripts')
 
-                <label for="jawab" class="control-label col-md-4 col-sm-3 col-xs-12">Jawaban<span class="required">*</span></label>
+<script type="text/javascript">
+    $(function () {
 
-                    {{ Form::textarea('jawaban', null, ['class'=>'form-control', 'id'=>'jawab']) }}
+        $('.datepicker').each(function () {
+            var $this = $(this);
+            $this.datetimepicker({
+                format: 'YYYY-MM-DD'
+            });
+        });
 
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Save changes</button>
-            </div>
-            {{ Form::close() }}
-        </div>
-    </div>
-</div>
+    })
+
+</script>
+
 @endpush

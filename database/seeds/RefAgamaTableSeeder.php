@@ -50,7 +50,7 @@ class RefAgamaTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 7,
-                'nama' => 'Kepercayaan Terhadap Tuhan YME / Lainnya',
+                'nama' => 'Lainnya',
             ),
         ));
         

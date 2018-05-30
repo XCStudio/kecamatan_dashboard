@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSiswaPaudTable extends Migration
+class CreatePutusSekolahTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateSiswaPaudTable extends Migration
      */
     public function up()
     {
-        Schema::create('das_siswa_paud', function (Blueprint $table) {
+        Schema::create('das_putus_sekolah', function (Blueprint $table) {
             $table->increments('id');
             $table->char('kecamatan_id', 7);
             $table->char('desa_id', 10);
@@ -21,6 +21,12 @@ class CreateSiswaPaudTable extends Migration
             $table->integer('tahun');
             $table->integer('siswa_paud');
             $table->integer('anak_usia_paud');
+            $table->integer('siswa_sd');
+            $table->integer('anak_usia_sd');
+            $table->integer('siswa_smp');
+            $table->integer('anak_usia_smp');
+            $table->integer('siswa_sma');
+            $table->integer('anak_usia_sma');
             $table->timestamps();
         });
     }
@@ -32,6 +38,6 @@ class CreateSiswaPaudTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('das_siswa_paud');
+        Schema::dropIfExists('das_putus_sekolah');
     }
 }

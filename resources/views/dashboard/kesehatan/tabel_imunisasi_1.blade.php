@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12">
         <legend>Tabel Angka Cakupan Imunisasi</legend>
-        <table id="" class="table table-bordered table-striped">
+        <table id="tbl_imunisasi" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">#</th>
@@ -26,7 +26,7 @@
 <div class="row">
     <div class="col-md-3">
         <legend>Kuartal 1</legend>
-        <table id="tabel_kuartal_1`" class="table table-bordered table-striped">
+        <table id="tbl_imunisasi_q1" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">Desa</th>
@@ -45,7 +45,7 @@
     </div>
     <div class="col-md-3">
         <legend>Kuartal 2</legend>
-        <table id="tabel_kuartal_1`" class="table table-bordered table-striped">
+        <table id="tbl_imunisasi_q2" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">Desa</th>
@@ -64,7 +64,7 @@
     </div>
     <div class="col-md-3">
         <legend>Kuartal 3</legend>
-        <table id="tabel_kuartal_1`" class="table table-bordered table-striped">
+        <table id="tbl_imunisasi_q3" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">Desa</th>
@@ -83,7 +83,7 @@
     </div>
     <div class="col-md-3">
         <legend>Kuartal 4</legend>
-        <table id="tabel_kuartal_1`" class="table table-bordered table-striped">
+        <table id="tbl_imunisasi_q4" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">Desa</th>

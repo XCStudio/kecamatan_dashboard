@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12">
         <legend>Tabel Angka Kematian Ibu & Bayi</legend>
-        <table id="tabel_aki_akb" class="table table-bordered table-striped">
+        <table id="tbl_aki_akb" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">#</th>

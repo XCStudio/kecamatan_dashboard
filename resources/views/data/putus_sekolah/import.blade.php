@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.siswa-paud.index')}}">AKI & AKB</a></li>
+        <li><a href="{{route('data.putus-sekolah.index')}}">AKI & AKB</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -26,7 +26,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.siswa-paud.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
+                {!! Form::open( [ 'route' => 'data.putus-sekolah.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
 
                 <div class="box-body">
 
@@ -78,7 +78,7 @@
                         <div class="col-md-6">
                             <div class="well">
                                 <p>Instruksi Upload Data:</p>
-                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format_Upload_Siswa_PAUD.xlsx') }}">Download</a></p>
+                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format_Upload_Putus_Sekolah.xlsx') }}">Download</a></p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                 <div class="box-footer">
                     <div class="pull-right">
                         <div class="control-group">
-                            <a href="{{ route('data.siswa-paud.index') }}">
+                            <a href="{{ route('data.putus-sekolah.index') }}">
                                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
                             </a>
                             <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-upload"></i> Import</button>

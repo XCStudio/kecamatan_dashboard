@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Data;
 
 use App\Models\Kecamatan;
 use App\Models\TingkatPendidikan;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
@@ -105,8 +106,12 @@ class TingkatPendidikanController extends Controller
                 }
 
                 if (!empty($insert)) {
-                    TingkatPendidikan::insert($insert);
-                    return back()->with('success', 'Import data sukses.');
+                    try{
+                        TingkatPendidikan::insert($insert);
+                        return back()->with('success', 'Import data sukses.');
+                    }catch (QueryException $ex){
+                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    }
                 }
 
             }

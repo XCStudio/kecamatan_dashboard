@@ -251,31 +251,26 @@ class DashboardKesehatanController extends Controller
             }
         }else{
             $datas = array();
-            $penyakit = DB::table('ref_penyakit')->get();
 
-            for($i = 1; $i<= 2; $i++)
+            foreach(semester() as $key=>$val)
             {
-                $year = [
-                    'year' => $i
-                ];
-
-
+                $penyakit = DB::table('ref_penyakit')->get();
+                $temp = array();
                 foreach ($penyakit as $value) {
-                    $temp = null;
                     $query_total = DB::table('das_epidemi_penyakit')
-                        ->join('ref_penyakit', 'das_epidemi_penyakit.penyakit_id', '=', 'ref_penyakit.id')
+                        //->join('ref_penyakit', 'das_epidemi_penyakit.penyakit_id', '=', 'ref_penyakit.id')
                         ->where('das_epidemi_penyakit.kecamatan_id', '=', $kid)
-                        ->whereRaw('bulan in ('.$this->getIdsSemester($i).')')
-                        ->where('tahun', $year);
+                        ->whereRaw('das_epidemi_penyakit.bulan in ('.$this->getIdsSemester($key).')')
+                        ->where('das_epidemi_penyakit.tahun', $year)
+                        ->where('das_epidemi_penyakit.penyakit_id', $value->id);
 
                     if ($did != 'ALL') {
                         $query_total->where('das_epidemi_penyakit.desa_id', '=', $did);
                     }
-                    $total = $query_total->count();
-                    $temp = ['penyakit'.$value->id => $total];
-                    $year = array_merge($temp, $year);
+                    $total = $query_total->sum('das_epidemi_penyakit.jumlah_penderita');
+                    $temp = array_add($temp, 'penyakit'.$value->id, $total);
                 }
-                $datas[] = $year;
+                $datas[] = array_add($temp, 'year','Semester '.$key);
             }
 
             $data_kesehatan = $datas;
@@ -285,15 +280,19 @@ class DashboardKesehatanController extends Controller
         $tabel_kesehatan = array();
 
         // Kuartal & Detail Per Desa
-        if($year!='ALL' && $did=='ALL'){
+        /*if($year!='ALL' && $did=='ALL'){
             $data_tabel = array();
-            // Quartal
-            foreach(kuartal_bulan() as $key=>$semester){
-                $query = DB::table('das_imunisasi')
-                    ->whereRaw('bulan in ('.$this->getIdsQuartal($key).')')
-                    ->where('tahun', $year);
+            // Semester
+
+            foreach(semester() as $key=>$semester){
+                $query = DB::table('das_epidemi_penyakit')
+                    ->selectRaw('ref_penyakit.nama as penyakit, sum(das_epidemi_penyakit.jumlah_penderita)')
+                    ->join('ref_penyakit', 'das_epidemi_penyakit.penyakit_id', '=', 'ref_penyakit.id')
+                    ->whereRaw('das_epidemi_penyakit.bulan in ('.$this->getIdsSemester($key).')')
+                    ->where('das_epidemi_penyakit.tahun', $year);
                 $data_tabel['quartal'][$key] = array(
-                    'cakupan_imunisasi' => $query->sum('cakupan_imunisasi'),
+                    'penyakit'  => '',
+                    'jumlah_penderita' =>'' ,
                 );
             }
 
@@ -308,7 +307,7 @@ class DashboardKesehatanController extends Controller
                 $data_tabel['desa'][$key] = $query;
             }
 
-            $tabel_kesehatan = view('dashboard.kesehatan.tabel_imunisasi_1', compact('data_tabel'))->render();
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_penyakit_1', compact('data_tabel'))->render();
             //$tabel_kesehatan = $data_tabel;
 
         }elseif($year !='ALL' && $did != 'ALL'){
@@ -324,8 +323,8 @@ class DashboardKesehatanController extends Controller
             }
 
             //$tabel_kesehatan = $data_tabel;
-            $tabel_kesehatan = view('dashboard.kesehatan.tabel_imunisasi_2', compact('data_tabel'))->render();
-        }
+            $tabel_kesehatan = view('dashboard.kesehatan.tabel_penyakit_2', compact('data_tabel'))->render();
+        }*/
 
         return array(
             'grafik' => $data_kesehatan,

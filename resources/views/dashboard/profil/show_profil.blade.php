@@ -358,7 +358,7 @@
                               <div class="col-md-5 col-sm-6 col-xs-12">
                                 <ul class="nav nav-stacked">
                                   @foreach($profil->datadesa as $desa)
-                                  <li><a href="{{ $desa->website}}" class="nav-item" target="_blank">{{ $desa->nama }}<span class="pull-right" ><i class="fa fa-globe"></i></span></a></li>
+                                  <li><a href="{{ $desa->website}}" class="nav-item" target="_blank" @if($desa->website != '') title="Masuk Ke Website Desa" @else title="Website Desa Tidak Tersedia!" @endif>{{ $desa->nama }}<span class="pull-right" >@if($desa->website != '') <i class="fa fa-globe"></i> @endif</span></a></li>
                                   @endforeach
                                 </ul>                                
                               </div>  

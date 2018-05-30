@@ -126,7 +126,7 @@ Route::namespace('Dashboard')->group(function () {
         Route::group(['prefix' => 'pendidikan'], function(){
             Route::get('/', 'DashboardPendidikanController@showPendidikan')->name('dashboard.pendidikan');
             Route::get('chart-tingkat-pendidikan', 'DashboardPendidikanController@getChartTingkatPendidikan')->name('dashboard.pendidikan.chart-tingkat-pendidikan');
-            Route::get('chart-siswa-paud', 'DashboardPendidikanController@getChartSiswaPAUD')->name('dashboard.pendidikan.chart-siswa-paud');
+            Route::get('chart-putus-sekolah', 'DashboardPendidikanController@getChartPutusSekolah')->name('dashboard.pendidikan.chart-putus-sekolah');
             Route::get('chart-fasilitas-paud', 'DashboardPendidikanController@getChartFasilitasPAUD')->name('dashboard.pendidikan.chart-fasilitas-paud');
         });
 
@@ -419,15 +419,15 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::post('do_import', ['as' => 'data.tingkat-pendidikan.do_import', 'uses' => 'TingkatPendidikanController@do_import']);
             });
 
-            //Routes Resource Siswa PAUD
-            Route::group(['prefix' => 'siswa-paud'], function () {
-                Route::get('getdata', ['as' => 'data.siswa-paud.getdata', 'uses' => 'SiswaPaudController@getDataSiswaPAUD']);
-                Route::get('/', ['as' => 'data.siswa-paud.index', 'uses' => 'SiswaPaudController@index']);
-                Route::get('edit/{id}', ['as' => 'data.siswa-paud.edit', 'uses' => 'SiswaPaudController@edit']);
-                Route::put('update/{id}', ['as' => 'data.siswa-paud.update', 'uses' => 'SiswaPaudController@update']);
-                Route::delete('destroy/{id}', ['as' => 'data.siswa-paud.destroy', 'uses' => 'SiswaPaudController@destroy']);
-                Route::get('import', ['as' => 'data.siswa-paud.import', 'uses' => 'SiswaPaudController@import']);
-                Route::post('do_import', ['as' => 'data.siswa-paud.do_import', 'uses' => 'SiswaPaudController@do_import']);
+            //Routes Resource Putus Sekolah
+            Route::group(['prefix' => 'putus-sekolah'], function () {
+                Route::get('getdata', ['as' => 'data.putus-sekolah.getdata', 'uses' => 'PutusSekolahController@getDataPutusSekolah']);
+                Route::get('/', ['as' => 'data.putus-sekolah.index', 'uses' => 'PutusSekolahController@index']);
+                Route::get('edit/{id}', ['as' => 'data.putus-sekolah.edit', 'uses' => 'PutusSekolahController@edit']);
+                Route::put('update/{id}', ['as' => 'data.putus-sekolah.update', 'uses' => 'PutusSekolahController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.putus-sekolah.destroy', 'uses' => 'PutusSekolahController@destroy']);
+                Route::get('import', ['as' => 'data.putus-sekolah.import', 'uses' => 'PutusSekolahController@import']);
+                Route::post('do_import', ['as' => 'data.putus-sekolah.do_import', 'uses' => 'PutusSekolahController@do_import']);
             });
 
             //Routes Resource Fasilitas PAUD

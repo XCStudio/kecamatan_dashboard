@@ -22,7 +22,7 @@ class RefUmurTableSeeder extends Seeder
                 'id' => 1,
                 'nama' => 'BAYI',
                 'dari' => 0,
-                'sampai' => 1,
+                'sampai' => 5,
                 'status' => 1,
             ),
             1 =>

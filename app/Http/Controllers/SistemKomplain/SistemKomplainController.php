@@ -78,13 +78,6 @@ class SistemKomplainController extends Controller
     public function store(Request $request)
     {
         try{
-            $komplain = new Komplain($request->all());
-
-            $komplain->komplain_id = $this->generateID();
-            $komplain->slug = str_slug($komplain->judul).'-'.$komplain->komplain_id;
-            $komplain->status = 'REVIEW';
-            $komplain->dilihat = 0;
-            $komplain->nama = Penduduk::where('nik', $komplain->nik)->first()->nama;
 
             $validator = Validator::make($request->all(), [
                 'nik' => 'required|numeric|nik_exists:'.$request->input('tanggal_lahir'),
@@ -95,13 +88,20 @@ class SistemKomplainController extends Controller
                 'tanggal_lahir' => 'password_exists:'.$request->input('nik')
             ],[
                 'captcha.captcha'=>'Invalid captcha code.',
-                'nik_exists' => 'NIK tidak ditemukan atau NIK dan Tanggal Lahir tidak sesuai.'
+                'nik_exists' => 'NIK tidak ditemukan atau NIK dan Tanggal Lahir tidak sesuai.',
+                'password_exists' => 'NIK dan Tanggal Lahir tidak sesuai.'
             ]);
 
             if ($validator->fails()) {
                 return back()->withInput()->with('error', 'Komplain gagal dikirim!')->withErrors($validator);
             }
+            $komplain = new Komplain($request->all());
 
+            $komplain->komplain_id = $this->generateID();
+            $komplain->slug = str_slug($komplain->judul).'-'.$komplain->komplain_id;
+            $komplain->status = 'REVIEW';
+            $komplain->dilihat = 0;
+            $komplain->nama = Penduduk::where('nik', $komplain->nik)->first()->nama;
 
             // Save if lampiran available
             if ($request->hasFile('lampiran1')) {
@@ -168,10 +168,6 @@ class SistemKomplainController extends Controller
     {
         // Save Request
         try{
-            $komplain = Komplain::findOrFail($id);
-            $komplain->fill($request->all());
-            $komplain->nama = Penduduk::where('nik', $komplain->nik)->first()->nama;
-
 
             request()->validate([
                 'nik' => 'required|numeric',
@@ -179,6 +175,11 @@ class SistemKomplainController extends Controller
                 'kategori' => 'required',
                 'laporan' => 'required',
             ],['captcha.captcha'=>'Invalid captcha code.']);
+
+            $komplain = Komplain::findOrFail($id);
+            $komplain->fill($request->all());
+            $komplain->nama = Penduduk::where('nik', $komplain->nik)->first()->nama;
+
 
             // Save if lampiran available
             if ($request->hasFile('lampiran1')) {
@@ -209,7 +210,7 @@ class SistemKomplainController extends Controller
                 $lampiran4 = $request->file('lampiran4');
                 $fileName4 = $lampiran4->getClientOriginalName();
                 $path = "storage/komplain/".$komplain->komplain_id.'/';
-                $request->file('lampiran3')->move($path, $fileName4);
+                $request->file('lampiran4')->move($path, $fileName4);
                 $komplain->lampiran4 = $path . $fileName4;
             }
 
@@ -263,8 +264,31 @@ class SistemKomplainController extends Controller
     {
         if(request()->ajax()){
             try{
+
+
                 $jawab = new JawabKomplain();
-                $jawab->fill($request->all());
+
+                if($request->input('nik')=='999'){
+                    request()->validate([
+                        'jawaban' => 'required',
+
+                    ]);
+                    $jawab->fill($request->all());
+                    $jawab->penjawab = 'Admin';
+                }else{
+                    request()->validate([
+                        'jawaban' => 'required',
+                        'nik' => 'required|numeric|nik_exists:'.$request->input('tanggal_lahir'),
+                        'tanggal_lahir' => 'password_exists:'.$request->input('nik')
+                    ],[
+                        'nik_exists' => 'NIK tidak ditemukan atau NIK dan Tanggal Lahir tidak sesuai.',
+                        'password_exists' => 'NIK dan Tanggal Lahir tidak sesuai.'
+                    ]);
+
+                    $jawab->fill($request->all());
+                    $jawab->penjawab = $request->input('nik');
+                }
+
                 $jawab->komplain_id = $id;
 
                 $jawab->save();

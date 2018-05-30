@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Data;
 
 use App\Models\AkiAkb;
 use App\Models\Profil;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\Facades\DataTables;
@@ -114,8 +115,12 @@ class AKIAKBController extends Controller
                 }
 
                 if (!empty($insert)) {
-                    AkiAkb::insert($insert);
-                    return back()->with('success', 'Import data sukses.');
+                    try{
+                        AkiAkb::insert($insert);
+                        return back()->with('success', 'Import data sukses.');
+                    }catch (QueryException $ex){
+                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    }
                 }
 
             }

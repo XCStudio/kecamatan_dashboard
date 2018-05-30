@@ -21,7 +21,7 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <div class="">
-                <a href="{{ route('data.siswa-paud.import') }}">
+                <a href="{{ route('data.putus-sekolah.import') }}">
                     <button type="button" class="btn btn-warning btn-sm" title="Import Data"><i class="fa fa-upload"></i> Import</button>
                 </a>
             </div>
@@ -35,6 +35,12 @@
                     <th>Desa</th>
                     <th>Siswa PAUD</th>
                     <th>Anak Usia PAUD</th>
+                    <th>Siswa SD</th>
+                    <th>Anak Usia SD</th>
+                    <th>Siswa SMP</th>
+                    <th>Anak Usia SMP</th>
+                    <th>Siswa SMA</th>
+                    <th>Anak Usia SMA</th>
                     <th>Bulan</th>
                     <th>Tahun</th>
                 </tr>
@@ -55,12 +61,18 @@
         var data = $('#imunisasi-table').DataTable({
             processing: false,
             serverSide: false,
-            ajax: "{!! route( 'data.siswa-paud.getdata' ) !!}",
+            ajax: "{!! route( 'data.putus-sekolah.getdata' ) !!}",
             columns: [
                 {data: 'actions', name: 'actions', class: 'text-center', searchable: false, orderable: false},
                 {data: 'desa_id', name: 'desa_id'},
                 {data: 'siswa_paud', name: 'siswa_paud'},
                 {data: 'anak_usia_paud', name: 'anak_usia_paud'},
+                {data: 'siswa_sd', name: 'siswa_sd'},
+                {data: 'anak_usia_sd', name: 'anak_usia_sd'},
+                {data: 'siswa_smp', name: 'siswa_smp'},
+                {data: 'anak_usia_smp', name: 'anak_usia_smp'},
+                {data: 'siswa_sma', name: 'siswa_sma'},
+                {data: 'anak_usia_sma', name: 'anak_usia_sma'},
                 {data: 'bulan', name: 'bulan'},
                 {data: 'tahun', name: 'tahun'},
             ],

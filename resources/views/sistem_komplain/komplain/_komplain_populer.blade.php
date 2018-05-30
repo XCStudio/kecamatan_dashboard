@@ -5,7 +5,7 @@ use App\Models\Komplain;
 
 $komplains =Komplain::leftJoin('das_jawab_komplain', 'das_komplain.komplain_id', '=', 'das_jawab_komplain.komplain_id')
         ->selectRaw('das_komplain.judul, das_komplain.slug, count(das_jawab_komplain.id) as total')
-        ->where('status','<>', 'REVIEW')->where('status', '<>', 'DITOLAK')
+        ->where('status','<>', 'REVIEW')->where('status', '<>', 'DITOLAK')->where('status', '<>', 'SELESAI')
         ->groupBy('das_komplain.komplain_id', 'das_komplain.id', 'das_komplain.judul', 'das_komplain.slug')
         ->orderBy('total', 'DESC')
         ->limit(5)

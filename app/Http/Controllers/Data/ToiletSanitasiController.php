@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Data;
 
 use App\Models\ToiletSanitasi;
 use App\Models\Profil;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\Facades\DataTables;
@@ -114,10 +115,13 @@ class ToiletSanitasiController extends Controller
                 }
 
                 if (!empty($insert)) {
-                    ToiletSanitasi::insert($insert);
-                    return back()->with('success', 'Import data sukses.');
+                    try{
+                        ToiletSanitasi::insert($insert);
+                        return back()->with('success', 'Import data sukses.');
+                    }catch (QueryException $ex){
+                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    }
                 }
-
             }
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');

@@ -71,8 +71,8 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#penduduk-table').DataTable({
-            processing: true,
-            serverSide: true,
+            processing: false,
+            serverSide: false,
             ajax: "{!! route( 'data.penduduk.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},

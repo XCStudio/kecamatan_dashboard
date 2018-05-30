@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Data;
 use App\Models\EpidemiPenyakit;
 use App\Models\JenisPenyakit;
 use App\Models\Profil;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
@@ -115,10 +116,13 @@ class EpidemiPenyakitController extends Controller
                 }
 
                 if (!empty($insert)) {
-                    EpidemiPenyakit::insert($insert);
-                    return back()->with('success', 'Import data sukses.');
+                    try{
+                        EpidemiPenyakit::insert($insert);
+                        return back()->with('success', 'Import data sukses.');
+                    }catch (QueryException $ex){
+                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    }
                 }
-
             }
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');

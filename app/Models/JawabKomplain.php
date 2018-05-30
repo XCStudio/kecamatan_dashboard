@@ -15,8 +15,18 @@ class JawabKomplain extends Model
         'jawaban'
     ];
 
+    public function komplains()
+    {
+        return $this->belongsTo(Komplain::class,'komplain_id', 'komplain_id');
+    }
+
     public function komplain()
     {
-        return $this->belongsTo(Komplain::class,'komplain_id', 'komplian_id');
+        return $this->hasOne(Komplain::class, 'komplain_id', 'komplain_id');
+    }
+
+    public function penjawab_komplain()
+    {
+        return $this->hasOne(Penduduk::class,'nik','penjawab');
     }
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Data;
 
 use App\Models\FasilitasPAUD;
 use App\Models\Kecamatan;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
@@ -104,8 +105,12 @@ class FasilitasPaudController extends Controller
                 }
 
                 if (!empty($insert)) {
-                    FasilitasPAUD::insert($insert);
-                    return back()->with('success', 'Import data sukses.');
+                    try{
+                        FasilitasPAUD::insert($insert);
+                        return back()->with('success', 'Import data sukses.');
+                    }catch (QueryException $ex){
+                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    }
                 }
 
             }

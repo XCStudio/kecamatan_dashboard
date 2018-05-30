@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Data;
 
 use App\Models\Imunisasi;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Profil;
@@ -111,8 +112,12 @@ class ImunisasiController extends Controller
                 }
 
                 if (!empty($insert)) {
-                    Imunisasi::insert($insert);
-                    return back()->with('success', 'Import data sukses.');
+                    try{
+                        Imunisasi::insert($insert);
+                        return back()->with('success', 'Import data sukses.');
+                    }catch (QueryException $ex){
+                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    }
                 }
 
             }

@@ -123,7 +123,7 @@ use Illuminate\Support\Facades\URL;
                                 </li>
                             </ul>
                         </li>
-                        <li class="treeview {{ (Request::is(['data/tingkat-pendidikan/*', 'data/tingkat-pendidikan','data/siswa-paud/*', 'data/siswa-paud','data/fasilitas-paud/*', 'data/fasilitas-paud'])? 'active' : '') }}">
+                        <li class="treeview {{ (Request::is(['data/tingkat-pendidikan/*', 'data/tingkat-pendidikan','data/putus-sekolah/*', 'data/siswa-paud','data/fasilitas-paud/*', 'data/fasilitas-paud'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Pendidikan
                         <span class="pull-right-container">
                           <i class="fa fa-angle-left pull-right"></i>
@@ -133,8 +133,8 @@ use Illuminate\Support\Facades\URL;
                                 <li {{ (Request::is(['data/tingkat-pendidikan/*', 'data/tingkat-pendidikan'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.tingkat-pendidikan.index') }}"><i class="fa fa-circle-o"></i>Tingkat Pendidikan</a>
                                 </li>
-                                <li {{ (Request::is(['data/siswa-paud/*', 'data/siswa-paud'])? 'class=active' : '') }}>
-                                    <a href="{{ route('data.siswa-paud.index') }}"><i class="fa fa-circle-o"></i>Siswa PAUD</a>
+                                <li {{ (Request::is(['data/putus-sekolah/*', 'data/putus-sekolah'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.putus-sekolah.index') }}"><i class="fa fa-circle-o"></i>Siswa Putus Sekolah</a>
                                 </li>
                                 <li {{ (Request::is(['data/fasilitas-paud/*', 'data/fasilitas-paud'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.fasilitas-paud.index') }}"><i class="fa fa-circle-o"></i>Fasilitas PAUD</a>

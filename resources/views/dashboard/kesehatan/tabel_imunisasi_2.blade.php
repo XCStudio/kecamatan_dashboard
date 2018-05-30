@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12">
         <legend>Tabel Angka Cakupan Imunisasi</legend>
-        <table id="" class="table table-bordered table-striped">
+        <table id="tbl_imunisasi" class="table table-bordered table-striped">
             <thead class="bg-primary">
             <tr>
                 <th class="text-center">#</th>

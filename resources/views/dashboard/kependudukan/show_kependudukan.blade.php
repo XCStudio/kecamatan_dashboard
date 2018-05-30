@@ -134,7 +134,7 @@
 
             <div class="box box-success">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Grafik Penduduk Per Tahun</h3>
+                    <h3 class="box-title">Grafik Penduduk Tiap Tahun</h3>
 
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -148,7 +148,7 @@
                                 <strong></strong>
                             </p>
 
-                            <div id="chart_pertumbuhan_penduduk" style="width: 100%; height: 300px; overflow: visible; text-align: left;"></div>
+                            <div id="chart_pertumbuhan_penduduk" style="width: 100%; height: 500px; overflow: visible; text-align: left;"></div>
                         </div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div id="chart_usia"
-                                     style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
+                                     style="width:100%; overflow: visible; text-align: left; padding: 10px;;">
                                 </div>
                             </div>
                         </div>
@@ -237,12 +237,12 @@
 
                     <div class="tab-pane" id="pendidikan">
                         <div id="chart_pendidikan"
-                             style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
+                             style="width:100%; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
                     <div class="tab-pane" id="gol-darah">
                         <div id="chart_goldarah"
-                             style="width:100%; height: 500px; overflow: visible; text-align: left; padding: 10px;;">
+                             style="width:100%; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
                     <div class="tab-pane" id="perkawinan">
@@ -252,7 +252,7 @@
                     </div>
                     <div class="tab-pane" id="agama">
                         <div id="chart_agama"
-                             style="width:100%; height: 300px; overflow: visible; text-align: left; padding: 10px;;">
+                             style="width:100%; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
                     {{--<<div class="tab-pane" id="kelamin">
@@ -408,16 +408,25 @@
     // Create Chart Penduduk
     function create_chart_penduduk(data) {
         // Chart Pertumbuhan Penduduk
-        var chart_penduduk = AmCharts.makeChart("chart_pertumbuhan_penduduk", {
+        var chart_pertumbuhan_penduduk = AmCharts.makeChart("chart_pertumbuhan_penduduk", {
             "type": "serial",
             "theme": "light",
-            "marginTop": 0,
+            "marginTop": 50,
             "marginRight": 80,
             "dataProvider": data,
             "valueAxes": [{
-                "axisAlpha": 0,
                 "position": "left",
-                "minimum": 0
+                "title": "Jumlah Penduduk",
+                "baseValue" : 0,
+                "minimum": 0,
+                "axisAlpha": 0,
+            }],
+            "allLabels": [{
+                "text": "Grafik Pertumbuhan Penduduk Tiap Tahun",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": 10
             }],
             "graphs": [
                 {
@@ -430,6 +439,8 @@
                     "negativeLineColor": "#637bb6",
                     "type": "smoothedLine",
                     "valueField": "value_lk",
+                    "labelText" : "[[value]]",
+                    "labelPosition": "middle"
                 },
                 {
                     "id": "gp",
@@ -441,15 +452,19 @@
                     "negativeLineColor": "#637bb6",
                     "type": "smoothedLine",
                     "valueField": "value_pr",
+                    "labelText" : "[[value]]",
+                    "labelPosition": "middle"
                 }
             ],
             "chartCursor": {
                 "categoryBalloonDateFormat": "YYYY",
                 "cursorAlpha": 0,
-                "valueLineEnabled": true,
-                "valueLineBalloonEnabled": true,
+                //"valueLineEnabled": true,
+                //"valueLineBalloonEnabled": true,
                 "valueLineAlpha": 0.5,
-                "fullWidth": true
+                "fullWidth": false,
+                "categoryBalloonEnabled": false,
+                "zoomable": false
             },
             "dataDateFormat": "YYYY",
             "categoryField": "year",
@@ -457,23 +472,110 @@
                 "minPeriod": "YYYY",
                 "parseDates": true,
                 "minorGridAlpha": 0.1,
-                "minorGridEnabled": true
+                "minorGridEnabled": true,
+                "title" : "Tahun"
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false
             },
-            "hideCredits": true
+            "hideCredits": true,
+            "legend": {
+                "enabled": true
+            }
         });
     }
 
     // Create Chart Usia
     function create_chart_usia(data) {
         // Chart Perbandingan Usia
+        AmCharts.addInitHandler( function ( chart_usia ) {
+            // set base values
+            var categoryWidth = 80;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * chart_usia.dataProvider.length;
+
+            // set the value
+            chart_usia.div.style.height = chartHeight + 'px';
+
+            //method to handle removing/adding columns when the marker is toggled
+            function handleCustomMarkerToggle(legendEvent) {
+                var dataProvider = legendEvent.chart.dataProvider;
+                var itemIndex; //store the location of the removed item
+
+                //Set a custom flag so that the dataUpdated event doesn't fire infinitely, in case you have
+                //a dataUpdated event of your own
+                legendEvent.chart.toggleLegend = true;
+                // The following toggles the markers on and off.
+                // The only way to "hide" a column and reserved space on the axis is to remove it
+                // completely from the dataProvider. You'll want to use the hidden flag as a means
+                // to store/retrieve the object as needed and then sort it back to its original location
+                // on the chart using the dataIdx property in the init handler
+                if (undefined !== legendEvent.dataItem.hidden && legendEvent.dataItem.hidden) {
+                    legendEvent.dataItem.hidden = false;
+                    dataProvider.push(legendEvent.dataItem.storedObj);
+                    legendEvent.dataItem.storedObj = undefined;
+                    //re-sort the array by dataIdx so it comes back in the right order.
+                    dataProvider.sort(function(lhs, rhs) {
+                        return lhs.dataIdx - rhs.dataIdx;
+                    });
+                } else {
+                    // toggle the marker off
+                    legendEvent.dataItem.hidden = true;
+                    //get the index of the data item from the data provider, using the
+                    //dataIdx property.
+                    for (var i = 0; i < dataProvider.length; ++i) {
+                        if (dataProvider[i].dataIdx === legendEvent.dataItem.dataIdx) {
+                            itemIndex = i;
+                            break;
+                        }
+                    }
+                    //store the object into the dataItem
+                    legendEvent.dataItem.storedObj = dataProvider[itemIndex];
+                    //remove it
+                    dataProvider.splice(itemIndex, 1);
+                }
+                legendEvent.chart.validateData(); //redraw the chart
+            }
+
+            //check if legend is enabled and custom generateFromData property
+            //is set before running
+            if (!chart_usia.legend || !chart_usia.legend.enabled || !chart_usia.legend.generateFromData) {
+                return;
+            }
+
+            var categoryField = chart_usia.categoryField;
+            var colorField = chart_usia.graphs[0].lineColorField || chart_usia.graphs[0].fillColorsField || chart_usia.graphs[0].colorField;
+            var legendData =  chart_usia.dataProvider.map(function(data, idx) {
+                var markerData = {
+                    "title": data[categoryField] + ": " + data[chart_usia.graphs[0].valueField],
+                    "color": data[colorField],
+                    "dataIdx": idx //store a copy of the index of where this appears in the dataProvider array for ease of removal/re-insertion
+                };
+                if (!markerData.color) {
+                    markerData.color = chart_usia.graphs[0].lineColor;
+                }
+                data.dataIdx = idx; //also store it in the dataProvider object itself
+                return markerData;
+            });
+
+            chart_usia.legend.data = legendData;
+
+            //make the markers toggleable
+            chart_usia.legend.switchable = true;
+            chart_usia.legend.addListener("clickMarker", handleCustomMarkerToggle);
+
+        }, ['serial'] );
+
         var chart_usia = AmCharts.makeChart("chart_usia", {
             "theme": "light",
             "type": "serial",
             "startDuration": 1,
             "rotate": true,
+            "legend": {
+                "generateFromData": true //custom property for the plugin
+            },
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
@@ -486,15 +588,18 @@
                 "align": "center",
                 "bold": true,
                 "size": 20,
-                "y": -4
+                "y": 10
             }],
+            "marginTop": 50,
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
                 "fillColorsField": "color",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "valueField": "value"
+                "valueField": "value",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             }],
             "depth3D": 5,
             "angle": 10,
@@ -506,18 +611,32 @@
             "categoryField": "umur",
             "categoryAxis": {
                 "gridPosition": "start",
+                "title": "Kategori",
                 "labelRotation": 90
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false
             },
-            "hideCredits": true
+            "hideCredits": true,
         });
     }
 
     // Create Chart Pendidikan
     function create_chart_pendidikan(data) {
         // Chart Perbandingan Pendidikan
+        AmCharts.addInitHandler( function ( chart_pendidikan ) {
+            // set base values
+            var categoryWidth = 85;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * 5;
+
+            // set the value
+            chart_pendidikan.div.style.height = chartHeight + 'px';
+
+        }, ['serial'] );
+
         var chart_pendidikan = AmCharts.makeChart("chart_pendidikan", {
             "theme": "light",
             "type": "serial",
@@ -533,7 +652,9 @@
                 "lineAlpha": 0.1,
                 "type": "column",
                 "title": "SD",
-                "valueField": "SD"
+                "valueField": "SD",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             },{
                 "balloonText": "SLTP/Sederajat: <b>[[value]]</b>",
                 //"fillColorsField": "color",
@@ -542,7 +663,9 @@
                 "lineAlpha": 0.1,
                 "type": "column",
                 "title": "SLTP/Sederajat",
-                "valueField": "SLTP"
+                "valueField": "SLTP",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             },{
                 "balloonText": "SLTA/Sederajat: <b>[[value]]</b>",
                 //"fillColorsField": "color",
@@ -551,7 +674,9 @@
                 "lineAlpha": 0.1,
                 "type": "column",
                 "title": "SLTA/Sederajat",
-                "valueField": "SLTA"
+                "valueField": "SLTA",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             },{
                 "balloonText": "DIPLOMA: <b>[[value]]</b>",
                 //"fillColorsField": "color",
@@ -560,7 +685,9 @@
                 "lineAlpha": 0.1,
                 "type": "column",
                 "title": "DIPLOMA",
-                "valueField": "DIPLOMA"
+                "valueField": "DIPLOMA",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             },{
                 "balloonText": "SARJANA: <b>[[value]]</b>",
                 //"fillColorsField": "color",
@@ -569,44 +696,134 @@
                 "lineAlpha": 0.1,
                 "type": "column",
                 "title": "SARJANA",
-                "valueField": "SARJANA"
+                "valueField": "SARJANA",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             }],
             "depth3D": 5,
             "angle": 10,
 
             "categoryField": "year",
-            "categoryAxis": {
-                "gridPosition": "start",
-            },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin" : false
             },
             "legend": {
                 "enabled": true,
                 "useGraphSettings": true
+            },
+            "valueAxes": [{
+                "position": "left",
+                "title": "Jumlah Penduduk",
+                "baseValue" : 0,
+                "minimum": 0
+            }],
+            "categoryAxis": {
+                "gridPosition": "start",
+                "title": "Tahun",
+                "labelRotation": 90
             },
             "allLabels": [{
                 "text": "Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
                 "align": "center",
                 "bold": true,
                 "size": 20,
-                "y": -4
+                "y": 10
             }],
-            "valueAxes": [{
-                "baseValue" : 0,
-                "minimum": 0
-            }],
+            "marginTop": 50,
         });
     }
 
     // Create Chart Golongan Darah
     function create_chart_goldarah(data) {
         // Chart Perbandingan Pendidikan
+        AmCharts.addInitHandler( function ( chart_goldarah ) {
+            // set base values
+            var categoryWidth = 80;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * chart_goldarah.dataProvider.length;
+
+            // set the value
+            chart_goldarah.div.style.height = chartHeight + 'px';
+
+            //method to handle removing/adding columns when the marker is toggled
+            function handleCustomMarkerToggle(legendEvent) {
+                var dataProvider = legendEvent.chart.dataProvider;
+                var itemIndex; //store the location of the removed item
+
+                //Set a custom flag so that the dataUpdated event doesn't fire infinitely, in case you have
+                //a dataUpdated event of your own
+                legendEvent.chart.toggleLegend = true;
+                // The following toggles the markers on and off.
+                // The only way to "hide" a column and reserved space on the axis is to remove it
+                // completely from the dataProvider. You'll want to use the hidden flag as a means
+                // to store/retrieve the object as needed and then sort it back to its original location
+                // on the chart using the dataIdx property in the init handler
+                if (undefined !== legendEvent.dataItem.hidden && legendEvent.dataItem.hidden) {
+                    legendEvent.dataItem.hidden = false;
+                    dataProvider.push(legendEvent.dataItem.storedObj);
+                    legendEvent.dataItem.storedObj = undefined;
+                    //re-sort the array by dataIdx so it comes back in the right order.
+                    dataProvider.sort(function(lhs, rhs) {
+                        return lhs.dataIdx - rhs.dataIdx;
+                    });
+                } else {
+                    // toggle the marker off
+                    legendEvent.dataItem.hidden = true;
+                    //get the index of the data item from the data provider, using the
+                    //dataIdx property.
+                    for (var i = 0; i < dataProvider.length; ++i) {
+                        if (dataProvider[i].dataIdx === legendEvent.dataItem.dataIdx) {
+                            itemIndex = i;
+                            break;
+                        }
+                    }
+                    //store the object into the dataItem
+                    legendEvent.dataItem.storedObj = dataProvider[itemIndex];
+                    //remove it
+                    dataProvider.splice(itemIndex, 1);
+                }
+                legendEvent.chart.validateData(); //redraw the chart
+            }
+
+            //check if legend is enabled and custom generateFromData property
+            //is set before running
+            if (!chart_goldarah.legend || !chart_goldarah.legend.enabled || !chart_goldarah.legend.generateFromData) {
+                return;
+            }
+
+            var categoryField = chart_goldarah.categoryField;
+            var colorField = chart_goldarah.graphs[0].lineColorField || chart_goldarah.graphs[0].fillColorsField || chart_goldarah.graphs[0].colorField;
+            var legendData =  chart_goldarah.dataProvider.map(function(data, idx) {
+                var markerData = {
+                    "title": data[categoryField] + ": " + data[chart_goldarah.graphs[0].valueField],
+                    "color": data[colorField],
+                    "dataIdx": idx //store a copy of the index of where this appears in the dataProvider array for ease of removal/re-insertion
+                };
+                if (!markerData.color) {
+                    markerData.color = chart_goldarah.graphs[0].lineColor;
+                }
+                data.dataIdx = idx; //also store it in the dataProvider object itself
+                return markerData;
+            });
+
+            chart_goldarah.legend.data = legendData;
+
+            //make the markers toggleable
+            chart_goldarah.legend.switchable = true;
+            chart_goldarah.legend.addListener("clickMarker", handleCustomMarkerToggle);
+
+        }, ['serial'] );
+
         var chart_goldarah = AmCharts.makeChart("chart_goldarah", {
             "theme": "light",
             "type": "serial",
             "startDuration": 1,
             "rotate": true,
+            "legend": {
+                "generateFromData": true //custom property for the plugin
+            },
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
@@ -619,15 +836,18 @@
                 "align": "center",
                 "bold": true,
                 "size": 20,
-                "y": -4
+                "y": 10
             }],
+            "marginTop" : 50,
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
                 "fillColorsField": "color",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "valueField": "total"
+                "valueField": "total",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             }],
             "depth3D": 5,
             "angle": 10,
@@ -639,23 +859,107 @@
             "categoryField": "blod_type",
             "categoryAxis": {
                 "gridPosition": "start",
+                "title": "Golongan Darah",
                 "labelRotation": 90
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false,
             },
-            "hideCredits": true
+            "hideCredits": true,
         });
     }
 
     //Create Chart Status Kawin
     function create_chart_kawin(data){
         // Chart Perbandingan Status Kawin
+        AmCharts.addInitHandler( function ( chart_kawin ) {
+            // set base values
+            var categoryWidth = 80;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * chart_kawin.dataProvider.length;
+
+            // set the value
+            chart_kawin.div.style.height = chartHeight + 'px';
+
+            //method to handle removing/adding columns when the marker is toggled
+            function handleCustomMarkerToggle(legendEvent) {
+                var dataProvider = legendEvent.chart.dataProvider;
+                var itemIndex; //store the location of the removed item
+
+                //Set a custom flag so that the dataUpdated event doesn't fire infinitely, in case you have
+                //a dataUpdated event of your own
+                legendEvent.chart.toggleLegend = true;
+                // The following toggles the markers on and off.
+                // The only way to "hide" a column and reserved space on the axis is to remove it
+                // completely from the dataProvider. You'll want to use the hidden flag as a means
+                // to store/retrieve the object as needed and then sort it back to its original location
+                // on the chart using the dataIdx property in the init handler
+                if (undefined !== legendEvent.dataItem.hidden && legendEvent.dataItem.hidden) {
+                    legendEvent.dataItem.hidden = false;
+                    dataProvider.push(legendEvent.dataItem.storedObj);
+                    legendEvent.dataItem.storedObj = undefined;
+                    //re-sort the array by dataIdx so it comes back in the right order.
+                    dataProvider.sort(function(lhs, rhs) {
+                        return lhs.dataIdx - rhs.dataIdx;
+                    });
+                } else {
+                    // toggle the marker off
+                    legendEvent.dataItem.hidden = true;
+                    //get the index of the data item from the data provider, using the
+                    //dataIdx property.
+                    for (var i = 0; i < dataProvider.length; ++i) {
+                        if (dataProvider[i].dataIdx === legendEvent.dataItem.dataIdx) {
+                            itemIndex = i;
+                            break;
+                        }
+                    }
+                    //store the object into the dataItem
+                    legendEvent.dataItem.storedObj = dataProvider[itemIndex];
+                    //remove it
+                    dataProvider.splice(itemIndex, 1);
+                }
+                legendEvent.chart.validateData(); //redraw the chart
+            }
+
+            //check if legend is enabled and custom generateFromData property
+            //is set before running
+            if (!chart_kawin.legend || !chart_kawin.legend.enabled || !chart_kawin.legend.generateFromData) {
+                return;
+            }
+
+            var categoryField = chart_kawin.categoryField;
+            var colorField = chart_kawin.graphs[0].lineColorField || chart_kawin.graphs[0].fillColorsField || chart_kawin.graphs[0].colorField;
+            var legendData =  chart_kawin.dataProvider.map(function(data, idx) {
+                var markerData = {
+                    "title": data[categoryField] + ": " + data[chart_kawin.graphs[0].valueField],
+                    "color": data[colorField],
+                    "dataIdx": idx //store a copy of the index of where this appears in the dataProvider array for ease of removal/re-insertion
+                };
+                if (!markerData.color) {
+                    markerData.color = chart_kawin.graphs[0].lineColor;
+                }
+                data.dataIdx = idx; //also store it in the dataProvider object itself
+                return markerData;
+            });
+
+            chart_kawin.legend.data = legendData;
+
+            //make the markers toggleable
+            chart_kawin.legend.switchable = true;
+            chart_kawin.legend.addListener("clickMarker", handleCustomMarkerToggle);
+
+        }, ['serial'] );
+
         var chart_kawin = AmCharts.makeChart("chart_kawin", {
             "theme": "light",
             "type": "serial",
             "startDuration": 1,
             "rotate": true,
+            "legend": {
+                "generateFromData": true //custom property for the plugin
+            },
             "dataProvider": data,
             "valueAxes": [{
                 "position": "left",
@@ -668,15 +972,18 @@
                 "align": "center",
                 "bold": true,
                 "size": 20,
-                "y": -4
+                "y": 10
             }],
+            "marginTop": 50,
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
                 "fillColorsField": "color",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "valueField": "total"
+                "valueField": "total",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             }],
             "depth3D": 5,
             "angle": 10,
@@ -688,18 +995,99 @@
             "categoryField": "status",
             "categoryAxis": {
                 "gridPosition": "start",
-                "labelRotation": 90
+                "labelRotation": 90,
+                "title": "Status Perkawinan",
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin":false
             },
-            "hideCredits": true
+            "hideCredits": true,
         });
     }
 
     //Create Chart Agama
     function create_chart_agama(data){
         // Chart Perbandingan Status Kawin
+        AmCharts.addInitHandler( function ( chart_agama ) {
+            // set base values
+            var categoryWidth = 80;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * chart_agama.dataProvider.length;
+
+            // set the value
+            chart_agama.div.style.height = chartHeight + 'px';
+
+            //method to handle removing/adding columns when the marker is toggled
+            function handleCustomMarkerToggle(legendEvent) {
+                var dataProvider = legendEvent.chart.dataProvider;
+                var itemIndex; //store the location of the removed item
+
+                //Set a custom flag so that the dataUpdated event doesn't fire infinitely, in case you have
+                //a dataUpdated event of your own
+                legendEvent.chart.toggleLegend = true;
+                // The following toggles the markers on and off.
+                // The only way to "hide" a column and reserved space on the axis is to remove it
+                // completely from the dataProvider. You'll want to use the hidden flag as a means
+                // to store/retrieve the object as needed and then sort it back to its original location
+                // on the chart using the dataIdx property in the init handler
+                if (undefined !== legendEvent.dataItem.hidden && legendEvent.dataItem.hidden) {
+                    legendEvent.dataItem.hidden = false;
+                    dataProvider.push(legendEvent.dataItem.storedObj);
+                    legendEvent.dataItem.storedObj = undefined;
+                    //re-sort the array by dataIdx so it comes back in the right order.
+                    dataProvider.sort(function(lhs, rhs) {
+                        return lhs.dataIdx - rhs.dataIdx;
+                    });
+                } else {
+                    // toggle the marker off
+                    legendEvent.dataItem.hidden = true;
+                    //get the index of the data item from the data provider, using the
+                    //dataIdx property.
+                    for (var i = 0; i < dataProvider.length; ++i) {
+                        if (dataProvider[i].dataIdx === legendEvent.dataItem.dataIdx) {
+                            itemIndex = i;
+                            break;
+                        }
+                    }
+                    //store the object into the dataItem
+                    legendEvent.dataItem.storedObj = dataProvider[itemIndex];
+                    //remove it
+                    dataProvider.splice(itemIndex, 1);
+                }
+                legendEvent.chart.validateData(); //redraw the chart
+            }
+
+            //check if legend is enabled and custom generateFromData property
+            //is set before running
+            if (!chart_agama.legend || !chart_agama.legend.enabled || !chart_agama.legend.generateFromData) {
+                return;
+            }
+
+            var categoryField = chart_agama.categoryField;
+            var colorField = chart_agama.graphs[0].lineColorField || chart_agama.graphs[0].fillColorsField || chart_agama.graphs[0].colorField;
+            var legendData =  chart_agama.dataProvider.map(function(data, idx) {
+                var markerData = {
+                    "title": data[categoryField] + ": " + data[chart_agama.graphs[0].valueField],
+                    "color": data[colorField],
+                    "dataIdx": idx //store a copy of the index of where this appears in the dataProvider array for ease of removal/re-insertion
+                };
+                if (!markerData.color) {
+                    markerData.color = chart_agama.graphs[0].lineColor;
+                }
+                data.dataIdx = idx; //also store it in the dataProvider object itself
+                return markerData;
+            });
+
+            chart_agama.legend.data = legendData;
+
+            //make the markers toggleable
+            chart_agama.legend.switchable = true;
+            chart_agama.legend.addListener("clickMarker", handleCustomMarkerToggle);
+
+        }, ['serial'] );
+
         var chart_agama = AmCharts.makeChart("chart_agama", {
             "theme": "light",
             "type": "serial",
@@ -717,15 +1105,18 @@
                 "align": "center",
                 "bold": true,
                 "size": 20,
-                "y": -4
+                "y": 10
             }],
+            "marginTop": 50,
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
                 "fillColorsField": "color",
                 "fillAlphas": 1,
                 "lineAlpha": 0.1,
                 "type": "column",
-                "valueField": "total"
+                "valueField": "total",
+                "labelText" : "[[value]]",
+                "labelPosition": "middle"
             }],
             "depth3D": 5,
             "angle": 10,
@@ -737,61 +1128,17 @@
             "categoryField": "religion",
             "categoryAxis": {
                 "gridPosition": "start",
-                "labelRotation": 90
+                "labelRotation": 90,
+                "title": "Agama"
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false
             },
-            "hideCredits": true
-        });
-    }
-
-    //Create Chart Jenis Kelamin
-    function create_chart_kelamin(data){
-        // Chart Perbandingan Status Kawin
-        var chart_kelamin = AmCharts.makeChart("chart_kelamin", {
-            "theme": "light",
-            "type": "serial",
-            "startDuration": 1,
-            "rotate": true,
-            "dataProvider": data,
-            "valueAxes": [{
-                "position": "left",
-                "title": "Jumlah Penduduk",
-                "baseValue" : 0,
-                "minimum": 0
-            }],
-            "allLabels": [{
-                "text": "Jumlah Penduduk Berdasarkan Jenis Kelamin",
-                "align": "center",
-                "bold": true,
-                "size": 20,
-                "y": -4
-            }],
-            "graphs": [{
-                "balloonText": "[[category]]: <b>[[value]]</b>",
-                "fillColorsField": "color",
-                "fillAlphas": 1,
-                "lineAlpha": 0.1,
-                "type": "column",
-                "valueField": "total"
-            }],
-            "depth3D": 5,
-            "angle": 10,
-            "chartCursor": {
-                "categoryBalloonEnabled": false,
-                "cursorAlpha": 0,
-                "zoomable": false
+            "hideCredits": true,
+            "legend": {
+                "generateFromData": true,
             },
-            "categoryField": "sex",
-            "categoryAxis": {
-                "gridPosition": "start",
-                "labelRotation": 90
-            },
-            "export": {
-                "enabled": true
-            },
-            "hideCredits": true
         });
     }
 

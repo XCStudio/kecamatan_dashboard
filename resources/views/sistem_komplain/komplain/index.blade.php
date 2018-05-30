@@ -57,8 +57,9 @@
                             {!! get_words($item->laporan, 35) !!} ...
                         </p>
                         <ul class="list-inline">
-                            <li><a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i>
-                                    Tindak Lanjut Laporan (4)</a></li>
+
+                            <li><a href="{{ route('sistem-komplain.komplain', $item->slug) }}" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i>
+                                    Tindak Lanjut Laporan ({{ count($item->jawabs) }})</a></li>
                             @if(! Sentinel::guest())
                                 <li class="pull-right">
                                     <a href="{{ route('sistem-komplain.komplain', $item->slug) }}" class="btn btn-xs btn-info"><i class="fa fa-search margin-r-5"></i>
