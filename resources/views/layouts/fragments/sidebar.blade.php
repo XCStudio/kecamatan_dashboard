@@ -144,8 +144,20 @@ use Illuminate\Support\Facades\URL;
                         <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a
                                     href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program
                                 Bantuan</a></li>
-                        <li {{ (Request::is(['data/finansial'])? 'class=active' : '') }}><a
-                                    href="{{ URL::to('data/finansial') }}"><i class="fa fa-circle-o"></i>Finansial</a>
+
+                        <li class="treeview {{ (Request::is(['data/anggaran-realisasi/*','data/anggaran-realisasi'])? 'active' : '') }}">
+                            <a href="#"><i class="fa fa-circle-o"></i>Finansial
+                        <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li {{ (Request::is(['data/anggaran-realisasi/*', 'data/anggaran-realisasi/index', 'data/anggaran-realisasi'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.anggaran-realisasi.index') }}"><i class="fa fa-circle-o"></i>Anggaran & Realisasi</a>
+                                </li>
+                                <li {{ (Request::is(['data/anggaran-desa/*', 'data/anggaran-desa/index', 'data/anggraan-desa'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>APBDes</a></li>
+                            </ul>
                         </li>
 
                         <li class="treeview {{ (Request::is(['data/proses-ektp/*', 'data/proses-kk/*', 'data/proses-aktalahir/*','data/proses-domisili/*', 'data/proses-ektp', 'data/proses-kk', 'data/proses-aktalahir','data/proses-domisili'])? 'active' : '') }}">

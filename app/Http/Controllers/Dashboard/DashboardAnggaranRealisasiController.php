@@ -44,7 +44,7 @@ class DashboardAnggaranRealisasiController extends Controller
             $belanja_tidak_langsung = 0;
 
             foreach (array_sort(years_list()) as $yearls) {
-                $query_result = DB::table('das_anggaran_kecamatan')
+                $query_result = DB::table('das_anggaran_realisasi')
                     ->select('*')
                     ->where('kecamatan_id', '=', $kid)
                     ->where('tahun', '=', $yearls)->first();
@@ -114,7 +114,7 @@ class DashboardAnggaranRealisasiController extends Controller
             $belanja_tidak_langsung = 0;
 
 
-            $query_result = DB::table('das_anggaran_kecamatan')
+            $query_result = DB::table('das_anggaran_realisasi')
                 ->select('*')
                 ->where('kecamatan_id', '=', $kid)
                 ->where('tahun', '=', $year)->first();
