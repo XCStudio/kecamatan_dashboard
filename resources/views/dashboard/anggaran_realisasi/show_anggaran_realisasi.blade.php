@@ -23,18 +23,13 @@
                     <div class="col-md-4">
 
                         <div class="form-group">
-                            <label for="list_kecamatan" class="col-sm-4 control-label">Kecamatan</label>
+                            <label for="bulan" class="col-sm-4 control-label">Bulan</label>
 
                             <div class="col-sm-8">
-                                <input type="hidden" id="defaultProfil" value="{{ $defaultProfil }}">
-                                <select class="form-control" id="list_kecamatan" name="kecamatan">
-                                    @foreach($list_kecamatan as $kecamatan)
-                                        @if($kecamatan->kecamatan_id == $defaultProfil)
-                                            <option value="{{ $kecamatan->kecamatan_id }}"
-                                                    selected="true">{{ $kecamatan->kecamatan->nama }}</option>
-                                        @else
-                                            <option value="{{ $kecamatan->kecamatan_id }}">{{ $kecamatan->kecamatan->nama }}</option>
-                                        @endif
+                                <select class="form-control" id="list_months" name="m">
+                                    <option value="ALL">ALL</option>
+                                    @foreach(months_list() as $key=> $month)
+                                        <option value="{{$key}}">{{$month}}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -224,50 +219,41 @@
     $(function () {
 
         // Select 2 Kecamatan
-        $('#list_kecamatan').select2();
+        $('#list_months').select2();
         $('#list_year').select2();
 
-        var kid = $('#list_kecamatan').find(":selected").val();
-        if (kid == null) {
-            kid = $('#defaultProfil').val();
-        }
+        var mid = $('#list_months').find(":selected").val();
         var year = $('#list_year').find(":selected").val();
 
         /*
          Initial Chart Dashboard Pendidikan
          */
-        change_das_anggaran(kid, year);
+        change_das_anggaran(mid, year);
         /*
          End Initial
          */
 
 
         // Change div das_kependudukan when Kecamatan changed
-        $('#list_kecamatan').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
+        $('#list_months').on('select2:select', function (e) {
+            var mid = $('#list_months').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-            change_das_pendidikan(kid, year);
+            change_das_anggaran(mid, year);
 
         });
 
         $('#list_year').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
+            var mid = $('#list_months').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
 
-            change_das_anggaran(kid,year);
+            change_das_anggaran(mid,year);
         });
     });
 
-    function change_das_anggaran(kid, year) {
+    function change_das_anggaran(mid, year) {
 
         $.ajax('{!! route('dashboard.chart-anggaran-realisasi') !!}', {
-            data: {kid: kid, y: year}
+            data: {mid: mid, y: year}
         }).done(function (data) {
             $('#total_belanja').html('Rp '+data.sum.total_belanja);
             $('#total_belanja_persen').html(data.sum.total_belanja_persen+'%');

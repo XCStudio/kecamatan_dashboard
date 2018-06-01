@@ -30,7 +30,7 @@ class DashboardAnggaranRealisasiController extends Controller
 
     public function getChartAnggaranRealisasi()
     {
-        $kid = request('kid');
+        $mid = request('mid');
         $year = request('y');
 
         // Grafik Data Pendidikan
@@ -46,16 +46,21 @@ class DashboardAnggaranRealisasiController extends Controller
             foreach (array_sort(years_list()) as $yearls) {
                 $query_result = DB::table('das_anggaran_realisasi')
                     ->select('*')
-                    ->where('kecamatan_id', '=', $kid)
-                    ->where('tahun', '=', $yearls)->first();
+                    ->where('kecamatan_id', '=', env('KD_DEFAULT_PROFIL',null));
+                if($mid != 'ALL'){
+                    $query_result->where('bulan', '=', $mid);
+                }
+                $query_result->where('tahun', '=', $yearls);
 
-                if (count($query_result) > 0) {
-                    $total_anggaran += $query_result->total_anggaran;
-                    $total_belanja += $query_result->total_belanja;
-                    $belanja_pegawai += $query_result->belanja_pegawai;
-                    $belanja_barang_jasa += $query_result->belanja_barang_jasa;
-                    $belanja_modal += $query_result->belanja_modal;
-                    $belanja_tidak_langsung += $query_result->belanja_tidak_langsung;
+                $res = $query_result->first();
+
+                if (count($res) > 0) {
+                    $total_anggaran = $res->total_anggaran;
+                    $total_belanja = $res->total_belanja;
+                    $belanja_pegawai = $res->belanja_pegawai;
+                    $belanja_barang_jasa = $res->belanja_barang_jasa;
+                    $belanja_modal = $res->belanja_modal;
+                    $belanja_tidak_langsung = $res->belanja_tidak_langsung;
                 } else {
                     $total_anggaran += 0;
                     $total_belanja += 0;
@@ -115,17 +120,25 @@ class DashboardAnggaranRealisasiController extends Controller
 
 
             $query_result = DB::table('das_anggaran_realisasi')
-                ->select('*')
-                ->where('kecamatan_id', '=', $kid)
-                ->where('tahun', '=', $year)->first();
+                ->selectRaw('sum(total_anggaran) as total_anggaran, sum(total_belanja) as total_belanja,
+                sum(belanja_pegawai) as belanja_pegawai, sum(belanja_barang_jasa) as belanja_barang_jasa,
+                sum(belanja_modal) as belanja_modal, sum(belanja_tidak_langsung) as belanja_tidak_langsung')
+                ->where('kecamatan_id', '=', env('KD_DEFAULT_PROFIL', null));
 
-            if (count($query_result) > 0) {
-                $total_anggaran = $query_result->total_anggaran;
-                $total_belanja = $query_result->total_belanja;
-                $belanja_pegawai = $query_result->belanja_pegawai;
-                $belanja_barang_jasa = $query_result->belanja_barang_jasa;
-                $belanja_modal = $query_result->belanja_modal;
-                $belanja_tidak_langsung = $query_result->belanja_tidak_langsung;
+               if($mid != 'ALL'){
+                   $query_result->where('bulan', '=', $mid);
+               }
+               $query_result->where('tahun', '=', $year);
+
+                $res = $query_result->first();
+
+            if (count($res) > 0) {
+                $total_anggaran = $res->total_anggaran;
+                $total_belanja = $res->total_belanja;
+                $belanja_pegawai = $res->belanja_pegawai;
+                $belanja_barang_jasa = $res->belanja_barang_jasa;
+                $belanja_modal = $res->belanja_modal;
+                $belanja_tidak_langsung = $res->belanja_tidak_langsung;
             }
 
             $data_pendidikan['sum'] = [
