@@ -145,7 +145,7 @@ use Illuminate\Support\Facades\URL;
                                     href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program
                                 Bantuan</a></li>
 
-                        <li class="treeview {{ (Request::is(['data/anggaran-realisasi/*','data/anggaran-realisasi'])? 'active' : '') }}">
+                        <li class="treeview {{ (Request::is(['data/anggaran-realisasi/*','data/anggaran-realisasi' ,'data/anggaran-desa/*', 'data/anggaran-desa'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Finansial
                         <span class="pull-right-container">
                           <i class="fa fa-angle-left pull-right"></i>
@@ -155,8 +155,8 @@ use Illuminate\Support\Facades\URL;
                                 <li {{ (Request::is(['data/anggaran-realisasi/*', 'data/anggaran-realisasi/index', 'data/anggaran-realisasi'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.anggaran-realisasi.index') }}"><i class="fa fa-circle-o"></i>Anggaran & Realisasi</a>
                                 </li>
-                                <li {{ (Request::is(['data/anggaran-desa/*', 'data/anggaran-desa/index', 'data/anggraan-desa'])? 'class=active' : '') }}>
-                                    <a href="{{ route('data.proses-kk.index') }}"><i class="fa fa-circle-o"></i>APBDes</a></li>
+                                <li {{ (Request::is(['data/anggaran-desa/*', 'data/anggaran-desa/index', 'data/anggaran-desa'])? 'class=active' : '') }}>
+                                    <a href="{{ route('data.anggaran-desa.index') }}"><i class="fa fa-circle-o"></i>APBDes</a></li>
                             </ul>
                         </li>
 

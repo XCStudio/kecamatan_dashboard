@@ -19,60 +19,174 @@
 
     <div class="box box-primary">
         <div class="box-header with-border">
-            <div class="">
-                <a href="{{ route('setting.jenis-penyakit.create') }}">
-                    <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah</button>
-                </a>
-            </div>
+            <h3 class="box-title">Daftar Akun COA</h3>
         </div>
+        <!-- /.box-header -->
         <div class="box-body">
-            @include( 'flash::message' )
-            <table class="table table-striped table-bordered" id="data-coa">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th style="width: 90px" colspan="4">Nomor Akun</th>
-                        <th>Nama Akun</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach(\App\Models\CoaType::all() as $type)
-                    <tr>
-                        <td class="icon-class"></td>
-                        <td colspan="4"><strong>{{ $type->id }}</strong></td>
-                        <td><strong>{{ $type->type_name }}</strong></td>
-                    </tr>
-                        @foreach(\App\Models\SubCoa::where('type_id', $type->id)->get() as $sub_coa)
-                            <tr>
-                                <td class="icon-class"></td>
-                                <td><strong>{{ $type->id }}</strong></td>
-                                <td colspan="3"><strong>{{ $sub_coa->id }}</strong></td>
-                                <td><strong>&emsp;&emsp;{{ $sub_coa->sub_name }}</strong></td>
-                            </tr>
-                            @foreach(\App\Models\SubSubCoa::where('sub_id', $sub_coa->id)->get() as $sub_sub_coa)
+            <div class="box-group" id="accordion">
+                <!-- we are adding the .panel class so bootstrap.js collapse plugin detects it -->
+                <div class="panel box box-primary">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                4 - PENDAPATAN
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="box-body">
+                            <table class="table table-striped table-bordered" id="data-coa">
+                                <thead>
                                 <tr>
-                                    <td class="icon-class"></td>
-                                    <td><strong>{{ $type->id }}</strong></td>
-                                    <td><strong>{{ $sub_coa->id }}</strong></td>
-                                    <td colspan="2"><strong>{{ $sub_sub_coa->id }}</strong></td>
-                                    <td><strong>&emsp;&emsp;&emsp;&emsp;{{ $sub_sub_coa->sub_sub_name }}</strong></td>
+                                    <th>#</th>
+                                    <th style="width: 90px" colspan="4">Nomor Akun</th>
+                                    <th>Nama Akun</th>
                                 </tr>
-                                {{--@foreach(\App\Models\Coa::where('sub_sub_id', $sub_sub_coa->id)->get() as $coa)
+                                </thead>
+                                <tbody>
+
+                                    @foreach(\App\Models\SubCoa::where('type_id', 4)->get() as $sub_coa)
+                                        <tr>
+                                            <td class="icon-class"></td>
+                                            <td><strong>{{ 4 }}</strong></td>
+                                            <td colspan="3"><strong>{{ $sub_coa->id }}</strong></td>
+                                            <td><strong>&emsp;&emsp;{{ $sub_coa->sub_name }}</strong></td>
+                                        </tr>
+                                        @foreach(\App\Models\SubSubCoa::where('sub_id', $sub_coa->id)->get() as $sub_sub_coa)
+                                            <tr>
+                                                <td class="icon-class"></td>
+                                                <td><strong>{{ 4 }}</strong></td>
+                                                <td><strong>{{ $sub_coa->id }}</strong></td>
+                                                <td colspan="2"><strong>{{ $sub_sub_coa->id }}</strong></td>
+                                                <td><strong>&emsp;&emsp;&emsp;&emsp;{{ $sub_sub_coa->sub_sub_name }}</strong></td>
+                                            </tr>
+                                            {{--@foreach(\App\Models\Coa::where('sub_sub_id', $sub_sub_coa->id)->get() as $coa)
+                                                <tr>
+                                                    <td class="icon-class"></td>
+                                                    <td>{{ $type->id }}</td>
+                                                    <td>{{ $sub_coa->id }}</td>
+                                                    <td>{{ $sub_sub_coa->id }}</td>
+                                                    <td>{{ $coa->id }}</td>
+                                                    <td>&emsp;&emsp;&emsp;{{ $coa->coa_name }}</td>
+                                                </tr>
+                                            @endforeach--}}
+                                        @endforeach
+                                    @endforeach
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel box box-danger">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                5 - BELANJA
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="box-body">
+                            <table class="table table-striped table-bordered" id="data-coa">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th style="width: 90px" colspan="4">Nomor Akun</th>
+                                    <th>Nama Akun</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                @foreach(\App\Models\SubCoa::where('type_id', 5)->get() as $sub_coa)
                                     <tr>
                                         <td class="icon-class"></td>
-                                        <td>{{ $type->id }}</td>
-                                        <td>{{ $sub_coa->id }}</td>
-                                        <td>{{ $sub_sub_coa->id }}</td>
-                                        <td>{{ $coa->id }}</td>
-                                        <td>&emsp;&emsp;&emsp;{{ $coa->coa_name }}</td>
+                                        <td><strong>{{ 5 }}</strong></td>
+                                        <td colspan="3"><strong>{{ $sub_coa->id }}</strong></td>
+                                        <td><strong>&emsp;&emsp;{{ $sub_coa->sub_name }}</strong></td>
                                     </tr>
-                                @endforeach--}}
-                            @endforeach
-                        @endforeach
-                    @endforeach
-                </tbody>
-            </table>
+                                    @foreach(\App\Models\SubSubCoa::where('sub_id', $sub_coa->id)->get() as $sub_sub_coa)
+                                        <tr>
+                                            <td class="icon-class"></td>
+                                            <td><strong>{{ 5}}</strong></td>
+                                            <td><strong>{{ $sub_coa->id }}</strong></td>
+                                            <td colspan="2"><strong>{{ $sub_sub_coa->id }}</strong></td>
+                                            <td><strong>&emsp;&emsp;&emsp;&emsp;{{ $sub_sub_coa->sub_sub_name }}</strong></td>
+                                        </tr>
+                                        {{--@foreach(\App\Models\Coa::where('sub_sub_id', $sub_sub_coa->id)->get() as $coa)
+                                            <tr>
+                                                <td class="icon-class"></td>
+                                                <td>{{ $type->id }}</td>
+                                                <td>{{ $sub_coa->id }}</td>
+                                                <td>{{ $sub_sub_coa->id }}</td>
+                                                <td>{{ $coa->id }}</td>
+                                                <td>&emsp;&emsp;&emsp;{{ $coa->coa_name }}</td>
+                                            </tr>
+                                        @endforeach--}}
+                                    @endforeach
+                                @endforeach
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel box box-success">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                6 - PEMBIAYAAN
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="box-body">
+                            <table class="table table-striped table-bordered" id="data-coa">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th style="width: 90px" colspan="4">Nomor Akun</th>
+                                    <th>Nama Akun</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                @foreach(\App\Models\SubCoa::where('type_id', 6)->get() as $sub_coa)
+                                    <tr>
+                                        <td class="icon-class"></td>
+                                        <td><strong>{{ 6 }}</strong></td>
+                                        <td colspan="3"><strong>{{ $sub_coa->id }}</strong></td>
+                                        <td><strong>&emsp;&emsp;{{ $sub_coa->sub_name }}</strong></td>
+                                    </tr>
+                                    @foreach(\App\Models\SubSubCoa::where('sub_id', $sub_coa->id)->get() as $sub_sub_coa)
+                                        <tr>
+                                            <td class="icon-class"></td>
+                                            <td><strong>{{ 6 }}</strong></td>
+                                            <td><strong>{{ $sub_coa->id }}</strong></td>
+                                            <td colspan="2"><strong>{{ $sub_sub_coa->id }}</strong></td>
+                                            <td><strong>&emsp;&emsp;&emsp;&emsp;{{ $sub_sub_coa->sub_sub_name }}</strong></td>
+                                        </tr>
+                                        {{--@foreach(\App\Models\Coa::where('sub_sub_id', $sub_sub_coa->id)->get() as $coa)
+                                            <tr>
+                                                <td class="icon-class"></td>
+                                                <td>{{ $type->id }}</td>
+                                                <td>{{ $sub_coa->id }}</td>
+                                                <td>{{ $sub_sub_coa->id }}</td>
+                                                <td>{{ $coa->id }}</td>
+                                                <td>&emsp;&emsp;&emsp;{{ $coa->coa_name }}</td>
+                                            </tr>
+                                        @endforeach--}}
+                                    @endforeach
+                                @endforeach
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- /.box-body -->
     </div>
 
 </section>

@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.anggaran-realisasi.index')}}">Anggaran & Realisasi</a></li>
+        <li><a href="{{route('data.anggaran-desa.index')}}">Anggaran Desa</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>
@@ -26,7 +26,7 @@
                 <!-- /.box-header -->
 
                 <!-- form start -->
-                {!! Form::open( [ 'route' => 'data.anggaran-realisasi.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
+                {!! Form::open( [ 'route' => 'data.anggaran-desa.do_import', 'method' => 'post','id' => 'form-import', 'class' => 'form-horizontal form-label-left', 'files' => true ] ) !!}
 
                 <div class="box-body">
 
@@ -43,6 +43,18 @@
 
                     <div class="row">
                         <div class="col-md-7">
+                            <div class="form-group">
+                                <label for="list_desa" class="control-label col-md-5 col-sm-3 col-xs-12">Desa</label>
+
+                                <div class="col-md-7">
+                                    <select class="form-control" id="list_desa" name="desa">
+                                        @foreach($list_desa as $desa)
+                                            <option value="{{$desa->desa_id}}">{{$desa->nama}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+
                             <div class="form-group">
                                 <label for="bulan" class="control-label col-md-5 col-sm-3 col-xs-12">Bulan</label>
 
@@ -68,7 +80,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-md-5 col-sm-3 col-xs-12" for="data_file">Data Anggaran & Realisasi</label>
+                                <label class="control-label col-md-5 col-sm-3 col-xs-12" for="data_file">Data Anggaran Desa</label>
 
                                 <div class="col-md-7">
                                     <input type="file" id="data_file" name="file" class="form-control" required/>
@@ -78,7 +90,7 @@
                         <div class="col-md-5">
                             <div class="well">
                                 <p>Instruksi Upload Data:</p>
-                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format_Upload_Anggaran_Realisasi.xlsx') }}">Download</a></p>
+                                <p>Silahkan download template upload data di sini: <a href="{{ asset('storage/template_upload/Format_Upload_APBDes.xlsx') }}">Download</a></p>
                             </div>
                         </div>
                     </div>

@@ -153,7 +153,7 @@ class RefSubSubCoaTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 4,
-                'type_id' => 4,
+                'type_id' => 5,
                 'sub_id' => 1,
                 'sub_sub_name' => 'Tunjangan BPD',
             ),

@@ -35,6 +35,23 @@
                     </div>
                 </div>
 
+                <div class="col-md-4 col-lg-4 col-sm-12">
+
+                    <div class="form-group">
+                        <label for="bulan" class="col-sm-4 control-label">Bulan</label>
+
+                        <div class="col-sm-8">
+                            <select class="form-control" id="list_months" name="m">
+                                <option value="ALL">ALL</option>
+                                @foreach(months_list() as $key=> $month)
+                                    <option value="{{$key}}">{{$month}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div class="col-md-3 col-lg-2 col-sm-12">
                     <div class="form-group">
                         <label for="list_year" class="col-sm-4 control-label">Tahun</label>
@@ -53,166 +70,12 @@
         </div>
     </div>
 
-
-    <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="info-box bg-blue">
-                <span class="info-box-icon" style="font-size: 30px;"><i class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-
-                    <span class="info-box-number" id="total_pendapatan">Rp 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 100%"></div>
-                    </div>
-					<span class="progress-description">
-											<strong>TOTAL PENDAPATAN</strong>
-											</span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-    </div>
-    <!-- /.row -->
-
-    <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="info-box bg-aqua">
-                <span class="info-box-icon" id="in_dd_persen" style="font-size: 30px;"><i
-                            class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-
-                    <span class="info-box-number" id="in_dd">Rp 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 0%" id="in_dd_persen"></div>
-                    </div>
-					<span class="progress-description">
-                    Dana Desa (APBN)
-                  </span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="info-box bg-green">
-                <span class="info-box-icon" id="in_add_persen" style="font-size: 30px;"><i
-                            class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-number" id="in_add">Rp 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 0%" id="in_add_persen"></div>
-                    </div>
-					<span class="progress-description">
-                    Alokasi Dana Desa (ADD)
-                  </span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="info-box bg-yellow">
-                <span class="info-box-icon" id="in_pad_persen" style="font-size: 30px;"><i
-                            class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-number" id="in_pad">Rp. 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 0%" id="in_pad_persen"></div>
-                    </div>
-					<span class="progress-description">
-                    Pendapatan Asli Desa (PAD)
-                  </span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-    </div>
-
-    <div class="row">
-
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="info-box bg-red">
-                <span class="info-box-icon" id="in_bhpr_persen" style="font-size: 30px;"><i
-                            class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-number" id="in_bhpr">Rp. 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 0%" id="in_bhpr_persen"></div>
-                    </div>
-					<span class="progress-description">
-                    Bagi Hasil Pajak & Retribusi (BHPR)
-                  </span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="info-box bg-aqua">
-                <span class="info-box-icon" id="in_bantuan_kabupaten_persen" style="font-size: 30px;"><i
-                            class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-
-                    <span class="info-box-number" id="in_bantuan_kabupaten">Rp 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 0%" id="in_bantuan_kabupaten_persen"></div>
-                    </div>
-					<span class="progress-description">
-                    Bantuan Kabupaten
-                  </span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="info-box bg-green">
-                <span class="info-box-icon" id="in_bantuan_provinsi_persen" style="font-size: 30px;"><i
-                            class="fa fa-money"></i></span>
-
-                <div class="info-box-content">
-                    <span class="info-box-number" id="in_bantuan_provinsi">Rp 0</span>
-
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 0%" id="in_bantuan_provinsi_persen"></div>
-                    </div>
-					<span class="progress-description">
-                    Bantuan Provinsi
-                  </span>
-                </div>
-                <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-    </div>
-    <!-- /.row -->
-
     <div class="row">
         <!-- BAR CHART -->
         <div class="col-md-12">
             <div class="box box-success">
                 <div class="box-header with-border">
-                    <h3 class="box-title">TOTAL BELANJA: <span id="total_belanja"><strong>Rp 0</strong></span></h3>
+                    <h3 class="box-title">Persentase Anggaran Desa</h3>
 
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
@@ -237,6 +100,9 @@
     </div>
     <!-- /.row -->
 
+    <div id="detail_anggaran">
+
+    </div>
     </div>
 
 </section>
@@ -246,97 +112,64 @@
     $(function () {
 
         // Select 2 Kecamatan
-        $('#list_kecamatan').select2();
         $('#list_desa').select2();
+        $('#list_months').select2();
         $('#list_year').select2();
 
-        var kid = $('#list_kecamatan').find(":selected").val();
-        if (kid == null) {
-            kid = $('#defaultProfil').val();
-        }
+
         var did = $('#list_desa').find(":selected").val();
+        var mid = $('#list_months').find(":selected").val();
         var year = $('#list_year').find(":selected").val();
 
         /*
          Initial Chart Dashboard Pendidikan
          */
-        das_chart_anggaran(kid, did, year);
+        das_chart_anggaran(mid, did, year);
         /*
          End Initial
          */
 
 
-        // Change div das_kependudukan when Kecamatan changed
-        $('#list_kecamatan').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
+        $('#list_desa').on('select2:select', function (e) {
             var did = $('#list_desa').find(":selected").val();
+            var mid = $('#list_months').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-            das_chart_anggaran(kid, did, year);
+            das_chart_anggaran(mid, did, year);
         });
 
-        $('#list_desa').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
+        $('#list_months').on('select2:select', function (e) {
             var did = $('#list_desa').find(":selected").val();
+            var mid = $('#list_months').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-            das_chart_anggaran(kid, did, year);
+            das_chart_anggaran(mid, did, year);
         });
 
         $('#list_year').on('select2:select', function (e) {
-            var kid = $('#list_kecamatan').find(":selected").val();
-            if (kid == null) {
-                kid = $('#defaultProfil').val();
-            }
             var did = $('#list_desa').find(":selected").val();
+            var mid = $('#list_months').find(":selected").val();
             var year = $('#list_year').find(":selected").val();
-
-            das_chart_anggaran(kid, did, year);
+            das_chart_anggaran(mid, did, year);
         });
     });
 
-    function das_chart_anggaran(kid, did, year) {
+    function das_chart_anggaran(mid, did, year) {
 
         $.ajax('{!! route('dashboard.chart-anggaran-desa') !!}', {
             data: {
-                kid: kid,
+                mid: mid,
                 did: did,
                 y: year
             }
         }).done(function (data) {
-            $('#total_pendapatan').html('Rp ' + data.sum.total_pendapatan);
-            $('#total_belanja').html('Rp ' + data.sum.total_belanja);
-
-            $('#in_dd').html('Rp ' + data.sum.in_dd);
-
-            $('#in_add').html('Rp ' + data.sum.in_add);
-
-            $('#in_pad').html('Rp ' + data.sum.in_pad);
-
-            $('#in_bhpr').html('Rp ' + data.sum.in_bhpr);
-
-            $('#in_bantuan_kabupaten').html('Rp ' + data.sum.in_bantuan_kabupaten);
-
-            $('#in_bantuan_provinsi').html('Rp ' + data.sum.in_bantuan_provinsi);
-            //$('#belanja_tidak_langsung_persen').html(data.sum.belanja_tidak_langsung_persen + '%');
-            //$('#belanja_tidak_langsung_persen_bar').css('width', data.sum.belanja_tidak_langsung_persen_bar + '%');
-
-
-            create_chart_anggaran(data.chart);
+            create_chart_anggaran(data.grafik);
+            alert
+            $('#detail_anggaran').html(data.detail);
         });
 
     }
 
 
     function create_chart_anggaran(data) {
-        /**
-         * Define data for each year
-         */
-        var chartData = data;
 
         /**
          * Create the chart
@@ -345,8 +178,8 @@
             "hideCredits": true,
             "type": "pie",
             "theme": "light",
-            "dataProvider": chartData,
-            "valueField": "value",
+            "dataProvider": data,
+            "valueField": "jumlah",
             "titleField": "anggaran",
             "outlineAlpha": 0.4,
             "depth3D": 15,
@@ -356,13 +189,35 @@
                 "enabled": true
             },
             "allLabels": [{
-                "text": "Persentase Anggaran Kecamatan",
+                "text": "Persentase Anggaran Desa (APBDes)",
                 "align": "center",
                 "bold": true,
                 "size": 20,
-                "y": -4
+                "y": 10
             }],
+            "legend":{
+                "position":"right",
+                "marginRight":20,
+                "autoMargins":false,
+                "valueWidth": 120
+            },
+            "marginTop" : 50
         });
+
+        chart.addListener("init", handleInit);
+
+        chart.addListener("rollOverSlice", function(e) {
+            handleRollOver(e);
+        });
+
+        function handleInit(){
+            chart.legend.addListener("rollOverItem", handleRollOver);
+        }
+
+        function handleRollOver(e){
+            var wedge = e.dataItem.wedge.node;
+            wedge.parentNode.appendChild(wedge);
+        }
     }
 </script>
 
