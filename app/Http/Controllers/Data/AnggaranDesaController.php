@@ -87,36 +87,41 @@ class AnggaranDesaController extends Controller
         $desa= $request->input('desa');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun,$desa)) {
-            $path = Input::file('file')->getRealPath();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+                $data = Excel::load($path, function ($reader) {
+                })->get();
 
-            if (!empty($data) && $data->count()) {
+                if (!empty($data) && $data->count()) {
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        $insert[] = [
-                            'no_akun'=> $value['no_akun'],
-                            'nama_akun'=> $value['nama_akun'],
-                            'jumlah'=> $value['jumlah'],
-                            'bulan' => $bulan,
-                            'tahun' => $tahun,
-                            'desa_id' => $desa,
-                        ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            $insert[] = [
+                                'no_akun'=> $value['no_akun'],
+                                'nama_akun'=> $value['nama_akun'],
+                                'jumlah'=> $value['jumlah'],
+                                'bulan' => $bulan,
+                                'tahun' => $tahun,
+                                'desa_id' => $desa,
+                            ];
+                        }
                     }
-                }
 
-                if (!empty($insert)) {
-                    try{
-                        AnggaranDesa::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    if (!empty($insert)) {
+                        try{
+                            AnggaranDesa::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                        }
                     }
-                }
 
+                }
+            }catch (\Exception $ex){
+                return back()->with('error', 'Import data gagal. '.$ex->getCode());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

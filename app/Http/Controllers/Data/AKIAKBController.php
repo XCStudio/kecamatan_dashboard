@@ -91,39 +91,44 @@ class AKIAKBController extends Controller
         $tahun = $request->input('tahun');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
-            $path = Input::file('file')->getRealPath();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+                $data = Excel::load($path, function ($reader) {
+                })->get();
 
-            if (!empty($data) && $data->count()) {
+                if (!empty($data) && $data->count()) {
 
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        foreach ($value as $v) {
-                            $insert[] = [
-                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                'desa_id' => $v['desa_id'],
-                                'bulan' => $bulan,
-                                'tahun' => $tahun,
-                                'aki' => $v['jumlah_aki'],
-                                'akb' => $v['jumlah_akb'],
-                            ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            foreach ($value as $v) {
+                                $insert[] = [
+                                    'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                    'desa_id' => $v['desa_id'],
+                                    'bulan' => $bulan,
+                                    'tahun' => $tahun,
+                                    'aki' => $v['jumlah_aki'],
+                                    'akb' => $v['jumlah_akb'],
+                                ];
+                            }
                         }
                     }
-                }
 
-                if (!empty($insert)) {
-                    try{
-                        AkiAkb::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    if (!empty($insert)) {
+                        try{
+                            AkiAkb::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                        }
                     }
-                }
 
+                }
+            }catch (\Exception $e){
+                return back()->with('error', 'Import data gagal. '.$e->getCode());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

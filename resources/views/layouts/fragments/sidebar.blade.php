@@ -141,8 +141,8 @@ use Illuminate\Support\Facades\URL;
                                 </li>
                             </ul>
                         </li>
-                        <li {{ (Request::is(['data/program-bantuan'])? 'class=active' : '') }}><a
-                                    href="{{ URL::to('data/program-bantuan') }}"><i class="fa fa-circle-o"></i>Program
+                        <li {{ (Request::is(['data/program-bantuan/*', 'data/program-bantuan/index', 'data/program-bantuan'])? 'class=active' : '') }}><a
+                                    href="{{ route('data.program-bantuan.index') }}"><i class="fa fa-circle-o"></i>Program
                                 Bantuan</a></li>
 
                         <li class="treeview {{ (Request::is(['data/anggaran-realisasi/*','data/anggaran-realisasi' ,'data/anggaran-desa/*', 'data/anggaran-desa'])? 'active' : '') }}">
@@ -178,7 +178,7 @@ use Illuminate\Support\Facades\URL;
                                         Lahir</a></li>
                                 <li {{ (Request::is(['data/proses-domisili/*', 'data/proses-domisili/index', 'data/proses-domisili'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.proses-domisili.index') }}"><i class="fa fa-circle-o"></i>Surat
-                                        Domisili</a></li>
+                                        Pindah Alamat</a></li>
                             </ul>
                         </li>
 

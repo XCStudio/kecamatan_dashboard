@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('data.proses-aktalahir.index')}}">Proses Surat Domisili</a></li>
+        <li><a href="{{route('data.proses-aktalahir.index')}}">Proses Surat Pindah Alamat</a></li>
         <li class="active">{{$page_title}}</li>
     </ol>
 </section>

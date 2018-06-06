@@ -21,15 +21,15 @@
     <div class="nav-tabs-custom">
         <ul class="nav nav-tabs">
             <li class="active"><a href="{{ route('data.penduduk.index') }}">Penduduk</a></li>
-            <li><a href="{{ route('data.keluarga.index') }}" >Keluarga</a></li>
+            {{--<li><a href="{{ route('data.keluarga.index') }}" >Keluarga</a></li>--}}
         </ul>
 
         <div class="tab-content">
             <div class="row">
                 <div class="col-md-12">
-                        <a href="{{ route('data.penduduk.create') }}">
+                       {{-- <a href="{{ route('data.penduduk.create') }}">
                             <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Penduduk</button>
-                        </a>
+                        </a>--}}
                         <a href="{{ route('data.penduduk.import') }}">
                             <button type="button" class="btn btn-warning btn-sm" title="Upload Data"><i class="fa fa-upload"></i> Import</button>
                         </a>
@@ -46,9 +46,9 @@
                             <th>Nama</th>
                             <th>No. KK</th>
                             <th>Alamat</th>
-                            <th>Dusun</th>
+                           {{-- <th>Dusun</th>
                             <th>RW</th>
-                            <th>RT</th>
+                            <th>RT</th>--}}
                             <th>Pendidikan dalam KK</th>
                             <th>Umur</th>
                             <th>Pekerjaan</th>
@@ -71,8 +71,8 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var data = $('#penduduk-table').DataTable({
-            processing: false,
-            serverSide: false,
+            processing: true,
+            serverSide: true,
             ajax: "{!! route( 'data.penduduk.getdata' ) !!}",
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
@@ -80,9 +80,9 @@
                 {data: 'nama', name: 'nama'},
                 {data: 'no_kk', name: 'no_kk'},
                 {data: 'alamat', name: 'alamat'},
-                {data: 'dusun', name: 'dusun'},
+                /*{data: 'dusun', name: 'dusun'},
                 {data: 'rw', name: 'rw'},
-                {data: 'rt', name: 'rt'},
+                {data: 'rt', name: 'rt'},*/
                 {data: 'pendidikan', name: 'pendidikan'},
                 {data: 'tanggal_lahir', name: 'tanggal_lahir'},
                 {data: 'pekerjaan', name: 'pekerjaan'},

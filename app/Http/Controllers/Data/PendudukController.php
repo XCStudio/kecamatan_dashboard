@@ -37,11 +37,13 @@ class PendudukController extends Controller
     public function getPenduduk()
     {
       $query = DB::table('das_penduduk')
-            ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+            //->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
             ->join('ref_pendidikan_kk', 'das_penduduk.pendidikan_kk_id', '=', 'ref_pendidikan_kk.id')
             ->join('ref_kawin', 'das_penduduk.status_kawin', '=', 'ref_kawin.id')
             ->join('ref_pekerjaan', 'das_penduduk.pekerjaan_id', '=', 'ref_pekerjaan.id')
-            ->selectRaw('das_penduduk.id, das_penduduk.nik, das_penduduk.nama, das_penduduk.no_kk, das_keluarga.alamat, das_keluarga.dusun, das_keluarga.rw, das_keluarga.rt, ref_pendidikan_kk.nama as pendidikan, das_penduduk.tanggal_lahir, ref_kawin.nama as status_kawin, ref_pekerjaan.nama as pekerjaan');
+            ->selectRaw('das_penduduk.id, das_penduduk.nik, das_penduduk.nama, das_penduduk.no_kk,
+            das_penduduk.alamat, ref_pendidikan_kk.nama as pendidikan,
+            das_penduduk.tanggal_lahir, ref_kawin.nama as status_kawin, ref_pekerjaan.nama as pekerjaan');
       
         return DataTables::of($query->get())
             ->addColumn('action', function ($row) {
@@ -208,7 +210,7 @@ class PendudukController extends Controller
 
             return redirect()->route('data.penduduk.index')->with('success', 'Penduduk sukses dihapus!');
 
-        } catch (Exception $e) {
+        } catch (\Illuminate\Database\QueryException $e) {
             return redirect()->route('data.penduduk.index')->with('error', 'Penduduk gagal dihapus!');
         }
     }
@@ -223,33 +225,102 @@ class PendudukController extends Controller
         $page_title = 'Import';
         $page_description = 'Import Data Penduduk';
 
-        return view('data.penduduk.import', compact('page_title', 'page_description'));
+        $list_desa = DB::table('das_data_desa')->select('*')->where('kecamatan_id', '=', env('KD_DEFAULT_PROFIL', null))->get();
+        return view('data.penduduk.import', compact('page_title', 'page_description', 'list_desa'));
     }
 
     /**
-     * Display a listing of the resource.
+     * Store a newly created resource in storage.
      *
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function importExcel()
+    public function importExcel(Request $request)
     {
-        ini_set('max_execution_time', 300);
-        if (Input::hasFile('data_file')) {
+        ini_set('max_execution_time', 0);
+        $tahun = $request->input('tahun');
+        $desa_id = $request->input('desa_id');
 
-            $path = Input::file('data_file')->getRealPath();
+        if ($request->hasFile('file')) {
+
+            try{
+                $path = Input::file('file')->getRealPath();
+
+                $data = Excel::load($path, function ($reader) {
+                })->get();
 
 
-            Excel::filter('chunk')->load($path)->chunk(1000, function ($results) {
-                foreach ($results as $row) {
-                    Penduduk::insert($row->toArray());
+                if (!empty($data) && $data->count()) {
+
+                    foreach ($data as $key => $value) {
+                        if (!empty($value)) {
+                            $insert = [
+                                'nik' => $value['nomor_nik'],
+                                'nama' => $value['nama'],
+                                'no_kk' => $value['nomor_kk'],
+                                'sex' => $value['jenis_kelamin'],
+                                'tempat_lahir' => $value['tempat_lahir'],
+                                'tanggal_lahir' => $value['tanggal_lahir'],
+                                'agama_id' => $value['agama'],
+                                'pendidikan_kk_id' => $value['pendidikan_dlm_kk'],
+                                'pendidikan_sedang_id' => $value['pendidikan_sdg_ditempuh'],
+                                'pekerjaan_id' => $value['pekerjaan'],
+                                'status_kawin' => $value['kawin'],
+                                'kk_level' => $value['hubungan_keluarga'],
+                                'warga_negara_id' => $value['kewarganegaraan'],
+                                'nama_ibu' => $value['nama_ibu'],
+                                'nama_ayah' => $value['nama_ayah'],
+                                'golongan_darah_id' => $value['gol_darah'],
+                                'akta_lahir' => $value['akta_lahir'],
+                                'dokumen_pasport' => $value['nomor_dokumen_pasport'],
+                                'tanggal_akhir_pasport' => $value['tanggal_akhir_pasport'],
+                                'dokumen_kitas' => $value['nomor_dokumen_kitas'],
+                                'ayah_nik' => $value['nik_ayah'],
+                                'ibu_nik' => $value['nik_ibu'],
+                                'akta_perkawinan' => $value['nomor_akta_perkawinan'],
+                                'tanggal_perkawinan' => $value['tanggal_perkawinan'],
+                                'akta_perceraian' => $value['nomor_akta_perceraian'],
+                                'tanggal_perceraian' => $value['tanggal_perceraian'],
+                                'cacat_id' => $value['cacat'],
+                                'cara_kb_id' => $value['cara_kb'],
+                                'hamil' => $value['hamil'],
+
+                                // Tambahan
+                                'alamat_sekarang' => $value['alamat'],
+                                'alamat' => $value['alamat'],
+                                'dusun' => $value['dusun'],
+                                'rw' => $value['rw'],
+                                'rt' => $value['rt'],
+
+                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                'desa_id' => $desa_id,
+                                'tahun' => $tahun,
+                                'status_dasar' => 1,
+                            ];
+
+                            if (!empty($insert)) {
+                                try{
+                                    Penduduk::insert($insert);
+                                }catch (QueryException $ex){
+                                    return back()->with('error', 'Import data gagal. </br>'.$ex->getCode());
+                                }
+                            }
+
+                        }
+                    }
+
+
+                    return back()->with('success', 'Import data sukses.');
+
+                }else{
+                    return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
                 }
-            });
+            }catch (\Exception $e){
+                return back()->with('error', 'Import data gagal. '.$e->getMessage());
+            }
 
-            $data = Excel::load($path, function ($reader) {
-
-            })->get();
-
-            return redirect()->route('data.penduduk.import')->with('success', 'Data Penduduk berhasil diunggah!');
+        }else{
+            return back()->with('error', 'Import data gagal. File excel belum dipilih.');
         }
     }
 }

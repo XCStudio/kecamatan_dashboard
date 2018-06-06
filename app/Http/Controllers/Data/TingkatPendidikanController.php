@@ -79,42 +79,48 @@ class TingkatPendidikanController extends Controller
         $tahun = $request->input('tahun');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
-            $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            if (!empty($data) && $data->count()) {
+                $data = Excel::load($path, function ($reader) {
+                })->get();
+
+                if (!empty($data) && $data->count()) {
 
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        foreach ($value as $v) {
-                            $insert[] = [
-                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                'desa_id' => $v['desa_id'],
-                                'tidak_tamat_sekolah' => $v['tidak_tamat_sekolah'],
-                                'tamat_sd' => $v['tamat_sd'],
-                                'tamat_smp' => $v['tamat_smp'],
-                                'tamat_sma' => $v['tamat_sma'],
-                                'tamat_diploma_sederajat' => $v['tamat_diploma_sederajat'],
-                                'bulan' => $bulan,
-                                'tahun' => $tahun,
-                            ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            foreach ($value as $v) {
+                                $insert[] = [
+                                    'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                    'desa_id' => $v['desa_id'],
+                                    'tidak_tamat_sekolah' => $v['tidak_tamat_sekolah'],
+                                    'tamat_sd' => $v['tamat_sd'],
+                                    'tamat_smp' => $v['tamat_smp'],
+                                    'tamat_sma' => $v['tamat_sma'],
+                                    'tamat_diploma_sederajat' => $v['tamat_diploma_sederajat'],
+                                    'bulan' => $bulan,
+                                    'tahun' => $tahun,
+                                ];
+                            }
                         }
                     }
-                }
 
-                if (!empty($insert)) {
-                    try{
-                        TingkatPendidikan::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    if (!empty($insert)) {
+                        try{
+                            TingkatPendidikan::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                        }
                     }
-                }
 
+                }
+            }catch (\Exception $ex){
+                return back()->with('error', 'Import data gagal. '.$ex->getMessage());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

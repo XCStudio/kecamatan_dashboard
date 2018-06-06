@@ -38,7 +38,7 @@
             <label for="no_kk_sebelumnya" class="control-label col-md-4 col-sm-3 col-xs-12">No KK Sebelumnya</label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                {!! Form::text('no_kk_sebelumnya', null,['placeholder'=>'NIK', 'class'=>'form-control', 'id'=>'no_kk_sebelumnya']) !!}
+                {!! Form::text('no_kk_sebelumnya', null,['placeholder'=>'No KK', 'class'=>'form-control', 'id'=>'no_kk_sebelumnya']) !!}
             </div>
         </div>
 
@@ -235,10 +235,10 @@
         </div>
 
         <div class="form-group">
-            <label for="alamat_sekarang" class="control-label col-md-4 col-sm-3 col-xs-12">Alamat Sekarang</label>
+            <label for="alamat" class="control-label col-md-4 col-sm-3 col-xs-12">Alamat Sekarang</label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                {!! Form::text('alamat_sekarang', null,['placeholder'=>'Alamat Sekarang', 'class'=>'form-control', 'id'=>'alamat_sekarang']) !!}
+                {!! Form::text('alamat', null,['placeholder'=>'Alamat Sekarang', 'class'=>'form-control', 'id'=>'alamat_s']) !!}
             </div>
         </div>
 

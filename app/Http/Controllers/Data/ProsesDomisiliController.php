@@ -17,8 +17,8 @@ class ProsesDomisiliController extends Controller
     public function index()
     {
         //
-        $page_title = 'Proses Surat Domisili';
-        $page_description = 'Data Proses Pembuatan Surat Pindah Alamat (Domisili)';
+        $page_title = 'Proses Surat Pindah Alamat';
+        $page_description = 'Data Proses Pembuatan Surat Pindah Alamat';
         return view('data.proses_domisili.index', compact('page_title', 'page_description'));
     }
 
@@ -63,7 +63,7 @@ class ProsesDomisiliController extends Controller
     {
         //
         $page_title = 'Tambah';
-        $page_description = 'Tambah Proses Surat Pindah Alamat (Domisili)';
+        $page_description = 'Tambah Proses Surat Pindah Alamat';
 
         return view('data.proses_domisili.create', compact('page_title', 'page_description'));
     }
@@ -115,7 +115,7 @@ class ProsesDomisiliController extends Controller
         //
         $domisili = ProsesDomisili::findOrFail($id);
         $page_title = 'Ubah';
-        $page_description = 'Ubah Proses Surat Domisili : '.$domisili->penduduk->nama;
+        $page_description = 'Ubah Proses Surat Pindah Alamat : '.$domisili->penduduk->nama;
 
         return view('data.proses_domisili.edit', compact('page_title', 'page_description', 'domisili'));
     }

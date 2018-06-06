@@ -80,40 +80,45 @@ class AnggaranRealisasiController extends Controller
         $tahun = $request->input('tahun');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
-            $path = Input::file('file')->getRealPath();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+                $data = Excel::load($path, function ($reader) {
+                })->get();
 
-            if (!empty($data) && $data->count()) {
+                if (!empty($data) && $data->count()) {
 
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        $insert[] = [
-                            'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                            'total_anggaran'=> $value['total_anggaran'],
-                            'total_belanja'=> $value['total_belanja'],
-                            'belanja_pegawai'=> $value['belanja_pegawai'],
-                            'belanja_barang_jasa'=> $value['belanja_barang_jasa'],
-                            'belanja_modal'=> $value['belanja_modal'],
-                            'belanja_tidak_langsung'=> $value['belanja_tidak_langsung'],
-                            'bulan' => $bulan,
-                            'tahun' => $tahun,
-                        ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            $insert[] = [
+                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                'total_anggaran'=> $value['total_anggaran'],
+                                'total_belanja'=> $value['total_belanja'],
+                                'belanja_pegawai'=> $value['belanja_pegawai'],
+                                'belanja_barang_jasa'=> $value['belanja_barang_jasa'],
+                                'belanja_modal'=> $value['belanja_modal'],
+                                'belanja_tidak_langsung'=> $value['belanja_tidak_langsung'],
+                                'bulan' => $bulan,
+                                'tahun' => $tahun,
+                            ];
+                        }
                     }
-                }
 
-                if (!empty($insert)) {
-                    try{
-                        AnggaranRealisasi::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    if (!empty($insert)) {
+                        try{
+                            AnggaranRealisasi::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                        }
                     }
-                }
 
+                }
+            }catch (\Exception $ex){
+                return back()->with('error', 'Import data gagal. '.$ex->getMessage());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

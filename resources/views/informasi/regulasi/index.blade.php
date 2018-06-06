@@ -34,7 +34,7 @@
                     <div class="box-body no-padding">
                         <table class="table table-striped">
                             <tr>
-                                <th>Judul Prosedur</th>
+                                <th>Judul Regulasi</th>
                                 <th style="width: 150px">Aksi</th>
                             </tr>
                             @foreach($regulasi as $item)

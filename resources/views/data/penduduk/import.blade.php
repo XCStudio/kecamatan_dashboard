@@ -42,10 +42,34 @@
                     @endif
 
                         <div class="form-group">
-                            <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data Penduduk</label>
+                            <label for="list_desa" class="control-label col-md-4 col-sm-3 col-xs-12">Desa <span class="required">*</span></label>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" id="list_desa" name="desa_id">
+                                    @foreach($list_desa as $desa)
+                                        <option value="{{$desa->desa_id}}">{{$desa->nama}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="list_year" class="control-label col-md-4 col-sm-3 col-xs-12">Tahun <span class="required">*</span></label>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" id="list_year" name="tahun">
+                                    @foreach(years_list() as $year)
+                                        <option value="{{$year}}">{{$year}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data Penduduk <span class="required">*</span></label>
 
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="file" id="data_file" name="data_file" class="form-control"/>
+                                <input type="file" id="data_file" name="file" class="form-control" required/>
                             </div>
                         </div>
 

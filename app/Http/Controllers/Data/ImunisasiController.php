@@ -91,36 +91,41 @@ class ImunisasiController extends Controller
         $tahun = $request->input('tahun');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
-            $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            if (!empty($data) && $data->count()) {
+                $data = Excel::load($path, function ($reader) {
+                })->get();
+
+                if (!empty($data) && $data->count()) {
 
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        $insert[] = [
-                            'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                            'desa_id' => $value['desa_id'],
-                            'cakupan_imunisasi' => $value['cakupan_imunisasi'],
-                            'bulan' => $bulan,
-                            'tahun' => $tahun,
-                        ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            $insert[] = [
+                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                'desa_id' => $value['desa_id'],
+                                'cakupan_imunisasi' => $value['cakupan_imunisasi'],
+                                'bulan' => $bulan,
+                                'tahun' => $tahun,
+                            ];
+                        }
+                    }
+
+                    if (!empty($insert)) {
+                        try{
+                            Imunisasi::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                        }
                     }
                 }
-
-                if (!empty($insert)) {
-                    try{
-                        Imunisasi::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
-                    }
-                }
-
+            }catch (\Exception $ex){
+                return back()->with('error', 'Import data gagal. '.$ex->getMessage());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

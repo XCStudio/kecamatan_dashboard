@@ -1,10 +1,17 @@
 <div class="btn-group hidden-xs" id="exampleToolbar" role="group">
-    @if( isset( $show_url ) )
-        <a href="{!! empty( $show_url ) ? 'javascript:void(0)' : $show_url !!}"
-           class="{!! empty( $show_url ) ? 'disabled' : '' !!}" title="Lihat" data-button="show">
-            <button type="button" class="btn btn-info btn-xs" style="width: 40px;"><i class="fa fa-search fa-fw"></i>
+    @if( isset( $detail_url ) )
+        <a href="{!! empty( $detail_url ) ? 'javascript:void(0)' : $detail_url !!}"
+           class="{!! empty( $detail_url ) ? 'disabled' : '' !!}" title="Detail" data-button="detail">
+            <button type="button" class="btn btn-info btn-xs" style="width: 40px;"><i class="fa fa-list fa-fw"></i>
             </button>
         </a>
+    @endif
+    @if( isset( $show_url ) )
+            <a href="{!! empty( $show_url ) ? 'javascript:void(0)' : $show_url !!}"
+               class="{!! empty( $show_url ) ? 'disabled' : '' !!}" title="Lihat" data-button="show">
+                <button type="button" class="btn btn-info btn-xs" style="width: 40px;"><i class="fa fa-search fa-fw"></i>
+                </button>
+            </a>
     @endif
     @if( isset( $edit_url ) )
         <a href="{!! empty( $edit_url ) ? 'javascript:void(0)' : $edit_url !!}"

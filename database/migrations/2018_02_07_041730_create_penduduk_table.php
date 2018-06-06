@@ -22,9 +22,9 @@ class CreatePendudukTable extends Migration
             $table->integer('id_rtm')->nullable(true);
             $table->integer('rtm_level')->nullable(true);
             $table->tinyInteger('sex')->nullable(true);
-            $table->string('tempat_lahir', 100);
-            $table->date('tanggal_lahir');
-            $table->integer('agama_id');
+            $table->string('tempat_lahir', 100)->nullable();
+            $table->date('tanggal_lahir')->nullable();
+            $table->integer('agama_id')->nullable();
             $table->integer('pendidikan_kk_id')->nullable(true);
             $table->integer('pendidikan_id')->nullable(true);
             $table->integer('pendidikan_sedang_id')->nullable(true);
@@ -57,10 +57,15 @@ class CreatePendudukTable extends Migration
             $table->date('tanggal_akhir_pasport')->nullable(true);
             $table->string('no_kk', 30)->nullable(true);
             $table->string('no_kk_sebelumnya', 30)->nullable(true);
+            $table->string('alamat', 255)->nullable();
+            $table->string('dusun', 255)->nullable();
+            $table->string('rw', 10)->nullable();
+            $table->string('rt', 10)->nullable();
             $table->char('desa_id', 10)->nullable(true);
             $table->char('kecamatan_id', 7)->nullable(true);
             $table->char('kabupaten_id', 4)->nullable(true);
             $table->char('provinsi_id', 2)->nullable(true);
+            $table->integer('tahun')->nullable();
             $table->timestamps();
         });
     }

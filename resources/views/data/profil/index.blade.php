@@ -21,9 +21,9 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <div class="">
-                <a href="{{ route('data.profil.create') }}">
+               {{-- <a href="{{ route('data.profil.create') }}">
                     <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i> Tambah Profil</button>
-                </a>
+                </a>--}}
             </div>
         </div>
         <div class="box-body">

@@ -92,38 +92,44 @@ class EpidemiPenyakitController extends Controller
         $penyakit_id = $request->input('penyakit_id');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun, $penyakit_id)) {
-            $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            if (!empty($data) && $data->count()) {
+                $data = Excel::load($path, function ($reader) {
+                })->get();
+
+                if (!empty($data) && $data->count()) {
 
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        foreach ($value as $v) {
-                            $insert[] = [
-                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                'desa_id' => $v['desa_id'],
-                                'jumlah_penderita' => $v['jumlah_penderita'],
-                                'bulan' => $bulan,
-                                'tahun' => $tahun,
-                                'penyakit_id' => $penyakit_id,
-                            ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            foreach ($value as $v) {
+                                $insert[] = [
+                                    'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                    'desa_id' => $v['desa_id'],
+                                    'jumlah_penderita' => $v['jumlah_penderita'],
+                                    'bulan' => $bulan,
+                                    'tahun' => $tahun,
+                                    'penyakit_id' => $penyakit_id,
+                                ];
+                            }
+                        }
+                    }
+
+                    if (!empty($insert)) {
+                        try{
+                            EpidemiPenyakit::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
                         }
                     }
                 }
-
-                if (!empty($insert)) {
-                    try{
-                        EpidemiPenyakit::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
-                    }
-                }
+            }catch (\Exception $ex){
+                return back()->with('error', 'Import data gagal. '.$ex->getMessage());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

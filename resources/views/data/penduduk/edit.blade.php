@@ -94,7 +94,7 @@
         $('.datepicker').each(function () {
             var $this = $(this);
             $this.datetimepicker({
-                format: 'YYYY-MM-D'
+                format: 'YYYY-MM-DD'
             });
         });
 

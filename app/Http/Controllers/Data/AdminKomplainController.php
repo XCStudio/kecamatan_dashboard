@@ -58,7 +58,7 @@ class AdminKomplainController extends Controller
                 if($row->status == 'BELUM'){
                     $status = '<span class="label label-primary">'.$row->status.'</span>';
                 }
-                if($row->status == 'SELSAI'){
+                if($row->status == 'SELESAI'){
                     $status = '<span class="label label-success">'.$row->status.'</span>';
                 }
                 if($row->status == 'PROSES'){
@@ -188,12 +188,13 @@ class AdminKomplainController extends Controller
     {
         $data_chart = array();
         $status = array('REVIEW', 'DITOLAK', 'BELUM', 'PROSES', 'SELESAI');
+        $colors = array('REVIEW'=>'#f4f4f4', 'DITOLAK'=>'#c9302c', 'BELUM'=>'#286090', 'PROSES'=>'#ec971f', 'SELESAI'=>'#00a65a');
         foreach($status as $key=>$value)
         {
             $query_total = DB::table('das_komplain')
                 ->where('status', '=', $value);
             $total = $query_total->count();
-            $data_chart[] = array('status' => $value, 'value' => $total);
+            $data_chart[] = array('status' => ucfirst(strtolower($value)), 'value' => $total, 'color'=>$colors[$value]);
         }
 
         return $data_chart;

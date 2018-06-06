@@ -36,7 +36,7 @@ class ProfilController extends Controller
                 $delete_url = route('data.profil.destroy', $data->id);
 
                 $data['edit_url'] = $edit_url;
-                $data['delete_url'] = $delete_url;
+                //$data['delete_url'] = $delete_url;
 
                 return view('forms.action', $data);
             })

@@ -23,7 +23,7 @@
             <div class="">
                 <a href="{{ route('data.proses-domisili.create') }}">
                     <button type="button" class="btn btn-primary btn-sm" title="Tambah Data"><i class="fa fa-plus"></i>
-                        Surat Domisili
+                        Surat Pindah Alamat
                     </button>
                 </a>
             </div>

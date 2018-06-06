@@ -80,40 +80,45 @@ class FasilitasPaudController extends Controller
         $tahun = $request->input('tahun');
 
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
-            $path = Input::file('file')->getRealPath();
+            try{
+                $path = Input::file('file')->getRealPath();
 
-            $data = Excel::load($path, function ($reader) {
-            })->get();
+                $data = Excel::load($path, function ($reader) {
+                })->get();
 
-            if (!empty($data) && $data->count()) {
+                if (!empty($data) && $data->count()) {
 
 
-                foreach ($data->toArray() as $key => $value) {
-                    if (!empty($value)) {
-                        foreach ($value as $v) {
-                            $insert[] = [
-                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                'desa_id' => $v['desa_id'],
-                                'jumlah_paud' => $v['jumlah_paud'],
-                                'jumlah_guru_paud' => $v['jumlah_guru_paud'],
-                                'jumlah_siswa_paud' => $v['jumlah_siswa_paud'],
-                                'bulan' => $bulan,
-                                'tahun' => $tahun,
-                            ];
+                    foreach ($data->toArray() as $key => $value) {
+                        if (!empty($value)) {
+                            foreach ($value as $v) {
+                                $insert[] = [
+                                    'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                    'desa_id' => $v['desa_id'],
+                                    'jumlah_paud' => $v['jumlah_paud'],
+                                    'jumlah_guru_paud' => $v['jumlah_guru_paud'],
+                                    'jumlah_siswa_paud' => $v['jumlah_siswa_paud'],
+                                    'bulan' => $bulan,
+                                    'tahun' => $tahun,
+                                ];
+                            }
                         }
                     }
-                }
 
-                if (!empty($insert)) {
-                    try{
-                        FasilitasPAUD::insert($insert);
-                        return back()->with('success', 'Import data sukses.');
-                    }catch (QueryException $ex){
-                        return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                    if (!empty($insert)) {
+                        try{
+                            FasilitasPAUD::insert($insert);
+                            return back()->with('success', 'Import data sukses.');
+                        }catch (QueryException $ex){
+                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                        }
                     }
-                }
 
+                }
+            }catch (\Exception $ex){
+                return back()->with('error', 'Import data gagal. '.$ex->getMessage());
             }
+
         }else{
             return back()->with('error', 'Import data gagal. Data sudah pernah diimport.');
         }

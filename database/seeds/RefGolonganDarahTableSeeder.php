@@ -40,7 +40,7 @@ class RefGolonganDarahTableSeeder extends Seeder
 
             4 =>
             array (
-                'id' => 5,
+                'id' => 13,
                 'nama' => 'TIDAK TAHU',
             ),
         ));

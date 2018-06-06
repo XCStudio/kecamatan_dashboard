@@ -133,6 +133,7 @@
             "dataProvider": {!!  json_encode($chart_status) !!},
             "valueField": "value",
             "titleField": "status",
+            "colorField": "color",
             "balloon":{
                 "fixedPosition":true
             },

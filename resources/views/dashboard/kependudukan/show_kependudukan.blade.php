@@ -439,8 +439,8 @@
                     "negativeLineColor": "#637bb6",
                     "type": "smoothedLine",
                     "valueField": "value_lk",
-                    "labelText" : "[[value]]",
-                    "labelPosition": "middle"
+                    //"labelText" : "[[value]]",
+                    //"labelPosition": "middle"
                 },
                 {
                     "id": "gp",
@@ -452,8 +452,8 @@
                     "negativeLineColor": "#637bb6",
                     "type": "smoothedLine",
                     "valueField": "value_pr",
-                    "labelText" : "[[value]]",
-                    "labelPosition": "middle"
+                    //"labelText" : "[[value]]",
+                    //"labelPosition": "middle"
                 }
             ],
             "chartCursor": {
@@ -1160,9 +1160,6 @@
                         <th>Nama</th>
                         <th>No. KK</th>
                         <th>Alamat</th>
-                        <th>Dusun</th>
-                        <th>RW</th>
-                        <th>RT</th>
                         <th>Pendidikan dalam KK</th>
                         <th>Umur</th>
                         <th>Pekerjaan</th>
@@ -1240,9 +1237,6 @@
                     {data: 'nama', name: 'nama'},
                     {data: 'no_kk', name: 'no_kk'},
                     {data: 'alamat', name: 'alamat'},
-                    {data: 'dusun', name: 'dusun'},
-                    {data: 'rw', name: 'rw'},
-                    {data: 'rt', name: 'rt'},
                     {data: 'pendidikan', name: 'pendidikan_kk'},
                     {data: 'tanggal_lahir', name: 'tanggal_lahir'},
                     {data: 'pekerjaan', name: 'pekerjaan'},

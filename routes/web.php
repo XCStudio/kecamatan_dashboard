@@ -451,6 +451,23 @@ Route::group(['middleware' => 'sentinel_access:admin'], function () {
                 Route::post('do_import', ['as' => 'data.fasilitas-paud.do_import', 'uses' => 'FasilitasPaudController@do_import']);
             });
 
+
+            //Routes Resource Program Bantuan
+            Route::group(['prefix' => 'program-bantuan'], function () {
+                Route::get('getdata', ['as' => 'data.program-bantuan.getdata', 'uses' => 'ProgramBantuanController@getaProgramBantuan']);
+                Route::get('/', ['as' => 'data.program-bantuan.index', 'uses' => 'ProgramBantuanController@index']);
+                Route::get('create', ['as' => 'data.program-bantuan.create', 'uses' => 'ProgramBantuanController@create']);
+                Route::post('store', ['as' => 'data.program-bantuan.store', 'uses' => 'ProgramBantuanController@store']);
+                Route::post('add_peserta', ['as' => 'data.program-bantuan.add_peserta', 'uses' => 'ProgramBantuanController@add_peserta']);
+                Route::get('edit/{id}', ['as' => 'data.program-bantuan.edit', 'uses' => 'ProgramBantuanController@edit']);
+                Route::get('show/{id}', ['as' => 'data.program-bantuan.show', 'uses' => 'ProgramBantuanController@show']);
+                Route::get('create-peserta/{id}', ['as' => 'data.program-bantuan.create-peserta', 'uses' => 'ProgramBantuanController@createPeserta']);
+                Route::put('update/{id}', ['as' => 'data.program-bantuan.update', 'uses' => 'ProgramBantuanController@update']);
+                Route::delete('destroy/{id}', ['as' => 'data.program-bantuan.destroy', 'uses' => 'ProgramBantuanController@destroy']);
+                Route::get('import', ['as' => 'data.program-bantuan.import', 'uses' => 'ProgramBantuanController@import']);
+                Route::post('do_import', ['as' => 'data.program-bantuan.do_import', 'uses' => 'ProgramBantuanController@do_import']);
+            });
+
             //Routes Resource Anggaran Realisasi
             Route::group(['prefix' => 'anggaran-realisasi'], function () {
                 Route::get('getdata', ['as' => 'data.anggaran-realisasi.getdata', 'uses' => 'AnggaranRealisasiController@getDataAnggaran']);
@@ -578,4 +595,15 @@ Route::get('/api/test', function () {
 Route::namespace('Dashboard')->group(function () {
 
     Route::get('/api/dashboard/kependudukan', ['as' => 'dashboard.kekendudukan.getdata', 'uses' => 'DashboardController@getDashboardKependudukan']);
+});
+
+Route::get('/api/list-peserta-penduduk',function(){
+    return \App\Models\Penduduk::selectRaw('nik as id, nama as text, nik, nama, alamat, rt, rw, tempat_lahir, tanggal_lahir')
+        ->whereRaw('lower(nama) LIKE \'%'.strtolower(request('q')).'%\' or lower(nik) LIKE \'%'.strtolower(request('q')).'%\'')->paginate(10);
+});
+
+Route::get('/api/list-peserta-kk',function(){
+    return \App\Models\Penduduk::selectRaw('no_kk as id, nama as text, nik, nama, alamat, rt, rw, tempat_lahir, tanggal_lahir')
+        ->whereRaw('lower(nama) LIKE \'%'.strtolower(request('q')).'%\' or lower(no_kk) LIKE \'%'.strtolower(request('q')).'%\'')
+        ->where('kk_level', 1)->paginate(10);
 });
