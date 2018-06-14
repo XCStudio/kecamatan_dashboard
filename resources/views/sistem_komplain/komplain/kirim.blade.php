@@ -196,7 +196,7 @@
                                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal
                                 </button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-paper-plane"></i> Kirim
                             </button>
                         </div>
                     </div>

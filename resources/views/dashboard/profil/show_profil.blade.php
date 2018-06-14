@@ -107,33 +107,42 @@
                             <table class="table table-striped">
                                 <tbody>
                                 <tr>
-                                    <th class="col-md-2">Nama Kecamatan</th>
-                                    <td class="col-md-9">: {{ ucwords(strtolower($profil->kecamatan->nama)) }}</td>
+                                    <th class="col-md-4">Nama Kecamatan</th>
+                                    <td class="col-md-8">: {{ ucwords(strtolower($profil->kecamatan->nama)) }}</td>
+                                </tr>
+                                <tr>
+                                    <th class="col-md-4">Kode Kecamatan</th>
+                                    <td class="col-md-8">: {{ ucwords(strtolower($profil->kecamatan->id)) }}</td>
                                 </tr>
 
                                 <tr>
-                                    <th class="col-md-2">Tahun Pembentukan</th>
-                                    <td class="col-md-9">: {{ $profil->tahun_pembentukan }}</td>
+                                    <th class="col-md-4">Tahun Pembentukan</th>
+                                    <td class="col-md-8">: {{ $profil->tahun_pembentukan }}</td>
                                 </tr>
 
                                 <tr>
-                                    <th class="col-md-2">Dasar Hukum Pembentukan</th>
-                                    <td class="col-md-9">: {{ $profil->dasar_pembentukan }}</td>
+                                    <th class="col-md-4">Dasar Hukum Pembentukan</th>
+                                    <td class="col-md-8">: {{ $profil->dasar_pembentukan }}</td>
                                 </tr>
 
                                 <tr>
-                                    <th class="col-md-2">Nomor Kode Wilayah</th>
-                                    <td class="col-md-9">: {!! ucwords($profil->kecamatan->id) !!}</td>
+                                    <th class="col-md-4">Provinsi</th>
+                                    <td class="col-md-8">: {!! $profil->provinsi->id !!} - {!! ucwords(strtolower($profil->provinsi->nama)) !!}</td>
                                 </tr>
 
                                 <tr>
-                                    <th class="col-md-2">Kode Pos</th>
-                                    <td class="col-md-9">: {!! ucwords($profil->kode_pos) !!}</td>
+                                    <th class="col-md-4">Kabupaten/Kota</th>
+                                    <td class="col-md-8">: {!! ucwords($profil->kabupaten->id) !!} - {!! ucwords(strtolower($profil->kabupaten->nama)) !!}</td>
                                 </tr>
 
                                 <tr>
-                                    <th class="col-md-2">Kabupaten/Kota</th>
-                                    <td class="col-md-9">: {!! ucwords(strtolower($profil->kabupaten->nama)) !!}</td>
+                                    <th class="col-md-4">Kode Pos</th>
+                                    <td class="col-md-8">: {!! ucwords($profil->kode_pos) !!}</td>
+                                </tr>
+
+                                <tr>
+                                    <th class="col-md-4">Kabupaten/Kota</th>
+                                    <td class="col-md-8">: {!! ucwords(strtolower($profil->kabupaten->nama)) !!}</td>
                                 </tr>
 
                                 </tbody>
@@ -164,18 +173,13 @@
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">Nomor Kode Wilayah</th>
-                                            <td class="col-md-9">: {!! ucwords($profil->kecamatan->id) !!}</td>
-                                        </tr>
-
-                                        <tr>
                                             <th class="col-md-2">Kode Pos</th>
                                             <td class="col-md-9">: {!! ucwords($profil->kode_pos) !!}</td>
                                         </tr>
 
                                         <tr>
                                             <th class="col-md-2">Kabupaten/Kota</th>
-                                            <td class="col-md-9">: {!! ucwords($profil->kabupaten->nama) !!}</td>
+                                            <td class="col-md-9">: {!! ucwords(strtolower($profil->kabupaten->nama)) !!}</td>
                                         </tr>
 
                                         <tr>
@@ -311,45 +315,52 @@
                         <!-- /.tab-pane -->
 
                         <div class="tab-pane" id="organisasi">
-                            <table class="table table-striped">
-                                <tbody>
-                                <tr>
-                                    <th class="col-md-3">Camat</th>
-                                    <td class="col-md-8">: {!! $profil->nama_camat !!}</td>
-                                </tr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-striped">
+                                        <tbody>
+                                        <tr>
+                                            <th class="col-md-3">Camat</th>
+                                            <td class="col-md-8">: {!! $profil->nama_camat !!}</td>
+                                        </tr>
 
-                                <tr>
-                                    <th class="col-md-3">Sekretaris Camat</th>
-                                    <td class="col-md-8">: {!! $profil->sekretaris_camat !!}</td>
-                                </tr>
+                                        <tr>
+                                            <th class="col-md-3">Sekretaris Camat</th>
+                                            <td class="col-md-8">: {!! $profil->sekretaris_camat !!}</td>
+                                        </tr>
 
-                                <tr>
-                                    <th class="col-md-3">Kepala Seksi Pemerintahan Umum</th>
-                                    <td class="col-md-8">: {!! $profil->kepsek_pemerintahan_umum !!}</td>
-                                </tr>
+                                        <tr>
+                                            <th class="col-md-3">Kepala Seksi Pemerintahan Umum</th>
+                                            <td class="col-md-8">: {!! $profil->kepsek_pemerintahan_umum !!}</td>
+                                        </tr>
 
-                                <tr>
-                                    <th class="col-md-3">Kepala Seksi Kesejahteraan Masyarakat</th>
-                                    <td class="col-md-8">: {!! $profil->kepsek_kesejahteraan_masyarakat !!}</td>
-                                </tr>
+                                        <tr>
+                                            <th class="col-md-3">Kepala Seksi Kesejahteraan Masyarakat</th>
+                                            <td class="col-md-8">: {!! $profil->kepsek_kesejahteraan_masyarakat !!}</td>
+                                        </tr>
 
-                                <tr>
-                                    <th class="col-md-3">Kepala Seksi Pemberdayaan Masyarakat</th>
-                                    <td class="col-md-8">: {!! $profil->kepsek_pemberdayaan_masyarakat !!}</td>
-                                </tr>
+                                        <tr>
+                                            <th class="col-md-3">Kepala Seksi Pemberdayaan Masyarakat</th>
+                                            <td class="col-md-8">: {!! $profil->kepsek_pemberdayaan_masyarakat !!}</td>
+                                        </tr>
 
-                                <tr>
-                                    <th class="col-md-3">Kepala Seksi Pelayanan Umum</th>
-                                    <td class="col-md-8">: {!! $profil->kepsek_pelayanan_umum !!}</td>
-                                </tr>
+                                        <tr>
+                                            <th class="col-md-3">Kepala Seksi Pelayanan Umum</th>
+                                            <td class="col-md-8">: {!! $profil->kepsek_pelayanan_umum !!}</td>
+                                        </tr>
 
-                                <tr>
-                                    <th class="col-md-3">Kepala Seksi Ketentraman dan Ketertiban</th>
-                                    <td class="col-md-8">: {!! $profil->kepsek_trantib !!}</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <div class="center"><img id="strukturpic" src="{{ asset($profil->file_struktur_organisasi) }}"></div>
+                                        <tr>
+                                            <th class="col-md-3">Kepala Seksi Ketentraman dan Ketertiban</th>
+                                            <td class="col-md-8">: {!! $profil->kepsek_trantib !!}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <legend>Struktur Organisasi</legend>
+                                <div class="col-md-12"><img class="col-md-12" id="strukturpic" src="@if($profil->file_struktur_organisasi === NULL) {{ asset($profil->file_struktur_organisasi) }} @else {{ 'http://placehold.it/700x400' }} @endif"></div>
+                            </div>
                         </div>
                         <!-- /.tab-pane -->
 
@@ -358,7 +369,7 @@
                               <div class="col-md-5 col-sm-6 col-xs-12">
                                 <ul class="nav nav-stacked">
                                   @foreach($profil->datadesa as $desa)
-                                  <li><a href="{{ $desa->website}}" class="nav-item" target="_blank" @if($desa->website != '') title="Masuk Ke Website Desa" @else title="Website Desa Tidak Tersedia!" @endif>{{ $desa->nama }}<span class="pull-right" >@if($desa->website != '') <i class="fa fa-globe"></i> @endif</span></a></li>
+                                  <li><a href="{{ $desa->website}}" class="nav-item" target="_parent" @if($desa->website != '') title="Masuk Ke Website Desa" @else title="Website Desa Tidak Tersedia!" @endif>{{ $desa->nama }}<span class="pull-right" >@if($desa->website != '') <i class="fa fa-globe"></i> @endif</span></a></li>
                                   @endforeach
                                 </ul>                                
                               </div>  
