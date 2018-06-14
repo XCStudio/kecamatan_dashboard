@@ -87,6 +87,13 @@ class ProfilController extends Controller
                 $request->file('file_struktur_organisasi')->move("storage/profil/struktur_organisasi/", $fileName);
                 $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
             }
+          
+            if ($request->hasFile('file_logo')) {
+                $file2       = $request->file('file_logo');
+                $fileName2   = $file2->getClientOriginalName();
+                $request->file('file_logo')->move("storage/profil/file_logo/", $fileName2);
+                $profil->file_logo = 'storage/profil/file_logo/'.$fileName2;
+            }
 
             if($profil->save())
                 $id = DataUmum::create(['profil_id'=> $profil->id, 'kecamatan_id'=>$profil->kecamatan_id, 'embed_peta' => 'Edit Peta Pada Menu Data Umum.'])->id;

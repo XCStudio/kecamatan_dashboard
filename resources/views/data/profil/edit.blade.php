@@ -89,9 +89,25 @@
                 reader.readAsDataURL(input.files[0]);
             }
         }
+      
+        function readURL2(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#showgambar2').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
 
         $("#file_struktur").change(function () {
             readURL(this);
+        });
+      
+      $("#file_logo").change(function () {
+            readURL2(this);
         });
 
         $('.textarea').wysihtml5();

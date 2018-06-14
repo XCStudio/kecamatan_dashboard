@@ -27,6 +27,7 @@ class Profil extends Model
         'kepsek_pelayanan_umum',
         'kepsek_trantib',
         'file_struktur_organisasi',
+        'file_logo',
         'visi',
         'misi'
     ];

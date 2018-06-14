@@ -42,11 +42,14 @@
               <!-- Widget: user widget style 1 -->
               <div class="box box-widget widget-user-2">
                 <!-- Add the bg color to the header using any of the bg-* classes -->
-                <div class="widget-user-header bg-blue">
-
+                <div class="widget-user-header bg-blue" style="padding:5px;">
+                  <div class="widget-user-image">
+                    <img class="img-rounded" src="@if(! $profil->file_logo == ''){{ $profil->file_logo }} @else {{ asset('/img/no-image.png') }} @endif" alt="User Avatar">
+                  </div>
                   <!-- /.widget-user-image -->
-                  <h3 style="margin: 5px; text-align: center; margin-bottom: 5px;font-size: 25px;font-weight: 300;">{{ ucwords(strtolower($profil->kecamatan->nama)) }}</h3>
+                  <h3 style="padding-top:15px; padding-left:0px; padding-bottom:15px;" class="widget-user-username">{{ ucwords(strtolower($profil->kecamatan->nama)) }} Arongan</h3>
                 </div>
+              
                 <div class="box-footer no-padding">
                   <ul class="nav nav-stacked">
                     <li><a href="#"><strong>Luas Wilayah </strong><span class="pull-right badge bg-aqua" id="luaswilayah">{{ $profil->dataumum->luas_wilayah }} km</span></a></li>
@@ -359,7 +362,7 @@
                             </div>
                             <div class="row">
                                 <legend>Struktur Organisasi</legend>
-                                <div class="col-md-12"><img class="col-md-12" id="strukturpic" src="@if($profil->file_struktur_organisasi === NULL) {{ asset($profil->file_struktur_organisasi) }} @else {{ 'http://placehold.it/700x400' }} @endif"></div>
+                                <div class="col-md-12"><img class="col-md-12" id="strukturpic" src="@if(! $profil->file_struktur_organisasi =='') {{ asset($profil->file_struktur_organisasi) }} @else {{ 'http://placehold.it/700x400' }} @endif"></div>
                             </div>
                         </div>
                         <!-- /.tab-pane -->
