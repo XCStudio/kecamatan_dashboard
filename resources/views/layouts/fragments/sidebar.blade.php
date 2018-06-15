@@ -223,7 +223,7 @@ $user = Sentinel::getUser();
                 @endif
 
                 @if($user->hasAnyAccess(['admin', 'setting-*']))
-                <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
+                <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-cogs"></i> <span>Pengaturan</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
