@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\URL;
-
+$user = Sentinel::getUser();
 ?>
         <!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar">
@@ -74,13 +74,15 @@ use Illuminate\Support\Facades\URL;
                             class="fa fa-comments"></i> <span>SIKOMA</span></a>
             </li>
 
-            @if(! Sentinel::guest())
+            @if(isset($user) && $user->hasAnyAccess(['admin', 'data-*', 'adminsikoma']))
                 <li class="header">MENU ADMINISTRATOR</li>
+                @if($user->hasAnyAccess(['admin', 'data-*']))
                 <li class="treeview {{ (Request::is(['data/*'])? 'active' : '') }}">
                     <a href="#"><i class="fa fa-database"></i> <span>Data</span><span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i></span>
                     </a>
                     <ul class="treeview-menu">
+                        @if($user->hasAnyAccess(['admin', 'data-kecamatan']))
                         <li class="treeview {{ (Request::is(['data/profil/*', 'data/profil/index', 'data/profil','data/data-umum/*', 'data/data-umum/index', 'data/data-umum','data/data-desa/*', 'data/data-desa/index', 'data/data-desa'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Kecamatan
                         <span class="pull-right-container">
@@ -99,9 +101,13 @@ use Illuminate\Support\Facades\URL;
                                 </li>
                             </ul>
                         </li>
-                        
+                        @endif
+                        @if($user->hasAnyAccess(['admin', 'data-penduduk']))
                         <li {{ (Request::is(['data/penduduk/*', 'data/penduduk/index', 'data/penduduk', 'data/keluarga/*', 'data/keluarga'])? 'class=active' : '') }}>
                             <a href="{{ route('data.penduduk.index') }}"><i class="fa fa-circle-o"></i>Penduduk</a></li>
+                        @endif
+
+                        @if($user->hasAnyAccess(['admin', 'data-kesehatan']))
                         <li class="treeview {{ (Request::is(['data/aki-akb/*', 'data/aki-akb','data/imunisasi/*', 'data/imunisasi','data/epidemi-penyakit/*', 'data/epidemi-penyakit','data/toilet-sanitasi/*', 'data/toilet-sanitasi'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Kesehatan
                         <span class="pull-right-container">
@@ -123,6 +129,9 @@ use Illuminate\Support\Facades\URL;
                                 </li>
                             </ul>
                         </li>
+                        @endif
+
+                        @if($user->hasAnyAccess(['admin', 'data-pendidikan']))
                         <li class="treeview {{ (Request::is(['data/tingkat-pendidikan/*', 'data/tingkat-pendidikan','data/putus-sekolah/*', 'data/siswa-paud','data/fasilitas-paud/*', 'data/fasilitas-paud'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Pendidikan
                         <span class="pull-right-container">
@@ -141,10 +150,15 @@ use Illuminate\Support\Facades\URL;
                                 </li>
                             </ul>
                         </li>
+                        @endif
+
+                        @if($user->hasAnyAccess(['admin', 'data-programbantuan']))
                         <li {{ (Request::is(['data/program-bantuan/*', 'data/program-bantuan/index', 'data/program-bantuan'])? 'class=active' : '') }}><a
                                     href="{{ route('data.program-bantuan.index') }}"><i class="fa fa-circle-o"></i>Program
                                 Bantuan</a></li>
+                        @endif
 
+                        @if($user->hasAnyAccess(['admin', 'data-anggaranrealisasi', 'data-anggarandesa']))
                         <li class="treeview {{ (Request::is(['data/anggaran-realisasi/*','data/anggaran-realisasi' ,'data/anggaran-desa/*', 'data/anggaran-desa'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Finansial
                         <span class="pull-right-container">
@@ -152,14 +166,21 @@ use Illuminate\Support\Facades\URL;
                         </span>
                             </a>
                             <ul class="treeview-menu">
+                                @if($user->hasAnyAccess(['admin', 'data-anggaranrealisasi']))
                                 <li {{ (Request::is(['data/anggaran-realisasi/*', 'data/anggaran-realisasi/index', 'data/anggaran-realisasi'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.anggaran-realisasi.index') }}"><i class="fa fa-circle-o"></i>Anggaran & Realisasi</a>
                                 </li>
+                                @endif
+
+                                @if($user->hasAnyAccess(['admin', 'data-anggarandesa']))
                                 <li {{ (Request::is(['data/anggaran-desa/*', 'data/anggaran-desa/index', 'data/anggaran-desa'])? 'class=active' : '') }}>
                                     <a href="{{ route('data.anggaran-desa.index') }}"><i class="fa fa-circle-o"></i>APBDes</a></li>
+                                @endif
                             </ul>
                         </li>
+                        @endif
 
+                        @if($user->hasAnyAccess(['admin', 'data-layanan']))
                         <li class="treeview {{ (Request::is(['data/proses-ektp/*', 'data/proses-kk/*', 'data/proses-aktalahir/*','data/proses-domisili/*', 'data/proses-ektp', 'data/proses-kk', 'data/proses-aktalahir','data/proses-domisili'])? 'active' : '') }}">
                             <a href="#"><i class="fa fa-circle-o"></i>Layanan Kecamatan
                         <span class="pull-right-container">
@@ -181,9 +202,12 @@ use Illuminate\Support\Facades\URL;
                                         Pindah Alamat</a></li>
                             </ul>
                         </li>
-
+                        @endif
                     </ul>
                 </li>
+                @endif
+
+                @if($user->hasAnyAccess(['admin', 'adminsikoma']))
                 <li class="treeview {{ (Request::is(['admin-komplain/*', 'admin-komplain'])? 'active' : '') }}"><a href="#"><i class="fa fa-comments-o"></i> <span>Admin SIKOMA</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
@@ -196,40 +220,56 @@ use Illuminate\Support\Facades\URL;
 
                     </ul>
                 </li>
+                @endif
 
+                @if($user->hasAnyAccess(['admin', 'setting-*']))
                 <li class="treeview {{ (Request::is(['setting/*'])? 'active' : '') }}"><a href="#"><i class="fa fa-cogs"></i> <span>Setting</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                     </a>
                     <ul class="treeview-menu">
+                        @if($user->hasAnyAccess(['admin', 'setting-kategorikomplain']))
                         <li {{ (Request::is(['setting/komplain-kategori/*', 'setting/komplain-kategori'])? 'class=active' : '') }}>
                             <a href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori
                                 Komplain</a></li>
+                        @endif
+                        @if($user->hasAnyAccess(['admin', 'setting-tiperegulasi']))
                         <li {{ (Request::is(['setting/tipe-regulasi/*', 'setting/tipe-regulasi'])? 'class=active' : '') }}>
                             <a href="{{ route('setting.tipe-regulasi.index') }}"><i class="fa fa-circle-o"></i>Tipe
                                 Regulasi</a></li>
+                        @endif
+                        @if($user->hasAnyAccess(['admin', 'setting-jenispenyakit']))
                         <li {{ (Request::is(['setting/jenis-penyakit/*', 'setting/jenis-penyakit'])? 'class=active' : '') }}>
                             <a href="{{ route('setting.jenis-penyakit.index') }}"><i class="fa fa-circle-o"></i>Jenis Penyakit</a></li>
+                        @endif
+                        @if($user->hasAnyAccess(['admin', 'setting-coa']))
                         <li {{ (Request::is(['setting/coa/*', 'setting/coa'])? 'class=active' : '') }}>
                             <a href="{{ route('setting.coa.index') }}"><i class="fa fa-circle-o"></i>COA</a></li>
+                        @endif
+                            @if($user->hasAnyAccess(['admin', 'setting-gruppengguna']))
                         <li {{ (Request::is(['setting/role/*', 'setting/role'])? 'class=active' : '') }}><a
-                                    href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Role</a></li>
+                                    href="{{ route('setting.role.index') }}"><i class="fa fa-circle-o"></i>Grup Pengguna</a></li>
+                        @endif
+                        @if($user->hasAnyAccess(['admin', 'setting-pengguna']))
                         <li {{ (Request::is(['setting/user/*', 'setting/user'])? 'class=active' : '') }}><a
-                                    href="{{ route('setting.user.index') }}"><i class="fa fa-circle-o"></i>User</a></li>
-
+                                    href="{{ route('setting.user.index') }}"><i class="fa fa-circle-o"></i>Pengguna</a></li>
+                        @endif
                     </ul>
                 </li>
+                @endif
             @endif
             <li class="header">VISITOR COUNTER</li>
             <li>
-                <a href="{{ route('counter.index') }}" title="Jumlah Pengunjung"><i
+                <a href="@if(isset($user) && $user->hasAnyAccess(['admin', 'data-*', 'adminsikoma'])){{ route('counter.index') }}@else {{ '#' }} @endif" title="Jumlah Pengunjung"><i
                             class="fa fa-bullhorn"></i> <span>Total Pengunjung</span>
                             <span class="pull-right-container">
                 <small class="label pull-right bg-red">{{ Counter::allVisitors() }}</small>
               </span>
                 </a>
+
             </li>
+
         </ul>
 
         <!-- /.sidebar-menu -->

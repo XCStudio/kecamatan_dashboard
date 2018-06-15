@@ -44,7 +44,7 @@
                 <!-- Add the bg color to the header using any of the bg-* classes -->
                 <div class="widget-user-header bg-blue" style="padding:5px;">
                   <div class="widget-user-image">
-                    <img class="img-rounded" src="@if(! $profil->file_logo == ''){{ $profil->file_logo }} @else {{ asset('/img/no-image.png') }} @endif" alt="User Avatar">
+                    <img class="img-rounded" src="@if(! $profil->file_logo == ''){{ $profil->file_logo }} @else {{ asset('/img/no-image.png') }} @endif" alt="Logo Kecamatan">
                   </div>
                   <!-- /.widget-user-image -->
                   <h3 style="padding-top:15px; padding-left:0px; padding-bottom:15px;" class="widget-user-username">{{ ucwords(strtolower($profil->kecamatan->nama)) }} Arongan</h3>
@@ -163,6 +163,10 @@
                                             <th class="col-md-4">Tipologi</th>
                                             <td class="col-md-8">: {!! ucwords($profil->dataumum->tipologi ) !!}</td>
                                         </tr>
+                                        <tr>
+                                            <th class="col-md-4">Ketinggian</th>
+                                            <td class="col-md-8">: {!! $profil->dataumum->ketinggian !!} (MDPL)</td>
+                                        </tr>
 
                                         <tr>
                                             <th class="col-md-2">Luas Wilayah</th>
@@ -172,7 +176,7 @@
 
                                         <tr>
                                             <th class="col-md-2">Dasar Hukum Pembentukan</th>
-                                            <td class="col-md-9">: No Field</td>
+                                            <td class="col-md-9">:  {!! $profil->dasar_pembentukan !!}</td>
                                         </tr>
 
                                         <tr>
@@ -384,8 +388,11 @@
                             <div class="box-body no-padding">
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12">
-                                      <iframe src="{!! $profil->dataumum->embed_peta !!}" frameborder="0" style="border:0; width:100%; height:600px; margin: 0px!;" allowfullscreen></iframe>
-                                        
+                                        <button id="btn_peta" class="btn btn-sm btn-primary pull-right"><i class="fa fa-download"></i> Simpan Peta</button>
+                                      <br>
+                                        <div  id="canvas_peta">
+                                        <iframe src="{!! $profil->dataumum->embed_peta !!}" frameborder="0" style="border:0; width:100%; height:600px; margin: 0px!;" allowfullscreen></iframe>
+                                        </div>
                                       </iframe>
                                                 <!-- /.col -->
                                     </div>
@@ -421,3 +428,17 @@
 </section>
 <!-- /.content -->
 @endsection
+
+@push('scripts')
+<script type="application/javascript" src="{{ asset('js/html2canvas.min.js') }}"></script>
+<script type="application/javascript">
+    document.querySelector("#btn_peta").addEventListener("click", function() {
+
+        html2canvas(document.iframe).then(function(canvas) {
+            document.body.appendChild(canvas);
+        });
+
+    }, false);
+
+</script>
+@endpush

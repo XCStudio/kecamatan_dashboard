@@ -18,6 +18,7 @@ class CreateDataUmumTable extends Migration
             $table->integer('profil_id')->nullable();
             $table->char('kecamatan_id', 7);
             $table->string('tipologi', 255)->nullable(true);
+            $table->integer('ketinggian')->nullable(true);
             $table->double('luas_wilayah')->nullable(true);
             $table->integer('jumlah_penduduk')->nullable(true);
             $table->integer('jml_laki_laki')->nullable(true);

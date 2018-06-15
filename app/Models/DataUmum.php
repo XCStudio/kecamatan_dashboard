@@ -12,6 +12,7 @@ class DataUmum extends Model
     protected $fillable = [
         'kecamatan_id',
         'tipologi',
+        'ketinggian',
         'luas_wilayah',
         'jumlah_penduduk',
         'jml_laki_laki',

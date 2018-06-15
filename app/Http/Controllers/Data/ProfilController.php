@@ -12,6 +12,9 @@ use App\Models\VisiMisi;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\DataTables;
+use FIle;
+use Image;
+use Illuminate\Support\Facades\Input;
 
 class ProfilController extends Controller
 {
@@ -68,11 +71,6 @@ class ProfilController extends Controller
     {
         // Save Request
         try {
-            $profil = new Profil();
-            $profil->fill($request->all());
-            $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
-            $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
-
             request()->validate([
                 'kecamatan_id' => 'required',
                 'alamat' => 'required',
@@ -81,18 +79,26 @@ class ProfilController extends Controller
                 'nama_camat' => 'required',
             ]);
 
+            $profil = new Profil();
+            $profil->fill($request->all());
+            $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
+            $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
+
+
+
             if ($request->hasFile('file_struktur_organisasi')) {
                 $file       = $request->file('file_struktur_organisasi');
                 $fileName   = $file->getClientOriginalName();
                 $request->file('file_struktur_organisasi')->move("storage/profil/struktur_organisasi/", $fileName);
                 $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
             }
-          
+
+
             if ($request->hasFile('file_logo')) {
-                $file2       = $request->file('file_logo');
-                $fileName2   = $file2->getClientOriginalName();
-                $request->file('file_logo')->move("storage/profil/file_logo/", $fileName2);
-                $profil->file_logo = 'storage/profil/file_logo/'.$fileName2;
+                $target_dir = "uploads/";
+                $target_file = $target_dir . basename($_FILES["file_logo"]["name"]);
+                $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+                $profil->file_logo = $target_file.$imageFileType;
             }
 
             if($profil->save())

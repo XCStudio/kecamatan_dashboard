@@ -136,7 +136,8 @@
 
                             <div class="pull-right">
                                 <div class="control-group">
-                                    @if(! Sentinel::guest())
+                                    @php $user = Sentinel::getUser(); @endphp
+                                    @if(isset($user) && $user->hasAccess(['adminsikoma']))
 
                                         <a id="btn-reply-admin" data-href="{{ route('sistem-komplain.reply', $komplain->komplain_id) }}" class="btn btn-sm btn-primary"><i class="fa fa-reply"></i> Jawab</a>
                                         <a href="{{ route('sistem-komplain.edit', $komplain->komplain_id) }}"
