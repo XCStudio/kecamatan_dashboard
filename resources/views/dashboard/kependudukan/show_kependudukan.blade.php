@@ -611,7 +611,7 @@
             "categoryField": "umur",
             "categoryAxis": {
                 "gridPosition": "start",
-                "title": "Kategori",
+                "title": "Kelompok Usia",
                 "labelRotation": 90
             },
             "export": {

@@ -226,9 +226,12 @@ Route::namespace('Informasi')->group(function () {
             Route::get('getdata', ['as' => 'informasi.potensi.getdata', 'uses' => 'PotensiController@getDataPotensi']);
         });
         Route::get('layanan', 'InformasiController@showLayanan')->name('informasi.layanan');
-
-        Route::get('kontak', 'InformasiController@showKontak')->name('informasi.kontak');
-        Route::get('kalender', 'InformasiController@showKalender')->name('informasi.kalender');
+        Route::group(['prefix' => 'layanan'], function () {
+            Route::get('data_ktp', ['as' => 'layanan.proses-ektp.data_ktp', 'uses' => 'ProsesEKTPController@getDataProsesKTP']);
+            Route::get('data_kk', ['as' => 'layanan.proses-kk.data_kk', 'uses' => 'ProsesKKController@getDataProsesKK']);
+            Route::get('data_akta', ['as' => 'layanan.proses-aktalahir.data_akta', 'uses' => 'ProsesAktaLahirController@getDataProsesAktaLahir']);
+            Route::get('data_domisili', ['as' => 'layanan.proses-domisili.data_domisili', 'uses' => 'ProsesDomisiliController@getDataProsesDomisili']);
+        });
     });
 });
 

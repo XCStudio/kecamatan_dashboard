@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Data;
 use App\Models\ProsesKK;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
 
 class ProsesKKController extends Controller
@@ -30,7 +31,9 @@ class ProsesKKController extends Controller
     public function getDataProsesKK()
     {
         //
-        return DataTables::of(ProsesKK::with(['penduduk'])->select('*')->get())
+        return DataTables::of(DB::table('das_proses_kk')->join('das_penduduk', 'das_proses_kk.penduduk_id', '=', 'das_penduduk.id')
+            ->select('das_penduduk.nama as nama_penduduk, das_proses_kk.alamat, das_proses_kk.tanggal_pengajuan, das_proses_kk.tanggal_selesai, das_proses_kk.status, das_proses_kk.catatan')
+            ->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.proses-kk.edit', $row->id);
                 $delete_url = route('data.proses-kk.destroy', $row->id);

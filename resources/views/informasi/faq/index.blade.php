@@ -59,9 +59,7 @@
 
                                 @endforeach
                             @else
-                                <h3>Data not found!</h3>
-
-                                <p>Sorry no data available right now!</p>
+                                <h3>Maaf, FAQ belum tersedia!</h3>
                             @endif
 
                         </section>

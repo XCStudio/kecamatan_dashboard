@@ -104,7 +104,7 @@ use Carbon\Carbon;
                     @else
                         <li class="time-label">
                             <span class="bg-gray">
-                                No events available.
+                                Event tidak tersedia.
                             </span>
                         </li>
                 @endif

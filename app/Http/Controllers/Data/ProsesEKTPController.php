@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Data;
 use App\Models\ProsesEKTP;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use TheSeer\Tokenizer\Exception;
 use Yajra\DataTables\DataTables;
 
@@ -139,7 +140,9 @@ class ProsesEKTPController extends Controller
 
     public function getDataProsesKTP()
     {
-        return DataTables::of(ProsesEKTP::with(['penduduk'])->select('*')->get())
+        return DataTables::of(DB::table('das_proses_ektp')->join('das_penduduk', 'das_proses_ektp.penduduk_id', '=', 'das_penduduk.id')
+            ->select('das_penduduk.nama as nama_penduduk, das_proses_ektp.alamat, das_proses_ektp.tanggal_pengajuan, das_proses_ektp.tanggal_selesai, das_proses_ektp.status')
+            ->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.proses-ektp.edit', $row->id);
                 $delete_url = route('data.proses-ektp.destroy', $row->id);

@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
         // default lengt string
         Schema::defaultStringLength(191);
 
-        /*Penduduk::saved(function($model){
+        Penduduk::saved(function($model){
             $dataUmum = DataUmum::where('kecamatan_id',$model->kecamatan_id)->first();
 
 
@@ -45,7 +45,7 @@ class AppServiceProvider extends ServiceProvider
             $dataUmum->kepadatan_penduduk = ($dataUmum->luas_wilayah == 0)? 0:$dataUmum->jumlah_penduduk /$dataUmum->luas_wilayah;
 
             $dataUmum->save();
-        });*/
+        });
 
         Validator::extend('nik_exists', function($attribute, $value, $parameters) {
 

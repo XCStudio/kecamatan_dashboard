@@ -149,9 +149,9 @@ use Carbon\Carbon;
         var data = $('#ektp-table').DataTable({
             // processing: true,
             //serverSide: true,
-            ajax: "{!! route( 'data.proses-ektp.getdata' ) !!}",
+            ajax: "{!! route( 'layanan.proses-ektp.data_ktp' ) !!}",
             columns: [
-                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'nama_penduduk', name: 'nama_penduduk'},
                 {data: 'alamat', name: 'alamat'},
                 {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
                 {data: 'tanggal_selesai', name: 'tanggal_selesai'},
@@ -165,9 +165,9 @@ use Carbon\Carbon;
         var data = $('#kk-table').DataTable({
             //processing: true,
             //serverSide: false,
-            ajax: "{!! route( 'data.proses-kk.getdata' ) !!}",
+            ajax: "{!! route( 'layanan.proses-kk.data_kk' ) !!}",
             columns: [
-                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'nama_penduduk', name: 'nama_penduduk'},
                 {data: 'alamat', name: 'alamat'},
                 {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
                 {data: 'tanggal_selesai', name: 'tanggal_selesai'},
@@ -182,9 +182,9 @@ use Carbon\Carbon;
         var data = $('#akta-table').DataTable({
             //processing: true,
             //serverSide: false,
-            ajax: "{!! route( 'data.proses-aktalahir.getdata' ) !!}",
+            ajax: "{!! route( 'layanan.proses-aktalahir.data_akta' ) !!}",
             columns: [
-                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'nama_penduduk', name: 'nama_penduduk'},
                 {data: 'alamat', name: 'alamat'},
                 {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
                 {data: 'tanggal_selesai', name: 'tanggal_selesai'},
@@ -199,9 +199,9 @@ use Carbon\Carbon;
         var data = $('#domisili-table').DataTable({
             //processing: true,
             //serverSide: false,
-            ajax: "{!! route( 'data.proses-domisili.getdata' ) !!}",
+            ajax: "{!! route( 'layanan.proses-domisili.data_domisili' ) !!}",
             columns: [
-                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'nama_penduduk', name: 'nama_penduduk'},
                 {data: 'alamat', name: 'alamat'},
                 {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
                 {data: 'tanggal_selesai', name: 'tanggal_selesai'},

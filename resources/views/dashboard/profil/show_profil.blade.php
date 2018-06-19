@@ -47,7 +47,7 @@
                     <img class="img-rounded" src="@if(! $profil->file_logo == ''){{ $profil->file_logo }} @else {{ asset('/img/no-image.png') }} @endif" alt="Logo Kecamatan">
                   </div>
                   <!-- /.widget-user-image -->
-                  <h3 style="padding-top:15px; padding-left:0px; padding-bottom:15px;" class="widget-user-username">{{ ucwords(strtolower($profil->kecamatan->nama)) }} Arongan</h3>
+                  <h3 style="padding-top:15px; padding-left:0px; padding-bottom:15px;" class="widget-user-username">{{ ucwords(strtolower($profil->kecamatan->nama)) }}</h3>
                 </div>
               
                 <div class="box-footer no-padding">
@@ -365,8 +365,10 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="col-md-12">
                                 <legend>Struktur Organisasi</legend>
                                 <div class="col-md-12"><img class="col-md-12" id="strukturpic" src="@if(! $profil->file_struktur_organisasi =='') {{ asset($profil->file_struktur_organisasi) }} @else {{ 'http://placehold.it/700x400' }} @endif"></div>
+                                </div>
                             </div>
                         </div>
                         <!-- /.tab-pane -->
@@ -376,7 +378,7 @@
                               <div class="col-md-5 col-sm-6 col-xs-12">
                                 <ul class="nav nav-stacked">
                                   @foreach($profil->datadesa as $desa)
-                                  <li><a href="{{ $desa->website}}" class="nav-item" target="_parent" @if($desa->website != '') title="Masuk Ke Website Desa" @else title="Website Desa Tidak Tersedia!" @endif>{{ $desa->nama }}<span class="pull-right" >@if($desa->website != '') <i class="fa fa-globe"></i> @endif</span></a></li>
+                                  <li><a class="nav-item" target="_parent" @if($desa->website != '') href="{{ $desa->website}}"  title="Masuk Ke Website Desa" @else href="#" title="Website Desa Tidak Tersedia!" @endif>{{ $desa->nama }}<span class="pull-right" >@if($desa->website != '') <i class="fa fa-globe"></i> @endif</span></a></li>
                                   @endforeach
                                 </ul>                                
                               </div>  

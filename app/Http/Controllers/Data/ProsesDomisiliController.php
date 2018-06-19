@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Data;
 use App\Models\ProsesDomisili;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
 
 class ProsesDomisiliController extends Controller
@@ -30,7 +31,9 @@ class ProsesDomisiliController extends Controller
     public function getDataProsesDomisili()
     {
         //
-        return DataTables::of(ProsesDomisili::with(['penduduk'])->select('*')->get())
+        return DataTables::of(DB::table('das_proses_domisili')->join('das_penduduk', 'das_proses_domisili.penduduk_id', '=', 'das_penduduk.id')
+            ->select('das_penduduk.nama as nama_penduduk, das_proses_domisili.alamat, das_proses_domisili.tanggal_pengajuan, das_proses_domisili.tanggal_selesai, das_proses_domisili.status, das_proses_domisili.catatan')
+            ->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.proses-domisili.edit', $row->id);
                 $delete_url = route('data.proses-domisili.destroy', $row->id);
