@@ -23,8 +23,8 @@ class PotensiController extends Controller
         //
         Counter::count('informasi.potensi.index');
 
-        $page_title = 'Potensi Kecamatan';
-        $page_description = 'Data Potensi Kecamatan';
+        $page_title = 'Potensi';
+        $page_description = 'Potensi-Potensi Kecamatan';
 
         return view('informasi.potensi.index', compact(['page_title', 'page_description']));
     }

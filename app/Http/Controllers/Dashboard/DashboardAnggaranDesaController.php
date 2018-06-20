@@ -18,8 +18,8 @@ class DashboardAnggaranDesaController extends Controller
     {
         Counter::count('dashboard.anggaran-desa');
 
-        $data['page_title'] = 'APBDes';
-        $data['page_description'] = 'Data Anggaran Desa';
+        $data['page_title'] = 'Anggaran Desa (APBDes)';
+        $data['page_description'] = 'Data Anggaran Desa (APBDes)';
         $defaultProfil = env('KD_DEFAULT_PROFIL', '1');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();

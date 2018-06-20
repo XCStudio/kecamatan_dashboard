@@ -62,5 +62,6 @@ class Kernel extends HttpKernel
         'sentinel_access' => \App\Http\Middleware\SentinelHasAccess::class,
         'sentinel_guest' => \App\Http\Middleware\SentinelRedirectIfAuthenticated::class,
         'check_role' => \App\Http\Middleware\CheckRole::class,
+        'installed' => \App\Http\Middleware\KDInstalled::class,
     ];
 }

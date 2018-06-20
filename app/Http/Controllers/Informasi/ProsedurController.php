@@ -23,7 +23,7 @@ class ProsedurController extends Controller
         Counter::count('informasi.prosedur.index');
 
         $page_title = 'Prosedur';
-        $page_description = 'Kumpulan Prosedur';
+        $page_description = 'Kumpulan SOP Kecamatan';
         $prosedurs = Prosedur::latest()->paginate(10);
 
         return view('informasi.prosedur.index', compact(['page_title', 'page_description', 'prosedurs']))

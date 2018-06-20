@@ -59,7 +59,7 @@
 
                                 @endforeach
                             @else
-                                <h3>Maaf, FAQ belum tersedia!</h3>
+                                <h3>Maaf, FAQ belum tersedia.</h3>
                             @endif
 
                         </section>

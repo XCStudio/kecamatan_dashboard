@@ -20,7 +20,7 @@ class DashboardPendidikanController extends Controller
         Counter::count('dashboard.pendidikan');
 
         $data['page_title'] = 'Pendidikan';
-        $data['page_description'] = 'Data Tingkat Pendidikan Kecamatan';
+        $data['page_description'] = 'Data Pendidikan Kecamatan';
         $defaultProfil = env('KD_DEFAULT_PROFIL', '1');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();

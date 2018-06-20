@@ -19,8 +19,8 @@ class RegulasiController extends Controller
     {
         Counter::count('informasi.regulasi.index');
 
-        $page_title = 'Regulasi Kecamatan';
-        $page_description = 'Kumpulan regulasi';
+        $page_title = 'Regulasi';
+        $page_description = 'Kumpulan regulasi Kecamatan';
         $regulasi = Regulasi::orderBy('id', 'asc')->paginate(10);
 
         $defaultProfil = env('KD_DEFAULT_PROFIL','1');

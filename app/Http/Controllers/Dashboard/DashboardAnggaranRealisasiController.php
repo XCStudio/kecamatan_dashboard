@@ -17,8 +17,8 @@ class DashboardAnggaranRealisasiController extends Controller
     {
         Counter::count('dashboard.anggaran-dan-realisasi');
 
-        $data['page_title'] = 'Anggaran Dan realisasi Kecamatan';
-        $data['page_description'] = 'Data Anggaran Dan realisasi Kecamatan';
+        $data['page_title'] = 'Anggaran & Realisasi';
+        $data['page_description'] = 'Data Anggaran & Realisasi Kecamatan';
         $defaultProfil = env('KD_DEFAULT_PROFIL', '1');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
