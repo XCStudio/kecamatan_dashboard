@@ -18,9 +18,14 @@ class DataUmumController extends Controller
     public function index()
     {
         //
-        $page_title = 'Data Umum';
+       /* $page_title = 'Data Umum';
         $page_description = 'Data Umum Kecamatan';
-        return view('data.data_umum.index', compact('page_title', 'page_description'));
+        return view('data.data_umum.index', compact('page_title', 'page_description'));*/
+        $data_umum = DataUmum::where('kecamatan_id', env('KD_DEFAULT_PROFIL', null))->first();
+        $page_title = 'Ubah Data Umum';
+        $page_description = 'Kecamatan '. ucwords(strtolower($data_umum->kecamatan->nama));
+
+        return view('data.data_umum.edit', compact('page_title', 'page_description', 'data_umum'));
     }
 
     /**

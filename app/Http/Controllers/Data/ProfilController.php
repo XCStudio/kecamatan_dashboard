@@ -25,9 +25,18 @@ class ProfilController extends Controller
      */
     public function index()
     {
-        $page_title = 'Profil';
+        /*$page_title = 'Profil';
         $page_description= 'Data Profil Kecamatan';
-        return view('data.profil.index', compact('page_title', 'page_description'));
+        return view('data.profil.index', compact('page_title', 'page_description'));*/
+        $profil = Profil::where('kecamatan_id',env('KD_DEFAULT_PROFIL', null))->first();
+        if($profil->file_struktur_organisasi == ''){
+            $profil->file_struktur_organisasi = 'http://placehold.it/600x400';
+        }
+        $page_title = 'Ubah Profil';
+        $page_description = 'Kecamatan: ' . ucwords(strtolower($profil->kecamatan->nama));
+
+
+        return view('data.profil.edit', compact('page_title', 'page_description', 'profil'));
     }
 
 
@@ -190,6 +199,18 @@ class ProfilController extends Controller
                 $fileName   = $file->getClientOriginalName();
                 $request->file('file_struktur_organisasi')->move("storage/profil/struktur_organisasi/", $fileName);
                 $profil->file_struktur_organisasi = 'storage/profil/struktur_organisasi/'.$fileName;
+            }
+
+            if($request->file('file_logo') == "")
+            {
+                $profil->file_logo = $profil->file_logo;
+            }
+            else
+            {
+                $fileLogo       = $request->file('file_logo');
+                $fileLogoName   = $fileLogo->getClientOriginalName();
+                $request->file('file_logo')->move("storage/profil/file_logo/", $fileLogoName);
+                $profil->file_logo = 'storage/profil/file_logo/'.$fileLogoName;
             }
 
             request()->validate([

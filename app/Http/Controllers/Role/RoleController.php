@@ -21,8 +21,8 @@ class RoleController extends Controller
      */
     public function index()
     {
-        $title = [ 'title' => 'Role' ];
-        return view('role.index', compact('title'));
+        $page_title = 'Grup Pengguna';
+        return view('role.index', compact('page_title'));
     }
 
     /**

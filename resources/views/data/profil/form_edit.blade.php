@@ -139,7 +139,7 @@
                 <input type="file" id="file_logo" name="file_logo"
                        class="validate form-control"/>
                 <br>
-                <img src="@if(! $profil->file_logo == ''){{ $profil->file_logo }} @else {{ asset('/img/no-image.png') }} @endif" id="showgambar2"
+                <img src="@if(! $profil->file_logo == ''){{ asset($profil->file_logo) }} @else {{ asset('/img/no-image.png') }} @endif" id="showgambar2"
                      style="max-width:200px;max-height:200px;float:left;"/>
             </div>
         </div>

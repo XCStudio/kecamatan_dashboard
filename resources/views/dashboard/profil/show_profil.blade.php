@@ -43,9 +43,15 @@
               <div class="box box-widget widget-user-2">
                 <!-- Add the bg color to the header using any of the bg-* classes -->
                 <div class="widget-user-header bg-blue" style="padding:5px;">
-                  <div class="widget-user-image">
-                    <img class="img-rounded" src="@if(! $profil->file_logo == ''){{ $profil->file_logo }} @else {{ asset('/img/no-image.png') }} @endif" alt="Logo Kecamatan">
-                  </div>
+                    @if(! $profil->file_logo == '')
+                      <div class="widget-user-image">
+                        <img class="img-rounded" src="{{ asset($profil->file_logo) }}" alt="Logo Kecamatan">
+                      </div>
+                    @else
+                        <div class="widget-user-image">
+                            <img class="img-rounded" src="{{ asset('/img/no-image.png') }}" alt="Logo Kecamatan">
+                        </div>
+                    @endif
                   <!-- /.widget-user-image -->
                   <h3 style="padding-top:15px; padding-left:0px; padding-bottom:15px;" class="widget-user-username">{{ ucwords(strtolower($profil->kecamatan->nama)) }}</h3>
                 </div>
@@ -150,6 +156,16 @@
 
                                 </tbody>
                             </table>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <legend>Visi</legend>
+                                    {!! $profil->visi !!}
+                                </div>
+                                <div class="col-md-6">
+                                    <legend>Misi</legend>
+                                    {!! $profil->misi !!}
+                                </div>
+                            </div>
                         </div>
                         <!-- /.tab-pane -->
                         <div class="tab-pane" id="data-umum">

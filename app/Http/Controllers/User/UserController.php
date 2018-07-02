@@ -25,8 +25,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        $title = [ 'title' => 'Staff' ];
-        return view( 'user.index', compact('title') );
+        $page_title = 'Pengguna';
+        return view( 'user.index', compact('page_title') );
     }
 
     /**
@@ -88,7 +88,7 @@ class UserController extends Controller
     public function edit($id)
     {
         $user = User::find($id);
-        $title = [ 'title' => 'Staff' ];
+        $title = [ 'title' => 'Pengguna' ];
         $item = Role::where('slug','!=','super-admin')->pluck('name', 'slug')->toArray();
         return view( 'user.edit', compact('user','title','item', $item));
     }

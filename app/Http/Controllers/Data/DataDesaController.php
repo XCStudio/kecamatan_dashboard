@@ -53,10 +53,10 @@ class DataDesaController extends Controller
                       
             $desa = new DataDesa();
             $desa->fill($request->all());
-            $desa->kecamatan_id = $request->input('kecamatan_id');
+            $desa->kecamatan_id = env('KD_DEFAULT_PROFIL', NULL);
           
             request()->validate([
-                'kecamatan_id' => 'required',
+                'desa_id' => 'required',
                 'nama' => 'required',
                 'website' => 'required',
                 'luas_wilayah' => 'required'
@@ -111,11 +111,11 @@ class DataDesaController extends Controller
         //
         $desa = DataDesa::findOrFail($id);
         $desa->fill($request->all());
-        $desa->kecamatan_id = $request->input('kecamatan_id');
+        $desa->kecamatan_id = env('KD_DEFAULT_PROFIL', NULL);
         try{           
           
             request()->validate([
-                'kecamatan_id' => 'required',
+                'desa_idgit' => 'required',
                 'nama' => 'required',
                 'website' => 'required',
                 'luas_wilayah' => 'required'

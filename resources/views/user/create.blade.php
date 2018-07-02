@@ -1,23 +1,23 @@
 @extends( 'layouts.dashboard_template' )
 
-@section('title') Create User @endsection
+@section('title') Tambah Pengguna @endsection
 
 @section( 'content' )
 <section class="content-header">
 	<h1>
-	User Management
+	Tambah Pengguna
 	</h1>
 	<ol class="breadcrumb">
-		<li><a href="#"><i class="fa fa-dashboard"></i> Administrator</a></li>
-		<li><a href="{{route('setting.user.index')}}">User</a></li>
-		<li class="active">Create</li>
+		<li><a href="{{ url('/') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+		<li><a href="{{route('setting.user.index')}}">Pengguna</a></li>
+		<li class="active">Tambah</li>
 	</ol>
 </section>
 
 <section class="content">
 <div class="box box-primary">
 	<div class="box-header with-border">
-		<h3 class="box-title">Users</h3>
+		<h3 class="box-title">Tambah</h3>
 	</div>
 	<div class="box-body">
 		@if (count($errors) > 0)

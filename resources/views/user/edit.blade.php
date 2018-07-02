@@ -1,16 +1,16 @@
 @extends( 'layouts.dashboard_template' )
 
-@section('title') Update User @endsection
+@section('title') UBah Pengguna @endsection
 
 @section( 'content' )
 <section class="content-header">
 	<h1>
-	User Management
+	Ubah Pengguna
 	</h1>
 	<ol class="breadcrumb">
-		<li><a href="#"><i class="fa fa-dashboard"></i> Administrator</a></li>
-		<li><a href="#">User</a></li>
-		<li class="active">Create</li>
+		<li><a href="{{ url('/') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+		<li><a href="{{ route('setting.user.index') }}">Pengguna</a></li>
+		<li class="active">Ubah</li>
 	</ol>
 </section>
 

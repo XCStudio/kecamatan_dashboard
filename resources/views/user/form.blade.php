@@ -1,12 +1,12 @@
 <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12">First Name <span class="required">*</span></label>
+    <label class="control-label col-md-3 col-sm-3 col-xs-12">Nama Depan <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
         {!! Form::text( 'first_name', null, [ 'class' => 'form-control', 'placeholder' => 'First Name', 'pattern' => '[A-Za-z]{1,}'] ) !!}
     </div>
 </div>
 <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12">Last Name <span class="required">*</span></label>
+    <label class="control-label col-md-3 col-sm-3 col-xs-12">Nama Belakang <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
         {!! Form::text( 'last_name', null, [ 'class' => 'form-control', 'placeholder' => 'Last Name', 'pattern' => '[A-Za-z]{1,}'] ) !!}
@@ -24,14 +24,14 @@
     </div>
 </div>
 <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12">Phone </label>
+    <label class="control-label col-md-3 col-sm-3 col-xs-12">Telepon </label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
         {!! Form::text( 'phone', null, [ 'class' => 'form-control', 'placeholder' => '0xxxxxxxxxxx'] ) !!}
     </div>
 </div>
 <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12">Photo Profile </label>
+    <label class="control-label col-md-3 col-sm-3 col-xs-12">Photo Profil </label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
         <input type="file" name="image" class="form-control">
@@ -50,7 +50,7 @@
     </div>
 @endif
 <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12">Address <span class="required">*</span></label>
+    <label class="control-label col-md-3 col-sm-3 col-xs-12">Alamat <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
         {!! Form::textarea( 'address', null, [ 'class' => 'form-control',  'cols' => 10, 'rows' => 5 ] ) !!}
@@ -59,7 +59,7 @@
 
 @if(empty($user))
     <div class="form-group">
-        <label class="col-md-3 col-sm-3 col-xs-12 control-label">Role <span class="required">*</span></label>
+        <label class="col-md-3 col-sm-3 col-xs-12 control-label">Grup Pengguna <span class="required">*</span></label>
 
         <div class="col-md-6 col-sm-6 col-xs-12">
             {{ Form::select('role', $item, null, ['class' => 'form-control']) }}
@@ -68,7 +68,7 @@
 @elseif(Sentinel::getUser()->id == 1)
     @if($user->id !=1)
         <div class="form-group">
-            <label class="col-md-3 col-sm-3 col-xs-12 control-label">Role <span class="required">*</span></label>
+            <label class="col-md-3 col-sm-3 col-xs-12 control-label">Grup Pengguna <span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {{ Form::select('role', $item, !empty(old('role'))?old('role'):$user->role->first()->slug, ['class' => 'form-control']) }}
@@ -94,8 +94,8 @@
         <div class="form-group">
             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                 <a href="{{ route('setting.user.index') }}">
-                    <button type="button" class="btn btn-default">Cancel</button>
+                    <button type="button" class="btn btn-default">Batal</button>
                 </a>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
         </div>
