@@ -68,7 +68,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data AKI & AKB</label>
+                                <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data Tingkat Pendidikan</label>
 
                                 <div class="col-md-8">
                                     <input type="file" id="data_file" name="file" class="form-control" required/>

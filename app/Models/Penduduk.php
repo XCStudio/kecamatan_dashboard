@@ -32,6 +32,7 @@ class Penduduk extends Model
         'status',
         'alamat_sebelumnya',
         'alamat_sekarang',
+        'status_rekam',
         'status_dasar',
         'hamil',
         'cacat_id',

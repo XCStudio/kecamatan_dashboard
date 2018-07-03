@@ -238,3 +238,25 @@ function semester()
         )
     );
 }
+
+function status_rekam()
+{
+    return array(
+        1 => 'BELUM WAJIB',
+        2 => 'BELUM REKAM',
+        3 => 'SUDAH REKAM',
+        4 => 'CARD PRINTED',
+        5 => 'PRINT READY RECORD',
+        6 => 'CARD SHIPPED',
+        7 => 'SENT FOR CARD PRINTING',
+        8 => 'CARD ISSUED'
+    );
+}
+
+function is_wajib_ktp($umur, $status_kawin)
+{
+    // Wajib KTP = sudah umur 17 atau pernah kawin
+    if ($umur === null) return null;
+    $wajib_ktp = (($umur > 16) OR (!empty($status_kawin) AND $status_kawin != 1));
+    return $wajib_ktp= true ? 'YA' :'TIDAK';
+}

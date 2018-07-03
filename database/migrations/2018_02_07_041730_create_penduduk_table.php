@@ -57,6 +57,8 @@ class CreatePendudukTable extends Migration
             $table->date('tanggal_akhir_pasport')->nullable(true);
             $table->string('no_kk', 30)->nullable(true);
             $table->string('no_kk_sebelumnya', 30)->nullable(true);
+            $table->tinyInteger('ktp_el')->nullable(true);
+            $table->tinyInteger('status_rekam')->nullable(true);
             $table->string('alamat', 255)->nullable();
             $table->string('dusun', 255)->nullable();
             $table->string('rw', 10)->nullable();

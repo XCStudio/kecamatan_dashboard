@@ -11,6 +11,8 @@ class ProsesEKTP extends Model
 
     protected $fillable = [
         'penduduk_id',
+        'nik',
+        'status_rekam',
         'alamat',
         'tanggal_pengajuan',
         'tanggal_selesai',

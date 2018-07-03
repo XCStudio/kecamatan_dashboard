@@ -141,7 +141,7 @@ class ProsesEKTPController extends Controller
     public function getDataProsesKTP()
     {
         return DataTables::of(DB::table('das_proses_ektp')->join('das_penduduk', 'das_proses_ektp.penduduk_id', '=', 'das_penduduk.id')
-            ->select('das_penduduk.nama as nama_penduduk, das_proses_ektp.alamat, das_proses_ektp.tanggal_pengajuan, das_proses_ektp.tanggal_selesai, das_proses_ektp.status')
+            ->selectRaw('das_proses_ektp.id as id, das_penduduk.nama as nama, das_proses_ektp.nik,  das_proses_ektp.alamat as alamat, das_proses_ektp.tanggal_pengajuan, das_proses_ektp.tanggal_selesai, das_proses_ektp.status')
             ->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.proses-ektp.edit', $row->id);

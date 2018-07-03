@@ -52,7 +52,7 @@
                                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal
                                 </button>
                             </a>
-                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan
+                            <button  id="btn_submit" type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan
                             </button>
                         </div>
                     </div>
@@ -111,9 +111,17 @@
         $('#penduduk_id').on('select2:select', function (e) {
             var data = e.params.data;
 
-            console.log(data);
             $('#alamat').val(data.alamat_sekarang);
-
+            $('#nik').val(data.nik);
+            $('#status_rekam').val(data.status_rekam);
+            $('#status_rekam_nama').val(data.status_rekam);
+            if(data.status_rekam == 1 || data.status_rekam == 2){
+                $('#warning_status').removeClass("hide");
+                document.getElementById("btn_submit").disabled = true;
+            }else{
+                $('#warning_status').addClass("hide");
+                document.getElementById("btn_submit").disabled = false;
+            }
         });
 
         //Datetimepicker

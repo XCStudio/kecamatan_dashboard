@@ -16,10 +16,12 @@ class CreateProsesEktpTable extends Migration
         Schema::create('das_proses_ektp', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('penduduk_id');
+            $table->char('nik', 16);
+            $table->tinyInteger('status_rekam');
             $table->string('alamat', 255);
             $table->date('tanggal_pengajuan');
             $table->date('tanggal_selesai')->nullable(true);
-            $table->string('status', 20);
+            $table->string('status', 50);
             $table->timestamps();
         });
     }

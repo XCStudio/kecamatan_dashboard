@@ -119,6 +119,25 @@
             </div>
         </div>
 
+        <?php
+            $wajib_ktp = is_wajib_ktp(convert_born_date_to_age($penduduk->tanggal_lahir), $penduduk->status_kawin);
+            ?>
+        <div class="form-group">
+            <label for="wajib_ktp" class="control-label col-md-4 col-sm-3 col-xs-12">Wajib KTP</label>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                {!! Form::text('wajib_ktp',$wajib_ktp,['placeholder'=>'Wajib KTP', 'class'=>'form-control', 'disabled', 'id'=>'wajib_ktp']) !!}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="status_rekam" class="control-label col-md-4 col-sm-3 col-xs-12">Status Rekam<span class="required">*</span></label>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                {!! Form::select('status_rekam', status_rekam(), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'status_rekam', 'required']) !!}
+            </div>
+        </div>
+
         <legend>PENDIDIKAN DAN PEKERJAAN</legend>
 
         <div class="form-group">
@@ -133,7 +152,7 @@
             <label for="pendidikan_sedang_id" class="control-label col-md-4 col-sm-3 col-xs-12">Pendidikan sedang ditempuh<span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                {!! Form::select('pendidikan_sedang_id', \App\Models\PendidikanKK::pluck('nama', 'id'), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'pendidikan_sedang_id', 'required']) !!}
+                {!! Form::select('pendidikan_sedang_id', \App\Models\Pendidikan::pluck('nama', 'id'), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'pendidikan_sedang_id', 'required']) !!}
             </div>
         </div>
 

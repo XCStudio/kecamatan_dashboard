@@ -83,16 +83,16 @@ class PutusSekolahController extends Controller
 
             try{
                 $path = Input::file('file')->getRealPath();
-
-                $data = Excel::load($path, function ($reader) {
+                $data = Excel::selectSheetsByIndex(0)->load($path, function ($reader) {
                 })->get();
+                /*$data = Excel::load($path, function ($reader) {
+                })->get();*/
 
                 if (!empty($data) && $data->count()) {
 
 
-                    foreach ($data->toArray() as $key => $value) {
-                        if (!empty($value)) {
-                            foreach ($value as $v) {
+                    foreach ($data as $key => $v) {
+                        if (!empty($v)) {
                                 $insert[] = [
                                     'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
                                     'desa_id' => $v['desa_id'],
@@ -107,7 +107,6 @@ class PutusSekolahController extends Controller
                                     'bulan' => $bulan,
                                     'tahun' => $tahun,
                                 ];
-                            }
                         }
                     }
 
@@ -116,7 +115,7 @@ class PutusSekolahController extends Controller
                             PutusSekolah::insert($insert);
                             return back()->with('success', 'Import data sukses.');
                         }catch (QueryException $ex){
-                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                            return back()->with('error', 'Import data gagal. '.$ex->getMessage());
                         }
                     }
                 }

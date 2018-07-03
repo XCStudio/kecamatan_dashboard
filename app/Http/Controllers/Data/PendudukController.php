@@ -245,9 +245,10 @@ class PendudukController extends Controller
 
             try{
                 $path = Input::file('file')->getRealPath();
-
-                $data = Excel::load($path, function ($reader) {
+                $data = Excel::selectSheetsByIndex(0)->load($path, function ($reader) {
                 })->get();
+                /*$data = Excel::load($path, function ($reader) {
+                })->get();*/
 
 
                 if (!empty($data) && $data->count()) {

@@ -33,7 +33,8 @@
                 <tr>
                     <th style="max-width: 100px;">Aksi</th>
                     <th>Status</th>
-                    <th>Nama Penduduk</th>
+                    <th>Nama</th>
+                    <th>NIK</th>
                     <th>Alamat</th>
                     <th>Tanggal Pengajuan</th>
                     <th>Tanggal Selesai</th>
@@ -59,7 +60,8 @@
             columns: [
                 {data: 'action', name: 'action', class: 'text-center', searchable: false, orderable: false},
                 {data: 'status', name: 'status'},
-                {data: 'penduduk.nama', name: 'nama_penduduk'},
+                {data: 'nama', name: 'nama'},
+                {data: 'nik', name: 'nik'},
                 {data: 'alamat', name: 'alamat'},
                 {data: 'tanggal_pengajuan', name: 'tanggal_pengajuan'},
                 {data: 'tanggal_selesai', name: 'tanggal_selesai'},
@@ -67,7 +69,7 @@
             order: [[0, 'desc']]
         });
 
-        $.fn.dataTable.ext.errMode = 'throw';
+       // $.fn.dataTable.ext.errMode = 'throw';
 
     });
 </script>
