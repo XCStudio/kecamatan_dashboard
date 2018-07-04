@@ -101,29 +101,45 @@ class DashboardKependudukanController extends Controller
 
 
         if ($total_penduduk == 0) {
+            $data['ktp_wajib'] = 0;
             $data['ktp_terpenuhi'] = 0;
             $data['ktp_persen_terpenuhi'] = 0;
 
             $data['akta_terpenuhi'] = 0;
             $data['akta_persen_terpenuhi'] = 0;
 
+            $data['aktanikah_wajib'] = 0;
             $data['aktanikah_terpenuhi'] = 0;
             $data['aktanikah_persen_terpenuhi'] = 0;
 
         } else {
             // Get Data KTP Penduduk Terpenuhi
-            $query_ktp_terpenuhi = DB::table('das_penduduk')
+            $query_ktp_wajib = DB::table('das_penduduk')
                 //->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
-                ->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 17)
+                ->where('warga_negara_id', 1) // WNI
+                ->where('das_penduduk.kecamatan_id', '=', $kid)
+                //->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
+                ->where('das_penduduk.tahun', $year);
+            if ($did != 'ALL') {
+                $query_ktp_wajib->where('das_penduduk.desa_id', '=', $did);
+            }
+            $query_ktp_wajib->whereRaw('DATE_FORMAT(FROM_DAYS(TO_DAYS(NOW())-TO_DAYS(das_penduduk.tanggal_lahir)), \'%Y\')+0 > ? ', 17) // Di atas 17 Tahun
+            ->orWhere('das_penduduk.status_kawin','<>', 1);
+            $ktp_wajib = $query_ktp_wajib->count();
+
+            $query_ktp_terpenuhi = DB::table('das_penduduk')
+                ->where('warga_negara_id', 1) // WNI
                 ->where('das_penduduk.kecamatan_id', '=', $kid)
                 //->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
                 ->where('das_penduduk.tahun', $year);
             if ($did != 'ALL') {
                 $query_ktp_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
+            $query_ktp_terpenuhi->where('ktp_el', '=', 1);
             $ktp_terpenuhi = $query_ktp_terpenuhi->count();
-            $ktp_persen_terpenuhi = ($total_penduduk-$ktp_terpenuhi) / $total_penduduk * 100;
+            $ktp_persen_terpenuhi = ($ktp_wajib-$ktp_terpenuhi) / $ktp_wajib * 100;
 
+            $data['ktp_wajib'] = number_format($ktp_wajib);
             $data['ktp_terpenuhi'] = number_format($ktp_terpenuhi);
             $data['ktp_persen_terpenuhi'] = number_format($ktp_persen_terpenuhi);
 
@@ -144,8 +160,22 @@ class DashboardKependudukanController extends Controller
             $data['akta_persen_terpenuhi'] = number_format($akta_persen_terpenuhi);
 
             // Get Data Akta Nikah Penduduk Terpenuhi
+            $query_aktanikah_wajib = DB::table('das_penduduk')
+                ->where('warga_negara_id', 1) // WNI
+                ->where('agama_id', '<>', 1)
+                ->where('status_kawin', '<>', 1)
+                ->where('kecamatan_id', '=', $kid)
+                //->whereRaw('YEAR(das_keluarga.tgl_daftar) = ?', $year);
+                ->where('tahun', $year);
+            if ($did != 'ALL') {
+                $query_aktanikah_wajib->where('desa_id', '=', $did);
+            }
+            $aktanikah_wajib = $query_aktanikah_wajib->count();
+
             $query_aktanikah_terpenuhi = DB::table('das_penduduk')
-               // ->join('das_keluarga', 'das_penduduk.no_kk', '=', 'das_keluarga.no_kk')
+                ->where('das_penduduk.warga_negara_id', 1) // WNI
+                ->where('das_penduduk.agama_id', '<>', 1)
+                ->where('das_penduduk.status_kawin', '<>', 1)
                 ->where('das_penduduk.akta_perkawinan', '<>', null)
                 ->where('das_penduduk.akta_perkawinan', '<>', ' ')
                 ->where('das_penduduk.kecamatan_id', '=', $kid)
@@ -155,9 +185,16 @@ class DashboardKependudukanController extends Controller
                 $query_aktanikah_terpenuhi->where('das_penduduk.desa_id', '=', $did);
             }
             $aktanikah_terpenuhi = $query_aktanikah_terpenuhi->count();
-            $aktanikah_persen_terpenuhi = ($total_penduduk-$aktanikah_terpenuhi) / $total_penduduk * 100;
-            $data['aktanikah_terpenuhi'] = number_format($aktanikah_terpenuhi);
-            $data['aktanikah_persen_terpenuhi'] = number_format($aktanikah_persen_terpenuhi);
+            $data['aktanikah_wajib'] = number_format(0);
+            $data['aktanikah_terpenuhi'] = number_format(0);
+            $data['aktanikah_persen_terpenuhi'] = number_format(0);
+            if($aktanikah_wajib != 0){
+
+                $aktanikah_persen_terpenuhi = ($aktanikah_terpenuhi/$aktanikah_wajib) * 100;
+                $data['aktanikah_wajib'] = number_format($aktanikah_wajib);
+                $data['aktanikah_terpenuhi'] = number_format($aktanikah_terpenuhi);
+                $data['aktanikah_persen_terpenuhi'] = number_format($aktanikah_persen_terpenuhi);
+            }
 
         }
 

@@ -258,5 +258,5 @@ function is_wajib_ktp($umur, $status_kawin)
     // Wajib KTP = sudah umur 17 atau pernah kawin
     if ($umur === null) return null;
     $wajib_ktp = (($umur > 16) OR (!empty($status_kawin) AND $status_kawin != 1));
-    return $wajib_ktp= true ? 'YA' :'TIDAK';
+    return $wajib_ktp;
 }

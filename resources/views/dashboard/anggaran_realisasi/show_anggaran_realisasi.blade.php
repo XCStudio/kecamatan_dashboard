@@ -316,6 +316,13 @@
                 "size": 20,
                 "y": -4
             }],
+            "legend":{
+                "position":"right",
+                "marginRight":20,
+                "autoMargins":false,
+                "valueWidth": 120
+            },
+            "marginTop" : 50
         } );
     }
 

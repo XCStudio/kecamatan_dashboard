@@ -25,39 +25,38 @@
                  </div>--}}
                 <!-- /.box-header -->
 
-                @if (count($errors) > 0)
-                    <div class="alert alert-danger">
-                        <strong>Oops!</strong> Ada kesalahan pada inputan Anda..<br><br>
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
+                {!! Form::model($program, [ 'route' => ['data.program-bantuan.update', $program->id], 'method' => 'put','id' => 'form-bantuan', 'class' => 'form-horizontal form-label-left'] ) !!}
 
-                    </div>
+                <div class="box-body">
 
+                    @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            <strong>Oops!</strong> Ada yang salah dengan inputan Anda.<br><br>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
                     @endif
 
-                            <!-- form start -->
-                    {!!  Form::model($kk, [ 'route' => ['data.proses-kk.update', $kk->id], 'method' => 'put','id' => 'form-kk', 'class' => 'form-horizontal form-label-left'] ) !!}
+                    @include('data.program_bantuan.form_edit')
 
-                    <div class="box-body">
-
-                        @include('data.proses_kk.form_edit')
-
-                    </div>
-                    <!-- /.box-body -->
-                    <div class="box-footer">
-                        <div class="pull-right">
-                            <div class="control-group">
-                                <a href="{{ route('data.proses-kk.index') }}">
-                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal</button>
-                                </a>
-                                <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan</button>
-                            </div>
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                    <div class="pull-right">
+                        <div class="control-group">
+                            <a href="{{ route('data.program-bantuan.index') }}">
+                                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i> Batal
+                                </button>
+                            </a>
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Simpan
+                            </button>
                         </div>
                     </div>
-                    {!! Form::close() !!}
+                </div>
+                {!! Form::close() !!}
             </div>
         </div>
     </div>

@@ -81,6 +81,51 @@ class ProgramBantuanController extends Controller
         return view('data.program_bantuan.show', compact('page_title', 'page_description', 'program', 'sasaran', 'peserta'));
     }
 
+    public function update(Request $request, $id)
+    {
+        try{
+            request()->validate([
+                'sasaran' => 'required',
+                'nama' => 'required',
+                'start_date'=>'required|date',
+                'end_date'=>'required|date',
+            ]);
+
+            $program = Program::find($id);
+            $program->fill($request->all());
+            $program->update();
+
+            return redirect()->route('data.program-bantuan.index')->with('success', 'Data berhasil disimpan!');
+        }catch (QueryException $e){
+            return back()->withInput()->with('error', 'Data gagal disimpan!'.$e->getMessage());
+        }
+    }
+
+    public function edit($id)
+    {
+        $program = Program::find($id);
+        $page_title = 'Edit Program';
+        $page_description = 'Program Bantuan '.$program->nama;
+        $sasaran = [1=>'Penduduk/Perorangan', 2=>'Keluarga-KK'];
+        $peserta = PesertaProgram::where('program_id', $id)->get();
+
+        return view('data.program_bantuan.edit', compact('page_title', 'page_description', 'program', 'sasaran', 'peserta'));
+    }
+
+    public function destroy($id)
+    {
+        try{
+
+
+            Program::find($id)->delete();
+            PesertaProgram::where('program_id', $id)->delete();
+
+            return redirect()->route('data.program-bantuan.index')->with('success', 'Data berhasil dihapus!');
+        }catch (QueryException $e){
+            return back()->withInput()->with('error', 'Data gagal dihapus!'.$e->getMessage());
+        }
+    }
+
     public function createPeserta($id)
     {
         $program = Program::findOrFail($id);

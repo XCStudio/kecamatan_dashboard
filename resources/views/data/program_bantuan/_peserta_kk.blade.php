@@ -66,7 +66,7 @@
 
         $('#peserta').select2({
             ajax : {
-                url : '/api/list-peserta-kk',
+                url : '{{ url('/api/list-peserta-kk')}}',
                 dataType : 'json',
                 delay : 200,
                 data : function(params){

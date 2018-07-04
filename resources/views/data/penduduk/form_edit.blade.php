@@ -121,12 +121,18 @@
 
         <?php
             $wajib_ktp = is_wajib_ktp(convert_born_date_to_age($penduduk->tanggal_lahir), $penduduk->status_kawin);
+            if($wajib_ktp){
+                $status_ktp = 'Ya';
+            }else{
+                $status_ktp = 'Tidak';
+            }
+
             ?>
         <div class="form-group">
             <label for="wajib_ktp" class="control-label col-md-4 col-sm-3 col-xs-12">Wajib KTP</label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                {!! Form::text('wajib_ktp',$wajib_ktp,['placeholder'=>'Wajib KTP', 'class'=>'form-control', 'disabled', 'id'=>'wajib_ktp']) !!}
+                {!! Form::text('wajib_ktp',$status_ktp,['placeholder'=>'Wajib KTP', 'class'=>'form-control', 'disabled', 'id'=>'wajib_ktp']) !!}
             </div>
         </div>
 
@@ -135,6 +141,23 @@
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::select('status_rekam', status_rekam(), null,['placeholder'=>'-Pilih', 'class'=>'form-control', 'id'=>'status_rekam', 'required']) !!}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="ktp_el" class="control-label col-md-4 col-sm-3 col-xs-12">e-KTP<span class="required">*</span></label>
+            <div class="input-group col-md-6 col-sm-6 col-xs-12">
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary btn-sm @if($penduduk->ktp_el == 1) active @endif">
+                        <input type="radio" name="ktp_el" id="ktp_el" value="1" autocomplete="off" @if($penduduk->ktp_el == 1) checked @endif> Ya
+                    </label>
+                    <label class="btn btn-primary btn-sm @if($penduduk->ktp_el == 2) active @endif">
+                        <input type="radio" name="ktp_el" id="ktp_el" value="2" autocomplete="off" @if($penduduk->ktp_el == 2) checked @endif> Tidak
+                    </label>
+                </div>
             </div>
         </div>
 

@@ -142,7 +142,11 @@ Route::group(['middleware' => 'installed'], function () {
             });
 
 
-            Route::get('program-bantuan', 'DashboardController@showProgramBantuan')->name('dashboard.program-bantuan');
+            Route::group(['prefix' => 'program-bantuan'], function () {
+                Route::get('/', 'DashboardProgramBantuanController@showProgramBantuan')->name('dashboard.program-bantuan');
+                Route::get('chart-penduduk', 'DashboardProgramBantuanController@getChartBantuanPenduduk')->name('dashboard.program-bantuan.chart-penduduk');
+                Route::get('chart-keluarga', 'DashboardProgramBantuanController@getChartBantuanKeluarga')->name('dashboard.program-bantuan.chart-keluarga');
+            });
 
             Route::get('anggaran-dan-realisasi', 'DashboardAnggaranRealisasiController@showAnggaranDanRealisasi')->name('dashboard.anggaran-dan-realisasi');
             Route::get('chart-anggaran-realisasi', 'DashboardAnggaranRealisasiController@getChartAnggaranRealisasi')->name('dashboard.chart-anggaran-realisasi');

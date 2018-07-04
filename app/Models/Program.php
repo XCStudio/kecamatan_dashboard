@@ -13,7 +13,8 @@ class Program extends Model
         'nama',
         'sasaran',
         'start_date',
-        'end_date'
+        'end_date',
+        'description',
     ];
 
     public function pesertas()
