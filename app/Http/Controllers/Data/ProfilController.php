@@ -122,7 +122,7 @@ class ProfilController extends Controller
                         'nama' => $val->nama
                     );
                 }
-                
+
                 DataDesa::insert($data_desa);
             return redirect()->route('data.profil.success', $id)->with('success', 'Profil berhasil disimpan!');
         } catch (Exception $e) {
@@ -149,7 +149,7 @@ class ProfilController extends Controller
                         'nama' => $val->nama
                     );
                 }
-                
+
                 DataDesa::insert($data_desa);
       return $data_desa;
     }
@@ -182,6 +182,15 @@ class ProfilController extends Controller
      */
     public function update(Request $request, $id)
     {
+      request()->validate([
+          'kecamatan_id' => 'required',
+          'alamat' => 'required',
+          'kode_pos' => 'required',
+          'email' => 'email',
+          'nama_camat' => 'required',
+          'file_logo' => 'image|max:1024',
+          'file_struktur_organisasi' => 'image|max:1024',
+      ]);
 
         try {
             $profil = Profil::find($id);
@@ -213,13 +222,7 @@ class ProfilController extends Controller
                 $profil->file_logo = 'storage/profil/file_logo/'.$fileLogoName;
             }
 
-            request()->validate([
-                'kecamatan_id' => 'required',
-                'alamat' => 'required',
-                'kode_pos' => 'required',
-                'email' => 'email',
-                'nama_camat' => 'required',
-            ]);
+
 
             $profil->update();
 

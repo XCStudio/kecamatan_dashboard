@@ -38,7 +38,7 @@
                     @endif
 
                             <!-- form start -->
-                    {!!  Form::model($profil, [ 'route' => ['data.profil.update', $profil->id], 'method' => 'put','id' => 'form-profil', 'class' => 'form-horizontal form-label-left', 'enctype'=>"multipart/form-data"] ) !!}
+                    {!!  Form::model($profil, [ 'route' => ['data.profil.update', $profil->id], 'method' => 'put','id' => 'form-profil', 'class' => 'form-horizontal form-label-left', 'files'=>true] ) !!}
 
                     <div class="box-body">
 
@@ -89,7 +89,7 @@
                 reader.readAsDataURL(input.files[0]);
             }
         }
-      
+
         function readURL2(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -105,7 +105,7 @@
         $("#file_struktur").change(function () {
             readURL(this);
         });
-      
+
       $("#file_logo").change(function () {
             readURL2(this);
         });

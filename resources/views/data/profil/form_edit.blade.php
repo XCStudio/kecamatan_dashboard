@@ -64,14 +64,14 @@
             <label class="control-label col-md-4 col-sm-3 col-xs-12">File Struktur Organisasi</label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <input type="file" id="file_struktur" name="file_struktur_organisasi"
+                <input type="file" id="file_struktur" name="file_struktur_organisasi" accept="image/*"
                        class="validate form-control"/>
                 <br>
                 <img src="@if(! $profil->file_struktur_organisasi == ''){{ asset($profil->file_struktur_organisasi) }} @else {{ asset('/img/no-image.png') }} @endif" id="showgambar"
                      style="max-width:200px;max-height:200px;float:left;"/>
             </div>
         </div>
-        
+
     </div>
 
     <div class="col-md-6">
@@ -136,7 +136,7 @@
             <label class="control-label col-md-4 col-sm-3 col-xs-12">File Logo</label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <input type="file" id="file_logo" name="file_logo"
+                <input type="file" id="file_logo" name="file_logo" accept="image/*"
                        class="validate form-control"/>
                 <br>
                 <img src="@if(! $profil->file_logo == ''){{ asset($profil->file_logo) }} @else {{ asset('/img/no-image.png') }} @endif" id="showgambar2"
