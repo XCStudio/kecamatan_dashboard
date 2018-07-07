@@ -25,7 +25,7 @@
                     <a href="{{route('informasi.potensi.create')}}" class="btn btn-primary btn-sm {{Sentinel::guest() ? 'hidden':''}}" title="Tambah Data"><i
                     class="fa fa-plus"></i> Tambah Potensi</a>
                     <div class="box-tools pull-right col-sm-4">
-                    {!! Form::select('kategori_id', \App\Models\TipePotensi::pluck('nama_kategori', 'id'), $_GET['id'],['placeholder'=>'- Kategori', 'class'=>'form-control', 'id'=>'kategori_id', 'required'=>true, 'onchange'=>"changeCategori(this)"]) !!}
+                    {!! Form::select('kategori_id', \App\Models\TipePotensi::pluck('nama_kategori', 'id'), (isset($_GET['id'])? $_GET['id']:0),['placeholder'=>'- Kategori', 'class'=>'form-control', 'id'=>'kategori_id', 'required'=>true, 'onchange'=>"changeCategori(this)"]) !!}
                   </div>
                 </div>
                 <!-- /.box-header -->

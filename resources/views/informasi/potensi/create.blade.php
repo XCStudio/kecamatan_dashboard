@@ -9,7 +9,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="{{route('dashboard.profil')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li><a href="{{route('informasi.prosedur.index')}}">Data Potensi</a></li>
+        <li><a href="{{route('informasi.potensi.index')}}">Data Potensi</a></li>
         <li class="active">Tambah</li>
     </ol>
 </section>

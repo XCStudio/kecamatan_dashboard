@@ -79,7 +79,7 @@ class PotensiController extends Controller
                 'kategori_id' => 'required',
                 'nama_potensi' => 'required',
                 'deskripsi' => 'required',
-                'file_gambar' => 'image|mimes:bmp,jpg,jpeg,gif,png|max:2048'
+                'file_gambar' => 'image|mimes:bmp,jpg,jpeg,gif,png|max:1024'
             ]);
             $potensi = new Potensi($request->input());
 
@@ -152,9 +152,10 @@ class PotensiController extends Controller
         //
         try{
             request()->validate([
-                'kategori_id' => 'required',
-                'nama_potensi' => 'required',
-                'deskripsi' => 'required',
+              'kategori_id' => 'required',
+              'nama_potensi' => 'required',
+              'deskripsi' => 'required',
+              'file_gambar' => 'image|mimes:bmp,jpg,jpeg,gif,png|max:1024'
             ]);
 
             $potensi = Potensi::findOrFail($id);
