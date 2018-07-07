@@ -407,6 +407,85 @@
 
     // Create Chart Penduduk
     function create_chart_penduduk(data) {
+        AmCharts.addInitHandler( function ( chart_pertumbuhan_penduduk ) {
+            // set base values
+            /*var categoryWidth = 80;
+
+            // calculate bottom margin based on number of data points
+            var chartHeight = categoryWidth * chart_pertumbuhan_penduduk.dataProvider.length;
+
+            // set the value
+            chart_pertumbuhan_penduduk.div.style.height = chartHeight + 'px';*/
+
+            //method to handle removing/adding columns when the marker is toggled
+            function handleCustomMarkerToggle(legendEvent) {
+                var dataProvider = legendEvent.chart.dataProvider;
+                var itemIndex; //store the location of the removed item
+
+                //Set a custom flag so that the dataUpdated event doesn't fire infinitely, in case you have
+                //a dataUpdated event of your own
+                legendEvent.chart.toggleLegend = true;
+                // The following toggles the markers on and off.
+                // The only way to "hide" a column and reserved space on the axis is to remove it
+                // completely from the dataProvider. You'll want to use the hidden flag as a means
+                // to store/retrieve the object as needed and then sort it back to its original location
+                // on the chart using the dataIdx property in the init handler
+                if (undefined !== legendEvent.dataItem.hidden && legendEvent.dataItem.hidden) {
+                    legendEvent.dataItem.hidden = false;
+                    dataProvider.push(legendEvent.dataItem.storedObj);
+                    legendEvent.dataItem.storedObj = undefined;
+                    //re-sort the array by dataIdx so it comes back in the right order.
+                    dataProvider.sort(function(lhs, rhs) {
+                        return lhs.dataIdx - rhs.dataIdx;
+                    });
+                } else {
+                    // toggle the marker off
+                    legendEvent.dataItem.hidden = true;
+                    //get the index of the data item from the data provider, using the
+                    //dataIdx property.
+                    for (var i = 0; i < dataProvider.length; ++i) {
+                        if (dataProvider[i].dataIdx === legendEvent.dataItem.dataIdx) {
+                            itemIndex = i;
+                            break;
+                        }
+                    }
+                    //store the object into the dataItem
+                    legendEvent.dataItem.storedObj = dataProvider[itemIndex];
+                    //remove it
+                    dataProvider.splice(itemIndex, 1);
+                }
+                legendEvent.chart.validateData(); //redraw the chart
+            }
+
+            //check if legend is enabled and custom generateFromData property
+            //is set before running
+            if (!chart_pertumbuhan_penduduk.legend || !chart_pertumbuhan_penduduk.legend.enabled || !chart_pertumbuhan_penduduk.legend.generateFromData) {
+                return;
+            }
+
+            var categoryField = chart_pertumbuhan_penduduk.categoryField;
+            var colorField = chart_pertumbuhan_penduduk.graphs[0].lineColorField || chart_pertumbuhan_penduduk.graphs[0].fillColorsField || chart_pertumbuhan_penduduk.graphs[0].colorField;
+            var legendData =  chart_pertumbuhan_penduduk.dataProvider.map(function(data, idx) {
+                var markerData = {
+                    "title": data[categoryField] + ": " + data[chart_pertumbuhan_penduduk.graphs[0].valueField],
+                    "color": data[colorField],
+                    "dataIdx": idx //store a copy of the index of where this appears in the dataProvider array for ease of removal/re-insertion
+                };
+                if (!markerData.color) {
+                    markerData.color = chart_pertumbuhan_penduduk.graphs[1].lineColor;
+                }
+                data.dataIdx = idx; //also store it in the dataProvider object itself
+                return markerData;
+            });
+
+            chart_pertumbuhan_penduduk.legend.data = legendData;
+
+            //make the markers toggleable
+            chart_pertumbuhan_penduduk.legend.switchable = true;
+            chart_pertumbuhan_penduduk.legend.addListener("clickMarker", handleCustomMarkerToggle);
+
+        }, ['serial'] );
+
         // Chart Pertumbuhan Penduduk
         var chart_pertumbuhan_penduduk = AmCharts.makeChart("chart_pertumbuhan_penduduk", {
             "type": "serial",
@@ -477,11 +556,12 @@
             },
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName":"Grafik Pertumbuhan Penduduk Tiap Tahun"
             },
             "hideCredits": true,
             "legend": {
-                "enabled": true
+                "generateFromData": true
             }
         });
     }

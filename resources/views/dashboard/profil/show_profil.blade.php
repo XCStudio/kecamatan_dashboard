@@ -38,7 +38,7 @@
     <!-- /.row -->
     <div id="profil-kecamatan">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <!-- Widget: user widget style 1 -->
               <div class="box box-widget widget-user-2">
                 <!-- Add the bg color to the header using any of the bg-* classes -->
@@ -58,10 +58,10 @@
               
                 <div class="box-footer no-padding">
                   <ul class="nav nav-stacked">
-                    <li><a href="#"><strong>Luas Wilayah </strong><span class="pull-right badge bg-aqua" id="luaswilayah">{{ $profil->dataumum->luas_wilayah }} km</span></a></li>
-                    <li><a href="#"><strong>Jumlah Penduduk </strong><span class="pull-right badge bg-aqua" id="jumlahpenduduk">{{ $profil->dataumum->jumlah_penduduk }} orang</span></a></li>
-                    <li><a href="#"><strong>Kepadatan Penduduk </strong><span class="pull-right badge bg-aqua" id="kepadatanpenduduk">{{ $profil->dataumum->kepadatan_penduduk }} orang/km</span></a></li>
-                    <li><a href="#"><strong>Kelurahan/Desa </strong><span class="pull-right badge bg-aqua" id="kelurahandesa">{{ count($profil->dataDesa) }}</span></a></li>
+                    <li><a href="#"><strong>Luas Wilayah </strong><span class="pull-right badge bg-aqua" id="luaswilayah">{{ number_format($profil->dataumum->luas_wilayah) }} km</span></a></li>
+                    <li><a href="#"><strong>Jumlah Penduduk </strong><span class="pull-right badge bg-aqua" id="jumlahpenduduk">{{ number_format($profil->dataumum->jumlah_penduduk) }} orang</span></a></li>
+                    <li><a href="#"><strong>Kepadatan Penduduk </strong><span class="pull-right badge bg-aqua" id="kepadatanpenduduk">{{ number_format($profil->dataumum->kepadatan_penduduk) }} orang/km</span></a></li>
+                    <li><a href="#"><strong>Kelurahan/Desa </strong><span class="pull-right badge bg-aqua" id="kelurahandesa">{{ number_format(count($profil->dataDesa)) }}</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -101,7 +101,7 @@
                 <!-- /.box -->
             </div>
             <!-- /.col -->
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <div class="nav-tabs-custom">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#peta" data-toggle="tab">Peta</a></li>
@@ -181,12 +181,12 @@
                                         </tr>
                                         <tr>
                                             <th class="col-md-4">Ketinggian</th>
-                                            <td class="col-md-8">: {!! $profil->dataumum->ketinggian !!} (MDPL)</td>
+                                            <td class="col-md-8">: {!! number_format($profil->dataumum->ketinggian) !!} (MDPL)</td>
                                         </tr>
 
                                         <tr>
                                             <th class="col-md-2">Luas Wilayah</th>
-                                            <td class="col-md-9">: {{ $profil->dataumum->luas_wilayah }}
+                                            <td class="col-md-9">: {{ number_format($profil->dataumum->luas_wilayah) }}
                                                 <span>km<sup>2</sup></span></td>
                                         </tr>
 
@@ -207,17 +207,17 @@
 
                                         <tr>
                                             <th class="col-md-2">Jumlah Penduduk</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jumlah_penduduk !!}</td>
+                                            <td class="col-md-9">: {!! number_format($profil->dataumum->jumlah_penduduk) !!}</td>
                                         </tr>
 
                                         <tr>
                                             <th class="col-md-2">Laki Laki</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_laki_laki !!}</td>
+                                            <td class="col-md-9">: {!! number_format($profil->dataumum->jml_laki_laki) !!}</td>
                                         </tr>
 
                                         <tr>
                                             <th class="col-md-2">Perempuan</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_perempuan !!}</td>
+                                            <td class="col-md-9">: {!! number_format( $profil->dataumum->jml_perempuan) !!}</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -227,8 +227,8 @@
                                     <table class="table table-striped">
                                         <tbody>
                                         <tr>
-                                            <th class="col-md-4">Utara</th>
-                                            <td class="col-md-8">
+                                            <th class="col-md-2">Utara</th>
+                                            <td class="col-md-9">
                                                 : {!! ucwords($profil->dataumum->bts_wil_utara) !!}</td>
                                         </tr>
 
@@ -257,25 +257,25 @@
                                     <table class="table table-striped">
                                         <tbody>
                                         <tr>
-                                            <th class="col-md-4">1. Puskesmas</th>
-                                            <td class="col-md-8">
-                                                : {!! ucwords($profil->dataumum->jml_puskesmas) !!}</td>
+                                            <th class="col-md-6">1. Puskesmas</th>
+                                            <td class="col-md-6">
+                                                : {!! number_format($profil->dataumum->jml_puskesmas) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">2. Puskesmas Pembantu</th>
-                                            <td class="col-md-9">
-                                                : {!! $profil->dataumum->jml_puskesmas_pembantu !!}</td>
+                                            <th class="col-md-6">2. Puskesmas Pembantu</th>
+                                            <td class="col-md-6">
+                                                : {!! number_format($profil->dataumum->jml_puskesmas_pembantu) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">3. Posyandu</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_posyandu!!}</td>
+                                            <th class="col-md-6">3. Posyandu</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_posyandu) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">4. Pondok Bersalin</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_pondok_bersalin !!}</td>
+                                            <th class="col-md-6">4. Pondok Bersalin</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_pondok_bersalin) !!}</td>
                                         </tr>
 
                                         </tbody>
@@ -285,23 +285,23 @@
                                     <table class="table table-striped">
                                         <tbody>
                                         <tr>
-                                            <th class="col-md-4">1. PAUD</th>
-                                            <td class="col-md-8">: {!! $profil->dataumum->jml_paud !!}</td>
+                                            <th class="col-md-6">1. PAUD/Sederajat</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_paud) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">2. SD</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_sd !!}</td>
+                                            <th class="col-md-6">2. SD/Sederajat</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_sd) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">3. SMP</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_smp !!}</td>
+                                            <th class="col-md-6">3. SMP/Sederajat</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_smp) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">4. SMA</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_sma !!}</td>
+                                            <th class="col-md-6">4. SMA/Sederajat</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_sma) !!}</td>
                                         </tr>
 
                                         </tbody>
@@ -311,23 +311,23 @@
                                     <table class="table table-striped">
                                         <tbody>
                                         <tr>
-                                            <th class="col-md-4">1. Masjid Besar</th>
-                                            <td class="col-md-8">: {!! $profil->dataumum->jml_masjid_besar !!}</td>
+                                            <th class="col-md-6">1. Masjid Besar</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_masjid_besar) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">2. Gereja</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_gereja !!}</td>
+                                            <th class="col-md-6">2. Gereja</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_gereja) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">3. Pasar</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_pasar !!}</td>
+                                            <th class="col-md-6">3. Pasar</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_pasar) !!}</td>
                                         </tr>
 
                                         <tr>
-                                            <th class="col-md-2">4. Balai Pertemuan</th>
-                                            <td class="col-md-9">: {!! $profil->dataumum->jml_balai_pertemuan !!}</td>
+                                            <th class="col-md-6">4. Balai Pertemuan</th>
+                                            <td class="col-md-6">: {!! number_format($profil->dataumum->jml_balai_pertemuan) !!}</td>
                                         </tr>
 
                                         </tbody>

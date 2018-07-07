@@ -148,7 +148,7 @@
         <br>
         <legend>Jumlah Sarana Pendidikan</legend>
         <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">PAUD <span class="required">*</span></label>
+            <label class="control-label col-md-4 col-sm-3 col-xs-12">PAUD/Sederajat <span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_paud', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}
@@ -156,7 +156,7 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">SD <span class="required">*</span></label>
+            <label class="control-label col-md-4 col-sm-3 col-xs-12">SD/Sederajat <span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_sd', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}
@@ -164,7 +164,7 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">SMP <span class="required">*</span></label>
+            <label class="control-label col-md-4 col-sm-3 col-xs-12">SMP/Sederajat <span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_smp', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}
@@ -172,7 +172,7 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">SMA <span class="required">*</span></label>
+            <label class="control-label col-md-4 col-sm-3 col-xs-12">SMA/Sederajat <span class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 {!! Form::number('jml_sma', null,['placeholder'=>'0', 'class'=>'form-control', 'required', 'style'=>'text-align:right;']) !!}

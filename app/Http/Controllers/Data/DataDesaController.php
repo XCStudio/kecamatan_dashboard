@@ -115,7 +115,7 @@ class DataDesaController extends Controller
         try{           
           
             request()->validate([
-                'desa_idgit' => 'required',
+                'desa_id' => 'required',
                 'nama' => 'required',
                 'website' => 'required',
                 'luas_wilayah' => 'required'
