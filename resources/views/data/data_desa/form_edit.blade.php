@@ -2,7 +2,7 @@
     <label for="desa_id" class="control-label col-md-4 col-sm-3 col-xs-12">ID <span class="required">*</span></label>
 
     <div class="col-md-6 col-sm-6 col-xs-12">
-        {!! Form::text('desa_id', null, ['class' => 'form-control', 'required' => true, 'id'=>'desa_id']) !!}
+        {!! Form::text('desa_id', null, ['class' => 'form-control', 'readonly' => true, 'id'=>'desa_id']) !!}
     </div>
 </div>
 <div class="form-group">

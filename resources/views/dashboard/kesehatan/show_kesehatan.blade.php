@@ -1,6 +1,6 @@
 @extends('layouts.dashboard_template')
 @section('content')
-        
+
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
@@ -421,7 +421,8 @@
             "dataProvider": data,
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName" :"Jumlah Angka Kematian Ibu & Bayi",
             }
         });
     }
@@ -558,7 +559,8 @@
             "dataProvider": data,
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName" : "Jumlah Persentase Cakupan Imunisasi",
             }
         });
     }
@@ -606,7 +608,7 @@
                 "minimum": 0
             }],
             "allLabels": [{
-                "text": "Jumlah Toilet & Sanitasi",
+                "text": "Jumlah Epidemi Penyakit",
                 "align": "center",
                 "bold": true,
                 "size": 20,
@@ -617,7 +619,8 @@
             "dataProvider": data,
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName":"Jumlah Toilet & Sanitasi",
             }
         });
     }
@@ -773,7 +776,7 @@
                 "minimum": 0
             }],
             "allLabels": [{
-                "text": "Jumlah Toilet & Sanitasi",
+                "text": "Jumlah Epidemi Penyakit",
                 "align": "center",
                 "bold": true,
                 "size": 20,
@@ -783,7 +786,8 @@
             "dataProvider": data,
             "export": {
                 "enabled": true,
-                "pageOrigin" : false
+                "pageOrigin" : false,
+                "fileName":"Jumlah Epidemi Penyakit",
             },
             "legend": {
                 "enabled" : true
@@ -936,7 +940,8 @@
             "dataProvider": data,
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName":"Jumlah Toilet & Sanitasi",
             }
         });
     }

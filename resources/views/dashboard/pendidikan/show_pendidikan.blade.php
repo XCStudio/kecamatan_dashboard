@@ -84,7 +84,7 @@
                     </div>
                     <div class="tab-pane" id="jumlah_fasilitas">
                         <div id="chart_fasilitas"
-                             style="width:100%; height:350px; overflow: visible; text-align: left; padding: 10px;;">
+                             style="width:100%; height:300px; overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
                 </div>
@@ -351,7 +351,8 @@
             },
             "export": {
                 "enabled": true,
-                "pageOrigin" : false
+                "pageOrigin" : false,
+                "fileName":"Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
             },
             "legend": {
                 /*"enabled": true,
@@ -586,7 +587,9 @@
                 "gridPosition": "start",
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageorigin": false,
+                "fileName":"Jumlah Anak Putus Sekolah",
             },
             "legend": {
                 "enabled": true,
@@ -616,7 +619,7 @@
             "legend": {
                 "horizontalGap": 10,
                 "maxColumns": 1,
-                "position": "right",
+                "position": "bottom",
                 "useGraphSettings": true,
                 "markerSize": 10
             },
@@ -668,7 +671,9 @@
                 "position": "left"
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin":false,
+                "fileName":"Perbandingan Jumlah Siswa dan Jumlah Fasilitas PAUD",
             },
             "hideCredits": true,
             "allLabels": [{

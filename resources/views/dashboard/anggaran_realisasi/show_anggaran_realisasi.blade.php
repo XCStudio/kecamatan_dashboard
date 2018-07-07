@@ -191,7 +191,7 @@
                         <div class="row">
 
                             <div class="col-md-12">
-                                <div id="chartdiv"     style="width: 100%; height: 400px; overflow: hidden; text-align: left;">
+                                <div id="chartdiv"     style="width: 100%; height: 500px; overflow: hidden; text-align: left;">
                                 </div>
 
 
@@ -307,7 +307,9 @@
             "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
             "angle": 30,
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin":false,
+                "fileName":"Persentase Anggaran Kecamatan",
             },
             "allLabels": [{
                 "text": "Persentase Anggaran Kecamatan",
@@ -317,7 +319,7 @@
                 "y": -4
             }],
             "legend":{
-                "position":"right",
+                "position":"bottom",
                 "marginRight":20,
                 "autoMargins":false,
                 "valueWidth": 120

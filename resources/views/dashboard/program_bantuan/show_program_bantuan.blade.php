@@ -167,7 +167,9 @@
             "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
             "angle": 30,
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin":false,
+                "fileName":"Peserta Program Bantuan Penduduk/Perorangan",
             },
             "allLabels": [{
                 "text": "Peserta Program Bantuan Penduduk/Perorangan",
@@ -177,7 +179,7 @@
                 "y": -4
             }],
             "legend":{
-                "position":"right",
+                "position":"bottom",
                 "marginRight":20,
                 "autoMargins":false,
                 "valueWidth": 120
@@ -200,7 +202,9 @@
             "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
             "angle": 30,
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin":false,
+                "fileName":"Peserta Program Bantuan Keluarga/KK",
             },
             "allLabels": [{
                 "text": "Peserta Program Bantuan Keluarga/KK",
@@ -210,7 +214,7 @@
                 "y": -4
             }],
             "legend":{
-                "position":"right",
+                "position":"bottom",
                 "marginRight":20,
                 "autoMargins":false,
                 "valueWidth": 120

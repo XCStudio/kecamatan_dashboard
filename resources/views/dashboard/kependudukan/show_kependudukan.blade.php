@@ -696,7 +696,8 @@
             },
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName":"Jumlah Penduduk Berdasarkan Kelompok Usia"
             },
             "hideCredits": true,
         });
@@ -786,7 +787,8 @@
             "categoryField": "year",
             "export": {
                 "enabled": true,
-                "pageOrigin" : false
+                "pageOrigin" : false,
+                "fileName" : "Jumlah Penduduk Berdasarkan Tingkat Pendidikan",
             },
             "legend": {
                 "enabled": true,
@@ -945,6 +947,7 @@
             "export": {
                 "enabled": true,
                 "pageOrigin": false,
+                "fileName" : "Jumlah Penduduk Berdasarkan Golongan Darah",
             },
             "hideCredits": true,
         });
@@ -1080,7 +1083,8 @@
             },
             "export": {
                 "enabled": true,
-                "pageOrigin":false
+                "pageOrigin":false,
+                "fileName": "Jumlah Penduduk Berdasarkan Status Perkawinan",
             },
             "hideCredits": true,
         });
@@ -1213,7 +1217,8 @@
             },
             "export": {
                 "enabled": true,
-                "pageOrigin": false
+                "pageOrigin": false,
+                "fileName":"Jumlah Penduduk Berdasarkan Agama",
             },
             "hideCredits": true,
             "legend": {

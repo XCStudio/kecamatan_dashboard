@@ -186,7 +186,9 @@
             "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
             "angle": 30,
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin":false,
+                "fileName":"Persentase Anggaran Desa (APBDes)",
             },
             "allLabels": [{
                 "text": "Persentase Anggaran Desa (APBDes)",
@@ -196,7 +198,7 @@
                 "y": 10
             }],
             "legend":{
-                "position":"right",
+                "position":"bottom",
                 "marginRight":20,
                 "autoMargins":false,
                 "valueWidth": 120
