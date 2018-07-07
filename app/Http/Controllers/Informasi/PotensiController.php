@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use Counter;
 use Yajra\DataTables\Facades\DataTables;
 use Sentinel;
+use Illuminate\Support\Facades\DB;
 
 class PotensiController extends Controller
 {
@@ -25,8 +26,32 @@ class PotensiController extends Controller
 
         $page_title = 'Potensi';
         $page_description = 'Potensi-Potensi Kecamatan';
+        $potensis = DB::table('das_potensi')->simplePaginate(10);
 
-        return view('informasi.potensi.index', compact(['page_title', 'page_description']));
+        return view('informasi.potensi.index', compact(['page_title', 'page_description', 'potensis']));
+    }
+
+    //
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function kategori()
+    {
+        //
+        Counter::count('informasi.potensi.kategori');
+
+        $page_title = 'Potensi';
+        $page_description = 'Potensi-Potensi Kecamatan';
+        if($_GET['id'] != null){
+          $potensis = DB::table('das_potensi')->where('kategori_id', $_GET['id'])->simplePaginate(10);
+        }else{
+          $potensis = DB::table('das_potensi')->simplePaginate(10);
+        }
+
+
+        return view('informasi.potensi.index', compact(['page_title', 'page_description', 'potensis']));
     }
 
     /**
@@ -51,8 +76,10 @@ class PotensiController extends Controller
         try{
 
             request()->validate([
+                'kategori_id' => 'required',
                 'nama_potensi' => 'required',
                 'deskripsi' => 'required',
+                'file_gambar' => 'image|mimes:bmp,jpg,jpeg,gif,png|max:2048'
             ]);
             $potensi = new Potensi($request->input());
 
@@ -81,7 +108,7 @@ class PotensiController extends Controller
     public function show($id)
     {
         $potensi = Potensi::find($id);
-        $page_title = 'Detail Potensi :' . $potensi->nama_potensi;
+        $page_title = 'Potensi :' . $potensi->nama_potensi;
 
         return view('informasi.potensi.show', compact('page_title', 'potensi'));
     }
@@ -125,6 +152,7 @@ class PotensiController extends Controller
         //
         try{
             request()->validate([
+                'kategori_id' => 'required',
                 'nama_potensi' => 'required',
                 'deskripsi' => 'required',
             ]);
@@ -166,22 +194,22 @@ class PotensiController extends Controller
      *
      * Get datatable
      */
-    public function getDataPotensi()
-    {
-        return DataTables::of(Potensi::select('id', 'nama_potensi', 'lokasi'))
-            ->addColumn('action', function($row){
-                $show_url = route('informasi.potensi.show', $row->id);
-                $edit_url = route('informasi.potensi.edit', $row->id);
-                $delete_url = route('informasi.potensi.destroy', $row->id);
-
-                $data['show_url'] = $show_url;
-
-                if(!Sentinel::guest()){
-                    $data['edit_url'] = $edit_url;
-                    $data['delete_url'] = $delete_url;
-                }
-
-                return view('forms.action', $data);
-            })->make();
-    }
+    // public function getDataPotensi()
+    // {
+    //     return DataTables::of(Potensi::select('id', 'nama_potensi', 'lokasi'))
+    //         ->addColumn('action', function($row){
+    //             $show_url = route('informasi.potensi.show', $row->id);
+    //             $edit_url = route('informasi.potensi.edit', $row->id);
+    //             $delete_url = route('informasi.potensi.destroy', $row->id);
+    //
+    //             $data['show_url'] = $show_url;
+    //
+    //             if(!Sentinel::guest()){
+    //                 $data['edit_url'] = $edit_url;
+    //                 $data['delete_url'] = $delete_url;
+    //             }
+    //
+    //             return view('forms.action', $data);
+    //         })->make();
+    // }
 }

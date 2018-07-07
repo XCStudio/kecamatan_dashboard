@@ -49,11 +49,11 @@
                 <div class="box-body">
                     <!-- form start -->
                     <div class="row overflow-x">
-                        <div class="col-md-4">
+                        <div class="col-md-12">
                             <img src="{{ asset($potensi->file_gambar) }}" width="100%">
                         </div>
-                        <div class="col-md-8">
-                            <h3>Deskripsi</h3>
+                        <div class="col-md-12">
+                            <h3>{{ $potensi->nama_potensi }}</h3>
                             <p>{{ $potensi->deskripsi }}</p>
                         </div>
                     </div>

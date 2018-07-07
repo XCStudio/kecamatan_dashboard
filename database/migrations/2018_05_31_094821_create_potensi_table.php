@@ -15,6 +15,7 @@ class CreatePotensiTable extends Migration
     {
         Schema::create('das_potensi', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('kategori_id');
             $table->string('nama_potensi', 200);
             $table->text('deskripsi');
             $table->string('lokasi', 200);

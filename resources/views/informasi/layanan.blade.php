@@ -47,7 +47,7 @@ use Carbon\Carbon;
                             <div class="callout callout-info">
                                 <h4>Informasi!</h4>
 
-                                <p>Untuk pengajuan e-KTP silahkan hubungi kantor kelurahan Anda masing-masing. <br>Untuk
+                                <p>Untuk pengajuan e-KTP silahkan hubungi kantor Kelurahan/Desa Anda masing-masing. <br>Untuk
                                     melihat status pengajuan e-KTP Anda bisa melihat tabel di bawah ini.</p>
                             </div>
                             <table class="table table-bordered table-striped" id="ektp-table" style="width: 100%;">
@@ -67,7 +67,7 @@ use Carbon\Carbon;
                             <div class="callout callout-info">
                                 <h4>Informasi!</h4>
 
-                                <p>Untuk pengajuan Kartu Keluarga(KK) baru, silahkan hubungi kantor kelurahan Anda
+                                <p>Untuk pengajuan Kartu Keluarga(KK) baru, silahkan hubungi kantor Kelurahan/Desa Anda
                                     masing-masing. <br>Untuk melihat status pengajuan Kartu Keluarga tersebut Anda bisa
                                     melihat tabel di bawah ini.</p>
                             </div>
@@ -89,7 +89,7 @@ use Carbon\Carbon;
                             <div class="callout callout-info">
                                 <h4>Informasi!</h4>
 
-                                <p>Untuk pengajuan Akta Kelahiran baru, silahkan hubungi kantor kelurahan Anda
+                                <p>Untuk pengajuan Akta Kelahiran baru, silahkan hubungi kantor Kelurahan/Desa Anda
                                     masing-masing. <br>Untuk melihat status pengajuan Akta Kelahiran tersebut Anda bisa
                                     melihat tabel di bawah ini.</p>
                             </div>
@@ -111,7 +111,7 @@ use Carbon\Carbon;
                             <div class="callout callout-info">
                                 <h4>Informasi!</h4>
 
-                                <p>Untuk pengajuan Surat Pindah Alamat, silahkan hubungi kantor kelurahan Anda
+                                <p>Untuk pengajuan Surat Pindah Alamat, silahkan hubungi kantor Kelurahan/Desa Anda
                                     masing-masing. <br>Untuk melihat status pengajuan Surat Pindah Alamat tersebut Anda bisa
                                     melihat tabel di bawah ini.</p>
                             </div>

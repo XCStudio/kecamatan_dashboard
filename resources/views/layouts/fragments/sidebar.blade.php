@@ -229,6 +229,8 @@ $user = Sentinel::getUser();
                     </span>
                     </a>
                     <ul class="treeview-menu">
+                        <li {{ (Request::is(['setting/tipe-potensi/*', 'setting/tipe-potensi'])? 'class=active' : '') }}>
+                          <a href="{{ route('setting.tipe-potensi.index') }}"><i class="fa fa-circle-o"></i>Kategori Potensi</a></li>
                         @if($user->hasAnyAccess(['admin', 'setting-kategorikomplain']))
                         <li {{ (Request::is(['setting/komplain-kategori/*', 'setting/komplain-kategori'])? 'class=active' : '') }}>
                             <a href="{{ route('setting.komplain-kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori
