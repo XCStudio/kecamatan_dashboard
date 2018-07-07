@@ -70,7 +70,7 @@
                                 <label class="control-label col-md-4 col-sm-3 col-xs-12" for="data_file">Data Penduduk <span class="required">*</span></label>
 
                                 <div class="col-md-8 col-sm-6 col-xs-12">
-                                    <input type="file" id="data_file" name="file" class="form-control" required/>
+                                    <input type="file" id="data_file" name="file" class="form-control" required accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"/>
                                 </div>
                             </div>
                         </div>

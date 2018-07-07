@@ -71,7 +71,7 @@
                                 <label class="control-label col-md-5 col-sm-3 col-xs-12" for="data_file">Data Anggaran & Realisasi</label>
 
                                 <div class="col-md-7">
-                                    <input type="file" id="data_file" name="file" class="form-control" required/>
+                                    <input type="file" id="data_file" name="file" class="form-control" required accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"/>
                                 </div>
                             </div>
                         </div>

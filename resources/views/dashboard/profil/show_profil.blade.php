@@ -406,8 +406,6 @@
                             <div class="box-body no-padding">
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12">
-                                        <button id="btn_peta" class="btn btn-sm btn-primary pull-right"><i class="fa fa-download"></i> Simpan Peta</button>
-                                      <br>
                                         <div  id="canvas_peta">
                                         <iframe src="{!! $profil->dataumum->embed_peta !!}" frameborder="0" style="border:0; width:100%; height:600px; margin: 0px!;" allowfullscreen></iframe>
                                         </div>

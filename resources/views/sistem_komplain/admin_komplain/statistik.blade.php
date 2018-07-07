@@ -97,7 +97,13 @@
                 "baseValue" : 0,
                 "minimum": 0
             }],
-            "allLabels": [],
+            "allLabels": [{
+                "text": "Statistik Komplain Berdasarkan Kategori",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": 10
+            }],
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
                 "fillAlphas": 1,
@@ -118,9 +124,12 @@
                 "labelRotation": 60
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false,
+                "fileName":"Statistik Komplain Berdasarkan Kategori",
             },
-            "hideCredits": true
+            "hideCredits": true,
+            "marginTop" : 50
         });
     }
 
@@ -138,14 +147,24 @@
                 "fixedPosition":true
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false,
+                "fileName":"Statistik Komplain Berdasarkan Status",
             },
             "hideCredits": true,
             "legend":{
-                "position":"right",
+                "position":"bottom",
                 "marginRight":100,
                 "autoMargins":false
             },
+            "allLabels": [{
+                "text": "Statistik Komplain Berdasarkan Status",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": 10
+            }],
+            "marginTop" : 50
         } );
     }
 
@@ -176,7 +195,13 @@
                 "baseValue" : 0,
                 "minimum": 0
             }],
-            "allLabels": [],
+            "allLabels": [{
+                "text": "Statistik Komplain Berdasarkan Desa",
+                "align": "center",
+                "bold": true,
+                "size": 20,
+                "y": 10
+            }],
             "graphs": [{
                 "balloonText": "[[category]]: <b>[[value]]</b>",
                 "fillAlphas": 1,
@@ -197,9 +222,12 @@
                 "labelRotation": 60
             },
             "export": {
-                "enabled": true
+                "enabled": true,
+                "pageOrigin": false,
+                "fileName": "Statistik Komplain Berdasarkan Desa",
             },
-            "hideCredits": true
+            "hideCredits": true,
+            "marginTop" : 50
         });
 
     }
