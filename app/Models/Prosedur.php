@@ -17,7 +17,8 @@ class Prosedur extends Model
 
     protected $fillable = [
 
-        'judul_prosedur'
-
+        'judul_prosedur',
+        'file_prosedur',
+        'mime_type'
     ];
 }

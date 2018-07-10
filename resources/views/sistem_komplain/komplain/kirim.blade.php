@@ -98,7 +98,7 @@
                                 <div class="col-md-8 col-sm-8 col-xs-12">
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
-                                            <input type='file' id="lampiran1" name="lampiran1" accept=".png, .jpg, .jpeg" />
+                                            <input type='file' id="lampiran1" name="lampiran1" accept="image/*" />
                                             <label for="lampiran1"></label>
                                         </div>
                                         <div class="avatar-preview">
@@ -109,7 +109,7 @@
 
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
-                                            <input type='file' id="lampiran2" name="lampiran2" accept=".png, .jpg, .jpeg" />
+                                            <input type='file' id="lampiran2" name="lampiran2" accept="image/*" />
                                             <label for="lampiran2"></label>
                                         </div>
                                         <div class="avatar-preview">
@@ -120,7 +120,7 @@
 
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
-                                            <input type='file' id="lampiran3" name="lampiran3" accept=".png, .jpg, .jpeg" />
+                                            <input type='file' id="lampiran3" name="lampiran3" accept="image/*" />
                                             <label for="lampiran3"></label>
                                         </div>
                                         <div class="avatar-preview">
@@ -131,7 +131,7 @@
 
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
-                                            <input type='file' id="lampiran4" name="lampiran3" accept=".png, .jpg, .jpeg" />
+                                            <input type='file' id="lampiran4" name="lampiran3" accept="image/*" />
                                             <label for="lampiran4"></label>
                                         </div>
                                         <div class="avatar-preview">

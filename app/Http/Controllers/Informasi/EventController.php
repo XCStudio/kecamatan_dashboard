@@ -102,7 +102,8 @@ class EventController extends Controller
                 'event_name' => 'required',
                 'start' => 'required',
                 'end' => 'required',
-                'attendants' => 'required'
+                'attendants' => 'required',
+                'attachment' => 'file|mimes:jpeg,png,jpg,gif,svg,xlsx,xls,doc,docx,pdf,ppt,pptx|max:2048',
             ]);
 
             $event = Event::findOrFail($id);

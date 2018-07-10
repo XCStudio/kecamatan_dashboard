@@ -178,6 +178,7 @@ class PendudukController extends Controller
                 'pekerjaan_id' => 'required',
                 'status_kawin' => 'required',
                 'warga_negara_id' => 'required',
+                'foto'=>'image|mimes:png,bmp,gif,jpg,jpeg|max:1024'
             ]);
 
             if ($request->file('foto') == "") {
@@ -240,6 +241,10 @@ class PendudukController extends Controller
         ini_set('max_execution_time', 0);
         $tahun = $request->input('tahun');
         $desa_id = $request->input('desa_id');
+
+        request()->validate([
+            'file' => 'file|mimes:xls,xlsx,csv|max:5120',
+        ]);
 
         if ($request->hasFile('file')) {
 

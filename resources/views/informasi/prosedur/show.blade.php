@@ -50,7 +50,14 @@
                     <!-- form start -->
                     <div class="row overflow-x">
                         <div class="col-md-12">
-                            <img src="{{ asset($prosedur->file_prosedur) }}" width="100%">
+                            @if(isset($prosedur->file_prosedur) && $prosedur->mime_type != 'pdf')
+
+                                <img src="{{ asset($prosedur->file_prosedur) }}" width="100%">
+                            @endif
+
+                            @if(isset($prosedur->file_prosedur) && $prosedur->mime_type == 'pdf')
+                                <object data="@if(isset($prosedur->file_prosedur)) {{ asset($prosedur->file_prosedur) }} @endif" type="application/pdf" width="100%" height="500" class="" id="showpdf"> </object>
+                            @endif
                         </div>
                     </div>
                 </div>

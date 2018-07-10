@@ -70,15 +70,36 @@
 <script>
     $(function () {
 
+        var fileTypes = ['jpg', 'jpeg', 'png', 'jpg', 'bmp', 'pdf'];  //acceptable file types
+
         function readURL(input) {
             if (input.files && input.files[0]) {
-                var reader = new FileReader();
+                var extension = input.files[0].name.split('.').pop().toLowerCase(),  //file extension from input file
+                        isSuccess = fileTypes.indexOf(extension) > -1;  //is extension in acceptable types
 
-                reader.onload = function (e) {
-                    $('#showgambar').attr('src', e.target.result);
+                if (isSuccess) { //yes
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+
+                        if(extension != 'pdf'){
+                            $('#showgambar').attr('src', e.target.result);
+                            $('#showgambar').removeClass('hide');
+                            $('#showpdf').addClass('hide');
+                        }else{
+                            $('#showpdf').attr('data', e.target.result);
+                            $('#showpdf').removeClass('hide');
+                            $('#showgambar').addClass('hide');
+                        }
+
+                    }
+
+                    reader.readAsDataURL(input.files[0]);
                 }
-
-                reader.readAsDataURL(input.files[0]);
+                else { //no
+                    //warning
+                    $("#file_prosedur").val('');
+                    alert('File tersebut tidak diperbolehkan.');
+                }
             }
         }
 

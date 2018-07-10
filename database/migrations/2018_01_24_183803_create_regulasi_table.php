@@ -20,6 +20,7 @@ class CreateRegulasiTable extends Migration
             $table->string('judul', 200);
             $table->text('deskripsi');
             $table->string('file_regulasi', 255);
+            $table->string('mime_type', 20);
             $table->timestamps();
         });
     }

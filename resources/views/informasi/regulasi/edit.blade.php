@@ -44,7 +44,7 @@
 
 
                         @include( 'flash::message' )
-                        @include('informasi.regulasi.form')
+                        @include('informasi.regulasi.form_update')
 
                     </div>
                     <!-- /.box-body -->

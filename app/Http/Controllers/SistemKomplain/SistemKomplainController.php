@@ -85,7 +85,11 @@ class SistemKomplainController extends Controller
                 'kategori' => 'required',
                 'laporan' => 'required',
                 'captcha' => 'required|captcha',
-                'tanggal_lahir' => 'password_exists:'.$request->input('nik')
+                'tanggal_lahir' => 'password_exists:'.$request->input('nik'),
+                'lampiran1' => 'file|mimes:jpeg,png,jpg,gif,svg|max:1024',
+                'lampiran2' => 'file|mimes:jpeg,png,jpg,gif,svg|max:1024',
+                'lampiran3' => 'file|mimes:jpeg,png,jpg,gif,svg|max:1024',
+                'lampiran4' => 'file|mimes:jpeg,png,jpg,gif,svg|max:1024',
             ],[
                 'captcha.captcha'=>'Invalid captcha code.',
                 'nik_exists' => 'NIK tidak ditemukan atau NIK dan Tanggal Lahir tidak sesuai.',

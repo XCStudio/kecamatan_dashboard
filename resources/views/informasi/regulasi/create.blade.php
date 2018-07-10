@@ -41,7 +41,7 @@
                     @endif
 
                     @include( 'flash::message' )
-                    @include('informasi.regulasi.form')
+                    @include('informasi.regulasi.form_create')
 
                 </div>
                 <!-- /.box-body -->

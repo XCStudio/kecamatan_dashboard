@@ -88,6 +88,7 @@ class FormDokumenController extends Controller
 
             request()->validate([
                 'nama_dokumen' => 'required',
+                'file_dokumen' => 'required|mimes:jpeg,png,jpg,gif,svg,xlsx,xls,doc,docx,pdf,ppt,pptx|max:2048',
             ]);
 
 

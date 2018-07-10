@@ -54,7 +54,14 @@
                             <label>Deskripsi : </label>
 
                             <p>{{ $regulasi->deskripsi }}</p>
-                            <img src="{{ asset($regulasi->file_regulasi) }}" width="100%">
+                            @if(isset($regulasi->file_regulasi) && $regulasi->mime_type != 'pdf')
+
+                                <img src="{{ asset($regulasi->file_regulasi) }}" width="100%">
+                            @endif
+
+                            @if(isset($regulasi->file_regulasi) && $regulasi->mime_type == 'pdf')
+                                <object data="@if(isset($regulasi->file_regulasi)) {{ asset($regulasi->file_regulasi) }} @endif" type="application/pdf" width="100%" height="500" class="" id="showpdf"> </object>
+                            @endif
                         </div>
                     </div>
                 </div>

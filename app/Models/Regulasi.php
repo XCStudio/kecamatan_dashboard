@@ -14,7 +14,8 @@ class Regulasi extends Model
             'tipe_regulasi',
             'judul',
             'deskripsi',
-            'file_regulasi'
+            'file_regulasi',
+            'mime_type'
         ];
 
     public function tipe()

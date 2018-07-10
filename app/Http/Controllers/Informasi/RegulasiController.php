@@ -58,7 +58,7 @@ class RegulasiController extends Controller
                  'tipe_regulasi' => 'required',
                  'judul' => 'required',
                  'deskripsi' => 'required',
-                 'file_regulasi' => 'required'
+                 'file_regulasi' => 'required|file|mimes:jpg,jpeg,png,gif,pdf|max:2048'
              ]);
 
              $regulasi = new Regulasi($request->all());
@@ -71,6 +71,7 @@ class RegulasiController extends Controller
                  $path = "storage/regulasi/";
                  $request->file('file_regulasi')->move($path, $fileName1);
                  $regulasi->file_regulasi = $path . $fileName1;
+                 $regulasi->mime_type = $lampiran1->getClientOriginalExtension();
              }
 
 
@@ -129,20 +130,23 @@ class RegulasiController extends Controller
             $regulasi->fill($request->all());
 
 
+            request()->validate([
+                //'kecamatan_id' => 'required|integer',
+                'tipe_regulasi' => 'required',
+                'judul' => 'required',
+                'deskripsi' => 'required',
+                'file_regulasi' => 'required|file|mimes:jpg,jpeg,png,gif,pdf|max:2048'
+            ]);
+
             if ($request->hasFile('file_regulasi')) {
                 $lampiran1 = $request->file('file_regulasi');
                 $fileName1 = $lampiran1->getClientOriginalName();
                 $path = "storage/regulasi/";
                 $request->file('file_regulasi')->move($path, $fileName1);
                 $regulasi->file_regulasi = $path . $fileName1;
+                $regulasi->mime_type = $lampiran1->getClientOriginalExtension();
             }
 
-            request()->validate([
-                //'kecamatan_id' => 'required|integer',
-                'tipe_regulasi' => 'required',
-                'judul' => 'required',
-                'deskripsi' => 'required',
-            ]);
 
             $regulasi->save();
 

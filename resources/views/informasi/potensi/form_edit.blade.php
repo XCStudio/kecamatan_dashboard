@@ -26,7 +26,7 @@
 <div class="form-group">
     <label class="control-label col-md-4 col-sm-3 col-xs-12">Gambar</label>
     <div class="col-md-5 col-sm-6 col-xs-12">
-        <input type="file" name="file_gambar" id="file_gambar" class="form-control" >
+        <input type="file" name="file_gambar" id="file_gambar" class="form-control" accept="image/*">
         <br>
         <img src="@if(! $potensi->file_gambar == '') {{ asset($potensi->file_gambar) }} @else {{ "http://placehold.it/1000x600" }} @endif" id="showgambar"
              style="max-width:400px;max-height:250px;float:left;"/>

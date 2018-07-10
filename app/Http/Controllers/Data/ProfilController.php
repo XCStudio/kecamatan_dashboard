@@ -188,8 +188,10 @@ class ProfilController extends Controller
           'kode_pos' => 'required',
           'email' => 'email',
           'nama_camat' => 'required',
-          'file_logo' => 'image|max:1024',
-          'file_struktur_organisasi' => 'image|max:1024',
+          'file_logo' => 'image|mimes:jpg,jpeg,bmp,png,gif|max:1024',
+          'file_struktur_organisasi' => 'image|mimes:jpg,jpeg,png,bmp,gif|max:1024',
+      ],[
+
       ]);
 
         try {

@@ -14,7 +14,7 @@
             <label class="control-label col-md-4 col-sm-3 col-xs-12">Ganti Foto</label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <input type="file" id="foto" name="foto" class="validate form-control"/>
+                <input type="file" id="foto" name="foto" class="validate form-control" accept="image/*" />
             </div>
         </div>
 

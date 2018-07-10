@@ -91,6 +91,10 @@ class EpidemiPenyakitController extends Controller
         $tahun = $request->input('tahun');
         $penyakit_id = $request->input('penyakit_id');
 
+        request()->validate([
+            'file' => 'file|mimes:xls,xlsx,csv|max:5120',
+        ]);
+
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun, $penyakit_id)) {
 
             try{

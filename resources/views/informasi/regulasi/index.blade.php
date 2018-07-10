@@ -32,6 +32,7 @@
                 <!-- /.box-header -->
                 @if(isset($regulasi))
                     <div class="box-body no-padding">
+
                         <table class="table table-striped">
                             <tr>
                                 <th>Judul Regulasi</th>

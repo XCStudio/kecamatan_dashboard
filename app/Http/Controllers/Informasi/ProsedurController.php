@@ -52,7 +52,7 @@ class ProsedurController extends Controller
         request()->validate([
             'judul_prosedur' => 'required',
 
-            'file_prosedur' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'file_prosedur' => 'required|file|mimes:jpg,jpeg,png,gif,pdf|max:2048'
 
         ]);
         $prosedur = new Prosedur($request->input());
@@ -63,6 +63,7 @@ class ProsedurController extends Controller
             $path = "storage/regulasi/";
             $request->file('file_prosedur')->move($path, $fileName);
             $prosedur->file_prosedur = $path . $fileName;
+            $prosedur->mime_type = $file->getClientOriginalExtension();
         }
 
         $prosedur->save();
@@ -128,6 +129,8 @@ class ProsedurController extends Controller
             request()->validate([
                 'judul_prosedur' => 'required',
 
+                'file_prosedur' => 'required|file|mimes:jpg,jpeg,png,gif,pdf|max:2048'
+
             ]);
 
 
@@ -137,6 +140,7 @@ class ProsedurController extends Controller
                 $path = "storage/regulasi/";
                 $request->file('file_prosedur')->move($path, $fileName);
                 $prosedur->file_prosedur = $path . $fileName;
+                $prosedur->mime_type = $file->getClientOriginalExtension();
             }
 
             $prosedur->save();

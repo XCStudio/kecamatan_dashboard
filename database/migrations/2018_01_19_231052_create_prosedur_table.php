@@ -17,6 +17,7 @@ class CreateProsedurTable extends Migration
             $table->increments('id');
             $table->string('judul_prosedur', 150);
             $table->string('file_prosedur', 255);
+            $table->string('mime_type',20);
             $table->timestamps();
         });
     }

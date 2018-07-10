@@ -79,6 +79,10 @@ class FasilitasPaudController extends Controller
         $bulan = $request->input('bulan');
         $tahun = $request->input('tahun');
 
+        request()->validate([
+            'file' => 'file|mimes:xls,xlsx,csv|max:5120',
+        ]);
+
         if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
             try{
                 $path = Input::file('file')->getRealPath();
