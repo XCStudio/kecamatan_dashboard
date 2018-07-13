@@ -21,7 +21,7 @@ class DataUmumController extends Controller
        /* $page_title = 'Data Umum';
         $page_description = 'Data Umum Kecamatan';
         return view('data.data_umum.index', compact('page_title', 'page_description'));*/
-        $data_umum = DataUmum::where('kecamatan_id', env('KD_DEFAULT_PROFIL', null))->first();
+        $data_umum = DataUmum::where('kecamatan_id', '5203090')->first();
         $page_title = 'Ubah Data Umum';
         $page_description = 'Kecamatan '. ucwords(strtolower($data_umum->kecamatan->nama));
 

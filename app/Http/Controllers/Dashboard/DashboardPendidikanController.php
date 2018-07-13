@@ -21,7 +21,7 @@ class DashboardPendidikanController extends Controller
 
         $data['page_title'] = 'Pendidikan';
         $data['page_description'] = 'Data Pendidikan Kecamatan';
-        $defaultProfil = env('KD_DEFAULT_PROFIL', '1');
+        $defaultProfil = '5203090';
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();

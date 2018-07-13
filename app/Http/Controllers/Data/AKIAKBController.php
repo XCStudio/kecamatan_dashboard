@@ -19,7 +19,7 @@ class AKIAKBController extends Controller
 
     public function __construct()
     {
-        $this->nama_kecamatan = Profil::where('kecamatan_id', env('KD_DEFAULT_PROFIL', null))->first()->kecamatan->nama;
+        $this->nama_kecamatan = Profil::where('kecamatan_id', '5203090')->first()->kecamatan->nama;
     }
 
     /**
@@ -108,7 +108,7 @@ class AKIAKBController extends Controller
                         if (!empty($value)) {
                             foreach ($value as $v) {
                                 $insert[] = [
-                                    'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                    'kecamatan_id' => '5203090',
                                     'desa_id' => $v['desa_id'],
                                     'bulan' => $bulan,
                                     'tahun' => $tahun,

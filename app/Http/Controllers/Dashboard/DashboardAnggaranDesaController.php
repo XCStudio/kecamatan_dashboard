@@ -20,7 +20,7 @@ class DashboardAnggaranDesaController extends Controller
 
         $data['page_title'] = 'Anggaran Desa (APBDes)';
         $data['page_description'] = 'Data Anggaran Desa (APBDes)';
-        $defaultProfil = env('KD_DEFAULT_PROFIL', '1');
+        $defaultProfil = '5203090';
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
