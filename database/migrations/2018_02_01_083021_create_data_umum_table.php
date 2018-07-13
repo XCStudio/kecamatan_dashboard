@@ -36,6 +36,7 @@ class CreateDataUmumTable extends Migration
             $table->integer('jml_smp')->nullable(true);
             $table->integer('jml_sma')->nullable(true);
             $table->integer('jml_masjid_besar')->nullable(true);
+            $table->integer('jml_mushola')->nullable(true);
             $table->integer('jml_gereja')->nullable(true);
             $table->integer('jml_pasar')->nullable(true);
             $table->integer('jml_balai_pertemuan')->nullable(true);

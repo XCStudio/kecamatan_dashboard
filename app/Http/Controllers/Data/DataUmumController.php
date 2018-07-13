@@ -162,6 +162,7 @@ class DataUmumController extends Controller
                 'jml_smp'=> 'required',
                 'jml_sma'=> 'required',
                 'jml_masjid_besar'=> 'required',
+                'jml_mushola'=> 'required',
                 'jml_gereja'=> 'required',
                 'jml_pasar'=> 'required',
                 'jml_balai_pertemuan'=> 'required',

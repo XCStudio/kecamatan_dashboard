@@ -17,13 +17,14 @@ class CreateTingkatPendidikanTable extends Migration
             $table->increments('id');
             $table->char('kecamatan_id', 7);
             $table->char('desa_id', 10);
-            $table->integer('bulan');
+            $table->integer('semester');
             $table->integer('tahun');
-            $table->integer('tidak_tamat_sekolah');
-            $table->integer('tamat_sd');
-            $table->integer('tamat_smp');
-            $table->integer('tamat_sma');
-            $table->integer('tamat_diploma_sederajat');
+            $table->integer('tidak_tamat_sekolah')->default(0);
+            $table->integer('tamat_sd')->default(0);
+            $table->integer('tamat_smp')->default(0);
+            $table->integer('tamat_sma')->default(0);
+            $table->integer('tamat_diploma_sederajat')->default(0);
+            $table->integer('import_id');
             $table->timestamps();
         });
     }

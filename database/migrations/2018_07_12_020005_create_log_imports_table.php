@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFailitasPaudTable extends Migration
+class CreateLogImportsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,12 @@ class CreateFailitasPaudTable extends Migration
      */
     public function up()
     {
-        Schema::create('das_fasilitas_paud', function (Blueprint $table) {
+        Schema::create('log_imports', function (Blueprint $table) {
             $table->increments('id');
-            $table->char('kecamatan_id', 7);
-            $table->char('desa_id', 10);
-            $table->integer('semester');
+            $table->string('nama_tabel',100);
+            $table->char('desa_id',10)->nullable();
+            $table->integer('bulan');
             $table->integer('tahun');
-            $table->integer('jumlah_paud');
-            $table->integer('jumlah_guru_paud');
-            $table->integer('jumlah_siswa_paud');
             $table->timestamps();
         });
     }
@@ -33,6 +30,6 @@ class CreateFailitasPaudTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('das_fasilitas_paud');
+        Schema::dropIfExists('log_imports');
     }
 }

@@ -84,7 +84,7 @@
                     </div>
                     <div class="tab-pane" id="jumlah_fasilitas">
                         <div id="chart_fasilitas"
-                             style="width:100%; height:300px; overflow: visible; text-align: left; padding: 10px;;">
+                             style="width:100%;  overflow: visible; text-align: left; padding: 10px;;">
                         </div>
                     </div>
                 </div>
@@ -611,7 +611,39 @@
     }
 
     //Create Chart Jumlah Anak TIdak Sekolah
+
     function create_chart_fasilitas_sekolah(data) {
+        AmCharts.addInitHandler( function ( chart_fasilitas ) {
+            // set base values
+            var categoryWidth = 50;
+
+            var did = $('#list_desa').find(":selected").val();
+            var year = $('#list_year').find(":selected").val();
+            if(did == "ALL" && year == "ALL"){
+                chart_fasilitas.categoryAxis.title = "Tahun";
+                categoryWidth = 150;
+            }
+            if(did == "ALL" && year != "ALL"){
+                chart_fasilitas.categoryAxis.title = "Desa";
+                categoryWidth = 230;
+            }
+            if(did != "ALL" && year == "ALL"){
+                chart_fasilitas.categoryAxis.title = "Desa";
+                categoryWidth = 150;
+            }
+            if(did != "ALL" && year != "ALL"){
+                chart_fasilitas.categoryAxis.title = "Semester";
+                categoryWidth = 230;
+            }
+            // calculate bottom margi95based on number of data points
+            var chartHeight = categoryWidth * chart_fasilitas.dataProvider.length;
+
+            // set the value
+            chart_fasilitas.div.style.height = chartHeight + 'px';
+
+
+        }, ['serial'] );
+
         // Chart Perbandingan Jumlah Anak Tidak Sekolah
         var chart_fasilitas = AmCharts.makeChart("chart_fasilitas", {
             "type": "serial",

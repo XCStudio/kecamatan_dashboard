@@ -45,9 +45,6 @@ class PutusSekolahController extends Controller
             ->editColumn('desa_id', function($row){
                 return $row->desa->nama;
             })
-            ->editColumn('bulan', function($row){
-                return months_list()[$row->bulan];
-            })
             ->rawColumns(['actions'])->make();
     }
 
@@ -76,14 +73,15 @@ class PutusSekolahController extends Controller
     {
         //
         ini_set('max_execution_time', 300);
-        $bulan = $request->input('bulan');
+        $semester = $request->input('semester');
         $tahun = $request->input('tahun');
+        $desa_id = $request->input('desa_id');
 
         request()->validate([
             'file' => 'file|mimes:xls,xlsx,csv|max:5120',
         ]);
 
-        if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
+        if ($request->hasFile('file') && $this->uploadValidation($desa_id, $semester, $tahun)) {
 
             try{
                 $path = Input::file('file')->getRealPath();
@@ -99,16 +97,16 @@ class PutusSekolahController extends Controller
                         if (!empty($v)) {
                                 $insert[] = [
                                     'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                    'desa_id' => $v['desa_id'],
-                                    'siswa_paud' => $v['siswa_paud'],
-                                    'anak_usia_paud' => $v['anak_usia_paud'],
-                                    'siswa_sd' => $v['siswa_sd'],
-                                    'anak_usia_sd' => $v['anak_usia_sd'],
-                                    'siswa_smp' => $v['siswa_smp'],
-                                    'anak_usia_smp' => $v['anak_usia_smp'],
-                                    'siswa_sma' => $v['siswa_sma'],
-                                    'anak_usia_sma' => $v['anak_usia_sma'],
-                                    'bulan' => $bulan,
+                                    'desa_id' => $desa_id,
+                                    'siswa_paud' => isset($v['siswa_paud_ra'])?$v['siswa_paud_ra']:0,
+                                    'anak_usia_paud' => isset($v['anak_usia_paud_ra'])?$v['anak_usia_paud_ra']:0,
+                                    'siswa_sd' => isset($v['siswa_sd_mi'])?$v['siswa_sd_mi']:0,
+                                    'anak_usia_sd' => isset($v['anak_usia_sd_mi'])?$v['anak_usia_sd_mi']:0,
+                                    'siswa_smp' => isset($v['siswa_smp_mts'])?$v['siswa_smp_mts']:0,
+                                    'anak_usia_smp' => isset($v['anak_usia_smp_mts'])?$v['anak_usia_smp_mts']:0,
+                                    'siswa_sma' => isset($v['siswa_sma_ma'])?$v['siswa_sma_ma']:0,
+                                    'anak_usia_sma' => isset($v['anak_usia_sma_ma'])?$v['anak_usia_sma_ma']:0,
+                                    'semester' => $semester,
                                     'tahun' => $tahun,
                                 ];
                         }
@@ -132,8 +130,8 @@ class PutusSekolahController extends Controller
         }
     }
 
-    protected function uploadValidation($bulan, $tahun){
-        return !PutusSekolah::where('bulan',$bulan)->where('tahun', $tahun)->exists();
+    protected function uploadValidation($desa_id,$semester, $tahun){
+        return !PutusSekolah::where('semester',$semester)->where('tahun', $tahun)->where('desa_id', $desa_id)->exists();
     }
 
     /**

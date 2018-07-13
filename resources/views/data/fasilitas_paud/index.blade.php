@@ -33,10 +33,10 @@
                 <tr>
                     <th style="max-width: 100px;">Aksi</th>
                     <th>Desa</th>
-                    <th>Jumlah PAUD</th>
-                    <th>Jumlah Guru PAUD</th>
-                    <th>Jumlah Siswa PAUD</th>
-                    <th>Bulan</th>
+                    <th>Jumlah PAUD/RA</th>
+                    <th>Jumlah Guru PAUD/RA</th>
+                    <th>Jumlah Siswa PAUD/RA</th>
+                    <th>Semester</th>
                     <th>Tahun</th>
                 </tr>
                 </thead>
@@ -63,7 +63,7 @@
                 {data: 'jumlah_paud', name: 'jumlah_paud'},
                 {data: 'jumlah_guru_paud', name: 'jumlah_guru_paud'},
                 {data: 'jumlah_siswa_paud', name: 'jumlah_siswa_paud'},
-                {data: 'bulan', name: 'bulan'},
+                {data: 'semester', name: 'semester'},
                 {data: 'tahun', name: 'tahun'},
             ],
             order: [[0, 'desc']]

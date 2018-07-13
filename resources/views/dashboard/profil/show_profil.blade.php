@@ -38,7 +38,7 @@
     <!-- /.row -->
     <div id="profil-kecamatan">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
               <!-- Widget: user widget style 1 -->
               <div class="box box-widget widget-user-2">
                 <!-- Add the bg color to the header using any of the bg-* classes -->
@@ -101,7 +101,7 @@
                 <!-- /.box -->
             </div>
             <!-- /.col -->
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div class="nav-tabs-custom">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#peta" data-toggle="tab">Peta</a></li>

@@ -33,15 +33,15 @@
                 <tr>
                     <th style="max-width: 100px;">Aksi</th>
                     <th>Desa</th>
-                    <th>Siswa PAUD</th>
-                    <th>Anak Usia PAUD</th>
-                    <th>Siswa SD</th>
-                    <th>Anak Usia SD</th>
-                    <th>Siswa SMP</th>
-                    <th>Anak Usia SMP</th>
-                    <th>Siswa SMA</th>
-                    <th>Anak Usia SMA</th>
-                    <th>Bulan</th>
+                    <th>Siswa PAUD/RA</th>
+                    <th>Anak Usia PAUD/RA</th>
+                    <th>Siswa SD/MI</th>
+                    <th>Anak Usia SD/MI</th>
+                    <th>Siswa SMP/MTS</th>
+                    <th>Anak Usia SMP/MTS</th>
+                    <th>Siswa SMA/MA</th>
+                    <th>Anak Usia SMA/MA</th>
+                    <th>Semester</th>
                     <th>Tahun</th>
                 </tr>
                 </thead>
@@ -73,7 +73,7 @@
                 {data: 'anak_usia_smp', name: 'anak_usia_smp'},
                 {data: 'siswa_sma', name: 'siswa_sma'},
                 {data: 'anak_usia_sma', name: 'anak_usia_sma'},
-                {data: 'bulan', name: 'bulan'},
+                {data: 'semester', name: 'semester'},
                 {data: 'tahun', name: 'tahun'},
             ],
             order: [[0, 'desc']]

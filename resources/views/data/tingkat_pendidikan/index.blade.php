@@ -34,11 +34,11 @@
                     <th style="max-width: 100px;">Aksi</th>
                     <th>Desa</th>
                     <th>Tidak Tamat Sekolah</th>
-                    <th>Tamat SD</th>
-                    <th>Tamat SMP</th>
-                    <th>Tamat SMA</th>
+                    <th>Tamat SD Sederajat</th>
+                    <th>Tamat SMP Sederajat</th>
+                    <th>Tamat SMA Sederajat</th>
                     <th>Tamat Diploma/Sederajat</th>
-                    <th>Bulan</th>
+                    <th>Semester</th>
                     <th>Tahun</th>
                 </tr>
                 </thead>
@@ -67,7 +67,7 @@
                 {data: 'tamat_smp', name: 'tamat_smp'},
                 {data: 'tamat_sma', name: 'tamat_sma'},
                 {data: 'tamat_diploma_sederajat', name: 'tamat_diploma_sederajat'},
-                {data: 'bulan', name: 'bulan'},
+                {data: 'semester', name: 'semester'},
                 {data: 'tahun', name: 'tahun'},
             ],
             order: [[0, 'desc']]

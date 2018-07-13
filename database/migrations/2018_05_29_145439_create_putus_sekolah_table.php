@@ -17,7 +17,7 @@ class CreatePutusSekolahTable extends Migration
             $table->increments('id');
             $table->char('kecamatan_id', 7);
             $table->char('desa_id', 10);
-            $table->integer('bulan');
+            $table->integer('semester');
             $table->integer('tahun');
             $table->integer('siswa_paud');
             $table->integer('anak_usia_paud');

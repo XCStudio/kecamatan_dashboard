@@ -30,6 +30,7 @@ class DataUmum extends Model
         'jml_smp',
         'jml_sma',
         'jml_masjid_besar',
+        'jml_mushola',
         'jml_gereja',
         'jml_pasar',
         'jml_balai_pertemuan',

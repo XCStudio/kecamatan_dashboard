@@ -45,9 +45,6 @@ class FasilitasPaudController extends Controller
             ->editColumn('desa_id', function($row){
                 return $row->desa->nama;
             })
-            ->editColumn('bulan', function($row){
-                return months_list()[$row->bulan];
-            })
             ->rawColumns(['actions'])->make();
     }
 
@@ -76,14 +73,15 @@ class FasilitasPaudController extends Controller
     {
         //
         ini_set('max_execution_time', 300);
-        $bulan = $request->input('bulan');
+        $semester = $request->input('semester');
         $tahun = $request->input('tahun');
+        $desa_id = $request->input('desa_id');
 
         request()->validate([
             'file' => 'file|mimes:xls,xlsx,csv|max:5120',
         ]);
 
-        if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
+        if ($request->hasFile('file') && $this->uploadValidation($desa_id, $semester, $tahun)) {
             try{
                 $path = Input::file('file')->getRealPath();
 
@@ -98,11 +96,11 @@ class FasilitasPaudController extends Controller
                             foreach ($value as $v) {
                                 $insert[] = [
                                     'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                    'desa_id' => $v['desa_id'],
-                                    'jumlah_paud' => $v['jumlah_paud'],
-                                    'jumlah_guru_paud' => $v['jumlah_guru_paud'],
-                                    'jumlah_siswa_paud' => $v['jumlah_siswa_paud'],
-                                    'bulan' => $bulan,
+                                    'desa_id' => $desa_id,
+                                    'jumlah_paud' => isset($v['jumlah_paud_ra'])?$v['jumlah_paud_ra']:0,
+                                    'jumlah_guru_paud' => isset($v['jumlah_guru_paud_ra'])?$v['jumlah_guru_paud_ra']:0,
+                                    'jumlah_siswa_paud' => isset($v['jumlah_siswa_paud_ra'])?$v['jumlah_siswa_paud_ra']:0,
+                                    'semester' => $semester,
                                     'tahun' => $tahun,
                                 ];
                             }
@@ -128,8 +126,8 @@ class FasilitasPaudController extends Controller
         }
     }
 
-    protected function uploadValidation($bulan, $tahun){
-        return !FasilitasPAUD::where('bulan',$bulan)->where('tahun', $tahun)->exists();
+    protected function uploadValidation($desa_id, $semester, $tahun){
+        return !FasilitasPAUD::where('semester',$semester)->where('tahun', $tahun)->where('desa_id', $desa_id)->exists();
     }
 
     /**

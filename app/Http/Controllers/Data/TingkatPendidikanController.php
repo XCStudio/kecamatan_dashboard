@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Data;
 
 use App\Models\Kecamatan;
+use App\Models\LogImport;
 use App\Models\TingkatPendidikan;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
@@ -10,6 +11,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 use Yajra\DataTables\DataTables;
 use Excel;
+use Validator;
 
 class TingkatPendidikanController extends Controller
 {
@@ -44,9 +46,6 @@ class TingkatPendidikanController extends Controller
             ->editColumn('desa_id', function($row){
                 return $row->desa->nama;
             })
-            ->editColumn('bulan', function($row){
-                return months_list()[$row->bulan];
-            })
             ->rawColumns(['actions'])->make();
     }
 
@@ -75,14 +74,20 @@ class TingkatPendidikanController extends Controller
     {
         //
         ini_set('max_execution_time', 300);
-        $bulan = $request->input('bulan');
+        $semester = $request->input('semester');
         $tahun = $request->input('tahun');
+        $desa_id = $request->input('desa_id');
 
-        request()->validate([
+        $tmp= $desa_id;
+
+        $validator = Validator::make($request->all(),[
+            'semester' =>'required',
+            'tahun' => 'required',
+            'desa_id' =>'required',
             'file' => 'file|mimes:xls,xlsx,csv|max:5120',
         ]);
 
-        if ($request->hasFile('file') && $this->uploadValidation($bulan, $tahun)) {
+        if ($validator->passes() && $this->uploadValidation($desa_id, $semester, $tahun)) {
 
             try{
                 $path = Input::file('file')->getRealPath();
@@ -91,6 +96,12 @@ class TingkatPendidikanController extends Controller
                 })->get();
 
                 if (!empty($data) && $data->count()) {
+                    $import = LogImport::create([
+                        'nama_tabel' => 'das_tingkat_pendidikan',
+                        'desa_id' => $desa_id,
+                        'bulan' => $semester,
+                        'tahun' => $tahun
+                    ]);
 
 
                     foreach ($data->toArray() as $key => $value) {
@@ -98,14 +109,15 @@ class TingkatPendidikanController extends Controller
                             foreach ($value as $v) {
                                 $insert[] = [
                                     'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
-                                    'desa_id' => $v['desa_id'],
-                                    'tidak_tamat_sekolah' => $v['tidak_tamat_sekolah'],
-                                    'tamat_sd' => $v['tamat_sd'],
-                                    'tamat_smp' => $v['tamat_smp'],
-                                    'tamat_sma' => $v['tamat_sma'],
-                                    'tamat_diploma_sederajat' => $v['tamat_diploma_sederajat'],
-                                    'bulan' => $bulan,
+                                    'desa_id' => $desa_id,
+                                    'tidak_tamat_sekolah' => isset($v['tidak_tamat_sekolah'])?$v['tidak_tamat_sekolah']:0,
+                                    'tamat_sd' => isset($v['tamat_sd_sederajat'])?$v['tamat_sd_sederajat']:0,
+                                    'tamat_smp' => isset($v['tamat_smp_sederajat'])?$v['tamat_smp_sederajat']:0,
+                                    'tamat_sma' => isset($v['tamat_sma_sederajat'])?$v['tamat_sma_sederajat']:0,
+                                    'tamat_diploma_sederajat' => isset($v['tamat_diploma_sederajat'])?$v['tamat_diploma_sederajat']:0,
+                                    'semester' => $semester,
                                     'tahun' => $tahun,
+                                    'import_id' =>$import->id,
                                 ];
                             }
                         }
@@ -116,13 +128,13 @@ class TingkatPendidikanController extends Controller
                             TingkatPendidikan::insert($insert);
                             return back()->with('success', 'Import data sukses.');
                         }catch (QueryException $ex){
-                            return back()->with('error', 'Import data gagal. '.$ex->getCode());
+                            return back()->with('error', 'Import data gagal. '.$ex->getMessage());
                         }
                     }
 
                 }
             }catch (\Exception $ex){
-                return back()->with('error', 'Import data gagal. '.$ex->getMessage());
+                return back()->with('error', 'Import data gagal. '.$ex->getMessage().$tmp);
             }
 
         }else{
@@ -130,8 +142,8 @@ class TingkatPendidikanController extends Controller
         }
     }
 
-    protected function uploadValidation($bulan, $tahun){
-        return !TingkatPendidikan::where('bulan',$bulan)->where('tahun', $tahun)->exists();
+    protected function uploadValidation($desa_id, $semester, $tahun){
+        return !TingkatPendidikan::where('semester',$semester)->where('tahun', $tahun)->where('desa_id', $desa_id)->exists();
     }
 
     /**

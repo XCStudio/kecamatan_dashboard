@@ -45,13 +45,25 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="bulan" class="control-label col-md-4 col-sm-3 col-xs-12">Bulan</label>
+                                <label for="list_desa" class="control-label col-md-4 col-sm-3 col-xs-12">Desa</label>
 
                                 <div class="col-md-8">
-                                    <select class="form-control" id="bulan" name="bulan">
-                                        @foreach($months_list as $key=> $month)
-                                            <option value="{{$key}}">{{$month}}</option>
+                                    <select class="form-control" id="list_desa" name="desa_id">
+                                        @foreach(\App\Models\DataDesa::all() as $desa)
+                                            <option value="{{$desa->desa_id}}">{{$desa->nama}}</option>
                                         @endforeach
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="bulan" class="control-label col-md-4 col-sm-3 col-xs-12">Semester</label>
+
+                                <div class="col-md-8">
+                                    <select class="form-control" id="bulan" name="semester">
+                                        <option value="1">Semester 1</option>
+                                        <option value="2">Semester 2</option>
+
                                     </select>
                                 </div>
                             </div>
