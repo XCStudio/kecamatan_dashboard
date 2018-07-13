@@ -19,7 +19,7 @@ class ImunisasiController extends Controller
 
     public function __construct()
     {
-        $this->nama_kecamatan = Profil::where('kecamatan_id', env('KD_DEFAULT_PROFIL', null))->first()->kecamatan->nama;
+        $this->nama_kecamatan = Profil::where('kecamatan_id', '5203090')->first()->kecamatan->nama;
     }
 
     /**
@@ -108,7 +108,7 @@ class ImunisasiController extends Controller
                     foreach ($data->toArray() as $key => $value) {
                         if (!empty($value)) {
                             $insert[] = [
-                                'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                'kecamatan_id' => '5203090',
                                 'desa_id' => $value['desa_id'],
                                 'cakupan_imunisasi' => $value['cakupan_imunisasi'],
                                 'bulan' => $bulan,

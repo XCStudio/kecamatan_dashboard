@@ -129,7 +129,7 @@
             },
             initSelection: function (element, callback) {
 
-                var id = '{{ env('KD_DEFAULT_PROFIL', null)}}';
+                var id = '{{ '5203090'}}'; // env()
                 //var id = $('#defaultProfil').val();
                 if (id !== "") {
                     $.ajax('{!! route('api.profil-byid') !!}', {

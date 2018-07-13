@@ -36,7 +36,7 @@ class DataDesaController extends Controller
         $page_title = 'Tambah';
         $page_description = 'Tambah Data Desa';
         $list_kecamatan = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
-        $defaultProfil = env('KD_DEFAULT_PROFIL','1');
+        $defaultProfil = '5203090';
         return view('data.data_desa.create', compact('page_title', 'page_description', 'list_kecamatan', 'defaultProfil'));
     }
 
@@ -53,7 +53,7 @@ class DataDesaController extends Controller
                       
             $desa = new DataDesa();
             $desa->fill($request->all());
-            $desa->kecamatan_id = env('KD_DEFAULT_PROFIL', NULL);
+            $desa->kecamatan_id = '5203090';
           
             request()->validate([
                 'desa_id' => 'required',
@@ -95,7 +95,7 @@ class DataDesaController extends Controller
         $page_title = 'Ubah';
         $page_description = 'Ubah Data Desa : '.$desa->nama;
         $list_kecamatan = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
-        $defaultProfil = env('KD_DEFAULT_PROFIL','1');
+        $defaultProfil = '5203090';
         return view('data.data_desa.edit', compact('page_title', 'page_description', 'desa', 'list_kecamatan', 'defaultProfil'));
     }
 
@@ -111,7 +111,7 @@ class DataDesaController extends Controller
         //
         $desa = DataDesa::findOrFail($id);
         $desa->fill($request->all());
-        $desa->kecamatan_id = env('KD_DEFAULT_PROFIL', NULL);
+        $desa->kecamatan_id = '5203090';
         try{           
           
             request()->validate([

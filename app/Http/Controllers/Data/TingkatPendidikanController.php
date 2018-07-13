@@ -19,7 +19,7 @@ class TingkatPendidikanController extends Controller
     public function index()
     {
         //
-        $kecamatan = Kecamatan::find(env('KD_DEFAULT_PROFIL', null));
+        $kecamatan = Kecamatan::find('5203090');
         $page_title = 'Tingkat Pendidikan';
         $page_description = 'Data Tingkat Pendidikan Kecamatan '.$kecamatan->nama_kecamatan;
         return view('data.tingkat_pendidikan.index', compact('page_title', 'page_description'));
@@ -108,7 +108,7 @@ class TingkatPendidikanController extends Controller
                         if (!empty($value)) {
                             foreach ($value as $v) {
                                 $insert[] = [
-                                    'kecamatan_id' => env('KD_DEFAULT_PROFIL', null),
+                                    'kecamatan_id' => '5203090',
                                     'desa_id' => $desa_id,
                                     'tidak_tamat_sekolah' => isset($v['tidak_tamat_sekolah'])?$v['tidak_tamat_sekolah']:0,
                                     'tamat_sd' => isset($v['tamat_sd_sederajat'])?$v['tamat_sd_sederajat']:0,

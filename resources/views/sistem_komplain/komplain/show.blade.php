@@ -44,7 +44,7 @@
                                     <div class="col-md-12">
                                         <h5 class="bg-primary" style="padding: 2px;">LAPORAN:</h5>
 
-                                        <p>Yth: Camat {{ \App\Models\Kecamatan::find(env('KD_DEFAULT_PROFIL'))->nama }}</p>
+                                        <p>Yth: Camat {{ \App\Models\Kecamatan::find('5203090') }}</p> <!-- env() -->
                                         <br>
                                         <p>
                                             {!! $komplain->laporan !!}
