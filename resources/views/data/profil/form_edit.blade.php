@@ -1,18 +1,12 @@
 <div class="row">
     <div class="col-md-6">
         <div class="form-group">
-            <label class="control-label col-md-4 col-sm-3 col-xs-12">Kecamatan <span class="required">*</span></label>
+            <label class="control-label col-md-4 col-sm-3 col-xs-12">Kecamatan <span
+                        class="required">*</span></label>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <select name="kecamatan_id" class="form-control" data-placeholder="Pilih Kecamatan" id="kecamatan_id">
-                    @foreach(\App\Models\Kecamatan::all() as $kecamatan)
-                        @if($kecamatan->id == $profil->kecamatan_id)
-                            <option value="{{ $kecamatan->id }}" selected="true">{{ $kecamatan->nama }}</option>
-                        @else
-                            <option value="{{ $kecamatan->id }}">{{ $kecamatan->nama }}</option>
-                        @endif
-                    @endforeach
-                </select>
+                {!! Form::text('nama_kecamatan', $profil->kecamatan->nama,['placeholder'=>'Nama Kecamatan', 'class'=>'form-control', 'readonly'=>true]) !!}
+                {!! Form::hidden('kecamatan_id', $profil->kecamatan_id,['placeholder'=>'Nama Kecamatan', 'class'=>'form-control', 'readonly'=>true]) !!}
             </div>
         </div>
         <div class="form-group">

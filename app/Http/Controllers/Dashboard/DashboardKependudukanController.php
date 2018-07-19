@@ -19,7 +19,7 @@ class DashboardKependudukanController extends Controller
 
         $data['page_title'] = 'Kependudukan';
         $data['page_description'] = 'Statistik Kependudukan';
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();

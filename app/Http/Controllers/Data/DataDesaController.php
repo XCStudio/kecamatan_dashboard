@@ -36,7 +36,7 @@ class DataDesaController extends Controller
         $page_title = 'Tambah';
         $page_description = 'Tambah Data Desa';
         $list_kecamatan = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
         return view('data.data_desa.create', compact('page_title', 'page_description', 'list_kecamatan', 'defaultProfil'));
     }
 
@@ -53,7 +53,7 @@ class DataDesaController extends Controller
                       
             $desa = new DataDesa();
             $desa->fill($request->all());
-            $desa->kecamatan_id = '5203090';
+            $desa->kecamatan_id = config('app.default_profile');
           
             request()->validate([
                 'desa_id' => 'required',
@@ -95,7 +95,7 @@ class DataDesaController extends Controller
         $page_title = 'Ubah';
         $page_description = 'Ubah Data Desa : '.$desa->nama;
         $list_kecamatan = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
         return view('data.data_desa.edit', compact('page_title', 'page_description', 'desa', 'list_kecamatan', 'defaultProfil'));
     }
 
@@ -111,7 +111,7 @@ class DataDesaController extends Controller
         //
         $desa = DataDesa::findOrFail($id);
         $desa->fill($request->all());
-        $desa->kecamatan_id = '5203090';
+        $desa->kecamatan_id = config('app.default_profile');
         try{           
           
             request()->validate([
@@ -151,7 +151,9 @@ class DataDesaController extends Controller
 
     public function getDataDesa()
     {
-        return DataTables::of(DataDesa::select(['id', 'desa_id', 'nama', 'website', 'luas_wilayah'])->get())
+        return DataTables::of(DataDesa::select(['id', 'desa_id', 'nama', 'website', 'luas_wilayah'])
+            ->where('kecamatan_id',config('app.default_profil'))
+            ->get())
             ->addColumn('action', function ($row) {
                 $edit_url = route('data.data-desa.edit', $row->id);
                 $delete_url = route('data.data-desa.destroy', $row->id);

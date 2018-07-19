@@ -96,7 +96,7 @@ class AnggaranRealisasiController extends Controller
                     foreach ($data->toArray() as $key => $value) {
                         if (!empty($value)) {
                             $insert[] = [
-                                'kecamatan_id' => '5203090',
+                                'kecamatan_id' => config('app.default_profile'),
                                 'total_anggaran'=> $value['total_anggaran'],
                                 'total_belanja'=> $value['total_belanja'],
                                 'belanja_pegawai'=> $value['belanja_pegawai'],

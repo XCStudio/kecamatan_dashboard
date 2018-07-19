@@ -109,7 +109,7 @@
             },
             initSelection: function (element, callback) {
 
-                var id = '{{ '5203090'}}';  // env()
+                var id = '{{ config('app.default_profile')}}';  // env()
                 //var id = $('#defaultProfil').val();
                 if (id !== "") {
                     $.ajax('{!! route('api.profil-byid') !!}', {

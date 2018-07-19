@@ -28,7 +28,7 @@ class ProfilController extends Controller
         /*$page_title = 'Profil';
         $page_description= 'Data Profil Kecamatan';
         return view('data.profil.index', compact('page_title', 'page_description'));*/
-        $profil = Profil::where('kecamatan_id', '5203090')->first();
+        $profil = Profil::where('kecamatan_id', config('app.default_profile'))->first();
         if($profil->file_struktur_organisasi == ''){
             $profil->file_struktur_organisasi = 'http://placehold.it/600x400';
         }
@@ -200,6 +200,9 @@ class ProfilController extends Controller
             $profil->kabupaten_id = Kecamatan::find($profil->kecamatan_id)->kabupaten_id;
             $profil->provinsi_id = Kabupaten::find($profil->kabupaten_id)->provinsi_id;
 
+            $dataumum = DataUmum::where('profil_id', $id)->first();
+            $dataumum->kecamatan_id = $profil->kecamatan_id;
+
             if($request->file('file_struktur_organisasi') == "")
             {
                 $profil->file_struktur_organisasi = $profil->file_struktur_organisasi;
@@ -227,6 +230,7 @@ class ProfilController extends Controller
 
 
             $profil->update();
+            $dataumum->update();
 
             return redirect()->route('data.profil.success', $profil->dataumum->id)->with('success', 'Update Profil sukses!');
         } catch (Exception $e) {

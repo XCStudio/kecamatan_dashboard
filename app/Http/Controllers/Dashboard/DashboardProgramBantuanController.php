@@ -18,7 +18,7 @@ class DashboardProgramBantuanController extends Controller
     {
         $page_title = 'Program Bantuan';
         $page_description = 'Data Program Bantuan';
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
         $year_list = years_list();
         $list_desa = DB::table('das_data_desa')->select('*')->where('kecamatan_id', '=', $defaultProfil)->get();
         return view('dashboard.program_bantuan.show_program_bantuan', compact('page_title', 'page_description', 'defaultProfil', 'year_list', 'list_desa'));
@@ -26,7 +26,7 @@ class DashboardProgramBantuanController extends Controller
 
     public function getChartBantuanPenduduk()
     {
-        $kid = '5203090';
+        $kid = config('app.default_profile');
         $did = request('did');
         $year = request('y');
 
@@ -58,7 +58,7 @@ class DashboardProgramBantuanController extends Controller
 
     public function getChartBantuanKeluarga()
     {
-        $kid = '5203090';
+        $kid = config('app.default_profile');
         $did = request('did');
         $year = request('y');
 

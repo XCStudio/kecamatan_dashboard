@@ -20,7 +20,7 @@ class DashboardKesehatanController extends Controller
     // Dashboiard Kesehatan AKI & AKB
     public function showKesehatan()
     {
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
         $page_title = 'Kesehatan';
         $page_description = 'Data Kesehatan Kecamatan ';
         $year_list = years_list();

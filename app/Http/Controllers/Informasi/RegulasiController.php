@@ -23,7 +23,7 @@ class RegulasiController extends Controller
         $page_description = 'Kumpulan regulasi Kecamatan';
         $regulasi = Regulasi::orderBy('id', 'asc')->paginate(10);
 
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
 
         $profil = Profil::where(['kecamatan_id'=>$defaultProfil])->first();
 
@@ -62,7 +62,7 @@ class RegulasiController extends Controller
              ]);
 
              $regulasi = new Regulasi($request->all());
-             $regulasi->kecamatan_id = '5203090';
+             $regulasi->kecamatan_id = config('app.default_profile');
 
 
              if ($request->hasFile('file_regulasi')) {

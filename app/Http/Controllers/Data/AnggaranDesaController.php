@@ -68,7 +68,7 @@ class AnggaranDesaController extends Controller
         $page_description = 'Import Data Anggaran Desa';
         $years_list = years_list();
         $months_list = months_list();
-        $list_desa = DataDesa::where('kecamatan_id', '5203090')->get();
+        $list_desa = DataDesa::where('kecamatan_id', config('app.default_profile'))->get();
         return view('data.anggaran_desa.import', compact('page_title', 'page_description', 'years_list', 'months_list', 'list_desa'));
     }
 

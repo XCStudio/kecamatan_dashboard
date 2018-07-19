@@ -18,7 +18,7 @@ class PutusSekolahController extends Controller
     public function index()
     {
         //
-        $kecamatan = Kecamatan::find('5203090');
+        $kecamatan = Kecamatan::find(config('app.default_profile'));
         $page_title = 'Anak Putus Sekolah';
         $page_description = 'Data Anak Putus Sekolah Kecamatan '.$kecamatan->nama_kecamatan;
         return view('data.putus_sekolah.index', compact('page_title', 'page_description'));
@@ -96,7 +96,7 @@ class PutusSekolahController extends Controller
                     foreach ($data as $key => $v) {
                         if (!empty($v)) {
                                 $insert[] = [
-                                    'kecamatan_id' => '5203090',
+                                    'kecamatan_id' => config('app.default_profile'),
                                     'desa_id' => $desa_id,
                                     'siswa_paud' => isset($v['siswa_paud_ra'])?$v['siswa_paud_ra']:0,
                                     'anak_usia_paud' => isset($v['anak_usia_paud_ra'])?$v['anak_usia_paud_ra']:0,

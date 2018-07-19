@@ -19,7 +19,7 @@ class DashboardAnggaranRealisasiController extends Controller
 
         $data['page_title'] = 'Anggaran & Realisasi';
         $data['page_description'] = 'Data Anggaran & Realisasi Kecamatan';
-        $defaultProfil = '5203090';
+        $defaultProfil = config('app.default_profile');
         $data['defaultProfil'] = $defaultProfil;
         $data['year_list'] = years_list();
         $data['list_kecamatan'] = Profil::with('kecamatan')->orderBy('kecamatan_id', 'desc')->get();
@@ -46,7 +46,7 @@ class DashboardAnggaranRealisasiController extends Controller
             foreach (array_sort(years_list()) as $yearls) {
                 $query_result = DB::table('das_anggaran_realisasi')
                     ->select('*')
-                    ->where('kecamatan_id', '=', '5203090');
+                    ->where('kecamatan_id', '=', config('app.default_profile'));
                 if($mid != 'ALL'){
                     $query_result->where('bulan', '=', $mid);
                 }
@@ -123,7 +123,7 @@ class DashboardAnggaranRealisasiController extends Controller
                 ->selectRaw('sum(total_anggaran) as total_anggaran, sum(total_belanja) as total_belanja,
                 sum(belanja_pegawai) as belanja_pegawai, sum(belanja_barang_jasa) as belanja_barang_jasa,
                 sum(belanja_modal) as belanja_modal, sum(belanja_tidak_langsung) as belanja_tidak_langsung')
-                ->where('kecamatan_id', '=', '5203090');
+                ->where('kecamatan_id', '=', config('app.default_profile'));
 
                if($mid != 'ALL'){
                    $query_result->where('bulan', '=', $mid);

@@ -18,7 +18,7 @@ class FasilitasPaudController extends Controller
     public function index()
     {
         //
-        $kecamatan = Kecamatan::find('5203090');
+        $kecamatan = Kecamatan::find(config('app.default_profile'));
         $page_title = 'Fasilitas PAUD';
         $page_description = 'Data Fasilitas PAUD Kecamatan '.$kecamatan->nama_kecamatan;
         return view('data.fasilitas_paud.index', compact('page_title', 'page_description'));
@@ -95,7 +95,7 @@ class FasilitasPaudController extends Controller
                         if (!empty($value)) {
                             foreach ($value as $v) {
                                 $insert[] = [
-                                    'kecamatan_id' => '5203090',
+                                    'kecamatan_id' => config('app.default_profile'),
                                     'desa_id' => $desa_id,
                                     'jumlah_paud' => isset($v['jumlah_paud_ra'])?$v['jumlah_paud_ra']:0,
                                     'jumlah_guru_paud' => isset($v['jumlah_guru_paud_ra'])?$v['jumlah_guru_paud_ra']:0,

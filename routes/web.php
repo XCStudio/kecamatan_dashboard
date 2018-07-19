@@ -104,6 +104,11 @@ Route::group(['middleware' => 'installed'], function () {
             // COA
             Route::group(['prefix' => 'coa'], function () {
                 Route::get('/', ['as' => 'setting.coa.index', 'uses' => 'Setting\COAController@index']);
+                Route::get('create', ['as' => 'setting.coa.create', 'uses' => 'Setting\COAController@create']);
+                Route::post('store', ['as' => 'setting.coa.store', 'uses' => 'Setting\COAController@store']);
+                Route::get('sub_coa/{type_id}', ['as' => 'setting.coa.sub_coa', 'uses' => 'Setting\COAController@get_sub_coa']);
+                Route::get('sub_sub_coa/{type_id}/{sub_id}', ['as' => 'setting.coa.sub_sub_coa', 'uses' => 'Setting\COAController@get_sub_sub_coa']);
+                Route::get('generate_id/{type_id}/{sub_id}/{sub_sub_id}', ['as' => 'setting.coa.generate_id', 'uses' => 'Setting\COAController@generate_id']);
             });
         });
 

@@ -226,7 +226,7 @@ class PendudukController extends Controller
         $page_title = 'Import';
         $page_description = 'Import Data Penduduk';
 
-        $list_desa = DB::table('das_data_desa')->select('*')->where('kecamatan_id', '=', '5203090')->get();
+        $list_desa = DB::table('das_data_desa')->select('*')->where('kecamatan_id', '=', config('app.default_profile'))->get();
         return view('data.penduduk.import', compact('page_title', 'page_description', 'list_desa'));
     }
 
@@ -298,7 +298,7 @@ class PendudukController extends Controller
                                 'rw' => $value['rw'],
                                 'rt' => $value['rt'],
 
-                                'kecamatan_id' => '5203090',
+                                'kecamatan_id' => config('app.default_profile'),
                                 'desa_id' => $desa_id,
                                 'tahun' => $tahun,
                                 'status_dasar' => 1,

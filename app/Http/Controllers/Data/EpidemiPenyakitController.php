@@ -18,7 +18,7 @@ class EpidemiPenyakitController extends Controller
 
     public function __construct()
     {
-        $this->nama_kecamatan = Profil::where('kecamatan_id', '5203090')->first()->kecamatan->nama;
+        $this->nama_kecamatan = Profil::where('kecamatan_id', config('app.default_profile'))->first()->kecamatan->nama;
     }
 
     /**
@@ -110,7 +110,7 @@ class EpidemiPenyakitController extends Controller
                         if (!empty($value)) {
                             foreach ($value as $v) {
                                 $insert[] = [
-                                    'kecamatan_id' => '5203090',
+                                    'kecamatan_id' => config('app.default_profile'),
                                     'desa_id' => $v['desa_id'],
                                     'jumlah_penderita' => $v['jumlah_penderita'],
                                     'bulan' => $bulan,

@@ -41,21 +41,20 @@ class DatabaseSeeder extends Seeder
         /*
          * Data Seeder Kecamatan Arongan Lambalek
          */
-        /*$this->call(DasProfilTableSeeder::class);
+        $this->call(DasProfilTableSeeder::class);
         $this->call(DasDataUmumTableSeeder::class);
-        $this->call(DasKeluargaTableSeeder::class);
-        $this->call(DasPendudukTableSeeder::class);*/
+        $this->call(DasDataDesaTableSeeder::class);
 
         /*
          * Data Seeder Kecamatan Aikmel
          */
+        /*
         $this->call(DasProfilAikmelTableSeeder::class);
         $this->call(DasDataUmumAikmelTableSeeder::class);
-        $this->call(DasDataDesaAikmelTableSeeder::class);
+        $this->call(DasDataDesaAikmelTableSeeder::class);*/
 
         //$this->call(DasPendudukAikmelTableSeeder::class);
         //$this->call(DasWilClusterdesaAikmelTableSeeder::class);
         //$this->call(DasKeluargaAikmelTableSeeder::class);
-
     }
 }
