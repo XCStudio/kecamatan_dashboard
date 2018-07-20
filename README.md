@@ -1,33 +1,19 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Source Code Kecamatan Dashboard
 
-### What is this repository for? ###
+### Require Software ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Composer
+* Apache 2
+* MySql 5.6
 
-### How do I get set up? ###
+### Installation ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-
-### Visitor Counter ###
-* https://github.com/Kryptonit3/Counter
-* https://github.com/weboAp/Visitor
+* clone this repository & cd to repository
+* composer install
+* copy .env.example .env
+* php artisan migrate
+* php artisan db:seed
+* php artisan serve
+* access at http://localhost:8000
